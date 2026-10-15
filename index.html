@@ -133,6 +133,9 @@ button{font:inherit;color:inherit}
 .timeline li:last-child::before{background:var(--signal);border-color:var(--signal)}
 .timeline .t{font-family:var(--mono);font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums;padding-top:2px}
 .timeline .e{min-width:0}
+.story{scroll-margin-top:120px}
+.close-story{appearance:none;justify-self:start;margin-top:18px;display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);background:var(--panel-2);color:var(--fg);font:500 13px var(--body);padding:8px 14px;border-radius:999px;cursor:pointer}
+.close-story:hover{border-color:color-mix(in srgb,var(--fg) 30%,var(--line))}
 .sources{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:13px}
 .sources a{color:var(--world);text-decoration:none;border-bottom:1px solid color-mix(in srgb,var(--world) 35%,transparent)}
 .sources a:hover{border-bottom-color:var(--world)}
@@ -354,6 +357,7 @@ button{font:inherit;color:inherit}
         ${s.why?`<div class="block"><h4>Why it matters</h4><p>${esc(s.why)}</p></div>`:""}
         ${s.impact?`<div class="block you"><h4>What it means for you</h4><p>${esc(s.impact)}</p></div>`:""}
         ${src?`<div class="block"><h4>Sources</h4><div class="sources">${src}</div></div>`:""}
+        <button class="close-story" data-close="${esc(key)}" data-sid="${sid}"><svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><path d="M2 8l4-4 4 4" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>Close story</button>
       </div>
     </article>`;
   }
@@ -463,6 +467,13 @@ button{font:inherit;color:inherit}
       if (inToday || !k || k === todayKey()){ open.add("today:"+id); go("today"); scrollToStory("today-"+id); }
       else if (k === yesterdayKey()){ open.add("y:"+id); go("yesterday"); scrollToStory("y-"+id); }
       else { open.add("d"+k+":"+id); go(view, k); scrollToStory("d"+k+"-"+id); }
+      return;
+    }
+    const cl = e.target.closest("[data-close]");
+    if (cl){
+      open.delete(cl.dataset.close); const sid = cl.dataset.sid; render();
+      const head = document.getElementById("h-" + sid);
+      if (head){ if (head.getBoundingClientRect().top < 110) document.getElementById("s-" + sid).scrollIntoView({block:"start"}); head.focus({preventScroll:true}); }
       return;
     }
     const h = e.target.closest(".story-head");
