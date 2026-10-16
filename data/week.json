@@ -1,31 +1,31 @@
 {
- "updatedAt": "2026-10-15T05:58:00-04:00",
- "rangeStart": "2026-10-09",
- "rangeEnd": "2026-10-15",
- "headline": "War at sea keeps oil above $100 as Canada's job market slips",
- "summary": "Iran's escalating attacks in the Strait of Hormuz were the week's defining story, sinking two ships and keeping fuel prices high around the world. In Canada, a second straight month of job losses and a trade war with no thaw set the tone, while Alberta heads into Monday's referendum and Ontario cities into their October 26 elections.",
+ "updatedAt": "2026-10-16T11:57:00-04:00",
+ "rangeStart": "2026-10-10",
+ "rangeEnd": "2026-10-16",
+ "headline": "War at sea keeps oil above $100 while Canada looks to Alberta and Toronto votes",
+ "summary": "Iran's attacks near the Strait of Hormuz kept oil near $105 all week. In Canada, a second straight month of job losses and the trade fight set the tone, with Alberta voting on Monday and Ontario cities on October 26. In the U.S., inflation and midterm politics dominated.",
  "top": [
   {
    "rank": 1,
    "id": "iran-hormuz",
    "region": "world",
-   "when": "Oct 12–15",
+   "when": "All week",
    "impactLevel": "high",
-   "latestDate": "2026-10-15",
+   "latestDate": "2026-10-16",
    "headline": "Iran escalates in the Strait of Hormuz",
-   "what": "About 20 ships have been attacked near the strait since October 1, two sank on October 14, and an Iranian commander now claims the strait is closed. Brent crude spent the week between about $104 and $107 a barrel.",
-   "why": "It is the biggest single driver of fuel and shipping prices this year, including at Ontario gas pumps."
+   "what": "Ship attacks near the strait continued, two vessels sank on October 14, and the U.S. and Iran now dispute whether it is open. Brent crude stayed between about $104 and $107 a barrel.",
+   "why": "It is the biggest driver of fuel and shipping prices this year, including at Ontario pumps."
   },
   {
    "rank": 2,
-   "id": "jobs-september",
-   "region": "canada",
-   "when": "Oct 9",
+   "id": "us-inflation-september",
+   "region": "us",
+   "when": "Oct 14",
    "impactLevel": "high",
-   "latestDate": "2026-10-15",
-   "headline": "Canada lost 68,000 jobs in September",
-   "what": "A second straight monthly drop pushed unemployment to 6.5%. Ontario's rate is 7.0% and youth unemployment is 13%.",
-   "why": "It raises the odds of a Bank of Canada rate cut on October 28."
+   "latestDate": "2026-10-16",
+   "headline": "U.S. inflation jumps to 3.7%",
+   "what": "September U.S. consumer prices rose faster as gas hit records, and traders now see a real chance the Fed raises rates on October 28.",
+   "why": "Higher U.S. rates and prices affect the Canadian dollar and the Bank of Canada's choices."
   },
   {
    "rank": 3,
@@ -33,54 +33,65 @@
    "region": "canada",
    "when": "All week",
    "impactLevel": "high",
-   "latestDate": "2026-10-15",
-   "headline": "Trade war with the U.S. shows no thaw",
-   "what": "Trump is keeping tariffs even as U.S. polls turn against them. Poilievre toured Michigan to argue for tariff-free trade, and the U.S. ambassador warned Canadian politicians to stay out of the midterms.",
-   "why": "Ontario's auto and steel jobs are the most exposed in the country."
+   "latestDate": "2026-10-16",
+   "headline": "Trump keeps up pressure on Canada",
+   "what": "Trump said Canada will end up the 51st state, and Ford replied never, while U.S. tariffs keep weighing on Ontario industry.",
+   "why": "Tariffs hit Ontario's auto, steel and lumber jobs and prices."
   },
   {
    "rank": 4,
-   "id": "ukraine-energy",
-   "region": "world",
-   "when": "Oct 11–15",
+   "id": "alberta-referendum",
+   "region": "canada",
+   "when": "Oct 13–19",
    "impactLevel": "medium",
-   "latestDate": "2026-10-15",
-   "headline": "Trump's energy truce for Ukraine falls apart",
-   "what": "Russia kept hitting Ukraine's power grid, leaving about 600,000 people without electricity, and Zelenskyy has lifted Ukraine's pause on strikes against Russian refineries. Trump's plan to buy Russian diesel drew criticism from senators of both parties.",
-   "why": "It splits Washington from Kyiv and its allies heading into winter."
+   "latestDate": "2026-10-16",
+   "headline": "Alberta votes Monday on staying in Canada",
+   "what": "Advance polls drew large turnout and Carney rallied 5,000+ in Calgary; polls show about 70% favour staying.",
+   "why": "A strong separatist showing would dominate federal politics."
   },
   {
    "rank": 5,
-   "id": "yemen-saudi",
-   "region": "world",
-   "when": "Oct 11–15",
-   "impactLevel": "medium",
-   "latestDate": "2026-10-15",
-   "headline": "Houthi strikes shut Riyadh's airport and hit Aramco",
-   "what": "Repeated missile and drone attacks closed King Khalid International Airport and struck Aramco sites. Trump says he would consider joining Saudi strikes after the U.S. midterms.",
-   "why": "A wider war would threaten the Red Sea, the main backup route for oil and container ships."
+   "id": "jobs-september",
+   "region": "canada",
+   "when": "Oct 9",
+   "impactLevel": "high",
+   "latestDate": "2026-10-14",
+   "headline": "Canada lost 68,000 jobs in September",
+   "what": "A second straight monthly drop pushed unemployment to 6.5%, and Ontario's rate is 7.0%.",
+   "why": "It raises the odds of a Bank of Canada rate cut on October 28."
   },
   {
    "rank": 6,
-   "id": "alberta-referendum",
-   "region": "canada",
-   "when": "Vote Oct 19",
+   "id": "municipal-elections",
+   "region": "ontario",
+   "when": "Oct 11–16",
    "impactLevel": "medium",
-   "latestDate": "2026-10-15",
-   "headline": "Alberta heads into Monday's referendum",
-   "what": "Albertans answer ten questions, including whether to start a path toward separation. Carney is rallying in Calgary, and Premier Smith says she voted to stay in Canada.",
-   "why": "A strong separatist showing would dominate national politics."
+   "latestDate": "2026-10-16",
+   "headline": "Toronto mayor's race tightens as advance voting hits a record",
+   "what": "A Nanos poll puts Chow at 51% and Bradford at 47%, and more than 222,000 people voted early.",
+   "why": "Councils set property taxes, transit and housing approvals for four years."
   },
   {
    "rank": 7,
-   "id": "stelco",
-   "region": "ontario",
-   "when": "Oct 5–14",
+   "id": "russia-diesel-deal",
+   "region": "us",
+   "when": "Oct 9–16",
    "impactLevel": "medium",
-   "latestDate": "2026-10-15",
-   "headline": "Stelco layoffs begin in Hamilton",
-   "what": "Up to 500 jobs are going. Ottawa says owner Cleveland-Cliffs is breaking legally binding job promises, and NDP leaders want the plant nationalized.",
-   "why": "It is the clearest local sign of how the trade war is hitting Ontario industry."
+   "latestDate": "2026-10-16",
+   "headline": "GOP senators break with Trump on Russian diesel",
+   "what": "Twelve senators, six of them Republicans, asked Trump to cancel his deal easing sanctions on Russian fuel.",
+   "why": "It touches diesel costs and Western pressure on Russia."
+  },
+  {
+   "rank": 8,
+   "id": "ukraine-energy",
+   "region": "world",
+   "when": "Oct 13–16",
+   "impactLevel": "medium",
+   "latestDate": "2026-10-16",
+   "headline": "Russian strikes cut power in Kyiv again",
+   "what": "A Russian missile attack on October 14 left parts of Kyiv without power ahead of an EU summit where Zelenskyy appeared.",
+   "why": "The grid war shapes European energy and aid decisions."
   }
  ]
 }
