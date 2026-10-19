@@ -1,8 +1,8 @@
 {
-  "headline": "War at sea keeps oil above $100 as inflation and Alberta's vote loom",
+  "headline": "War at sea and fuel costs drive inflation as Alberta votes",
   "rangeEnd": "2026-10-19",
   "rangeStart": "2026-10-13",
-  "summary": "Attacks around the Strait of Hormuz kept crude near $105 all week, feeding hot U.S. inflation and high pump prices in the GTA. At home, trade tensions with Washington, Stelco layoffs and Monday's Alberta referendum dominated, while Toronto's mayoral race entered its final stretch.",
+  "summary": "Attacks around Hormuz kept crude high all week, feeding 3.7% U.S. inflation and Canada's 3.1% reading. At home, trade tensions with Washington, Stelco layoffs and Alberta's referendum dominated as Toronto's mayoral race entered its final week.",
   "top": [
     {
       "headline": "Tankers hit mines and projectiles in Hormuz as U.S. and Iran both claim control",
@@ -16,11 +16,22 @@
       "why": "It is the main reason gas, diesel and grocery prices stay high in Ontario."
     },
     {
+      "rank": 2,
+      "id": "canada-inflation-september",
+      "region": "canada",
+      "when": "Oct 19",
+      "impactLevel": "high",
+      "latestDate": "2026-10-19",
+      "headline": "Canada's inflation edges up to 3.1% on gasoline",
+      "what": "Gasoline up 27.8% pushed headline inflation to 3.1%, while core measures eased to about 1.9%.",
+      "why": "It shapes the Bank of Canada's October 28 decision and what Ontarians pay at the pump."
+    },
+    {
       "headline": "U.S. inflation jumps to 3.7%",
       "id": "us-inflation-september",
       "impactLevel": "high",
       "latestDate": "2026-10-16",
-      "rank": 2,
+      "rank": 3,
       "region": "us",
       "what": "Record gas prices pushed U.S. consumer prices up 3.7% from a year earlier, and traders now see close to even odds of a Federal Reserve hike on October 28.",
       "when": "Oct 14",
@@ -31,7 +42,7 @@
       "id": "alberta-referendum",
       "impactLevel": "medium",
       "latestDate": "2026-10-19",
-      "rank": 3,
+      "rank": 4,
       "region": "canada",
       "what": "Final polls showed 'remain' far ahead (Leger 74%–21%) as Albertans voted Monday after over a million ballots were cast early.",
       "when": "Oct 13–19",
@@ -42,7 +53,7 @@
       "id": "trade-war",
       "impactLevel": "high",
       "latestDate": "2026-10-16",
-      "rank": 4,
+      "rank": 5,
       "region": "canada",
       "what": "Trump said Canada will end up the 51st state, his ambassador warned Canadian politicians off the midterms, and Poilievre toured Michigan to push for tariff-free auto trade.",
       "when": "All week",
@@ -53,7 +64,7 @@
       "id": "us-midterms",
       "impactLevel": "medium",
       "latestDate": "2026-10-16",
-      "rank": 5,
+      "rank": 6,
       "region": "us",
       "what": "Georgia set an early-voting record, an AP-NORC poll found about half of voters want Democrats in control of Congress, and the Justice Department sued California over mail ballots.",
       "when": "All week",
@@ -64,7 +75,7 @@
       "id": "ukraine-energy",
       "impactLevel": "medium",
       "latestDate": "2026-10-16",
-      "rank": 6,
+      "rank": 7,
       "region": "world",
       "what": "Massive strikes on power plants left hundreds of thousands without electricity, Ukraine dropped Trump's energy truce, and EU leaders pledged continued support in Brussels.",
       "when": "Oct 11–16",
@@ -75,23 +86,12 @@
       "id": "stelco",
       "impactLevel": "medium",
       "latestDate": "2026-10-16",
-      "rank": 7,
+      "rank": 8,
       "region": "ontario",
       "what": "Cleveland-Cliffs is pressing ahead with up to 500 Hamilton layoffs despite a five-business-day federal deadline, and Ottawa says it could seek a court-ordered sale.",
       "when": "Oct 5–15",
       "why": "It is the clearest local sign of how the trade war is hitting Ontario industry."
-    },
-    {
-      "headline": "Toronto mayor's race tightens before October 26",
-      "id": "municipal-elections",
-      "impactLevel": "medium",
-      "latestDate": "2026-10-16",
-      "rank": 8,
-      "region": "ontario",
-      "what": "A record 225,550 Torontonians voted early, and a Nanos poll shows Olivia Chow's lead over Brad Bradford down to 51% to 47% among decided voters.",
-      "when": "Oct 9–15",
-      "why": "The winner will shape Toronto's property taxes, transit and housing plans for the next four years."
     }
   ],
-  "updatedAt": "2026-10-19T11:58:00-04:00"
+  "updatedAt": "2026-10-19T16:55:00-04:00"
 }
