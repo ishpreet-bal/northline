@@ -1,6 +1,6 @@
 {
-  "briefing": "Albertans voted roughly three to one to stay in Canada, and Premier Smith pledged no second referendum while she is premier but said disputes with Ottawa continue. Oil stays near five-month highs on the Hormuz shutdown, keeping Canadian inflation at 3.1%. Toronto's October 26 mayoral vote is tight, and Bank of Canada and U.S. Fed decisions come October 28.",
-  "headline": "Alberta votes to stay in Canada; Smith rules out second vote",
+  "briefing": "Toronto's October 26 mayoral vote is down to the wire, with one pollster calling Chow and Bradford neck-and-neck. Oil hovers near $110 on the Hormuz shutdown, keeping fuel and inflation pressure on Ontario households. Alberta's vote to stay in Canada is settled, and Bank of Canada and U.S. Fed rate decisions arrive October 28.",
+  "headline": "Toronto mayoral race tightens as oil stays near $110",
   "keyDates": [
     {
       "date": "2026-10-24",
@@ -10,7 +10,7 @@
     {
       "date": "2026-10-26",
       "label": "Ontario municipal elections",
-      "why": "Toronto, Mississauga, Markham and every other Ontario city elect mayors, councillors and school trustees; Toronto polls open 10 a.m. to 8 p.m."
+      "why": "Toronto, Mississauga, Markham and every other Ontario city elect mayors, councillors and school trustees; Toronto polls open 10 a.m. to 8 p.m. The final televised mayoral debate is October 22."
     },
     {
       "date": "2026-10-27",
@@ -28,18 +28,26 @@
       "why": "Control of Congress decides how much room Trump has on tariffs and the Iran war."
     }
   ],
-  "nextRefresh": "around 6 AM",
+  "nextRefresh": "around noon",
   "stories": [
     {
       "backstory": "The U.S. and Israel began striking Iran on February 28, 2026, in the middle of nuclear talks. The first wave killed Supreme Leader Ali Khamenei. Iran answered with missiles and drones on Israel, Gulf states and U.S. bases, and closed the Strait of Hormuz, the channel that roughly a fifth of the world's oil normally passes through. A peace memorandum signed in June briefly reopened shipping, but it fell apart in July when Iran started attacking commercial ships again to press its claim over the strait.",
-      "headline": "Brent near $110 as Hormuz tanker attacks continue",
+      "headline": "Brent holds near $110 as Hormuz tanker attacks continue",
       "id": "iran-hormuz",
       "impact": "This is a big part of why gas and diesel in Ontario stay expensive: GTA regular is forecast around $1.80 a litre on Friday and diesel near $2.65. Diesel feeds straight into grocery and delivery prices, and higher fuel is one reason the Bank of Canada has been cautious about cutting rates.",
       "impactLevel": "high",
-      "now": "Brent briefly reached $111.05 a barrel on Tuesday, the highest since May, before easing to about $110.8, after settling near $109.55 on Monday. Iran's Revolutionary Guard said Tuesday afternoon that two oil tankers struck mines in the strait; the claim was not independently confirmed. UKMTO data cited in reports shows weekly transits down about 70% to 254 vessels, and Houthi claims of strikes on Saudi energy sites add to supply worries. HSBC has warned Brent could approach $120 if diplomacy fails. Iran says its reopening plan, which depends on Washington lifting its blockade of Iranian ports and easing sanctions, still stands, but talks are stalled. Iranian claims of mine strikes on tankers have not been independently confirmed, and CENTCOM says most vessels crossing have not been struck. Reuters, citing Kpler data, counts at least 18 tanker attacks in two weeks, while U.S. Energy Secretary Chris Wright says Gulf flows have recovered to about 80% of prewar levels, though refined-product shipments remain constrained.",
+      "now": "Brent touched $111.99 on Tuesday, the highest since May, before settling at $108.79 after unconfirmed reports that Qatar and Pakistan are working on a proposal to revive Iran talks. Early Wednesday it was back near $109.7 to $110.4, with U.S. crude (WTI) near $98.6. Iran's Revolutionary Guard said Tuesday that two 'non-compliant' tankers were struck in the strait, a claim not independently confirmed, and Kpler counts at least 18 vessels attacked in two weeks. Worries have spread beyond Hormuz to other shipping routes and crude-loading sites, including the Red Sea. Iran says its reopening plan, which depends on Washington lifting its blockade of Iranian ports and easing sanctions, still stands, but talks remain stalled.",
       "rank": 1,
       "region": "world",
       "sources": [
+        {
+          "title": "CNBC: Oil prices climb as traders assess Middle East developments",
+          "url": "https://www.cnbc.com/2026/10/21/oil-price-today-wti-brent-rise-on-middle-east-worries.html"
+        },
+        {
+          "title": "Trading Economics: Brent crude oil",
+          "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
+        },
         {
           "title": "Euronews: Super tanker ablaze after striking mine",
           "url": "https://www.euronews.com/2026/10/17/super-tanker-ablaze-after-striking-mine-in-strait-of-hormuz-irgc-says"
@@ -47,18 +55,10 @@
         {
           "title": "CNBC: Oil prices jump as Iran steps up tanker attacks",
           "url": "https://www.cnbc.com/2026/10/08/oil-prices-today-brent-wti-hormuz.html"
-        },
-        {
-          "title": "Oilprice.com: Oil jumps as Iran steps up attacks on Hormuz tankers",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Jumps-2-as-Iran-Steps-Up-Attacks-on-Hormuz-Tankers.html"
-        },
-        {
-          "title": "OilPrice: Brent tops $110 as tanker attacks threaten supply",
-          "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Tops-110-as-Tanker-Attacks-Threaten-Persian-Gulf-Supply.html"
         }
       ],
       "status": "developing",
-      "summary": "Brent crude touched $111.05 on Tuesday, its highest since May, after Iran's Revolutionary Guard said two more tankers struck mines in the Strait of Hormuz. Iran's conditional reopening plan remains unaccepted.",
+      "summary": "Brent touched $111.99 on Tuesday, its highest since May, then settled at $108.79 and rose again Wednesday near $110. Iran's Revolutionary Guard said two more tankers were hit in the Strait of Hormuz.",
       "timeline": [
         {
           "date": "Mar",
@@ -90,7 +90,7 @@
         }
       ],
       "topic": "Iran war",
-      "updatedAt": "2026-10-20T16:55:00-04:00",
+      "updatedAt": "2026-10-21T05:55:00-04:00",
       "why": "This is the single biggest driver of global energy prices this year. Sinkings are rare, so two in a day signal Iran is willing to raise the stakes for all cargo, not just oil tankers, which can push up shipping and insurance costs."
     },
     {
@@ -99,7 +99,7 @@
       "id": "alberta-referendum",
       "impact": "Indirect for Ontario, but a strong separatist showing would dominate federal politics and could affect transfer payments and national programs that every province shares.",
       "impactLevel": "medium",
-      "now": "Unofficial results put 'remain' at roughly 75–77% and the separation-path option near 25%. In a televised address, Smith said she will honour the mandate and not hold another referendum on this issue while premier, adding that disputes will be settled through political and legal institutions and that many battles with Ottawa lie ahead. Carney said Albertans and all Canadians will move forward together with renewed purpose. Separatist leader Keith Wilson said the result shows at least a quarter of Albertans want Alberta treated better. The separation question was one of ten on the ballot, and final official counts were not yet confirmed at this refresh.",
+      "now": "Unofficial results put 'remain' at roughly 75–77% and the separation-path option near 25%. In a televised address, Smith said she will honour the mandate and not hold another referendum on this issue while premier, adding that disputes will be settled through political and legal institutions and that many battles with Ottawa lie ahead. Carney said Albertans and all Canadians will move forward together with renewed purpose. Separatist leader Keith Wilson said the result shows at least a quarter of Albertans want Alberta treated better. The separation question was one of ten on the ballot, and final official counts were not yet confirmed at this refresh. Smith also vowed to use every legal and political tool to advance Alberta's interests and warned of a firm response if Ottawa interferes; Carney spoke with her Tuesday about closer cooperation, including on immigration.",
       "rank": 2,
       "region": "canada",
       "sources": [
@@ -116,8 +116,8 @@
           "url": "https://www.cnn.com/2026/10/20/americas/alberta-rejects-independence-referendum-canada-intl-hnk"
         },
         {
-          "title": "Axios: Alberta referendum results",
-          "url": "https://www.axios.com/2026/10/20/alberta-canada-referendum-results-remain"
+          "title": "BNN Bloomberg: Smith vows not to hold another referendum",
+          "url": "https://www.bnnbloomberg.ca/tariffs/2026/10/21/i-will-honour-this-mandate-smith-vows-not-to-hold-another-referendum-on-separation/"
         }
       ],
       "status": "developing",
@@ -149,7 +149,7 @@
         }
       ],
       "topic": "National unity",
-      "updatedAt": "2026-10-20T20:55:00-04:00",
+      "updatedAt": "2026-10-21T05:55:00-04:00",
       "why": "Even a non-binding result shapes national politics, federal-provincial relations and investor confidence in the energy sector."
     },
     {
@@ -374,14 +374,22 @@
     },
     {
       "backstory": "Chow won a 2023 by-election after John Tory resigned and is now seeking a full term. Bradford, a councillor, is her main challenger. Late-summer polls had Chow around 50% and Bradford near 39%. Big themes are housing costs, traffic, property taxes and the province's moves on bike lanes.",
-      "headline": "Chow pledges 15,000 youth jobs as Bradford pitches Eglinton East LRT",
+      "headline": "Chow and Bradford neck-and-neck days before Toronto votes",
       "id": "municipal-elections",
       "impact": "You get a vote for mayor, ward councillor and school trustee in your own city. Check your municipality's site for your polling station and advance-voting hours.",
       "impactLevel": "medium",
-      "now": "Chow promised 15,000 new youth jobs, a guarantee that 20% of Scarborough East LRT construction jobs go to local residents, and $28 million for youth violence prevention, mentorship and employment programs. Bradford called her campaign out of steam, pledged to push the Eglinton East LRT in his first 100 days with construction starting by 2030, and repeated plans to remove 12 km of red bus lanes in Scarborough. The two also clashed over Bradford's proposed Toronto Water utility, which he says would stay fully public and Chow says could hand control to the province. Bradford also unveiled a $143 million plan to hire 1,000 more police officers, including a satellite Ontario Police College campus in Etobicoke. A record 225,550 Torontonians voted in advance polls; the final televised debate airs on CP24 on October 22 at 7 p.m., and election day is Monday, October 26, with polls open 10 a.m. to 8 p.m. Chris Alexander quit the race on October 6 without endorsing anyone, though his name stays on ballots; a Liaison Strategies poll since then has Chow at 51% to Bradford's 46%. A Mainstreet Research poll taken Oct. 6–7 had Chow at 40.8% and Bradford at 38.3% among all respondents (margin of error 3.1 points), and its president said the race is going down to the wire.",
+      "now": "Chow promised 15,000 new youth jobs, a guarantee that 20% of Scarborough East LRT construction jobs go to local residents, and $28 million for youth violence prevention, mentorship and employment programs. Bradford called her campaign out of steam, pledged to push the Eglinton East LRT in his first 100 days with construction starting by 2030, and repeated plans to remove 12 km of red bus lanes in Scarborough. The two also clashed over Bradford's proposed Toronto Water utility, which he says would stay fully public and Chow says could hand control to the province. Bradford also unveiled a $143 million plan to hire 1,000 more police officers, including a satellite Ontario Police College campus in Etobicoke. A record 225,550 Torontonians voted in advance polls; the final televised debate airs on CP24 on October 22 at 7 p.m., and election day is Monday, October 26, with polls open 10 a.m. to 8 p.m. Chris Alexander quit the race on October 6 without endorsing anyone, though his name stays on ballots; a Liaison Strategies poll since then has Chow at 51% to Bradford's 46%. A Mainstreet Research poll taken Oct. 6–7 had Chow at 40.8% and Bradford at 38.3% among all respondents (margin of error 3.1 points), and its president said the race is going down to the wire. Global News described the race as neck-and-neck this week, while a Pollara survey had Chow ahead 53% to 46% among decided voters. Bradford also pledged a TTC event-service plan tied to the Toronto Waterfront Marathon, which Chow's campaign answered by accusing him of cutting service.",
       "rank": 7,
       "region": "ontario",
       "sources": [
+        {
+          "title": "Global News: Chow and Bradford neck-and-neck",
+          "url": "https://globalnews.ca/news/12110038/chow-and-bradford-neck-and-neck-days-left-toronto-mayoral-election-campaign/"
+        },
+        {
+          "title": "CP24: Bradford pledges transit plan for marathon",
+          "url": "https://www.cp24.com/local/toronto/2026/10/18/bradford-pledges-common-sense-transit-plan-for-toronto-marathon-chow-fires-back/"
+        },
         {
           "title": "CP24: Bradford takes aim at Chow over youth jobs pitch",
           "url": "https://www.cp24.com/gta-elections-2026/2026/10/15/running-out-of-steam-bradford-takes-aim-at-chow-over-new-pitch-for-youth-jobs-live-updates-here/"
@@ -389,18 +397,10 @@
         {
           "title": "CP24: Chow's lead shrinks in Nanos poll",
           "url": "https://www.cp24.com/local/toronto/2026/10/13/exclusive-poll-chows-lead-shrinks-against-bradford-in-toronto-mayoral-race/"
-        },
-        {
-          "title": "CP24: Record advance voting in Toronto",
-          "url": "https://www.cp24.com/local/toronto/2026/10/13/toronto-sees-massive-increase-in-advance-voting-with-more-than-200000-people-casting-ballots/"
-        },
-        {
-          "title": "CP24: Alexander drops out of mayoral race",
-          "url": "https://cp24.com/gta-elections-2026/2026/10/06/chris-alexander-drops-out-of-race-to-become-torontos-next-mayor/"
         }
       ],
       "status": "developing",
-      "summary": "With 11 days to go, Olivia Chow promised youth jobs and local hiring while Brad Bradford made the Eglinton East LRT his top transit priority. A Nanos poll has Chow at 51% and Bradford at 47% among decided voters. A Liaison Strategies poll had Chow at 51% to Bradford's 46% among decided and leaning voters, narrower than the eight-point gap earlier this month.",
+      "summary": "Global News describes the Toronto mayoral race as neck-and-neck with days left, though polls differ on the margin. The final televised debate is October 22 and election day is October 26.",
       "timeline": [
         {
           "date": "Jun 2023",
@@ -424,7 +424,7 @@
         }
       ],
       "topic": "Elections",
-      "updatedAt": "2026-10-20T16:55:00-04:00",
+      "updatedAt": "2026-10-21T05:55:00-04:00",
       "why": "City councils set property taxes, transit service, policing budgets and local housing approvals, and they last four years."
     },
     {
@@ -745,5 +745,5 @@
       "why": "It is the first big step toward driverless taxis in Canada and could reshape ride-hailing, taxi jobs and city transport planning."
     }
   ],
-  "updatedAt": "2026-10-20T20:55:00-04:00"
+  "updatedAt": "2026-10-21T05:55:00-04:00"
 }
