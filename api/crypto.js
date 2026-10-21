@@ -90,7 +90,10 @@ module.exports = async (req, res) => {
   if (!ttl) { res.status(400).json({ error: "Unknown part. Use markets, global, trending or new." }); return; }
   try {
     const n = Math.min(250, Math.max(10, parseInt((req.query && req.query.n) || "250", 10) || 250));
-    const body = part === "markets" ? await markets(n) : part === "global" ? await global() : part === "trending" ? await trending() : await newPools();
+    let body = part === "markets" ? await markets(n) : part === "global" ? await global() : part === "trending" ? await trending() : await newPools();
+    // Optional ?symbols=BTC,ETH filter for the markets list (used by the Portfolio page)
+    const want = String((req.query && req.query.symbols) || "").toUpperCase().split(",").map((x) => x.trim()).filter(Boolean);
+    if (part === "markets" && want.length) body = { ...body, coins: body.coins.filter((c) => want.includes(c.symbol) || want.includes(String(c.id).toUpperCase())) };
     res.setHeader("Cache-Control", `public, s-maxage=${ttl}, stale-while-revalidate=${ttl * 5}`);
     res.status(200).json({ fetchedAt: Date.now(), ...body });
   } catch (e) {
