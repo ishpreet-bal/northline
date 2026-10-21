@@ -134,6 +134,13 @@ button{font:inherit;color:inherit}
 .timeline .t{font-family:var(--mono);font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums;padding-top:2px}
 .timeline .e{min-width:0}
 .story{scroll-margin-top:120px}
+.story.open .dossier{cursor:pointer}
+.story.open .dossier a,.story.open .dossier button{cursor:pointer}
+.float-close{position:fixed;left:50%;bottom:calc(18px + env(safe-area-inset-bottom,0px));transform:translate(-50%,0);z-index:20;display:inline-flex;align-items:center;gap:8px;border:1px solid color-mix(in srgb,var(--fg) 25%,var(--line));background:var(--fg);color:var(--bg);font:600 14px var(--body);padding:11px 18px;border-radius:999px;cursor:pointer;box-shadow:0 8px 24px rgba(0,0,0,.35);transition:opacity .15s,transform .15s}
+.float-close[hidden]{display:none!important}
+.navlink{font:500 13px var(--body);color:var(--fg);text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:5px 12px;display:inline-flex;align-items:center;gap:6px}
+.navlink:hover{border-color:color-mix(in srgb,var(--fg) 30%,var(--line))}
+.navlink b{color:var(--signal);font-weight:600}
 .close-story{appearance:none;justify-self:start;margin-top:18px;display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);background:var(--panel-2);color:var(--fg);font:500 13px var(--body);padding:8px 14px;border-radius:999px;cursor:pointer}
 .close-story:hover{border-color:color-mix(in srgb,var(--fg) 30%,var(--line))}
 .sources{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:13px}
@@ -184,6 +191,7 @@ button{font:inherit;color:inherit}
   <div class="rail-in">
     <div class="rail-top">
       <div class="mark">Northline <small>World · U.S. · Canada · Ontario</small></div>
+      <a class="navlink" id="marketsLink" href="markets">Markets <b>↗</b></a>
       <div class="live"><span class="dot stale" id="dot"></span><span id="liveText">Connecting…</span></div>
       <div class="theme" role="group" aria-label="Colour theme">
         <button id="th-auto" data-theme-set="auto" title="Match my device" aria-label="Match my device"><svg width="15" height="15" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M8 2a6 6 0 0 1 0 12z" fill="currentColor"/></svg></button>
@@ -204,9 +212,11 @@ button{font:inherit;color:inherit}
   <section class="lede">
     <div class="eyebrow">Loading</div>
     <h1>Your briefing will appear here</h1>
-    <p>Northline researches the news four times a day and rewrites this page with the key stories, the backstory you missed, what happened over the past year, and what each one means for you in Ontario.</p>
+    <p>Northline researches the news every three hours and rewrites this page with the key stories, the backstory you missed, what happened over the past year, and what each one means for you in Ontario.</p>
   </section>
 </main>
+
+<button class="float-close" id="floatClose" hidden><svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><path d="M2 8l4-4 4 4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>Close story</button>
 
 <script>
 (function(){
@@ -274,7 +284,7 @@ button{font:inherit;color:inherit}
           onChange(changed);
         } catch(e){ setLive("Couldn't reach the latest edition. Retrying shortly.", true); }
       };
-      load(); setInterval(load, 5*60000);
+      load(); window.__nl.timers.push(setInterval(load, 5*60000));
       document.addEventListener("visibilitychange", () => { if (!document.hidden) load(); });
     },
     async day(k){ try { return await this.getJSON("data/days/" + k + ".json"); } catch(e){ return null; } }
@@ -319,7 +329,7 @@ button{font:inherit;color:inherit}
   function renderLive(){
     if (!state.current) return;
     const ts = Date.parse(state.current.updatedAt);
-    setLive("Updated " + ago(ts) + (state.current.nextRefresh ? " · next " + state.current.nextRefresh : ""), Date.now()-ts > 9*3600000);
+    setLive("Updated " + ago(ts) + (state.current.nextRefresh ? " · next " + state.current.nextRefresh : ""), Date.now()-ts > 4*3600000);
   }
 
   function renderTabs(){
@@ -440,8 +450,9 @@ button{font:inherit;color:inherit}
     } else {
       html = weekHTML();
     }
-    html += '<p class="foot">Summaries are written by Claude from the linked reporting and refreshed about four times a day. Open the sources for the full picture.</p>';
+    html += '<p class="foot">Summaries are written by Claude from the linked reporting and refreshed every three hours. Open the sources for the full picture.</p>';
     main.innerHTML = html;
+    updateFloat();
   }
 
   function go(v, day){
@@ -450,7 +461,13 @@ button{font:inherit;color:inherit}
     render(); window.scrollTo({top:0});
   }
 
-  document.addEventListener("click", e => {
+  function closeStory(key, sid){
+    open.delete(key); render();
+    const head = document.getElementById("h-" + sid);
+    if (head){ if (head.getBoundingClientRect().top < 110) document.getElementById("s-" + sid).scrollIntoView({block:"start"}); head.focus({preventScroll:true}); }
+    updateFloat();
+  }
+  function onClick(e){
     const t = e.target.closest("[data-theme-set]");
     if (t){ theme = t.dataset.themeSet; store.set("nl:theme", theme); applyTheme(theme); return; }
     const tab = e.target.closest(".tab");
@@ -470,18 +487,58 @@ button{font:inherit;color:inherit}
       return;
     }
     const cl = e.target.closest("[data-close]");
-    if (cl){
-      open.delete(cl.dataset.close); const sid = cl.dataset.sid; render();
-      const head = document.getElementById("h-" + sid);
-      if (head){ if (head.getBoundingClientRect().top < 110) document.getElementById("s-" + sid).scrollIntoView({block:"start"}); head.focus({preventScroll:true}); }
-      return;
-    }
+    if (cl){ closeStory(cl.dataset.close, cl.dataset.sid); return; }
+    if (e.target.closest("#floatClose")){ const t2 = floatTarget(); if (t2) closeStory(t2.key, t2.sid); return; }
     const h = e.target.closest(".story-head");
-    if (h){ const key = h.dataset.key; open.has(key) ? open.delete(key) : open.add(key); const id = h.id; render(); const el = document.getElementById(id); if (el) el.focus({preventScroll:true}); }
-  });
+    if (h){ const key = h.dataset.key; open.has(key) ? open.delete(key) : open.add(key); const id = h.id; render(); const el = document.getElementById(id); if (el) el.focus({preventScroll:true}); updateFloat(); return; }
+    // Tapping anywhere in an open story's text closes it (but not links, and not while selecting text)
+    const dz = e.target.closest(".story.open .dossier");
+    if (dz && !e.target.closest("a,button") && !(window.getSelection && String(window.getSelection()).length)){
+      const head = dz.parentElement.querySelector(".story-head");
+      closeStory(head.dataset.key, head.id.slice(2));
+    }
+  }
+  // Floating close button: shown while an open story fills the screen and its own controls are out of view
+  function floatTarget(){
+    const vh = window.innerHeight;
+    for (const st of document.querySelectorAll(".story.open")){
+      const r = st.getBoundingClientRect();
+      if (r.top < vh*0.5 && r.bottom > vh*0.5){
+        const head = st.querySelector(".story-head");
+        return {key: head.dataset.key, sid: head.id.slice(2), el: st};
+      }
+    }
+    return null;
+  }
+  let floatRaf = 0;
+  function updateFloat(){
+    cancelAnimationFrame(floatRaf);
+    floatRaf = requestAnimationFrame(() => {
+      const fc = document.getElementById("floatClose"); if (!fc) return;
+      const t = floatTarget();
+      let show = !!t;
+      if (t){
+        const hr = t.el.querySelector(".story-head").getBoundingClientRect();
+        const cb = t.el.querySelector(".close-story"); const cr = cb ? cb.getBoundingClientRect() : null;
+        const headVisible = hr.bottom > 120 && hr.top < window.innerHeight;
+        const bottomVisible = cr && cr.top < window.innerHeight - 70 && cr.bottom > 0;
+        show = !headVisible && !bottomVisible;
+      }
+      fc.hidden = !show;
+    });
+  }
+  function onKey(e){ if (e.key === "Escape" && open.size){ open.clear(); render(); updateFloat(); } }
+  // Replace any handlers left by an earlier copy of this script (the page can be hot-updated in place)
+  if (window.__nl){ document.removeEventListener("click", window.__nl.click); document.removeEventListener("keydown", window.__nl.key); window.removeEventListener("scroll", window.__nl.scroll); window.removeEventListener("resize", window.__nl.scroll); (window.__nl.timers||[]).forEach(clearInterval); }
+  window.__nl = {click:onClick, key:onKey, scroll:updateFloat, timers:[]};
+  document.addEventListener("click", onClick);
+  document.addEventListener("keydown", onKey);
+  window.addEventListener("scroll", updateFloat, {passive:true});
+  window.addEventListener("resize", updateFloat);
+  window.addEventListener("hashchange", () => { const v = location.hash.replace("#",""); if (["today","yesterday","week"].includes(v) && (v !== view || dayView)) go(v); });
   function scrollToStory(sid){ let n = 0; const tryIt = () => { const el = document.getElementById("s-"+sid); if (el) el.scrollIntoView({block:"start"}); else if (n++ < 20) setTimeout(tryIt, 150); }; setTimeout(tryIt, 30); }
 
-  setInterval(renderLive, 30000);
+  window.__nl.timers.push(setInterval(renderLive, 30000));
   window.addEventListener("pagehide", () => store.set("nl:lastVisit", String(Date.now())));
   renderTabs();
 
@@ -489,6 +546,7 @@ button{font:inherit;color:inherit}
     let db = null;
     if (window.claude && window.claude.use) { try { db = await window.claude.use("db"); } catch(e){ db = null; } }
     source = db ? dbSource(db) : staticSource;
+    if (db){ const ml = document.getElementById("marketsLink"); if (ml){ ml.href = "https://northline-dusky.vercel.app/markets"; ml.target = "_blank"; ml.rel = "noopener"; } }
     source.start(() => render());
   })();
 })();

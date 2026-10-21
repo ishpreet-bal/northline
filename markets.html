@@ -1,0 +1,644 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="Live crypto and stock prices with an hourly written breakdown of what moved, why, and what to watch.">
+<meta name="theme-color" content="#0b1015">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Crect width=%2232%22 height=%2232%22 rx=%227%22 fill=%22%230b1015%22/%3E%3Cpath d=%22M6 22l6-7 5 4 9-11%22 fill=%22none%22 stroke=%22%23efb449%22 stroke-width=%223%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22/%3E%3C/svg%3E">
+<title>Northline Markets</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: the same night-desk system as the news briefing, turned into a trading desk. Sticky rail with live clock, written brief up top, tabbed desks (Crypto, Stocks, New & trending, Guide) of live tables with expandable breakdowns. */
+:root{
+  --bg:#0b1015; --panel:#121920; --panel-2:#18212a; --line:#22303d;
+  --fg:#e3e7ec; --muted:#8995a4;
+  --signal:#efb449; --on-signal:#1a1206;
+  --up:#4cc38a; --down:#f0656a; --flat:#8995a4;
+  --world:#72b2d8;
+  --display:"Newsreader",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  color-scheme:dark;
+}
+@media (prefers-color-scheme: light){
+  :root:not([data-theme="dark"]){
+    --bg:#f2f4f6; --panel:#ffffff; --panel-2:#f7f9fb; --line:#d8dfe6; --fg:#141b22; --muted:#5a6775;
+    --signal:#a8690c; --on-signal:#ffffff; --up:#13804a; --down:#c4343b; --flat:#5a6775; --world:#1f6d9e; color-scheme:light;
+  }
+}
+:root[data-theme="light"]{
+  --bg:#f2f4f6; --panel:#ffffff; --panel-2:#f7f9fb; --line:#d8dfe6; --fg:#141b22; --muted:#5a6775;
+  --signal:#a8690c; --on-signal:#ffffff; --up:#13804a; --down:#c4343b; --flat:#5a6775; --world:#1f6d9e; color-scheme:light;
+}
+:root[data-theme="dark"]{
+  --bg:#0b1015; --panel:#121920; --panel-2:#18212a; --line:#22303d; --fg:#e3e7ec; --muted:#8995a4;
+  --signal:#efb449; --on-signal:#1a1206; --up:#4cc38a; --down:#f0656a; --flat:#8995a4; --world:#72b2d8; color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{background:var(--bg)}
+body{background:var(--bg);color:var(--fg);font:15px/1.6 var(--body);-webkit-font-smoothing:antialiased;margin:0}
+a{color:inherit}
+button,input{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--signal);outline-offset:2px;border-radius:4px}
+.wrap{max-width:1080px;margin:0 auto;padding-inline:20px;padding-block:0 72px}
+.num{font-family:var(--mono);font-variant-numeric:tabular-nums}
+.up{color:var(--up)} .down{color:var(--down)} .flat{color:var(--flat)}
+
+/* rail */
+.rail{position:sticky;top:env(safe-area-inset-top,0px);z-index:10;background:color-mix(in srgb,var(--bg) 90%,transparent);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.rail-in{max-width:1080px;margin:0 auto;padding:10px 20px 0;display:grid;gap:8px}
+.rail-top{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.mark{font-family:var(--display);font-size:20px;font-weight:600;display:flex;align-items:baseline;gap:10px}
+.sitenav{display:inline-flex;gap:2px;border:1px solid var(--line);border-radius:999px;padding:2px}
+.sitenav a{font:500 13px var(--body);text-decoration:none;color:var(--muted);padding:4px 12px;border-radius:999px}
+.sitenav a[aria-current="page"]{background:var(--panel-2);color:var(--fg);box-shadow:inset 0 0 0 1px var(--line)}
+.live{display:flex;align-items:center;gap:8px;font-family:var(--mono);font-size:12px;color:var(--muted);margin-left:auto}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--up);animation:pulse 2.4s infinite;flex:none}
+.dot.stale{background:var(--muted);animation:none}
+@keyframes pulse{0%{box-shadow:0 0 0 0 color-mix(in srgb,var(--up) 55%,transparent)}70%{box-shadow:0 0 0 9px transparent}100%{box-shadow:0 0 0 0 transparent}}
+.theme{display:inline-flex;border:1px solid var(--line);border-radius:999px;padding:2px;gap:2px}
+.theme button{appearance:none;border:0;background:transparent;color:var(--muted);width:30px;height:26px;border-radius:999px;display:grid;place-items:center;cursor:pointer}
+.theme button[aria-pressed="true"]{background:var(--panel-2);color:var(--fg);box-shadow:inset 0 0 0 1px var(--line)}
+.tabs{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none}
+.tabs::-webkit-scrollbar{display:none}
+.tab{appearance:none;border:0;background:transparent;color:var(--muted);font:500 14px var(--body);padding:8px 12px 10px;cursor:pointer;border-bottom:2px solid transparent;white-space:nowrap}
+.tab:hover{color:var(--fg)}
+.tab[aria-selected="true"]{color:var(--fg);border-bottom-color:var(--signal)}
+
+/* brief */
+.lede{padding-block:34px 24px;border-bottom:1px solid var(--line);display:grid;gap:14px}
+.eyebrow{font-family:var(--mono);font-size:11.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--signal)}
+.lede h1{font-family:var(--display);font-weight:500;font-size:clamp(27px,4.6vw,38px);line-height:1.15;margin:0;text-wrap:balance;max-width:24em}
+.lede p{font-family:var(--display);font-size:clamp(17px,2.1vw,19px);line-height:1.6;margin:0;max-width:66ch;color:color-mix(in srgb,var(--fg) 86%,var(--muted))}
+.moods{display:flex;gap:10px;flex-wrap:wrap}
+.mood{border:1px solid var(--line);border-radius:10px;padding:10px 14px;display:grid;gap:2px;min-width:0;flex:1 1 260px}
+.mood .k{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.mood .v{font-weight:600}
+.mood .d{font-size:13.5px;color:var(--muted);line-height:1.45}
+.disclaimer{font-size:13px;color:var(--muted);border-left:2px solid var(--signal);padding-left:12px;max-width:80ch}
+
+.section-h{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin:30px 0 12px;flex-wrap:wrap}
+.section-h h2{font-family:var(--mono);font-size:12px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0}
+.section-h .note{font-size:12.5px;color:var(--muted)}
+
+/* drivers */
+.drivers{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:10px}
+.driver{border:1px solid var(--line);border-radius:10px;padding:14px 16px;display:grid;gap:6px;min-width:0}
+.driver h3{margin:0;font-size:15px;font-weight:600;line-height:1.35}
+.driver p{margin:0;font-size:14px;color:color-mix(in srgb,var(--fg) 80%,var(--muted))}
+.pill{display:inline-flex;align-items:center;gap:6px;font-family:var(--mono);font-size:11px;letter-spacing:.05em;text-transform:uppercase;padding:2px 8px;border-radius:4px;border:1px solid var(--line);color:var(--muted);white-space:nowrap}
+.pill.up{color:var(--up);border-color:color-mix(in srgb,var(--up) 40%,var(--line))}
+.pill.down{color:var(--down);border-color:color-mix(in srgb,var(--down) 40%,var(--line))}
+.pill.warn{color:var(--signal);border-color:color-mix(in srgb,var(--signal) 45%,var(--line))}
+
+/* stat strip */
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px}
+.stat{border:1px solid var(--line);border-radius:10px;padding:12px 14px;display:grid;gap:2px;min-width:0}
+.stat .k{font-size:12.5px;color:var(--muted)}
+.stat .v{font-family:var(--mono);font-size:19px;font-variant-numeric:tabular-nums;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.stat .s{font-family:var(--mono);font-size:12px}
+.fg-bar{height:6px;border-radius:3px;background:linear-gradient(90deg,var(--down),var(--signal),var(--up));position:relative;margin-top:6px}
+.fg-bar i{position:absolute;top:-3px;width:3px;height:12px;background:var(--fg);border-radius:2px;transform:translateX(-1px)}
+
+/* breakdown cards */
+.cards{display:grid;gap:10px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.card-head{all:unset;box-sizing:border-box;display:grid;grid-template-columns:1fr auto;gap:6px 16px;width:100%;padding:16px 18px;cursor:pointer}
+.card-head:hover{background:var(--panel-2)}
+.card-head:focus-visible{outline:2px solid var(--signal);outline-offset:-2px}
+.card-title{display:flex;align-items:center;gap:10px;flex-wrap:wrap;min-width:0}
+.card-title b{font-family:var(--display);font-size:20px;font-weight:500}
+.card-title .sym{font-family:var(--mono);font-size:12px;color:var(--muted)}
+.card-price{text-align:right;display:grid;justify-items:end;align-content:start}
+.card-price .p{font-family:var(--mono);font-size:17px;font-variant-numeric:tabular-nums}
+.card-price .c{font-family:var(--mono);font-size:12.5px}
+.card-move{grid-column:1/-1;margin:0;color:color-mix(in srgb,var(--fg) 84%,var(--muted));max-width:78ch}
+.card-meta{grid-column:1/-1;display:flex;gap:8px;flex-wrap:wrap;align-items:center;justify-content:space-between}
+.toggle{font-family:var(--mono);font-size:11.5px;color:var(--muted);display:inline-flex;gap:6px;align-items:center}
+.card.open .toggle svg{transform:rotate(180deg)}
+.card-body{border-top:1px solid var(--line);padding:4px 18px 18px;display:grid;gap:2px;cursor:pointer}
+.card-body a,.card-body button{cursor:pointer}
+.blk{padding-top:14px;display:grid;gap:6px;min-width:0}
+.blk h4{margin:0;font-family:var(--mono);font-size:11.5px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.blk p{margin:0;max-width:78ch}
+.cases{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.case{border:1px solid var(--line);border-radius:10px;padding:12px 14px;display:grid;gap:4px;min-width:0}
+.case h5{margin:0;font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase}
+.case p{margin:0;font-size:14px}
+.watch{background:color-mix(in srgb,var(--signal) 8%,var(--panel));border:1px solid color-mix(in srgb,var(--signal) 30%,var(--line));border-radius:10px;padding:12px 14px}
+.sources{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:13px}
+.sources a{color:var(--world);text-decoration:none;border-bottom:1px solid color-mix(in srgb,var(--world) 35%,transparent)}
+.close-btn{appearance:none;justify-self:start;margin-top:14px;display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);background:var(--panel-2);color:var(--fg);font:500 13px var(--body);padding:7px 14px;border-radius:999px;cursor:pointer}
+
+/* tables */
+.tools{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.search{border:1px solid var(--line);background:var(--panel);border-radius:999px;padding:7px 14px;min-width:0;width:220px;max-width:100%}
+.btn{appearance:none;border:1px solid var(--line);background:var(--panel-2);border-radius:999px;padding:7px 14px;cursor:pointer;font:500 13px var(--body)}
+.btn:hover{border-color:color-mix(in srgb,var(--fg) 30%,var(--line))}
+.tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel)}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th,td{padding:10px 12px;text-align:right;white-space:nowrap;border-bottom:1px solid var(--line)}
+th{font:500 11.5px var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);position:sticky;top:0;background:var(--panel)}
+th.sortable{cursor:pointer;user-select:none}
+th.sortable:hover{color:var(--fg)}
+th[aria-sort="descending"]::after{content:" ↓"} th[aria-sort="ascending"]::after{content:" ↑"}
+th:first-child,td:first-child,th.l,td.l{text-align:left}
+tbody tr.row{cursor:pointer}
+tbody tr.row:hover{background:var(--panel-2)}
+tbody tr.row.open{background:var(--panel-2)}
+td.num{font-family:var(--mono);font-variant-numeric:tabular-nums}
+.coin{display:flex;align-items:center;gap:10px;min-width:0}
+.coin img{width:20px;height:20px;border-radius:50%;flex:none}
+.coin .n{font-weight:600}
+.coin .s{font-family:var(--mono);font-size:12px;color:var(--muted)}
+.rk{font-family:var(--mono);color:var(--muted);font-size:12.5px}
+.chip{display:inline-flex;font-family:var(--mono);font-size:11px;padding:2px 8px;border-radius:999px;border:1px solid var(--line);white-space:nowrap}
+.chip.up{color:var(--up);border-color:color-mix(in srgb,var(--up) 40%,var(--line))}
+.chip.down{color:var(--down);border-color:color-mix(in srgb,var(--down) 40%,var(--line))}
+.chip.flat{color:var(--muted)}
+.ai-dot{display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--signal);margin-left:6px;vertical-align:middle}
+tr.detail td{text-align:left;white-space:normal;background:var(--panel-2);padding:14px 16px 18px}
+.detail-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.detail-grid .blk{padding-top:0}
+.flash-up{animation:fu 1.2s} .flash-down{animation:fd 1.2s}
+@keyframes fu{0%{background:color-mix(in srgb,var(--up) 25%,transparent)}100%{background:transparent}}
+@keyframes fd{0%{background:color-mix(in srgb,var(--down) 25%,transparent)}100%{background:transparent}}
+.x{appearance:none;border:0;background:transparent;color:var(--muted);cursor:pointer;padding:2px 6px;font-size:16px;line-height:1}
+.x:hover{color:var(--down)}
+svg.spark{display:block}
+
+/* tiles */
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
+.tile{border:1px solid var(--line);border-radius:10px;padding:10px 12px;display:grid;gap:2px;min-width:0;background:var(--panel)}
+.tile .k{font-size:12.5px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.tile .v{font-family:var(--mono);font-size:16.5px;font-variant-numeric:tabular-nums}
+.tile .c{font-family:var(--mono);font-size:12px}
+
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.list{border:1px solid var(--line);border-radius:12px;background:var(--panel);overflow:hidden}
+.list h3{margin:0;padding:12px 14px;font:500 12px var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted);border-bottom:1px solid var(--line)}
+.li{display:grid;grid-template-columns:1fr auto auto;gap:12px;align-items:center;padding:9px 14px;border-bottom:1px solid var(--line);font-size:14px}
+.li:last-child{border-bottom:0}
+.warnbox{border:1px solid color-mix(in srgb,var(--down) 40%,var(--line));background:color-mix(in srgb,var(--down) 7%,var(--panel));border-radius:12px;padding:14px 16px;font-size:14px;display:grid;gap:6px}
+.warnbox b{color:var(--down)}
+
+.cal{display:grid;gap:0;border-top:1px solid var(--line)}
+.cal .e{display:grid;grid-template-columns:130px 1fr;gap:14px;padding:12px 2px;border-bottom:1px solid var(--line)}
+.cal .d{font-family:var(--mono);font-size:12.5px;color:var(--muted)}
+.cal .d b{display:block;color:var(--signal);font-weight:500}
+.guide{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:12px}
+.guide section{border:1px solid var(--line);border-radius:12px;padding:16px 18px;background:var(--panel)}
+.guide h3{margin:0 0 8px;font-family:var(--display);font-weight:500;font-size:20px}
+.guide ul{margin:0;padding-left:18px;display:grid;gap:6px;font-size:14.5px}
+.empty{border:1px dashed var(--line);border-radius:12px;padding:28px 20px;text-align:center;color:var(--muted)}
+.empty b{display:block;color:var(--fg);font-family:var(--display);font-size:19px;font-weight:500;margin-bottom:4px}
+.foot{margin-top:40px;font-size:12.5px;color:var(--muted);font-family:var(--mono);line-height:1.7}
+.err{font-size:13px;color:var(--down)}
+
+@media (max-width:640px){
+  .wrap{padding-inline:16px}
+  .rail-in{padding-inline:16px}
+  .live{order:3;margin-left:0;width:100%}
+  .theme{margin-left:auto}
+  .cases,.cols{grid-template-columns:1fr}
+  .hide-sm{display:none}
+  th,td{padding:9px 8px}
+  .cal .e{grid-template-columns:1fr;gap:2px}
+  .search{width:100%}
+}
+@media (prefers-reduced-motion:reduce){.dot{animation:none}.flash-up,.flash-down{animation:none}}
+</style>
+</head>
+<body>
+<header class="rail">
+  <div class="rail-in">
+    <div class="rail-top">
+      <div class="mark">Northline</div>
+      <nav class="sitenav" aria-label="Sections"><a href="/">News</a><a href="/markets" aria-current="page">Markets</a></nav>
+      <div class="live"><span class="dot stale" id="dot"></span><span id="liveText">Connecting to live prices…</span></div>
+      <div class="theme" role="group" aria-label="Colour theme">
+        <button data-theme-set="auto" title="Match my device" aria-label="Match my device"><svg width="15" height="15" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M8 2a6 6 0 0 1 0 12z" fill="currentColor"/></svg></button>
+        <button data-theme-set="light" title="Light" aria-label="Light"><svg width="15" height="15" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="3" fill="currentColor"/><g stroke="currentColor" stroke-width="1.4" stroke-linecap="round"><path d="M8 1.5v1.6M8 12.9v1.6M1.5 8h1.6M12.9 8h1.6M3.4 3.4l1.1 1.1M11.5 11.5l1.1 1.1M3.4 12.6l1.1-1.1M11.5 4.5l1.1-1.1"/></g></svg></button>
+        <button data-theme-set="dark" title="Dark" aria-label="Dark"><svg width="15" height="15" viewBox="0 0 16 16" aria-hidden="true"><path d="M13.5 10.2A6 6 0 0 1 5.8 2.5a6 6 0 1 0 7.7 7.7z" fill="currentColor"/></svg></button>
+      </div>
+    </div>
+    <nav class="tabs" role="tablist" aria-label="Desk">
+      <button class="tab" role="tab" data-tab="crypto" id="tab-crypto">Crypto</button>
+      <button class="tab" role="tab" data-tab="stocks" id="tab-stocks">Stocks</button>
+      <button class="tab" role="tab" data-tab="new" id="tab-new">New &amp; trending</button>
+      <button class="tab" role="tab" data-tab="guide" id="tab-guide">Calendar &amp; guide</button>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="lede" id="brief">
+    <div class="eyebrow" id="briefWhen">Market brief</div>
+    <h1 id="briefHead">Loading the latest market brief…</h1>
+    <p id="briefSummary">Live prices update every minute. The written breakdown of what moved and why is refreshed every hour.</p>
+    <div class="moods" id="moods"></div>
+    <p class="disclaimer">Nobody can reliably predict short-term prices, including this page. Every "lean" below is a probability judgment from recent news and price action, and it can be wrong. This is information to help you decide, not financial advice.</p>
+  </section>
+
+  <div id="driversWrap" hidden>
+    <div class="section-h"><h2>What's moving markets</h2></div>
+    <div class="drivers" id="drivers"></div>
+  </div>
+
+  <div id="desk"></div>
+  <p class="foot">Prices: CoinGecko, GeckoTerminal, Alternative.me (Fear &amp; Greed), Yahoo Finance and Stooq. Stock quotes can be delayed by up to 15 minutes. Breakdowns are written by Claude from the linked reporting and refreshed hourly.</p>
+</main>
+
+<script>
+(function(){
+  const $ = s => document.querySelector(s);
+  const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+  const TZ = "America/Toronto";
+  const store = { get(k){ try { return localStorage.getItem(k); } catch(e){ return null; } }, set(k,v){ try { localStorage.setItem(k,v); } catch(e){} } };
+
+  /* ---------- theme (shared with the news page) ---------- */
+  const root = document.documentElement;
+  function applyTheme(t){
+    if (t === "light" || t === "dark") root.setAttribute("data-theme", t); else root.removeAttribute("data-theme");
+    document.querySelectorAll("[data-theme-set]").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.themeSet === t)));
+  }
+  applyTheme(store.get("nl:theme") || "auto");
+
+  /* ---------- formatting ---------- */
+  const fmtPrice = (p, cur) => {
+    if (p == null || !isFinite(p)) return "–";
+    const a = Math.abs(p);
+    const d = a >= 1000 ? 2 : a >= 1 ? 2 : a >= 0.01 ? 4 : 8;
+    const s = p.toLocaleString("en-US", {minimumFractionDigits: a >= 1 ? 2 : 2, maximumFractionDigits: d});
+    return (cur === "CAD" ? "C$" : cur && cur !== "USD" ? "" : "$") + s;
+  };
+  const fmtNum = (p) => p == null ? "–" : p.toLocaleString("en-US", {maximumFractionDigits: 2});
+  const fmtBig = (n) => { if (n == null || !isFinite(n)) return "–"; const a = Math.abs(n);
+    return "$" + (a >= 1e12 ? (n/1e12).toFixed(2)+"T" : a >= 1e9 ? (n/1e9).toFixed(1)+"B" : a >= 1e6 ? (n/1e6).toFixed(1)+"M" : a >= 1e3 ? (n/1e3).toFixed(0)+"K" : n.toFixed(0)); };
+  const cls = (x) => x == null || !isFinite(x) ? "flat" : x > 0.005 ? "up" : x < -0.005 ? "down" : "flat";
+  const pct = (x) => x == null || !isFinite(x) ? "–" : (x > 0 ? "+" : x < 0 ? "−" : "") + Math.abs(x).toFixed(Math.abs(x) >= 100 ? 0 : 2) + "%";
+  const ago = (ts) => { const s = Math.round((Date.now()-ts)/1000); if (s < 60) return s + "s ago"; const m = Math.round(s/60); if (m < 60) return m + " min ago"; const h = Math.floor(m/60); return h + (h===1?" hour ago":" hours ago"); };
+  const timeT = (ts) => new Date(ts).toLocaleTimeString("en-CA",{hour:"numeric",minute:"2-digit",timeZone:TZ});
+
+  function spark(arr, w=110, h=30){
+    const v = (arr||[]).filter(x => x != null && isFinite(x));
+    if (v.length < 2) return '<svg class="spark" width="'+w+'" height="'+h+'"></svg>';
+    const mn = Math.min(...v), mx = Math.max(...v), rg = mx - mn || 1;
+    const pts = v.map((y,i) => (i*(w-2)/(v.length-1)+1).toFixed(1) + "," + (h-2-(y-mn)/rg*(h-4)).toFixed(1));
+    const col = v[v.length-1] >= v[0] ? "var(--up)" : "var(--down)";
+    const last = pts[pts.length-1].split(",");
+    return `<svg class="spark" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" aria-hidden="true"><polyline fill="none" stroke="${col}" stroke-width="1.5" points="${pts.join(" ")}"/><circle cx="${last[0]}" cy="${last[1]}" r="2" fill="${col}"/></svg>`;
+  }
+
+  /* ---------- signals: plain-language read of recent price action ---------- */
+  function rsi(a, n=14){
+    const v = (a||[]).filter(x => x != null && isFinite(x)); if (v.length < n+1) return null;
+    let g=0,l=0; for (let i=1;i<=n;i++){ const d=v[i]-v[i-1]; if (d>0) g+=d; else l-=d; } g/=n; l/=n;
+    for (let i=n+1;i<v.length;i++){ const d=v[i]-v[i-1]; g=(g*(n-1)+Math.max(d,0))/n; l=(l*(n-1)+Math.max(-d,0))/n; }
+    return l === 0 ? 100 : 100 - 100/(1+g/l);
+  }
+  const sma = (a, n) => { const v = (a||[]).filter(x => x != null); if (v.length < n) return null; let s=0; for (let i=v.length-n;i<v.length;i++) s+=v[i]; return s/n; };
+  // kind: "crypto" uses hourly points over 7 days; "stock" uses daily closes
+  function signals(price, series, kind){
+    const S = kind === "crypto" ? {f:24, s:72, fl:"24-hour", sl:"3-day", rl:"hourly", h:"hours to days"} : {f:20, s:50, fl:"20-day", sl:"50-day", rl:"daily", h:"days to weeks"};
+    const fa = sma(series, S.f), sa = sma(series, S.s), r = rsi(series);
+    if (price == null || fa == null) return null;
+    let score = 0; score += price > fa ? 1 : -1; if (sa != null) score += fa > sa ? 1 : -1;
+    const v = (series||[]).filter(x => x != null); const lo = Math.min(...v), hi = Math.max(...v);
+    const pos = hi > lo ? (price - lo) / (hi - lo) * 100 : 50;
+    const trend = score >= 2 ? "Uptrend" : score <= -2 ? "Downtrend" : "Sideways";
+    const flag = r == null ? "" : r >= 70 ? "overbought" : r <= 30 ? "oversold" : "";
+    const tone = trend === "Uptrend" ? "up" : trend === "Downtrend" ? "down" : "flat";
+    const lines = [];
+    lines.push(trend === "Uptrend" ? `Price is above its ${S.fl} average, and that average is above the ${S.sl} one. That is the shape of an uptrend.`
+      : trend === "Downtrend" ? `Price is below its ${S.fl} average, and that average is below the ${S.sl} one. That is the shape of a downtrend.`
+      : `Price and its ${S.fl} and ${S.sl} averages are crossing each other, so there is no clear trend right now.`);
+    if (r != null) lines.push(`RSI (${S.rl}) is ${r.toFixed(0)}. ` + (r >= 70 ? "Above 70 counts as overbought: after readings this high, prices often pause or pull back, though strong rallies can stay overbought for a while."
+      : r <= 30 ? "Below 30 counts as oversold: selling may be stretched, and bounces are common from here, but falling markets can stay oversold too."
+      : "Between 30 and 70 is neutral momentum."));
+    lines.push(`It sits ${pos.toFixed(0)}% of the way from its ${kind === "crypto" ? "7-day" : "6-month"} low to its high.`);
+    return {trend, flag, tone, rsi: r, pos, lines, horizon: S.h, label: trend + (flag ? " · " + flag : "")};
+  }
+
+  /* ---------- data ---------- */
+  const DEFAULT_WATCH = ["AAPL","MSFT","NVDA","AMZN","GOOGL","META","TSLA","AMD","AVGO","JPM","SHOP.TO","RY.TO","TD.TO","ENB.TO","CNQ.TO","COIN","MSTR","IBIT"];
+  const MACRO = [["^GSPC","S&P 500"],["^IXIC","Nasdaq"],["^DJI","Dow Jones"],["^GSPTSE","TSX"],["^VIX","VIX (fear gauge)"],["CL=F","Oil (WTI)"],["GC=F","Gold"],["^TNX","U.S. 10-yr yield"],["CADUSD=X","CAD in USD"]];
+  let watch; try { watch = JSON.parse(store.get("nl:watch") || "null"); } catch(e){}
+  if (!Array.isArray(watch) || !watch.length) watch = DEFAULT_WATCH.slice();
+
+  const S = { brief:null, coins:null, global:null, trending:null, pools:null, quotes:{}, errors:{}, lastPrice:0, prevPrices:{} };
+  async function getJSON(url){ const r = await fetch(url, {cache:"no-store"}); if (!r.ok) throw new Error(r.status); return r.json(); }
+
+  // Fallback straight to CoinGecko from the browser if the site's function is unavailable
+  async function coinsDirect(){
+    const d = await getJSON("https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=250&page=1&sparkline=true&price_change_percentage=1h,24h,7d,30d");
+    return {coins: d.map(c => ({id:c.id, symbol:String(c.symbol||"").toUpperCase(), name:c.name, image:c.image, rank:c.market_cap_rank, price:c.current_price, mcap:c.market_cap, vol:c.total_volume, high24:c.high_24h, low24:c.low_24h, ath:c.ath, athChange:c.ath_change_percentage, ch1h:c.price_change_percentage_1h_in_currency, ch24h:c.price_change_percentage_24h_in_currency ?? c.price_change_percentage_24h, ch7d:c.price_change_percentage_7d_in_currency, ch30d:c.price_change_percentage_30d_in_currency, spark:(c.sparkline_in_7d||{}).price||[]}))};
+  }
+
+  async function loadCoins(){
+    try { const d = await getJSON("/api/crypto?part=markets&n=250"); S.coins = d.coins; }
+    catch(e){ try { S.coins = (await coinsDirect()).coins; } catch(e2){ S.errors.coins = true; } }
+    if (S.coins){ S.errors.coins = false; S.lastPrice = Date.now(); }
+    render();
+  }
+  async function loadGlobal(){ try { S.global = await getJSON("/api/crypto?part=global"); } catch(e){} render(); }
+  async function loadTrending(){ try { S.trending = (await getJSON("/api/crypto?part=trending")).coins; } catch(e){} if (tab === "new") render(); }
+  async function loadPools(){ try { S.pools = (await getJSON("/api/crypto?part=new")).pools; } catch(e){ S.errors.pools = true; } if (tab === "new") render(); }
+  function stockSymbols(){
+    const extra = S.brief && S.brief.stocks ? S.brief.stocks.map(x => x.symbol).filter(Boolean) : [];
+    return [...new Set([...MACRO.map(m => m[0]), ...watch, ...extra])].slice(0, 45);
+  }
+  async function loadStocks(){
+    try {
+      const d = await getJSON("/api/stocks?symbols=" + encodeURIComponent(stockSymbols().join(",")));
+      for (const q of d.quotes){ if (!q.error) S.quotes[q.symbol] = q; else if (!S.quotes[q.symbol]) S.quotes[q.symbol] = {symbol:q.symbol, error:q.error}; }
+      S.errors.stocks = false; S.lastPrice = Date.now();
+    } catch(e){ S.errors.stocks = true; }
+    render();
+  }
+  async function loadBrief(){ try { S.brief = await getJSON("data/markets.json?t=" + Math.floor(Date.now()/60000)); } catch(e){} renderBrief(); render(); }
+
+  /* ---------- view state ---------- */
+  let tab = (location.hash || "").replace("#","");
+  if (!["crypto","stocks","new","guide"].includes(tab)) tab = store.get("nl:mtab") || "crypto";
+  if (!["crypto","stocks","new","guide"].includes(tab)) tab = "crypto";
+  const open = new Set();
+  let sortKey = "rank", sortDir = 1, query = "", showAll = false;
+
+  function setLive(){
+    const t = S.lastPrice;
+    const anyErr = (tab === "stocks" ? S.errors.stocks : S.errors.coins);
+    $("#dot").classList.toggle("stale", !t || Date.now()-t > 3*60000 || anyErr);
+    $("#liveText").textContent = !t ? "Connecting to live prices…" : anyErr ? "Live prices paused, retrying…" : "Prices live · updated " + ago(t);
+  }
+
+  /* ---------- the written brief ---------- */
+  function renderBrief(){
+    const b = S.brief;
+    if (!b){ $("#briefHead").textContent = "The written market brief will appear after the next hourly refresh."; return; }
+    const ts = Date.parse(b.updatedAt);
+    $("#briefWhen").textContent = "Market brief · updated " + ago(ts) + (b.nextRefresh ? " · next " + b.nextRefresh : "");
+    $("#briefHead").textContent = b.headline || "";
+    $("#briefSummary").textContent = b.summary || "";
+    const m = b.mood || {};
+    $("#moods").innerHTML = ["crypto","stocks"].filter(k => m[k]).map(k => `<div class="mood"><span class="k">${k === "crypto" ? "Crypto mood" : "Stock mood"}</span><span class="v">${esc(m[k].label)}</span><span class="d">${esc(m[k].why)}</span></div>`).join("");
+    const dr = b.drivers || [];
+    $("#driversWrap").hidden = !dr.length;
+    $("#drivers").innerHTML = dr.map(d => `<div class="driver"><div style="display:flex;justify-content:space-between;gap:10px;align-items:start"><h3>${esc(d.title)}</h3>${effectPill(d.effect)}</div><p>${esc(d.detail)}</p>${d.assets ? `<span class="pill">${esc(d.assets)}</span>` : ""}</div>`).join("");
+  }
+  const effectPill = (e) => !e ? "" : `<span class="pill ${e === "bullish" ? "up" : e === "bearish" ? "down" : "warn"}">${esc(e)}</span>`;
+  const leanPill = (o) => { if (!o || !o.lean) return ""; const c = o.lean === "up" ? "up" : o.lean === "down" ? "down" : "warn";
+    const t = {up:"Leaning up", down:"Leaning down", sideways:"Leaning sideways", unclear:"Unclear"}[o.lean] || o.lean;
+    return `<span class="pill ${c}">${t}${o.confidence ? " · " + esc(o.confidence) + " confidence" : ""}</span>`; };
+
+  /* ---------- breakdown cards (AI analysis merged with live prices) ---------- */
+  function liveFor(kind, a){
+    if (kind === "crypto"){ const c = (S.coins||[]).find(x => x.id === a.id) || (S.coins||[]).find(x => x.symbol === String(a.symbol||"").toUpperCase());
+      return c ? {price:c.price, ch:c.ch24h, chLabel:"24h", series:c.spark, cur:"USD"} : null; }
+    const q = S.quotes[a.symbol]; return q && !q.error ? {price:q.price, ch:q.changePct, chLabel:"today", series:q.closes, cur:q.currency} : null;
+  }
+  function cardHTML(a, kind){
+    const key = kind + ":" + (a.id || a.symbol);
+    const isOpen = open.has(key);
+    const live = liveFor(kind, a);
+    const sg = live ? signals(live.price, live.series, kind) : null;
+    const o = a.outlook || {};
+    const src = (a.sources||[]).map(x => `<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a>`).join("");
+    const id = "c-" + key.replace(/[^a-z0-9]/gi, "_");
+    return `<article class="card${isOpen?" open":""}" id="${id}">
+      <button class="card-head" data-key="${esc(key)}" aria-expanded="${isOpen}">
+        <div class="card-title"><b>${esc(a.name || a.symbol)}</b><span class="sym">${esc(a.symbol || "")}</span>${leanPill(o)}</div>
+        <div class="card-price">${live ? `<span class="p">${fmtPrice(live.price, live.cur)}</span><span class="c ${cls(live.ch)}">${pct(live.ch)} ${live.chLabel}</span>` : ""}</div>
+        <p class="card-move">${esc(a.move || "")}</p>
+        <div class="card-meta">${sg ? `<span class="chip ${sg.tone}">${esc(sg.label)}</span>` : "<span></span>"}<span class="toggle">${isOpen ? "Close" : "Why it moved and what's next"} <svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><path d="M2 4l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></span></div>
+      </button>
+      ${isOpen ? `<div class="card-body" data-close-key="${esc(key)}">
+        ${a.why ? `<div class="blk"><h4>Why it moved</h4><p>${esc(a.why)}</p></div>` : ""}
+        ${a.meaning ? `<div class="blk"><h4>What it means</h4><p>${esc(a.meaning)}</p></div>` : ""}
+        ${(o.bullCase || o.bearCase) ? `<div class="blk"><h4>Where it could go${o.horizon ? " · " + esc(o.horizon) : ""}</h4><div class="cases">
+          <div class="case"><h5 class="up">If it goes up</h5><p>${esc(o.bullCase || "–")}</p></div>
+          <div class="case"><h5 class="down">If it goes down</h5><p>${esc(o.bearCase || "–")}</p></div></div></div>` : ""}
+        ${o.watch ? `<div class="blk"><div class="watch"><h4>What to watch</h4><p>${esc(o.watch)}</p></div></div>` : ""}
+        ${sg ? `<div class="blk"><h4>Price signals (${esc(sg.horizon)})</h4>${sg.lines.map(l => `<p>${esc(l)}</p>`).join("")}</div>` : ""}
+        ${src ? `<div class="blk"><h4>Sources</h4><div class="sources">${src}</div></div>` : ""}
+        <button class="close-btn" data-close="${esc(key)}">Close</button>
+      </div>` : ""}
+    </article>`;
+  }
+
+  /* ---------- desks ---------- */
+  function cryptoDesk(){
+    const g = S.global, b = S.brief;
+    let h = "";
+    if (g){
+      const fg = g.fearGreed && g.fearGreed[0];
+      const fgPrev = g.fearGreed && g.fearGreed[7];
+      h += `<div class="section-h"><h2>Crypto market right now</h2></div><div class="stats">
+        <div class="stat"><span class="k">Total crypto market</span><span class="v">${fmtBig(g.totalMcap)}</span><span class="s ${cls(g.mcapChange24h)}">${pct(g.mcapChange24h)} 24h</span></div>
+        <div class="stat"><span class="k">24h trading volume</span><span class="v">${fmtBig(g.totalVol)}</span><span class="s flat">across ${fmtNum(g.activeCoins)} coins</span></div>
+        <div class="stat"><span class="k">Bitcoin dominance</span><span class="v">${g.btcDominance != null ? g.btcDominance.toFixed(1) + "%" : "–"}</span><span class="s flat">share of total value</span></div>
+        ${fg ? `<div class="stat"><span class="k">Fear &amp; Greed index</span><span class="v">${fg.value} · ${esc(fg.label)}</span><div class="fg-bar"><i style="left:${fg.value}%"></i></div><span class="s flat">${fgPrev ? "a week ago: " + fgPrev.value + " (" + esc(fgPrev.label) + ")" : ""}</span></div>` : ""}
+      </div>`;
+    }
+    const cards = b && b.crypto ? b.crypto : [];
+    h += `<div class="section-h"><h2>Breakdowns</h2><span class="note">${cards.length ? "Tap a coin for why it moved, both directions it could go, and what to watch." : ""}</span></div>`;
+    h += cards.length ? `<div class="cards">${cards.map(a => cardHTML(a, "crypto")).join("")}</div>` : `<div class="empty"><b>No breakdowns yet</b>They arrive with the next hourly market brief.</div>`;
+    h += `<div class="section-h"><h2>Top coins by market value</h2><div class="tools"><input class="search" id="q" type="search" placeholder="Search coins" value="${esc(query)}" aria-label="Search coins"></div></div>`;
+    if (!S.coins) h += S.errors.coins ? `<div class="empty"><b>Live crypto prices are unavailable</b>The price service didn't answer. This retries every minute.</div>` : `<div class="empty"><b>Loading live prices…</b></div>`;
+    else {
+      const ai = new Set(cards.map(c => c.id));
+      let rows = S.coins.slice();
+      if (query){ const q = query.toLowerCase(); rows = rows.filter(c => c.name.toLowerCase().includes(q) || c.symbol.toLowerCase().includes(q)); }
+      const val = (c) => sortKey === "name" ? c.name.toLowerCase() : c[sortKey];
+      rows.sort((a,b) => { const x = val(a), y = val(b); if (x == null) return 1; if (y == null) return -1; return (x > y ? 1 : x < y ? -1 : 0) * sortDir; });
+      const total = rows.length; if (!showAll && !query) rows = rows.slice(0, 100);
+      const th = (k, label, extra="") => `<th class="sortable ${extra}" data-sort="${k}" ${sortKey===k ? `aria-sort="${sortDir>0?"ascending":"descending"}"` : ""}>${label}</th>`;
+      h += `<div class="tablewrap"><table><thead><tr>${th("rank","#")}${th("name","Coin","l")}${th("price","Price")}${th("ch1h","1h","hide-sm")}${th("ch24h","24h")}${th("ch7d","7d","hide-sm")}<th class="hide-sm">Last 7 days</th>${th("mcap","Market value","hide-sm")}<th class="l hide-sm">Signal</th></tr></thead><tbody>`;
+      for (const c of rows){
+        const key = "row:" + c.id; const isOpen = open.has(key);
+        const sg = signals(c.price, c.spark, "crypto");
+        const prev = S.prevPrices["c:"+c.id]; const fl = prev != null && c.price != null && prev !== c.price ? (c.price > prev ? "flash-up" : "flash-down") : "";
+        h += `<tr class="row${isOpen?" open":""}" data-key="${key}"><td class="rk">${c.rank ?? ""}</td>
+          <td class="l"><div class="coin">${c.image ? `<img src="${esc(c.image)}" alt="" loading="lazy">` : ""}<span class="n">${esc(c.name)}</span><span class="s">${esc(c.symbol)}</span>${ai.has(c.id) ? '<span class="ai-dot" title="Has a written breakdown"></span>' : ""}</div></td>
+          <td class="num ${fl}">${fmtPrice(c.price)}</td><td class="num hide-sm ${cls(c.ch1h)}">${pct(c.ch1h)}</td><td class="num ${cls(c.ch24h)}">${pct(c.ch24h)}</td><td class="num hide-sm ${cls(c.ch7d)}">${pct(c.ch7d)}</td>
+          <td class="hide-sm">${spark(c.spark)}</td><td class="num hide-sm">${fmtBig(c.mcap)}</td><td class="l hide-sm">${sg ? `<span class="chip ${sg.tone}">${esc(sg.label)}</span>` : ""}</td></tr>`;
+        if (isOpen) h += `<tr class="detail"><td colspan="9">${coinDetail(c, sg)}</td></tr>`;
+      }
+      h += `</tbody></table></div>`;
+      if (!query && total > 100) h += `<div style="margin-top:10px"><button class="btn" id="more">${showAll ? "Show top 100" : "Show all " + total}</button></div>`;
+    }
+    return h;
+  }
+  function coinDetail(c, sg){
+    const a = S.brief && S.brief.crypto ? S.brief.crypto.find(x => x.id === c.id) : null;
+    return `<div class="detail-grid">
+      <div class="blk"><h4>Numbers</h4><p class="num" style="font-size:13px">24h range ${fmtPrice(c.low24)} – ${fmtPrice(c.high24)}<br>30d ${pct(c.ch30d)} · 24h volume ${fmtBig(c.vol)}<br>All-time high ${fmtPrice(c.ath)} (${pct(c.athChange)} from it)</p>${spark(c.spark, 260, 60)}</div>
+      ${sg ? `<div class="blk"><h4>Price signals (${esc(sg.horizon)})</h4>${sg.lines.map(l => `<p style="font-size:14px">${esc(l)}</p>`).join("")}</div>` : ""}
+      ${a ? `<div class="blk"><h4>Written breakdown</h4><p style="font-size:14px">${esc(a.why || a.move || "")}</p><button class="btn" data-goto-card="crypto:${esc(a.id)}">Read the full breakdown</button></div>` : ""}
+    </div>`;
+  }
+
+  function stockDesk(){
+    const b = S.brief; let h = "";
+    const anyState = Object.values(S.quotes).find(q => q.symbol === "^GSPC");
+    h += `<div class="section-h"><h2>Markets at a glance</h2><span class="note">${anyState ? "U.S. market: " + esc(anyState.state || "") : ""}</span></div><div class="tiles">`;
+    for (const [sym, label] of MACRO){
+      const q = S.quotes[sym];
+      h += `<div class="tile"><span class="k">${esc(label)}</span>${q && !q.error ? `<span class="v">${sym === "^TNX" ? q.price.toFixed(2) + "%" : sym === "CADUSD=X" ? "$" + q.price.toFixed(4) : fmtNum(q.price)}</span><span class="c ${cls(q.changePct)}">${pct(q.changePct)} today</span>` : `<span class="v">–</span><span class="c flat">${q && q.error ? "unavailable" : "loading"}</span>`}</div>`;
+    }
+    h += `</div>`;
+    const cards = b && b.stocks ? b.stocks : [];
+    h += `<div class="section-h"><h2>Breakdowns</h2><span class="note">${cards.length ? "Tap a stock for why it moved, both directions it could go, and what to watch." : ""}</span></div>`;
+    h += cards.length ? `<div class="cards">${cards.map(a => cardHTML(a, "stock")).join("")}</div>` : `<div class="empty"><b>No breakdowns yet</b>They arrive with the next hourly market brief.</div>`;
+    h += `<div class="section-h"><h2>Your watchlist</h2><form class="tools" id="addForm"><input class="search" id="addSym" placeholder="Add a ticker, e.g. NFLX or BNS.TO" aria-label="Add a ticker" autocomplete="off"><button class="btn" type="submit">Add</button></form></div>`;
+    if (S.errors.stocks && !Object.keys(S.quotes).length) h += `<div class="empty"><b>Live stock prices are unavailable</b>The quote service didn't answer. This retries every minute.</div>`;
+    const ai = new Set(cards.map(c => c.symbol));
+    h += `<div class="tablewrap"><table><thead><tr><th>Ticker</th><th>Price</th><th>Today</th><th class="hide-sm">1 month</th><th class="hide-sm">Last 6 months</th><th class="l hide-sm">Signal</th><th></th></tr></thead><tbody>`;
+    for (const sym of watch){
+      const q = S.quotes[sym]; const key = "srow:" + sym; const isOpen = open.has(key);
+      if (!q || q.error){ h += `<tr><td class="l"><div class="coin"><span class="n">${esc(sym)}</span></div></td><td colspan="5" class="l err">${q ? "Couldn't load this ticker. Check the symbol (Canadian stocks end in .TO)." : "Loading…"}</td><td><button class="x" data-remove="${esc(sym)}" aria-label="Remove ${esc(sym)}">×</button></td></tr>`; continue; }
+      const c = q.closes || []; const m1 = c.length > 21 ? (q.price / c[c.length-22] - 1) * 100 : null;
+      const sg = signals(q.price, c, "stock");
+      const prev = S.prevPrices["s:"+sym]; const fl = prev != null && prev !== q.price ? (q.price > prev ? "flash-up" : "flash-down") : "";
+      h += `<tr class="row${isOpen?" open":""}" data-key="${key}"><td class="l"><div class="coin"><span class="n">${esc(sym)}</span><span class="s hide-sm" style="max-width:220px;overflow:hidden;text-overflow:ellipsis">${esc(q.name)}</span>${ai.has(sym) ? '<span class="ai-dot" title="Has a written breakdown"></span>' : ""}</div></td>
+        <td class="num ${fl}">${fmtPrice(q.price, q.currency)}</td><td class="num ${cls(q.changePct)}">${pct(q.changePct)}</td><td class="num hide-sm ${cls(m1)}">${pct(m1)}</td>
+        <td class="hide-sm">${spark(c)}</td><td class="l hide-sm">${sg ? `<span class="chip ${sg.tone}">${esc(sg.label)}</span>` : ""}</td><td><button class="x" data-remove="${esc(sym)}" aria-label="Remove ${esc(sym)}">×</button></td></tr>`;
+      if (isOpen) h += `<tr class="detail"><td colspan="7">${stockDetail(q, sg, m1)}</td></tr>`;
+    }
+    h += `</tbody></table></div><div style="margin-top:10px;display:flex;gap:8px;flex-wrap:wrap"><button class="btn" id="resetWatch">Reset to default list</button></div>`;
+    return h;
+  }
+  function stockDetail(q, sg, m1){
+    const a = S.brief && S.brief.stocks ? S.brief.stocks.find(x => x.symbol === q.symbol) : null;
+    const c = q.closes || []; const m3 = c.length > 63 ? (q.price / c[c.length-64] - 1) * 100 : null;
+    return `<div class="detail-grid">
+      <div class="blk"><h4>${esc(q.name)}</h4><p class="num" style="font-size:13px">Day range ${fmtNum(q.dayLow)} – ${fmtNum(q.dayHigh)}<br>52-week range ${fmtNum(q.low52)} – ${fmtNum(q.high52)}<br>1 month ${pct(m1)} · 3 months ${pct(m3)}<br>${esc(q.exchange || "")} · ${esc(q.state || "")} · ${esc(q.source || "")}</p>${spark(c, 260, 60)}</div>
+      ${sg ? `<div class="blk"><h4>Price signals (${esc(sg.horizon)})</h4>${sg.lines.map(l => `<p style="font-size:14px">${esc(l)}</p>`).join("")}</div>` : ""}
+      ${a ? `<div class="blk"><h4>Written breakdown</h4><p style="font-size:14px">${esc(a.why || a.move || "")}</p><button class="btn" data-goto-card="stock:${esc(a.symbol)}">Read the full breakdown</button></div>` : ""}
+    </div>`;
+  }
+
+  function newDesk(){
+    let h = "";
+    const tr = S.trending || [];
+    const movers = (S.coins || []).filter(c => c.ch24h != null && c.mcap > 5e7);
+    const gain = movers.slice().sort((a,b) => b.ch24h - a.ch24h).slice(0, 8);
+    const lose = movers.slice().sort((a,b) => a.ch24h - b.ch24h).slice(0, 8);
+    const li = (c) => `<div class="li"><span class="coin">${c.image || c.thumb ? `<img src="${esc(c.image || c.thumb)}" alt="" loading="lazy">` : ""}<span class="n">${esc(c.name)}</span><span class="s">${esc(c.symbol)}</span></span><span class="num">${fmtPrice(c.price)}</span><span class="num ${cls(c.ch24h)}">${pct(c.ch24h)}</span></div>`;
+    h += `<div class="section-h"><h2>Biggest moves in the top 250 (24h)</h2><span class="note">Coins worth over $50M</span></div><div class="cols">
+      <div class="list"><h3 class="up">Up the most</h3>${gain.map(li).join("") || '<div class="li">Loading…</div>'}</div>
+      <div class="list"><h3 class="down">Down the most</h3>${lose.map(li).join("") || '<div class="li">Loading…</div>'}</div></div>`;
+    h += `<div class="section-h"><h2>Trending searches on CoinGecko</h2><span class="note">What people are looking up right now</span></div>`;
+    h += tr.length ? `<div class="list">${tr.slice(0, 10).map(c => li(c)).join("")}</div>` : `<div class="empty"><b>Loading trending coins…</b></div>`;
+    const nc = S.brief && S.brief.newCoins ? S.brief.newCoins : [];
+    h += `<div class="section-h"><h2>New and notable coins</h2><span class="note">Researched hourly</span></div>`;
+    h += nc.length ? `<div class="cards">${nc.map(n => `<article class="card"><div style="padding:16px 18px;display:grid;gap:8px">
+        <div class="card-title"><b>${esc(n.name)}</b><span class="sym">${esc(n.symbol || "")}</span><span class="pill down">Risk: ${esc(n.risk || "high")}</span></div>
+        <p style="margin:0">${esc(n.what)}</p>${n.why ? `<p style="margin:0;color:var(--muted)">${esc(n.why)}</p>` : ""}
+        ${n.redFlags ? `<p style="margin:0;font-size:14px"><b class="down">Red flags: </b>${esc(n.redFlags)}</p>` : ""}
+        ${n.sources && n.sources.length ? `<div class="sources">${n.sources.map(x => `<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a>`).join("")}</div>` : ""}
+      </div></article>`).join("")}</div>` : `<div class="empty"><b>Nothing yet</b>New-coin research arrives with the next hourly brief.</div>`;
+    h += `<div class="section-h"><h2>Brand-new tokens on decentralized exchanges</h2><span class="note">Live · pools created in the last few hours</span></div>
+      <div class="warnbox"><b>Extremely high risk.</b><span>Most brand-new tokens lose nearly all their value within days, and many are designed to trap buyers ("rug pulls", honeypots that can't be sold). Low liquidity means a single seller can crash the price. Treat this list as something to watch, not a shopping list.</span></div>`;
+    const pools = (S.pools || []).filter(p => p.liquidity >= 25000);
+    if (!S.pools) h += S.errors.pools ? `<div class="empty"><b>New-token data is unavailable right now</b></div>` : `<div class="empty"><b>Loading new tokens…</b></div>`;
+    else h += `<div class="tablewrap" style="margin-top:10px"><table><thead><tr><th>Pool</th><th class="hide-sm">Network</th><th>Age</th><th>Liquidity</th><th class="hide-sm">24h volume</th><th>1h</th><th class="hide-sm">Buys / sells</th></tr></thead><tbody>
+      ${pools.map(p => { const age = Math.max(0, (Date.now() - Date.parse(p.created)) / 3600000);
+        return `<tr><td class="l"><a href="${esc(p.url)}" target="_blank" rel="noopener" style="color:var(--world);text-decoration:none">${esc(p.name)}</a></td><td class="hide-sm">${esc(p.network)}</td><td class="num">${age < 1 ? Math.round(age*60) + "m" : age.toFixed(1) + "h"}</td><td class="num">${fmtBig(p.liquidity)}</td><td class="num hide-sm">${fmtBig(p.vol24)}</td><td class="num ${cls(p.ch1h)}">${pct(p.ch1h)}</td><td class="num hide-sm">${p.buys24 ?? "–"} / ${p.sells24 ?? "–"}</td></tr>`; }).join("") || '<tr><td colspan="7" class="l">No new pools with at least $25K of liquidity right now.</td></tr>'}
+      </tbody></table></div>`;
+    return h;
+  }
+
+  function guideDesk(){
+    const cal = (S.brief && S.brief.calendar || []).slice().sort((a,b) => String(a.date).localeCompare(String(b.date)));
+    const today = new Intl.DateTimeFormat("en-CA",{timeZone:TZ}).format(new Date());
+    const up = cal.filter(e => String(e.date) >= today);
+    let h = `<div class="section-h"><h2>Coming up that can move prices</h2></div>`;
+    h += up.length ? `<div class="cal">${up.map(e => { const d = new Date(e.date + "T12:00:00"); const n = Math.round((new Date(e.date+"T00:00:00") - new Date(today+"T00:00:00"))/86400000);
+      return `<div class="e"><span class="d"><b>${n === 0 ? "Today" : n === 1 ? "Tomorrow" : "In " + n + " days"}</b>${d.toLocaleDateString("en-CA",{weekday:"short",month:"short",day:"numeric"})}</span><div><strong>${esc(e.label)}</strong><div style="color:var(--muted);font-size:14px">${esc(e.why)}</div></div></div>`; }).join("")}</div>` : `<div class="empty"><b>No upcoming events listed yet</b>The calendar fills in with the hourly brief.</div>`;
+    h += `<div class="section-h"><h2>How to use this page</h2></div><div class="guide">
+      <section><h3>Before you put money in</h3><ul>
+        <li>Only invest money you won't need for years. Stocks can drop 30% or more in a bad year, and big coins have fallen 70–80% several times.</li>
+        <li>Buying a fixed amount on a schedule (dollar-cost averaging) removes the need to time the bottom, which almost nobody does reliably.</li>
+        <li>Keep any single coin or stock to a small slice of your total, especially anything outside the top 10.</li>
+        <li>In Canada, a TFSA lets investment gains grow tax-free. Most brokers offer one, and some allow crypto ETFs inside it.</li>
+        <li>If a decision feels urgent because something is "about to explode," that urgency is usually the risk.</li>
+      </ul></section>
+      <section><h3>What the signals mean</h3><ul>
+        <li><b>Uptrend / Downtrend:</b> whether the price is above or below its recent averages. Trends tend to persist, but they all end eventually.</li>
+        <li><b>Overbought / Oversold:</b> RSI above 70 or below 30. These often come before a pause or a bounce, but not always.</li>
+        <li><b>Lean and confidence:</b> the written brief's best guess for the next few days to weeks, based on news and price action. Low confidence means it could easily go either way.</li>
+        <li><b>Fear &amp; Greed:</b> a crypto sentiment score. Extreme fear has often lined up with better long-term entry prices, and extreme greed with tops, though timing varies.</li>
+      </ul></section>
+      <section><h3>What this page can't do</h3><ul>
+        <li>It can't see the future. Surprise news (a hack, a lawsuit, a central bank decision) can reverse any signal in minutes.</li>
+        <li>Signals look only at the past few days to months of price. They say nothing about whether a company or coin is a good long-term holding.</li>
+        <li>Stock prices can be delayed up to 15 minutes, and the written brief is up to an hour old.</li>
+        <li>This is not personalized financial advice. For big decisions, a fee-only financial planner can look at your whole situation.</li>
+      </ul></section></div>`;
+    return h;
+  }
+
+  /* ---------- render ---------- */
+  function renderTabs(){ document.querySelectorAll(".tab").forEach(t => t.setAttribute("aria-selected", String(t.dataset.tab === tab))); }
+  function render(){
+    renderTabs(); setLive();
+    const active = document.activeElement && document.activeElement.id;
+    const caret = active === "q" || active === "addSym" ? document.activeElement.selectionStart : null;
+    const addVal = $("#addSym") ? $("#addSym").value : "";
+    $("#desk").innerHTML = tab === "crypto" ? cryptoDesk() : tab === "stocks" ? stockDesk() : tab === "new" ? newDesk() : guideDesk();
+    if ($("#addSym")) $("#addSym").value = addVal;
+    if (active && (active === "q" || active === "addSym") && document.getElementById(active)){ const el = document.getElementById(active); el.focus(); try { el.setSelectionRange(caret, caret); } catch(e){} }
+    // remember prices to flash changes on the next update
+    for (const c of S.coins || []) S.prevPrices["c:"+c.id] = c.price;
+    for (const k in S.quotes) if (S.quotes[k].price != null) S.prevPrices["s:"+k] = S.quotes[k].price;
+  }
+  function setTab(t){ tab = t; store.set("nl:mtab", t); try { history.replaceState(null, "", "#" + t); } catch(e){} render(); }
+
+  function toggle(key){ open.has(key) ? open.delete(key) : open.add(key); render(); }
+  function onClick(e){
+    const th = e.target.closest("[data-theme-set]"); if (th){ store.set("nl:theme", th.dataset.themeSet); applyTheme(th.dataset.themeSet); return; }
+    const t = e.target.closest(".tab"); if (t){ setTab(t.dataset.tab); return; }
+    if (e.target.closest("a")) return;
+    const cl = e.target.closest("[data-close]");
+    if (cl){ const key = cl.dataset.close; open.delete(key); render(); const head = document.querySelector(`.card-head[data-key="${CSS.escape(key)}"]`); if (head){ if (head.getBoundingClientRect().top < 120) head.closest(".card").scrollIntoView({block:"start"}); head.focus({preventScroll:true}); } return; }
+    const gc = e.target.closest("[data-goto-card]"); if (gc){ open.add(gc.dataset.gotoCard); render(); const el = document.querySelector(`.card-head[data-key="${CSS.escape(gc.dataset.gotoCard)}"]`); if (el){ el.closest(".card").scrollIntoView({block:"start", behavior:"smooth"}); } return; }
+    const rm = e.target.closest("[data-remove]"); if (rm){ watch = watch.filter(s => s !== rm.dataset.remove); store.set("nl:watch", JSON.stringify(watch)); render(); return; }
+    if (e.target.closest("#resetWatch")){ watch = DEFAULT_WATCH.slice(); store.set("nl:watch", JSON.stringify(watch)); loadStocks(); return; }
+    if (e.target.closest("#more")){ showAll = !showAll; render(); return; }
+    const so = e.target.closest("[data-sort]"); if (so){ const k = so.dataset.sort; if (sortKey === k) sortDir = -sortDir; else { sortKey = k; sortDir = (k === "rank" || k === "name") ? 1 : -1; } render(); return; }
+    const head = e.target.closest(".card-head"); if (head){ toggle(head.dataset.key); return; }
+    const body = e.target.closest(".card-body"); if (body && !e.target.closest("button") && !String(window.getSelection && window.getSelection()).length){ const key = body.dataset.closeKey; open.delete(key); render(); const h2 = document.querySelector(`.card-head[data-key="${CSS.escape(key)}"]`); if (h2 && h2.getBoundingClientRect().top < 120) h2.closest(".card").scrollIntoView({block:"start"}); return; }
+    const row = e.target.closest("tr.row"); if (row && !e.target.closest("button")){ toggle(row.dataset.key); return; }
+  }
+  function onInput(e){ if (e.target.id === "q"){ query = e.target.value.trim(); render(); } }
+  function onSubmit(e){
+    if (e.target.id !== "addForm") return; e.preventDefault();
+    const v = $("#addSym").value.trim().toUpperCase();
+    if (!/^[A-Z0-9.^=\-]{1,15}$/.test(v)) return;
+    if (!watch.includes(v)) { watch.unshift(v); store.set("nl:watch", JSON.stringify(watch)); }
+    $("#addSym").value = ""; render(); loadStocks();
+  }
+  function onKey(e){ if (e.key === "Escape" && open.size){ open.clear(); render(); } }
+  document.addEventListener("click", onClick);
+  document.addEventListener("input", onInput);
+  document.addEventListener("submit", onSubmit);
+  document.addEventListener("keydown", onKey);
+
+  /* ---------- schedule: prices every minute, everything else less often ---------- */
+  function every(fn, ms){ fn(); return setInterval(() => { if (!document.hidden) fn(); }, ms); }
+  loadBrief().then(() => { every(loadStocks, 60000); });
+  every(loadCoins, 60000);
+  every(loadGlobal, 5*60000);
+  every(loadTrending, 5*60000);
+  every(loadPools, 2*60000);
+  setInterval(loadBrief, 5*60000);
+  setInterval(() => { setLive(); if (S.brief) $("#briefWhen").textContent = "Market brief · updated " + ago(Date.parse(S.brief.updatedAt)) + (S.brief.nextRefresh ? " · next " + S.brief.nextRefresh : ""); }, 5000);
+  document.addEventListener("visibilitychange", () => { if (!document.hidden){ loadCoins(); loadStocks(); } });
+  renderTabs();
+})();
+</script>
+</body>
+</html>
