@@ -540,13 +540,15 @@ svg.spark{display:block}
         ${n.redFlags ? `<p style="margin:0;font-size:14px"><b class="down">Red flags: </b>${esc(n.redFlags)}</p>` : ""}
         ${n.sources && n.sources.length ? `<div class="sources">${n.sources.map(x => `<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a>`).join("")}</div>` : ""}
       </div></article>`).join("")}</div>` : `<div class="empty"><b>Nothing yet</b>New-coin research arrives with the next hourly brief.</div>`;
-    h += `<div class="section-h"><h2>Brand-new tokens on decentralized exchanges</h2><span class="note">Live · pools created in the last few hours</span></div>
-      <div class="warnbox"><b>Extremely high risk.</b><span>Most brand-new tokens lose nearly all their value within days, and many are designed to trap buyers ("rug pulls", honeypots that can't be sold). Low liquidity means a single seller can crash the price. Treat this list as something to watch, not a shopping list.</span></div>`;
-    const pools = (S.pools || []).filter(p => p.liquidity >= 25000);
+    h += `<div class="section-h"><h2>Brand-new tokens on decentralized exchanges</h2><span class="note">Live · pools created in the last few hours, sorted by trading volume</span></div>
+      <div class="warnbox"><b>Extremely high risk.</b><span>Most brand-new tokens lose nearly all their value within days, and many are designed to trap buyers ("rug pulls", honeypots that can't be sold). Low liquidity means a single seller can crash the price, and the numbers on brand-new pools are often faked. This list hides pools with almost no real trading. Treat it as something to watch, not a shopping list.</span></div>`;
+    // Brand-new pools often report fake liquidity (e.g. $200M with two trades). Keep ones with real trading and sort by volume.
+    const pools = (S.pools || []).filter(p => p.liquidity >= 10000 && p.liquidity <= 2e7 && p.vol24 >= 5000 && ((p.buys24||0) + (p.sells24||0)) >= 25 && p.vol24 <= p.liquidity * 200)
+      .sort((a,b) => b.vol24 - a.vol24);
     if (!S.pools) h += S.errors.pools ? `<div class="empty"><b>New-token data is unavailable right now</b></div>` : `<div class="empty"><b>Loading new tokens…</b></div>`;
     else h += `<div class="tablewrap" style="margin-top:10px"><table><thead><tr><th>Pool</th><th class="hide-sm">Network</th><th>Age</th><th>Liquidity</th><th class="hide-sm">24h volume</th><th>1h</th><th class="hide-sm">Buys / sells</th></tr></thead><tbody>
       ${pools.map(p => { const age = Math.max(0, (Date.now() - Date.parse(p.created)) / 3600000);
-        return `<tr><td class="l"><a href="${esc(p.url)}" target="_blank" rel="noopener" style="color:var(--world);text-decoration:none">${esc(p.name)}</a></td><td class="hide-sm">${esc(p.network)}</td><td class="num">${age < 1 ? Math.round(age*60) + "m" : age.toFixed(1) + "h"}</td><td class="num">${fmtBig(p.liquidity)}</td><td class="num hide-sm">${fmtBig(p.vol24)}</td><td class="num ${cls(p.ch1h)}">${pct(p.ch1h)}</td><td class="num hide-sm">${p.buys24 ?? "–"} / ${p.sells24 ?? "–"}</td></tr>`; }).join("") || '<tr><td colspan="7" class="l">No new pools with at least $25K of liquidity right now.</td></tr>'}
+        return `<tr><td class="l"><a href="${esc(p.url)}" target="_blank" rel="noopener" style="color:var(--world);text-decoration:none">${esc(p.name)}</a></td><td class="hide-sm">${esc(p.network)}</td><td class="num">${age < 1 ? Math.round(age*60) + "m" : age.toFixed(1) + "h"}</td><td class="num">${fmtBig(p.liquidity)}</td><td class="num hide-sm">${fmtBig(p.vol24)}</td><td class="num ${cls(p.ch1h)}">${pct(p.ch1h)}</td><td class="num hide-sm">${p.buys24 ?? "–"} / ${p.sells24 ?? "–"}</td></tr>`; }).join("") || '<tr><td colspan="7" class="l">No brand-new pools with real trading activity right now.</td></tr>'}
       </tbody></table></div>`;
     return h;
   }
