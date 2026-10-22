@@ -1,22 +1,22 @@
 {
-  "updatedAt": "2026-10-22T01:22:00-04:00",
-  "nextRefresh": "around 2:22 AM",
-  "headline": "Asia slides on AI-spending jitters; Nasdaq futures down over 1%",
-  "summary": "Stocks closed higher Wednesday (Nasdaq +1.05%, S&P 500 +0.58%, TSX +0.60%), but the mood has soured overnight: Nasdaq 100 futures are down about 1.2%–1.3% and S&P 500 futures about 0.6%–0.7% as investors question returns on Big Tech's AI spending after Tesla, Meta and Lam Research reported. Asia fell hard, with South Korea's Kospi down about 3.3% on chipmaker selling and Hong Kong's Hang Seng down nearly 3%. Bitcoin is holding near $82,800, flat on the day, while total crypto market value is down about 2.7% in 24 hours to roughly $2.79 trillion; Brent oil around $111 remains the main headwind ahead of next week's Fed and Bank of Canada decisions.",
+  "updatedAt": "2026-10-22T02:23:00-04:00",
+  "nextRefresh": "around 3:22 AM",
+  "headline": "Asia falls on AI-spending doubts; Nasdaq futures down about 1.2%",
+  "summary": "Stocks closed higher Wednesday (Nasdaq +1.05%, S&P 500 +0.58%, TSX +0.60%), but overnight trading has turned cautious: Nasdaq 100 futures are down about 1.2% and S&P 500 futures about 0.6% as investors question the payoff from Big Tech's AI spending after Tesla, Meta and Lam Research reported. Asia is lower, with South Korea's Kospi down about 2% and Hong Kong's Hang Seng down nearly 3% on chipmaker and China-tech selling. Bitcoin is steady near $82,700 and total crypto value is down about 2.6% in 24 hours to roughly $2.79 trillion, while Monero jumped about 13%; oil near $99 (U.S.) and above $110 (Brent) remains the main inflation risk before next week's Fed and Bank of Canada decisions.",
   "mood": {
     "crypto": {
       "label": "Cautious",
-      "why": "The Fear & Greed index reads 68 (Greed), but bitcoin gave back Wednesday's bounce within hours, is still down about 3% over 30 days, total crypto value is down 2.7% in a day, and ether ETFs keep losing money."
+      "why": "The Fear & Greed index reads 68 (Greed), but bitcoin is flat on the day and down about 3% over 30 days, total crypto value fell 2.6% in 24 hours, and ether ETFs keep losing money; gains are confined to a few coins like Monero."
     },
     "stocks": {
       "label": "Risk-off",
-      "why": "Wednesday's close was strong, but futures and Asian markets are sliding on AI-spending worries, chip stocks are on their longest losing streak since 2008, and Brent near $111 keeps inflation fears alive."
+      "why": "Wednesday's close was strong, but futures and Asian markets are sliding on AI-spending worries, chip stocks are on their longest losing streak since 2008, and oil above $110 (Brent) keeps inflation fears alive."
     }
   },
   "drivers": [
     {
       "title": "AI-spending jitters after Big Tech earnings",
-      "detail": "Tesla fell about 3.3% after hours after cutting its spending plan, Meta rose about 2.2% after raising its AI spending range, and Lam Research dropped about 7.4% on a soft forecast; Nasdaq 100 futures are down about 1.2%–1.3%. Chip stocks led Asia lower: South Korea's Kospi fell about 3.3% to its lowest close since April and SK Hynix and Samsung each lost roughly 4%, while the Philadelphia chip index has fallen eight sessions in a row, its longest streak since 2008.",
+      "detail": "Tesla fell about 3.3% after hours after cutting its spending plan, Meta rose about 2.2% after raising its AI spending range, and Lam Research dropped about 7.4% on a soft forecast; Nasdaq 100 futures are down about 1.2%. Chip stocks led Asia lower Thursday, with SK Hynix down about 4%, Samsung about 3.6% and the Kospi about 2%, while the Philadelphia chip index has fallen eight sessions in a row, its longest streak since 2008.",
       "effect": "bearish",
       "assets": "Nasdaq, chip stocks, bitcoin"
     },
@@ -33,8 +33,8 @@
       "assets": "Stocks, bitcoin, gold"
     },
     {
-      "title": "Brent near $111",
-      "detail": "Brent rose about 2% overnight to roughly $111 a barrel after a drone attack on a Saudi Aramco oil field and continued shipping risks around the Strait of Hormuz. The U.S. price on the dashboard (December contract) is up about 1.8% to about $98.90.",
+      "title": "Brent above $110",
+      "detail": "Brent rose about 1.5% overnight to just above $110 a barrel after deadly attacks in Saudi Arabia and continued shipping risks around the Strait of Hormuz. The U.S. price on the dashboard (December contract) is up about 2.2% to about $99.25.",
       "effect": "mixed",
       "assets": "Oil, TSX energy, inflation"
     },
@@ -56,7 +56,7 @@
       "id": "bitcoin",
       "symbol": "BTC",
       "name": "Bitcoin",
-      "move": "Flat in 24h, up 2.5% this week, to about $82,803 (down 3% over 30 days)",
+      "move": "Flat in 24h, up 1.4% this week, to about $82,670 (down 3% over 30 days)",
       "why": "Bitcoin hit a one-week high near $84,700 on Wednesday as tech stocks rallied and short sellers were forced to buy back (liquidations, when leveraged bets get closed automatically; about $208 million of short bets were wiped out in 24 hours, per CoinGlass). It then slid back below $83,000 in the evening as U.S. stock futures turned lower after Tesla's results, showing it is still trading closely with the Nasdaq. Spot bitcoin ETFs (funds that hold real bitcoin) took in about $550 million on Monday and Tuesday, but early estimates point to a small outflow on Wednesday.",
       "meaning": "The quick give-back shows buyers aren't yet strong enough to push it out of the $80,000–$87,000 range it has held for a month. An on-chain analyst at CryptoQuant warns that weakness in both bitcoin and the S&P 500 at once has preceded deeper drops before, though that is one view, not a forecast.",
       "outlook": {
@@ -90,7 +90,7 @@
       "id": "ethereum",
       "symbol": "ETH",
       "name": "Ethereum",
-      "move": "Flat in 24h, up 3.7% this week, to about $2,441 (down 11% over 30 days)",
+      "move": "Flat in 24h, up 2.2% this week, to about $2,435 (down 11% over 30 days)",
       "why": "Ether briefly rose to about $2,490 with bitcoin on Wednesday, then gave the gain back in the evening, and it keeps trailing as U.S. ether ETFs kept losing money: about $26 million on Tuesday and an estimated $31 million more on Wednesday, taking October outflows past $1 billion, the worst month of 2026. On the plus side, a record 43.8 million ETH (about 36% of supply) is staked, meaning locked up to secure the network, though the average staking yield slipped to 2.63%.",
       "meaning": "Ether is lagging bitcoin because big investors keep pulling money from the ETFs. Until those flows turn, rallies may be harder to sustain.",
       "outlook": {
@@ -117,10 +117,40 @@
       ]
     },
     {
+      "id": "monero",
+      "symbol": "XMR",
+      "name": "Monero",
+      "move": "Up 13.1% in 24h, up 18.3% this week, to about $655.06 (up 14% over 30 days)",
+      "why": "Monero, a privacy-focused coin that hides who sends what, is the day's biggest gainer among large coins, pushing to about $655. There is no project-specific news behind it: the latest software release on Oct. 16 was routine maintenance. The run started after veteran chart trader Peter Brandt called XMR his favourite large-cap setup, and futures trading volume has outpaced spot (actual coin) trading, a sign that leveraged bets are doing much of the lifting.",
+      "meaning": "Rallies driven by borrowed money can reverse quickly if traders are forced to close positions (a liquidation). Monero is also still about 18% below its January record near $799, and an EU anti-money-laundering rule from July 2027 will bar regulated crypto firms from handling privacy coins, which limits where it can trade.",
+      "outlook": {
+        "lean": "unclear",
+        "confidence": "low",
+        "horizon": "next 1–2 weeks",
+        "bullCase": "Holding above the old $600 resistance could keep momentum going toward the $700 area and, beyond that, the January high near $799.",
+        "bearCase": "A leverage flush could drag it back through $600 toward the $520–$560 zone where it bounced earlier this month.",
+        "watch": "Whether it holds $600, futures open interest and funding rates, spot volume versus futures volume, and any exchange delisting news."
+      },
+      "sources": [
+        {
+          "title": "CoinDCX: Monero breaks $600 as futures lead the rally",
+          "url": "https://coindcx.com/blog/crypto-news-global/monero-xmr-crypto-climbs-back-above-600-what-traders-should-watch-now"
+        },
+        {
+          "title": "24/7 Wall St.: XMR topped $600 after Brandt turned bullish",
+          "url": "https://247wallst.com/investing/cryptocurrency/2026/10/19/monero-price-prediction-xmr-topped-600-after-peter-brandt-turned-bullish-is-it-too-late-to-buy/"
+        },
+        {
+          "title": "CoinCodex: Daily market update Oct. 22",
+          "url": "https://coincodex.com/article/94092/daily-market-update-for-october-22-2026"
+        }
+      ]
+    },
+    {
       "id": "zcash",
       "symbol": "ZEC",
       "name": "Zcash",
-      "move": "Up 2.0% in 24h, up 17.2% this week, to about $1,282 (down 12% over 30 days)",
+      "move": "Up 0.4% in 24h, up 13.8% this week, to about $1,261 (down 13% over 30 days)",
       "why": "Traders are positioning for the NU7 upgrade, which developers scheduled for about 7:50 p.m. ET on Nov. 5; it cuts block times from 75 to 25 seconds and sends 60% of fees to a reserve. Futures open interest (the value of open bets) rose about 19–24%, and two large traders reportedly opened about $37.6 million of 10x leveraged longs. Bitwise's Zcash ETF saw small inflows Tuesday after outflows the day before.",
       "meaning": "Much of this rally is driven by leverage, and data show sellers stayed active during the rise, so swings both ways can be sharp. Upgrade dates often bring 'buy the rumour, sell the news' behaviour.",
       "outlook": {
@@ -146,7 +176,7 @@
       "id": "lighter",
       "symbol": "LIT",
       "name": "Lighter",
-      "move": "Up 8.4% in 24h, up 24.4% this week, to about $3.69 (down 21% over 30 days)",
+      "move": "Up 6.4% in 24h, up 19.8% this week, to about $3.64 (down 23% over 30 days)",
       "why": "The token of the Lighter derivatives exchange jumped after reports from its Oct. 21 investor call that it plans to apply for a U.S. licence in November and is weighing access through Robinhood's U.S. platform; neither has been confirmed. Renewed attention on its existing Robinhood Wallet partnership and a Delphi Digital research report added interest.",
       "meaning": "The move rests on unconfirmed plans. Only 25% of the 1 billion tokens are circulating, so future supply is a long-term overhang, and the token is still about half its all-time high.",
       "outlook": {
@@ -172,7 +202,7 @@
       "id": "near",
       "symbol": "NEAR",
       "name": "NEAR Protocol",
-      "move": "Up 0.8% in 24h, up 8.9% this week, to about $5.06 (up 15% over 30 days)",
+      "move": "Flat in 24h, up 6.1% this week, to about $5.00 (up 17% over 30 days)",
       "why": "NEAR has been one of October's strongest large coins. Supports include the first U.S. spot NEAR ETF from Bitwise (launched Sept. 29), a governance proposal to cut yearly new-token issuance from 2.5% to 1.6%, and strong use of its NEAR Intents cross-chain swap service. It was the top performer in the CoinDesk 100 today, without a single fresh headline.",
       "meaning": "The rally has real drivers behind it, but the issuance cut is only a proposal and NEAR is already back near its early-October highs around $6. Fast multi-week runs tend to see sharp pullbacks.",
       "outlook": {
@@ -198,7 +228,7 @@
       "id": "ethena",
       "symbol": "ENA",
       "name": "Ethena",
-      "move": "Up 0.6% in 24h, up 9.1% this week, to about $0.202 (down 4% over 30 days)",
+      "move": "Flat in 24h, up 5.9% this week, to about $0.200 (down 5% over 30 days)",
       "why": "ENA led large-cap gainers, but coverage today points to technical momentum rather than a single news event; the hourly RSI, a gauge of how overstretched a move is, hit about 73, which is considered overbought. A longer-term support is that the last tranche of early-investor tokens unlocked on Oct. 5, ending Ethena's monthly investor unlocks after the foundation bought out many early backers in August.",
       "meaning": "With the investor unlock overhang gone, ENA's supply picture is cleaner, but USDe, the synthetic dollar that drives Ethena's revenue, is far below its 2025 peak. A one-day pop on no clear news can unwind just as fast.",
       "outlook": {
@@ -224,7 +254,7 @@
       "id": "ripple",
       "symbol": "XRP",
       "name": "XRP",
-      "move": "Up 0.6% in 24h, up 3.5% this week, to about $1.34 (down 11% over 30 days)",
+      "move": "Up 0.7% in 24h, up 1.6% this week, to about $1.34 (down 11% over 30 days)",
       "why": "XRP was the strongest of the major coins today in a broad altcoin bounce. Ripple's push to offer round-the-clock stock trading on crypto rails is in the news, though no single XRP-specific catalyst explains the gain.",
       "meaning": "XRP tends to move more than bitcoin in both directions, so today's outperformance mostly reflects higher risk appetite. The 30-day trend is still down.",
       "outlook": {
@@ -250,7 +280,7 @@
       "id": "solana",
       "symbol": "SOL",
       "name": "Solana",
-      "move": "Down 0.7% in 24h, up 3.0% this week, to about $105.19 (down 10% over 30 days)",
+      "move": "Down 0.9% in 24h, up 1.1% this week, to about $104.79 (down 10% over 30 days)",
       "why": "Solana moved roughly in line with the market as its Alpenglow upgrade, a major overhaul aimed at much faster transaction finality, was set to go live on Wednesday. Big upgrades can attract buyers but also carry execution risk.",
       "meaning": "A smooth Alpenglow launch would be a meaningful technical milestone, but price has lagged this month. Watch for any network problems in the first days after launch.",
       "outlook": {
@@ -273,7 +303,7 @@
     {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "move": "Up 0.58% to 7,757 at Wednesday's close, about 1% below its record near 7,845; futures are down about 0.6%–0.7% overnight",
+      "move": "Up 0.58% to 7,757 at Wednesday's close, about 1% below its record near 7,845; futures are down about 0.6% overnight",
       "why": "Stocks rose as SpaceX's strong quarter revived enthusiasm for AI-related tech, Super Micro raised its sales forecast sharply and cybersecurity stocks jumped 5–7% after a critical software flaw was disclosed. Netflix and AT&T were the big drags. The VIX, Wall Street's 'fear gauge', slipped to about 16.7.",
       "meaning": "The index is near its highs heading into the busiest stretch of earnings season. A 10-year yield above 5.1% still makes stocks look expensive relative to bonds.",
       "outlook": {
@@ -306,7 +336,7 @@
     {
       "symbol": "^IXIC",
       "name": "Nasdaq Composite",
-      "move": "Up 1.05% to about 26,703 at Wednesday's close, about 3.7% below its 52-week high; Nasdaq 100 futures are down about 1.2%–1.3% overnight",
+      "move": "Up 1.05% to about 26,703 at Wednesday's close, about 3.7% below its 52-week high; Nasdaq 100 futures are down about 1.2% overnight",
       "why": "Tech led: SpaceX jumped after beating forecasts, Tesla rose ahead of its report and on merger talk, chip stocks firmed after Super Micro's outlook, and cybersecurity names rallied. Alphabet's 1.6% slide trimmed the gain.",
       "meaning": "The AI trade bounced Wednesday, but overnight selling in chip stocks from Seoul to Hong Kong shows investors are nervous about how much Big Tech is spending on AI and when it pays off. The bar for results next week is high.",
       "outlook": {
