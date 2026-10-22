@@ -1,22 +1,22 @@
 {
-  "updatedAt": "2026-10-22T06:26:11-04:00",
-  "nextRefresh": "around 7:22 AM",
-  "headline": "Bitcoin holds near $82,000 as Asia slumps and U.S. oil tops $100",
-  "summary": "Wall Street closed higher Wednesday (Nasdaq +1.05%, S&P 500 +0.58%, TSX +0.60%), but Thursday is shaping up weak: Nasdaq 100 futures are down roughly 1.5–2% after Tesla, Lam Research and IBM fell after hours, and Asia sold off hard, with Japan, Korea and Hong Kong down about 3% and China's CSI 300 entering a bear market. Bitcoin is steady but soft near $82,000, down about 1.4% in a day after a round trip to nearly $85,000 that wiped out about $430 million of leveraged bets. U.S. crude is near $100 and Brent above $112, its highest since May, after more Houthi attacks on Saudi Arabia, keeping inflation worries alive ahead of next week's Fed and Bank of Canada decisions.",
+  "updatedAt": "2026-10-22T07:30:00-04:00",
+  "nextRefresh": "around 8:22 AM",
+  "headline": "Bitcoin slips below $82,000 as AI-spending doubts and $112 Brent hit futures",
+  "summary": "Wall Street closed higher Wednesday (Nasdaq +1.05%, S&P 500 +0.58%, TSX +0.60%), but Thursday looks weak: Nasdaq 100 futures were down about 1.3–1.9% early on, with Tesla, IBM and Intel each off about 5% before the open and chip stocks down 3–5%, after Asia fell about 3% and Europe's Stoxx 600 slid about 0.9%. Bitcoin is near $81,900, down about 1.7% in a day after a round trip to nearly $85,000, and DeFi tokens (decentralized-finance apps) are leading crypto's losses. U.S. crude is near $99 and Brent around $112, its highest since May, after more Houthi attacks on Saudi Arabia, keeping inflation worries alive ahead of next week's Fed and Bank of Canada decisions.",
   "mood": {
     "crypto": {
       "label": "Cautious",
-      "why": "The Fear & Greed index still reads 68 (Greed), but bitcoin and ether are both down about 1.5% on the day, most large coins are red, and gains are limited to a few names like Monero and Lighter."
+      "why": "The Fear & Greed index still reads 68 (Greed), but bitcoin is down about 1.7% and ether 2.4% on the day, total crypto value is down about 5% to $2.74 trillion, and gains are limited to a few names like Monero and Lighter."
     },
     "stocks": {
       "label": "Risk-off",
-      "why": "Wednesday's close was strong, but U.S. futures point to a drop of about 1% for the S&P 500, Asia fell about 3% across major markets, the VIX fear gauge is up about 10% to 18.4, and oil is climbing."
+      "why": "Wednesday's close was strong, but S&P 500 futures were down about 0.7–1.1% early Thursday, Asia fell about 3% across major markets, the VIX fear gauge is up about 9% to 18.2, and oil is climbing."
     }
   },
   "drivers": [
     {
       "title": "AI-spending jitters after Big Tech earnings",
-      "detail": "Before the open, Tesla is down about 5%, Lam Research about 9% and IBM about 6%, all despite beating forecasts, while Meta's after-hours gain has faded to a small loss; the QQQ Nasdaq fund is down about 1.75%. The worry spread across Asia: Japan's Nikkei and Hong Kong's Hang Seng fell about 3%, Korea's Kospi 3.5%, and China's CSI 300 is now 20% below its June peak, the usual definition of a bear market.",
+      "detail": "Before the open, Tesla was down about 5%, IBM about 6%, Intel about 5% and Lam Research about 9%, with AMD, Broadcom, Micron and other chipmakers off 3–5% and Meta about 2% lower, as Tesla's capex cut and Meta's spending plans revived doubts about the payoff from AI. The worry spread across Asia and Europe: Korea's Kospi fell 3.5%, Japan's Nikkei about 2.7%, Hong Kong more than 2%, China's CSI 300 entered a bear market, and the Stoxx 600 slipped about 0.9%.",
       "effect": "bearish",
       "assets": "Tech stocks, chipmakers, Bitcoin"
     },
@@ -34,7 +34,7 @@
     },
     {
       "title": "Oil climbs on Saudi attacks",
-      "detail": "U.S. crude is up about 2.5–3% to roughly $99.50–$100 a barrel and Brent is above $112, its highest since May, after Iran-aligned Houthi strikes on Saudi Arabia; reports also say the U.S. and Israel have drawn up plans for possible renewed strikes on Iran after the U.S. midterms. Higher oil feeds inflation fears, while gold is down about 1.1% to near $4,100.",
+      "detail": "U.S. crude is up about 1.8% to roughly $99 a barrel and Brent is around $112, its highest since May, after Iran-aligned Houthi strikes on Saudi airports and the Shaybah oil field; the U.S. also told staff to leave its Riyadh embassy, and reports say the U.S. and Israel may resume strikes on Iran after the midterms. Higher oil feeds inflation fears, while gold is down about 1.4% to near $4,090.",
       "effect": "mixed",
       "assets": "Oil, Canadian energy stocks, bonds, crypto"
     },
@@ -56,8 +56,8 @@
       "id": "bitcoin",
       "symbol": "BTC",
       "name": "Bitcoin",
-      "move": "Down 1.4% in 24h, up 0.7% this week, to about $82,000 (down 5% over 30 days)",
-      "why": "Bitcoin climbed to nearly $85,000 late Wednesday as tech stocks rallied, then fell back to about $81,800, a round trip of about $3,000 in under a day. That swing caused about $431 million of liquidations (leveraged bets closed automatically), first hitting short sellers on the way up and then about $210 million of bullish bets on the way down, per CoinGlass data cited by CoinDesk. The drop came as Nasdaq futures fell after Tesla and Lam Research and Asian stocks sold off, showing bitcoin is still trading closely with tech. Separately, Chinese prosecutors are seeking to confiscate more than 61,800 BTC tied to a $5.7 billion fraud case; the coins are held in Britain and tied up in court, so no sale is imminent.",
+      "move": "Down 1.7% in 24h, up 1.0% this week, to about $81,900 (down 4.9% over 30 days)",
+      "why": "Bitcoin climbed to nearly $85,000 late Wednesday as tech stocks rallied, then fell as much as 2.9% to about $81,600, its biggest drop in two weeks, as Tesla's and Meta's results revived doubts about AI spending and Nasdaq futures slid. The round trip caused about $431 million of liquidations (leveraged bets closed automatically), split fairly evenly between bullish and bearish bets, and open interest fell, meaning traders were closing positions rather than adding new ones. Spot bitcoin ETFs still took in more than $1 billion over the first three days of the week. Separately, Chinese prosecutors are seeking to confiscate more than 61,800 BTC tied to a fraud case; the coins are held in Britain and tied up in court, so no sale is imminent.",
       "meaning": "The quick give-back shows buyers aren't yet strong enough to push it out of the $80,000–$87,000 range it has held for a month. ETF buying of about $1.08 billion over three days helps, but it is below the pace that came with past strong rallies, and some traders warn that a clean break below about $80,000 could open a slide toward $70,000.",
       "outlook": {
         "lean": "sideways",
@@ -69,6 +69,10 @@
       },
       "sources": [
         {
+          "title": "CoinDesk: Bitcoin slides below $82,000 as AI doubts return",
+          "url": "https://www.coindesk.com/markets/2026/10/22/bitcoin-slides-below-usd82-000-as-ai-doubts-return-with-defi-tokens-leading-declines"
+        },
+        {
           "title": "CoinDesk: Bitcoin's round trip to $85,000 burns traders",
           "url": "https://www.coindesk.com/business/2026/10/22/live-updates-bitcoin-s-round-trip-to-usd85-000-burns-traders-on-both-sides"
         },
@@ -79,10 +83,6 @@
         {
           "title": "KuCoin News: Bitcoin ETFs attract $1.08B in 3 days",
           "url": "https://www.kucoin.com/news/flash/bitcoin-etfs-attract-1-08-billion-in-3-days-but-not-enough-for-steep-rally"
-        },
-        {
-          "title": "CoinDesk: China seeks to seize 61,800 BTC",
-          "url": "https://www.coindesk.com/markets/2026/10/22/china-seeks-to-seize-61-800-btc-tied-to-usd5-7-billion-fraud-scheme"
         }
       ]
     },
@@ -90,7 +90,7 @@
       "id": "ethereum",
       "symbol": "ETH",
       "name": "Ethereum",
-      "move": "Down 1.5% in 24h, up 1.4% this week, to about $2,408 (down 12.5% over 30 days)",
+      "move": "Down 2.4% in 24h, up 1.3% this week, to about $2,400 (down 12.6% over 30 days)",
       "why": "Ether briefly rose to about $2,490 with bitcoin on Wednesday, then gave the gain back overnight and dipped just under $2,400, and it keeps trailing as U.S. ether ETFs kept losing money: about $26 million on Tuesday and an estimated $31 million more on Wednesday, taking October outflows past $1 billion, the worst month of 2026. On the plus side, a record 43.8 million ETH (about 36% of supply) is staked, meaning locked up to secure the network, though the average staking yield slipped to 2.63%.",
       "meaning": "Ether is lagging bitcoin because big investors keep pulling money from the ETFs. Until those flows turn, rallies may be harder to sustain.",
       "outlook": {
@@ -103,6 +103,10 @@
       },
       "sources": [
         {
+          "title": "CoinDesk: Bitcoin slides below $82,000 as AI doubts return",
+          "url": "https://www.coindesk.com/markets/2026/10/22/bitcoin-slides-below-usd82-000-as-ai-doubts-return-with-defi-tokens-leading-declines"
+        },
+        {
           "title": "FXStreet: Ether ETF outflows pass $1B in October",
           "url": "https://www.fxstreet.com/cryptocurrencies/news/ether-etf-outflows-continue-pass-1b-in-october-so-far-202610210841"
         },
@@ -113,10 +117,6 @@
         {
           "title": "Nexo: Markets today, Oct. 21",
           "url": "https://nexo.com/blog/markets-today-october-21"
-        },
-        {
-          "title": "CoinDesk: Bitcoin's round trip to $85,000 burns traders",
-          "url": "https://www.coindesk.com/business/2026/10/22/live-updates-bitcoin-s-round-trip-to-usd85-000-burns-traders-on-both-sides"
         }
       ]
     },
@@ -124,8 +124,8 @@
       "id": "monero",
       "symbol": "XMR",
       "name": "Monero",
-      "move": "Up 8.5% in 24h, up 20% this week, to about $648 (up 14% over 30 days)",
-      "why": "Monero, a privacy-focused coin that hides who sends what, is the only large coin posting a big gain today, trading near $650. There is no project-specific news behind it: the latest software release on Oct. 16 was routine maintenance. The run started after veteran chart trader Peter Brandt called XMR his favourite large-cap setup, and futures trading volume has outpaced spot (actual coin) trading, a sign that leveraged bets are doing much of the lifting.",
+      "move": "Up 7.1% in 24h, 19% this week and 13% over 30 days, to about $642",
+      "why": "Monero, a privacy-focused coin that hides who sends what, is the only large coin posting a big gain today, trading near $650. There is no project-specific news behind it: the latest software release on Oct. 16 was routine maintenance. The run started after veteran chart trader Peter Brandt called XMR his favourite large-cap setup, and futures trading volume has outpaced spot (actual coin) trading, a sign that leveraged bets are doing much of the lifting. Futures funding rates (the fee bullish leveraged traders pay to keep bets open) are running near 70% a year, far above other coins, per CoinDesk, which shows how crowded the bullish side is.",
       "meaning": "Rallies driven by borrowed money can reverse quickly if traders are forced to close positions (a liquidation). Monero is also still about 18% below its January record near $799, and an EU anti-money-laundering rule from July 2027 will bar regulated crypto firms from handling privacy coins, which limits where it can trade.",
       "outlook": {
         "lean": "unclear",
@@ -136,6 +136,10 @@
         "watch": "Whether it holds $600, futures open interest and funding rates, spot volume versus futures volume, and any exchange delisting news."
       },
       "sources": [
+        {
+          "title": "CoinDesk: Bitcoin slides below $82,000 as AI doubts return",
+          "url": "https://www.coindesk.com/markets/2026/10/22/bitcoin-slides-below-usd82-000-as-ai-doubts-return-with-defi-tokens-leading-declines"
+        },
         {
           "title": "CoinDCX: Monero breaks $600 as futures lead the rally",
           "url": "https://coindcx.com/blog/crypto-news-global/monero-xmr-crypto-climbs-back-above-600-what-traders-should-watch-now"
@@ -154,8 +158,8 @@
       "id": "zcash",
       "symbol": "ZEC",
       "name": "Zcash",
-      "move": "Down 0.5% in 24h, up 12% this week, to about $1,252 (down 16% over 30 days)",
-      "why": "Traders are positioning for the NU7 upgrade, which developers scheduled for about 7:50 p.m. ET on Nov. 5; it cuts block times from 75 to 25 seconds and sends 60% of fees to a reserve. Futures open interest (the value of open bets) rose about 19–24%, and two large traders reportedly opened about $37.6 million of 10x leveraged longs. Bitwise's Zcash ETF saw small inflows Tuesday after outflows the day before.",
+      "move": "Down 2.1% in 24h, up 14% this week, to about $1,253 (down 16% over 30 days)",
+      "why": "Traders are positioning for the NU7 upgrade, which developers scheduled for about 7:50 p.m. ET on Nov. 5; it cuts block times from 75 to 25 seconds and sends 60% of fees to a reserve. Futures open interest (the value of open bets) rose about 19–24%, and two large traders reportedly opened about $37.6 million of 10x leveraged longs. Bitwise's Zcash ETF saw small inflows Tuesday after outflows the day before. Today, open interest is falling faster than the price (about 7% vs. 2%), a sign some of those leveraged traders are taking profits.",
       "meaning": "Much of this rally is driven by leverage, and data show sellers stayed active during the rise, so swings both ways can be sharp. Upgrade dates often bring 'buy the rumour, sell the news' behaviour.",
       "outlook": {
         "lean": "up",
@@ -166,6 +170,10 @@
         "watch": "$1,375 resistance, funding rates and open interest, ETF flows, and any upgrade delay."
       },
       "sources": [
+        {
+          "title": "CoinDesk: Bitcoin slides below $82,000 as AI doubts return",
+          "url": "https://www.coindesk.com/markets/2026/10/22/bitcoin-slides-below-usd82-000-as-ai-doubts-return-with-defi-tokens-leading-declines"
+        },
         {
           "title": "The Crypto Times: Zcash rises 13%, traders watch $1,375",
           "url": "https://www.cryptotimes.io/2026/10/21/zcash-price-rises-13-as-traders-watch-1375-resistance/"
@@ -180,7 +188,7 @@
       "id": "lighter",
       "symbol": "LIT",
       "name": "Lighter",
-      "move": "Up 10% in 24h, up 22% this week, to about $3.70 (down 24% over 30 days)",
+      "move": "Up 9.8% in 24h and 25% this week, to about $3.71 (down 23% over 30 days)",
       "why": "The token of the Lighter derivatives exchange jumped after reports from its Oct. 21 investor call that it plans to apply for a U.S. licence in November and is weighing access through Robinhood's U.S. platform; neither has been confirmed. Renewed attention on its existing Robinhood Wallet partnership and a Delphi Digital research report added interest.",
       "meaning": "The move rests on unconfirmed plans. Only 25% of the 1 billion tokens are circulating, so future supply is a long-term overhang, and the token is still about half its all-time high.",
       "outlook": {
@@ -206,7 +214,7 @@
       "id": "near",
       "symbol": "NEAR",
       "name": "NEAR Protocol",
-      "move": "Down 2.5% in 24h, up 4.7% this week, to about $4.99 (up 9% over 30 days)",
+      "move": "Down 3.6% in 24h, up 7.7% this week, to about $4.99 (up 11% over 30 days)",
       "why": "NEAR has been one of October's strongest large coins. Supports include the first U.S. spot NEAR ETF from Bitwise (launched Sept. 29), a governance proposal to cut yearly new-token issuance from 2.5% to 1.6%, and strong use of its NEAR Intents cross-chain swap service. It led the CoinDesk 100 on Wednesday without a single fresh headline, and is giving some of that back today with the wider market.",
       "meaning": "The rally has real drivers behind it, but the issuance cut is only a proposal and NEAR is already back near its early-October highs around $6. Fast multi-week runs tend to see sharp pullbacks.",
       "outlook": {
@@ -232,8 +240,8 @@
       "id": "ethena",
       "symbol": "ENA",
       "name": "Ethena",
-      "move": "Down 3.0% in 24h, up 5.8% this week, to about $0.197 (down 7% over 30 days)",
-      "why": "ENA led large-cap gainers on Wednesday before slipping today; coverage points to technical momentum rather than a single news event; the hourly RSI, a gauge of how overstretched a move is, hit about 73, which is considered overbought. A longer-term support is that the last tranche of early-investor tokens unlocked on Oct. 5, ending Ethena's monthly investor unlocks after the foundation bought out many early backers in August.",
+      "move": "Down 4.4% in 24h, up 5.9% this week, to about $0.198 (down 7% over 30 days)",
+      "why": "ENA led large-cap gainers on Wednesday, then became one of the biggest losers today as DeFi tokens led crypto lower, with CoinDesk's DeFi index down about 6% and ENA about 25% below its late-September peak. The earlier rally looked driven by momentum, with the hourly RSI (a gauge of how overstretched a move is) hitting about 73, an overbought reading. A longer-term support is that the last tranche of early-investor tokens unlocked on Oct. 5, ending Ethena's monthly investor unlocks.",
       "meaning": "With the investor unlock overhang gone, ENA's supply picture is cleaner, but USDe, the synthetic dollar that drives Ethena's revenue, is far below its 2025 peak. A one-day pop on no clear news can unwind just as fast.",
       "outlook": {
         "lean": "unclear",
@@ -244,6 +252,10 @@
         "watch": "USDe supply, the $0.195–$0.2165 range, and broader altcoin risk appetite."
       },
       "sources": [
+        {
+          "title": "CoinDesk: Bitcoin slides below $82,000 as AI doubts return",
+          "url": "https://www.coindesk.com/markets/2026/10/22/bitcoin-slides-below-usd82-000-as-ai-doubts-return-with-defi-tokens-leading-declines"
+        },
         {
           "title": "The Cryptonomist: Ethena rally stretched on hourly chart",
           "url": "https://en.cryptonomist.ch/2026/10/21/ethena-price-s-rally-stretched-hourly-rsi-october-21-2026/"
@@ -258,7 +270,7 @@
       "id": "ripple",
       "symbol": "XRP",
       "name": "XRP",
-      "move": "Down 1.4% in 24h, up 0.8% this week, to about $1.33 (down 14% over 30 days)",
+      "move": "Down 2.0% in 24h, up 0.9% this week, to about $1.33 (down 14% over 30 days)",
       "why": "XRP is drifting lower with the rest of the market after a brief bounce on Wednesday. On the network side, a planned XRP Ledger bug fix was pushed back to November after support from validators (the computers that approve changes) briefly dipped, per a CoinDesk headline. Ripple's push to offer round-the-clock stock trading on crypto rails remains in the news, but no single catalyst explains today's move.",
       "meaning": "XRP tends to move more than bitcoin in both directions, so it mostly reflects overall risk appetite. The 30-day trend is still down about 14%, and the delayed ledger fix is a minor technical setback rather than a security event.",
       "outlook": {
@@ -288,7 +300,7 @@
       "id": "solana",
       "symbol": "SOL",
       "name": "Solana",
-      "move": "Down 1.4% in 24h, up 0.8% this week, to about $104.50 (down 11% over 30 days)",
+      "move": "Down 2.0% in 24h, up 1.4% this week, to about $104.50 (down 11% over 30 days)",
       "why": "Solana completed its Alpenglow upgrade, a major overhaul aimed at much faster transaction finality (the point at which a payment can't be reversed), according to CoinDesk. The price has moved roughly in line with the market rather than rallying on the news, slipping about 3% at one point overnight.",
       "meaning": "A smooth Alpenglow launch is a meaningful technical milestone, but the market is treating it as already expected. The first days after a big upgrade are when problems usually show up, so stability matters more than headlines.",
       "outlook": {
@@ -301,6 +313,10 @@
       },
       "sources": [
         {
+          "title": "CoinDesk: Bitcoin slides below $82,000 as AI doubts return",
+          "url": "https://www.coindesk.com/markets/2026/10/22/bitcoin-slides-below-usd82-000-as-ai-doubts-return-with-defi-tokens-leading-declines"
+        },
+        {
           "title": "CoinDesk: Bitcoin's round trip to $85,000 burns traders",
           "url": "https://www.coindesk.com/business/2026/10/22/live-updates-bitcoin-s-round-trip-to-usd85-000-burns-traders-on-both-sides"
         }
@@ -311,7 +327,7 @@
     {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "move": "Up 0.58% to 7,757 at Wednesday's close, about 1% below its record near 7,845; the SPY S&P 500 fund is down about 1% before Thursday's open",
+      "move": "Up 0.58% to 7,757 at Wednesday's close, about 1% below its record near 7,845; S&P 500 futures were down about 0.7–1.1% early Thursday",
       "why": "Stocks rose as SpaceX's strong quarter revived enthusiasm for AI-related tech, Super Micro raised its sales forecast sharply and cybersecurity stocks jumped 5–7% after a critical software flaw was disclosed. Netflix and AT&T were the big drags. The VIX, Wall Street's 'fear gauge', slipped to about 16.7.",
       "meaning": "The index is near its highs heading into the busiest stretch of earnings season, but Thursday's futures and Asia's slide suggest a weak start. A 10-year yield above 5% still makes stocks look expensive relative to bonds.",
       "outlook": {
@@ -324,6 +340,10 @@
       },
       "sources": [
         {
+          "title": "Reuters via Investing.com: Nasdaq futures drop over 1% as AI worries resurface",
+          "url": "https://za.investing.com/news/stock-market-news/nasdaq-futures-drop-over-1-as-ai-worries-resurface-oil-climbs-4518714"
+        },
+        {
           "title": "Yahoo Finance: Stock market today, Oct. 21",
           "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-october-21-dow-sp-500-nasdaq-100000105.html"
         },
@@ -334,17 +354,13 @@
         {
           "title": "Investing.com: U.S. futures fall as investors weigh Tesla, Meta",
           "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-fall-as-investors-weigh-tesla-meta-earnings-4964498"
-        },
-        {
-          "title": "Benzinga: Futures drop after Asian sell-off",
-          "url": "https://www.benzinga.com/markets/equities/26/10/62518477/stock-market-today-sp-500-dow-futures-drop-following-asian-market-sell-off-middle-east-tensions-nflx-spcx-smci-in-focus"
         }
       ]
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq Composite",
-      "move": "Up 1.05% to about 26,703 at Wednesday's close, about 3.7% below its 52-week high; Nasdaq 100 futures are down about 1.5–2% early Thursday",
+      "move": "Up 1.05% to about 26,703 at Wednesday's close, about 3.7% below its 52-week high; Nasdaq 100 futures were down about 1.3–1.9% early Thursday",
       "why": "Tech led: SpaceX jumped after beating forecasts, Tesla rose ahead of its report and on merger talk, chip stocks firmed after Super Micro's outlook, and cybersecurity names rallied. Alphabet's 1.6% slide trimmed the gain.",
       "meaning": "The AI trade bounced Wednesday, but heavy overnight selling in Asian tech, with Chinese tech shares in Hong Kong having their worst day since April 2025, shows investors are nervous about how much Big Tech is spending on AI and when it pays off.",
       "outlook": {
@@ -357,6 +373,10 @@
       },
       "sources": [
         {
+          "title": "Reuters via Investing.com: Nasdaq futures drop over 1% as AI worries resurface",
+          "url": "https://za.investing.com/news/stock-market-news/nasdaq-futures-drop-over-1-as-ai-worries-resurface-oil-climbs-4518714"
+        },
+        {
           "title": "Yahoo Finance: Stock market today, Oct. 21",
           "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-october-21-dow-sp-500-nasdaq-100000105.html"
         },
@@ -367,10 +387,6 @@
         {
           "title": "CoinDesk: Asian stocks tumble as China enters bear market",
           "url": "https://www.coindesk.com/markets/2026/10/22/asian-stocks-tumble-bitcoin-retreats-as-china-enters-bear-market"
-        },
-        {
-          "title": "Investing.com: Asia stocks slide as AI jitters hit Korean chipmakers",
-          "url": "https://www.investing.com/news/stock-market-news/asia-stocks-slide-as-ai-jitters-hit-korean-chipmakers-4964599"
         }
       ]
     },
@@ -402,7 +418,7 @@
     {
       "symbol": "META",
       "name": "Meta Platforms",
-      "move": "Closed up 0.5% at $697.52; an after-hours jump of as much as 6% on earnings has faded to a loss of about 1% before Thursday's open",
+      "move": "Closed up 0.5% at $697.52; an after-hours jump of as much as 6% on earnings has turned into a loss of about 2% before Thursday's open",
       "why": "Third-quarter revenue rose 26% to $64.6 billion, beating the roughly $63.3 billion expected, and earnings were $7.40 a share excluding a $9.9 billion legal charge ($3.83 including it). Fourth-quarter revenue guidance of $73–$76 billion has a midpoint above consensus, and Meta narrowed 2026 capital spending to $135–$145 billion (raising the low end) while giving no 2027 number yet beyond saying AI investment stays heavy. It also plans to hand out one new non-voting Class C share for every existing share in January 2027, which works like a 2-for-1 split.",
       "meaning": "The core ad business is growing fast, which supports the stock, but AI spending pushed free cash flow negative (about -$2.1 billion) this quarter. A separate $25 billion penalty imposed by a New Mexico judge in a privacy case is under appeal and adds legal uncertainty.",
       "outlook": {
@@ -415,6 +431,10 @@
       },
       "sources": [
         {
+          "title": "Reuters via Investing.com: Nasdaq futures drop over 1% as AI worries resurface",
+          "url": "https://za.investing.com/news/stock-market-news/nasdaq-futures-drop-over-1-as-ai-worries-resurface-oil-climbs-4518714"
+        },
+        {
           "title": "Benzinga: Futures drop after Asian sell-off",
           "url": "https://www.benzinga.com/markets/equities/26/10/62518477/stock-market-today-sp-500-dow-futures-drop-following-asian-market-sell-off-middle-east-tensions-nflx-spcx-smci-in-focus"
         },
@@ -425,17 +445,13 @@
         {
           "title": "TheStreet: Meta Q3 2026 earnings call recap",
           "url": "https://www.thestreet.com/investing/earnings/meta-q3-2026-earnings-call-stock-forecast-updates"
-        },
-        {
-          "title": "Seoul Economic Daily: Meta raises capex floor, new share class",
-          "url": "https://en.sedaily.com/international/2026/10/22/meta-raises-capex-floor-will-issue-stock-to-fund-ai-push"
         }
       ]
     },
     {
       "symbol": "TSLA",
       "name": "Tesla",
-      "move": "Closed up 3.4% at $386.47; down about 5% before Thursday's open (near $366) after earnings",
+      "move": "Closed up 3.4% at $386.47; down about 5% before Thursday's open (near $367) after earnings",
       "why": "Tesla rose during the day on Musk's comments that Tesla and SpaceX formed committees to study a merger. After the close it reported adjusted earnings of $0.48 a share versus about $0.45 expected and revenue of $28.05 billion, flat from a year ago and slightly below some forecasts; free cash flow of $1.5 billion beat expectations of a cash burn because spending came in about $3 billion lower than expected. Shares first rose about 2%, then turned lower during the call as Tesla cut its 2026 capital-spending plan to about $20 billion from more than $25 billion and Musk said reaching 20,000 Optimus robots a week will take at least a year.",
       "meaning": "The core business is weak: operating income fell 56% to $718 million and deliveries slipped 2%, so the stock still trades mostly on robotaxi, Optimus and SpaceX-merger hopes. Lower spending helps cash flow but can read as a slower AI push, which is what the pre-market selling suggests.",
       "outlook": {
@@ -448,6 +464,10 @@
       },
       "sources": [
         {
+          "title": "Investing.com: Why is Tesla stock sliding today?",
+          "url": "https://www.investing.com/news/stock-market-news/why-is-tesla-stock-sliding-today-93CH-4964960"
+        },
+        {
           "title": "SiliconANGLE: Tesla falls despite earnings beat",
           "url": "https://siliconangle.com/2026/10/21/tesla-shares-fall-more-than-3-despite-earnings-beat-and-1-5b-in-free-cash-flow/"
         },
@@ -458,17 +478,13 @@
         {
           "title": "CNBC: Tesla beats on earnings and sales",
           "url": "https://www.cnbc.com/2026/10/21/tesla-tsla-q3-2026-earnings-report.html"
-        },
-        {
-          "title": "Benzinga: Futures drop after Asian sell-off",
-          "url": "https://www.benzinga.com/markets/equities/26/10/62518477/stock-market-today-sp-500-dow-futures-drop-following-asian-market-sell-off-middle-east-tensions-nflx-spcx-smci-in-focus"
         }
       ]
     },
     {
       "symbol": "SPCX",
       "name": "SpaceX",
-      "move": "Closed up 7.8% at $159.31, after rising as much as 12% intraday",
+      "move": "Closed up 7.8% at $159.31 Wednesday; down about 2% before Thursday's open as a lockup on up to 1.3 billion shares ends",
       "why": "SpaceX's third-quarter results beat forecasts: revenue was about $14.6 billion versus about $12.7 billion expected, and earnings per share were $0.35 versus $0.14. Its AI business brought in about $7.6 billion, more than Starlink and rockets combined. Elon Musk also said SpaceX and Tesla have set up special committees to study a possible merger. Up to 1.3 billion early shares become free to sell today as a lockup (a ban on insiders selling after a listing) expires.",
       "meaning": "The beat shows how central AI has become to SpaceX's story. A large lockup expiry on Thursday, when up to 1.3 billion early shares can be sold, could add selling pressure even after good news.",
       "outlook": {
@@ -480,6 +496,10 @@
         "watch": "Thursday's lockup expiry, any merger details, and trading volume."
       },
       "sources": [
+        {
+          "title": "Fortune: Markets sell off worldwide as Middle East conflict looms",
+          "url": "https://fortune.com/2026/10/22/markets-sell-off-worldwide-further-conflict-looms-middle-east-elon-musk-cuts-capex-guidance/"
+        },
         {
           "title": "Yahoo Finance: Stock market today, Oct. 21",
           "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-october-21-dow-sp-500-nasdaq-100000105.html"
@@ -720,7 +740,7 @@
     },
     {
       "date": "2026-10-22",
-      "label": "Earnings: Procter & Gamble, Lockheed Martin, Comcast, Spotify, Western Digital",
+      "label": "Earnings: Blackstone, Honeywell, American Airlines, Spotify, Comcast",
       "why": "A read on consumer spending, defence and industrial demand, and data-storage chips heading into Big Tech week."
     },
     {
