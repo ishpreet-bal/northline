@@ -1,23 +1,23 @@
 {
-  "updatedAt": "2026-10-21T18:22:38-04:00",
-  "nextRefresh": "around 7:22 PM",
-  "headline": "Meta holds after-hours gain; bitcoin steady near $84,500 as ETF buying cools",
-  "summary": "Stocks closed higher, led by the Nasdaq (+1.05%), and the TSX gained 0.6% on banks and tech. In after-hours trading Meta is holding a gain of roughly 3–4% on its earnings beat, Tesla is roughly flat after its call, and chip-equipment maker Lam Research fell about 7% despite beating forecasts. Bitcoin is steady near $84,500, up about 2% in a day, though early data point to small ETF outflows on Wednesday after two strong days, so the rally is short on fresh fuel.",
+  "updatedAt": "2026-10-21T22:22:00-04:00",
+  "nextRefresh": "around 11:22 PM",
+  "headline": "Futures slip as Tesla reverses lower; bitcoin gives back gains near $82,900",
+  "summary": "Stocks closed higher Wednesday (Nasdaq +1.05%, S&P 500 +0.58%, TSX +0.60%), but U.S. futures have since turned lower: S&P 500 futures were down about 0.4% and Nasdaq 100 futures about 0.7% around 9 p.m. ET after Tesla erased an early after-hours gain and Meta's jump faded to about 2%. Bitcoin slipped back to about $82,900, roughly flat on the day and about 2% below this evening's high near $84,700, as crypto again followed tech futures lower. Brent near $110 and a 10-year yield above 5.1% remain the main headwinds ahead of next week's Fed and Bank of Canada decisions.",
   "mood": {
     "crypto": {
       "label": "Cautious",
-      "why": "Prices are up and the Fear & Greed index sits at 63 (Greed), but bitcoin is still down about 2.5% over 30 days, ETF buying cooled on Wednesday and ether ETFs keep losing money."
+      "why": "The Fear & Greed index reads 68 (Greed), but bitcoin gave back most of Wednesday's bounce within hours, is still down about 3% over 30 days, and ether ETFs keep losing money."
     },
     "stocks": {
-      "label": "Risk-on",
-      "why": "Earnings beats from SpaceX and Meta and a VIX near 16.7 point to confidence, though a 10-year yield above 5.1% and Brent near $109 keep a lid on how far valuations can stretch."
+      "label": "Cautious",
+      "why": "Wednesday's close was strong and the VIX sits near 16.7, but futures turned lower after Tesla's reversal while a 10-year yield above 5.1% and Brent near $110 cap valuations."
     }
   },
   "drivers": [
     {
-      "title": "Big Tech earnings start strong",
-      "detail": "Meta topped revenue estimates and its shares rose as much as 6% after hours before settling around +3.7%, while Tesla traded roughly flat after its call; IBM rose about 4% and Lam Research fell about 7% on an outlook that only slightly beat forecasts. Earlier, SpaceX jumped 7.8% on a blowout quarter; Alphabet, Microsoft and Amazon report next week.",
-      "effect": "bullish",
+      "title": "Big Tech earnings: Meta up, Tesla reverses",
+      "detail": "Meta beat on revenue and was still up a little over 2% after hours, while Tesla flipped from an early gain to a loss of more than 3% as investors focused on falling operating income and Musk's slower-than-hoped timeline for its Optimus robot. That reversal pulled S&P 500 futures down about 0.4% and Nasdaq 100 futures about 0.7% by about 9 p.m. ET; Alphabet, Microsoft and Amazon report next week.",
+      "effect": "mixed",
       "assets": "Nasdaq, tech stocks, bitcoin"
     },
     {
@@ -33,8 +33,8 @@
       "assets": "Stocks, bitcoin, gold"
     },
     {
-      "title": "Brent near $109 after Saudi attack",
-      "detail": "A drone attack on a Saudi Aramco oil field killed two people, and reports said the U.S. was preparing to pull some staff from Gulf embassies; Brent settled at about $108.80 and briefly topped $110 after hours. The U.S. oil price on the dashboard shows about -4%, but that mostly reflects the switch to the December contract, which is near $98.",
+      "title": "Brent back above $110",
+      "detail": "Brent traded above $110 a barrel in Asian trading after a drone attack on a Saudi Aramco oil field and continued tanker attacks around the Strait of Hormuz. The U.S. price on the dashboard (December contract) is up about 1.2% to about $98.30.",
       "effect": "mixed",
       "assets": "Oil, TSX energy, inflation"
     },
@@ -56,29 +56,33 @@
       "id": "bitcoin",
       "symbol": "BTC",
       "name": "Bitcoin",
-      "move": "Up 1.8% in 24h and 3.7% this week, to about $84,550 (still down about 2.5% over 30 days)",
-      "why": "Bitcoin bounced from the $82,500 support area to a one-week high near $84,860 as U.S. tech stocks rallied, and a burst of forced buying by short sellers (liquidations, when leveraged bets against the price get closed automatically) added fuel. Spot bitcoin ETFs (funds that hold real bitcoin) took in about $550 million over Monday and Tuesday, though early on-chain estimates show a small outflow of about $34 million on Wednesday. The OCC's final stablecoin rules also lifted sentiment across crypto stocks.",
-      "meaning": "The bounce looks healthier than last week's, but bitcoin is still stuck in the $80,000–$87,000 range it has held for a month. Options traders are still paying a premium for downside protection, so the market isn't fully convinced yet.",
+      "move": "Up 0.2% in 24h and 2.3% this week, to about $82,900 (down about 2.8% over 30 days); it fell about 0.8% in the last hour",
+      "why": "Bitcoin hit a one-week high near $84,700 on Wednesday as tech stocks rallied and short sellers were forced to buy back (liquidations, when leveraged bets get closed automatically; about $208 million of short bets were wiped out in 24 hours, per CoinGlass). It then slid back below $83,000 in the evening as U.S. stock futures turned lower after Tesla's results, showing it is still trading closely with the Nasdaq. Spot bitcoin ETFs (funds that hold real bitcoin) took in about $550 million on Monday and Tuesday, but early estimates point to a small outflow on Wednesday.",
+      "meaning": "The quick give-back shows buyers aren't yet strong enough to push it out of the $80,000–$87,000 range it has held for a month. An on-chain analyst at CryptoQuant warns that weakness in both bitcoin and the S&P 500 at once has preceded deeper drops before, though that is one view, not a forecast.",
       "outlook": {
         "lean": "sideways",
         "confidence": "medium",
         "horizon": "next 1–2 weeks",
-        "bullCase": "Holding above $84,000, steady ETF inflows and good reactions to Big Tech earnings could carry it to the top of the range near $87,000–$87,500, and a break above that would be a bigger shift.",
-        "bearCase": "A hawkish Fed message on Oct. 28, a jump in yields or oil, or ETF outflows returning could push it back to $82,500 and then the $80,000 floor.",
-        "watch": "Daily ETF flows (Wednesday's official figures), whether Meta's after-hours gain carries into Thursday's open, the 10-year yield near 5.15%, and the Fed decision on Oct. 28."
+        "bullCase": "Reclaiming $84,000–$84,700 with steady ETF inflows and a firmer Nasdaq could carry it to the top of the range near $87,000–$87,500; a break above that would be a bigger shift.",
+        "bearCase": "Weak tech trading Thursday, a hawkish Fed on Oct. 28, or higher yields and oil could push it to the $82,400 support and then the $80,000 floor.",
+        "watch": "Thursday's Nasdaq open, Wednesday's official ETF flow figures, the 10-year yield near 5.15%, and the Fed decision on Oct. 28."
       },
       "sources": [
         {
-          "title": "CoinDesk: Bitcoin clings to $82.5K as SpaceX lifts futures",
-          "url": "https://www.coindesk.com/markets/2026/10/21/live-updates-bitcoin-clings-to-usd82-500-as-spacex-results-lift-stock-futures"
+          "title": "CryptoTimes: Bitcoin, Ether rebound as $267M liquidated",
+          "url": "https://www.cryptotimes.io/2026/10/22/bitcoin-ethereum-rebound-as-267m-in-crypto-positions-are-liquidated/"
+        },
+        {
+          "title": "BeInCrypto via Mitrade: Is bitcoin on the verge of a deeper correction?",
+          "url": "https://mitrade.com/au/insights/crypto/bitcoin/beincrypto-BTCUSD-202610220948"
+        },
+        {
+          "title": "COINOTAG: Bitcoin near $83,150 before Fed decision",
+          "url": "https://en.coinotag.com/bitcoin-btc-holds-83150-before-fed-october-28-decision"
         },
         {
           "title": "Bitcoin.com News: Bitcoin ETFs add $550M in 2 days",
           "url": "https://news.bitcoin.com/bitcoin-etf/bitcoin-etfs-add-550m-in-2-days-as-ether-outflows-persist/"
-        },
-        {
-          "title": "KuCoin News: Lookonchain sees BTC ETF -$33.9M, ETH ETF -$31.4M",
-          "url": "https://www.kucoin.com/news/flash/bitcoin-etf-sees-33-88m-daily-net-outflow-ethereum-etf-loses-31-42m"
         }
       ]
     },
@@ -86,15 +90,15 @@
       "id": "ethereum",
       "symbol": "ETH",
       "name": "Ethereum",
-      "move": "Up 1.0% in 24h and 3.4% this week, to about $2,486 (down 10.3% over 30 days)",
-      "why": "Ether rose with bitcoin after holding the $2,400 area for several sessions, but trailed as U.S. ether ETFs kept losing money: about $26 million on Tuesday and an estimated $31 million more on Wednesday, taking October outflows past $1 billion, the worst month of 2026. On the plus side, a record 43.8 million ETH (about 36% of supply) is staked, meaning locked up to secure the network, though the average staking yield slipped to 2.63%.",
+      "move": "Down 0.3% in 24h, up 1.5% this week, to about $2,440 (down 11% over 30 days)",
+      "why": "Ether briefly rose to about $2,490 with bitcoin on Wednesday, then gave the gain back in the evening, and it keeps trailing as U.S. ether ETFs kept losing money: about $26 million on Tuesday and an estimated $31 million more on Wednesday, taking October outflows past $1 billion, the worst month of 2026. On the plus side, a record 43.8 million ETH (about 36% of supply) is staked, meaning locked up to secure the network, though the average staking yield slipped to 2.63%.",
       "meaning": "Ether is lagging bitcoin because big investors keep pulling money from the ETFs. Until those flows turn, rallies may be harder to sustain.",
       "outlook": {
         "lean": "unclear",
         "confidence": "low",
         "horizon": "next 1–2 weeks",
         "bullCase": "ETF outflows stopping and a firm hold above $2,500 could open a move toward about $2,700, where October began.",
-        "bearCase": "Continued outflows or a broad risk-off turn could send it back below $2,400 toward the $2,300 area.",
+        "bearCase": "Continued outflows or a broad risk-off turn could send it back below $2,400 toward the $2,300 area; it is already testing that zone.",
         "watch": "Daily ether ETF flows, the $2,400 and $2,500 levels, and the ETH/BTC ratio."
       },
       "sources": [
@@ -116,7 +120,7 @@
       "id": "zcash",
       "symbol": "ZEC",
       "name": "Zcash",
-      "move": "Up 5.8% in 24h and 19% this week, to about $1,345 (still down 6.8% over 30 days)",
+      "move": "Up 2.5% in 24h and 14% this week, to about $1,294 (still down 11% over 30 days)",
       "why": "Traders are positioning for the NU7 upgrade, which developers scheduled for about 7:50 p.m. ET on Nov. 5; it cuts block times from 75 to 25 seconds and sends 60% of fees to a reserve. Futures open interest (the value of open bets) rose about 19–24%, and two large traders reportedly opened about $37.6 million of 10x leveraged longs. Bitwise's Zcash ETF saw small inflows Tuesday after outflows the day before.",
       "meaning": "Much of this rally is driven by leverage, and data show sellers stayed active during the rise, so swings both ways can be sharp. Upgrade dates often bring 'buy the rumour, sell the news' behaviour.",
       "outlook": {
@@ -142,7 +146,7 @@
       "id": "lighter",
       "symbol": "LIT",
       "name": "Lighter",
-      "move": "Up 13.1% in 24h and 27% this week, to about $3.87 (still down about 17% over 30 days)",
+      "move": "Up 11.3% in 24h and 23.5% this week, to about $3.75 (still down about 18% over 30 days)",
       "why": "The token of the Lighter derivatives exchange jumped after reports from its Oct. 21 investor call that it plans to apply for a U.S. licence in November and is weighing access through Robinhood's U.S. platform; neither has been confirmed. Renewed attention on its existing Robinhood Wallet partnership and a Delphi Digital research report added interest.",
       "meaning": "The move rests on unconfirmed plans. Only 25% of the 1 billion tokens are circulating, so future supply is a long-term overhang, and the token is still about half its all-time high.",
       "outlook": {
@@ -168,7 +172,7 @@
       "id": "near",
       "symbol": "NEAR",
       "name": "NEAR Protocol",
-      "move": "Up 6.4% in 24h, 11.4% this week and 31% over 30 days, to about $5.30",
+      "move": "Up 2.6% in 24h, 7.7% this week and 21% over 30 days, to about $5.16",
       "why": "NEAR has been one of October's strongest large coins. Supports include the first U.S. spot NEAR ETF from Bitwise (launched Sept. 29), a governance proposal to cut yearly new-token issuance from 2.5% to 1.6%, and strong use of its NEAR Intents cross-chain swap service. It was the top performer in the CoinDesk 100 today, without a single fresh headline.",
       "meaning": "The rally has real drivers behind it, but the issuance cut is only a proposal and NEAR is already back near its early-October highs around $6. Fast multi-week runs tend to see sharp pullbacks.",
       "outlook": {
@@ -194,7 +198,7 @@
       "id": "ethena",
       "symbol": "ENA",
       "name": "Ethena",
-      "move": "Up 8.5% in 24h and 11.2% this week, to about $0.215",
+      "move": "Up 4.7% in 24h and 7.6% this week, to about $0.208",
       "why": "ENA led large-cap gainers, but coverage today points to technical momentum rather than a single news event; the hourly RSI, a gauge of how overstretched a move is, hit about 73, which is considered overbought. A longer-term support is that the last tranche of early-investor tokens unlocked on Oct. 5, ending Ethena's monthly investor unlocks after the foundation bought out many early backers in August.",
       "meaning": "With the investor unlock overhang gone, ENA's supply picture is cleaner, but USDe, the synthetic dollar that drives Ethena's revenue, is far below its 2025 peak. A one-day pop on no clear news can unwind just as fast.",
       "outlook": {
@@ -220,14 +224,14 @@
       "id": "ripple",
       "symbol": "XRP",
       "name": "XRP",
-      "move": "Up 2.7% in 24h and 4.4% this week, to about $1.37 (down 9.8% over 30 days)",
+      "move": "Up 0.9% in 24h and 1.8% this week, to about $1.34 (down 11% over 30 days)",
       "why": "XRP was the strongest of the major coins today in a broad altcoin bounce. Ripple's push to offer round-the-clock stock trading on crypto rails is in the news, though no single XRP-specific catalyst explains the gain.",
       "meaning": "XRP tends to move more than bitcoin in both directions, so today's outperformance mostly reflects higher risk appetite. The 30-day trend is still down.",
       "outlook": {
         "lean": "sideways",
         "confidence": "low",
         "horizon": "next 1–2 weeks",
-        "bullCase": "A broader crypto rally led by bitcoin holding above $84,000 could lift XRP back toward the $1.45–$1.50 area.",
+        "bullCase": "A broader crypto rally led by bitcoin reclaiming $84,000 could lift XRP back toward the $1.45–$1.50 area.",
         "bearCase": "If bitcoin slips back under $82,500, XRP would likely give back today's gains and retest about $1.30.",
         "watch": "Bitcoin's direction, U.S. regulatory steps on digital-asset rules, and Ripple product news."
       },
@@ -246,7 +250,7 @@
       "id": "solana",
       "symbol": "SOL",
       "name": "Solana",
-      "move": "Up 0.7% in 24h and 3.9% this week, to about $108 (down 9.2% over 30 days)",
+      "move": "Down 0.7% in 24h, up 1.8% this week, to about $105 (down 10% over 30 days)",
       "why": "Solana moved roughly in line with the market as its Alpenglow upgrade, a major overhaul aimed at much faster transaction finality, was set to go live on Wednesday. Big upgrades can attract buyers but also carry execution risk.",
       "meaning": "A smooth Alpenglow launch would be a meaningful technical milestone, but price has lagged this month. Watch for any network problems in the first days after launch.",
       "outlook": {
@@ -269,14 +273,14 @@
     {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "move": "Up 0.58% to 7,757, about 1% below its record near 7,845",
+      "move": "Up 0.58% to 7,757 at Wednesday's close, about 1% below its record near 7,845; futures are down about 0.4% in evening trading",
       "why": "Stocks rose as SpaceX's strong quarter revived enthusiasm for AI-related tech, Super Micro raised its sales forecast sharply and cybersecurity stocks jumped 5–7% after a critical software flaw was disclosed. Netflix and AT&T were the big drags. The VIX, Wall Street's 'fear gauge', slipped to about 16.7.",
       "meaning": "The index is near its highs heading into the busiest stretch of earnings season. A 10-year yield above 5.1% still makes stocks look expensive relative to bonds.",
       "outlook": {
         "lean": "sideways",
         "confidence": "low",
         "horizon": "next 1–2 weeks",
-        "bullCase": "Meta's beat holding into Thursday, solid results from Alphabet, Microsoft and Amazon next week, and a calm Fed on Oct. 28 could push it to a new record above 7,845.",
+        "bullCase": "A recovery in futures by Thursday's open, solid results from Alphabet, Microsoft and Amazon next week, and a calm Fed on Oct. 28 could push it to a new record above 7,845.",
         "bearCase": "A hawkish Fed, yields pushing toward 5.3%, or an oil spike above $115 could drag it back toward 7,600.",
         "watch": "The 10-year yield, Brent crude, and megacap earnings reactions."
       },
@@ -288,27 +292,35 @@
         {
           "title": "BNN Bloomberg: Tech and financials boost TSX, U.S. markets",
           "url": "https://www.bnnbloomberg.ca/markets/2026/10/21/tech-and-financial-stocks-help-boost-sptsx-composite-us-stock-markets-also-up/"
+        },
+        {
+          "title": "Investing.com: U.S. futures fall as investors weigh Tesla, Meta",
+          "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-fall-as-investors-weigh-tesla-meta-earnings-4964498"
         }
       ]
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq Composite",
-      "move": "Up 1.05% to about 26,703, about 3.7% below its 52-week high",
+      "move": "Up 1.05% to about 26,703 at Wednesday's close, about 3.7% below its 52-week high; Nasdaq 100 futures are down about 0.7% in evening trading",
       "why": "Tech led: SpaceX jumped after beating forecasts, Tesla rose ahead of its report and on merger talk, chip stocks firmed after Super Micro's outlook, and cybersecurity names rallied. Alphabet's 1.6% slide trimmed the gain.",
-      "meaning": "The AI trade is back in favour for now, and Meta's after-hours gain should help Thursday's open. The bar for Big Tech results next week is high.",
+      "meaning": "The AI trade is back in favour, but Tesla's after-hours reversal shows how quickly sentiment can turn. The bar for Big Tech results next week is high.",
       "outlook": {
-        "lean": "up",
+        "lean": "sideways",
         "confidence": "low",
         "horizon": "next 1–2 weeks",
         "bullCase": "Upbeat AI revenue and spending commentary from Meta, Microsoft and Alphabet could carry it back toward the 27,500–27,700 highs.",
         "bearCase": "Disappointing cloud growth or investors balking at huge AI spending could send it back to about 26,000.",
-        "watch": "Meta's Thursday trading, Alphabet and Microsoft on Oct. 28, and Treasury yields."
+        "watch": "Thursday's open after the futures dip, Alphabet and Microsoft on Oct. 28, and Treasury yields."
       },
       "sources": [
         {
           "title": "Yahoo Finance: Stock market today, Oct. 21",
           "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-october-21-dow-sp-500-nasdaq-100000105.html"
+        },
+        {
+          "title": "Investing.com: U.S. futures fall as investors weigh Tesla, Meta",
+          "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-fall-as-investors-weigh-tesla-meta-earnings-4964498"
         }
       ]
     },
@@ -340,18 +352,22 @@
     {
       "symbol": "META",
       "name": "Meta Platforms",
-      "move": "Closed up 0.5% at $697.52, then jumped more than 6% after hours on earnings before settling around +3.7% (roughly $723)",
+      "move": "Closed up 0.5% at $697.52, then jumped as much as 6% after hours on earnings; the gain had narrowed to a little over 2% by about 9 p.m. ET",
       "why": "Third-quarter revenue rose 26% to $64.6 billion, beating the roughly $63.3 billion expected, and earnings were $7.40 a share excluding a $9.9 billion legal charge ($3.83 including it). Fourth-quarter revenue guidance of $73–$76 billion has a midpoint above consensus, and Meta narrowed 2026 capital spending to $135–$145 billion (raising the low end) while giving no 2027 number yet beyond saying AI investment stays heavy. It also plans to hand out one new non-voting Class C share for every existing share in January 2027, which works like a 2-for-1 split.",
       "meaning": "The core ad business is growing fast, which supports the stock, but AI spending pushed free cash flow negative (about -$2.1 billion) this quarter. A separate $25 billion penalty imposed by a New Mexico judge in a privacy case is under appeal and adds legal uncertainty.",
       "outlook": {
         "lean": "up",
         "confidence": "low",
         "horizon": "next 1–2 weeks",
-        "bullCase": "If the after-hours gain holds and the call reassures on 2027 spending, it could recover toward the $740–$780 range it held earlier this month.",
+        "bullCase": "If the after-hours gain holds and analysts lift targets, it could recover toward the $740–$780 range it held earlier this month.",
         "bearCase": "Worry about open-ended 2027 spending or more legal costs could fade the gain and send it back below $690.",
         "watch": "Thursday's trading, analyst target changes, and 2027 spending commentary."
       },
       "sources": [
+        {
+          "title": "Investing.com: U.S. futures fall as investors weigh Tesla, Meta",
+          "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-fall-as-investors-weigh-tesla-meta-earnings-4964498"
+        },
         {
           "title": "Benzinga: Meta posts Q3 double beat",
           "url": "https://www.benzinga.com/markets/earnings/26/10/62511966/meta-posts-q3-double-beat-were-seeing-velocity-across-the-board"
@@ -363,43 +379,35 @@
         {
           "title": "Seoul Economic Daily: Meta raises capex floor, new share class",
           "url": "https://en.sedaily.com/international/2026/10/22/meta-raises-capex-floor-will-issue-stock-to-fund-ai-push"
-        },
-        {
-          "title": "Invezz: Meta jumps on earnings, but $25B penalty raises stakes",
-          "url": "https://invezz.com/news/2026/10/21/meta-stock-jumps-on-earnings-but-25b-penalty-raises-stakes/"
         }
       ]
     },
     {
       "symbol": "TSLA",
       "name": "Tesla",
-      "move": "Closed up 3.4% at $386.47, then traded roughly flat to slightly higher after hours (about $388.50 early on)",
-      "why": "Tesla rose during the day on Musk's comments that Tesla and SpaceX formed committees to study a merger. After the close it reported revenue of about $28 billion, roughly in line with forecasts and flat from a year ago, and adjusted earnings of $0.48 a share versus about $0.45 expected; free cash flow of $1.5 billion was a big surprise against expectations of a cash burn. On the call, management said Optimus robot production has started in Fremont, Cybercab robotaxi service will expand beyond Austin before year-end, and 2026 is a 'massive capex year' with spending of more than $25 billion planned.",
-      "meaning": "Investors are rewarding the cash-flow surprise, but the core business is weak: operating income fell 56% to $718 million and automotive revenue slipped. The stock still trades mostly on robotaxi, Optimus robot and SpaceX-merger hopes rather than car sales.",
+      "move": "Closed up 3.4% at $386.47, then fell more than 3% after hours (roughly $373–$375) after an early gain reversed",
+      "why": "Tesla rose during the day on Musk's comments that Tesla and SpaceX formed committees to study a merger. After the close it reported adjusted earnings of $0.48 a share versus about $0.45 expected and revenue of $28.05 billion, flat from a year ago and slightly below some forecasts; free cash flow of $1.5 billion beat expectations of a cash burn because spending came in about $3 billion lower than expected. Shares first rose about 2%, then turned lower during the call as Tesla cut its 2026 capital-spending plan to about $20 billion from more than $25 billion and Musk said reaching 20,000 Optimus robots a week will take at least a year.",
+      "meaning": "The core business is weak: operating income fell 56% to $718 million and deliveries slipped 2%, so the stock still trades mostly on robotaxi, Optimus and SpaceX-merger hopes. Lower spending helps cash flow but can read as a slower AI push, which is what the after-hours selling suggests.",
       "outlook": {
         "lean": "unclear",
         "confidence": "low",
         "horizon": "next 1–2 weeks",
-        "bullCase": "Upbeat call commentary on robotaxi or concrete merger progress could push it toward the $410–$420 area.",
-        "bearCase": "Weak guidance or a merger cool-off could send it back toward $355–$365.",
-        "watch": "Thursday's trading after the call, merger committee news, Cybercab expansion, and the NHTSA Cybercab response due Oct. 30."
+        "bullCase": "Concrete merger progress or a smooth Cybercab expansion to Dallas next month could bring it back toward $400–$410.",
+        "bearCase": "If the after-hours drop holds and analysts trim targets, it could slide toward $355–$365.",
+        "watch": "Thursday's open, analyst target changes, merger committee news, and the NHTSA Cybercab response due Oct. 30."
       },
       "sources": [
         {
+          "title": "SiliconANGLE: Tesla falls despite earnings beat",
+          "url": "https://siliconangle.com/2026/10/21/tesla-shares-fall-more-than-3-despite-earnings-beat-and-1-5b-in-free-cash-flow/"
+        },
+        {
+          "title": "Stocktwits via TradingView: Tesla cuts capex guidance to $20B",
+          "url": "https://www.tradingview.com/news/stocktwits:3dd67e603094b:0-tsla-stock-reverses-after-hours-gains-as-tesla-cuts-full-year-capex-guidance-to-20b-musk-tempers-optimus-timeline/"
+        },
+        {
           "title": "CNBC: Tesla beats on earnings and sales",
           "url": "https://www.cnbc.com/2026/10/21/tesla-tsla-q3-2026-earnings-report.html"
-        },
-        {
-          "title": "Stocktwits: TSLA flat after hours on heavy AI spending",
-          "url": "https://stocktwits.com/news-articles/markets/equity/tsla-stock-trades-flat-after-hours-following-drop-in-q3-revenue-earnings-and-heavy-ai-spending/cZxMWU7RBvC"
-        },
-        {
-          "title": "Shacknews: Tesla Q3 2026 call notes",
-          "url": "https://www.shacknews.com/article/151101/tesla-tsla-q3-2026-earnings-call-transcript"
-        },
-        {
-          "title": "JKN: Tesla gains after profit and cash flow top forecasts",
-          "url": "https://news.jkn.co.kr/editions/english/post/1041029"
         }
       ]
     },
@@ -463,8 +471,8 @@
         "lean": "sideways",
         "confidence": "low",
         "horizon": "next 1–2 weeks",
-        "bullCase": "Bitcoin holding above $84,000 and moving toward $87,500 could lift MSTR toward the $165 area.",
-        "bearCase": "A bitcoin break below $82,500 would likely send MSTR back under $140.",
+        "bullCase": "Bitcoin reclaiming $84,000 and moving toward $87,500 could lift MSTR toward the $165 area.",
+        "bearCase": "A bitcoin break below $82,400 would likely send MSTR back under $140; with bitcoin already back near $82,900, an early pullback Thursday is possible.",
         "watch": "Bitcoin's direction, Strategy's weekly purchase filings, and its Q3 results."
       },
       "sources": [
@@ -646,6 +654,11 @@
       "date": "2026-10-22",
       "label": "SpaceX lockup expiry",
       "why": "Up to 1.3 billion early SpaceX shares become free to sell, which could weigh on the stock and space names."
+    },
+    {
+      "date": "2026-10-22",
+      "label": "Earnings: Procter & Gamble, Lockheed Martin, Honeywell, Western Digital",
+      "why": "A read on consumer spending, defence and industrial demand, and data-storage chips heading into Big Tech week."
     },
     {
       "date": "2026-10-28",
