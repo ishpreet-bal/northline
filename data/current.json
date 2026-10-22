@@ -1,734 +1,738 @@
 {
- "briefing": "Brent crude is holding near $105.70 as Iran threatens to retaliate over any attack on its energy sites, keeping GTA gas near $1.80 a litre, while Russia struck nine Ukrainian regions as EU leaders met Zelenskyy. Prime Minister Mark Carney and Premier Danielle Smith campaign together in Red Deer before Monday's Alberta referendum. Closer to home, Waymo will begin robotaxi testing in Toronto, and Ontario's freeze on student aid to private schools is spreading to students well beyond the career colleges under audit.",
- "headline": "Oil stays above $105 as Carney and Smith make final Alberta push",
- "keyDates": [
-  {
-   "date": "2026-10-19",
-   "label": "Alberta vote; CPI; Commons returns",
-   "why": "Albertans vote on separation and other questions, Statistics Canada releases September inflation, and MPs return to Ottawa."
-  },
-  {
-   "date": "2026-10-24",
-   "label": "B.C. provincial election",
-   "why": "British Columbians vote in Premier David Eby's snap election; advance voting runs October 16–21."
-  },
-  {
-   "date": "2026-10-26",
-   "label": "Ontario municipal elections",
-   "why": "Toronto, Mississauga, Markham and every other Ontario city elect mayors, councillors and school trustees; Toronto polls open 10 a.m. to 8 p.m."
-  },
-  {
-   "date": "2026-10-27",
-   "label": "Israeli election; Queen's Park returns",
-   "why": "Israel votes amid talk of another strike on Iran, and Ontario's legislature sits again after a 21-week break."
-  },
-  {
-   "date": "2026-10-28",
-   "label": "Bank of Canada and Fed decisions",
-   "why": "Both central banks set rates the same day; traders see about a 44% chance the Fed raises after hot U.S. inflation."
-  },
-  {
-   "date": "2026-11-03",
-   "label": "U.S. midterm elections",
-   "why": "Control of Congress decides how much room Trump has on tariffs and the Iran war."
-  }
- ],
- "nextRefresh": "around 5 PM",
- "stories": [
-  {
-   "backstory": "The U.S. and Israel began striking Iran on February 28, 2026, in the middle of nuclear talks. The first wave killed Supreme Leader Ali Khamenei. Iran answered with missiles and drones on Israel, Gulf states and U.S. bases, and closed the Strait of Hormuz, the channel that roughly a fifth of the world's oil normally passes through. A peace memorandum signed in June briefly reopened shipping, but it fell apart in July when Iran started attacking commercial ships again to press its claim over the strait.",
-   "headline": "Oil holds above $105 as Iran threatens to answer any hit on its energy sites",
-   "id": "iran-hormuz",
-   "impact": "This is a big part of why gas and diesel in Ontario stay expensive: GTA regular is forecast around $1.80 a litre on Friday and diesel near $2.65. Diesel feeds straight into grocery and delivery prices, and higher fuel is one reason the Bank of Canada has been cautious about cutting rates.",
-   "impactLevel": "high",
-   "now": "Iran's acting oil minister, Hamid Bovard, said Friday that Tehran will hit back at a time of its choosing against any threat to its energy facilities. Iran's army chief maintains the strait is closed, while U.S. Central Command (CENTCOM) says commercial traffic continues. The U.S. Treasury blacklisted 16 people and 10 entities in networks it says move Iranian oil money. By mid-morning Toronto time Brent was about $105.70, roughly 1% higher than a week ago, and U.S. benchmark WTI about $97.70, up about 6% on the week, helped by an 8.6 million barrel drop in U.S. crude stocks. The International Energy Agency (IEA) is speeding up the release of about 100 million more barrels from emergency stocks, including over 20 million barrels of diesel.",
-   "rank": 1,
-   "region": "world",
-   "sources": [
+  "briefing": "Iran says it hit several tankers near the Strait of Hormuz, pushing Brent crude to about $112 a day after the U.S. pulled non-emergency staff from Saudi Arabia, which keeps pressure on Ontario gas prices. Markets still see a likely Bank of Canada rate hike on October 28, a risk for variable-rate borrowers. Toronto's mayoral race is a statistical tie heading into tonight's final debate.",
+  "headline": "Iran claims tanker strikes as Brent nears $112; Toronto debates tonight",
+  "keyDates": [
     {
-     "title": "Anadolu Agency: Oil heads for weekly gains",
-     "url": "https://www.aa.com.tr/en/energy/oil/oil-prices-head-for-weekly-gains-amid-middle-east-risks-us-inventory-draw/60312"
+      "date": "2026-10-22",
+      "label": "Final Toronto mayoral debate",
+      "why": "Chow and Bradford face off one last time on CP24 tonight at 7 p.m. before Monday's vote."
     },
     {
-     "title": "Al Jazeera: Iran war live, Oct. 16",
-     "url": "https://www.aljazeera.com/news/liveblog/2026/10/16/iran-war-live-saudi-blasts-houthi-war-crimes-us-warns-on-saudi-airports"
+      "date": "2026-10-26",
+      "label": "Ontario municipal elections",
+      "why": "Toronto, Mississauga, Markham and every other Ontario city elect mayors, councillors and school trustees; Toronto polls open 10 a.m. to 8 p.m."
     },
     {
-     "title": "Euronews: Is the US-Iran war about to escalate?",
-     "url": "https://euronews.com/2026/10/16/military-signals-building-is-the-us-iran-war-about-to-escalate"
+      "date": "2026-10-27",
+      "label": "Israeli election; Queen's Park returns",
+      "why": "Israel votes amid talk of another strike on Iran, and Ontario's legislature sits again after a 21-week break."
     },
     {
-     "title": "Canadians for Affordable Energy: GTA gas price forecast",
-     "url": "https://www.affordableenergy.ca/gas-prices/gta/"
+      "date": "2026-10-28",
+      "label": "Bank of Canada and Fed decisions",
+      "why": "Both central banks set rates the same day; swaps price a strong chance the Bank of Canada hikes to 2.50%."
+    },
+    {
+      "date": "2026-11-03",
+      "label": "U.S. midterm elections",
+      "why": "Control of Congress decides how much room Trump has on tariffs and the Iran war."
+    },
+    {
+      "date": "2026-11-05",
+      "label": "Federal budget",
+      "why": "Finance Minister Champagne tables the Carney government's second fall budget amid the trade war."
     }
-   ],
-   "status": "developing",
-   "summary": "Brent crude traded near $105.70 a barrel Friday morning and is on track for a small weekly gain, as Iran warned it would retaliate if its oil facilities are targeted and Washington added new sanctions.",
-   "timeline": [
+  ],
+  "nextRefresh": "around noon",
+  "stories": [
     {
-     "date": "Mar",
-     "event": "Hezbollah joins; Israel invades southern Lebanon. Houthis enter the war."
+      "backstory": "The U.S. and Israel began striking Iran on February 28, 2026, in the middle of nuclear talks. The first wave killed Supreme Leader Ali Khamenei. Iran answered with missiles and drones on Israel, Gulf states and U.S. bases, and closed the Strait of Hormuz, the channel that roughly a fifth of the world's oil normally passes through. A peace memorandum signed in June briefly reopened shipping, but it fell apart in July when Iran started attacking commercial ships again to press its claim over the strait.",
+      "headline": "Iran says it hit tankers near Hormuz; Brent jumps to $112",
+      "id": "iran-hormuz",
+      "impact": "This is a big part of why gas and diesel in Ontario stay expensive: GTA regular is forecast around $1.80 a litre on Friday and diesel near $2.65. Diesel feeds straight into grocery and delivery prices, and higher fuel is one reason the Bank of Canada has been cautious about cutting rates.",
+      "impactLevel": "high",
+      "now": "Iran's Revolutionary Guard (IRGC) said it attacked four oil-transfer vessels for using a route Tehran rejects and that three other ships struck mines west of the strait; Iranian state TV said seven tankers were hit or damaged, a claim not independently verified, and the IRGC warned the fight could reach U.S. bases in the region. Brent rose about 3.2% to $112.27 a barrel and U.S. crude about 2.8% to $99.80, and stock futures slipped. Saudi officials raised the death toll from Wednesday's attack on Dammam's King Fahd International Airport to two, with eight injured, after the State Department ordered non-emergency U.S. staff and families out of the kingdom. Foreign Minister Abbas Araghchi says indirect talks on a seven-day ceasefire proposal are continuing, but Iran wants the U.S. naval blockade lifted first.",
+      "rank": 1,
+      "region": "world",
+      "sources": [
+        {
+          "title": "CBS News: Iran war live updates",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-ceasefire-talks-ongoing/"
+        },
+        {
+          "title": "The Statesman: Brent jumps to $112 after Saudi attacks",
+          "url": "https://www.thestatesman.com/business/brent-crude-jumps-over-3-to-112-after-attacks-in-saudi-arabia-1503653754.html"
+        },
+        {
+          "title": "The National: U.S. pulls diplomats from Saudi Arabia",
+          "url": "https://thenationalnews.com/news/gulf/2026/10/22/us-pulls-diplomats-from-saudi-arabia-but-denies-wider-gulf-withdrawal"
+        }
+      ],
+      "status": "developing",
+      "summary": "Iran's Revolutionary Guard says it struck four oil-transfer ships in the Persian Gulf and that three more hit mines, a day after Washington ordered non-emergency diplomats out of Saudi Arabia. Brent crude rose about 3% to roughly $112.",
+      "timeline": [
+        {
+          "date": "Jun 17",
+          "event": "Islamabad Memorandum signed; both blockades lifted."
+        },
+        {
+          "date": "Jul 8",
+          "event": "Ceasefire collapses after Iran attacks ships in Hormuz."
+        },
+        {
+          "date": "Oct 14",
+          "event": "Two ships sink; Brent settles near $106."
+        },
+        {
+          "date": "Oct 17",
+          "event": "Two supertankers reportedly hit mines."
+        },
+        {
+          "date": "Oct 21",
+          "event": "Dammam airport hit; U.S. orders staff out of Saudi Arabia."
+        },
+        {
+          "date": "Oct 22",
+          "event": "IRGC claims tanker strikes; Brent near $112."
+        }
+      ],
+      "topic": "Iran war",
+      "updatedAt": "2026-10-22T05:50:00-04:00",
+      "why": "This is the single biggest driver of global energy prices this year. Evacuating diplomats from the world's top oil exporter signals Washington expects the fighting to widen, and Trump has hinted at new strikes after the November 3 midterms."
     },
     {
-     "date": "Apr 8",
-     "event": "Two-week ceasefire; talks in Islamabad fail and the U.S. blockades Iran."
+      "backstory": "Oil prices jumped after the U.S.-Iran war closed much of the Strait of Hormuz earlier this year, and fuel costs have fed through to inflation since. Brent fell to about $74 in late June when shipping recovered, then climbed again as attacks resumed this autumn. Canada's central bank has weighed whether an energy-driven spike is temporary or will spread to other prices.",
+      "headline": "Markets bet on a Bank of Canada hike after 3.1% inflation",
+      "id": "canada-inflation-september",
+      "impact": "Variable-rate mortgages and lines of credit would cost more within days of a hike, and anyone renewing a GTA mortgage this fall should test their budget at a higher rate. High pump prices will keep squeezing commuters either way.",
+      "impactLevel": "high",
+      "now": "Statistics Canada says prices rose 3.1% in the year to September, up from 3.0%, just under the 3.2% economists expected; excluding gasoline, inflation slowed to 2.2%. The Bank of Canada's preferred core measures averaged 1.9%, and grocery inflation cooled to 1.7%. After the report, overnight swaps priced about an 87% chance of a quarter-point hike to 2.50% next Wednesday, up from roughly 70% earlier that day. BMO, RBC and Desjardins switched to calling for a hike and Scotiabank firmed up its call, though a Bloomberg survey of economists still leaned toward a hold. The Canadian dollar traded near 71.2 U.S. cents (about C$1.405 per U.S. dollar) Wednesday, close to a four-week high on the hike bets.",
+      "rank": 2,
+      "region": "canada",
+      "sources": [
+        {
+          "title": "CBC: Inflation rises to 3.1% as fuel prices push higher",
+          "url": "https://www.cbc.ca/news/business/inflation-september-2026-9.7386437"
+        },
+        {
+          "title": "Canadian Mortgage Trends: Bank of Canada hike bets grow",
+          "url": "https://www.canadianmortgagetrends.com/2026/10/bank-of-canada-hike-bets-grow-among-economists-traders/"
+        },
+        {
+          "title": "CTV News: Higher gas prices drove inflation up to 3.1%",
+          "url": "https://www.ctvnews.ca/business/inflation/article/higher-gas-prices-drove-inflation-up-to-31-in-september-statcan/"
+        },
+        {
+          "title": "Hashtag Investing: Loonie hits four-week high on hike bets",
+          "url": "https://www.hashtaginvesting.com/blog/markets-put-80-odds-on-bank-of-canada-rate-hike-next-week-as-loonie-hits-four-week-high"
+        }
+      ],
+      "status": "developing",
+      "summary": "September inflation rose to 3.1% on a 27.8% jump in gasoline, and overnight swap markets now price a strong chance the Bank of Canada raises its 2.25% policy rate on October 28.",
+      "timeline": [
+        {
+          "date": "May",
+          "event": "Brent near $114 as Hormuz violence flares"
+        },
+        {
+          "date": "Jun",
+          "event": "Oil falls to about $74 as shipping recovers"
+        },
+        {
+          "date": "Aug",
+          "event": "Inflation at 3.0%"
+        },
+        {
+          "date": "Oct 14",
+          "event": "U.S. inflation hits 3.7%"
+        },
+        {
+          "date": "Oct 19",
+          "event": "Canada's September inflation at 3.1%"
+        },
+        {
+          "date": "Oct 20",
+          "event": "Swaps price about 87% odds of an Oct 28 hike"
+        }
+      ],
+      "topic": "Inflation",
+      "updatedAt": "2026-10-22T05:50:00-04:00",
+      "why": "Rates went from a debate about cuts to a likely hike in a matter of days because energy-driven inflation is spreading worries about expectations. A hike would be the bank's first since 2023."
     },
     {
-     "date": "Jun 17",
-     "event": "Islamabad Memorandum signed; both blockades lifted."
+      "backstory": "The U.S. has put 50% tariffs on Canadian steel and aluminum and, in August, on billions of dollars of other Canadian goods, and Canada has answered with counter-tariffs. Ford has pressed Ottawa for relief for steel, auto, forestry and copper before any deal with Washington, and in August urged Carney to hold out rather than accept a bad deal.",
+      "headline": "Carney and Ford launch $8.7B plan for steel, autos and Ring of Fire roads",
+      "id": "carney-ford-tariff-plan",
+      "impact": "If you work in steel, auto parts or at an assembly plant in Hamilton, Oshawa, Windsor or the GTA, this money is meant to keep plants running and retool them. The emissions freeze could also ease pressure on automakers to raise prices on gas-powered vehicles over the next few years.",
+      "impactLevel": "high",
+      "now": "The package puts $5 billion toward upgrading Ontario steel mills, $2.5 billion toward helping the auto sector move to electric-vehicle production and $1 billion toward roads into the Ring of Fire mineral region in Northern Ontario. Ontario's share is $2.67 billion. The two governments are also creating a Joint Steel Action Fund for steel products Canadian companies need, and Ottawa is tightening border enforcement against cheap foreign steel being dumped in Canada; the country imports more than 6.5 million tonnes of steel a year. Ottawa also froze its fleet-average emissions standard for new cars and light trucks through 2029, giving automakers short-term breathing room. Carney said the plan could create 70,000 jobs tied to the Ring of Fire and protect about 220,000 others, and Ford called it historic, saying the relationship with the U.S. has changed for good whatever happens in the midterms.",
+      "rank": 3,
+      "region": "ontario",
+      "sources": [
+        {
+          "title": "CP24: Billions for tariff-hit industries in Ontario",
+          "url": "https://www.cp24.com/politics/queens-park/2026/10/21/federal-government-announces-billions-for-tariff-impacted-industries-in-ontario/"
+        },
+        {
+          "title": "Prime Minister's Office: Carney and Ford launch action plan",
+          "url": "https://www.pm.gc.ca/en/news/news-releases/2026/10/21/prime-minister-carney-and-premier-ford-launch-new-action-plan-protect"
+        }
+      ],
+      "status": "new",
+      "summary": "Ottawa and Ontario announced $8.7 billion, including $2.67 billion from the province, to modernize steel mills, help automakers shift to electric vehicles and build roads to the Ring of Fire mining region.",
+      "timeline": [
+        {
+          "date": "Aug 22",
+          "event": "U.S. 50% tariffs on Canadian goods take effect."
+        },
+        {
+          "date": "Sep 8",
+          "event": "Canada's counter-tariffs and $25B support package."
+        },
+        {
+          "date": "Oct 5",
+          "event": "Ottawa gives Stelco's owner an ultimatum over layoffs."
+        },
+        {
+          "date": "Oct 21",
+          "event": "Carney and Ford announce $8.7B steel, auto and Ring of Fire plan."
+        }
+      ],
+      "topic": "Tariff relief",
+      "updatedAt": "2026-10-21T17:47:00-04:00",
+      "why": "It is the first big joint federal-provincial answer to the job losses U.S. tariffs have caused in Ontario's factories, and it shifts the focus from shielding old jobs to rebuilding steel and auto production for a less U.S.-dependent future."
     },
     {
-     "date": "Jul 8",
-     "event": "Ceasefire collapses after Iran attacks ships in Hormuz."
+      "backstory": "Chow won a 2023 by-election after John Tory resigned and is now seeking a full term. Bradford, a councillor, is her main challenger. Late-summer polls had Chow around 50% and Bradford near 39%. Big themes are housing costs, traffic, property taxes and the province's moves on bike lanes.",
+      "headline": "Chow and Bradford meet tonight in final debate of tied race",
+      "id": "municipal-elections",
+      "impact": "You get a vote for mayor, ward councillor and school trustee in your own city. Check your municipality's site for your polling station and advance-voting hours.",
+      "impactLevel": "medium",
+      "now": "The commercial-free CP24 debate, moderated by CTV News Toronto anchor Michelle Dube, will cover housing and affordability, transit, public safety and city finances, with viewer questions. Nanos (762 adults, October 15–18, margin of error 3.6 points) has Chow at 49.8% and Bradford at 46.6% among decided voters, with 16% undecided; Nik Nanos calls the debate potentially decisive. Bradford says running Toronto Water like Toronto Hydro could save the average homeowner about $300 a year, while Chow and the CUPE Local 416 union warn it weakens council control. A record 225,550 people voted in advance polls, and polls open Monday, October 26, from 10 a.m. to 8 p.m.",
+      "rank": 4,
+      "region": "ontario",
+      "sources": [
+        {
+          "title": "CP24: How to watch Toronto Decides: The Municipal Debate",
+          "url": "https://www.cp24.com/gta-elections-2026/2026/10/21/how-to-watch-toronto-decides-the-municipal-debate/"
+        },
+        {
+          "title": "CP24: Chow, Bradford clash over future of Toronto's water",
+          "url": "https://www.cp24.com/local/toronto/2026/10/21/chow-bradford-clash-over-future-of-torontos-water/"
+        },
+        {
+          "title": "Global News: Chow and Bradford neck-and-neck",
+          "url": "https://globalnews.ca/news/12110038/chow-and-bradford-neck-and-neck-days-left-toronto-mayoral-election-campaign/"
+        }
+      ],
+      "status": "developing",
+      "summary": "Olivia Chow and Brad Bradford face off at 7 p.m. on CP24 in the last debate before Monday's vote, with a Nanos poll showing a statistical tie and Bradford's plan to turn Toronto Water into a city-owned corporation the late flashpoint.",
+      "timeline": [
+        {
+          "date": "May 2026",
+          "event": "Chow and Bradford register to run."
+        },
+        {
+          "date": "Sep",
+          "event": "Polls show Chow ahead by 7–15 points."
+        },
+        {
+          "date": "Oct 6–11",
+          "event": "225,550 vote early; Nanos poll shows a 4-point race."
+        },
+        {
+          "date": "Oct 15",
+          "event": "Chow pledges 15,000 youth jobs; Bradford backs Eglinton East LRT."
+        },
+        {
+          "date": "Oct 20",
+          "event": "Nanos poll: Chow 49.8%, Bradford 46.6%."
+        },
+        {
+          "date": "Oct 21",
+          "event": "Toronto Water plan becomes the late flashpoint."
+        }
+      ],
+      "topic": "Elections",
+      "updatedAt": "2026-10-22T05:50:00-04:00",
+      "why": "City councils set property taxes, transit service, policing budgets and local housing approvals, and they last four years."
     },
     {
-     "date": "Oct 14",
-     "event": "GFS Pride and Cape Dao sink; Brent settles near $106."
+      "backstory": "The U.S. Supreme Court struck down Trump's broad emergency tariffs in February, but sector tariffs on steel, aluminum, autos, copper and lumber stayed. At the first CUSMA review on July 1, the U.S. refused to extend the deal for a full new term, so it now needs annual reviews. Ottawa walked out of talks on August 21, calling Washington's last-minute demands unfair. The U.S. imposed 50% tariffs on August 22, and Canada matched with counter-tariffs on September 8, plus a $25B support package for affected workers and businesses.",
+      "headline": "Carney and Trump talk trade as U.S. embassy alleges midterm meddling",
+      "id": "trade-war",
+      "impact": "Tariffs raise prices on some U.S. goods in Canadian stores and squeeze manufacturing jobs in the GTA, Windsor and Hamilton. If you or your family work in autos, steel, logistics or anything that ships to the U.S., this is the story most likely to touch your paycheque.",
+      "impactLevel": "high",
+      "now": "Carney gave few details of the call beyond saying it covered trade issues; no deal is expected before the November 3 midterms, according to CBC sources. The embassy's list quotes Industry Minister Joly five times, mostly on pressuring U.S. businesses and aiming counter-tariffs at particular states, and also quotes Ford; Ambassador Pete Hoekstra said Washington is watching for election interference. Carney replied that the U.S. started the trade actions and Canada's responses protect Canadian workers, and Ford said he has no interest in U.S. elections. A Canada-EU summit on October 29–30 is expected to deepen ties on critical minerals and defence.",
+      "rank": 5,
+      "region": "canada",
+      "sources": [
+        {
+          "title": "CTV News: Carney, Trump talk trade",
+          "url": "https://www.ctvnews.ca/politics/article/pm-carney-trump-spoke-this-morning-for-quite-some-time-addressed-some-of-the-issues-around-trade/"
+        },
+        {
+          "title": "CP24 (Canadian Press): U.S. embassy accuses Canadian politicians",
+          "url": "https://www.cp24.com/news/canada/2026/10/21/us-embassy-accuses-canadian-politicians-of-interfering-in-american-elections/"
+        },
+        {
+          "title": "CBC: No trade deal expected before midterms",
+          "url": "https://www.cbc.ca/news/politics/carney-trump-trade-deal-midterms-9.7387484"
+        }
+      ],
+      "status": "developing",
+      "summary": "Prime Minister Mark Carney says he spoke with Donald Trump at length Wednesday morning about trade, the same day the U.S. embassy published quotes from Mélanie Joly and Doug Ford it says show plans to influence American politics.",
+      "timeline": [
+        {
+          "date": "Feb 20",
+          "event": "U.S. Supreme Court strikes down emergency (IEEPA) tariffs."
+        },
+        {
+          "date": "Jul 1",
+          "event": "CUSMA review: U.S. won't extend; annual reviews begin."
+        },
+        {
+          "date": "Aug 21–22",
+          "event": "Canada exits talks; U.S. 50% tariffs take effect."
+        },
+        {
+          "date": "Sep 8",
+          "event": "Canada's counter-tariffs on ~C$27.6B of U.S. goods."
+        },
+        {
+          "date": "Oct 14",
+          "event": "Hoekstra warning; Trump repeats 51st-state line."
+        },
+        {
+          "date": "Oct 21",
+          "event": "Embassy 'interference' list; Carney-Trump call."
+        }
+      ],
+      "topic": "Trade",
+      "updatedAt": "2026-10-21T17:30:00-04:00",
+      "why": "About three-quarters of Canada's exports normally go to the U.S. Ontario, with its auto plants and steel mills, is the most exposed province."
     },
     {
-     "date": "Oct 15–16",
-     "event": "Tanker fire, new U.S. sanctions; Iran threatens energy retaliation."
+      "backstory": "Cleveland-Cliffs, an Ohio steelmaker, bought Hamilton-based Stelco in 2024, and Ottawa approved the deal on condition that union jobs and most non-union roles be kept. U.S. 50% tariffs on Canadian steel since August have hit exports hard. In early October Stelco announced a partial shutdown of finishing lines at Hamilton Works, cutting up to 500 jobs, and Joly gave the company five days to respond. The dispute has become a test of whether Ottawa can enforce foreign-takeover promises.",
+      "headline": "Ford backs Ottawa's fight with Stelco over 500 Hamilton layoffs",
+      "id": "stelco-layoffs",
+      "impact": "Hundreds of Hamilton families face lost paycheques, with knock-on effects for suppliers and the local economy. The outcome may shape whether the new federal-Ontario steel fund keeps similar plants running.",
+      "impactLevel": "medium",
+      "now": "Ford said a company should not walk away from its commitments and promised to work with Ottawa to protect Stelco workers and steelworkers across Ontario. Industry Minister Mélanie Joly has warned Cleveland-Cliffs it could face penalties or a court-ordered sale of its Canadian assets if it does not keep the jobs it promised under the Investment Canada Act. Stelco says it remains in compliance and that its 2024 undertakings do not bar layoffs, blaming 50% U.S. tariffs for a steep drop in U.S. sales. Cleveland-Cliffs CEO Lourenco Goncalves has accused Ottawa of bullying, while Carney says the company betrayed workers and that money is available to keep them on the job.",
+      "rank": 6,
+      "region": "ontario",
+      "sources": [
+        {
+          "title": "CP24: Ford weighs in on Stelco layoffs",
+          "url": "https://www.cp24.com/local/hamilton/2026/10/21/you-dont-go-back-on-your-commitments-premier-ford-weighs-in-on-stelco-layoffs/"
+        },
+        {
+          "title": "Global News: Stelco pushes back on Ottawa",
+          "url": "https://globalnews.ca/news/12099764/stelco-denies-wrongdoing-layoffs/"
+        },
+        {
+          "title": "CP24: Ottawa threatens forced sale of Stelco assets",
+          "url": "https://www.cp24.com/local/toronto/2026/10/16/ottawa-threatens-forced-sale-of-stelcos-assets-warning-they-must-keep-the-jobs-in-canada/"
+        }
+      ],
+      "status": "developing",
+      "summary": "Premier Doug Ford says he will support whatever action Ottawa takes against Stelco's U.S. owner, Cleveland-Cliffs, which is cutting about 500 jobs in Hamilton despite job pledges it made to buy the company.",
+      "timeline": [
+        {
+          "date": "2024",
+          "event": "Cleveland-Cliffs buys Stelco with job undertakings."
+        },
+        {
+          "date": "Aug 22",
+          "event": "U.S. 50% tariffs on Canadian steel take effect."
+        },
+        {
+          "date": "Early Oct",
+          "event": "Stelco announces up to 500 Hamilton layoffs."
+        },
+        {
+          "date": "Oct 12",
+          "event": "Stelco tells Joly it is in compliance."
+        },
+        {
+          "date": "Oct 16",
+          "event": "Ottawa threatens forced sale of Stelco assets."
+        },
+        {
+          "date": "Oct 21",
+          "event": "Ford backs federal action; $8.7B steel aid announced."
+        }
+      ],
+      "topic": "Steel jobs",
+      "updatedAt": "2026-10-21T15:00:00-04:00",
+      "why": "It is the clearest case yet of tariff-driven job losses in Ontario, and the first big test of Ottawa's power to hold a foreign buyer to its job promises."
+    },
+    {
+      "backstory": "Republicans have controlled both the House and Senate since January 2025, which has let Trump pass his agenda with few checks. Midterms usually go against the president's party, and Trump's approval is lower than at the same point in his first term. All 435 House seats and 35 Senate seats are on the ballot. A Democratic House could launch investigations and block spending and trade legislation.",
+      "headline": "Early voting outpaces 2022 as Democrats lead national polls",
+      "id": "us-midterms",
+      "impact": "A change in Congress could shift the odds of tariff relief for Ontario's auto, steel and lumber industries. Ottawa's trade strategy is partly being timed around the outcome.",
+      "impactLevel": "medium",
+      "now": "AP's count shows big jumps in several Senate battlegrounds: Texas is up 74% from 2022 with nearly 1 million ballots, Kansas has more than doubled to over 55,000, Ohio is up about 30%, Maine 39% and North Carolina more than 30%, while Michigan and Georgia are close to 2022 levels and Iowa is down about 6%. Republicans make up a smaller share of early voters than four years ago in most of these states. A New York Times/Siena poll of 3,494 likely voters (October 12–19) found 52% favouring Democrats for the House and 41% Republicans. Trump rallied in South Carolina for appointed Senator Darline Graham, and Republicans hold the Senate 53–47.",
+      "rank": 7,
+      "region": "us",
+      "sources": [
+        {
+          "title": "AP via ClickOrlando: Early voting boost in Senate states",
+          "url": "https://www.clickorlando.com/news/politics/2026/10/21/many-states-deciding-control-of-the-senate-are-seeing-a-big-boost-in-early-voting-ap-analysis-shows/"
+        },
+        {
+          "title": "Fox News: Midterm elections live, Oct 21",
+          "url": "https://www.foxnews.com/live-news/midterm-elections-2026-trump-south-carolina-democrats-october-21"
+        },
+        {
+          "title": "PBS NewsHour: AP-NORC poll finds voters want change",
+          "url": "https://www.pbs.org/newshour/politics/frustrated-with-trump-voters-overwhelmingly-want-change-ap-norc-poll-finds"
+        }
+      ],
+      "status": "developing",
+      "summary": "More than 13 million Americans have already voted by mail or in person, up from about 9 million at the same point in 2022, according to an AP analysis, as a Times/Siena poll gives Democrats an 11-point edge for the House.",
+      "timeline": [
+        {
+          "date": "Jan 2025",
+          "event": "Republicans take control of both chambers."
+        },
+        {
+          "date": "Sep 15",
+          "event": "NYT/Siena poll: 51% Democrat, 43% Republican for House."
+        },
+        {
+          "date": "Oct 15",
+          "event": "AP-NORC poll; DOJ sues California over mail ballots."
+        },
+        {
+          "date": "Oct 21",
+          "event": "NYT/Siena: Democrats 52%, Republicans 41%."
+        },
+        {
+          "date": "Oct 21",
+          "event": "AP: 13 million early votes, up from 9 million in 2022."
+        },
+        {
+          "date": "Nov 3",
+          "event": "Election day."
+        }
+      ],
+      "topic": "Midterms",
+      "updatedAt": "2026-10-22T02:55:00-04:00",
+      "why": "The result decides how freely Trump can act on tariffs, the Iran war and spending for the final two years of his term."
+    },
+    {
+      "backstory": "Russia's full-scale invasion is in its fifth year. Trump's envoys have made several trips to Moscow, while Zelenskyy has pushed for a leaders' meeting that Russia rejects. Russia has been pounding Ukraine's power grid ahead of winter, and Kyiv has struck Russian refineries in return. Ukraine has also complained about U.S. limits on intelligence sharing and a Starlink slowdown.",
+      "headline": "Kyiv and Moscow hit overnight as three-way peace talks take shape",
+      "id": "ukraine-energy",
+      "impact": "Canada is a major Ukraine backer and is being asked for more money at the October 29–30 Canada-EU summit, which affects federal spending. Any real progress toward peace could ease diesel and gas prices over time.",
+      "impactLevel": "medium",
+      "now": "Russian strikes on Kyiv early Thursday wounded at least 15 people and damaged subway infrastructure on the Southern Bridge over the Dnipro, after an evening attack Wednesday wounded six; a strike in the Kharkiv region killed one woman. Moscow Mayor Sergei Sobyanin said 630 drones were sent toward the Russian capital, with most shot down and two people wounded. The Kremlin says Putin agreed, after a nearly three-hour meeting with U.S. envoy Steve Witkoff, to resume U.S.-mediated talks including three-way technical meetings, possibly in Abu Dhabi as early as November 10. Volodymyr Zelenskyy says Ukraine backs negotiator-level three-way talks as soon as possible, and Russia freed 74-year-old American Stephen Hubbard during Witkoff's visit.",
+      "rank": 8,
+      "region": "world",
+      "sources": [
+        {
+          "title": "ThePrint (Reuters): Russia, Ukraine exchange strikes",
+          "url": "https://theprint.in/world/russia-ukraine-exchange-strikes-as-us-envoy-leaves-after-talks/3078348/"
+        },
+        {
+          "title": "Business Today: Putin agrees to three-way talks",
+          "url": "https://www.businesstoday.in/world/story/vladimir-putin-agrees-to-three-way-peace-talks-between-russia-and-ukraine-the-us-562943-2026-10-22"
+        },
+        {
+          "title": "Axios: Putin tells Witkoff he is ready to resume talks",
+          "url": "https://www.axios.com/2026/10/21/russia-ukraine-putin-witkoff-peace"
+        },
+        {
+          "title": "Just Security: Early Edition, Oct 21",
+          "url": "https://www.justsecurity.org/161515/early-edition-october-21-2026/"
+        }
+      ],
+      "status": "developing",
+      "summary": "Russian missiles wounded at least 15 people in Kyiv early Thursday, and Moscow's mayor said 630 Ukrainian drones targeted the capital, a day after the Kremlin agreed to restart U.S.-mediated talks possibly around November 10.",
+      "timeline": [
+        {
+          "date": "Oct 11",
+          "event": "Trump announces an energy ceasefire."
+        },
+        {
+          "date": "Oct 14",
+          "event": "Massive strike on Kyiv power plants."
+        },
+        {
+          "date": "Oct 16",
+          "event": "Strikes on nine regions; Zelenskyy at EU summit."
+        },
+        {
+          "date": "Oct 21",
+          "event": "Witkoff meets Putin; Hubbard freed; talks eyed for Nov 10."
+        },
+        {
+          "date": "Oct 22",
+          "event": "Kyiv hit; 630 drones fly at Moscow."
+        }
+      ],
+      "topic": "Russia–Ukraine",
+      "updatedAt": "2026-10-22T02:55:00-04:00",
+      "why": "It is the first concrete sign in weeks that direct talks could restart, but both sides are still escalating strikes, and Moscow continues to demand all of Donetsk and no NATO membership for Kyiv. Moscow's offer to help on Iran also links the two wars driving energy prices."
+    },
+    {
+      "backstory": "Ottawa moved its budget to the fall last year so it lines up with the construction season and avoids a separate fall update. The 2025 fall budget focused on big infrastructure, housing and defence investment and ran a large deficit. Since then, 50% U.S. tariffs and Canada's counter-tariffs have hit manufacturing, and Ottawa has rolled out support packages, including $25 billion for affected workers and businesses and the new $8.7 billion plan with Ontario. The Liberals do not hold a majority, so the budget needs support from at least one other party to pass.",
+      "headline": "Ottawa will table its 2026 budget on November 5",
+      "id": "federal-budget-2026",
+      "impact": "Watch for changes to personal taxes, housing programs, EI and tariff relief for Ontario workers. Bigger deficits can also keep longer-term borrowing costs, including fixed mortgage rates, higher.",
+      "impactLevel": "high",
+      "now": "Champagne announced the date during question period on Tuesday, saying the plan will focus on unlocking investment and creating well-paid jobs. Prime Minister Mark Carney says Ottawa is on track to balance its day-to-day operating budget in 2027-28, a year early, but the Parliamentary Budget Officer (PBO) projects that target will slip by a year. The PBO also expects the overall deficit to stay above $63 billion later this decade rather than falling to the $53 billion the government projected. Defence spending is set to rise from about $75 billion a year to $95.7 billion by 2030-31. Conservative Leader Pierre Poilievre has attacked the government's spending plans.",
+      "rank": 9,
+      "region": "canada",
+      "sources": [
+        {
+          "title": "CP24: Finance minister announces budget date",
+          "url": "https://www.cp24.com/politics/2026/10/20/finance-minister-announces-date-for-new-federal-budget-to-be-tabled/"
+        },
+        {
+          "title": "Global News: Federal budget date revealed",
+          "url": "https://globalnews.ca/news/12109519/canada-2026-budget-date-revealed"
+        }
+      ],
+      "status": "new",
+      "summary": "Finance Minister François-Philippe Champagne says the Carney government will present its second fall budget on November 5, as the trade war weighs on the economy.",
+      "timeline": [
+        {
+          "date": "Nov 2025",
+          "event": "Carney's first fall budget tabled."
+        },
+        {
+          "date": "Aug 22",
+          "event": "U.S. 50% tariffs take effect."
+        },
+        {
+          "date": "Sep 8",
+          "event": "Canada's counter-tariffs and $25B support package."
+        },
+        {
+          "date": "Oct",
+          "event": "PBO says balance goal will likely slip a year."
+        },
+        {
+          "date": "Oct 20",
+          "event": "Champagne sets November 5 budget date."
+        }
+      ],
+      "topic": "Budget",
+      "updatedAt": "2026-10-20T15:00:00-04:00",
+      "why": "The budget decides federal taxes, benefits, defence spending and how much more Ottawa borrows during the trade war. A failed budget vote could also trigger an election."
+    },
+    {
+      "backstory": "Premier Danielle Smith announced the referendum in February and added the separation question in May. A yes on that question would not take Alberta out of Canada; it would start a process toward a later, binding referendum. Other questions ask about provincial control over immigration, proof of citizenship to vote, and making provincial law override federal law.",
+      "headline": "Alberta votes about 75% to stay in Canada in separation referendum",
+      "id": "alberta-referendum",
+      "impact": "Indirect for Ontario, but a strong separatist showing would dominate federal politics and could affect transfer payments and national programs that every province shares.",
+      "impactLevel": "medium",
+      "now": "Unofficial results put 'remain' at roughly 75–77% and the separation-path option near 25%. In a televised address, Smith said she will honour the mandate and not hold another referendum on this issue while premier, adding that disputes will be settled through political and legal institutions and that many battles with Ottawa lie ahead. Carney said Albertans and all Canadians will move forward together with renewed purpose. Separatist leader Keith Wilson said the result shows at least a quarter of Albertans want Alberta treated better. The separation question was one of ten on the ballot, and final official counts were not yet confirmed at this refresh. Smith also vowed to use every legal and political tool to advance Alberta's interests and warned of a firm response if Ottawa interferes; Carney spoke with her Tuesday about closer cooperation, including on immigration.",
+      "rank": 10,
+      "region": "canada",
+      "sources": [
+        {
+          "title": "Globe and Mail: Alberta referendum live updates",
+          "url": "https://www.theglobeandmail.com/canada/article-alberta-referendum-vote-2026-live-updates/"
+        },
+        {
+          "title": "Global News: Alberta voters reject separatism",
+          "url": "https://globalnews.ca/news/12108827/alberta-referendum-result/"
+        },
+        {
+          "title": "CNN: Alberta rejects secession referendum",
+          "url": "https://www.cnn.com/2026/10/20/americas/alberta-rejects-independence-referendum-canada-intl-hnk"
+        },
+        {
+          "title": "BNN Bloomberg: Smith vows not to hold another referendum",
+          "url": "https://www.bnnbloomberg.ca/tariffs/2026/10/21/i-will-honour-this-mandate-smith-vows-not-to-hold-another-referendum-on-separation/"
+        }
+      ],
+      "status": "developing",
+      "summary": "About three-quarters of Albertans (CBC projected 76.5%) chose to remain in Canada versus roughly a quarter for starting a path toward a separation vote. Premier Danielle Smith said she will not hold another referendum on the issue while she is premier, but that grievances with Ottawa remain.",
+      "timeline": [
+        {
+          "date": "May 21",
+          "event": "Separation question added to the ballot."
+        },
+        {
+          "date": "Oct 2–4",
+          "event": "Léger poll: 70% stay, 22% start separation process."
+        },
+        {
+          "date": "Oct 13–14",
+          "event": "Advance voting opens with 174,532 ballots on day one; Smith votes to stay."
+        },
+        {
+          "date": "Oct 15",
+          "event": "Carney draws 5,000+ to Calgary unity rally."
+        },
+        {
+          "date": "Oct 16–17",
+          "event": "Carney in Red Deer and Edmonton; advance voting ends with ~704,000 ballots, over 1M with special ballots."
+        },
+        {
+          "date": "Oct 19",
+          "event": "Albertans vote; roughly 75–77% choose to remain in Canada (unofficial). Smith pledges no second vote while premier."
+        }
+      ],
+      "topic": "National unity",
+      "updatedAt": "2026-10-21T05:55:00-04:00",
+      "why": "Even a non-binding result shapes national politics, federal-provincial relations and investor confidence in the energy sector."
+    },
+    {
+      "backstory": "Trump has said since 2025 that he wants to shrink or phase out FEMA and shift disaster costs to states. FEMA normally pays most rebuilding costs after a major disaster declaration, covering storms, floods and wildfires. The agency has lost many staff this year, and a review council has been studying its future.",
+      "headline": "FEMA chief tells states to handle most disasters on their own",
+      "id": "us-fema-disaster-aid",
+      "impact": "Little direct effect in Ontario, but slower U.S. rebuilding after storms can disrupt cross-border supply chains and raise prices for building materials and some foods.",
+      "impactLevel": "low",
+      "now": "Speaking Tuesday at the National Emergency Management Association conference in Little Rock, Arkansas, Hamilton said states should be able to recover from most disasters without waiting for a presidential disaster declaration. He said the administration plans a national mutual-aid system so states help each other, and FEMA will try to waive federal environmental and historic-preservation reviews for rebuilding. An internal FEMA memo dated October 15 said the agency would strengthen state and local capacity, while a FEMA report found state disaster agencies are typically understaffed and underfunded. Critics, including Democrats and emergency-management advocates, warn poorer states will be left exposed.",
+      "rank": 11,
+      "region": "us",
+      "sources": [
+        {
+          "title": "Politico via Yahoo News: FEMA chief tells states to handle disasters",
+          "url": "https://www.yahoo.com/news/us/articles/exclusive-fema-chief-tells-states-201554299.html"
+        }
+      ],
+      "status": "new",
+      "summary": "Federal Emergency Management Agency head Cameron Hamilton told state emergency managers to build reserves and expect far less federal disaster help, with changes possible within six months.",
+      "timeline": [
+        {
+          "date": "2025",
+          "event": "Trump floats phasing out FEMA."
+        },
+        {
+          "date": "Oct 15",
+          "event": "Internal memo shifts focus to state capacity."
+        },
+        {
+          "date": "Oct 20",
+          "event": "Hamilton tells states to handle disasters themselves."
+        }
+      ],
+      "topic": "Disaster aid",
+      "updatedAt": "2026-10-20T17:00:00-04:00",
+      "why": "It would be one of the biggest changes to U.S. disaster policy in decades, shifting costs to states just as extreme weather grows more frequent."
+    },
+    {
+      "backstory": "The seven career colleges with the highest OSAP use received $385 million in provincial grants in 2024-25. Questions about whether some students were enrolled in genuine programs have led to court challenges and earlier OSAP bans for a few colleges, extended this week by three years.",
+      "headline": "Ontario's OSAP pause for career colleges to run into the new year",
+      "id": "osap-pause",
+      "impact": "If you or your child attends a private post-secondary school in Ontario, OSAP money may be delayed; contact the school's financial aid office and watch for the promised bridge loans.",
+      "impactLevel": "medium",
+      "now": "Quinn announced late Tuesday that the pause on Ontario Student Assistance Program (OSAP) money to private career colleges will last months, after preliminary audit findings raised serious concerns. It will stay in place until the province sets up a new process for approving private schools for OSAP, work he does not expect to finish until the new year. The government is still trying to arrange third-party bank loans for affected students. Trillium College has suspended classes because of the uncertainty, and some students say they do not know if they can graduate on time. Accounting firm KPMG's audit has already been referred to the Ontario Provincial Police, and the freeze also covers private universities, performing arts and theological schools. CBC Toronto reports Trillium College has suspended all classes since the pause began.",
+      "rank": 12,
+      "region": "ontario",
+      "sources": [
+        {
+          "title": "CP24 (Canadian Press): Career college students worry about OSAP pause",
+          "url": "https://www.cp24.com/politics/queens-park/2026/10/21/ontario-career-college-students-worry-about-impact-of-osap-pause-extended-to-2027/"
+        },
+        {
+          "title": "CP24: Students affected by OSAP pause",
+          "url": "https://www.cp24.com/politics/queens-park/2026/10/16/national-ballet-school-divinity-college-students-among-those-affected-by-osap-pause/"
+        }
+      ],
+      "status": "developing",
+      "summary": "Minister Nolan Quinn says student-aid payments to Ontario career colleges will stay paused until a new approval process is built, which is not expected before the new year; one college has already suspended classes.",
+      "timeline": [
+        {
+          "date": "2024-25",
+          "event": "Top seven career colleges draw $385M in OSAP grants."
+        },
+        {
+          "date": "Early Oct",
+          "event": "KPMG audit flags problems; matter referred to OPP."
+        },
+        {
+          "date": "Oct 14",
+          "event": "Several career colleges barred from OSAP for three more years."
+        },
+        {
+          "date": "Oct 16",
+          "event": "Ballet, divinity and film students report impact."
+        },
+        {
+          "date": "Oct 20",
+          "event": "Quinn says pause will last into the new year."
+        }
+      ],
+      "topic": "Student aid",
+      "updatedAt": "2026-10-22T05:55:00-04:00",
+      "why": "Thousands of Ontario students depend on OSAP, and a broad freeze shifts the cost of a fraud crackdown onto students at schools not under suspicion."
+    },
+    {
+      "backstory": "In February the U.S. Supreme Court struck down Trump's broad tariffs that relied on an emergency-powers law (IEEPA). The administration then turned to other laws, and in August imposed 50% tariffs on many Canadian goods after trade talks broke down. The Liberty Justice Center also helped bring one of the earlier cases that went to the Supreme Court.",
+      "headline": "U.S. importer sues to strike down Trump's 50% tariffs on Canada",
+      "id": "us-canada-tariff-lawsuit",
+      "impact": "A win would lower costs for Ontario exporters selling into the U.S. and could ease pressure on GTA manufacturing jobs, but nothing changes for now.",
+      "impactLevel": "medium",
+      "now": "The suit, filed Tuesday by the Liberty Justice Center on behalf of Gellert and a proposed class of importers, argues the administration went beyond its powers under Section 338 of the Tariff Act of 1930, a rarely used law that lets a president respond to foreign trade discrimination. Gellert imports Canadian food products such as cheese. It asks the court to stop the duties and order refunds with interest. The White House has not yet filed a response.",
+      "rank": 13,
+      "region": "us",
+      "sources": [
+        {
+          "title": "Quartz: Food importer sues to block 50% Canada tariffs",
+          "url": "https://qz.com/food-importer-lawsuit-trump-canada-tariffs-section-338-102026"
+        },
+        {
+          "title": "Just Security: Early Edition, Oct 21",
+          "url": "https://www.justsecurity.org/161515/early-edition-october-21-2026/"
+        },
+        {
+          "title": "Fox Business: Gellert Global Group sues over Canada tariffs",
+          "url": "https://www.foxbusiness.com/politics/us-food-importer-sues-trump-administration-over-50-tariffs-canadian-goods"
+        }
+      ],
+      "status": "developing",
+      "summary": "New Jersey food importer Gellert Global Group has asked the U.S. Court of International Trade to block Trump's 50% tariffs on Canadian goods and refund what importers paid.",
+      "timeline": [
+        {
+          "date": "Feb 20",
+          "event": "Supreme Court strikes down emergency (IEEPA) tariffs."
+        },
+        {
+          "date": "Aug 22",
+          "event": "U.S. 50% tariffs on Canadian goods take effect."
+        },
+        {
+          "date": "Oct 20",
+          "event": "Gellert sues at the Court of International Trade."
+        }
+      ],
+      "topic": "Tariffs in court",
+      "updatedAt": "2026-10-20T12:00:00-04:00",
+      "why": "If the court agrees, it would be the second time a U.S. court has knocked out Trump's tariffs on Canada, and importers could be owed refunds. A ruling is likely months away."
+    },
+    {
+      "backstory": "Ontario's housing market has been sluggish for more than two years, with condo sales in the GTA especially weak and builders cutting new projects. Higher inflation this fall, driven by gas prices, has shifted talk from rate cuts to possible hikes.",
+      "headline": "Desjardins sees a modest Ontario housing rebound in 2027",
+      "id": "ontario-housing-outlook",
+      "impact": "Buyers in the GTA may not face a rush of price increases next year, but anyone renewing a mortgage should plan for rates that could rise rather than fall.",
+      "impactLevel": "medium",
+      "now": "In a report released Wednesday, Desjardins economists project existing-home sales rising almost 5% in 2027, though still well below long-term norms, and average prices growing 2.4% in a balanced market. Housing starts are forecast to climb about 6% to nearly 65,000 units, still more than 30% below 2021–2022 levels. The bank expects two Bank of Canada rate increases in 2027, which could limit the rebound.",
+      "rank": 14,
+      "region": "ontario",
+      "sources": [
+        {
+          "title": "CP24 (Canadian Press): Ontario housing market set for modest rebound",
+          "url": "https://www.cp24.com/news/canada/2026/10/21/ontario-housing-market-set-for-modest-rebound-in-2027-desjardins-report/"
+        }
+      ],
+      "status": "new",
+      "summary": "Desjardins forecasts Ontario home sales up nearly 5% and average prices up 2.4% next year, but warns expected Bank of Canada rate hikes could cap the recovery.",
+      "timeline": [
+        {
+          "date": "2021–22",
+          "event": "Housing starts peak in Ontario."
+        },
+        {
+          "date": "Oct 19",
+          "event": "Canadian inflation rises to 3.1%."
+        },
+        {
+          "date": "Oct 21",
+          "event": "Desjardins forecasts modest 2027 rebound."
+        }
+      ],
+      "topic": "Housing",
+      "updatedAt": "2026-10-21T11:58:00-04:00",
+      "why": "It suggests the slump is bottoming out but not turning into a boom, and that borrowing costs, not demand, are the main brake."
     }
-   ],
-   "topic": "Iran war",
-   "updatedAt": "2026-10-16T12:05:00-04:00",
-   "why": "This is the single biggest driver of global energy prices this year. Sinkings are rare, so two in a day signal Iran is willing to raise the stakes for all cargo, not just oil tankers, which can push up shipping and insurance costs."
-  },
-  {
-   "backstory": "The Iran war, and especially attacks on shipping in the Strait of Hormuz, pushed oil above $100 a barrel this year. U.S. gas averaged about $2.98 a gallon before the war, and diesel hit a record $6.29 in late September. Wages are rising about 3% a year, slower than prices, so many Americans are falling behind. Rising long-term borrowing costs have also hit stock markets, especially debt-heavy AI companies.",
-   "headline": "U.S. inflation jumps to 3.7% as gas prices hit records",
-   "id": "us-inflation-september",
-   "impact": "U.S. bond yields help set Canadian fixed mortgage rates, so GTA homeowners renewing soon could see higher offers. Fuel costs feed into everything from groceries to delivery prices in Ontario.",
-   "impactLevel": "high",
-   "now": "The U.S. consumer price index (CPI) rose 0.6% in September and 3.7% from a year earlier, up from 3.4% in August and above the 3.6% economists expected. Gasoline jumped 9.1% in the month, and the U.S. average pump price hit a record $4.33 a gallon; core inflation, which leaves out food and energy, rose to 2.6%. CME Group data showed traders putting about a 44% chance on a quarter-point Fed hike on October 28, up from roughly 20% before the report. The 10-year U.S. Treasury yield touched 5.30% earlier this month, its highest since 2002, before easing to about 5.05% Thursday, and the average 30-year mortgage rate rose to 7.56%. White House adviser Kevin Hassett blamed the jump on Houthi attacks on Saudi oil sites.",
-   "rank": 2,
-   "region": "us",
-   "sources": [
-    {
-     "title": "Yahoo Finance: CPI rose 3.7% in September",
-     "url": "https://finance.yahoo.com/economy/live/cpi-inflation-live-updates-prices-rose-37-in-september-142456444.html"
-    },
-    {
-     "title": "CNBC: Consumer prices rose 3.7% in September",
-     "url": "https://www.cnbc.com/2026/10/14/cpi-inflation-report-september-2026.html"
-    },
-    {
-     "title": "CP24: Inflation anxiety drags on AI stocks",
-     "url": "https://www.cp24.com/news/money/2026/10/15/inflation-anxiety-drags-on-ai-stocks-for-a-second-day-as-markets-point-to-a-mixed-open/"
-    }
-   ],
-   "status": "developing",
-   "summary": "American consumer prices rose 3.7% in the year to September, driven by fuel, and traders now see a real chance the Federal Reserve raises rates on October 28.",
-   "timeline": [
-    {
-     "date": "Mar",
-     "event": "Iran war widens; oil prices climb."
-    },
-    {
-     "date": "Jul 8",
-     "event": "Ceasefire collapses after attacks on Hormuz shipping."
-    },
-    {
-     "date": "Sep",
-     "event": "U.S. gas averages a record $4.33; diesel hits $6.29."
-    },
-    {
-     "date": "Early Oct",
-     "event": "10-year Treasury yield reaches 5.30%, highest since 2002."
-    },
-    {
-     "date": "Oct 14",
-     "event": "September CPI comes in at 3.7%."
-    }
-   ],
-   "topic": "U.S. economy",
-   "updatedAt": "2026-10-14T08:30:00-04:00",
-   "why": "Higher U.S. inflation and interest rates ripple into Canada through borrowing costs, the dollar and trade. It also sharpens the cost-of-living debate three weeks before the midterms."
-  },
-  {
-   "backstory": "The U.S. Supreme Court struck down Trump's broad emergency tariffs in February, but sector tariffs on steel, aluminum, autos, copper and lumber stayed. At the first CUSMA review on July 1, the U.S. refused to extend the deal for a full new term, so it now needs annual reviews. Ottawa walked out of talks on August 21, calling Washington's last-minute demands unfair. The U.S. imposed 50% tariffs on August 22, and Canada matched with counter-tariffs on September 8, plus a $25B support package for affected workers and businesses.",
-   "headline": "Trump says Canada will end up the 51st state; Ford says never",
-   "id": "trade-war",
-   "impact": "Tariffs raise prices on some U.S. goods in Canadian stores and squeeze manufacturing jobs in the GTA, Windsor and Hamilton. If you or your family work in autos, steel, logistics or anything that ships to the U.S., this is the story most likely to touch your paycheque.",
-   "impactLevel": "high",
-   "now": "Speaking in Bullhead City, Arizona, on Wednesday, Trump said Canada will end up as the 51st state, argued the U.S. does not need Canada, and again floated renaming Lake Ontario. He pointed to Canada's dairy tariffs and to automakers moving plants to the U.S. Ontario Premier Doug Ford answered that Canada's sovereignty is not for sale. Earlier that day U.S. Ambassador Pete Hoekstra suggested that Industry Minister Mélanie Joly's talk of aiming counter-tariffs at particular U.S. states could look like interference in the November 3 midterms, while Conservative Leader Pierre Poilievre toured Michigan arguing for tariff-free auto trade. Separately, a draft joint statement seen by The Canadian Press shows Canada and the European Union planning closer ties on digital security, critical minerals and a proposed fleet of Canadian-built water bombers ahead of a summit at the end of October.",
-   "rank": 3,
-   "region": "canada",
-   "sources": [
-    {
-     "title": "CP24: Trump says Canada will end up the 51st state",
-     "url": "https://www.cp24.com/news/canada/2026/10/14/trump-says-canada-will-end-up-being-the-51st-state-because-thats-the-only-way-it-works/"
-    },
-    {
-     "title": "CP24 (Canadian Press): Hoekstra warns Canadian politicians",
-     "url": "https://www.cp24.com/news/canada/2026/10/14/us-ambassador-warns-canadian-politicians-keep-your-nose-out-of-american-politics/"
-    },
-    {
-     "title": "CP24 (Canadian Press): Poilievre visits Detroit",
-     "url": "https://www.cp24.com/politics/2026/10/14/poilievre-visits-detroit-to-push-for-tariff-free-trade-for-auto-industry/"
-    },
-    {
-     "title": "CTV News: Draft document shows Canada-EU response",
-     "url": "https://www.ctvnews.ca/politics/article/as-americans-play-power-game-draft-document-shows-canada-eu-response/"
-    }
-   ],
-   "status": "developing",
-   "summary": "At an Arizona rally, Trump revived his 51st-state talk and listed complaints about Canadian dairy tariffs, the same day his ambassador warned Canadian politicians off the midterms.",
-   "timeline": [
-    {
-     "date": "Oct 2025",
-     "event": "U.S. adds lumber, furniture and cabinet tariffs."
-    },
-    {
-     "date": "Feb 20",
-     "event": "U.S. Supreme Court strikes down emergency (IEEPA) tariffs."
-    },
-    {
-     "date": "Jul 1",
-     "event": "CUSMA review: U.S. won't extend; annual reviews begin."
-    },
-    {
-     "date": "Aug 21–22",
-     "event": "Canada exits talks; U.S. 50% tariffs take effect."
-    },
-    {
-     "date": "Sep 8",
-     "event": "Canada's counter-tariffs on ~C$27.6B of U.S. goods."
-    },
-    {
-     "date": "Oct 13",
-     "event": "Poilievre in Detroit; Trump eyes 50% auto tariff Jan 1."
-    },
-    {
-     "date": "Oct 14",
-     "event": "Hoekstra warning; Trump repeats 51st-state line."
-    }
-   ],
-   "topic": "Trade",
-   "updatedAt": "2026-10-15T16:58:00-04:00",
-   "why": "About three-quarters of Canada's exports normally go to the U.S. Ontario, with its auto plants and steel mills, is the most exposed province."
-  },
-  {
-   "backstory": "Premier Danielle Smith announced the referendum in February and added the separation question in May. A yes on that question would not take Alberta out of Canada; it would start a process toward a later, binding referendum. Other questions ask about provincial control over immigration, proof of citizenship to vote, and making provincial law override federal law.",
-   "headline": "Carney and Smith campaign in Red Deer as Alberta vote nears",
-   "id": "alberta-referendum",
-   "impact": "Indirect for Ontario, but a strong separatist showing would dominate federal politics and could affect transfer payments and national programs that every province shares.",
-   "impactLevel": "medium",
-   "now": "After drawing at least 5,000 people in Calgary on Thursday, Carney joins Smith at a Vote to Stay event in Red Deer on Friday morning and headlines a Forever Canadian rally in Edmonton in the evening, telling supporters that polls don't vote, people do. Smith, who says she voted to remain in Canada, plans to knock on doors in four communities this weekend. Advance turnout has been heavy, with hundreds of thousands of ballots already cast, and Saturday is the last day of advance voting. The ballot has 10 questions: Question 10 asks whether Alberta should stay in Canada or hold a second, binding vote on separation, and the other nine deal with immigration and the Constitution. Polls are open 9 a.m. to 8 p.m. Mountain time on Monday, October 19.",
-   "rank": 4,
-   "region": "canada",
-   "sources": [
-    {
-     "title": "Yahoo News Canada/CP: Campaigns enter homestretch",
-     "url": "https://ca.news.yahoo.com/campaigns-enter-homestretch-ahead-alberta-120000292.html"
-    },
-    {
-     "title": "CTV News: Alberta referendum live updates",
-     "url": "https://ctvnews.ca/canada/alberta-referendum/article/the-stakes-are-high-pm-carney-urges-albertans-to-stay-in-canada-live-updates-here"
-    },
-    {
-     "title": "CP24/Canadian Press: Carney tells Alberta rally to vote",
-     "url": "https://www.cp24.com/news/canada/2026/10/16/vote-like-canada-depends-on-it-pm-carney-tells-alberta-referendum-rally/"
-    },
-    {
-     "title": "CTV News: 174,500 ballots on first day of advance voting",
-     "url": "https://www.ctvnews.ca/calgary/article/alberta-referendum-174500-people-cast-ballots-on-1st-day-of-advance-voting/"
-    }
-   ],
-   "status": "developing",
-   "summary": "Prime Minister Mark Carney and Premier Danielle Smith were set to share a stage at a Vote to Stay event in Red Deer Friday, before Carney's evening rally in Edmonton, three days before Monday's referendum.",
-   "timeline": [
-    {
-     "date": "May 21",
-     "event": "Separation question added to the ballot."
-    },
-    {
-     "date": "Oct 2–4",
-     "event": "Léger poll: 70% stay, 22% start separation process."
-    },
-    {
-     "date": "Oct 13–14",
-     "event": "Advance voting opens with 174,532 ballots on day one; Smith votes to stay."
-    },
-    {
-     "date": "Oct 15",
-     "event": "Carney draws 5,000+ to Calgary unity rally."
-    },
-    {
-     "date": "Oct 16",
-     "event": "Carney and Smith in Red Deer; Edmonton rally."
-    }
-   ],
-   "topic": "National unity",
-   "updatedAt": "2026-10-16T12:05:00-04:00",
-   "why": "Even a non-binding result shapes national politics, federal-provincial relations and investor confidence in the energy sector."
-  },
-  {
-   "backstory": "Russia's full-scale invasion is in its fifth year. U.S. envoys Steve Witkoff and Jared Kushner have been trying to coax Moscow back to talks, and reportedly see letting Russian diesel back onto the market as a carrot. European intelligence services warn Russia may take bigger risks against NATO countries in the coming months.",
-   "headline": "Russia hits nine Ukrainian regions as EU leaders pledge support to Zelenskyy",
-   "id": "ukraine-energy",
-   "impact": "Ukrainian hits on Russian refineries can tighten world diesel supply, which matters because diesel already feeds grocery and delivery costs in Ontario. Canada is a NATO member and a major Ukraine backer, so a widening split between Washington and Kyiv affects Ottawa's defence and aid decisions.",
-   "impactLevel": "medium",
-   "now": "The Associated Press reports Russian attacks hit nine regions overnight, damaging homes, wounding at least 15 people and forcing emergency power cuts for hundreds of thousands of households; grid operator Ukrenergo asked people to limit heavy appliance use in the evening peak. The UN human rights office says 328 civilians were killed and 2,105 wounded in September, 85% more than a year earlier. Russia claims it shot down 644 Ukrainian drones overnight, disrupting about 160 flights at Moscow airports. At the EU summit in Brussels, Zelenskyy thanked European leaders and said Ukraine must prepare for winter because Russia shows no sign of wanting peace; a day earlier he said he felt betrayed by Trump over cuts to intelligence sharing, limits on SpaceX's Starshield service and a U.S. deal on Russian diesel.",
-   "rank": 5,
-   "region": "world",
-   "sources": [
-    {
-     "title": "CP24/AP: Russia strikes 9 Ukrainian regions",
-     "url": "https://www.cp24.com/news/world/2026/10/16/russia-strikes-9-ukrainian-regions-as-strain-grows-between-zelenskyy-and-trump/"
-    },
-    {
-     "title": "UNN: Russia attacks energy sites in Kyiv and four regions",
-     "url": "https://unn.ua/en/news/russia-attacked-energy-infrastructure-in-kyiv-and-four-regions-leaving-some-residents-without-electricity-the-ministry-of-energy"
-    },
-    {
-     "title": "Kyiv Post: Zelensky turns to NATO for air defence",
-     "url": "https://www.kyivpost.com/post/87197"
-    }
-   ],
-   "status": "developing",
-   "summary": "Overnight Russian strikes on nine regions caused emergency blackouts for hundreds of thousands of homes, while EU leaders meeting in Brussels promised to keep backing Ukraine and urged Washington to lean on Moscow.",
-   "timeline": [
-    {
-     "date": "Oct 11",
-     "event": "Trump announces an energy ceasefire; Ukraine pauses refinery strikes."
-    },
-    {
-     "date": "Oct 13",
-     "event": "Zelenskyy says U.S. warned it could cut intelligence sharing."
-    },
-    {
-     "date": "Oct 14",
-     "event": "Massive strike on Kyiv power plants; Starlink slowdown."
-    },
-    {
-     "date": "Oct 15",
-     "event": "Ryazan refinery hit; 850+ Russian drones overnight."
-    },
-    {
-     "date": "Oct 16",
-     "event": "Strikes on nine regions; Zelenskyy at EU summit in Brussels."
-    }
-   ],
-   "topic": "Russia–Ukraine",
-   "updatedAt": "2026-10-16T12:05:00-04:00",
-   "why": "Refinery strikes are Ukraine's main way to squeeze Russia's oil income, and dropping the pause puts Kyiv openly at odds with Trump's ceasefire push. With winter coming and Ukraine's grid badly damaged, the fight over energy targets could shape the next phase of the war."
-  },
-  {
-   "backstory": "Chow won a 2023 by-election after John Tory resigned and is now seeking a full term. Bradford, a councillor, is her main challenger. Late-summer polls had Chow around 50% and Bradford near 39%. Big themes are housing costs, traffic, property taxes and the province's moves on bike lanes.",
-   "headline": "Chow pledges 15,000 youth jobs as Bradford pitches Eglinton East LRT",
-   "id": "municipal-elections",
-   "impact": "You get a vote for mayor, ward councillor and school trustee in your own city. Check your municipality's site for your polling station and advance-voting hours.",
-   "impactLevel": "medium",
-   "now": "Chow promised 15,000 new youth jobs, a guarantee that 20% of Scarborough East LRT construction jobs go to local residents, and $28 million for youth violence prevention, mentorship and employment programs. Bradford called her campaign out of steam, pledged to push the Eglinton East LRT in his first 100 days with construction starting by 2030, and repeated plans to remove 12 km of red bus lanes in Scarborough. The two also clashed over Bradford's proposed Toronto Water utility, which he says would stay fully public and Chow says could hand control to the province. A record 225,550 Torontonians voted in advance polls; the final televised debate airs on CP24 on October 22 at 7 p.m., and election day is Monday, October 26, with polls open 10 a.m. to 8 p.m.",
-   "rank": 6,
-   "region": "ontario",
-   "sources": [
-    {
-     "title": "CP24: Bradford takes aim at Chow over youth jobs pitch",
-     "url": "https://www.cp24.com/gta-elections-2026/2026/10/15/running-out-of-steam-bradford-takes-aim-at-chow-over-new-pitch-for-youth-jobs-live-updates-here/"
-    },
-    {
-     "title": "CP24: Chow's lead shrinks in Nanos poll",
-     "url": "https://www.cp24.com/local/toronto/2026/10/13/exclusive-poll-chows-lead-shrinks-against-bradford-in-toronto-mayoral-race/"
-    },
-    {
-     "title": "CP24: Record advance voting in Toronto",
-     "url": "https://www.cp24.com/local/toronto/2026/10/13/toronto-sees-massive-increase-in-advance-voting-with-more-than-200000-people-casting-ballots/"
-    }
-   ],
-   "status": "developing",
-   "summary": "With 11 days to go, Olivia Chow promised youth jobs and local hiring while Brad Bradford made the Eglinton East LRT his top transit priority. A Nanos poll has Chow at 51% and Bradford at 47% among decided voters.",
-   "timeline": [
-    {
-     "date": "Jun 2023",
-     "event": "Chow wins Toronto mayoral by-election."
-    },
-    {
-     "date": "May 2026",
-     "event": "Chow and Bradford register to run."
-    },
-    {
-     "date": "Sep",
-     "event": "Polls show Chow ahead by 7–15 points."
-    },
-    {
-     "date": "Oct 6–11",
-     "event": "225,550 vote early; Nanos poll shows a 4-point race."
-    },
-    {
-     "date": "Oct 15",
-     "event": "Chow pledges 15,000 youth jobs; Bradford backs Eglinton East LRT."
-    }
-   ],
-   "topic": "Elections",
-   "updatedAt": "2026-10-15T16:58:00-04:00",
-   "why": "City councils set property taxes, transit service, policing budgets and local housing approvals, and they last four years."
-  },
-  {
-   "backstory": "Republicans have controlled both the House and Senate since January 2025, which has let Trump pass his agenda with few checks. Midterms usually go against the president's party, and Trump's approval is lower than at the same point in his first term. All 435 House seats and 35 Senate seats are on the ballot. A Democratic House could launch investigations and block spending and trade legislation.",
-   "headline": "Poll finds voters want change as early turnout runs ahead of 2022",
-   "id": "us-midterms",
-   "impact": "A change in Congress could shift the odds of tariff relief for Ontario's auto, steel and lumber industries. Ottawa's trade strategy is partly being timed around the outcome.",
-   "impactLevel": "medium",
-   "now": "An AP-NORC poll taken October 8–12 found about half of registered voters want Democrats in charge of the House or Senate, about 4 in 10 prefer Republicans and 15% are undecided; about a third approve of Trump's job performance and about 8 in 10 disapprove of his handling of living costs. Georgia logged more than 180,000 ballots on its first day of early voting, about 55,000 more than in 2022, and North Carolina opened in-person early voting Thursday, with Texas starting Monday. The Justice Department sued California officials to stop the counting of mail ballots from about 20,000 people it calls likely noncitizens; Secretary of State Shirley Weber says no evidence was provided and Attorney General Rob Bonta says the state will not comply. In Texas, Democrat James Talarico reported raising $64 million last quarter against Republican Ken Paxton's $18 million. Republicans hold the Senate 53–47.",
-   "rank": 7,
-   "region": "us",
-   "sources": [
-    {
-     "title": "PBS/AP: Voters want change, AP-NORC poll finds",
-     "url": "https://www.pbs.org/newshour/politics/frustrated-with-trump-voters-overwhelmingly-want-change-ap-norc-poll-finds"
-    },
-    {
-     "title": "PBS/AP: Trump administration sues California over mail ballots",
-     "url": "https://www.pbs.org/newshour/politics/trump-administration-sues-california-to-block-counting-of-alleged-noncitizen-mail-ballots"
-    },
-    {
-     "title": "Fox News: Midterm elections live, Oct. 15",
-     "url": "https://www.foxnews.com/live-news/midterm-elections-2026-trump-democrats-october-15"
-    },
-    {
-     "title": "KLTV: Texas early voting begins Oct. 19",
-     "url": "https://www.kltv.com/2026/10/16/early-voting-texas-midterms-begins-october-19/"
-    }
-   ],
-   "status": "developing",
-   "summary": "A new AP-NORC poll shows about half of registered voters want Democrats to control Congress and only about a third approve of Trump, as early voting surges 18 days before the midterms.",
-   "timeline": [
-    {
-     "date": "Jan 2025",
-     "event": "Republicans take control of both chambers."
-    },
-    {
-     "date": "Sep 15",
-     "event": "NYT/Siena poll: 51% Democrat, 43% Republican for House."
-    },
-    {
-     "date": "Oct 13",
-     "event": "Fox News ratings: House leans Democratic, Senate toss-up."
-    },
-    {
-     "date": "Oct 15",
-     "event": "AP-NORC poll; DOJ sues California over mail ballots."
-    },
-    {
-     "date": "Nov 3",
-     "event": "Election day."
-    }
-   ],
-   "topic": "Midterms",
-   "updatedAt": "2026-10-16T12:05:00-04:00",
-   "why": "The result decides how freely Trump can act on tariffs, the Iran war and spending for the final two years of his term."
-  },
-  {
-   "id": "russia-diesel-deal",
-   "rank": 8,
-   "region": "us",
-   "topic": "Russian diesel",
-   "status": "new",
-   "impactLevel": "medium",
-   "updatedAt": "2026-10-13T12:00:00-04:00",
-   "headline": "Six Republican senators join Democrats against Trump's Russian diesel deal",
-   "summary": "A bipartisan group of 12 senators asked Trump on Tuesday to cancel his deal to let Russian diesel reach world markets and to enforce a new Russia sanctions law instead.",
-   "now": "On October 9 Trump announced that Russia would supply diesel to global markets and his administration temporarily lifted U.S. sanctions on Russian fuel. On October 13, twelve senators, six of them Republicans, wrote to urge him to rescind the deal and apply the new law that directs tariffs on top buyers of Russian oil. Retiring Republican Sen. Thom Tillis said there is a legitimate case that the president is not following the law, while Senate Republican whip John Barrasso defended the deal as a balancing act. Reports put the volume at roughly 3 to 5 million tons, and one estimate of about 36 million barrels is under two weeks of U.S. demand. More Republican Senate candidates are now distancing themselves from it on the campaign trail.",
-   "backstory": "Russia's oil and fuel exports have been under Western sanctions since its 2022 invasion of Ukraine, meant to cut the revenue that funds the war. Fuel prices have climbed this year because of the Iran war and disruption in the Strait of Hormuz. Congress recently passed a law directing significant tariffs on the biggest importers of Russian oil, and the diesel deal pulls in the opposite direction.",
-   "timeline": [
-    {
-     "date": "2022",
-     "event": "Western sanctions target Russian oil and fuel after the invasion of Ukraine."
-    },
-    {
-     "date": "Feb 28",
-     "event": "U.S. and Israel begin striking Iran; fuel prices climb."
-    },
-    {
-     "date": "Oct 9",
-     "event": "Trump announces Russian diesel deal and temporarily lifts fuel sanctions."
-    },
-    {
-     "date": "Oct 13",
-     "event": "12 senators, including 6 Republicans, ask him to rescind it."
-    },
-    {
-     "date": "Oct 16",
-     "event": "GOP Senate candidates increasingly break with Trump over it."
-    }
-   ],
-   "why": "It tests whether Republicans in Congress will push back on the White House before the midterms, and it complicates Western pressure on Russia while Ukraine's power grid is being hit.",
-   "impact": "Diesel prices feed into grocery, trucking and delivery costs in Ontario. Analysts doubt the deal would meaningfully lower pump prices, and it could weaken sanctions pressure that Canada has backed.",
-   "sources": [
-    {
-     "title": "NPR via KPBS: Bipartisan senators call on Trump to rescind Russian diesel deal",
-     "url": "https://www.kpbs.org/news/politics/2026/10/13/bipartisan-group-of-senators-call-on-trump-to-rescind-russian-diesel-deal"
-    },
-    {
-     "title": "SCMP: Trump's Russian diesel deal may be illegal, says Republican senator",
-     "url": "https://www.scmp.com/news/world/united-states-canada/article/3370512/trumps-russian-diesel-deal-may-be-illegal-says-prominent-republican-senator"
-    },
-    {
-     "title": "CNN: Midterm live updates, Oct. 16",
-     "url": "https://www.cnn.com/2026/10/16/politics/live-news/midterm-election-congress"
-    }
-   ]
-  },
-  {
-   "backstory": "The seven career colleges with the highest OSAP use received $385 million in provincial grants in 2024-25. Questions about whether some students were enrolled in genuine programs have led to court challenges and earlier OSAP bans for a few colleges, extended this week by three years.",
-   "headline": "Ontario's OSAP freeze hits ballet, divinity and film students",
-   "id": "osap-pause",
-   "impact": "If you or your child attends a private post-secondary school in Ontario, OSAP money may be delayed; contact the school's financial aid office and watch for the promised bridge loans.",
-   "impactLevel": "medium",
-   "now": "Colleges and Universities Minister Nolan Quinn paused Ontario Student Assistance Program (OSAP) payments to private institutions last week while accounting firm KPMG audits OSAP use at career colleges; preliminary findings were serious enough that he referred the matter to the Ontario Provincial Police. The freeze also covers private universities, chiropractic and naturopathic colleges, performing arts schools and theological schools. About half of the National Ballet School's teacher-training students rely on OSAP, and OSAP-funded tuition is about 10% of McMaster Divinity College's revenue. Quinn says he is working with banks on low-interest loans for affected students but has not given a timeline.",
-   "rank": 9,
-   "region": "ontario",
-   "sources": [
-    {
-     "title": "CP24/Canadian Press: Students affected by OSAP pause",
-     "url": "https://www.cp24.com/politics/queens-park/2026/10/16/national-ballet-school-divinity-college-students-among-those-affected-by-osap-pause/"
-    },
-    {
-     "title": "CP24: Ontario blocks career colleges from OSAP for three more years",
-     "url": "https://www.cp24.com/politics/queens-park/2026/10/14/ontario-blocks-a-few-career-colleges-from-osap-for-three-additional-years/"
-    }
-   ],
-   "status": "new",
-   "summary": "Ontario's pause on student-aid payments to all private post-secondary schools, made during an audit of career colleges, is catching students at places like Canada's National Ballet School and McMaster Divinity College.",
-   "timeline": [
-    {
-     "date": "2024-25",
-     "event": "Top seven career colleges draw $385M in OSAP grants."
-    },
-    {
-     "date": "Early Oct",
-     "event": "KPMG audit flags problems; matter referred to OPP."
-    },
-    {
-     "date": "Oct 14",
-     "event": "Several career colleges barred from OSAP for three more years."
-    },
-    {
-     "date": "Oct 16",
-     "event": "Students at ballet, divinity and film schools report impact."
-    }
-   ],
-   "topic": "Student aid",
-   "updatedAt": "2026-10-16T05:43:00-04:00",
-   "why": "Thousands of Ontario students depend on OSAP, and a broad freeze shifts the cost of a fraud crackdown onto students at schools not under suspicion."
-  },
-  {
-   "backstory": "Cleveland-Cliffs bought Stelco in 2024. Ottawa approved the deal under the Investment Canada Act on the condition that it keep union jobs and most non-union positions, more than 1,500 in total.",
-   "headline": "Cleveland-Cliffs CEO calls Ottawa's Stelco threats bullying",
-   "id": "stelco",
-   "impact": "Steel layoffs ripple through suppliers and local businesses across the Golden Horseshoe. It also signals how hard Ottawa will push on other foreign-owned plants in Ontario.",
-   "impactLevel": "medium",
-   "now": "Cleveland-Cliffs CEO Lourenco Goncalves told BNN Bloomberg on Thursday that Industry Minister Mélanie Joly's threats amount to bullying and harassment, saying the company did not expect to be treated like a pariah less than two years after buying Stelco. He called the cuts a business decision to concentrate production, says he intends to rehire the workers once trade conditions improve, and denies breaking the commitments made under the Investment Canada Act. Joly says everything is on the table, including forced sale of assets or financial penalties. The steelworkers' local expects 300 to 350 layoffs in Hamilton itself, with more at Lake Erie Works in Nanticoke, and the Ontario NDP wants Premier Doug Ford to push for public ownership.",
-   "rank": 10,
-   "region": "ontario",
-   "sources": [
-    {
-     "title": "BNN Bloomberg: Cliffs CEO accuses Canada of bullying",
-     "url": "https://www.bnnbloomberg.ca/business/company-news/2026/10/15/exclusive-cleveland-cliffs-ceo-accuses-canada-of-bullying-and-harassment-over-stelco-threats/"
-    },
-    {
-     "title": "CP24: Canada weighs legal action over Stelco layoffs",
-     "url": "https://www.cp24.com/local/hamilton/2026/10/14/everything-is-on-the-table-canada-weighs-legal-action-over-possible-stelco-layoffs/"
-    },
-    {
-     "title": "BTPM: Stelco layoffs to move forward",
-     "url": "https://www.btpm.org/ontario-news/2026-10-15/stelco-layoffs-to-move-forward-as-us-based-owner-balks-at-ontarios-demands"
-    }
-   ],
-   "status": "developing",
-   "summary": "Stelco's U.S. owner says it is ready to fight in court as it presses on with up to 500 Hamilton layoffs, after Ottawa threatened penalties or a forced sale.",
-   "timeline": [
-    {
-     "date": "2024",
-     "event": "Ottawa approves Cleveland-Cliffs' purchase of Stelco with job conditions."
-    },
-    {
-     "date": "Oct 1",
-     "event": "Stelco says up to 500 Hamilton jobs will go."
-    },
-    {
-     "date": "Oct 5",
-     "event": "Joly demands a plan within five business days."
-    },
-    {
-     "date": "Oct 11",
-     "event": "Cliffs CEO says he'll fight in court; layoffs under way."
-    },
-    {
-     "date": "Oct 14–15",
-     "event": "Joly threatens forced sale; CEO calls it bullying."
-    }
-   ],
-   "topic": "Hamilton",
-   "updatedAt": "2026-10-15T19:50:00-04:00",
-   "why": "It's a test of whether Canada can enforce promises foreign buyers make, and a sign of how the trade war is landing on Ontario steel towns."
-  },
-  {
-   "backstory": "The Houthis, an Iran-aligned movement controlling much of northern Yemen, joined the Iran war in late March by firing at Israel. Since then the fight has widened into a direct Saudi-Houthi confrontation, with Houthi strikes on Saudi airports and on the East-West oil pipeline that Saudi Arabia uses to bypass Hormuz.",
-   "headline": "Houthi strike on Aden presidential palace kills five; Riyadh airport stays shut",
-   "id": "yemen-saudi",
-   "impact": "Indirect but real: more disruption to Red Sea shipping means slower and pricier imported goods and another push on fuel prices in Canada.",
-   "impactLevel": "medium",
-   "now": "Yemen's health minister raised the toll from Thursday's attack on the al-Maashiq palace in Aden, seat of the Saudi-backed government, to five dead and 16 wounded; the prime minister and cabinet were unharmed. The Houthis say they targeted a Saudi military headquarters there, a claim Reuters could not verify. Saudi-led coalition spokesperson Turki al-Maliki says the Houthis have launched 20 attacks on Riyadh's King Khalid International Airport this month, killing 17 people and wounding 333, plus attacks on Abha airport that killed three, and that coalition jets have destroyed 127 weapons depots and launch sites in Yemen. Riyadh's main airport is to stay closed until the evening of October 17, and more than 3,000 flights from Saudi airports were cancelled or grounded in a week. A Saudi official said the Houthis turned down a proposed meeting in Muscat, Oman, and Riyadh accused Iran of arming and training them. An EU–Gulf summit planned for October 24 in Riyadh has been postponed, and Trump says he is considering joining strikes on the Houthis. On Friday the Saudi-led coalition said it intercepted a ballistic missile aimed at the Red Sea port of Yanbu, two cruise missiles over the Red Sea and three drones over southern Saudi Arabia and the Riyadh area.",
-   "rank": 11,
-   "region": "world",
-   "sources": [
-    {
-     "title": "ABC News (Australia): Five killed in Houthi strike on Aden palace",
-     "url": "https://www.abc.net.au/news/2026-10-16/houthis-attack-aden-killing-five-and-wounding-16/107268204"
-    },
-    {
-     "title": "Gulf News: Oct. 15 briefing on ships, flights and trade",
-     "url": "https://gulfnews.com/uae/us-iran-war-ships-sunk-flights-cancelled-trade-rerouted-your-oct-15-briefing-1.500711229"
-    },
-    {
-     "title": "Al Jazeera: Iran war live, Oct. 16",
-     "url": "https://www.aljazeera.com/news/liveblog/2026/10/16/iran-war-live-saudi-blasts-houthi-war-crimes-us-warns-on-saudi-airports"
-    }
-   ],
-   "status": "developing",
-   "summary": "Yemen's government says a Houthi missile and drone attack on the presidential palace in Aden killed five people and wounded 16, the first strike on the complex in this conflict. Saudi Arabia says Houthi attacks on its airports have killed 20 people this month.",
-   "timeline": [
-    {
-     "date": "Sep",
-     "event": "Houthi attack briefly shuts Saudi Arabia's East-West pipeline."
-    },
-    {
-     "date": "Oct",
-     "event": "Repeated attacks close Riyadh's airport; 20+ killed in a week."
-    },
-    {
-     "date": "Oct 13",
-     "event": "Missile hits Aramco's Dhahran complex; 4 hurt by debris in Riyadh."
-    },
-    {
-     "date": "Oct 15",
-     "event": "Aden palace hit; EU-Gulf summit postponed."
-    },
-    {
-     "date": "Oct 16",
-     "event": "Coalition intercepts missile aimed at Yanbu port."
-    }
-   ],
-   "topic": "Middle East",
-   "updatedAt": "2026-10-16T12:05:00-04:00",
-   "why": "If the U.S. joins, the war gains another front, and the Red Sea route through Bab el-Mandeb could become as dangerous as Hormuz. That would hit the backup routes the world is relying on for oil and container shipping."
-  },
-  {
-   "backstory": "Silver Rail is a kindergarten-to-Grade 5 school with about 459 students, in a city of roughly 100,000 in central Oregon. School shootings have become a recurring feature of U.S. life, and each one revives the debate over gun laws, school security and access to firearms by minors.",
-   "headline": "Teen gunman kills children at Oregon elementary school",
-   "id": "oregon-school-shooting",
-   "impact": "No direct effect on Ontario, but U.S. shootings often prompt Canadian school boards and police to review lockdown procedures, and they feed into Canada's own debate over handgun and firearm rules.",
-   "impactLevel": "low",
-   "now": "Police say the attacker forced his way through locked doors shortly before 1 p.m. local time Thursday and killed children aged 5, 8 and 11; a 7-year-old and a 54-year-old teacher were taken to hospital in critical condition. Early reports differed on whether the teacher died. Bend Police Chief Mike Krantz said the 16-year-old was found dead minutes after the first call, and authorities say a bystander who pursued him into the school shot him. A law enforcement official told the AP the shotgun had been bought by his mother. All 32 schools in the Bend-La Pine district cancelled classes Friday, and the AP and USA Today database counts this as the 28th mass killing in the U.S. this year.",
-   "rank": 12,
-   "region": "us",
-   "sources": [
-    {
-     "title": "CP24/AP: Teen shooter kills 4 at Oregon elementary school",
-     "url": "https://www.cp24.com/news/world/2026/10/16/teen-shooter-kills-4-at-oregon-elementary-school-before-being-shot-by-a-witness/"
-    }
-   ],
-   "status": "new",
-   "summary": "A 16-year-old shot his way into Silver Rail Elementary in Bend, Oregon, on Thursday and killed three young children before a person who followed him inside shot him dead.",
-   "timeline": [
-    {
-     "date": "Oct 15",
-     "event": "Gunman enters Silver Rail Elementary just before 1 p.m."
-    },
-    {
-     "date": "Oct 15",
-     "event": "Attacker shot dead by a civilian who followed him."
-    },
-    {
-     "date": "Oct 16",
-     "event": "All Bend-La Pine schools closed for the day."
-    }
-   ],
-   "topic": "Gun violence",
-   "updatedAt": "2026-10-16T06:36:00-04:00",
-   "why": "It is the 28th mass killing in the U.S. this year and lands weeks before the midterms, where gun policy is a live issue."
-  },
-  {
-   "backstory": "Election workers in the U.S. have faced a sharp rise in threats since 2020, and suspicious packages were sent to officials in at least six states during the 2024 election. Most such powders have turned out to be harmless, but each one forces evacuations, testing and delays. The latest letters arrive as early voting and mail ballot processing ramp up across many states ahead of the midterms.",
-   "headline": "Letters with white powder sent to U.S. election offices weeks before midterms",
-   "id": "election-mail-threats",
-   "impact": "There is no direct risk to Ontario, but disruption or disputes over the midterm count could add to U.S. political uncertainty that already weighs on trade talks and markets. Canadians mailing items to U.S. officials are not affected.",
-   "impactLevel": "low",
-   "now": "Election offices in Louisiana and Oklahoma received letters holding a white powdery substance, and federal officials intercepted similar letters headed to the secretaries of state in Ohio and New Hampshire. North Carolina election offices also received envelopes with white powder on Thursday, the first day of early voting there; officials said no harmful substance was identified. Three election officials told Votebeat more than 100 letters were mailed nationwide, including to at least one senator and a polling firm. The FBI and the U.S. Postal Inspection Service say the investigation is broad but have not identified the substance in the other cases.",
-   "rank": 13,
-   "region": "us",
-   "sources": [
-    {
-     "title": "Votebeat: FBI says election officials targeted by suspicious letters",
-     "url": "https://www.votebeat.org/national/2026/10/15/suspicious-letters-white-powder-election-officials-threats/"
-    },
-    {
-     "title": "NBC News: White powder sent to election offices in 3 states",
-     "url": "https://www.nbcnews.com/politics/2026-election/suspicious-white-powder-sent-election-offices-3-states-rcna603621"
-    },
-    {
-     "title": "Fox News: Midterm elections live, Oct. 15",
-     "url": "https://www.foxnews.com/live-news/midterm-elections-2026-trump-democrats-october-15"
-    }
-   ],
-   "status": "developing",
-   "summary": "The FBI is investigating suspicious mailings, some containing an unknown powder, sent to election officials and at least one U.S. senator less than three weeks before the November 3 vote.",
-   "timeline": [
-    {
-     "date": "Nov 2024",
-     "event": "Suspicious packages hit election offices in at least six states"
-    },
-    {
-     "date": "Oct 14",
-     "event": "Louisiana and Oklahoma offices report powder letters"
-    },
-    {
-     "date": "Oct 15",
-     "event": "FBI confirms nationwide probe; more than 100 letters reported"
-    }
-   ],
-   "topic": "Election security",
-   "updatedAt": "2026-10-15T20:53:00-04:00",
-   "why": "Threats against the people who run elections can slow vote handling and discourage poll workers, at a time when trust in the midterm count is already contested."
-  },
-  {
-   "backstory": "Waymo runs paid driverless taxi service in several U.S. cities, including Phoenix, San Francisco and Los Angeles. Toronto would be its first Canadian market, and its winters and dense traffic are a tougher test than most of its current cities. Ontario's automated-vehicle pilot already allows Gatik's driverless box trucks to make deliveries for Loblaw in the GTA.",
-   "headline": "Waymo to start testing robotaxis on Toronto streets",
-   "id": "waymo-toronto",
-   "impact": "Expect to see mapping cars with safety drivers on Toronto roads soon. Paid rides are still about two years away, but city council and the next mayor will face questions about curb space, safety rules and effects on taxi and Uber drivers.",
-   "impactLevel": "low",
-   "now": "Waymo says the first phase, starting this year, will involve high-definition mapping of Toronto streets and test drives with a safety driver behind the wheel. The province approved the company under its pilot program for automated vehicles, and Toronto-based Element Fleet Management will handle maintenance and customer support. Waymo says its cars have logged more than 400 million fully driverless kilometres and were in 95% fewer serious-injury crashes than human drivers in its cities. Flavio Volpe of the Automotive Parts Manufacturers' Association called it a boost for Ontario's auto-tech cluster.",
-   "rank": 14,
-   "region": "ontario",
-   "sources": [
-    {
-     "title": "CP24/Canadian Press: Waymo to launch robotaxis in Toronto",
-     "url": "https://www.cp24.com/local/toronto/2026/10/16/waymo-to-launch-robotaxis-in-toronto-this-is-how-the-pilot-program-works/"
-    }
-   ],
-   "status": "new",
-   "summary": "Alphabet-owned Waymo has Ontario's approval to begin mapping and testing self-driving cars in Toronto this year, aiming to carry its first paying passengers in 2028.",
-   "timeline": [
-    {
-     "date": "2025",
-     "event": "Gatik begins autonomous truck deliveries for Loblaw in Toronto."
-    },
-    {
-     "date": "Oct 16",
-     "event": "Waymo announces Toronto testing under Ontario pilot."
-    },
-    {
-     "date": "2028",
-     "event": "Target for first Waymo passengers."
-    }
-   ],
-   "topic": "Robotaxis",
-   "updatedAt": "2026-10-16T06:55:00-04:00",
-   "why": "It is the first big step toward driverless taxis in Canada and could reshape ride-hailing, taxi jobs and city transport planning."
-  }
- ],
- "updatedAt": "2026-10-16T12:05:00-04:00"
+  ],
+  "updatedAt": "2026-10-22T05:55:00-04:00"
 }

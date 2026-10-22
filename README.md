@@ -25,3 +25,11 @@ python3 -m http.server 8000
 ```
 
 Then open http://localhost:8000. Opening `index.html` directly from disk won't load the data, because browsers block `fetch` on `file://` pages.
+
+## Source files
+
+- `src/northline-claude.html` is the news page as published in Claude (no `<html>`/`<head>` wrapper). Edit this one.
+- `python3 src/build_index.py` rebuilds `index.html` from it for Vercel.
+- `markets.html` is the Markets page. `api/crypto.js` and `api/stocks.js` are the live price functions it calls.
+- `data/markets.json` is the hourly written market brief.
+- `src/portfolio-claude.html` is the Portfolio page, published inside Claude (https://claude.ai/artifact/GPd3SVW5eRK61WKRoRcSwL) because reading screenshots uses Claude on your own account. It fetches live prices from this site's `/api` through the Vercel connector, and saves your confirmed numbers privately.

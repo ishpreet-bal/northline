@@ -1,0 +1,641 @@
+<title>Northline Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: the Northline desk applied to one person's money. Rail with tabs (My portfolio, History, Wealthsimple guide), an upload well, an editable holdings ledger, then the written breakdown as stacked dossiers. Dark-first with a light theme. */
+:root{
+  --bg:#0b1015; --panel:#121920; --panel-2:#18212a; --line:#22303d;
+  --fg:#e3e7ec; --muted:#8995a4;
+  --signal:#efb449; --on-signal:#1a1206;
+  --up:#4cc38a; --down:#f0656a; --link:#72b2d8;
+  --display:"Newsreader",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  color-scheme:dark;
+}
+@media (prefers-color-scheme: light){
+  :root:not([data-theme="dark"]){ --bg:#f2f4f6; --panel:#ffffff; --panel-2:#f7f9fb; --line:#d8dfe6; --fg:#141b22; --muted:#5a6775; --signal:#a8690c; --on-signal:#ffffff; --up:#13804a; --down:#c4343b; --link:#1f6d9e; color-scheme:light; }
+}
+:root[data-theme="light"]{ --bg:#f2f4f6; --panel:#ffffff; --panel-2:#f7f9fb; --line:#d8dfe6; --fg:#141b22; --muted:#5a6775; --signal:#a8690c; --on-signal:#ffffff; --up:#13804a; --down:#c4343b; --link:#1f6d9e; color-scheme:light; }
+:root[data-theme="dark"]{ --bg:#0b1015; --panel:#121920; --panel-2:#18212a; --line:#22303d; --fg:#e3e7ec; --muted:#8995a4; --signal:#efb449; --on-signal:#1a1206; --up:#4cc38a; --down:#f0656a; --link:#72b2d8; color-scheme:dark; }
+*{box-sizing:border-box}
+html{background:var(--bg)}
+body{background:var(--bg);color:var(--fg);font:15px/1.6 var(--body);-webkit-font-smoothing:antialiased;margin:0}
+a{color:var(--link)}
+button,input,select,textarea{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--signal);outline-offset:2px;border-radius:4px}
+.wrap{max-width:960px;margin:0 auto;padding-inline:20px;padding-block:0 72px}
+.up{color:var(--up)} .down{color:var(--down)} .muted{color:var(--muted)}
+.num{font-family:var(--mono);font-variant-numeric:tabular-nums}
+
+.rail{position:sticky;top:env(safe-area-inset-top,0px);z-index:10;background:color-mix(in srgb,var(--bg) 90%,transparent);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.rail-in{max-width:960px;margin:0 auto;padding:10px 20px 0;display:grid;gap:8px}
+.rail-top{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.mark{font-family:var(--display);font-size:20px;font-weight:600}
+.sitenav{display:inline-flex;gap:2px;border:1px solid var(--line);border-radius:999px;padding:2px}
+.sitenav a{font:500 13px var(--body);text-decoration:none;color:var(--muted);padding:4px 12px;border-radius:999px}
+.sitenav a[aria-current="page"]{background:var(--panel-2);color:var(--fg);box-shadow:inset 0 0 0 1px var(--line)}
+.theme{display:inline-flex;border:1px solid var(--line);border-radius:999px;padding:2px;gap:2px;margin-left:auto}
+.theme button{appearance:none;border:0;background:transparent;color:var(--muted);width:30px;height:26px;border-radius:999px;display:grid;place-items:center;cursor:pointer}
+.theme button[aria-pressed="true"]{background:var(--panel-2);color:var(--fg);box-shadow:inset 0 0 0 1px var(--line)}
+.tabs{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none}
+.tab{appearance:none;border:0;background:transparent;color:var(--muted);font:500 14px var(--body);padding:8px 12px 10px;cursor:pointer;border-bottom:2px solid transparent;white-space:nowrap}
+.tab:hover{color:var(--fg)}
+.tab[aria-selected="true"]{color:var(--fg);border-bottom-color:var(--signal)}
+
+.lede{padding-block:32px 22px;border-bottom:1px solid var(--line);display:grid;gap:12px}
+.eyebrow{font-family:var(--mono);font-size:11.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--signal)}
+h1{font-family:var(--display);font-weight:500;font-size:clamp(27px,4.6vw,38px);line-height:1.15;margin:0;text-wrap:balance}
+.lede p{font-family:var(--display);font-size:clamp(17px,2.1vw,19px);margin:0;max-width:66ch;color:color-mix(in srgb,var(--fg) 86%,var(--muted))}
+.disclaimer{font-size:13px;color:var(--muted);border-left:2px solid var(--signal);padding-left:12px;max-width:80ch;margin:0}
+.section-h{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin:30px 0 12px;flex-wrap:wrap}
+.section-h h2{font-family:var(--mono);font-size:12px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0}
+.step{display:inline-grid;place-items:center;width:20px;height:20px;border-radius:50%;background:var(--signal);color:var(--on-signal);font:600 12px var(--mono);margin-right:8px;vertical-align:1px}
+
+.drop{border:1.5px dashed color-mix(in srgb,var(--fg) 25%,var(--line));border-radius:14px;background:var(--panel);padding:26px 20px;display:grid;gap:12px;justify-items:center;text-align:center;cursor:pointer}
+.drop.over{border-color:var(--signal);background:color-mix(in srgb,var(--signal) 6%,var(--panel))}
+.drop b{font-family:var(--display);font-size:20px;font-weight:500}
+.drop small{color:var(--muted)}
+.thumbs{display:flex;gap:10px;flex-wrap:wrap;justify-content:center}
+.thumb{position:relative;width:86px;height:120px;border-radius:8px;overflow:hidden;border:1px solid var(--line);background:var(--panel-2)}
+.thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.thumb button{position:absolute;top:4px;right:4px;width:22px;height:22px;border-radius:50%;border:0;background:rgba(0,0,0,.65);color:#fff;cursor:pointer;line-height:1}
+.row-btns{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.btn{appearance:none;border:1px solid var(--line);background:var(--panel-2);border-radius:999px;padding:8px 16px;cursor:pointer;font:500 14px var(--body)}
+.btn:hover{border-color:color-mix(in srgb,var(--fg) 30%,var(--line))}
+.btn.primary{background:var(--signal);border-color:var(--signal);color:var(--on-signal)}
+.btn.primary:hover{filter:brightness(1.06)}
+.btn[disabled]{opacity:.5;cursor:not-allowed}
+.status{font-size:13.5px;color:var(--muted);min-height:1.4em}
+.status.err{color:var(--down)}
+.spinner{display:inline-block;width:12px;height:12px;border:2px solid var(--line);border-top-color:var(--signal);border-radius:50%;animation:spin .8s linear infinite;vertical-align:-1px;margin-right:6px}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+.totals{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px}
+.stat{border:1px solid var(--line);border-radius:10px;padding:12px 14px;background:var(--panel);display:grid;gap:2px;min-width:0}
+.stat .k{font-size:12.5px;color:var(--muted)}
+.stat .v{font-family:var(--mono);font-size:20px;font-variant-numeric:tabular-nums}
+.stat .s{font-family:var(--mono);font-size:12.5px}
+.tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel)}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th,td{padding:8px 8px;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap}
+th{font:500 11px var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+td select{min-width:118px}
+td input,td select{width:100%;min-width:70px;background:transparent;border:1px solid transparent;border-radius:6px;padding:5px 6px}
+td input:hover,td select:hover{border-color:var(--line)}
+td input:focus,td select:focus{border-color:var(--signal);outline:none;background:var(--panel-2)}
+td input.n{text-align:right;font-family:var(--mono);font-variant-numeric:tabular-nums}
+td.live{font-family:var(--mono);font-size:12.5px;color:var(--muted)}
+.x{appearance:none;border:0;background:transparent;color:var(--muted);cursor:pointer;font-size:18px;padding:2px 6px}
+.x:hover{color:var(--down)}
+
+.form{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.field{display:grid;gap:6px;min-width:0}
+.field label{font-size:13px;color:var(--muted)}
+.field select,.field input,.field textarea{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:9px 10px;width:100%}
+.field textarea{min-height:70px;resize:vertical}
+
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:18px 20px;display:grid;gap:10px}
+.card h3{margin:0;font-family:var(--display);font-weight:500;font-size:21px}
+.card p{margin:0;max-width:78ch}
+.score{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px}
+.score .item{border:1px solid var(--line);border-radius:10px;padding:12px 14px;display:grid;gap:4px;background:var(--panel)}
+.score .item .k{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.score .item .v{font-weight:600}
+.score .item p{margin:0;font-size:13.5px;color:color-mix(in srgb,var(--fg) 80%,var(--muted))}
+.pill{display:inline-flex;align-items:center;font-family:var(--mono);font-size:11px;letter-spacing:.05em;text-transform:uppercase;padding:2px 8px;border-radius:4px;border:1px solid var(--line);color:var(--muted);white-space:nowrap}
+.pill.up{color:var(--up);border-color:color-mix(in srgb,var(--up) 40%,var(--line))}
+.pill.down{color:var(--down);border-color:color-mix(in srgb,var(--down) 40%,var(--line))}
+.pill.warn{color:var(--signal);border-color:color-mix(in srgb,var(--signal) 45%,var(--line))}
+.hold{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.hold-head{all:unset;box-sizing:border-box;width:100%;display:grid;grid-template-columns:1fr auto;gap:6px 14px;padding:15px 18px;cursor:pointer}
+.hold-head:hover{background:var(--panel-2)}
+.hold-head:focus-visible{outline:2px solid var(--signal);outline-offset:-2px}
+.hold-title{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.hold-title b{font-family:var(--display);font-size:19px;font-weight:500}
+.hold-title .sym{font-family:var(--mono);font-size:12px;color:var(--muted)}
+.hold-num{text-align:right;font-family:var(--mono);font-size:13px;display:grid;justify-items:end}
+.hold-line{grid-column:1/-1;margin:0;color:color-mix(in srgb,var(--fg) 84%,var(--muted))}
+.hold-body{border-top:1px solid var(--line);padding:4px 18px 18px;display:grid;gap:2px;cursor:pointer}
+.hold-body a,.hold-body button{cursor:pointer}
+.blk{padding-top:14px;display:grid;gap:6px;min-width:0}
+.blk h4{margin:0;font-family:var(--mono);font-size:11.5px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.blk p{margin:0;max-width:78ch}
+.blk ul{margin:0;padding-left:18px;display:grid;gap:4px}
+.cases{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.case{border:1px solid var(--line);border-radius:10px;padding:12px 14px;display:grid;gap:4px;min-width:0}
+.case h5{margin:0;font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase}
+.case p{margin:0;font-size:14px}
+.watch{background:color-mix(in srgb,var(--signal) 8%,var(--panel));border:1px solid color-mix(in srgb,var(--signal) 30%,var(--line));border-radius:10px;padding:12px 14px}
+.steps{display:grid;gap:10px}
+.steps .s{display:grid;grid-template-columns:28px 1fr;gap:10px;border:1px solid var(--line);border-radius:10px;padding:12px 14px;background:var(--panel)}
+.steps .s .i{font-family:var(--display);font-size:22px;color:var(--signal);line-height:1}
+.steps .s b{display:block}
+.steps .s p{margin:2px 0 0;font-size:14px;color:color-mix(in srgb,var(--fg) 82%,var(--muted))}
+.close-btn{appearance:none;justify-self:start;margin-top:14px;border:1px solid var(--line);background:var(--panel-2);font:500 13px var(--body);padding:7px 14px;border-radius:999px;cursor:pointer}
+
+.ask{display:grid;gap:10px}
+.ask textarea{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:10px 12px;min-height:64px;resize:vertical}
+.answer{white-space:pre-wrap;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px 16px;max-width:none}
+
+.hist{display:grid;gap:0;border-top:1px solid var(--line)}
+.hist .h{display:grid;grid-template-columns:170px 1fr auto auto;gap:14px;align-items:center;padding:12px 4px;border-bottom:1px solid var(--line)}
+.chart{border:1px solid var(--line);border-radius:12px;background:var(--panel);padding:12px}
+.chart svg{display:block;width:100%;height:auto}
+
+.guide{display:grid;gap:12px}
+.guide section{border:1px solid var(--line);border-radius:12px;padding:16px 18px;background:var(--panel)}
+.guide h3{margin:0 0 8px;font-family:var(--display);font-weight:500;font-size:21px}
+.guide ul{margin:0;padding-left:18px;display:grid;gap:6px}
+.guide table td,.guide table th{white-space:normal}
+.empty{border:1px dashed var(--line);border-radius:12px;padding:26px 20px;text-align:center;color:var(--muted)}
+.empty b{display:block;color:var(--fg);font-family:var(--display);font-size:19px;font-weight:500;margin-bottom:4px}
+.foot{margin-top:40px;font-size:12.5px;color:var(--muted);font-family:var(--mono);line-height:1.7}
+
+@media (max-width:640px){
+  .wrap,.rail-in{padding-inline:16px}
+  .cases{grid-template-columns:1fr}
+  .hist .h{grid-template-columns:1fr auto}
+  .hide-sm{display:none}
+}
+@media (prefers-reduced-motion:reduce){.spinner{animation:none}}
+</style>
+
+<header class="rail">
+  <div class="rail-in">
+    <div class="rail-top">
+      <div class="mark">Northline</div>
+      <nav class="sitenav" aria-label="Sections"><a href="https://northline-dusky.vercel.app/" target="_blank" rel="noopener">News</a><a href="https://northline-dusky.vercel.app/markets" target="_blank" rel="noopener">Markets</a><a href="#" aria-current="page">Portfolio</a></nav>
+      <div class="theme" role="group" aria-label="Colour theme">
+        <button data-theme-set="auto" title="Match my device" aria-label="Match my device"><svg width="15" height="15" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M8 2a6 6 0 0 1 0 12z" fill="currentColor"/></svg></button>
+        <button data-theme-set="light" title="Light" aria-label="Light"><svg width="15" height="15" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="3" fill="currentColor"/><g stroke="currentColor" stroke-width="1.4" stroke-linecap="round"><path d="M8 1.5v1.6M8 12.9v1.6M1.5 8h1.6M12.9 8h1.6M3.4 3.4l1.1 1.1M11.5 11.5l1.1 1.1M3.4 12.6l1.1-1.1M11.5 4.5l1.1-1.1"/></g></svg></button>
+        <button data-theme-set="dark" title="Dark" aria-label="Dark"><svg width="15" height="15" viewBox="0 0 16 16" aria-hidden="true"><path d="M13.5 10.2A6 6 0 0 1 5.8 2.5a6 6 0 1 0 7.7 7.7z" fill="currentColor"/></svg></button>
+      </div>
+    </div>
+    <nav class="tabs" role="tablist" aria-label="Portfolio">
+      <button class="tab" role="tab" data-tab="mine" id="tab-mine">My portfolio</button>
+      <button class="tab" role="tab" data-tab="history" id="tab-history">History</button>
+      <button class="tab" role="tab" data-tab="guide" id="tab-guide">Wealthsimple guide</button>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <section id="view-mine">
+    <div class="lede">
+      <div class="eyebrow">Your Wealthsimple portfolio</div>
+      <h1>Show me what you hold, and I'll break it down</h1>
+      <p>Upload screenshots from the Wealthsimple app, check the numbers I read, add a little about your goals, then get a breakdown of every holding, your risk, your fees, and your options for what to do next.</p>
+      <p class="disclaimer">Screenshots are read once and never stored. Only the numbers you confirm are saved, and only you can see them. This is information to help you decide, not personalized financial advice, and no one can reliably predict when prices will dip or rise.</p>
+    </div>
+
+    <div class="section-h"><h2><span class="step">1</span>Add your holdings</h2></div>
+    <div class="drop" id="drop" tabindex="0" role="button" aria-label="Add screenshots">
+      <b>Drop Wealthsimple screenshots here</b>
+      <small id="dropHint">or tap to choose them. In the app, open Home, then each account, and screenshot the list of holdings. Several screenshots are fine.</small>
+      <div class="thumbs" id="thumbs"></div>
+      <input type="file" id="file" accept="image/png,image/jpeg,image/webp,image/gif" multiple hidden>
+    </div>
+    <div class="row-btns" style="margin-top:12px">
+      <button class="btn primary" id="readBtn" disabled>Read my screenshots</button>
+      <button class="btn" id="addRow">Add a holding by hand</button>
+      <span class="status" id="readStatus"></span>
+    </div>
+
+    <div id="ledgerWrap" hidden>
+      <div class="section-h"><h2><span class="step">2</span>Check the numbers</h2><span class="muted" style="font-size:13px">Fix anything I misread. Losses are negative.</span></div>
+      <div class="totals" id="totals"></div>
+      <div class="tablewrap" style="margin-top:12px"><table>
+        <thead><tr><th>Holding</th><th>Ticker</th><th>Type</th><th>Account</th><th>Shares</th><th>Value</th><th>Gain/loss $</th><th>Gain/loss %</th><th class="hide-sm">Live</th><th></th></tr></thead>
+        <tbody id="ledger"></tbody>
+      </table></div>
+    </div>
+
+    <div id="profileWrap" hidden>
+      <div class="section-h"><h2><span class="step">3</span>A little about you</h2><span class="muted" style="font-size:13px">Saved privately for next time.</span></div>
+      <div class="form">
+        <div class="field"><label for="p-goal">Main goal for this money</label><select id="p-goal"><option value="">Choose…</option><option>Grow it over the long term</option><option>Save for a home</option><option>Save for something in the next few years</option><option>Learn and experiment</option><option>Make quick gains</option></select></div>
+        <div class="field"><label for="p-horizon">When might you need it?</label><select id="p-horizon"><option value="">Choose…</option><option>Within 1 year</option><option>1–3 years</option><option>3–10 years</option><option>10+ years</option></select></div>
+        <div class="field"><label for="p-drop">If it dropped 30% next month, you'd…</label><select id="p-drop"><option value="">Choose…</option><option>Sell to stop the bleeding</option><option>Hold and wait</option><option>Buy more</option><option>Not sure</option></select></div>
+        <div class="field"><label for="p-monthly">How much could you add per month? (CAD)</label><input id="p-monthly" inputmode="decimal" placeholder="e.g. 200"></div>
+        <div class="field"><label for="p-emergency">Emergency savings outside investments?</label><select id="p-emergency"><option value="">Choose…</option><option>Yes, 3+ months of expenses</option><option>Some, under 3 months</option><option>Not yet</option></select></div>
+        <div class="field"><label for="p-debt">Any credit card or high-interest debt?</label><select id="p-debt"><option value="">Choose…</option><option>No</option><option>Yes</option></select></div>
+        <div class="field" style="grid-column:1/-1"><label for="p-notes">Anything else? (age, TFSA room, what you're worried about)</label><textarea id="p-notes" placeholder="e.g. I'm 21, haven't used my TFSA much, worried about my Tesla position"></textarea></div>
+      </div>
+      <div class="row-btns" style="margin-top:14px">
+        <button class="btn primary" id="analyzeBtn">Break down my portfolio</button>
+        <button class="btn" id="stopBtn" hidden>Stop</button>
+        <span class="status" id="anStatus"></span>
+      </div>
+    </div>
+
+    <div id="result"></div>
+  </section>
+
+  <section id="view-history" hidden></section>
+  <section id="view-guide" hidden></section>
+  <p class="foot">Live prices come from your Northline site (Yahoo Finance and CoinGecko) through your Vercel connection. Breakdowns are written by Claude on your own account. Wealthsimple fee details were checked against Wealthsimple's pricing and fee pages in October 2026 and can change.</p>
+</main>
+
+<script>
+(function(){
+  const $ = s => document.querySelector(s);
+  const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+  const store = { get(k){ try { return localStorage.getItem(k); } catch(e){ return null; } }, set(k,v){ try { localStorage.setItem(k,v); } catch(e){} } };
+  const SITE = "https://northline-dusky.vercel.app";
+
+  /* theme */
+  const root = document.documentElement; const hostTheme = root.getAttribute("data-theme");
+  function applyTheme(t){ if (t === "light" || t === "dark") root.setAttribute("data-theme", t); else if (hostTheme) root.setAttribute("data-theme", hostTheme); else root.removeAttribute("data-theme");
+    document.querySelectorAll("[data-theme-set]").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.themeSet === t))); }
+  applyTheme(store.get("nl:theme") || "auto");
+
+  /* formatting */
+  const money = (n, cur) => n == null || !isFinite(n) ? "–" : (n < 0 ? "−" : "") + (cur === "USD" ? "US$" : "$") + Math.abs(n).toLocaleString("en-CA", {minimumFractionDigits:2, maximumFractionDigits:2});
+  const pct = (n) => n == null || !isFinite(n) ? "–" : (n > 0 ? "+" : n < 0 ? "−" : "") + Math.abs(n).toFixed(2) + "%";
+  const cls = (n) => n == null || !isFinite(n) ? "" : n > 0 ? "up" : n < 0 ? "down" : "";
+  const num = (v) => { if (v === "" || v == null) return null; const x = Number(String(v).replace(/[^0-9.\-]/g, "")); return isFinite(x) ? x : null; };
+  const today = () => new Date().toLocaleDateString("en-CA", {weekday:"long", year:"numeric", month:"long", day:"numeric", timeZone:"America/Toronto"});
+
+  /* state */
+  let sample = null, db = null, user = null, mcp = null, uid = null;
+  let images = [];               // File objects (never stored)
+  let holdings = [];             // [{name,symbol,kind,account,quantity,marketValue,currency,totalReturn,totalReturnPct}]
+  let live = {};                 // symbol -> {price, changePct, currency}
+  let analysis = null;
+  let snapshots = [];
+  let tab = (location.hash || "").replace("#","");
+  if (!["mine","history","guide"].includes(tab)) tab = "mine";
+  const open = new Set();
+  let ctl = null;
+
+  /* ---------- capability setup ---------- */
+  (async () => {
+    const c = window.claude;
+    if (!c || !c.use){ setStatus("#readStatus", "Open this page in Claude to read screenshots and get a breakdown. You can still add holdings by hand.", true); return; }
+    const [s, d, u, m] = await Promise.all([c.use("sample"), c.use("db"), c.use("user"), c.use("mcp")].map(p => p.catch(() => null)));
+    sample = s; db = d; user = u; mcp = m;
+    if (sample){
+      const lim = await sample.limits().catch(() => null);
+      if (!lim || !lim.images){ $("#dropHint").textContent = "This view can't send images to Claude. Add your holdings by hand below instead."; }
+      else { $("#file").accept = lim.images.mediaTypes.join(","); window.__maxImages = lim.images.maxCount; }
+    } else setStatus("#readStatus", "Claude isn't available in this view, so reading screenshots and the breakdown are off. You can still enter holdings by hand.", true);
+    if (user && db){ try { uid = await user.id(); } catch(e){ uid = null; } }
+    if (uid && db){ loadProfile(); subscribeSnapshots(); }
+    render();
+  })();
+
+  function setStatus(sel, text, isErr, busy){ const el = $(sel); el.classList.toggle("err", !!isErr); el.innerHTML = (busy ? '<span class="spinner"></span>' : "") + esc(text); }
+  function sampleErr(e){
+    const map = { not_granted:"Claude wasn't allowed for this page. You can allow it from the page's permissions.", sampling_disabled:"Claude isn't available on this account.", rate_limited:"You've hit a usage limit. Try again in a little while.", image_rejected:"One of the images couldn't be read. Try a PNG or JPEG screenshot.", images_unavailable:"This view can't send images. Enter holdings by hand instead.", invalid_json:"The answer came back garbled. Press the button again.", refused:"Claude declined that request. Try different screenshots or wording.", prompt_too_large:"That's too much at once. Try fewer screenshots.", session_expired:"Sign in to Claude again, then retry.", cancelled:"Stopped." };
+    return map[e && e.code] || "Something went wrong reaching Claude. Press the button again.";
+  }
+
+  /* ---------- images ---------- */
+  function addFiles(list){
+    const max = window.__maxImages || 6;
+    for (const f of list){ if (!/^image\//.test(f.type)) continue; if (images.length >= max) break; images.push(f); }
+    renderThumbs();
+  }
+  function renderThumbs(){
+    const t = $("#thumbs"); t.innerHTML = "";
+    images.forEach((f, i) => { const d = document.createElement("div"); d.className = "thumb"; const im = document.createElement("img"); im.alt = "Screenshot " + (i+1); im.src = URL.createObjectURL(f); im.onload = () => URL.revokeObjectURL(im.src); const b = document.createElement("button"); b.textContent = "×"; b.setAttribute("aria-label", "Remove screenshot " + (i+1)); b.dataset.rmimg = i; d.append(im, b); t.append(d); });
+    $("#readBtn").disabled = !images.length || !sample;
+  }
+  const drop = $("#drop");
+  drop.addEventListener("click", e => { if (e.target.closest("[data-rmimg]")) return; $("#file").click(); });
+  drop.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " "){ e.preventDefault(); $("#file").click(); } });
+  $("#file").addEventListener("change", e => { addFiles(e.target.files); e.target.value = ""; });
+  ["dragenter","dragover"].forEach(ev => drop.addEventListener(ev, e => { e.preventDefault(); drop.classList.add("over"); }));
+  ["dragleave","drop"].forEach(ev => drop.addEventListener(ev, e => { e.preventDefault(); drop.classList.remove("over"); }));
+  drop.addEventListener("drop", e => addFiles(e.dataTransfer.files));
+  document.addEventListener("paste", e => { const items = [...(e.clipboardData && e.clipboardData.files || [])]; if (items.length){ addFiles(items); } });
+
+  const EXTRACT = `These images are screenshots from the Wealthsimple investing app showing one person's holdings. Read every holding you can see across all images (the same holding may appear twice; list it once).
+Reply with ONLY a JSON object in exactly this shape:
+{"holdings":[{"name":"Apple","symbol":"AAPL","kind":"stock","account":"TFSA","quantity":3.5,"marketValue":812.40,"currency":"CAD","totalReturn":-41.20,"totalReturnPct":-4.83}],
+ "totals":{"marketValue":1234.56,"totalReturn":-12.34,"totalReturnPct":-1.0,"currency":"CAD"},
+ "asOf":"date or time shown in the screenshots, or null",
+ "unreadable":"anything you could not read, or an empty string"}
+Rules:
+- kind is one of "stock","etf","crypto","cash","other". account is one of "TFSA","RRSP","FHSA","Non-registered","Crypto","Unknown" (use what the screen shows).
+- Copy numbers exactly as shown, without $ signs or commas. A loss is a negative number. Use null for anything not visible; never guess.
+- symbol: the ticker shown. For a Canadian-listed stock or ETF (shown on TSX/NEO or priced in CAD with a Canadian name, e.g. XEQT, VFV, RY), add ".TO" (XEQT.TO). For a CDR, use the ticker plus ".NE". For crypto use the coin symbol (BTC). For US-listed stocks use the plain ticker (AAPL).
+- totals: the overall figures shown, or null fields if not shown.
+- If there are no holdings in the images, return {"holdings":[],"totals":null,"asOf":null,"unreadable":"why"}.`;
+
+  $("#readBtn").addEventListener("click", async () => {
+    if (!sample || !images.length) return;
+    $("#readBtn").disabled = true; setStatus("#readStatus", "Reading your screenshots… this can take up to a minute.", false, true);
+    try {
+      const out = await sample.json(EXTRACT, { images: images.slice(), modelTier: "default" });
+      const hs = Array.isArray(out && out.holdings) ? out.holdings : [];
+      if (!hs.length){ setStatus("#readStatus", "I couldn't find holdings in those screenshots. " + (out && out.unreadable ? out.unreadable : "Try a screenshot of an account's holdings list."), true); }
+      else {
+        holdings = hs.map(cleanHolding);
+        setStatus("#readStatus", `Read ${holdings.length} holding${holdings.length === 1 ? "" : "s"}.` + (out.unreadable ? " Couldn't read: " + out.unreadable : " Check them below."));
+        images = []; renderThumbs(); analysis = null; fetchLive(); render();
+        setTimeout(() => $("#ledgerWrap").scrollIntoView({behavior:"smooth", block:"start"}), 50);
+      }
+    } catch(e){ setStatus("#readStatus", sampleErr(e), true); }
+    $("#readBtn").disabled = !images.length || !sample;
+  });
+
+  function cleanHolding(h){
+    return { name: String(h.name || h.symbol || "").slice(0,60), symbol: String(h.symbol || "").toUpperCase().slice(0,15), kind: ["stock","etf","crypto","cash","other"].includes(h.kind) ? h.kind : "stock",
+      account: String(h.account || "Unknown"), quantity: num(h.quantity), marketValue: num(h.marketValue), currency: h.currency === "USD" ? "USD" : "CAD",
+      totalReturn: num(h.totalReturn), totalReturnPct: num(h.totalReturnPct) };
+  }
+  $("#addRow").addEventListener("click", () => { holdings.push({name:"", symbol:"", kind:"stock", account:"TFSA", quantity:null, marketValue:null, currency:"CAD", totalReturn:null, totalReturnPct:null}); render(); const ins = document.querySelectorAll('#ledger tr:last-child input'); if (ins[0]) ins[0].focus(); });
+
+  /* ---------- live prices via the viewer's Vercel connection ---------- */
+  async function fetchLive(){
+    if (!mcp || !holdings.length) return;
+    const stocks = [...new Set(holdings.filter(h => h.kind !== "crypto" && h.kind !== "cash" && h.symbol).map(h => h.symbol))];
+    const coins = [...new Set(holdings.filter(h => h.kind === "crypto" && h.symbol).map(h => h.symbol))];
+    const get = async (url) => { const r = await mcp.callTool("Vercel", "web_fetch_vercel_url", {url}); const p = r.payload; const t = p && typeof p === "object" ? p.text : p; return typeof t === "string" ? JSON.parse(t) : t; };
+    try {
+      if (stocks.length){ const d = await get(SITE + "/api/stocks?symbols=" + encodeURIComponent(stocks.join(","))); for (const q of d.quotes || []) if (!q.error) live[q.symbol] = {price:q.price, changePct:q.changePct, currency:q.currency, m1: q.closes && q.closes.length > 21 ? (q.price / q.closes[q.closes.length-22] - 1) * 100 : null, high52:q.high52, low52:q.low52, name:q.name}; }
+      if (coins.length){ const d = await get(SITE + "/api/crypto?part=markets&n=250&symbols=" + encodeURIComponent(coins.join(","))); for (const c of d.coins || []) live[c.symbol] = {price:c.price, changePct:c.ch24h, currency:"USD", m1:c.ch30d, w1:c.ch7d, name:c.name}; }
+      live.__ok = true;
+    } catch(e){ live.__ok = false; live.__err = e && e.code; }
+    renderLedger();
+  }
+  async function fetchBrief(){
+    if (!mcp) return null;
+    try { const r = await mcp.callTool("Vercel", "web_fetch_vercel_url", {url: SITE + "/data/markets.json"}); const p = r.payload; const t = p && typeof p === "object" ? p.text : p; return typeof t === "string" ? JSON.parse(t) : t; } catch(e){ return null; }
+  }
+
+  /* ---------- ledger ---------- */
+  function totalsOf(hs){
+    const v = hs.reduce((s,h) => s + (h.marketValue || 0), 0);
+    const g = hs.reduce((s,h) => s + (h.totalReturn || 0), 0);
+    const cost = v - g;
+    return {value:v, gain:g, gainPct: cost > 0 ? g / cost * 100 : null, n: hs.length};
+  }
+  function renderLedger(){
+    $("#ledgerWrap").hidden = !holdings.length; $("#profileWrap").hidden = !holdings.length;
+    if (!holdings.length) return;
+    const t = totalsOf(holdings);
+    const big = holdings.slice().sort((a,b) => (b.marketValue||0) - (a.marketValue||0))[0];
+    $("#totals").innerHTML = `
+      <div class="stat"><span class="k">Total value</span><span class="v">${money(t.value)}</span><span class="s muted">${t.n} holding${t.n===1?"":"s"}</span></div>
+      <div class="stat"><span class="k">Total gain / loss</span><span class="v ${cls(t.gain)}">${money(t.gain)}</span><span class="s ${cls(t.gainPct)}">${pct(t.gainPct)} on what you put in</span></div>
+      <div class="stat"><span class="k">Biggest position</span><span class="v">${esc(big && (big.symbol || big.name) || "–")}</span><span class="s muted">${big && t.value ? ((big.marketValue||0)/t.value*100).toFixed(0) + "% of the total" : ""}</span></div>`;
+    const kinds = ["stock","etf","crypto","cash","other"], accts = ["TFSA","RRSP","FHSA","Non-registered","Crypto","Unknown"];
+    $("#ledger").innerHTML = holdings.map((h,i) => { const L = live[h.symbol];
+      return `<tr>
+        <td><input data-i="${i}" data-f="name" value="${esc(h.name)}" aria-label="Holding name"></td>
+        <td><input data-i="${i}" data-f="symbol" value="${esc(h.symbol)}" aria-label="Ticker" style="min-width:80px"></td>
+        <td><select data-i="${i}" data-f="kind" aria-label="Type">${kinds.map(k => `<option ${h.kind===k?"selected":""}>${k}</option>`).join("")}</select></td>
+        <td><select data-i="${i}" data-f="account" aria-label="Account">${accts.map(k => `<option ${h.account===k?"selected":""}>${k}</option>`).join("")}</select></td>
+        <td><input class="n" data-i="${i}" data-f="quantity" value="${h.quantity ?? ""}" inputmode="decimal" aria-label="Shares"></td>
+        <td><input class="n" data-i="${i}" data-f="marketValue" value="${h.marketValue ?? ""}" inputmode="decimal" aria-label="Value"></td>
+        <td><input class="n ${cls(h.totalReturn)}" data-i="${i}" data-f="totalReturn" value="${h.totalReturn ?? ""}" inputmode="decimal" aria-label="Gain or loss in dollars"></td>
+        <td><input class="n ${cls(h.totalReturnPct)}" data-i="${i}" data-f="totalReturnPct" value="${h.totalReturnPct ?? ""}" inputmode="decimal" aria-label="Gain or loss percent"></td>
+        <td class="live hide-sm">${L ? `${L.price != null ? (L.currency === "USD" ? "US$" : "$") + Number(L.price).toLocaleString("en-CA",{maximumFractionDigits: L.price < 1 ? 6 : 2}) : ""} <span class="${cls(L.changePct)}">${pct(L.changePct)}</span>` : (live.__ok === false ? "unavailable" : mcp ? "…" : "")}</td>
+        <td><button class="x" data-rm="${i}" aria-label="Remove ${esc(h.symbol || h.name || "row")}">×</button></td></tr>`; }).join("");
+  }
+  $("#ledger").addEventListener("change", e => {
+    const el = e.target; const i = Number(el.dataset.i), f = el.dataset.f; if (!holdings[i]) return;
+    holdings[i][f] = ["quantity","marketValue","totalReturn","totalReturnPct"].includes(f) ? num(el.value) : f === "symbol" ? el.value.trim().toUpperCase() : el.value;
+    if (f === "symbol" || f === "kind") fetchLive();
+    analysis = null; renderLedger(); renderResult();
+  });
+
+  /* ---------- profile (private) ---------- */
+  const PF = ["goal","horizon","drop","monthly","emergency","debt","notes"];
+  function profile(){ const p = {}; for (const k of PF) p[k] = $("#p-" + k).value.trim(); return p; }
+  async function loadProfile(){ try { const s = await db.doc("data/users/" + uid + "/profile").get(); if (s.exists){ const p = s.data(); for (const k of PF) if (p[k] != null) $("#p-" + k).value = p[k]; } } catch(e){} }
+  async function saveProfile(){ if (!uid || !db) return; try { await db.doc("data/users/" + uid + "/profile").set(profile()); } catch(e){} }
+
+  /* ---------- analysis ---------- */
+  const WS_FACTS = `Wealthsimple facts (checked October 2026): $0 commission on Canadian and U.S. stock and ETF trades. Buying a U.S.-listed stock from a CAD account costs a 1.5% currency conversion fee each way (about 3% round trip). A USD account avoids that on trades; it costs $10/month on the Core plan and is included on Premium ($100k+ in assets). Crypto trades: 0.5% fee plus a spread. Managed (robo) portfolios: 0.5%/yr on Core, 0.4% on Premium, plus ETF fees. 2026 limits: TFSA $7,000/yr (unused room carries forward; withdrawals are added back the next January 1; gains are tax-free but losses can't be claimed); FHSA $8,000/yr, $40,000 lifetime, for a first home; RRSP 18% of last year's earned income up to $33,810. U.S. dividends in a TFSA lose 15% to U.S. withholding tax (not in an RRSP). Canadian-listed ETFs that hold U.S. stocks (e.g. VFV, XUS) or CDRs avoid the 1.5% FX fee.`;
+
+  function analysisPrompt(brief){
+    const t = totalsOf(holdings);
+    const hs = holdings.map(h => ({...h, weightPct: t.value ? +(((h.marketValue||0)/t.value)*100).toFixed(1) : null, live: live[h.symbol] || null}));
+    const b = brief ? {headline:brief.headline, summary:brief.summary, mood:brief.mood, drivers:brief.drivers, updatedAt:brief.updatedAt,
+      notes:[...(brief.crypto||[]), ...(brief.stocks||[])].filter(x => holdings.some(h => h.symbol === x.symbol || h.symbol === String(x.symbol||"").replace(".TO",""))).map(x => ({symbol:x.symbol, move:x.move, why:x.why, outlook:x.outlook})),
+      calendar:(brief.calendar||[]).slice(0,6)} : null;
+    return `You are helping a young investor in Ontario, Canada understand their Wealthsimple portfolio. Today is ${today()}.
+
+THEIR HOLDINGS (values in the currency shown; totalReturn is their gain or loss since buying; "live" is today's price data where available):
+${JSON.stringify(hs)}
+Totals: value ${t.value.toFixed(2)}, gain/loss ${t.gain.toFixed(2)} (${t.gainPct == null ? "unknown" : t.gainPct.toFixed(2) + "%"}).
+
+ABOUT THEM:
+${JSON.stringify(profile())}
+
+LATEST MARKET BRIEF (written within the last hour from current news; may be null):
+${JSON.stringify(b)}
+
+${WS_FACTS}
+
+Write a clear, honest breakdown. Rules:
+- Nobody can reliably predict short-term prices. For each holding give a lean ("up","down","sideways","unclear") with confidence only "low" or "medium", and ALWAYS both an up case and a down case with what would cause each.
+- Never tell them to buy or sell a specific security now. Frame next steps as options with the conditions under which each makes sense ("If your goal is X and you can leave this money for 5+ years, people commonly…"). General approaches like spreading purchases over time (dollar-cost averaging), keeping any single stock to a small share, broad all-in-one ETFs, rebalancing, and paying off high-interest debt first are fine to explain.
+- Check: concentration (any holding over 20% of the total, or crypto over about 10%), how many separate bets they really have, whether they're paying the 1.5% FX fee on U.S. stocks, whether accounts are used well (TFSA first for most young investors, U.S. dividend withholding in a TFSA, FHSA if they might buy a home), emergency fund and debt.
+- On "when to add money": explain what tends to work (scheduled contributions rather than guessing dips) and which upcoming events could cause swings for their holdings.
+- Use plain language, short sentences, real numbers from their data, and explain any jargon once.
+
+Reply with ONLY a JSON object in exactly this shape:
+{"headline":"one line summing up their portfolio",
+ "summary":"3-4 sentences: overall picture, how they're doing, the biggest thing to know",
+ "scorecard":{"diversification":{"rating":"Poor|Fair|Good|Strong","note":"1-2 sentences"},"risk":{"rating":"Low|Moderate|High|Very high","note":"1-2 sentences"},"fees":{"rating":"Low|Moderate|High","note":"1-2 sentences"},"accounts":{"rating":"Needs work|Okay|Good","note":"1-2 sentences"}},
+ "holdings":[{"symbol":"AAPL","name":"Apple","role":"core|growth bet|speculative|cash|income","whatItIs":"1 sentence","howItsDoing":"1-2 sentences with their numbers","whyMoved":"2-3 sentences on why it has moved recently","outlook":{"lean":"up|down|sideways|unclear","confidence":"low|medium","horizon":"e.g. next few weeks","upCase":"what would push it up","downCase":"what would push it down","watch":"specific events or levels to watch"},"options":["option with its condition","another option"]}],
+ "nextSteps":[{"title":"short","detail":"2-3 sentences","why":"1 sentence"}],
+ "addingMoney":"3-5 sentences on how and when to add money given their situation",
+ "wealthsimpleTips":["specific tip for their portfolio in the Wealthsimple app"],
+ "questions":["a question worth asking themselves"]}
+Include every holding in "holdings". 3-6 nextSteps, 2-5 wealthsimpleTips, 2-4 questions.`;
+  }
+
+  $("#analyzeBtn").addEventListener("click", async () => {
+    if (!sample){ setStatus("#anStatus", "Claude isn't available in this view.", true); return; }
+    if (!holdings.some(h => h.marketValue)){ setStatus("#anStatus", "Add at least one holding with a value first.", true); return; }
+    saveProfile();
+    ctl = new AbortController(); $("#analyzeBtn").disabled = true; $("#stopBtn").hidden = false;
+    setStatus("#anStatus", mcp ? "Getting live prices and today's market brief…" : "Thinking…", false, true);
+    if (mcp && !live.__ok) await fetchLive();
+    const brief = await fetchBrief();
+    setStatus("#anStatus", "Writing your breakdown… usually 30–90 seconds.", false, true);
+    try {
+      const out = await sample.json(analysisPrompt(brief), { modelTier: "complex", signal: ctl.signal, cache: false });
+      if (!out || !out.headline) throw {code:"invalid_json"};
+      analysis = out; analysis.at = Date.now(); analysis.withLive = !!live.__ok; analysis.withBrief = !!brief;
+      setStatus("#anStatus", "Done." + (live.__ok ? "" : " Live prices weren't available, so this uses your screenshot numbers only."));
+      renderResult(); saveSnapshot();
+      setTimeout(() => $("#result").scrollIntoView({behavior:"smooth", block:"start"}), 50);
+    } catch(e){ if (e && e.code !== "cancelled") setStatus("#anStatus", sampleErr(e), true); else setStatus("#anStatus", "Stopped."); }
+    $("#analyzeBtn").disabled = false; $("#stopBtn").hidden = true;
+  });
+  $("#stopBtn").addEventListener("click", () => ctl && ctl.abort());
+
+  const leanPill = (o) => { if (!o) return ""; const c = o.lean === "up" ? "up" : o.lean === "down" ? "down" : "warn"; const t = {up:"Leaning up",down:"Leaning down",sideways:"Leaning sideways",unclear:"Unclear"}[o.lean] || "Unclear"; return `<span class="pill ${c}">${t}${o.confidence ? " · " + esc(o.confidence) + " confidence" : ""}</span>`; };
+  const ratingTone = (r) => /poor|very high|needs work|high$/i.test(r||"") ? "down" : /good|strong|low$/i.test(r||"") ? "up" : "warn";
+
+  function renderResult(){
+    const el = $("#result");
+    if (!analysis){ el.innerHTML = ""; return; }
+    const a = analysis, sc = a.scorecard || {};
+    const scItem = (k, label) => sc[k] ? `<div class="item"><span class="k">${label}</span><span class="v"><span class="pill ${ratingTone(sc[k].rating)}">${esc(sc[k].rating)}</span></span><p>${esc(sc[k].note)}</p></div>` : "";
+    let h = `<div class="section-h"><h2><span class="step">4</span>Your breakdown</h2><span class="muted" style="font-size:13px">${new Date(a.at).toLocaleString("en-CA",{dateStyle:"medium",timeStyle:"short"})}${a.withLive ? " · with live prices" : ""}${a.withBrief ? " · with today's market brief" : ""}</span></div>
+      <div class="card"><h3>${esc(a.headline)}</h3><p>${esc(a.summary)}</p></div>
+      <div class="score" style="margin-top:12px">${scItem("diversification","Diversification")}${scItem("risk","Risk")}${scItem("fees","Fees")}${scItem("accounts","Account use")}</div>`;
+    if (a.nextSteps && a.nextSteps.length) h += `<div class="section-h"><h2>Your options from here</h2></div><div class="steps">${a.nextSteps.map((s,i) => `<div class="s"><span class="i">${i+1}</span><div><b>${esc(s.title)}</b><p>${esc(s.detail)}</p>${s.why ? `<p class="muted">${esc(s.why)}</p>` : ""}</div></div>`).join("")}</div>`;
+    if (a.addingMoney) h += `<div class="section-h"><h2>Adding more money: when and how</h2></div><div class="card"><p>${esc(a.addingMoney)}</p></div>`;
+    if (a.holdings && a.holdings.length){
+      h += `<div class="section-h"><h2>Holding by holding</h2><span class="muted" style="font-size:13px">Tap one for why it moved and both directions it could go</span></div><div style="display:grid;gap:10px">`;
+      for (const x of a.holdings){
+        const mine = holdings.find(y => y.symbol === x.symbol) || {};
+        const key = "h:" + x.symbol; const isOpen = open.has(key); const o = x.outlook || {};
+        h += `<article class="hold" id="h-${esc(x.symbol).replace(/[^A-Za-z0-9]/g,"_")}">
+          <button class="hold-head" data-key="${esc(key)}" aria-expanded="${isOpen}">
+            <div class="hold-title"><b>${esc(x.name || x.symbol)}</b><span class="sym">${esc(x.symbol)}</span>${x.role ? `<span class="pill">${esc(x.role)}</span>` : ""}${leanPill(o)}</div>
+            <div class="hold-num">${mine.marketValue != null ? `<span>${money(mine.marketValue, mine.currency)}</span>` : ""}${mine.totalReturn != null ? `<span class="${cls(mine.totalReturn)}">${money(mine.totalReturn, mine.currency)} (${pct(mine.totalReturnPct)})</span>` : ""}</div>
+            <p class="hold-line">${esc(x.howItsDoing || x.whatItIs || "")}</p>
+          </button>
+          ${isOpen ? `<div class="hold-body" data-close-key="${esc(key)}">
+            ${x.whatItIs ? `<div class="blk"><h4>What it is</h4><p>${esc(x.whatItIs)}</p></div>` : ""}
+            ${x.whyMoved ? `<div class="blk"><h4>Why it moved</h4><p>${esc(x.whyMoved)}</p></div>` : ""}
+            <div class="blk"><h4>Where it could go${o.horizon ? " · " + esc(o.horizon) : ""}</h4><div class="cases"><div class="case"><h5 class="up">If it goes up</h5><p>${esc(o.upCase || "–")}</p></div><div class="case"><h5 class="down">If it goes down</h5><p>${esc(o.downCase || "–")}</p></div></div></div>
+            ${o.watch ? `<div class="blk"><div class="watch"><h4>What to watch</h4><p>${esc(o.watch)}</p></div></div>` : ""}
+            ${x.options && x.options.length ? `<div class="blk"><h4>Your options with this one</h4><ul>${x.options.map(t => `<li>${esc(t)}</li>`).join("")}</ul></div>` : ""}
+            <button class="close-btn" data-close="${esc(key)}">Close</button>
+          </div>` : ""}
+        </article>`;
+      }
+      h += `</div>`;
+    }
+    if (a.wealthsimpleTips && a.wealthsimpleTips.length) h += `<div class="section-h"><h2>In the Wealthsimple app</h2></div><div class="card"><ul style="margin:0;padding-left:18px;display:grid;gap:6px">${a.wealthsimpleTips.map(t => `<li>${esc(t)}</li>`).join("")}</ul></div>`;
+    if (a.questions && a.questions.length) h += `<div class="section-h"><h2>Worth asking yourself</h2></div><div class="card"><ul style="margin:0;padding-left:18px;display:grid;gap:6px">${a.questions.map(t => `<li>${esc(t)}</li>`).join("")}</ul></div>`;
+    h += `<div class="section-h"><h2>Ask a follow-up</h2></div>
+      <div class="ask"><textarea id="askBox" placeholder="e.g. Should I keep adding to my Tesla position or spread it out? What happens to my portfolio if the Bank of Canada cuts rates?" aria-label="Your question"></textarea>
+      <div class="row-btns"><button class="btn primary" id="askBtn">Ask</button><span class="status" id="askStatus"></span></div><div id="askOut"></div></div>`;
+    el.innerHTML = h;
+  }
+
+  /* follow-up questions: a short chat the page keeps */
+  let chat = [];
+  async function ask(){
+    const q = $("#askBox").value.trim(); if (!q || !sample) return;
+    const ctx = `You are helping a young investor in Ontario understand their Wealthsimple portfolio. Today is ${today()}. Their holdings: ${JSON.stringify(holdings)}. About them: ${JSON.stringify(profile())}. The breakdown you gave them: ${JSON.stringify({headline:analysis.headline, summary:analysis.summary, scorecard:analysis.scorecard, nextSteps:analysis.nextSteps})}. ${WS_FACTS}
+Answer their questions in plain language, in under 200 words, using their numbers. Nobody can reliably predict prices: give both directions and the conditions, frame actions as options, and never tell them to buy or sell a specific security now. No markdown headings; short paragraphs or a short list are fine.`;
+    chat.push({role:"user", content:q});
+    const turns = [{role:"user", content:ctx}, {role:"assistant", content:"Understood. What would you like to know?"}, ...chat.slice(-8)];
+    const out = document.createElement("div"); out.className = "answer"; out.style.marginTop = "10px";
+    const qd = document.createElement("p"); qd.style.margin = "14px 0 0"; qd.innerHTML = "<b>You:</b> " + esc(q);
+    $("#askOut").append(qd, out); out.textContent = "Thinking…"; $("#askBox").value = ""; $("#askBtn").disabled = true;
+    try { const r = await sample(turns, {cache:false, onText: ({text}) => { out.textContent = text; }}); chat.push({role:"assistant", content:r.text}); }
+    catch(e){ out.textContent = e.text || sampleErr(e); chat.pop(); }
+    $("#askBtn").disabled = false;
+  }
+
+  /* ---------- private history ---------- */
+  async function saveSnapshot(){
+    if (!uid || !db || !analysis) return;
+    const t = totalsOf(holdings);
+    try { await db.collection("data/users/" + uid).doc("snap-" + Date.now()).set({at: Date.now(), totals:t, holdings, analysis}); }
+    catch(e){ if (e && e.code === "quota_exceeded") setStatus("#anStatus", "History is full. Delete an old snapshot on the History tab to save new ones.", true); }
+  }
+  function subscribeSnapshots(){
+    db.collection("data/users/" + uid).onSnapshot(snap => {
+      snapshots = snap.docs.filter(d => d.id.startsWith("snap-")).map(d => ({id:d.id, ...d.data()})).sort((a,b) => b.at - a.at);
+      if (!holdings.length && snapshots[0]){ holdings = snapshots[0].holdings.map(h => ({...h})); analysis = {...snapshots[0].analysis}; fetchLive(); }
+      render();
+    }, () => {});
+  }
+  function historyHTML(){
+    if (!uid) return `<div class="lede"><div class="eyebrow">History</div><h1>Your past check-ins</h1><p>History needs you to be signed in to Claude, so it can be stored privately for you.</p></div>`;
+    if (!snapshots.length) return `<div class="lede"><div class="eyebrow">History</div><h1>Your past check-ins</h1><p>Each time you get a breakdown, the numbers are saved here privately so you can see how your portfolio changes over time.</p></div><div class="empty" style="margin-top:20px"><b>No check-ins yet</b>Run your first breakdown on the My portfolio tab.</div>`;
+    const pts = snapshots.slice().reverse();
+    let chart = "";
+    if (pts.length >= 2){
+      const W = 640, H = 180, P = 36; const vals = pts.map(p => p.totals.value); const mn = Math.min(...vals), mx = Math.max(...vals), rg = mx - mn || 1;
+      const x = i => P + i * (W - P*2) / (pts.length - 1), y = v => H - 24 - (v - mn) / rg * (H - 48);
+      const line = pts.map((p,i) => `${x(i).toFixed(1)},${y(p.totals.value).toFixed(1)}`).join(" ");
+      chart = `<div class="chart"><svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Total value over time">
+        <line x1="${P}" x2="${W-P}" y1="${y(mn)}" y2="${y(mn)}" stroke="var(--line)"/><line x1="${P}" x2="${W-P}" y1="${y(mx)}" y2="${y(mx)}" stroke="var(--line)"/>
+        <text x="${P}" y="${y(mx)-6}" fill="var(--muted)" font-size="11" font-family="IBM Plex Mono, monospace">${money(mx)}</text><text x="${P}" y="${y(mn)+16}" fill="var(--muted)" font-size="11" font-family="IBM Plex Mono, monospace">${money(mn)}</text>
+        <polyline points="${line}" fill="none" stroke="var(--signal)" stroke-width="2"/>
+        ${pts.map((p,i) => `<circle cx="${x(i)}" cy="${y(p.totals.value)}" r="${i===pts.length-1?4:2.5}" fill="var(--signal)"/>`).join("")}
+      </svg></div>`;
+    }
+    return `<div class="lede"><div class="eyebrow">History</div><h1>Your past check-ins</h1><p>Saved privately each time you get a breakdown. Only you can see these.</p></div>
+      <div class="section-h"><h2>Total value over time</h2></div>${chart || '<p class="muted">The chart appears after your second check-in.</p>'}
+      <div class="section-h"><h2>Check-ins</h2></div>
+      <div class="hist">${snapshots.map(s => `<div class="h"><span class="num muted">${new Date(s.at).toLocaleString("en-CA",{dateStyle:"medium",timeStyle:"short"})}</span><span>${esc(s.analysis && s.analysis.headline || "")}</span><span class="num">${money(s.totals.value)} <span class="${cls(s.totals.gain)}">${pct(s.totals.gainPct)}</span></span><span><button class="btn" data-load="${s.id}">Open</button> <button class="x" data-del="${s.id}" aria-label="Delete check-in">×</button></span></div>`).join("")}</div>`;
+  }
+
+  /* ---------- Wealthsimple guide (researched Oct 2026) ---------- */
+  function guideHTML(){
+    return `<div class="lede"><div class="eyebrow">Wealthsimple guide</div><h1>How to use Wealthsimple well</h1><p>The accounts, the fees that matter, and the habits that make the biggest difference for a new investor in Ontario. Checked against Wealthsimple's own pricing and fee pages in October 2026.</p></div>
+    <div class="guide" style="margin-top:20px">
+      <section><h3>Which account to use</h3>
+        <div class="tablewrap"><table><thead><tr><th>Account</th><th>What it's for</th><th>2026 limit</th><th>Tax</th></tr></thead><tbody>
+          <tr><td><b>TFSA</b></td><td>The default for most young investors. Any goal.</td><td>$7,000 this year, plus unused room from every year since you turned 18. Withdrawals are added back next January 1.</td><td>Growth is tax-free. Losses can't be claimed.</td></tr>
+          <tr><td><b>FHSA</b></td><td>Saving for your first home.</td><td>$8,000 a year, $40,000 lifetime. Room only starts once you open one.</td><td>Deposits cut your taxes, and withdrawals for a first home are tax-free.</td></tr>
+          <tr><td><b>RRSP</b></td><td>Retirement, best once your income (and tax rate) is higher.</td><td>18% of last year's earned income, up to $33,810.</td><td>Deposits cut your taxes. Withdrawals are taxed.</td></tr>
+          <tr><td><b>Non-registered</b></td><td>Extra investing once tax-sheltered room is full.</td><td>No limit.</td><td>Taxed on gains and dividends, but losses can offset gains.</td></tr>
+          <tr><td><b>Crypto</b></td><td>Holding coins directly.</td><td>No limit.</td><td>Taxable like non-registered. Crypto ETFs can sit inside a TFSA instead.</td></tr>
+        </tbody></table></div>
+      </section>
+      <section><h3>Fees that actually matter</h3><ul>
+        <li><b>Stocks and ETFs:</b> $0 commission on Canadian and U.S. trades.</li>
+        <li><b>The hidden one, currency conversion:</b> buying a U.S. stock (Apple, Tesla, Nvidia) from a CAD account costs 1.5% to convert, and another 1.5% when you sell. That's about 3% gone before the stock moves.</li>
+        <li><b>Ways around it:</b> buy Canadian-listed versions. VFV, XUS or ZSP hold the S&P 500, and CDRs (tickers ending in .NE) let you own big U.S. companies in CAD. Or get a USD account: $10/month on the Core plan, included on Premium ($100,000+).</li>
+        <li><b>Crypto:</b> a 0.5% fee plus a spread on each buy and sell, so frequent trading adds up fast.</li>
+        <li><b>Managed portfolios:</b> 0.5% a year on Core (0.4% on Premium) plus the ETFs' own fees. Simple, but a single all-in-one ETF bought yourself costs less.</li>
+        <li><b>ETF fees (MER):</b> taken quietly from the fund each year. Broad index ETFs often charge 0.1–0.25%.</li>
+      </ul></section>
+      <section><h3>Habits that help</h3><ul>
+        <li><b>Set up recurring buys.</b> A fixed amount every payday beats trying to guess dips, which almost nobody does consistently.</li>
+        <li><b>Have a core.</b> Many investors keep most of their money in one or two broad ETFs (an all-in-one like XEQT or VEQT, or an S&P 500 ETF) and keep single stocks and crypto to a small slice they can afford to lose.</li>
+        <li><b>Use limit orders</b> for anything thinly traded, and avoid trading in the first 15 minutes after the market opens, when prices jump around most.</li>
+        <li><b>Fractional shares</b> let you buy part of an expensive stock, which makes small recurring amounts practical.</li>
+        <li><b>U.S. dividends in a TFSA</b> lose 15% to U.S. withholding tax. That doesn't happen in an RRSP, which matters more as dividends grow.</li>
+        <li><b>Emergency fund first.</b> Keep 3–6 months of expenses somewhere safe, like the Wealthsimple Chequing account, before investing money you might need.</li>
+        <li><b>Pay off credit cards first.</b> Paying 20%+ interest while hoping for 8% returns loses money.</li>
+      </ul></section>
+      <section><h3>What the numbers in the app mean</h3><ul>
+        <li><b>All-time return</b> is your gain or loss compared with what you paid. It includes money you've added, so it isn't the same as how well a stock has done.</li>
+        <li><b>Today's change</b> is noise most days. Weeks and months tell you more.</li>
+        <li><b>Book cost</b> is what you paid in total. Your average cost per share is book cost divided by shares.</li>
+        <li><b>Being down isn't a loss until you sell</b>, but it's still worth asking whether you'd buy that holding today at today's price. If not, why keep it?</li>
+      </ul></section>
+      <section><h3>Sources</h3><div style="display:flex;flex-wrap:wrap;gap:6px 14px;font-size:13px">
+        <a href="https://wealthsimple.com/pricing" target="_blank" rel="noopener">Wealthsimple: Compare plans &amp; benefits</a>
+        <a href="https://wealthsimple.com/en-ca/legal/fees/trade" target="_blank" rel="noopener">Wealthsimple: Trade account fees</a>
+        <a href="https://cfmws.ca/insurance-finance/financial-education/resources/articles-videos/7-big-tax-numbers-for-2026" target="_blank" rel="noopener">CFMWS: 7 big tax numbers for 2026</a>
+        <a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account.html" target="_blank" rel="noopener">CRA: Tax-free savings account</a>
+      </div></section>
+    </div>`;
+  }
+
+  /* ---------- render / events ---------- */
+  function render(){
+    document.querySelectorAll(".tab").forEach(t => t.setAttribute("aria-selected", String(t.dataset.tab === tab)));
+    $("#view-mine").hidden = tab !== "mine"; $("#view-history").hidden = tab !== "history"; $("#view-guide").hidden = tab !== "guide";
+    if (tab === "mine"){ renderLedger(); renderResult(); }
+    if (tab === "history") $("#view-history").innerHTML = historyHTML();
+    if (tab === "guide" && !$("#view-guide").innerHTML) $("#view-guide").innerHTML = guideHTML();
+  }
+  document.addEventListener("click", async e => {
+    const th = e.target.closest("[data-theme-set]"); if (th){ store.set("nl:theme", th.dataset.themeSet); applyTheme(th.dataset.themeSet); return; }
+    const tb = e.target.closest(".tab"); if (tb){ tab = tb.dataset.tab; try { history.replaceState(null, "", "#" + tab); } catch(_){} render(); window.scrollTo({top:0}); return; }
+    const ri = e.target.closest("[data-rmimg]"); if (ri){ e.stopPropagation(); images.splice(Number(ri.dataset.rmimg), 1); renderThumbs(); return; }
+    const rm = e.target.closest("[data-rm]"); if (rm){ holdings.splice(Number(rm.dataset.rm), 1); analysis = null; render(); return; }
+    if (e.target.closest("#askBtn")){ ask(); return; }
+    const ld = e.target.closest("[data-load]"); if (ld){ const s = snapshots.find(x => x.id === ld.dataset.load); if (s){ holdings = s.holdings.map(h => ({...h})); analysis = {...s.analysis}; tab = "mine"; render(); fetchLive(); window.scrollTo({top:0}); } return; }
+    const dl = e.target.closest("[data-del]"); if (dl){ if (dl.dataset.confirm){ try { await db.collection("data/users/" + uid).doc(dl.dataset.del).delete(); } catch(_){} } else { dl.dataset.confirm = "1"; dl.textContent = "Delete?"; dl.style.fontSize = "13px"; setTimeout(() => { if (dl.isConnected){ delete dl.dataset.confirm; dl.textContent = "×"; dl.style.fontSize = ""; } }, 3000); } return; }
+    const cl = e.target.closest("[data-close]"); if (cl){ closeHold(cl.dataset.close); return; }
+    const hh = e.target.closest(".hold-head"); if (hh){ const k = hh.dataset.key; open.has(k) ? open.delete(k) : open.add(k); renderResult(); const n = document.querySelector(`.hold-head[data-key="${CSS.escape(k)}"]`); if (n) n.focus({preventScroll:true}); return; }
+    const hb = e.target.closest(".hold-body"); if (hb && !e.target.closest("a,button") && !String(window.getSelection && window.getSelection()).length){ closeHold(hb.dataset.closeKey); return; }
+  });
+  function closeHold(k){ open.delete(k); renderResult(); const n = document.querySelector(`.hold-head[data-key="${CSS.escape(k)}"]`); if (n){ if (n.getBoundingClientRect().top < 110) n.closest(".hold").scrollIntoView({block:"start"}); n.focus({preventScroll:true}); } }
+  document.addEventListener("keydown", e => { if (e.key === "Escape" && open.size){ open.clear(); renderResult(); } if (e.key === "Enter" && (e.metaKey || e.ctrlKey) && e.target.id === "askBox") ask(); });
+  PF.forEach(k => { const el = $("#p-" + k); el.addEventListener("change", saveProfile); });
+  render();
+})();
+</script>
