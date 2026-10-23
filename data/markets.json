@@ -1,22 +1,22 @@
 {
-  "updatedAt": "2026-10-23T06:35:00-04:00",
-  "nextRefresh": "around 7:22 AM",
-  "headline": "Bitcoin holds near $81,700 after record-size ETF outflow; oil tops $101",
-  "summary": "U.S. stocks closed lower Thursday: the Nasdaq fell 2.6% (its worst day since June) and the S&P 500 1.2% (its worst since July), led by Meta, AMD and Amazon on doubts about the payoff from heavy AI spending; early Friday, S&P 500 futures are roughly flat, Nasdaq futures are up about 0.25% and Dow futures down about 0.2%. At about 6:30 a.m. bitcoin is near $81,700 (down 0.3% over 24 hours) and ether near $2,400, after spot bitcoin ETFs lost about $635 million Thursday, their biggest one-day outflow since June; total crypto value is down about 2.9% to $2.73 trillion, the Fear & Greed index is 50 (Neutral), and the meme coin PEPE is up about 11%. The TSX closed down 1%, U.S. crude is up 1.6% to about $101 with Brent near $114 on Middle East supply fears, gold is near $4,037, and the 10-year Treasury yield is near 4.95–4.97% after its biggest one-day fall since March 2023.",
+  "updatedAt": "2026-10-23T07:40:00-04:00",
+  "nextRefresh": "around 8:22 AM",
+  "headline": "Bitcoin steadies near $81,500, stock futures calm after tech rout; Brent at $114",
+  "summary": "After Thursday's tech rout (Nasdaq down 2.6%, S&P 500 down 1.2%, led by Meta and AMD), U.S. stock futures are little changed to slightly lower early Friday, with S&P 500 futures down about 0.2% and Nasdaq futures roughly flat, while Meta keeps slipping before the open. At about 7:30 a.m. bitcoin is near $81,500 (down 0.4% over 24 hours) and ether just under $2,400, in their calmest stretch in days after spot bitcoin ETFs lost about $635 million Thursday; the Fear & Greed index is 50 (Neutral) and PEPE leads a small altcoin bounce, up about 10%. Brent crude hit a five-month high near $114 and U.S. crude is about $101 on Middle East supply fears, gold is flat near $4,040, and the 10-year Treasury yield is back near 4.95–5% after Thursday's biggest drop since March 2023.",
   "mood": {
     "crypto": {
-      "label": "Risk-off",
-      "why": "Bitcoin and ether are flat over 24 hours, but total crypto value is down about 2.9%, spot bitcoin ETFs had their largest outflow since June on Thursday, and the Fear & Greed index has slid from 68 (Greed) to 50 (Neutral) in a day."
+      "label": "Cautious",
+      "why": "Bitcoin and ether are holding in a tight range and some altcoins are bouncing, but spot bitcoin ETFs just had their biggest outflow since June and the Fear & Greed index has dropped from 68 (Greed) to 50 (Neutral) in a day."
     },
     "stocks": {
-      "label": "Risk-off",
-      "why": "The Nasdaq closed down 2.6% and the S&P 500 1.2%, with Meta and AMD down 7–8% and the VIX fear gauge near 19.6; futures are mixed early Friday and investors are still favouring Treasuries."
+      "label": "Cautious",
+      "why": "Futures are calm after the Nasdaq's worst day since June, but Meta is still falling before the open, the VIX fear gauge is near 19.7, and Brent at a five-month high keeps inflation worries alive ahead of next week's Fed and Bank of Canada decisions."
     }
   },
   "drivers": [
     {
       "title": "AI-spending doubts hit Big Tech and chips",
-      "detail": "Meta closed down 7% at $648.85 even after beating forecasts, as investors weigh its $135–$145 billion spending plan, negative free cash flow and a new non-voting share class; AMD fell 8.1%, Amazon 4.6%, Nvidia and Broadcom about 4.3–4.4%, and Lam Research about 9% after its results. A report that Nvidia and Tesla plan to invest in a Samsung supplier revived worries about 'circular' AI deals, where chip buyers and sellers fund each other.",
+      "detail": "Meta closed down 7% at $648.85 Thursday even after beating forecasts, as investors weigh its $135–$145 billion spending plan and negative free cash flow; AMD fell 8.1%, Amazon 4.6%, and Nvidia and Broadcom about 4.3–4.4%, as worries about the huge cost of AI build-outs resurfaced. Early Friday, Nasdaq futures are roughly flat and chip stocks are edging higher before the open, but Meta is still slipping premarket.",
       "effect": "bearish",
       "assets": "Nasdaq, chip stocks, Shopify, Celestica, bitcoin"
     },
@@ -27,14 +27,14 @@
       "assets": "Coinbase, Circle, crypto sentiment"
     },
     {
-      "title": "Bond yields tumble as investors seek safety",
-      "detail": "The 10-year Treasury yield fell about 19 basis points (0.19 percentage point) Thursday to near 4.95–4.97%, its biggest one-day drop since March 2023, as investors fled to safety. Traders trimmed bets on Fed tightening: a December rate hike is no longer fully priced (about 85% odds), though the Fed is expected to hold at 3.75%–4.00% on Oct. 28.",
+      "title": "Bond yields steady after big drop",
+      "detail": "The 10-year Treasury yield fell about 19 basis points (0.19 percentage point) Thursday to about 4.95%, its biggest one-day drop since March 2023, and is holding just under 5% early Friday as some of that haven buying fades. Traders trimmed bets on Fed tightening: a December rate hike is now about 85% priced, though the Fed is expected to hold at 3.75%–4.00% on Oct. 28.",
       "effect": "mixed",
       "assets": "Bonds, stocks, mortgage rates, bitcoin"
     },
     {
-      "title": "Oil tops $101 despite U.S. supply push",
-      "detail": "U.S. crude is up about 1.6% to $101 a barrel early Friday and Brent is near $114, a five-month high and up about 4% this week, after Houthi attacks on Saudi energy sites and reports that the U.S. and Israel are drawing up plans for renewed strikes on Iran; a move by President Trump to invoke a Cold War-era law to boost fuel production has not cooled prices. Higher oil feeds inflation fears, while gold is near $4,037 after a nearly 3% drop Thursday.",
+      "title": "Brent hits five-month high near $114",
+      "detail": "Brent crude touched about $114 a barrel early Friday, its highest since early May, and U.S. crude is up about 1.6% to $101, after Houthi attacks on Saudi energy sites and reports that the U.S. and Israel are drawing up plans for renewed strikes on Iran. Higher oil feeds inflation fears ahead of next week's central bank meetings, while gold is flat near $4,040 after a nearly 3% drop Thursday.",
       "effect": "mixed",
       "assets": "Oil, Canadian energy stocks, bonds, crypto"
     },
@@ -56,8 +56,8 @@
       "id": "bitcoin",
       "symbol": "BTC",
       "name": "Bitcoin",
-      "move": "Down 0.3% in 24h and 0.7% this week, at about $81,730 (down 5.0% over 30 days)",
-      "why": "Bitcoin climbed to nearly $85,000 late Wednesday, briefly breaking above the $84,000 ceiling that had stopped it on Oct. 13–14, then fell back below $82,000 overnight as Tesla's and Meta's results revived doubts about AI spending; it held near $81,000–$81,700 as the Nasdaq closed down 2.6%. The round trip caused about $458 million of liquidations over the day (leveraged bets closed automatically), about 91% of them bullish bets, per CoinGlass data cited by The Crypto Times. Bitcoin's share of total crypto value is near 59.5%, close to its highest since May, as traders shelter in it while smaller coins fall harder. Overnight it dipped below $81,000 before recovering toward $82,000 in Asian trading, where it is testing its 50-day average; SoSoValue data show spot bitcoin ETFs lost about $635 million on Thursday, their biggest single-day outflow since June 25, ending three days of inflows worth about $1.08 billion.",
+      "move": "Down 0.4% in 24h and 0.4% this week, at about $81,520 (down 4.9% over 30 days)",
+      "why": "Bitcoin climbed to nearly $85,000 late Wednesday, briefly breaking above the $84,000 ceiling that had stopped it on Oct. 13–14, then fell back below $82,000 overnight as Tesla's and Meta's results revived doubts about AI spending; it held near $81,000–$81,700 as the Nasdaq closed down 2.6%. The round trip caused about $458 million of liquidations over the day (leveraged bets closed automatically), about 91% of them bullish bets, per CoinGlass data cited by The Crypto Times. Bitcoin's share of total crypto value is near 59.5%, close to its highest since May, as traders shelter in it while smaller coins fall harder. Overnight it dipped to about $81,000 and early Friday is trading near $81,500 in a range of less than $1,000, still below the $82,500 level it lost Thursday, per CoinDesk; SoSoValue data show spot bitcoin ETFs lost about $635 million on Thursday, their biggest single-day outflow since June 25, ending three days of inflows worth about $1.08 billion.",
       "meaning": "Bitcoin is now trading closely with tech stocks, and it is sitting just above the $80,000 floor of the $80,000–$87,000 range it has held for a month. ETF buying helps, but it is below the pace that came with past strong rallies, and some traders warn that a clean break below about $80,000 could open a slide toward $75,000 or lower.",
       "outlook": {
         "lean": "sideways",
@@ -65,13 +65,9 @@
         "horizon": "next 1–2 weeks",
         "bullCase": "Reclaiming $84,000–$85,000 with steady ETF inflows and a firmer Nasdaq could carry it to the top of the range near $87,000–$87,500; a break above that would be a bigger shift.",
         "bearCase": "A further slide in tech stocks, a hawkish Fed on Oct. 28, or higher oil could push it below the $80,000 floor, with some traders eyeing $75,000–$70,000 if that gives way.",
-        "watch": "Whether the Nasdaq steadies Friday (futures are mixed early), the $80,000 and $85,000 levels, whether Thursday's large ETF outflows continue, and the Fed decision on Oct. 28."
+        "watch": "Whether the Nasdaq steadies Friday (futures are roughly flat early), the $80,000 and $85,000 levels, whether Thursday's large ETF outflows continue, and the Fed decision on Oct. 28."
       },
       "sources": [
-        {
-          "title": "CoinDesk: Bitcoin gives back its run at $85,000",
-          "url": "https://www.coindesk.com/markets/2026/10/22/bitcoin-gives-back-its-run-at-usd85-000-as-tesla-and-meta-fail-to-calm-ai-nerves"
-        },
         {
           "title": "CoinDesk: Traders seek shelter in bitcoin as altcoins slide",
           "url": "https://www.coindesk.com/daybook-us/2026/10/22/crypto-traders-seek-shelter-in-bitcoin-as-altcoins-slide-and-etf-flows-wobble"
@@ -83,6 +79,10 @@
         {
           "title": "CoinDesk: Bitcoin, gold trim early losses; oil near $100",
           "url": "https://www.coindesk.com/markets/2026/10/23/bitcoin-gold-trim-early-losses-as-yen-gives-up-gains-oil-stays-near-usd100"
+        },
+        {
+          "title": "CoinDesk: Bitcoin holds above $81,000 as the AI rout fades",
+          "url": "https://www.coindesk.com/markets/2026/10/23/live-updates-bitcoin-holds-above-usd81-000-as-the-ai-rout-fades-and-oil-climbs"
         }
       ]
     },
@@ -90,8 +90,8 @@
       "id": "ethereum",
       "symbol": "ETH",
       "name": "Ethereum",
-      "move": "Down 0.3% in 24h and 2.4% this week, at about $2,401 (down 12% over 30 days)",
-      "why": "Ether briefly rose to about $2,490 with bitcoin on Wednesday, then gave the gain back and is hovering just above the $2,400 level that had held as support for about a week, after dipping under it Thursday. It keeps trailing bitcoin as U.S. ether ETFs kept losing money: about $26 million on Tuesday and an estimated $31 million more on Wednesday, taking October outflows past $1 billion, the worst month of 2026. On the plus side, a record 43.8 million ETH (about 36% of supply) is staked, meaning locked up to secure the network.",
+      "move": "Down 0.3% in 24h and 2.2% this week, at about $2,393 (down 12% over 30 days)",
+      "why": "Ether briefly rose to about $2,490 with bitcoin on Wednesday, then gave the gain back and is hovering right around the $2,400 level that had held as support for about a week, after dipping under it Thursday. It keeps trailing bitcoin as U.S. ether ETFs kept losing money: about $26 million on Tuesday and an estimated $31 million more on Wednesday, taking October outflows past $1 billion, the worst month of 2026. On the plus side, a record 43.8 million ETH (about 36% of supply) is staked, meaning locked up to secure the network. Separately, CoinDesk reports developers postponed a test of the next upgrade, Glamsterdam, after security researchers flagged a risk to existing smart contracts, a reminder the upgrade's timing could slip.",
       "meaning": "Ether is lagging bitcoin because big investors keep pulling money from the ETFs. Until those flows turn, rallies may be harder to sustain.",
       "outlook": {
         "lean": "unclear",
@@ -99,7 +99,7 @@
         "horizon": "next 1–2 weeks",
         "bullCase": "Holding above $2,400, ETF outflows stopping and a firm hold above $2,500 could open a move toward about $2,700, where October began.",
         "bearCase": "Staying below $2,400 with continued ETF outflows could send it toward the $2,300 area, and a broader risk-off turn could push it lower.",
-        "watch": "Daily ether ETF flows, the $2,400 and $2,500 levels, and the ETH/BTC ratio."
+        "watch": "Daily ether ETF flows, the $2,400 and $2,500 levels, the ETH/BTC ratio, and any new Glamsterdam upgrade timeline."
       },
       "sources": [
         {
@@ -115,8 +115,8 @@
           "url": "https://www.kucoin.com/news/flash/bitcoin-etf-sees-33-88m-daily-net-outflow-ethereum-etf-loses-31-42m"
         },
         {
-          "title": "Nexo: Markets today, Oct. 21",
-          "url": "https://nexo.com/blog/markets-today-october-21"
+          "title": "CoinDesk: Friday live updates (Glamsterdam test delayed)",
+          "url": "https://www.coindesk.com/markets/2026/10/23/live-updates-bitcoin-holds-above-usd81-000-as-the-ai-rout-fades-and-oil-climbs"
         }
       ]
     },
@@ -124,8 +124,8 @@
       "id": "pepe",
       "symbol": "PEPE",
       "name": "Pepe",
-      "move": "Up 11% in 24h and 20% this week, at about $0.00000502 (flat over 30 days); trending on CoinGecko",
-      "why": "PEPE, the largest frog-themed meme coin (a token with no product, driven by online hype), is the biggest gainer among large coins today. There is no official news behind it: on Oct. 21 it had the biggest jump in trading activity on South Korean exchanges relative to normal, and futures trading has been running at more than five times spot trading, with open interest (the value of open bets) near $270 million, per CoinMarketCap's summary of market data.",
+      "move": "Up 10% in 24h and 21% this week, at about $0.00000492 (up 1% over 30 days); trending on CoinGecko",
+      "why": "PEPE, the largest frog-themed meme coin (a token with no product, driven by online hype), is the biggest gainer among large coins today. There is no official news behind it: on Oct. 21 it had the biggest jump in trading activity on South Korean exchanges relative to normal, and futures trading has been running at more than five times spot trading, with open interest (the value of open bets) near $270 million, per CoinMarketCap's summary of market data. Early Friday CoinDesk flagged it up about 13% as smaller coins bounced while bitcoin held steady.",
       "meaning": "Gains built on borrowed money and a burst of retail trading in one region can unwind fast if those bets are closed. PEPE is still far below its December 2024 record, and meme coins tend to swing much more than bitcoin in both directions.",
       "outlook": {
         "lean": "unclear",
@@ -146,7 +146,7 @@
       "id": "akedo",
       "symbol": "AKE",
       "name": "AKEDO",
-      "move": "Up 16% in 24h and 3.8% this week, at about $0.0329 (down 21% over 30 days)",
+      "move": "Up 16% in 24h and 12% this week, at about $0.0337 (down 24% over 30 days)",
       "why": "AKEDO is a small AI-tools token that has just squeezed into CoinGecko's top 100. We could not find a clear news catalyst for the jump, which peaked overnight near $0.037, dropped about 14% in the hour to 3:25 a.m., and has since bounced back above $0.033; it comes two days after a scheduled Oct. 21 unlock of tokens worth about $63 million (roughly 9% of its market value), and after weeks stuck in a $0.029–$0.037 range. Earlier community analysis found the top 100 wallets hold almost all of the supply, so a few holders can move the price sharply.",
       "meaning": "A double-digit jump on no identifiable news, in a token with extremely concentrated ownership, is the kind of move that can reverse just as quickly. The price was turned back at the old $0.037 ceiling, and anyone holding it is exposed to large holders and fresh unlocked supply.",
       "outlook": {
@@ -172,7 +172,7 @@
       "id": "quant-network",
       "symbol": "QNT",
       "name": "Quant",
-      "move": "Down 6.7% in 24h and 9.7% this week, at about $183 (still up 148% over 30 days)",
+      "move": "Down 6.4% in 24h and 11.5% this week, at about $182 (still up 142% over 30 days)",
       "why": "Quant makes software (Overledger) that connects banks' systems to blockchains. Its token soared after The Clearing House, a group owned by large U.S. banks, picked Quant on Sept. 24 to link systems for its plan to put bank deposits on blockchains. Since then it has been giving back gains through profit-taking and heavy leverage: it fell about 19% in the week to Oct. 20 and is sliding again with the altcoin sell-off.",
       "meaning": "The bank deal adds credibility, but it does not require banks to buy or hold the QNT token itself, so the price may have run ahead of what the deal means for token demand. After a gain this large, sharp swings in both directions are likely.",
       "outlook": {
@@ -198,7 +198,7 @@
       "id": "lighter",
       "symbol": "LIT",
       "name": "Lighter",
-      "move": "Down 8.7% in 24h but up 11% this week, at about $3.38 (down 35% over 30 days)",
+      "move": "Down 9.2% in 24h but up 11% this week, at about $3.37 (down 35% over 30 days)",
       "why": "The token of the Lighter derivatives exchange jumped after reports from its Oct. 21 investor call that it plans to apply for a U.S. licence in November and is weighing access through Robinhood's U.S. platform; neither has been confirmed. Renewed attention on its existing Robinhood Wallet partnership and a Delphi Digital research report added interest.",
       "meaning": "The move rests on unconfirmed plans. Only 25% of the 1 billion tokens are circulating, so future supply is a long-term overhang, and the token is still about half its all-time high.",
       "outlook": {
@@ -224,8 +224,8 @@
       "id": "monero",
       "symbol": "XMR",
       "name": "Monero",
-      "move": "Down 5.9% in 24h but up 8.0% this week, at about $609 (up 7.2% over 30 days)",
-      "why": "Monero, a privacy-focused coin that hides who sends what, has slipped from about $650 late Wednesday to near $608, one of the bigger drops among large coins over the past day, though it is still up about 9% on the week. We found no project-specific news behind the pullback (the latest software release on Oct. 16 was routine maintenance), so it looks like the crowded leveraged trade unwinding as the wider market cooled. The run had started after veteran chart trader Peter Brandt called XMR his favourite large-cap setup, and futures trading had outpaced spot (actual coin) trading, with funding rates (the fee bullish leveraged traders pay to keep bets open) near 70% a year, per CoinDesk.",
+      "move": "Down 5.7% in 24h but up 7.9% this week, at about $606 (up 6.5% over 30 days)",
+      "why": "Monero, a privacy-focused coin that hides who sends what, has slipped from about $650 late Wednesday to near $606, down about 7% on CoinDesk's data early Friday, one of the bigger drops among large coins over the past day, though it is still up about 9% on the week. We found no project-specific news behind the pullback (the latest software release on Oct. 16 was routine maintenance), so it looks like the crowded leveraged trade unwinding as the wider market cooled. The run had started after veteran chart trader Peter Brandt called XMR his favourite large-cap setup, and futures trading had outpaced spot (actual coin) trading, with funding rates (the fee bullish leveraged traders pay to keep bets open) near 70% a year, per CoinDesk.",
       "meaning": "Rallies driven by borrowed money can reverse quickly if traders are forced to close positions (a liquidation). Monero is also still about 18% below its January record near $799, and an EU anti-money-laundering rule from July 2027 will bar regulated crypto firms from handling privacy coins, which limits where it can trade.",
       "outlook": {
         "lean": "unclear",
@@ -258,7 +258,7 @@
       "id": "zcash",
       "symbol": "ZEC",
       "name": "Zcash",
-      "move": "Down 3.0% in 24h and 0.4% this week, at about $1,217 (down 24% over 30 days)",
+      "move": "Down 3.3% in 24h and 1.5% this week, at about $1,211 (down 26% over 30 days)",
       "why": "Traders had been positioning for the NU7 upgrade, which developers scheduled for about 7:50 p.m. ET on Nov. 5; it cuts block times from 75 to 25 seconds and sends 60% of fees to a reserve. Futures open interest (the value of open bets) had risen about 19–24% and two large traders reportedly opened about $37.6 million of 10x leveraged longs. Today those leveraged bets are unwinding: CoinDesk flagged ZEC among the coins where bullish traders are closing positions, and the price has fallen about 11% to just above the $1,190–$1,230 support area.",
       "meaning": "Much of this month's rally was driven by borrowed money, and today shows how fast that can reverse. Upgrade dates often bring 'buy the rumour, sell the news' behaviour, so swings both ways are likely into Nov. 5.",
       "outlook": {
@@ -288,7 +288,7 @@
       "id": "near",
       "symbol": "NEAR",
       "name": "NEAR Protocol",
-      "move": "Down 1.3% in 24h and 6.3% this week, at about $4.93 (up 8.5% over 30 days)",
+      "move": "Down 2.0% in 24h and 7.3% this week, at about $4.88 (up 7.1% over 30 days)",
       "why": "NEAR has been one of October's strongest large coins. Supports include the first U.S. spot NEAR ETF from Bitwise (launched Sept. 29), a governance proposal to cut yearly new-token issuance from 2.5% to 1.6%, and strong use of its NEAR Intents cross-chain swap service. It led the CoinDesk 100 on Wednesday without a fresh headline and is giving that back today, with CoinDesk noting open interest fell about 9% as leveraged buyers closed positions.",
       "meaning": "The rally has real drivers behind it, but the issuance cut is only a proposal and NEAR is already back near its early-October highs around $6. Fast multi-week runs tend to see sharp pullbacks.",
       "outlook": {
@@ -314,7 +314,7 @@
       "id": "solana",
       "symbol": "SOL",
       "name": "Solana",
-      "move": "Down 0.2% in 24h and 2.4% this week, at about $104.30 (down 11% over 30 days)",
+      "move": "Down 0.5% in 24h and 2.1% this week, at about $103.90 (down 11% over 30 days)",
       "why": "Solana completed its Alpenglow upgrade, a major overhaul aimed at much faster transaction finality (the point at which a payment can't be reversed), according to CoinDesk. The price has moved with the market rather than rallying on the news, and is down about 4% as altcoins slide.",
       "meaning": "A smooth Alpenglow launch is a meaningful technical milestone, but the market is treating it as already expected. The first days after a big upgrade are when problems usually show up, so stability matters more than headlines.",
       "outlook": {
@@ -341,7 +341,7 @@
     {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "move": "Closed down 1.2% at 7,663 Thursday, about 2.3% below its record near 7,845",
+      "move": "Closed down 1.2% at 7,663 Thursday, about 2.3% below its record near 7,845; futures down about 0.2% early Friday",
       "why": "The index slid through the session as Meta, AMD, Amazon and Nvidia fell on renewed doubts about returns from AI spending, while oil near $100 revived inflation worries. Apple (up 1.2% to a record) and JPMorgan (up 0.4%) cushioned the drop, the Dow ended flat, and the VIX fear gauge rose about 14% to 19.",
       "meaning": "The damage is concentrated in tech, which makes up a large share of the index, while other sectors are holding up better. Falling bond yields help a little, but a 10-year yield near 5% still makes stocks look expensive relative to bonds.",
       "outlook": {
@@ -370,7 +370,7 @@
     {
       "symbol": "^IXIC",
       "name": "Nasdaq Composite",
-      "move": "Closed down 2.6% at 26,009 Thursday, after touching 25,918, about 6% below its 52-week high",
+      "move": "Closed down 2.6% at 26,009 Thursday, about 6% below its 52-week high; Nasdaq futures roughly flat early Friday",
       "why": "Tech led the decline: Meta fell 7%, AMD 8.1%, Amazon 4.6%, Nvidia 4.4%, Broadcom 4.3% and Alphabet 3.1%. Chip-equipment makers fell hard after Lam Research's results (down about 9%), and a report about Nvidia and Tesla investing in a Samsung supplier revived worries about AI companies funding their own customers.",
       "meaning": "The AI trade bounced Wednesday, but heavy overnight selling in Asian tech, with Chinese tech shares in Hong Kong having their worst day since April 2025, shows investors are nervous about how much Big Tech is spending on AI and when it pays off.",
       "outlook": {
@@ -428,7 +428,7 @@
     {
       "symbol": "META",
       "name": "Meta Platforms",
-      "move": "Closed down 7% at $648.85 Thursday after touching $639.69, from $697.52 Wednesday",
+      "move": "Closed down 7% at $648.85 Thursday after touching $639.69; still slipping in premarket trading Friday",
       "why": "Third-quarter revenue rose 26% to $64.6 billion, beating forecasts, and fourth-quarter guidance topped estimates, but the stock fell as investors focus on costs: Meta expects $135–$145 billion of capital spending, free cash flow was about -$2.1 billion this quarter, and a $9.9 billion legal charge cut reported profit. It also surprised Wall Street with a new non-voting Class C share, one for every share held starting in January 2027; JPMorgan's Doug Anmuth called the pending shares an overhang (a supply worry hanging over the price) and urged Meta to issue any new stock quickly. Meta's filing says the Class C dividend is expected to work like a two-for-one stock split for Class A holders.",
       "meaning": "The core ad business is growing fast, which supports the stock, but AI spending pushed free cash flow negative (about -$2.1 billion) this quarter. A separate $25 billion penalty imposed by a New Mexico judge in a privacy case is under appeal and adds legal uncertainty.",
       "outlook": {
