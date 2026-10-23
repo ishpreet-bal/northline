@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-10-23T05:35:00-04:00",
-  "nextRefresh": "around 6:22 AM",
-  "headline": "Bitcoin near $81,700 as ETF outflows return; Nasdaq futures edge up",
-  "summary": "U.S. stocks closed lower Thursday: the Nasdaq fell 2.6% (its worst day since June) and the S&P 500 1.2%, with Meta, AMD and Amazon leading a tech and chip sell-off on doubts about the payoff from heavy AI spending; early Friday, Nasdaq futures are up about 0.2% while Dow futures are down about 0.3%. At about 5:30 a.m. bitcoin is near $81,700 (flat over 24 hours) and ether near $2,400, after spot bitcoin ETFs saw about $381 million of outflows Thursday; total crypto value is down about 2.7% to $2.73 trillion and the Fear & Greed index is 50 (Neutral), down from 68 a day earlier. The TSX closed down 1%, U.S. crude is near $100 and Brent near $114 on Middle East supply fears, gold is near $4,040, and the 10-year Treasury yield is near 4.97% after its biggest one-day fall in over two years.",
+  "updatedAt": "2026-10-23T06:35:00-04:00",
+  "nextRefresh": "around 7:22 AM",
+  "headline": "Bitcoin holds near $81,700 after record-size ETF outflow; oil tops $101",
+  "summary": "U.S. stocks closed lower Thursday: the Nasdaq fell 2.6% (its worst day since June) and the S&P 500 1.2% (its worst since July), led by Meta, AMD and Amazon on doubts about the payoff from heavy AI spending; early Friday, S&P 500 futures are roughly flat, Nasdaq futures are up about 0.25% and Dow futures down about 0.2%. At about 6:30 a.m. bitcoin is near $81,700 (down 0.3% over 24 hours) and ether near $2,400, after spot bitcoin ETFs lost about $635 million Thursday, their biggest one-day outflow since June; total crypto value is down about 2.9% to $2.73 trillion, the Fear & Greed index is 50 (Neutral), and the meme coin PEPE is up about 11%. The TSX closed down 1%, U.S. crude is up 1.6% to about $101 with Brent near $114 on Middle East supply fears, gold is near $4,037, and the 10-year Treasury yield is near 4.95–4.97% after its biggest one-day fall since March 2023.",
   "mood": {
     "crypto": {
       "label": "Risk-off",
-      "why": "Bitcoin and ether are flat over 24 hours, but total crypto value is down about 2.7%, spot bitcoin ETFs swung to outflows Thursday, and the Fear & Greed index has slid from 68 (Greed) to 50 (Neutral) in a day."
+      "why": "Bitcoin and ether are flat over 24 hours, but total crypto value is down about 2.9%, spot bitcoin ETFs had their largest outflow since June on Thursday, and the Fear & Greed index has slid from 68 (Greed) to 50 (Neutral) in a day."
     },
     "stocks": {
       "label": "Risk-off",
-      "why": "The Nasdaq closed down 2.6% and the S&P 500 1.2%, with Meta and AMD down 7–8% and the VIX fear gauge near 19; Nasdaq futures are slightly higher early Friday, but investors are still favouring Treasuries."
+      "why": "The Nasdaq closed down 2.6% and the S&P 500 1.2%, with Meta and AMD down 7–8% and the VIX fear gauge near 19.6; futures are mixed early Friday and investors are still favouring Treasuries."
     }
   },
   "drivers": [
@@ -28,19 +28,19 @@
     },
     {
       "title": "Bond yields tumble as investors seek safety",
-      "detail": "The 10-year Treasury yield closed near 4.95%, down about 19 basis points (0.19 percentage point), its biggest one-day fall since March 2023, and is edging back up toward 4.97–4.98% early Friday. Traders still see a high chance (around 80–85%) of a Fed rate hike in December, though the Fed is expected to hold at 3.75%–4.00% on Oct. 28.",
+      "detail": "The 10-year Treasury yield fell about 19 basis points (0.19 percentage point) Thursday to near 4.95–4.97%, its biggest one-day drop since March 2023, as investors fled to safety. Traders trimmed bets on Fed tightening: a December rate hike is no longer fully priced (about 85% odds), though the Fed is expected to hold at 3.75%–4.00% on Oct. 28.",
       "effect": "mixed",
       "assets": "Bonds, stocks, mortgage rates, bitcoin"
     },
     {
-      "title": "Oil near $100 despite U.S. supply push",
-      "detail": "U.S. crude is near $100.40 a barrel and Brent near $114, a five-month high, after attacks on Saudi energy sites and reports of possible U.S.-Israeli strikes on Iran after the Nov. 3 midterms; a move by President Trump to invoke a Cold War-era law to boost fuel production has not cooled prices so far. Higher oil feeds inflation fears, while gold is near $4,040 after briefly dipping under $4,000 to its lowest since late July.",
+      "title": "Oil tops $101 despite U.S. supply push",
+      "detail": "U.S. crude is up about 1.6% to $101 a barrel early Friday and Brent is near $114, a five-month high and up about 4% this week, after Houthi attacks on Saudi energy sites and reports that the U.S. and Israel are drawing up plans for renewed strikes on Iran; a move by President Trump to invoke a Cold War-era law to boost fuel production has not cooled prices. Higher oil feeds inflation fears, while gold is near $4,037 after a nearly 3% drop Thursday.",
       "effect": "mixed",
       "assets": "Oil, Canadian energy stocks, bonds, crypto"
     },
     {
-      "title": "Bitcoin ETFs flip to outflows",
-      "detail": "Spot bitcoin ETFs (funds that hold real bitcoin) took in more than $1 billion over the first three days of this week, but lost about $381 million on Thursday per preliminary SoSoValue data, while ether funds have lost more than $1 billion this month. About $435 million of leveraged crypto bets were wiped out over 24 hours, nearly 90% of them bets on higher prices.",
+      "title": "Bitcoin ETFs post biggest outflow since June",
+      "detail": "Spot bitcoin ETFs (funds that hold real bitcoin) took in about $1.08 billion over the prior three days, then lost about $635 million on Thursday, the largest one-day outflow since June 25 per SoSoValue data, while ether funds have lost more than $1 billion this month. About $406 million of leveraged crypto bets were wiped out over 24 hours, per CoinGlass.",
       "effect": "bearish",
       "assets": "Bitcoin, Ether"
     },
@@ -56,8 +56,8 @@
       "id": "bitcoin",
       "symbol": "BTC",
       "name": "Bitcoin",
-      "move": "Flat over 24h and down 0.6% this week, at about $81,687 (down 5.1% over 30 days)",
-      "why": "Bitcoin climbed to nearly $85,000 late Wednesday, briefly breaking above the $84,000 ceiling that had stopped it on Oct. 13–14, then fell back below $82,000 overnight as Tesla's and Meta's results revived doubts about AI spending; it held near $81,000–$81,700 as the Nasdaq closed down 2.6%. The round trip caused about $458 million of liquidations over the day (leveraged bets closed automatically), about 91% of them bullish bets, per CoinGlass data cited by The Crypto Times. Bitcoin's share of total crypto value is near 59.5%, close to its highest since May, as traders shelter in it while smaller coins fall harder. Overnight it dipped below $81,000 before recovering toward $82,000 in Asian trading, where it is testing its 50-day average; preliminary SoSoValue data show spot bitcoin ETFs lost about $381 million on Thursday, ending the week's inflow streak.",
+      "move": "Down 0.3% in 24h and 0.7% this week, at about $81,730 (down 5.0% over 30 days)",
+      "why": "Bitcoin climbed to nearly $85,000 late Wednesday, briefly breaking above the $84,000 ceiling that had stopped it on Oct. 13–14, then fell back below $82,000 overnight as Tesla's and Meta's results revived doubts about AI spending; it held near $81,000–$81,700 as the Nasdaq closed down 2.6%. The round trip caused about $458 million of liquidations over the day (leveraged bets closed automatically), about 91% of them bullish bets, per CoinGlass data cited by The Crypto Times. Bitcoin's share of total crypto value is near 59.5%, close to its highest since May, as traders shelter in it while smaller coins fall harder. Overnight it dipped below $81,000 before recovering toward $82,000 in Asian trading, where it is testing its 50-day average; SoSoValue data show spot bitcoin ETFs lost about $635 million on Thursday, their biggest single-day outflow since June 25, ending three days of inflows worth about $1.08 billion.",
       "meaning": "Bitcoin is now trading closely with tech stocks, and it is sitting just above the $80,000 floor of the $80,000–$87,000 range it has held for a month. ETF buying helps, but it is below the pace that came with past strong rallies, and some traders warn that a clean break below about $80,000 could open a slide toward $75,000 or lower.",
       "outlook": {
         "lean": "sideways",
@@ -65,7 +65,7 @@
         "horizon": "next 1–2 weeks",
         "bullCase": "Reclaiming $84,000–$85,000 with steady ETF inflows and a firmer Nasdaq could carry it to the top of the range near $87,000–$87,500; a break above that would be a bigger shift.",
         "bearCase": "A further slide in tech stocks, a hawkish Fed on Oct. 28, or higher oil could push it below the $80,000 floor, with some traders eyeing $75,000–$70,000 if that gives way.",
-        "watch": "Whether the Nasdaq steadies Friday (Nasdaq futures are up about 0.2% early), the $80,000 and $85,000 levels, whether Thursday's ETF outflows continue, and the Fed decision on Oct. 28."
+        "watch": "Whether the Nasdaq steadies Friday (futures are mixed early), the $80,000 and $85,000 levels, whether Thursday's large ETF outflows continue, and the Fed decision on Oct. 28."
       },
       "sources": [
         {
@@ -77,8 +77,8 @@
           "url": "https://www.coindesk.com/daybook-us/2026/10/22/crypto-traders-seek-shelter-in-bitcoin-as-altcoins-slide-and-etf-flows-wobble"
         },
         {
-          "title": "CoinDesk: Live updates, bitcoin's round trip",
-          "url": "https://www.coindesk.com/business/2026/10/22/live-updates-bitcoin-s-round-trip-to-usd85-000-burns-traders-on-both-sides"
+          "title": "crypto.news: Bitcoin below $82K as ETFs see $635M outflows",
+          "url": "https://crypto.news/why-is-bitcoin-price-down-today-etf-outflows/"
         },
         {
           "title": "CoinDesk: Bitcoin, gold trim early losses; oil near $100",
@@ -90,7 +90,7 @@
       "id": "ethereum",
       "symbol": "ETH",
       "name": "Ethereum",
-      "move": "Flat over 24h and down 2.0% this week, at about $2,402 (down 12% over 30 days)",
+      "move": "Down 0.3% in 24h and 2.4% this week, at about $2,401 (down 12% over 30 days)",
       "why": "Ether briefly rose to about $2,490 with bitcoin on Wednesday, then gave the gain back and is hovering just above the $2,400 level that had held as support for about a week, after dipping under it Thursday. It keeps trailing bitcoin as U.S. ether ETFs kept losing money: about $26 million on Tuesday and an estimated $31 million more on Wednesday, taking October outflows past $1 billion, the worst month of 2026. On the plus side, a record 43.8 million ETH (about 36% of supply) is staked, meaning locked up to secure the network.",
       "meaning": "Ether is lagging bitcoin because big investors keep pulling money from the ETFs. Until those flows turn, rallies may be harder to sustain.",
       "outlook": {
@@ -121,58 +121,24 @@
       ]
     },
     {
-      "id": "layerzero",
-      "symbol": "ZRO",
-      "name": "LayerZero",
-      "move": "Down 2.7% in 24h and down 20% this week, at about $1.80 (up 26% over 30 days)",
-      "why": "LayerZero, a service that lets apps pass messages and tokens between blockchains, is among the biggest decliners in the top 100 today. No project-specific news (hack, outage or unlock) has been reported; analysts tie it to the broad sell-off in DeFi and smaller coins and heavy selling after a strong run, with the token up more than 100% over 90 days. It fell from about $2.03 to $1.76 with trading volume below its 30-day average, per DiarioBitcoin's analysis.",
-      "meaning": "Tokens that ran up fast are being sold hardest as traders retreat to bitcoin. The planned launch of its Zero and lzATLAS products on Nov. 30 is the next project catalyst, but it does not offset today's market-wide selling, and ZRO is still about 76% below its December 2024 record.",
+      "id": "pepe",
+      "symbol": "PEPE",
+      "name": "Pepe",
+      "move": "Up 11% in 24h and 20% this week, at about $0.00000502 (flat over 30 days); trending on CoinGecko",
+      "why": "PEPE, the largest frog-themed meme coin (a token with no product, driven by online hype), is the biggest gainer among large coins today. There is no official news behind it: on Oct. 21 it had the biggest jump in trading activity on South Korean exchanges relative to normal, and futures trading has been running at more than five times spot trading, with open interest (the value of open bets) near $270 million, per CoinMarketCap's summary of market data.",
+      "meaning": "Gains built on borrowed money and a burst of retail trading in one region can unwind fast if those bets are closed. PEPE is still far below its December 2024 record, and meme coins tend to swing much more than bitcoin in both directions.",
       "outlook": {
         "lean": "unclear",
         "confidence": "low",
         "horizon": "next 1–2 weeks",
-        "bullCase": "If altcoins stabilize, a recovery above about $1.87–$1.91 on rising volume could bring the $2.00 area back into view.",
-        "bearCase": "If selling continues, the next support is near its 50-day average around $1.55.",
-        "watch": "Bitcoin dominance (a falling share would signal money returning to altcoins), the $1.76 low, and news on the Nov. 30 product launch."
+        "bullCase": "If meme-coin interest keeps building and bitcoin holds $80,000, PEPE could extend toward the $0.0000055–$0.000006 area.",
+        "bearCase": "A wider crypto sell-off or a wave of liquidations (leveraged bets closed automatically) could erase the week's gain and send it back toward $0.0000041–$0.0000044.",
+        "watch": "Futures open interest and funding rates, Korean exchange volume, and whether bitcoin holds $80,000."
       },
       "sources": [
         {
-          "title": "DiarioBitcoin: ZRO falls below $1.90 on Oct. 22",
-          "url": "https://www.diariobitcoin.com/analisis/zro-cae-1291-y-pierde-el-nivel-de-usd-190-el-22-de-octubre-de-2026/"
-        },
-        {
-          "title": "CoinDesk: DeFi tokens lead crypto lower",
-          "url": "https://www.coindesk.com/markets/2026/10/22/bitcoin-slides-below-usd82-000-as-ai-doubts-return-with-defi-tokens-leading-declines"
-        }
-      ]
-    },
-    {
-      "id": "zcash",
-      "symbol": "ZEC",
-      "name": "Zcash",
-      "move": "Down 1.5% in 24h but up 0.2% this week, at about $1,227 (down 24% over 30 days)",
-      "why": "Traders had been positioning for the NU7 upgrade, which developers scheduled for about 7:50 p.m. ET on Nov. 5; it cuts block times from 75 to 25 seconds and sends 60% of fees to a reserve. Futures open interest (the value of open bets) had risen about 19–24% and two large traders reportedly opened about $37.6 million of 10x leveraged longs. Today those leveraged bets are unwinding: CoinDesk flagged ZEC among the coins where bullish traders are closing positions, and the price has fallen about 11% to just above the $1,190–$1,230 support area.",
-      "meaning": "Much of this month's rally was driven by borrowed money, and today shows how fast that can reverse. Upgrade dates often bring 'buy the rumour, sell the news' behaviour, so swings both ways are likely into Nov. 5.",
-      "outlook": {
-        "lean": "unclear",
-        "confidence": "low",
-        "horizon": "into the Nov. 5 upgrade",
-        "bullCase": "Holding the $1,180–$1,200 area and renewed interest as the upgrade nears could bring it back to the $1,375 resistance and, beyond that, the September high near $1,700.",
-        "bearCase": "Losing $1,180 would erase the October breakout and could send it toward about $1,000–$1,120, near its 50-day average.",
-        "watch": "The $1,180 level, funding rates and open interest, ETF flows, and any upgrade delay."
-      },
-      "sources": [
-        {
-          "title": "CoinDesk: Bitcoin slides below $82,000 as AI doubts return",
-          "url": "https://www.coindesk.com/markets/2026/10/22/bitcoin-slides-below-usd82-000-as-ai-doubts-return-with-defi-tokens-leading-declines"
-        },
-        {
-          "title": "The Crypto Times: Zcash rises 13%, traders watch $1,375",
-          "url": "https://www.cryptotimes.io/2026/10/21/zcash-price-rises-13-as-traders-watch-1375-resistance/"
-        },
-        {
-          "title": "Hokanews: Zcash extends rally on NU7 date",
-          "url": "https://www.hokanews.com/2026/10/crypto-market-rises-with-asian-tech.html"
+          "title": "CoinMarketCap: Pepe latest updates",
+          "url": "https://coinmarketcap.com/cmc-ai/pepe/latest-updates/"
         }
       ]
     },
@@ -180,9 +146,9 @@
       "id": "akedo",
       "symbol": "AKE",
       "name": "AKEDO",
-      "move": "Up 17% in 24h and up 11% this week, at about $0.0336 (down 19% over 30 days)",
+      "move": "Up 16% in 24h and 3.8% this week, at about $0.0329 (down 21% over 30 days)",
       "why": "AKEDO is a small AI-tools token that has just squeezed into CoinGecko's top 100. We could not find a clear news catalyst for the jump, which peaked overnight near $0.037, dropped about 14% in the hour to 3:25 a.m., and has since bounced back above $0.033; it comes two days after a scheduled Oct. 21 unlock of tokens worth about $63 million (roughly 9% of its market value), and after weeks stuck in a $0.029–$0.037 range. Earlier community analysis found the top 100 wallets hold almost all of the supply, so a few holders can move the price sharply.",
-      "meaning": "A near-50% day on no identifiable news, in a token with extremely concentrated ownership, is the kind of move that can reverse just as quickly. The price was turned back at the old $0.037 ceiling, and anyone holding it is exposed to large holders and fresh unlocked supply.",
+      "meaning": "A double-digit jump on no identifiable news, in a token with extremely concentrated ownership, is the kind of move that can reverse just as quickly. The price was turned back at the old $0.037 ceiling, and anyone holding it is exposed to large holders and fresh unlocked supply.",
       "outlook": {
         "lean": "unclear",
         "confidence": "low",
@@ -203,28 +169,54 @@
       ]
     },
     {
-      "id": "near",
-      "symbol": "NEAR",
-      "name": "NEAR Protocol",
-      "move": "Down 0.2% in 24h and down 4.7% this week, at about $4.94 (up 13% over 30 days)",
-      "why": "NEAR has been one of October's strongest large coins. Supports include the first U.S. spot NEAR ETF from Bitwise (launched Sept. 29), a governance proposal to cut yearly new-token issuance from 2.5% to 1.6%, and strong use of its NEAR Intents cross-chain swap service. It led the CoinDesk 100 on Wednesday without a fresh headline and is giving that back today, with CoinDesk noting open interest fell about 9% as leveraged buyers closed positions.",
-      "meaning": "The rally has real drivers behind it, but the issuance cut is only a proposal and NEAR is already back near its early-October highs around $6. Fast multi-week runs tend to see sharp pullbacks.",
+      "id": "quant-network",
+      "symbol": "QNT",
+      "name": "Quant",
+      "move": "Down 6.7% in 24h and 9.7% this week, at about $183 (still up 148% over 30 days)",
+      "why": "Quant makes software (Overledger) that connects banks' systems to blockchains. Its token soared after The Clearing House, a group owned by large U.S. banks, picked Quant on Sept. 24 to link systems for its plan to put bank deposits on blockchains. Since then it has been giving back gains through profit-taking and heavy leverage: it fell about 19% in the week to Oct. 20 and is sliding again with the altcoin sell-off.",
+      "meaning": "The bank deal adds credibility, but it does not require banks to buy or hold the QNT token itself, so the price may have run ahead of what the deal means for token demand. After a gain this large, sharp swings in both directions are likely.",
+      "outlook": {
+        "lean": "down",
+        "confidence": "low",
+        "horizon": "next 1–2 weeks",
+        "bullCase": "Holding the $170–$200 support zone and new details on bank pilots could bring a rebound toward $220–$250.",
+        "bearCase": "A clean break below about $170 could extend the pullback toward $140–$150 as late buyers sell.",
+        "watch": "The $170 level, futures open interest, and any updates from The Clearing House or Quant on the deposit-token project."
+      },
+      "sources": [
+        {
+          "title": "CoinMarketCap: Quant latest updates",
+          "url": "https://coinmarketcap.com/cmc-ai/quant/latest-updates/"
+        },
+        {
+          "title": "FXStreet: Quant rally capped at key resistance",
+          "url": "https://www.fxstreet.com/cryptocurrencies/news/quant-price-forecast-qnt-rally-capped-at-key-resistance-poses-bearish-reversal-risk-202610070447"
+        }
+      ]
+    },
+    {
+      "id": "lighter",
+      "symbol": "LIT",
+      "name": "Lighter",
+      "move": "Down 8.7% in 24h but up 11% this week, at about $3.38 (down 35% over 30 days)",
+      "why": "The token of the Lighter derivatives exchange jumped after reports from its Oct. 21 investor call that it plans to apply for a U.S. licence in November and is weighing access through Robinhood's U.S. platform; neither has been confirmed. Renewed attention on its existing Robinhood Wallet partnership and a Delphi Digital research report added interest.",
+      "meaning": "The move rests on unconfirmed plans. Only 25% of the 1 billion tokens are circulating, so future supply is a long-term overhang, and the token is still about half its all-time high.",
       "outlook": {
         "lean": "unclear",
         "confidence": "low",
         "horizon": "next 1–2 weeks",
-        "bullCase": "Approval of the issuance cut and continued ETF inflows could push NEAR back to test the $5.60–$6.00 area hit earlier this month.",
-        "bearCase": "A further unwinding of leveraged bets, or the proposal stalling, could take it toward $4.50 or below; it has now slipped back under $5.",
-        "watch": "The issuance-cut vote, NEAR ETF flows, and whether it can get back above $5."
+        "bullCase": "An official licence filing or Robinhood announcement could push it toward the $4.50–$5 area.",
+        "bearCase": "No confirmation, or more profit-taking after Wednesday's 20% jump, could send it back toward about $3.20 or below.",
+        "watch": "Official statements from Lighter, trading volume versus Hyperliquid, and token unlock schedules."
       },
       "sources": [
         {
-          "title": "Crypto Briefing: NEAR jumps on record trading",
-          "url": "https://cryptobriefing.com/near-protocol-jumps-16-trading-surge/"
+          "title": "The Crypto Times: LIT jumps 20% on U.S. licence talk",
+          "url": "https://www.cryptotimes.io/2026/10/22/lit-price-jumps-20-as-lighter-weighs-us-license-and-robinhood-access/"
         },
         {
-          "title": "Hokanews: Crypto market rises with Asian tech",
-          "url": "https://www.hokanews.com/2026/10/crypto-market-rises-with-asian-tech.html"
+          "title": "crypto.news: Lighter jumps 21%",
+          "url": "https://crypto.news/lighter-price-rally-robinhood-wallet-delphi/"
         }
       ]
     },
@@ -232,7 +224,7 @@
       "id": "monero",
       "symbol": "XMR",
       "name": "Monero",
-      "move": "Down 5.9% in 24h but up 8.1% this week, at about $613.32 (up 8.3% over 30 days)",
+      "move": "Down 5.9% in 24h but up 8.0% this week, at about $609 (up 7.2% over 30 days)",
       "why": "Monero, a privacy-focused coin that hides who sends what, has slipped from about $650 late Wednesday to near $608, one of the bigger drops among large coins over the past day, though it is still up about 9% on the week. We found no project-specific news behind the pullback (the latest software release on Oct. 16 was routine maintenance), so it looks like the crowded leveraged trade unwinding as the wider market cooled. The run had started after veteran chart trader Peter Brandt called XMR his favourite large-cap setup, and futures trading had outpaced spot (actual coin) trading, with funding rates (the fee bullish leveraged traders pay to keep bets open) near 70% a year, per CoinDesk.",
       "meaning": "Rallies driven by borrowed money can reverse quickly if traders are forced to close positions (a liquidation). Monero is also still about 18% below its January record near $799, and an EU anti-money-laundering rule from July 2027 will bar regulated crypto firms from handling privacy coins, which limits where it can trade.",
       "outlook": {
@@ -263,58 +255,58 @@
       ]
     },
     {
-      "id": "lighter",
-      "symbol": "LIT",
-      "name": "Lighter",
-      "move": "Down 7.0% in 24h but up 13% this week, at about $3.40 (down 34% over 30 days)",
-      "why": "The token of the Lighter derivatives exchange jumped after reports from its Oct. 21 investor call that it plans to apply for a U.S. licence in November and is weighing access through Robinhood's U.S. platform; neither has been confirmed. Renewed attention on its existing Robinhood Wallet partnership and a Delphi Digital research report added interest.",
-      "meaning": "The move rests on unconfirmed plans. Only 25% of the 1 billion tokens are circulating, so future supply is a long-term overhang, and the token is still about half its all-time high.",
+      "id": "zcash",
+      "symbol": "ZEC",
+      "name": "Zcash",
+      "move": "Down 3.0% in 24h and 0.4% this week, at about $1,217 (down 24% over 30 days)",
+      "why": "Traders had been positioning for the NU7 upgrade, which developers scheduled for about 7:50 p.m. ET on Nov. 5; it cuts block times from 75 to 25 seconds and sends 60% of fees to a reserve. Futures open interest (the value of open bets) had risen about 19–24% and two large traders reportedly opened about $37.6 million of 10x leveraged longs. Today those leveraged bets are unwinding: CoinDesk flagged ZEC among the coins where bullish traders are closing positions, and the price has fallen about 11% to just above the $1,190–$1,230 support area.",
+      "meaning": "Much of this month's rally was driven by borrowed money, and today shows how fast that can reverse. Upgrade dates often bring 'buy the rumour, sell the news' behaviour, so swings both ways are likely into Nov. 5.",
       "outlook": {
         "lean": "unclear",
         "confidence": "low",
-        "horizon": "next 1–2 weeks",
-        "bullCase": "An official licence filing or Robinhood announcement could push it toward the $4.50–$5 area.",
-        "bearCase": "No confirmation, or more profit-taking after Wednesday's 20% jump, could send it back toward about $3.20 or below.",
-        "watch": "Official statements from Lighter, trading volume versus Hyperliquid, and token unlock schedules."
+        "horizon": "into the Nov. 5 upgrade",
+        "bullCase": "Holding the $1,180–$1,200 area and renewed interest as the upgrade nears could bring it back to the $1,375 resistance and, beyond that, the September high near $1,700.",
+        "bearCase": "Losing $1,180 would erase the October breakout and could send it toward about $1,000–$1,120, near its 50-day average.",
+        "watch": "The $1,180 level, funding rates and open interest, ETF flows, and any upgrade delay."
       },
       "sources": [
         {
-          "title": "The Crypto Times: LIT jumps 20% on U.S. licence talk",
-          "url": "https://www.cryptotimes.io/2026/10/22/lit-price-jumps-20-as-lighter-weighs-us-license-and-robinhood-access/"
+          "title": "CoinDesk: Bitcoin slides below $82,000 as AI doubts return",
+          "url": "https://www.coindesk.com/markets/2026/10/22/bitcoin-slides-below-usd82-000-as-ai-doubts-return-with-defi-tokens-leading-declines"
         },
         {
-          "title": "crypto.news: Lighter jumps 21%",
-          "url": "https://crypto.news/lighter-price-rally-robinhood-wallet-delphi/"
+          "title": "The Crypto Times: Zcash rises 13%, traders watch $1,375",
+          "url": "https://www.cryptotimes.io/2026/10/21/zcash-price-rises-13-as-traders-watch-1375-resistance/"
+        },
+        {
+          "title": "Hokanews: Zcash extends rally on NU7 date",
+          "url": "https://www.hokanews.com/2026/10/crypto-market-rises-with-asian-tech.html"
         }
       ]
     },
     {
-      "id": "ripple",
-      "symbol": "XRP",
-      "name": "XRP",
-      "move": "Down 0.3% in 24h and down 1.0% this week, at about $1.32 (down 18% over 30 days)",
-      "why": "XRP is drifting lower with the rest of the market after a brief bounce on Wednesday. On the network side, a planned XRP Ledger bug fix was pushed back to November after support from validators (the computers that approve changes) briefly dipped, per a CoinDesk headline. Ripple's push to offer round-the-clock stock trading on crypto rails remains in the news, but no single catalyst explains today's move. CoinDesk notes XRP is trading below its Ichimoku cloud, a chart indicator that some traders read as a sign of building downward momentum.",
-      "meaning": "XRP tends to move more than bitcoin in both directions, so it mostly reflects overall risk appetite. The 30-day trend is still down about 14%, and the delayed ledger fix is a minor technical setback rather than a security event.",
+      "id": "near",
+      "symbol": "NEAR",
+      "name": "NEAR Protocol",
+      "move": "Down 1.3% in 24h and 6.3% this week, at about $4.93 (up 8.5% over 30 days)",
+      "why": "NEAR has been one of October's strongest large coins. Supports include the first U.S. spot NEAR ETF from Bitwise (launched Sept. 29), a governance proposal to cut yearly new-token issuance from 2.5% to 1.6%, and strong use of its NEAR Intents cross-chain swap service. It led the CoinDesk 100 on Wednesday without a fresh headline and is giving that back today, with CoinDesk noting open interest fell about 9% as leveraged buyers closed positions.",
+      "meaning": "The rally has real drivers behind it, but the issuance cut is only a proposal and NEAR is already back near its early-October highs around $6. Fast multi-week runs tend to see sharp pullbacks.",
       "outlook": {
-        "lean": "sideways",
+        "lean": "unclear",
         "confidence": "low",
         "horizon": "next 1–2 weeks",
-        "bullCase": "A broader crypto rally led by bitcoin reclaiming $84,000 could lift XRP back toward the $1.45–$1.50 area.",
-        "bearCase": "If bitcoin breaks below $80,000, XRP would likely lose the $1.30 area and could test about $1.20.",
-        "watch": "Bitcoin's direction, the rescheduled XRP Ledger fix in November, and U.S. digital-asset rules."
+        "bullCase": "Approval of the issuance cut and continued ETF inflows could push NEAR back to test the $5.60–$6.00 area hit earlier this month.",
+        "bearCase": "A further unwinding of leveraged bets, or the proposal stalling, could take it toward $4.50 or below; it has now slipped back under $5.",
+        "watch": "The issuance-cut vote, NEAR ETF flows, and whether it can get back above $5."
       },
       "sources": [
         {
-          "title": "CoinDesk: Bitcoin's round trip to $85,000 burns traders",
-          "url": "https://www.coindesk.com/business/2026/10/22/live-updates-bitcoin-s-round-trip-to-usd85-000-burns-traders-on-both-sides"
+          "title": "Crypto Briefing: NEAR jumps on record trading",
+          "url": "https://cryptobriefing.com/near-protocol-jumps-16-trading-surge/"
         },
         {
-          "title": "CoinDesk: Bitcoin rises above $83,000 as SpaceX results lift markets",
-          "url": "https://www.coindesk.com/markets/2026/10/21/live-updates-bitcoin-clings-to-usd82-500-as-spacex-results-lift-stock-futures"
-        },
-        {
-          "title": "Nexo: Markets today, Oct. 21",
-          "url": "https://nexo.com/blog/markets-today-october-21"
+          "title": "Hokanews: Crypto market rises with Asian tech",
+          "url": "https://www.hokanews.com/2026/10/crypto-market-rises-with-asian-tech.html"
         }
       ]
     },
@@ -322,7 +314,7 @@
       "id": "solana",
       "symbol": "SOL",
       "name": "Solana",
-      "move": "Up 0.6% in 24h but down 1.6% this week, at about $104.42 (down 11% over 30 days)",
+      "move": "Down 0.2% in 24h and 2.4% this week, at about $104.30 (down 11% over 30 days)",
       "why": "Solana completed its Alpenglow upgrade, a major overhaul aimed at much faster transaction finality (the point at which a payment can't be reversed), according to CoinDesk. The price has moved with the market rather than rallying on the news, and is down about 4% as altcoins slide.",
       "meaning": "A smooth Alpenglow launch is a meaningful technical milestone, but the market is treating it as already expected. The first days after a big upgrade are when problems usually show up, so stability matters more than headlines.",
       "outlook": {
@@ -734,6 +726,11 @@
     }
   ],
   "calendar": [
+    {
+      "date": "2026-10-23",
+      "label": "U.S. final University of Michigan consumer sentiment (10 a.m. ET)",
+      "why": "A read on consumer mood and inflation expectations as oil tops $100; a jump in expected inflation would add to Fed-hike worries."
+    },
     {
       "date": "2026-10-28",
       "label": "Bank of Canada rate decision (9:45 a.m. ET) and Monetary Policy Report",
