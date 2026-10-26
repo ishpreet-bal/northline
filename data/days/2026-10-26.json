@@ -1,6 +1,6 @@
 {
-  "briefing": "Polls are open until 8 p.m. in Toronto and more than 400 Ontario municipalities, with Olivia Chow and Brad Bradford statistically tied and results expected tonight. Oil has eased, with U.S. crude near US$101, as Saudi, Pakistani and Turkish security chiefs meet Iranian officials in Tehran and Trump weighs a deal or more strikes. Queen's Park returns Tuesday, Israel votes the same day, and the Bank of Canada and the Fed decide on rates Wednesday.",
-  "headline": "Ontario at the polls; stocks rally as Iran talks open in Tehran",
+  "briefing": "Polls close at 8 p.m. in Toronto and more than 400 Ontario municipalities, with Olivia Chow and Brad Bradford in a near tie and results expected tonight. Saudi, Pakistani and Turkish security chiefs agreed with Iranian officials in Tehran to keep talking, but the U.S. is warning of Iranian plots and Brent crude remains above US$110. Queen's Park returns and Israel votes Tuesday, and the Bank of Canada and the Fed decide on rates Wednesday.",
+  "headline": "Ontario votes with polls closing at 8; Tehran talks to continue",
   "keyDates": [
     {
       "date": "2026-10-26",
@@ -40,10 +40,14 @@
       "id": "municipal-elections",
       "impact": "You get a vote for mayor, ward councillor and school trustee in your own city today. Bring ID showing your name and address, and check your municipality's website for your polling station.",
       "impactLevel": "medium",
-      "now": "Toronto's polling stations opened at 10 a.m. and close at 8 p.m. (Mississauga's opened at 9 a.m.), and voters in more than 400 municipalities are choosing among 6,670 candidates for about 2,800 seats. Toronto has 53 mayoral candidates, but the race is a two-way contest: Nanos for CP24 and CTV has Chow at 49.8% and Bradford at 46.6%, a statistical tie, while Liaison and Mainstreet surveys put Bradford narrowly ahead. Bradford promises a first-year property-tax freeze and 1,000 more police officers, while Chow pledges tax increases near inflation; advance turnout hit a record 222,550. In Mississauga, former Ontario Liberal leader Bonnie Crombie appears to be the front-runner, and results should start coming in soon after 8 p.m.",
+      "now": "Toronto's polling stations opened at 10 a.m. and close at 8 p.m. (Mississauga's opened at 9 a.m.), and voters in more than 400 municipalities are choosing among 6,670 candidates for about 2,800 seats. Toronto has 53 mayoral candidates, but the race is a two-way contest: Nanos for CP24 and CTV has Chow at 49.8% and Bradford at 46.6%, a statistical tie, while Liaison and Mainstreet surveys put Bradford narrowly ahead. Bradford promises a first-year property-tax freeze and 1,000 more police officers, while Chow pledges tax increases near inflation; advance turnout hit a record 222,550. In Mississauga, former Ontario Liberal leader Bonnie Crombie appears to be the front-runner, and results should start coming in soon after polls close at 8 p.m.; no voting problems had been reported by midday.",
       "rank": 1,
       "region": "ontario",
       "sources": [
+        {
+          "title": "CP24: Election day live updates",
+          "url": "https://www.cp24.com/local/toronto/2026/10/26/voting-underway-across-the-gta-polls-close-at-8-pm-live-election-day-updates-here/"
+        },
         {
           "title": "City of Toronto: Voters head to the polls Monday",
           "url": "https://www.toronto.ca/news/voters-head-to-the-polls-monday-for-torontos-2026-municipal-election/"
@@ -55,10 +59,6 @@
         {
           "title": "CTV News: It's voting day in Ontario",
           "url": "https://www.ctvnews.ca/toronto/gta-elections-2026/article/its-voting-day-in-ontario-heres-everything-you-need-to-know/"
-        },
-        {
-          "title": "NOW Toronto: Bradford and Chow trade leads in polls",
-          "url": "https://nowtoronto.com/news/toronto-election-2026-whos-leading-chow-bradford-polls/"
         }
       ],
       "status": "developing",
@@ -90,16 +90,16 @@
         }
       ],
       "topic": "Elections",
-      "updatedAt": "2026-10-26T11:46:13-04:00",
+      "updatedAt": "2026-10-26T14:46:02-04:00",
       "why": "City councils set property taxes, transit service, policing budgets and local housing approvals, and they last four years."
     },
     {
       "backstory": "The U.S. and Israel began striking Iran on February 28, 2026, in the middle of nuclear talks. The first wave killed Supreme Leader Ali Khamenei. Iran answered with missiles and drones on Israel, Gulf states and U.S. bases, and closed the Strait of Hormuz, the channel that roughly a fifth of the world's oil normally passes through. A peace memorandum signed in June briefly reopened shipping, but it fell apart in July when Iran started attacking commercial ships again to press its claim over the strait.",
-      "headline": "Saudi, Pakistani and Turkish security chiefs meet Iran in Tehran as oil eases",
+      "headline": "Tehran talks end with pledge to continue as U.S. warns of Iranian plots",
       "id": "iran-hormuz",
       "impact": "This is a big part of why gas and diesel in Ontario stay expensive: GTA regular is forecast around $1.80 a litre on Friday and diesel near $2.65. Diesel feeds straight into grocery and delivery prices, and higher fuel is one reason the Bank of Canada has been cautious about cutting rates.",
       "impactLevel": "high",
-      "now": "Saudi Defence Minister Khalid bin Salman, Pakistan's army chief Field Marshal Asim Munir and Turkish intelligence chief Ibrahim Kalin met Mohsen Rezaei, secretary of Iran's Supreme National Security Council, in Tehran on Monday in talks Pakistan proposed; Iran's foreign ministry called it a practical step toward regional security, and no agreement has been announced. Trump told Fox News on Sunday he is still choosing between a deal and further military action, and has said strikes would wait until after the November 3 midterms, while Foreign Minister Abbas Araghchi said renewed war would not change Iran's positions. By late morning December U.S. crude was down US$2.31 at about US$100.96 a barrel and Brent had slipped below US$110, after Brent topped US$117 last Thursday. The Saudi-led coalition says it intercepted a Houthi ballistic missile aimed at Riyadh overnight.",
+      "now": "Saudi Defence Minister Khalid bin Salman, Pakistan's army chief Asim Munir and Turkish intelligence chief Ibrahim Kalin met President Masoud Pezeshkian and security chief Mohsen Rezaei in Tehran on Monday; Iranian state media says the sides agreed to continue talks and Rezaei called the atmosphere positive, but no concrete outcome has been announced, and analysts expect little beyond lowering tensions with Yemen's Houthis. A memo from U.S. Director of National Intelligence Jay Clayton says Iranian plots to kill Americans are at advanced stages, and the State Department has pulled non-essential staff from Saudi Arabia and cut staffing at four other Middle East embassies. Trump says he is choosing between a deal and action to finish the job, but not today; Iran says it would reopen the Strait of Hormuz if the U.S. lifts its naval blockade of Iranian ports, which Washington refuses. Brent dipped toward US$109 Monday morning, then climbed back to about US$111.40 by early afternoon, still near the top of its wartime range after topping US$117 last week.",
       "rank": 2,
       "region": "world",
       "sources": [
@@ -108,20 +108,20 @@
           "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-oil-gas-prices-strait-of-hormuz-midterms/"
         },
         {
-          "title": "Tasnim: Iran, Saudi, Pakistan, Turkey hold security talks",
-          "url": "https://www.tasnimnews.ir/en/news/2026/10/26/3732914/iran-saudi-arabia-pakistan-turkey-hold-quadripartite-security-talks-in-tehran"
+          "title": "Just Security: Early Edition, Oct. 26",
+          "url": "https://www.justsecurity.org/162014/early-edition-october-26-2026/"
         },
         {
-          "title": "CP24: TSX up more than 200 points, oil lower",
-          "url": "https://www.cp24.com/news/money/2026/10/26/sptsx-composite-up-more-than-200-points-us-stock-markets-also-higher/"
+          "title": "BNN Bloomberg (AP): Stocks climb, oil swings",
+          "url": "https://www.bnnbloomberg.ca/markets/2026/10/26/world-shares-mostly-advance-after-a-decline-on-wall-street-and-oil-prices-fall-more-than-1/"
         },
         {
-          "title": "Al Jazeera: Saudi Arabia intercepts Houthi missiles and drones",
-          "url": "https://www.aljazeera.com/news/2026/10/25/saudi-arabia-intercepts-missiles-and-drones-as-fighting-with-houthis-rages"
+          "title": "Investinglive: Security chiefs sit down in Tehran",
+          "url": "https://investinglive.com/news/saudi-pakistani-iranian-and-turkish-security-chiefs-sit-down-in-tehran-agree-to-continue-talks/"
         }
       ],
       "status": "developing",
-      "summary": "Regional security talks opened in Tehran on Monday while Trump weighs a deal against new strikes; U.S. crude slipped to about US$101.",
+      "summary": "Saudi, Pakistani and Turkish security chiefs agreed with Iranian officials in Tehran to continue talks, while a U.S. intelligence memo says Iranian plots against Americans are at an advanced stage; Brent remains above US$110.",
       "timeline": [
         {
           "date": "Jun 17",
@@ -145,11 +145,11 @@
         },
         {
           "date": "Oct 26",
-          "event": "Saudi, Pakistani, Turkish officials meet Iran in Tehran; oil eases."
+          "event": "Regional security chiefs meet in Tehran, agree to keep talking; U.S. warns of plots."
         }
       ],
       "topic": "Iran war",
-      "updatedAt": "2026-10-26T11:46:13-04:00",
+      "updatedAt": "2026-10-26T16:58:00-04:00",
       "why": "A renewed U.S. strike on Iran, or a wider Houthi campaign against Saudi oil, could push crude even higher just as Canada's inflation is running at 3.1%. The Bank of Canada meets Wednesday with energy prices front and centre."
     },
     {
@@ -276,7 +276,7 @@
       "id": "israel-election",
       "impact": "For Ontario residents the main channel is energy: a government seen as more or less willing to strike Iran again could move crude and gasoline prices at GTA pumps. The vote also matters to many Jewish, Arab and Muslim families in the GTA with ties to the region.",
       "impactLevel": "medium",
-      "now": "The final pre-election surveys disagree on the margin but agree no one has a majority of the 120-seat Knesset: Channel 13 put the opposition bloc at 54 seats and Netanyahu's coalition at 50, Channel 12 had 56 to 50, and the public broadcaster Kan had 52 to 50, with Arab-led parties holding about 14 to 16. A Direct Polls survey for i24NEWS was more favourable to Netanyahu, giving his bloc 59. Former army chief Gadi Eisenkot's Yashar party is polling at 21 to 22 seats against 20 to 26 for Netanyahu's Likud, and Naftali Bennett is running in an alliance with Yair Lapid. Parties need 3.25% of the vote to win seats, and exit polls come out when voting ends Tuesday night.",
+      "now": "Trump issued a fresh endorsement of Netanyahu on the eve of the vote, citing his stance on Iran, after Axios reported Netanyahu had pressed the White House for more public support, a report Likud denied. Netanyahu has suggested the two leaders could restart strikes on Iran and warned Tehran might try to disrupt the vote. Final polls agree no bloc has a majority of the 120-seat Knesset: Channel 13 put the opposition at 54 seats and Netanyahu's coalition at 50, and Kan had 52 to 50, with Arab-led parties at about 14 to 16. Former army chief Gadi Eisenkot's Yashar party polls at 21 to 22 seats against 20 to 26 for Likud; parties need 3.25% of the vote to enter the Knesset, and exit polls come when voting ends Tuesday night.",
       "rank": 5,
       "region": "world",
       "sources": [
@@ -289,11 +289,15 @@
           "url": "https://www.business-standard.com/amp/world-news/israel-election-2026-netanyahu-s-rivals-key-parties-and-what-s-at-stake-126102600126_1.html"
         },
         {
-          "title": "NPR: Israel holds consequential election after years of war",
-          "url": "https://www.npr.org/2026/10/25/g-s1-149563/israel-election-war-netanyahu"
+          "title": "Just Security: Early Edition, Oct. 26",
+          "url": "https://www.justsecurity.org/162014/early-edition-october-26-2026/"
+        },
+        {
+          "title": "U.S. News (Reuters): Netanyahu touts Trump endorsement",
+          "url": "https://www.usnews.com/news/world/articles/2026-10-26/netanyahu-touts-trump-endorsement-on-eve-of-vote-suggests-they-may-restart-war-on-iran"
         }
       ],
-      "status": "new",
+      "status": "developing",
       "summary": "Israelis elect a new Knesset on October 27, and the last polls show neither Benjamin Netanyahu's bloc nor the opposition reaching the 61 seats needed to govern.",
       "timeline": [
         {
@@ -314,16 +318,16 @@
         }
       ],
       "topic": "Israel vote",
-      "updatedAt": "2026-10-26T05:45:57-04:00",
+      "updatedAt": "2026-10-26T14:46:02-04:00",
       "why": "The result will shape Israel's approach to the Iran war, Gaza and relations with its neighbours, all of which feed into oil prices. A deadlock could mean weeks of coalition talks or even another election."
     },
     {
       "backstory": "Republicans have controlled both the House and Senate since January 2025, which has let Trump pass his agenda with few checks. Midterms usually go against the president's party, and Trump's approval is lower than at the same point in his first term. All 435 House seats and 35 Senate seats are on the ballot. A Democratic House could launch investigations and block spending and trade legislation.",
-      "headline": "Trump heads to Mississippi as appeals judges question California ballot bid",
+      "headline": "Appeals courts rule on Guard deployment as Trump rallies in Mississippi",
       "id": "us-midterms",
       "impact": "A change in Congress could shift the odds of tariff relief for Ontario's auto, steel and lumber industries. Ottawa's trade strategy is partly being timed around the outcome.",
       "impactLevel": "medium",
-      "now": "More than 27.4 million Americans had voted early as of Monday morning, including over 4.35 million in Texas and about 986,000 in Michigan. Trump rallies Monday in Corinth, Mississippi, with Texas stops later this week, after a Sunday rally in Port Huron, Michigan, where his attacks on Democratic Senate nominee Abdul El-Sayed drew criticism, including from a founder of Arab Americans for Trump. At a hearing Sunday, two of three Ninth Circuit judges appeared skeptical of the Justice Department's request to set aside as many as 20,000 California mail ballots from voters it suspects are non-citizens; the panel said it would rule quickly. Republicans hold the Senate 53–47, and the nonpartisan Cook Political Report estimates Democrats will gain 12 to 22 House seats.",
+      "now": "More than 27.4 million Americans had voted early as of Monday morning, and Trump rallies Monday in Corinth, Mississippi, after a Sunday stop in Michigan where his attacks on Democratic Senate nominee Abdul El-Sayed drew criticism. A federal appeals court ruled that Trump violated federal law by taking control of the California National Guard and deploying troops in Los Angeles, applying the Supreme Court's reasoning in the Chicago case; a separate appeals court ruled 10–7 that immigration detainees held in Texas have no right to a bond hearing. At a weekend hearing, Trump-appointed Judge Mark Bennett and a colleague doubted the Justice Department's bid to make California set aside ballots from about 20,000 people it calls likely non-citizens, noting the Constitution gives states control of elections. Republicans hold the Senate 53–47, and the Cook Political Report estimates Democrats will gain 12 to 22 House seats.",
       "rank": 6,
       "region": "us",
       "sources": [
@@ -332,8 +336,12 @@
           "url": "https://www.foxnews.com/live-news/midterm-elections-2026-trump-el-sayed-california-alaska-october-26"
         },
         {
-          "title": "CNBC: Trump invokes 9/11 in urging voters to oppose El-Sayed",
-          "url": "https://www.cnbc.com/2026/10/25/trump-invokes-911-in-urging-michigan-voters-to-oppose-el-sayed.html"
+          "title": "Al Jazeera: Appeals court skeptical of California voter-roll suit",
+          "url": "https://www.aljazeera.com/news/2026/10/26/us-appeals-court-sceptical-of-trumps-lawsuit-over-california-voter-rolls"
+        },
+        {
+          "title": "Just Security: Early Edition, Oct. 26",
+          "url": "https://www.justsecurity.org/162014/early-edition-october-26-2026/"
         },
         {
           "title": "Washington Post: Cook estimates Democrats gain 12 to 22 seats",
@@ -341,7 +349,7 @@
         }
       ],
       "status": "developing",
-      "summary": "With eight days to go, more than 27.4 million Americans have voted early; Trump rallies in Mississippi as an appeals court weighs a bid to set aside up to 20,000 California mail ballots.",
+      "summary": "With eight days to go, more than 27.4 million Americans have voted early; an appeals court found Trump broke the law in sending California Guard troops to Los Angeles, and another panel doubted a bid to toss California ballots.",
       "timeline": [
         {
           "date": "Oct 21",
@@ -365,11 +373,11 @@
         },
         {
           "date": "Oct 26",
-          "event": "Trump rallies in Mississippi; Ninth Circuit weighs California ballots."
+          "event": "Trump in Mississippi; courts rule on Guard deployment, weigh California ballots."
         }
       ],
       "topic": "Midterms",
-      "updatedAt": "2026-10-26T11:46:13-04:00",
+      "updatedAt": "2026-10-26T14:46:02-04:00",
       "why": "The result decides how freely Trump can act on tariffs, the Iran war and spending for the final two years of his term."
     },
     {
@@ -421,33 +429,29 @@
     },
     {
       "backstory": "Tech giants have poured hundreds of billions of dollars into data centres and chips for AI, and those stocks have driven much of the market's gains. Investors have swung between excitement and doubt about whether the spending will pay off. This year's oil shock from the Iran war has also kept inflation and interest-rate worries alive.",
-      "headline": "Stocks rally as oil eases and Anthropic files for a Nasdaq listing",
+      "headline": "Stocks climb toward records as Anthropic files for a Nasdaq listing",
       "id": "us-markets-ai-selloff",
       "impact": "Many Ontario RRSPs, TFSAs and pension plans hold U.S. tech through index funds, so today's bounce partly offsets last week's dip. A slightly weaker loonie makes cross-border shopping and U.S. trips a touch pricier.",
       "impactLevel": "medium",
-      "now": "By 11:39 a.m. the S&P/TSX composite was up 225.64 points at 36,013.82, the Dow up 212.61 at 52,427.77, the S&P 500 up 73.19 at 7,696.87 and the Nasdaq up 344.64 at 26,299.98, rebounding from a second straight weekly loss for the S&P and Nasdaq. AI developer Anthropic publicly filed its S-1 prospectus (the registration document for an initial public offering) to list on the Nasdaq under the ticker ANT; it reported US$16.3 billion of revenue in the first half of 2026, versus US$4.6 billion in all of 2025, and a large net loss driven mostly by accounting charges, with share count and price still to be set. December gold rose US$28.30 to US$4,036.20 an ounce and the loonie slipped to 71.24 U.S. cents. Alphabet and Microsoft report Wednesday, the same day the Fed and the Bank of Canada announce rate decisions.",
+      "now": "Around 1:15 p.m. the S&P 500 was up 0.8%, within 1.6% of its record high, the Nasdaq was up 1.1% and the Dow was up 154 points, or 0.3%; at late morning the S&P/TSX composite was up 225.64 points at 36,013.82. Nvidia rose 2.5%, and Meta plans to raise US$35 billion by selling stock, with another US$60 billion possible later, while Verizon fell 2.8% on a revenue miss. AI developer Anthropic publicly filed its S-1 prospectus (the registration document for an initial public offering) to list on the Nasdaq under the ticker ANT, reporting US$16.3 billion of revenue in the first half of 2026. Brent crude swung back to about US$111.40 after an early dip, and the loonie was near 71.24 U.S. cents. Alphabet and Microsoft report Wednesday, the same day the Fed and the Bank of Canada announce rate decisions.",
       "rank": 8,
       "region": "us",
       "sources": [
         {
-          "title": "CP24: TSX up more than 200 points, U.S. markets higher",
-          "url": "https://www.cp24.com/news/money/2026/10/26/sptsx-composite-up-more-than-200-points-us-stock-markets-also-higher/"
+          "title": "BNN Bloomberg (AP): U.S. stocks climb, recover last week's losses",
+          "url": "https://www.bnnbloomberg.ca/markets/2026/10/26/world-shares-mostly-advance-after-a-decline-on-wall-street-and-oil-prices-fall-more-than-1/"
+        },
+        {
+          "title": "BNN Bloomberg: TSX up more than 200 points",
+          "url": "https://www.bnnbloomberg.ca/markets/2026/10/26/sptsx-composite-up-more-than-200-points-us-stock-markets-also-higher/"
         },
         {
           "title": "Anthropic: S-1 filed for proposed IPO",
           "url": "https://www.anthropic.com/news/s1-sec"
-        },
-        {
-          "title": "Yahoo Finance: Anthropic files IPO prospectus",
-          "url": "https://finance.yahoo.com/technology/article/anthropic-publicly-files-ipo-prospectus-noting-strong-revenue-growth-and-massive-spending-131807138.html"
-        },
-        {
-          "title": "Yahoo Finance: Stock market today, Oct. 26",
-          "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-october-26-dow-sp-500-nasdaq-101153035.html"
         }
       ],
       "status": "developing",
-      "summary": "The TSX topped 36,000 and the Nasdaq jumped about 1.3% by late morning as oil fell, while AI company Anthropic made its IPO filing public.",
+      "summary": "By early afternoon the S&P 500 was up 0.8% and the Nasdaq 1.1%, recovering last week's losses, while the TSX held a gain of more than 200 points.",
       "timeline": [
         {
           "date": "Feb 28",
@@ -471,7 +475,7 @@
         }
       ],
       "topic": "Markets",
-      "updatedAt": "2026-10-26T11:46:13-04:00",
+      "updatedAt": "2026-10-26T14:46:02-04:00",
       "why": "Big tech makes up a large share of U.S. stock indexes, so how investors treat AI companies, including a very large new listing, moves retirement accounts widely. Lower oil is also easing some of last week's inflation and rate fears."
     },
     {
@@ -590,7 +594,7 @@
       "id": "ukraine-energy",
       "impact": "Canada is a major Ukraine backer and is being asked for more money at the October 29–30 Canada-EU summit, which affects federal spending. Any real progress toward peace could ease diesel and gas prices over time.",
       "impactLevel": "medium",
-      "now": "Ukraine's air force said Russia fired four missiles, including a Kh-31P anti-radiation missile and three Kh-59/69 guided missiles, plus 140 strike and decoy drones overnight into Monday, about half of them jet-powered. Air defences downed or jammed 115 targets, three missiles and 112 drones, but hits were recorded at 15 locations. The day before, Russian attacks killed 8 people and injured 51, and a drone struck a five-storey apartment block in Vinnytsia. The White House says a local ceasefire in occupied Oleshky starts October 29, and the Kremlin says three-way talks resume next month.",
+      "now": "Ukraine's air force said Russia fired four missiles, including a Kh-31P anti-radiation missile and three Kh-59/69 guided missiles, plus 140 strike and decoy drones overnight into Monday, about half of them jet-powered. Air defences downed or jammed 115 targets, three missiles and 112 drones, but hits were recorded at 15 locations. The day before, Russian attacks killed 8 people and injured 51, and a drone struck a five-storey apartment block in Vinnytsia. First Lady Melania Trump says she brokered a local ceasefire in occupied Oleshky that starts October 29, and the Kremlin says three-way talks resume next month. Elon Musk confirmed SpaceX restricted some Starlink service in Ukraine over military use, and Ukraine's defence minister says connections are now stable.",
       "rank": 11,
       "region": "world",
       "sources": [
@@ -603,8 +607,8 @@
           "url": "https://kyivindependent.com/russian-attacks-kill-8-injure-51-across-ukraine-over-past-day-as-drone-strikes-residential-building-in-vinnytsia/"
         },
         {
-          "title": "AP via KSAT: Oleshky ceasefire and Ukraine talks",
-          "url": "https://www.ksat.com/news/politics/2026/10/23/the-latest-trump-backs-vivek-ramaswamy-on-ad-featuring-amy-actons-estranged-mother/"
+          "title": "Just Security: Early Edition, Oct. 26",
+          "url": "https://www.justsecurity.org/162014/early-edition-october-26-2026/"
         }
       ],
       "status": "developing",
@@ -632,7 +636,7 @@
         }
       ],
       "topic": "Russia–Ukraine",
-      "updatedAt": "2026-10-26T02:46:35-04:00",
+      "updatedAt": "2026-10-26T14:46:02-04:00",
       "why": "It is the first concrete sign in weeks that direct talks could restart, but both sides are still escalating strikes, and Moscow continues to demand all of Donetsk and no NATO membership for Kyiv. Moscow's offer to help on Iran also links the two wars driving energy prices."
     },
     {
@@ -692,10 +696,14 @@
       "id": "brazil-runoff",
       "impact": "Little direct effect on daily life in the GTA, but Canadian pension funds and mining, energy and bank investors with Brazilian holdings are taking a hit from today's selloff. A Lula government remains a potential partner for Canada's trade diversification away from the U.S.",
       "impactLevel": "low",
-      "now": "Brazil's currency fell more than 8% against the U.S. dollar at Monday's open, which El País called its steepest drop since 1999, and Ibovespa stock futures fell 15% to their daily limit, prompting the B3 exchange to widen its trading band to 20%. Lula took about 51.8% of the vote to Flávio Bolsonaro's 48.2%, a margin of nearly 4.4 million votes on turnout of about 81%, and the electoral court declared him the winner Sunday evening. Bolsonaro is seeking to annul the result, citing confusion after Supreme Court Justice Cristiano Zanin, Lula's former lawyer, extended voting by two hours, although both campaigns had asked for the extension. Lula, 80, begins his new term on January 5, 2027.",
+      "now": "São Paulo's Bovespa index was down about 14.6% Monday afternoon after Lula's win surprised investors who had bet on Flávio Bolsonaro, and the real fell more than 8% against the U.S. dollar at the open, which El País called its steepest drop since 1999. Lula took 51.79% of the vote, according to the electoral court, a margin of nearly 4.4 million votes on turnout of about 81%. Bolsonaro has not conceded and is seeking to annul the result, calling the two-hour voting extension inexplicable, although both campaigns had asked for it. Lula, 80, begins his new term on January 5, 2027.",
       "rank": 13,
       "region": "world",
       "sources": [
+        {
+          "title": "BNN Bloomberg (AP): Bovespa drops 14.6%",
+          "url": "https://www.bnnbloomberg.ca/markets/2026/10/26/world-shares-mostly-advance-after-a-decline-on-wall-street-and-oil-prices-fall-more-than-1/"
+        },
         {
           "title": "MercoPress: Brazil's real plunges after Lula's victory",
           "url": "https://en.mercopress.com/2026/10/26/brazil-s-real-plunges-more-than-8-and-s-o-paulo-stocks-slump-after-lula-s-victory"
@@ -707,10 +715,6 @@
         {
           "title": "Rio Times: Turnout 80.8%, Lula ahead by 4.4 million",
           "url": "https://www.riotimesonline.com/brazil-runoff-turnout-margin-2026"
-        },
-        {
-          "title": "NPR: Lula wins fourth presidential term",
-          "url": "https://www.npr.org/2026/10/25/nx-s1-6016299/brazil-lula-bolsonaro-election"
         }
       ],
       "status": "developing",
@@ -742,7 +746,7 @@
         }
       ],
       "topic": "Brazil election",
-      "updatedAt": "2026-10-26T11:46:13-04:00",
+      "updatedAt": "2026-10-26T14:46:02-04:00",
       "why": "Brazil is Latin America's largest economy and a top exporter of food and commodities. Lula's win keeps a government that has resisted pressure from the Trump administration, and the result is a setback for Trump, who had backed the Bolsonaro camp."
     },
     {
@@ -805,6 +809,6 @@
       "why": "B.C. joins Alberta, Saskatchewan and Ontario with right-of-centre premiers, shifting the balance as Ottawa negotiates with Washington and pushes pipelines and major projects. Doerkson's LNG and carbon-tax plans could reopen national energy and climate debates."
     }
   ],
-  "updatedAt": "2026-10-26T11:54:43-04:00",
+  "updatedAt": "2026-10-26T16:58:00-04:00",
   "date": "2026-10-26"
 }
