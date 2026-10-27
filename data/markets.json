@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-10-27T14:30:00-04:00",
-  "nextRefresh": "around 3:22 PM",
-  "headline": "Chips keep Nasdaq up 1.1%; bitcoin steady near $80,500 before Fed",
-  "summary": "U.S. stocks are holding gains in mid-afternoon: the S&P 500 is up about 0.6% near 7,720 and the Nasdaq about 1.1% near 26,460, with AMD (+5.4%), Broadcom (+4.2%) and Tesla (+3.6%) leading a second day of AI-chip buying after Anthropic's IPO filing and Nvidia's $3 billion stake in Meta's share sale, while the Dow is flat. The TSX is up about 0.5% near 36,130 as gold gains 0.8% to about $4,071 and Celestica jumps, even as oil producers slip with U.S. crude down 1.7% to about $100. Crypto is steady but lagging: bitcoin is about $80,500 (up 0.4% over 24 hours, down 2.7% this week), ether about $2,345, Fear & Greed a neutral 48, and the 10-year yield sits near 5.0% on the first day of the Fed's meeting, ahead of Wednesday's Fed and Bank of Canada decisions.",
+  "updatedAt": "2026-10-27T15:25:09-04:00",
+  "nextRefresh": "around 4:22 PM",
+  "headline": "Chips and Tesla lift Nasdaq 1.3%; bitcoin holds $80,500 before Fed",
+  "summary": "Late in the session, the S&P 500 is up about 0.7% near 7,730 and the Nasdaq about 1.3% near 26,510, as AMD (+5.3%), Tesla (+4.2%), Broadcom (+4.0%) and Amazon and Alphabet (both about +2%) extend the AI and big-tech rebound, while Boeing's roughly 10% drop after a delivery-target cut keeps the Dow nearly flat. The TSX is up about 0.7% near 36,180 as gold rises 0.9% to about $4,074 and Celestica surges, even though U.S. crude has slipped 2.2% to about $99.60. Crypto is steady but lagging: bitcoin is about $80,500 (up 0.7% over 24 hours, down 2.7% this week), ether about $2,340, Fear & Greed a neutral 48, and the 10-year yield sits near 5.0% ahead of Wednesday's Bank of Canada and Fed decisions.",
   "mood": {
     "crypto": {
       "label": "Cautious",
@@ -10,7 +10,7 @@
     },
     "stocks": {
       "label": "Risk-on",
-      "why": "Chips are leading for a second day and the VIX (Wall Street's fear gauge) has eased to about 17.7, though a 10-year yield at 5% and Wednesday's Fed, Bank of Canada and big-tech results keep the rally cautious."
+      "why": "Chips, Tesla and big tech are leading for a second day and the VIX (Wall Street's fear gauge) has eased to about 17.6, though a 10-year yield near 5% and Wednesday's Fed, Bank of Canada and big-tech results keep the rally cautious."
     }
   },
   "drivers": [
@@ -39,10 +39,10 @@
       ]
     },
     {
-      "title": "Earnings mostly beat: Celestica, SoFi, Royal Caribbean up; Xylem, PayPal, Coke slip",
-      "detail": "Celestica, a Toronto-based maker of AI data-centre hardware, was up about 9.7% around midday (after being indicated up as much as 16% before the bell) as revenue rose 83%, per Baystreet.ca, and SoFi (+11%), Royal Caribbean (+6%) and UPS rose after beats and raised outlooks, per TheStreet. Xylem fell about 8.6% after cutting its forecast, PayPal slipped about 2% premarket because revenue missed even as profit beat, per Benzinga, and Coca-Cola dipped about 1.6% on soft North American volume.",
-      "effect": "bullish",
-      "assets": "Celestica, TSX tech, U.S. stocks",
+      "title": "Earnings mixed: Celestica, SoFi, Royal Caribbean up; Boeing, Xylem slide",
+      "detail": "Celestica, a Toronto-based maker of AI data-centre hardware, was up about 9.7% around midday as revenue rose 83%, per Baystreet.ca, and SoFi, Royal Caribbean and UPS rose after beats and raised outlooks, per TheStreet. Boeing fell about 10% after saying it will deliver fewer than 500 737s this year and that stabilizing output at 47 jets a month will slip into 2027, per BigGo Finance, while Xylem fell about 12% after cutting its forecast and PayPal and Coca-Cola dipped.",
+      "effect": "mixed",
+      "assets": "Celestica, Boeing, U.S. stocks",
       "sources": [
         {
           "title": "Celestica (SEC filing): Q3 2026 results",
@@ -53,8 +53,8 @@
           "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-27-2026"
         },
         {
-          "title": "Benzinga: PayPal cuts jobs, lifts profit outlook",
-          "url": "https://www.benzinga.com/markets/earnings/26/10/62617121/paypal-cuts-thousands-of-jobs-bets-on-ai-and-lifts-profit-outlook"
+          "title": "BigGo Finance: Boeing Q3 2026 earnings call",
+          "url": "https://finance.biggo.com/news/US_BA_2026-10-27"
         },
         {
           "title": "Baystreet.ca: TSX midday update",
@@ -152,7 +152,7 @@
       "id": "bitcoin",
       "symbol": "BTC",
       "name": "Bitcoin",
-      "move": "Up 0.4% over 24h but down 2.7% this week, at about $80,500 (down 4.7% over 30 days)",
+      "move": "Up 0.7% over 24h but down 2.7% this week, at about $80,500 (down 4.7% over 30 days)",
       "why": "Bitcoin slipped under $80,000 in Asian trading Monday as traders cut risk before Wednesday's Fed decision and has hovered within a few hundred dollars of it since, dipping to about $79,700 overnight and is back around $80,500 in mid-afternoon, barely moving even as the Nasdaq climbs more than 1%; it sits below its 50-day average, which some analysts read as near-term weakness, per CoinDesk. U.S. spot bitcoin ETFs (funds that hold the coin for stock-market investors) took in about $110 million Monday, per SoSoValue data cited by CoinGabbar, after roughly $943 million of outflows over the prior three sessions per Farside, but Strategy said it made no bitcoin purchases in the week to Oct. 25, per Investing.com. A wallet tied to miner MARA also sent nearly 1,000 BTC to Galaxy Digital, per The Crypto Times, while futures markets price about a 90% chance the Fed holds rates. In options, the most-traded contract over the past day was a $72,000 put expiring Dec. 25, per ChainThink via KuCoin, showing continued demand for downside protection. Tech investor Jason Calacanis told followers Tuesday he expects bitcoin to fall to $57,000 within 12 months, while Galaxy argues it is a time to accumulate, per CoinDesk.",
       "meaning": "Glassnode estimates ETF buyers and corporate treasuries bought, on average, between about $80,000 and $81,500, so bitcoin is sitting right around the price where many big holders break even; staying under it can prompt more selling. Monday's ETF inflow is a modest first sign that dip buyers are returning, but one day is not a trend.",
       "outlook": {
@@ -186,7 +186,7 @@
       "id": "ethereum",
       "symbol": "ETH",
       "name": "Ethereum",
-      "move": "Up 0.9% over 24h but down 4.3% this week, at about $2,345 (down 12.7% over 30 days)",
+      "move": "Up 0.9% over 24h but down 4.3% this week, at about $2,340 (down 13% over 30 days)",
       "why": "Ether fell nearly 3% to just above $2,300 in Asian trading Monday, per CoinDesk, and is about $2,350 in mid-afternoon Tuesday, up 0.8% over 24 hours. It is still under the $2,400 level that had supported it for about a week, and ether ETFs (over $1.1 billion out in October, their worst month this year, per Crypto Briefing) lost another roughly $89 million Monday, led by BlackRock's fund, per SoSoValue data cited by CoinGabbar, even as bitcoin ETFs drew money back in.",
       "meaning": "Ether is lagging bitcoin because big investors keep pulling money from the ETFs. Until those flows turn, rallies may be harder to sustain.",
       "outlook": {
@@ -220,7 +220,7 @@
       "id": "bitway",
       "symbol": "BTW",
       "name": "Bitway",
-      "move": "Up about 25% over 24h on our feed (largely a rebound from a sharp dip about a day ago), at about $1.61; still down 14.8% this week (up 27% over 30 days)",
+      "move": "Up about 42% over 24h on our feed (largely a rebound from a sharp dip about a day ago), at about $1.60; still down 8% this week (up 33% over 30 days)",
       "why": "Bitway is the top 100's biggest 24-hour gainer, though it is only slightly above where it traded early Tuesday, so most of that figure reflects a sharp dip about a day ago, with no specific news trigger we could find either way; it had already fallen about 25% on Oct. 15 when a hot U.S. inflation report hit crypto, and slid from above $2.60 to about $1.70 in the week to Oct. 24, per CoinMarketCap's update page. Trackers say the top 100 wallets hold almost all of the supply, which makes sharp moves like this more likely, and about 101.6 million BTW (roughly 1% of the 10 billion total, about $138 million at today's price) is due to unlock on Nov. 2, per CryptoTicker. An unlock is when tokens held back for insiders or ecosystem funds become free to sell. Big swings in both directions are typical of a thinly traded token after a crash.",
       "meaning": "This is a high-risk token whose price can swing tens of percent in a day, with conflicting public data on how many tokens are actually circulating. Holders face more supply coming each month through 2030, and whether the Nov. 2 tranche goes to early backers (more likely to sell) or ecosystem pools is disputed between trackers.",
       "outlook": {
@@ -250,8 +250,8 @@
       "id": "layerzero",
       "symbol": "ZRO",
       "name": "LayerZero",
-      "move": "Flat over 24h and down 13.4% this week, at about $1.68 (up 2.4% over 30 days)",
-      "why": "LayerZero runs a messaging system that lets apps send tokens and data between different blockchains, and ZRO is its token. It has steadied over the past 24 hours but is still down about 16% this week, and we found no fresh headline behind Monday's drop. It has been weak since an Oct. 20 token unlock (about 6% of supply), after which roughly 9.7 million ZRO was reportedly moved to big exchanges, per CoinMarketCap's AI news summary; an unlock is when tokens held back for insiders become free to sell. The project announced on Oct. 20 that its Zero mainnet and lzATLAS launch, which adds a buy-and-burn of ZRO funded by fees, is planned for Nov. 30, per TokenPost.",
+      "move": "Up 4.0% over 24h but down 14.8% this week, at about $1.68 (up 2.3% over 30 days)",
+      "why": "LayerZero runs a messaging system that lets apps send tokens and data between different blockchains, and ZRO is its token. It has bounced about 4% over the past 24 hours but is still down about 15% this week, and we found no fresh headline behind Monday's drop. It has been weak since an Oct. 20 token unlock (about 6% of supply), after which roughly 9.7 million ZRO was reportedly moved to big exchanges, per CoinMarketCap's AI news summary; an unlock is when tokens held back for insiders become free to sell. The project announced on Oct. 20 that its Zero mainnet and lzATLAS launch, which adds a buy-and-burn of ZRO funded by fees, is planned for Nov. 30, per TokenPost.",
       "meaning": "Recurring unlocks keep adding supply that early holders can sell, which has outweighed upgrade news so far this month. The Nov. 30 launch is the project's main potential catalyst, but a fee-funded burn only helps the price if the network earns meaningful fees.",
       "outlook": {
         "lean": "down",
@@ -276,7 +276,7 @@
       "id": "ripple",
       "symbol": "XRP",
       "name": "XRP",
-      "move": "Up 1.4% over 24h and roughly flat this week (down 0.6%), at about $1.32 (down 13.2% over 30 days)",
+      "move": "Up 1.9% over 24h and roughly flat this week (down 0.5%), at about $1.32 (down 13.3% over 30 days)",
       "why": "Ripple, the company most closely tied to XRP, won final approval from the U.S. bank regulator (the OCC) for a national trust bank that will manage the reserves behind its RLUSD stablecoin and hold crypto for institutional clients, per CoinDesk. XRP rose about 1% on the news, per Investing.com, but is still around $1.30. Separately, Franklin Templeton last week put about $150 million more of its tokenized money-market fund onto the XRP Ledger, per CoinDesk.",
       "meaning": "A federal bank charter gives Ripple's stablecoin and custody business more credibility with banks, but neither the charter nor tokenized funds require anyone to buy XRP, so the price link is indirect. XRP is still down about 15% over the past month, so this is a small bounce inside a larger slide.",
       "outlook": {
@@ -306,7 +306,7 @@
       "id": "quant-network",
       "symbol": "QNT",
       "name": "Quant",
-      "move": "Down 2.8% over 24h but up 1.0% this week, at about $200 (up 8.3% over 30 days)",
+      "move": "Down 2.1% over 24h but up 1.4% this week, at about $200 (up 7.6% over 30 days)",
       "why": "Quant makes software (its Overledger platform) that lets banks move tokenized money, meaning bank deposits recorded on a blockchain-style ledger, between different systems. The token is up about 11% over the past month, helped by news that The Clearing House, the payments company owned by big U.S. banks, picked Quant's technology in late September for a project to settle tokenized deposits over its existing payment rails, with rollout targeted for the first half of 2027; seven big UK banks also made the first live customer payments with tokenized sterling on infrastructure Quant built, per CoinMarketCap. It jumped about 7% Monday without a fresh announcement we could find and has given back about 5.3% over 24 hours by mid-afternoon Tuesday, one of the biggest drops in the top 100, again with no announcement we could find.",
       "meaning": "QNT is trading on a real business story, bank adoption of tokenized money, rather than pure hype, but the actual rollout is still more than six months away and banks paying for software does not automatically mean demand for the token. After a roughly 23% gain in a month, much of the good news may already be in the price.",
       "outlook": {
@@ -328,7 +328,7 @@
       "id": "memecore",
       "symbol": "M",
       "name": "MemeCore",
-      "move": "Up 10.2% over 24h and 35% this week, at about $1.06 (down 10.4% over 30 days)",
+      "move": "Up 12.5% over 24h and 38% this week, at about $1.08 (down 11.7% over 30 days)",
       "why": "MemeCore, a blockchain built around meme coins, was the biggest decliner among about 90 large coins tracked by TokenPost on Sunday morning, falling to about $0.92; it has since bounced to about $1.05, up about 10% over 24 hours and the biggest gainer in the top 100, with no specific trigger reported either way. The swings follow a choppy month: the token fell about 23% in the week to Oct. 19 after LayerZero and Stargate opened bridges letting holders move M to BNB Chain and Base, then bounced roughly 50%. On-chain investigator ZachXBT has previously accused insiders of manipulating the token's price, and a token unlock is due Nov. 1.",
       "meaning": "Moves of 20% in a day without clear news are typical of tokens where a few wallets hold much of the supply, so price can swing on a handful of trades. About 56 million new M tokens (roughly 2.8% of circulating supply, about $50 million, per CoinDesk) unlock on Nov. 1, which adds potential selling pressure.",
       "outlook": {
@@ -362,7 +362,7 @@
       "id": "zcash",
       "symbol": "ZEC",
       "name": "Zcash",
-      "move": "Up 4.7% over 24h and 7.2% this week, at about $1,299 (down 18.2% over 30 days)",
+      "move": "Up 4.4% over 24h and 6.3% this week, at about $1,295 (down 18.3% over 30 days)",
       "why": "Traders had been positioning for the NU7 upgrade, which developers scheduled for about 7:50 p.m. ET on Nov. 5; it cuts block times from 75 to 25 seconds and sends 60% of fees to a reserve. Futures open interest (the value of open bets) had risen about 19–24% and two large traders reportedly opened about $37.6 million of 10x leveraged longs. Those leveraged bets have been unwinding: CoinDesk flagged ZEC among the coins where bullish traders were closing positions, and it noted an 8% drop in open interest Friday. After dipping below the $1,190–$1,230 support area, the price has bounced back to about $1,241 (up about 1% over 24 hours), inside the top of that zone.",
       "meaning": "Much of this month's rally was driven by borrowed money, and this week shows how fast that can reverse. Upgrade dates often bring 'buy the rumour, sell the news' behaviour, so swings both ways are likely into Nov. 5.",
       "outlook": {
@@ -392,7 +392,7 @@
       "id": "solana",
       "symbol": "SOL",
       "name": "Solana",
-      "move": "Down 0.3% over 24h and 5.4% this week, at about $101 (down 17.3% over 30 days)",
+      "move": "Up 0.3% over 24h but down 5.5% this week, at about $101 (down 17.4% over 30 days)",
       "why": "Solana completed its Alpenglow upgrade, a major overhaul aimed at much faster transaction finality (the point at which a payment can't be reversed), according to CoinDesk. The price has moved with the market rather than rallying on the news, and it slipped under $100 Saturday morning as bitcoin's break below $80,000 triggered forced selling across crypto, briefly tested $100 again in Asian trading Monday, and it is about $99.21 early Tuesday, just below that line.",
       "meaning": "A smooth Alpenglow launch is a meaningful technical milestone, but the market is treating it as already expected. The first days after a big upgrade are when problems usually show up, so stability matters more than headlines.",
       "outlook": {
@@ -419,7 +419,7 @@
     {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "move": "Up 0.6% (43 points) at about 7,720 in mid-afternoon, after Monday's 0.7% gain; about 1.6% below its record near 7,845",
+      "move": "Up 0.7% (52 points) at about 7,730 late in the session, after Monday's 0.7% gain; about 1.5% below its record near 7,845",
       "why": "The index has added to an early gain as chipmakers extend Monday's rebound, helped by Anthropic's IPO filing and Nvidia's $3 billion commitment to Meta's stock sale, ahead of a week in which about a third of S&P 500 companies report and the Fed decides. Earnings have mostly beaten: UPS rose after raising its outlook, while Coca-Cola dipped on soft North American volume, per TheStreet. October consumer confidence came in at 91.7, well above forecasts, per ActionForex.",
       "meaning": "The damage is concentrated in tech, which makes up a large share of the index, while other sectors are holding up better. Falling bond yields help a little, but a 10-year yield near 5% still makes stocks look expensive relative to bonds.",
       "outlook": {
@@ -452,7 +452,7 @@
     {
       "symbol": "^IXIC",
       "name": "Nasdaq Composite",
-      "move": "Up 1.1% at about 26,460 in mid-afternoon, after Monday's 0.8% gain; about 4.5% below its 52-week high",
+      "move": "Up 1.3% at about 26,510 late in the session, after Monday's 0.8% gain; about 4.4% below its 52-week high",
       "why": "Chips lead for a second day: AMD is up about 5.3%, Broadcom 4.0% and Tesla 3.7% on our feed, as Anthropic's IPO filing (showing more than $500 billion of compute commitments) and Nvidia's $3 billion stake in Meta's share sale ease last week's worries about AI spending, per HDFC Sky. Amazon (+1.6%) and Alphabet (+1.6%) are also higher, while Meta (-0.8%) lags after launching its $35 billion share sale. Early volume was light, per HDFC Sky, so the move has not yet drawn heavy buying.",
       "meaning": "Today's bounce follows last week's AI-chip sell-off, which showed investors are nervous about how much Big Tech is spending on AI and when it pays off.",
       "outlook": {
@@ -481,7 +481,7 @@
     {
       "symbol": "^GSPTSE",
       "name": "S&P/TSX Composite",
-      "move": "Up 0.5% (186 points) at about 36,130 in mid-afternoon, after Monday's 0.4% gain; about 2.5% below its high",
+      "move": "Up 0.7% (235 points) at about 36,180 late in the session, after Monday's 0.4% gain; about 2.4% below its high",
       "why": "Toronto is higher as gold climbs about 0.8% to near $4,071, lifting miners, offsetting oil producers (Canadian Natural -1.4%) as U.S. crude drops to about $100 and Shopify (-1.4%). Banks are edging up (TD near C$176.90, RBC near C$285.70) ahead of Wednesday's expected Bank of Canada rate hike, and Celestica's strong results are a bright spot for tech.",
       "meaning": "High oil prices support Canada's energy producers, but the TSX's heavy weighting in miners makes it sensitive to falling gold, and a likely Bank of Canada hike next week could weigh on rate-sensitive stocks. Friday's strong retail sales (up 1.2% in August) and a rising loonie point to an economy holding up better than feared.",
       "outlook": {
@@ -539,7 +539,7 @@
     {
       "symbol": "META",
       "name": "Meta Platforms",
-      "move": "Down 1.2% at about $623 in mid-afternoon, after Monday's 1.9% drop; down about 11% since last Wednesday",
+      "move": "Down 1.2% at about $623 late in the session, after Monday's 1.9% drop; down about 11% since last Wednesday",
       "why": "Nvidia said Tuesday it will put $3 billion into Meta's $35 billion share sale and expand work on Meta's Muse AI models, per Yahoo Finance. Meta launched a $35 billion share sale Monday to pay for AI data centres: about $22.5 billion of common stock sold through forward agreements and $12.5 billion of three-year mandatory convertible preferred shares (which turn into common stock later), plus a planned program of up to $60 billion of non-voting Class C shares starting in early 2027, per ZeroHedge and KuCoin News. Nvidia, AMD and Broadcom indicated interest in buying up to $5 billion. Shares rose before the bell, fell to about $629 after the open, recovered to about $648, before closing near the day's low at about $631. Last week's results beat forecasts, but the $135–$145 billion spending plan, roughly -$2.1 billion of free cash flow and a $9.9 billion legal charge sank the stock 7% Thursday.",
       "meaning": "Selling new shares spreads the company's profits over more stock (dilution), and the scale here is unusual for a company that was buying back shares. Chip-maker interest shows suppliers want to keep Meta spending, but it also feeds 'circular financing' worries, where AI buyers and sellers fund each other.",
       "outlook": {
@@ -572,7 +572,7 @@
     {
       "symbol": "AMD",
       "name": "Advanced Micro Devices",
-      "move": "Up 5.4% at about $560 in mid-afternoon, building on Monday's 2.8% gain; about 15% below its 52-week high",
+      "move": "Up 5.3% at about $559 late in the session, building on Monday's 2.8% gain; about 15% below its 52-week high",
       "why": "AMD is among the day's biggest large-cap gainers as last week's AI-chip sell-off eases, helped by Anthropic's IPO filing and its large compute commitments, and it was named, along with Nvidia and Broadcom, as a possible buyer of up to $5 billion of Meta's new stock, per ZeroHedge and HDFC Sky. It fell 8.1% Thursday on doubts about AI spending returns and 'circular' financing worries, and trades at a high valuation, roughly 200 times its past year's earnings.",
       "meaning": "AMD has been one of the biggest AI winners of the past year, more than doubling from its low, so it swings hard when sentiment turns. Its own results on Nov. 3 are the next real test of whether AI chip demand is holding up.",
       "outlook": {
@@ -599,42 +599,34 @@
       ]
     },
     {
-      "symbol": "NVDA",
-      "name": "Nvidia",
-      "move": "Up 0.8% at about $217.80 in mid-afternoon, after Monday's 2.4% gain; about 10% below its 52-week high",
-      "why": "Nvidia said Tuesday it will invest $3 billion in Meta's share sale and deepen their partnership on Meta's Muse models, per Yahoo Finance. Nvidia is leading the chip rebound after missing Friday's bounce. It indicated interest in Meta's new stock offering, per ZeroHedge, and Elon Musk said SpaceX raised $40 billion of debt to buy Nvidia chips, per AP, a sign of continuing demand. It fell 4.4% Thursday as Meta's spending plan revived questions about AI returns, and investors are watching Musk's warning that many smaller AI cloud providers ('neoclouds') could fail, since they are big Nvidia buyers.",
-      "meaning": "Nvidia is the core of the AI trade and a large part of the S&P 500 and Nasdaq, so its direction matters for most index funds. Big Tech customers' spending plans next week are the main near-term signal for its sales.",
+      "symbol": "TSLA",
+      "name": "Tesla",
+      "move": "Up 4.2% at about $408 late in the session, after jumping 5.2% Monday to $391.62; still about 18% below its 52-week high of about $499",
+      "why": "Barclays analyst Dan Levy upgraded Tesla to Overweight (a buy-type rating) and raised his target to $450 from $370, citing a possible combination with SpaceX (both companies have set up exploratory committees), a turnaround in the car business and faster robotaxi progress, per Investing.com. Sell ratings on the stock are now at their lowest share in about 11 years after BNP Paribas and CLSA dropped negative calls last week, and Latvia became the tenth EU country to approve Tesla's Full Self-Driving software.",
+      "meaning": "Two days of gains are driven by deal hopes and analyst upgrades rather than new sales numbers, so the stock is pricing in a SpaceX tie-up that has not been agreed. That makes it sensitive to any headline about the merger talks in either direction.",
       "outlook": {
-        "lean": "sideways",
+        "lean": "unclear",
         "confidence": "low",
         "horizon": "next 1–2 weeks",
-        "bullCase": "Higher spending plans from Microsoft, Alphabet and Amazon on Oct. 28–29 could lift it back toward $230–$240.",
-        "bearCase": "Spending cuts or more 'circular financing' headlines could push it toward the $200–$205 area; it is already near the low end of its past month's range.",
-        "watch": "Big Tech capex guidance on Oct. 28–29 and chip-sector sentiment."
+        "bullCase": "Concrete progress on a SpaceX combination or more upgrades could carry it toward Barclays' $450 target.",
+        "bearCase": "If merger talk cools or big-tech earnings disappoint, it could give back the two-day jump toward the $370–$390 area it held last week.",
+        "watch": "Any statement from the SpaceX and Tesla committees, big-tech results on Oct. 28–29, and whether it holds above Monday's $391.62 close."
       },
       "sources": [
         {
-          "title": "Yahoo Finance: Nvidia to invest $3 billion in Meta",
-          "url": "https://finance.yahoo.com/markets/article/nvidia-to-invest-3-billion-in-meta-expand-partnership-on-muse-125249944.html"
+          "title": "Investing.com: Why is Tesla stock climbing today?",
+          "url": "https://www.investing.com/news/stock-market-news/why-is-tesla-stock-climbing-today-93CH-4976174"
         },
         {
-          "title": "ZeroHedge: Futures rise as Meta launches equity raise",
-          "url": "https://zerohedge.com/markets/futures-rise-meta-jumps-95bn-equity-raise-oil-slides-brazil-crashes-after-lula-shock"
-        },
-        {
-          "title": "KuCoin News: Stocks making big premarket moves",
-          "url": "https://www.kucoin.com/news/flash/stocks-making-major-premarket-moves-verizon-tesla-moderna-more"
-        },
-        {
-          "title": "Investing.com: Why AMD is sliding today (chip sell-off)",
-          "url": "https://za.investing.com/news/stock-market-news/why-is-advanced-micro-devices-stock-sliding-today-93CH-4520019"
+          "title": "FX Leaders: TSLA jumps 5% after Barclays upgrade",
+          "url": "https://www.fxleaders.com/news/2026/10/27/tsla-stock-jumps-5-to-391-62-after-barclays-upgrade-on-spacex-merger-hopes/"
         }
       ]
     },
     {
       "symbol": "AVGO",
       "name": "Broadcom",
-      "move": "Up 4.2% at about $342.80 in mid-afternoon, after Monday's gain; still about 31% below its 52-week high of $495",
+      "move": "Up 4.0% at about $342.40 late in the session, after Monday's gain; still about 31% below its 52-week high of $495",
       "why": "Broadcom is rising with other chipmakers after Anthropic's IPO filing, which named it among the suppliers in more than $500 billion of compute commitments, per HDFC Sky, and banks including Bank of America, Citi and Morgan Stanley plus Blackstone lined up financing of roughly $60 billion or more for Anthropic's purchase of Broadcom-designed chips, per NewsBytes and earlier Bloomberg-sourced reports. It was also named as a possible buyer of Meta's new shares.",
       "meaning": "Broadcom designs custom AI chips for big customers, so a single deal of this size can shape its revenue for years; the financing removes some doubt about whether Anthropic can pay for it. The stock has fallen sharply from its highs on worries about how AI spending is funded, so it reacts strongly to news like this in either direction.",
       "outlook": {
@@ -663,7 +655,7 @@
     {
       "symbol": "MSTR",
       "name": "Strategy",
-      "move": "Up 0.3% at about $140.25 in mid-afternoon, after Monday's 4.2% drop; Coinbase is up 0.6% at about $160.50 and the IBIT bitcoin ETF up 0.8% at about $45.60",
+      "move": "Up 0.4% at about $140.40 late in the session, after Monday's 4.2% drop; Coinbase is up 0.8% at about $160.90 and the IBIT bitcoin ETF up 0.8% at about $45.60",
       "why": "Strategy, the largest corporate bitcoin holder with about 848,000 BTC, fell as much as 6% early as bitcoin slipped under $80,000, recovered some of that, then closed down about 4.2%. On Monday it disclosed no bitcoin purchases for the week to Oct. 25, while it bought back about $205 million of its STRC preferred stock, per Investing.com; spot bitcoin ETFs have now lost about $943 million over three sessions, per Farside data, which weighs on bitcoin-linked stocks. Strategy reports third-quarter results on Oct. 29.",
       "meaning": "MSTR is effectively a leveraged bet on bitcoin, so it amplifies both gains and losses. Its daily moves say more about bitcoin than about the company.",
       "outlook": {
@@ -690,30 +682,38 @@
       ]
     },
     {
-      "symbol": "SHOP.TO",
-      "name": "Shopify",
-      "move": "Down 1.4% at about C$232.50 in mid-afternoon, after closing flat Monday; about 9% below its 52-week high",
-      "why": "Shopify is falling with no company-specific news we could find, giving up an early gain as investors rotate within tech toward chipmakers. It had climbed about 25% over the past month on bets on strong holiday sales before last week's AI-related sell-off.",
-      "meaning": "Shopify is Canada's biggest tech stock and moves with U.S. tech sentiment. After a big run, expectations for its next results are high.",
+      "symbol": "BA",
+      "name": "Boeing",
+      "move": "Down roughly 10% on Tuesday after its earnings, near the $150 area (about 9.7% lower as of 12:37 p.m., per TheStreet; our live feed does not track BA)",
+      "why": "Boeing reported third-quarter revenue of $24.2 billion, up 4% on stronger defence and services, and a smaller core loss of $0.34 a share, but said it will deliver fewer than 500 737 jets this year, missing its 500-jet goal, per BigGo Finance's call summary. It also said getting 737 production steady at 47 a month will take into 2027, pushing back the cash recovery investors were counting on, though it set a goal of about $10 billion of free cash flow (cash left after spending on the business) in 2029.",
+      "meaning": "The drop reflects a delay, not a collapse: demand for jets is strong, but Boeing keeps taking longer than promised to build them. For holders, the stock now depends on hitting production targets month by month.",
       "outlook": {
-        "lean": "sideways",
+        "lean": "unclear",
         "confidence": "low",
         "horizon": "next 1–2 weeks",
-        "bullCase": "Strong megacap earnings and early holiday-spending signals could push it through C$256 to new highs.",
-        "bearCase": "A deeper tech pullback could drag it toward the C$225–C$230 area, where it traded in early October.",
-        "watch": "Nasdaq direction, consumer-spending data, and its upcoming results."
+        "bullCase": "Steady monthly delivery numbers and the long-term cash goal could help it stabilize and rebound from the $150 area.",
+        "bearCase": "If the $150 area fails to hold and more analysts cut targets, it could slide toward the low $140s; it is already well below its September price near $190.",
+        "watch": "Boeing's monthly delivery report in early November, analyst rating changes, and any FAA comment on production rates."
       },
       "sources": [
         {
-          "title": "Sunday Guardian: TSX today, Oct. 21",
-          "url": "https://sundayguardianlive.com/business/canada-stock-market-tsx-today-october-21-2026-why-is-the-sptsx-composite-rising-bombardier-and-blackberry-rally-as-oil-tops-110-check-top-gainers-losers-and-stocks-to-watch-309675/"
+          "title": "Boeing: Third-quarter results",
+          "url": "https://boeing.mediaroom.com/2026-10-27-Boeing-Reports-Third-Quarter-Results"
+        },
+        {
+          "title": "BigGo Finance: Boeing Q3 2026 earnings call",
+          "url": "https://finance.biggo.com/news/US_BA_2026-10-27"
+        },
+        {
+          "title": "TheStreet: Stock market today, Oct. 27",
+          "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-27-2026"
         }
       ]
     },
     {
       "symbol": "TD.TO",
       "name": "TD Bank",
-      "move": "Up 0.6% at about C$176.90 in mid-afternoon, touching a new 52-week high of C$176.99; RBC is up 0.5% at about C$285.70",
+      "move": "Up 0.5% at about C$176.60 late in the session, after touching a new 52-week high of C$176.99; RBC is up 0.4% at about C$285.30",
       "why": "Canadian banks are edging higher after leading the TSX on Monday, as investors look ahead to Wednesday's expected Bank of Canada rate hike; a modest hike tends to widen bank lending margins (the gap between what banks pay on deposits and earn on loans). TD hit a record high earlier this week.",
       "meaning": "TD is near a record, so the next leg depends on a stable rate outlook and its next results. Bank stocks are a big part of many Canadian portfolios.",
       "outlook": {
@@ -738,7 +738,7 @@
     {
       "symbol": "CNQ.TO",
       "name": "Canadian Natural Resources",
-      "move": "Down 1.4% at about C$76.14 in mid-afternoon as U.S. crude drops 1.7% to about $100, just below Monday's record close of C$77.21",
+      "move": "Down 1.3% at about C$76.20 late in the session as U.S. crude drops 2.2% to about $99.60, just below Monday's record close of C$77.21",
       "why": "Canada's largest oil producer is pulling back from Monday's record close as U.S. crude slips to about $100 on hopes for Iran diplomacy, though Brent was still near $115.50 earlier after a claimed Houthi strike on Saudi Arabia's Ras Tanura refinery, per TheStreet. The stock is up about 24% from its 30-day low as oil has held near $100.",
       "meaning": "CNQ's fortunes track oil prices closely, so it can hold up even if the wider TSX opens lower.",
       "outlook": {
