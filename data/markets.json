@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-10-27T06:31:00-04:00",
-  "nextRefresh": "around 7:22 AM",
-  "headline": "Futures flat before the Fed; bitcoin holds near $79,500, Quack AI slides",
-  "summary": "Wall Street closed higher Monday on a chip and Tesla rebound (S&P 500 +0.7% to 7,677, Nasdaq +0.8%, TSX +0.4% to 35,944), and U.S. futures are roughly flat early Tuesday as the Fed opens its two-day meeting, while HSBC's 7% slide drags on Europe. Crypto is soft: bitcoin is about $79,500 (down 1.1% over 24 hours), ether about $2,299, total crypto value is down 3.7% to about $2.66 trillion and Fear & Greed sits at a neutral 48, while Quack AI has now lost about 45% since 5 a.m. U.S. crude holds near $102, gold is down 0.7% to about $4,011, the 10-year yield is just under 5%, and markets price about a 90% chance the Fed holds on Wednesday, the same day the Bank of Canada is expected to hike.",
+  "updatedAt": "2026-10-27T07:33:00-04:00",
+  "nextRefresh": "around 8:22 AM",
+  "headline": "UPS beats, futures edge up before the Fed; bitcoin steadies near $79,800",
+  "summary": "Wall Street closed higher Monday on a chip and Tesla rebound (S&P 500 +0.7% to 7,677, Nasdaq +0.8%, TSX +0.4% to 35,944), and U.S. futures are slightly higher early Tuesday as the Fed opens its two-day meeting, with UPS up about 1% before the bell after beating forecasts and raising its outlook. Crypto has steadied: bitcoin is about $79,800 (down 0.4% over 24 hours) after U.S. bitcoin ETFs took in about $110 million Monday, ether is about $2,312, total crypto value is about $2.66 trillion and Fear & Greed sits at a neutral 48. U.S. crude has eased about 1% to near $101, gold is about $4,026, the 10-year yield is just under 5%, and markets price about a 90% chance the Fed holds on Wednesday, the same day the Bank of Canada is expected to hike.",
   "mood": {
     "crypto": {
       "label": "Cautious",
-      "why": "Bitcoin is stuck just under $80,000 with Fear & Greed at a neutral 48, total crypto market value is down 3.7% in 24 hours, spot ETFs have bled money for several sessions and Strategy has paused buying, and the one standout gainer, Quack AI, is collapsing."
+      "why": "Bitcoin is pinned just under $80,000 with Fear & Greed at a neutral 48; Monday's small bitcoin ETF inflow broke a two-day outflow streak, but ether ETFs are still losing money and Strategy has paused buying."
     },
     "stocks": {
       "label": "Risk-on",
-      "why": "The Nasdaq rose 0.8% Monday and the VIX is near 18.3, but futures are flat, the 10-year yield sits just under 5%, and Wednesday's Fed, Bank of Canada and big-tech earnings keep the rally on a short leash."
+      "why": "The Nasdaq rose 0.8% Monday, the VIX has eased to about 17.8 and futures are slightly higher after UPS beat, but a 10-year yield near 5% and Wednesday's Fed, Bank of Canada and big-tech earnings keep the rally on a short leash."
     }
   },
   "drivers": [
@@ -59,11 +59,15 @@
       ]
     },
     {
-      "title": "Oil steadies near $102 as Iran talks continue",
-      "detail": "U.S. crude is about $102.30 on our feed, up 0.5% after settling down about 1.7% Monday, having dipped toward $100.60 earlier in Asia, when AP had Brent near $110; Saudi, Pakistani and Turkish officials are still talking with Tehran. Saudi–Houthi exchanges and a depleted U.S. emergency reserve mean the calm could break quickly, which matters for inflation and for Canadian energy stocks.",
+      "title": "Oil eases toward $100 on Iran diplomacy",
+      "detail": "U.S. crude is about $100.80 on our feed, down about 1% this morning, as Saudi, Pakistani and Turkish officials keep talking with Tehran and hopes for diplomacy cool prices, per Reuters via Yahoo Finance. Saudi–Houthi exchanges and a depleted U.S. emergency reserve mean the calm could break quickly, which matters for inflation and for Canadian energy stocks.",
       "effect": "mixed",
       "assets": "Oil, Canadian energy stocks, inflation outlook",
       "sources": [
+        {
+          "title": "Yahoo Finance: Stock market today, Oct. 27",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-october-27-dow-sp-500-nasdaq-081901995.html"
+        },
         {
           "title": "AP: Asian stocks advance after Wall Street rally",
           "url": "https://clickondetroit.com/business/2026/10/27/asian-stocks-advance-following-a-rally-on-wall-street-and-oil-prices-fall"
@@ -99,11 +103,15 @@
       ]
     },
     {
-      "title": "Bitcoin stuck under $80,000 as Strategy pauses buying",
-      "detail": "Bitcoin is about $79,500, down 1.1% over 24 hours, after spot ETFs lost roughly $943 million over three sessions, per Farside data, and Strategy, the biggest corporate holder, said it bought no bitcoin last week, per Investing.com. A wallet linked to miner MARA also moved about 1,000 BTC (about $81 million) to trading firm Galaxy Digital, per The Crypto Times, which can signal selling but does not confirm it.",
+      "title": "Bitcoin steadies under $80,000 as ETF money trickles back",
+      "detail": "Bitcoin is about $79,800, down 0.4% over 24 hours, after U.S. spot bitcoin ETFs took in about $110 million Monday, breaking a two-day outflow streak, while ether ETFs lost about $89 million, per SoSoValue data cited by CoinGabbar. Strategy, the biggest corporate holder, still bought no bitcoin last week, per Investing.com, and a MARA-linked wallet moved about 1,000 BTC to Galaxy Digital, per The Crypto Times, which can signal selling but does not confirm it.",
       "effect": "mixed",
       "assets": "Bitcoin, ether, crypto stocks",
       "sources": [
+        {
+          "title": "CoinGabbar: Bitcoin ETF inflows return as altcoin funds bleed",
+          "url": "https://www.coingabbar.com/en/crypto-etf-news-today-btc-inflow-eth-xrp-sol-outflow-fed-meeting"
+        },
         {
           "title": "Investing.com: Bitcoin dips below $80k as Strategy pauses buying",
           "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-dips-below-80k-as-strategy-pauses-buying-fed-caution-weighs-4974244"
@@ -140,18 +148,22 @@
       "id": "bitcoin",
       "symbol": "BTC",
       "name": "Bitcoin",
-      "move": "Down 1.1% over 24h and down 2.2% this week, at about $79,500 (down 6.1% over 30 days)",
-      "why": "Bitcoin slipped under $80,000 in Asian trading Monday as traders cut risk before Wednesday's Fed decision and has hovered just below it since, at about $79,500 early Tuesday. Spot bitcoin ETFs (funds that hold the coin for stock-market investors) lost about $943 million over three sessions, per Farside data cited by Capp Notes, and Strategy said it made no bitcoin purchases in the week to Oct. 25, per Investing.com. Overnight, a wallet tied to miner MARA sent nearly 1,000 BTC to Galaxy Digital, per The Crypto Times, adding to worries about supply, while futures markets price about a 90% chance the Fed holds rates.",
-      "meaning": "Glassnode estimates ETF buyers and corporate treasuries bought, on average, between about $80,000 and $81,500, so bitcoin is sitting right around the price where many big holders break even; slipping back under it can prompt more selling. Bitcoin is also failing to keep up with stocks today, a sign that crypto-specific demand is weak right now.",
+      "move": "Down 0.4% over 24h and down 1.9% this week, at about $79,800 (down 5.9% over 30 days)",
+      "why": "Bitcoin slipped under $80,000 in Asian trading Monday as traders cut risk before Wednesday's Fed decision and has hovered just below it since, ticking up to about $79,800 early Tuesday. U.S. spot bitcoin ETFs (funds that hold the coin for stock-market investors) took in about $110 million Monday, per SoSoValue data cited by CoinGabbar, after roughly $943 million of outflows over the prior three sessions per Farside, but Strategy said it made no bitcoin purchases in the week to Oct. 25, per Investing.com. A wallet tied to miner MARA also sent nearly 1,000 BTC to Galaxy Digital, per The Crypto Times, while futures markets price about a 90% chance the Fed holds rates.",
+      "meaning": "Glassnode estimates ETF buyers and corporate treasuries bought, on average, between about $80,000 and $81,500, so bitcoin is sitting right around the price where many big holders break even; staying under it can prompt more selling. Monday's ETF inflow is a modest first sign that dip buyers are returning, but one day is not a trend.",
       "outlook": {
-        "lean": "down",
+        "lean": "sideways",
         "confidence": "low",
         "horizon": "next 1–2 weeks",
         "bullCase": "A calm Fed on Oct. 28, ETF inflows returning and a U.S.–Iran deal could lift it back above $82,000–$82,500 (Thursday's lost floor), putting $85,000–$87,000 back in view.",
         "bearCase": "A daily close below $79,000, more ETF outflows, a hawkish Fed or a U.S. strike on Iran could extend the slide toward $77,600 (Glassnode's estimate of the average holder's cost) and then $75,000.",
-        "watch": "Whether it closes the day above $79,000, Tuesday's ETF flow data, the Fed decision and Warsh press conference on Oct. 28, whether Strategy resumes buying (its results are Oct. 29), and about $11 billion of bitcoin options expiring Oct. 30."
+        "watch": "Whether it can close back above $80,000, whether ETF inflows continue, the Fed decision and Warsh press conference on Oct. 28, whether Strategy resumes buying (its results are Oct. 29), and about $11 billion of bitcoin options expiring Oct. 30."
       },
       "sources": [
+        {
+          "title": "CoinGabbar: Bitcoin ETF inflows return as altcoin funds bleed",
+          "url": "https://www.coingabbar.com/en/crypto-etf-news-today-btc-inflow-eth-xrp-sol-outflow-fed-meeting"
+        },
         {
           "title": "The Crypto Times: Bitcoin below $80K as markets price 90% Fed hold",
           "url": "https://www.cryptotimes.io/2026/10/27/bitcoin-price-below-80k-as-markets-price-90-fed-hold-strategy-halts-buys-mara-moves-1k-btc/"
@@ -163,10 +175,6 @@
         {
           "title": "CoinDesk: Bitcoin slips under $80,000 as traders de-risk ahead of Fed",
           "url": "https://www.coindesk.com/markets/2026/10/26/bitcoin-slips-under-usd80-000-as-traders-de-risk-ahead-of-fed-meeting"
-        },
-        {
-          "title": "Capp Notes: Closing look, Oct. 26",
-          "url": "https://cappnotes.substack.com/p/closing-look-monday-october-26-2026"
         }
       ]
     },
@@ -174,8 +182,8 @@
       "id": "ethereum",
       "symbol": "ETH",
       "name": "Ethereum",
-      "move": "Down 1.2% over 24h and down 3.1% this week, at about $2,299 (down 14.9% over 30 days)",
-      "why": "Ether fell nearly 3% to just above $2,300 in Asian trading Monday, per CoinDesk, and is about $2,299 early Tuesday, down 1.2% over 24 hours. It is still under the $2,400 level that had supported it for about a week, and ether ETFs have now seen outflows for four straight weeks, per CoinCentral, even as treasury company BitMine kept buying.",
+      "move": "Down 0.5% over 24h and down 2.8% this week, at about $2,312 (down 14.8% over 30 days)",
+      "why": "Ether fell nearly 3% to just above $2,300 in Asian trading Monday, per CoinDesk, and is about $2,312 early Tuesday, down 0.5% over 24 hours. It is still under the $2,400 level that had supported it for about a week, and ether ETFs lost another roughly $89 million Monday, led by BlackRock's fund, per SoSoValue data cited by CoinGabbar, even as bitcoin ETFs drew money back in.",
       "meaning": "Ether is lagging bitcoin because big investors keep pulling money from the ETFs. Until those flows turn, rallies may be harder to sustain.",
       "outlook": {
         "lean": "unclear",
@@ -187,6 +195,10 @@
       },
       "sources": [
         {
+          "title": "CoinGabbar: Bitcoin ETF inflows return as altcoin funds bleed",
+          "url": "https://www.coingabbar.com/en/crypto-etf-news-today-btc-inflow-eth-xrp-sol-outflow-fed-meeting"
+        },
+        {
           "title": "CoinDesk: Bitcoin slips under $80,000 as traders de-risk ahead of Fed",
           "url": "https://www.coindesk.com/markets/2026/10/26/bitcoin-slips-under-usd80-000-as-traders-de-risk-ahead-of-fed-meeting"
         },
@@ -197,10 +209,6 @@
         {
           "title": "FXStreet: Ether ETF outflows pass $1B in October",
           "url": "https://www.fxstreet.com/cryptocurrencies/news/ether-etf-outflows-continue-pass-1b-in-october-so-far-202610210841"
-        },
-        {
-          "title": "CoinDesk: Ethereum delays Glamsterdam test",
-          "url": "https://www.coindesk.com/tech/2026/10/23/ethereum-delays-glamsterdam-test-after-security-devs-flag-risk-to-existing-contracts"
         }
       ]
     },
@@ -208,16 +216,16 @@
       "id": "quack-ai",
       "symbol": "Q",
       "name": "Quack AI",
-      "move": "About $0.081, still up 43.8% over 24h on our feed but down roughly 45% from about $0.147 at 5 a.m. ET and far below Monday's peak near $0.20",
-      "why": "Quack AI pitches itself as an AI layer for crypto governance, using software agents to read and vote on project proposals; its Q token runs on BNB Chain and Ethereum. It spiked about 260% to roughly $0.20 Monday with no official news, and a report via Pluang said about 78% of roughly $280 million in trading volume looked like wash trading (the same parties buying and selling to fake activity), with two wallets holding about 1.7% of supply accumulating for weeks. Early Tuesday the spike unravelled fast, with the price falling from about $0.147 to the low $0.08s within about an hour on our feed and drifting to about $0.081 since, again with no announcement; it has also slipped out of CoinGecko's top 100 to about No. 122.",
+      "move": "About $0.071, still up 27.5% over 24h on our feed but down roughly 50% from about $0.147 at 5 a.m. ET and about 65% below Monday's peak near $0.20",
+      "why": "Quack AI pitches itself as an AI layer for crypto governance, using software agents to read and vote on project proposals; its Q token runs on BNB Chain and Ethereum. It spiked about 260% to roughly $0.20 Monday with no official news, and a report via Pluang said about 78% of roughly $280 million in trading volume looked like wash trading (the same parties buying and selling to fake activity), with two wallets holding about 1.7% of supply accumulating for weeks. Early Tuesday the spike unravelled fast, with the price falling from about $0.147 to the low $0.08s within about an hour on our feed and drifting lower to about $0.071 since, again with no announcement; it has also slipped out of CoinGecko's top 100 to about No. 133.",
       "meaning": "This is the typical pattern of a coordinated pump in a thinly traded token: a fast spike with no news, then a fast collapse that leaves late buyers with big losses. A mintable contract (more tokens can be created) and a possible unlock of roughly 225–249 million Q around Nov. 2, which Quack AI's own schedule does not confirm, add dilution risk.",
       "outlook": {
         "lean": "down",
         "confidence": "low",
         "horizon": "next few days",
-        "bullCase": "If buyers step in around $0.08 and the token stabilizes, a bounce toward $0.10–$0.12 is possible, though moves this violent rarely retrace cleanly.",
-        "bearCase": "If selling continues, Q could fall back toward about $0.06, roughly where it sat before Monday's spike, or lower, with the possible Nov. 2 unlock adding pressure.",
-        "watch": "Whether $0.08 holds, transfers from the top wallets to exchanges, futures funding and open interest, and any confirmation of the Nov. 2 unlock."
+        "bullCase": "If buyers step in around $0.07 and the token stabilizes, a bounce toward $0.09–$0.10 is possible, though moves this violent rarely retrace cleanly.",
+        "bearCase": "If selling continues, Q could fall back toward about $0.06 or below, roughly where it sat before Monday's spike, with the possible Nov. 2 unlock adding pressure.",
+        "watch": "Whether $0.07 holds, transfers from the top wallets to exchanges, futures funding and open interest, and any confirmation of the Nov. 2 unlock."
       },
       "sources": [
         {
@@ -238,7 +246,7 @@
       "id": "bitway",
       "symbol": "BTW",
       "name": "Bitway",
-      "move": "Down 12.1% over 24h and down 8.1% this week, at about $1.36 (up 30.1% over 30 days)",
+      "move": "Down 4.3% over 24h and down 19.0% this week, at about $1.46 (up 22.5% over 30 days)",
       "why": "Bitway remains one of the worst performers in CoinGecko's top 100 today, with no specific news trigger we could find; it had already fallen about 25% on Oct. 15 when a hot U.S. inflation report hit crypto, and slid from above $2.60 to about $1.70 in the week to Oct. 24, per CoinMarketCap's update page. Trackers say the top 100 wallets hold almost all of the supply, which makes sharp moves like this more likely, and about 101.6 million BTW (roughly 1% of the 10 billion total, about $138 million at today's price) is due to unlock on Nov. 2, per CryptoTicker. An unlock is when tokens held back for insiders or ecosystem funds become free to sell. An early-afternoon bounce of nearly 30% off a low near $1.00 has mostly faded, typical of a thinly traded token after a crash, again with no news we could find.",
       "meaning": "This is a high-risk token whose price can swing tens of percent in a day, with conflicting public data on how many tokens are actually circulating. Holders face more supply coming each month through 2030, and whether the Nov. 2 tranche goes to early backers (more likely to sell) or ecosystem pools is disputed between trackers.",
       "outlook": {
@@ -268,7 +276,7 @@
       "id": "layerzero",
       "symbol": "ZRO",
       "name": "LayerZero",
-      "move": "Down 4.7% over 24h and down 15.0% this week, at about $1.61 (down 1.9% over 30 days)",
+      "move": "Down 1.5% over 24h and down 14.2% this week, at about $1.66 (roughly flat over 30 days)",
       "why": "LayerZero runs a messaging system that lets apps send tokens and data between different blockchains, and ZRO is its token. It is one of the worst performers in the top 100 today, but we found no fresh headline behind Monday's drop. It has been weak since an Oct. 20 token unlock (about 6% of supply), after which roughly 9.7 million ZRO was reportedly moved to big exchanges, per CoinMarketCap's AI news summary; an unlock is when tokens held back for insiders become free to sell. The project announced on Oct. 20 that its Zero mainnet and lzATLAS launch, which adds a buy-and-burn of ZRO funded by fees, is planned for Nov. 30, per TokenPost.",
       "meaning": "Recurring unlocks keep adding supply that early holders can sell, which has outweighed upgrade news so far this month. The Nov. 30 launch is the project's main potential catalyst, but a fee-funded burn only helps the price if the network earns meaningful fees.",
       "outlook": {
@@ -294,7 +302,7 @@
       "id": "ripple",
       "symbol": "XRP",
       "name": "XRP",
-      "move": "Up 0.1% over 24h and up 0.0% this week, at about $1.29 (down 15.7% over 30 days)",
+      "move": "Up 1.3% over 24h and up 0.7% this week, at about $1.30 (down 15.4% over 30 days)",
       "why": "Ripple, the company most closely tied to XRP, won final approval from the U.S. bank regulator (the OCC) for a national trust bank that will manage the reserves behind its RLUSD stablecoin and hold crypto for institutional clients, per CoinDesk. XRP rose about 1% on the news, per Investing.com, but is still around $1.30. Separately, Franklin Templeton last week put about $150 million more of its tokenized money-market fund onto the XRP Ledger, per CoinDesk.",
       "meaning": "A federal bank charter gives Ripple's stablecoin and custody business more credibility with banks, but neither the charter nor tokenized funds require anyone to buy XRP, so the price link is indirect. XRP is still down about 15% over the past month, so this is a small bounce inside a larger slide.",
       "outlook": {
@@ -324,7 +332,7 @@
       "id": "quant-network",
       "symbol": "QNT",
       "name": "Quant",
-      "move": "Down 4.1% over 24h and up 6.3% this week, at about $201 (up 13.3% over 30 days)",
+      "move": "Down 4.6% over 24h but up 6.3% this week, at about $204 (up 19.1% over 30 days)",
       "why": "Quant makes software (its Overledger platform) that lets banks move tokenized money, meaning bank deposits recorded on a blockchain-style ledger, between different systems. The token is up about 17% over the past month, helped by news that The Clearing House, the payments company owned by big U.S. banks, picked Quant's technology in late September for a project to settle tokenized deposits over its existing payment rails, with rollout targeted for the first half of 2027; seven big UK banks also made the first live customer payments with tokenized sterling on infrastructure Quant built, per CoinMarketCap. It jumped about 7% Monday without a fresh announcement we could find and has given back about 4% over 24 hours by early Tuesday, while still trending on CoinGecko.",
       "meaning": "QNT is trading on a real business story, bank adoption of tokenized money, rather than pure hype, but the actual rollout is still more than six months away and banks paying for software does not automatically mean demand for the token. After a roughly 21% gain in a month, much of the good news may already be in the price.",
       "outlook": {
@@ -346,7 +354,7 @@
       "id": "memecore",
       "symbol": "M",
       "name": "MemeCore",
-      "move": "Up 0.4% over 24h and up 29.7% this week, at about $1.00 (down 18.7% over 30 days)",
+      "move": "Up 1.1% over 24h and up 26.5% this week, at about $1.01 (down 18.0% over 30 days)",
       "why": "MemeCore, a blockchain built around meme coins, was the biggest decliner among about 90 large coins tracked by TokenPost on Sunday morning, falling to about $0.92; it has since bounced to about $0.99, roughly flat over 24 hours, with no specific trigger reported either way. The swings follow a choppy month: the token fell about 23% in the week to Oct. 19 after LayerZero and Stargate opened bridges letting holders move M to BNB Chain and Base, then bounced roughly 50%. On-chain investigator ZachXBT has previously accused insiders of manipulating the token's price, and a token unlock is due Nov. 1.",
       "meaning": "Moves of 20% in a day without clear news are typical of tokens where a few wallets hold much of the supply, so price can swing on a handful of trades. About 56 million new M tokens (roughly 2.8% of circulating supply, about $50 million, per CoinDesk) unlock on Nov. 1, which adds potential selling pressure.",
       "outlook": {
@@ -380,7 +388,7 @@
       "id": "zcash",
       "symbol": "ZEC",
       "name": "Zcash",
-      "move": "Up 1.0% over 24h and up 10.2% this week, at about $1,241 (down 25.1% over 30 days)",
+      "move": "Up 2.4% over 24h and up 10.9% this week, at about $1,252 (down 24.6% over 30 days)",
       "why": "Traders had been positioning for the NU7 upgrade, which developers scheduled for about 7:50 p.m. ET on Nov. 5; it cuts block times from 75 to 25 seconds and sends 60% of fees to a reserve. Futures open interest (the value of open bets) had risen about 19–24% and two large traders reportedly opened about $37.6 million of 10x leveraged longs. Those leveraged bets have been unwinding: CoinDesk flagged ZEC among the coins where bullish traders were closing positions, and it noted an 8% drop in open interest Friday. After dipping below the $1,190–$1,230 support area, the price has bounced back to about $1,241 (up about 1% over 24 hours), inside the top of that zone.",
       "meaning": "Much of this month's rally was driven by borrowed money, and this week shows how fast that can reverse. Upgrade dates often bring 'buy the rumour, sell the news' behaviour, so swings both ways are likely into Nov. 5.",
       "outlook": {
@@ -410,7 +418,7 @@
       "id": "solana",
       "symbol": "SOL",
       "name": "Solana",
-      "move": "Down 2.1% over 24h and down 4.2% this week, at about $99.21 (down 19.7% over 30 days)",
+      "move": "Down 1.2% over 24h and down 3.8% this week, at about $99.95 (down 19.6% over 30 days)",
       "why": "Solana completed its Alpenglow upgrade, a major overhaul aimed at much faster transaction finality (the point at which a payment can't be reversed), according to CoinDesk. The price has moved with the market rather than rallying on the news, and it slipped under $100 Saturday morning as bitcoin's break below $80,000 triggered forced selling across crypto, briefly tested $100 again in Asian trading Monday, and it is about $99.21 early Tuesday, just below that line.",
       "meaning": "A smooth Alpenglow launch is a meaningful technical milestone, but the market is treating it as already expected. The first days after a big upgrade are when problems usually show up, so stability matters more than headlines.",
       "outlook": {
@@ -634,31 +642,27 @@
       ]
     },
     {
-      "symbol": "TSLA",
-      "name": "Tesla",
-      "move": "Closed up 5.2% at about $392, a more-than-three-month high; still about 21% below its 52-week high",
-      "why": "Barclays upgraded Tesla to overweight (a buy rating) from equal-weight and raised its target to $450 from $370, citing a widely expected combination with SpaceX that it says should come at a premium, an improving core car business and early signs of a robotaxi breakthrough, per Investing.com. Mizuho raised its target to $460. Trackers counted about 1,250 Cybercab robotaxi sightings around Austin's Formula 1 race, mostly driverless, and the Berlin plant set a weekly record of 7,000 Model Ys.",
-      "meaning": "Most of the move rests on a SpaceX merger and robotaxi hopes rather than current car profits, which fell sharply last quarter. That makes the stock very sensitive to any merger news either way.",
+      "symbol": "UPS",
+      "name": "UPS",
+      "move": "Up about 1.3% before the bell after its results, per Reuters (our live feed does not track UPS)",
+      "why": "UPS earned an adjusted $1.69 a share last quarter, down from $1.74 a year ago but above the roughly $1.63 analysts expected, per Reuters. It raised its 2026 forecast to about $7.28 a share in adjusted profit and $92.6 billion in revenue, helped by more higher-paying international air shipments and fewer low-margin Amazon parcels, and said it is on track for $3 billion in cost savings this year.",
+      "meaning": "UPS's plan to shed lower-paying volume and cut costs is showing up in margins, which had been the main worry. Because parcel volumes track spending, the results are also a mildly reassuring read on consumers and global trade.",
       "outlook": {
-        "lean": "unclear",
+        "lean": "up",
         "confidence": "low",
         "horizon": "next 1–2 weeks",
-        "bullCase": "Concrete merger terms or a smooth Cybercab expansion could carry it toward $410–$420 and then analyst targets around $450.",
-        "bearCase": "If merger talk stalls or the gain fades like last week's early jump, it could slip back toward $372 (Friday's close) or $355–$365.",
-        "watch": "Whether it holds above $385 through the day, merger committee news, and the NHTSA Cybercab response due Oct. 30."
+        "bullCase": "If the premarket gain holds and analysts lift targets after the raised outlook, the stock could build on the move as investors bet the turnaround is working.",
+        "bearCase": "If investors focus on lower year-over-year profit, or tariffs and oil near $100 hit shipping demand and fuel costs, the early gain could fade.",
+        "watch": "How the stock closes Tuesday, analyst target changes, fuel costs with oil near $100, and FedEx's tone at upcoming events."
       },
       "sources": [
         {
-          "title": "Investing.com: Why is Tesla stock climbing today?",
-          "url": "https://www.investing.com/news/stock-market-news/why-is-tesla-stock-climbing-today-93CH-4972086"
+          "title": "Reuters via Investing.com: UPS raises annual forecasts",
+          "url": "https://www.investing.com/news/stock-market-news/ups-raises-annual-profit-revenue-forecasts-as-higherpaying-shipments-boost-margin-4974771"
         },
         {
-          "title": "KuCoin News: Stocks making big premarket moves",
-          "url": "https://www.kucoin.com/news/flash/stocks-making-major-premarket-moves-verizon-tesla-moderna-more"
-        },
-        {
-          "title": "Investing.com: Why is Tesla stock sliding today?",
-          "url": "https://www.investing.com/news/stock-market-news/why-is-tesla-stock-sliding-today-93CH-4964960"
+          "title": "UPS: 3Q 2026 earnings release",
+          "url": "https://investors.ups.com/news-events/press-releases/detail/2172/ups-releases-3q-2026-earnings"
         }
       ]
     },
