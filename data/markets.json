@@ -1,22 +1,22 @@
 {
-  "updatedAt": "2026-10-27T02:25:00-04:00",
-  "nextRefresh": "around 3:22 AM",
-  "headline": "Bitcoin hovers just under $80,000 as markets wait for the Fed",
-  "summary": "U.S. stocks closed higher Monday on a chip and Tesla rebound: the S&P 500 rose 0.7% to 7,677, the Nasdaq 0.8% to 26,169 and the TSX 0.4% to 35,944, while Meta fell 1.9% on its $35 billion stock sale; after the bell Toronto-based Celestica jumped about 13% on strong results. Asia picked up the baton early Tuesday, with Japan's Nikkei up about 2% and South Korea's KOSPI up about 4.5% on memory-chip stocks, and Nasdaq futures were up about 0.4%, per Business Recorder. Crypto is quiet: bitcoin is about $79,670 (down 0.5% over 24 hours, 2.6% this week), ether about $2,304, the total market is down 2% at $2.69 trillion with Fear & Greed a neutral 48, and U.S. oil is down about 0.7% near $101 ahead of Wednesday's Fed and Bank of Canada decisions.",
+  "updatedAt": "2026-10-27T03:26:33-04:00",
+  "nextRefresh": "around 4:22 AM",
+  "headline": "Quack AI spike fizzles as bitcoin idles near $79,600 before the Fed",
+  "summary": "Wall Street closed higher Monday on a chip and Tesla rebound (S&P 500 +0.7% to 7,677, Nasdaq +0.8%, TSX +0.4% to 35,944), and Asia followed early Tuesday, with Japan's Nikkei up about 2.2% and South Korea's KOSPI up about 3.6% at midday, per AP; U.S. futures are edging higher. Crypto is drifting: bitcoin is about $79,600 (down 0.5% over 24 hours), ether about $2,303, the total market is down 2.2% at $2.69 trillion and Fear & Greed sits at a neutral 48, while Strategy confirmed it bought no bitcoin last week. Speculative Quack AI has dropped about 35% in the past hour after a 260% spike that a tracker flagged as mostly wash trading, and oil holds near $102 ahead of Wednesday's Fed and Bank of Canada decisions.",
   "mood": {
     "crypto": {
       "label": "Cautious",
-      "why": "Bitcoin is flat near $79,700 and Fear & Greed is a neutral 48, but spot bitcoin ETFs lost about $943 million over the last three sessions and crypto stocks fell while the Nasdaq rallied; gains are limited to small, speculative tokens."
+      "why": "Bitcoin is stuck just under $80,000 with Fear & Greed at a neutral 48, spot ETFs have bled money for several sessions and Strategy has paused buying, while the only big gains are in thin, speculative tokens that are already reversing."
     },
     "stocks": {
       "label": "Risk-on",
-      "why": "The Nasdaq closed up 0.8% on a broad chip rebound and the VIX fell about 5% to 18.4, but a 10-year yield near 5%, a roughly 15% crash in Brazilian stocks and Wednesday's Fed decision keep the rally on a short leash."
+      "why": "The Nasdaq rose 0.8% Monday, the VIX fell about 5% to 18.4 and Asian chip stocks extended the rally overnight, but a 10-year yield near 5% and Wednesday's Fed, Bank of Canada and big-tech earnings keep the rally on a short leash."
     }
   },
   "drivers": [
     {
       "title": "Chips lead a broad tech rally as Meta sells stock",
-      "detail": "Meta launched a $35 billion stock sale (about $22.5 billion of common shares plus $12.5 billion of mandatory convertible preferred), per its SEC filing, and Nvidia, AMD and Broadcom signalled interest in buying up to $5 billion, per AP. AMD (+2.8%), Nvidia (+2.4%) and Broadcom (+2.3%) led the rebound into the close, while Meta fell 1.9% to about $631. The rebound spread to Asia early Tuesday: Japan's Nikkei rose about 2% and South Korea's KOSPI about 4.5%, led by SK Hynix (+7%) and Samsung (+5%) ahead of their results Wednesday and Thursday.",
+      "detail": "Meta launched a $35 billion stock sale to fund AI spending, and Nvidia, AMD and Broadcom signalled interest in buying up to $5 billion of it, per AP; AMD (+2.8%), Nvidia (+2.4%) and Broadcom (+2.3%) led Monday's rebound while Meta fell 1.9% to about $631. The rally carried into Asia Tuesday, with the Nikkei up about 2.2% and the KOSPI up about 3.6% at midday, per AP, helped by South Korean growth that beat forecasts on chip exports.",
       "effect": "bullish",
       "assets": "Nasdaq, chip stocks, Meta",
       "sources": [
@@ -56,26 +56,30 @@
     },
     {
       "title": "Iran diplomacy pulls oil lower",
-      "detail": "U.S. crude is down about 0.7% near $101 in overnight trading after settling down about 1.7% Monday, as Saudi, Pakistani and Turkish officials met in Tehran and agreed to keep talking; Brent is about $115, down about 0.7%, per Business Recorder. Houthi strikes on Saudi targets and a U.S. emergency oil reserve at its lowest since 1982, per Capp Notes, mean the drop could reverse quickly.",
+      "detail": "U.S. crude is about $102, up 0.2% on our feed after settling down about 1.7% Monday, while AP had Brent down 0.8% near $110 early in Asia as Saudi, Pakistani and Turkish officials keep talking with Tehran. Saudi–Houthi exchanges and a depleted U.S. emergency reserve mean the calm could break quickly, which matters for inflation and for Canadian energy stocks.",
       "effect": "mixed",
       "assets": "Oil, Canadian energy stocks, inflation outlook",
       "sources": [
         {
-          "title": "Capp Notes: Closing look, Oct. 26",
-          "url": "https://cappnotes.substack.com/p/closing-look-monday-october-26-2026"
+          "title": "AP: US futures and Asian stocks advance",
+          "url": "https://ca.finance.yahoo.com/news/us-futures-asian-stocks-advance-040952829.html"
         },
         {
-          "title": "TheStreet: Stock market today, Oct. 26",
-          "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-26-2026"
+          "title": "investingLive: Asia-Pacific wrap",
+          "url": "https://investinglive.com/news/investinglive-asia-pacific-market-news-regional-stocks-mostly-rose/"
         }
       ]
     },
     {
-      "title": "Yields near 5% before the Fed",
-      "detail": "The 10-year Treasury yield is about 4.99% and the 2-year is up to about 4.71%, per Benzinga, near their highest in over a year; markets imply only about a 10% chance of a Fed hike on Wednesday but much higher odds by December. Chair Warsh's tone will matter most for stocks, bonds and crypto.",
+      "title": "Yields near 5% before the Fed and Bank of Canada",
+      "detail": "The 10-year Treasury yield eased to about 4.99% while the 2-year rose to about 4.71%, per AP; the Fed is expected to hold Wednesday after hiking last month, but a hawkish tone could revive talk of another hike by December. The Bank of Canada decides the same morning with markets leaning toward a hike to 2.50%, and Brazil's roughly 14% stock crash after Lula's re-election shows how fast debt worries can hit markets.",
       "effect": "bearish",
-      "assets": "Stocks, bitcoin, gold",
+      "assets": "Bonds, tech stocks, Canadian banks, the loonie, crypto",
       "sources": [
+        {
+          "title": "AP: US futures and Asian stocks advance",
+          "url": "https://ca.finance.yahoo.com/news/us-futures-asian-stocks-advance-040952829.html"
+        },
         {
           "title": "crypto.news: Why is bitcoin down today?",
           "url": "https://crypto.news/why-is-bitcoin-price-down-today-fed-etf-outflows/"
@@ -87,42 +91,34 @@
       ]
     },
     {
-      "title": "Bitcoin pinned at $80,000 as ETF outflows run to three days",
-      "detail": "Bitcoin is about $79,670, down 0.5% over 24 hours, after spot ETFs lost about $169 million Monday on top of about $774 million Thursday and Friday, per Farside data cited by Capp Notes and Analytics Insight. The total crypto market is down about 2% over 24 hours, and Strategy (-4.2%) and Coinbase (-2.9%) closed lower even as the Nasdaq rose.",
+      "title": "Bitcoin stuck under $80,000 as Strategy pauses buying",
+      "detail": "Bitcoin is about $79,600, down 0.5% over 24 hours, after spot ETFs lost roughly $943 million over three sessions, per Farside data, and Strategy, the biggest corporate holder, said it bought no bitcoin last week, per Investing.com. Without those two big sources of buying, the price has drifted in a narrow range ahead of the Fed.",
       "effect": "mixed",
       "assets": "Bitcoin, ether, crypto stocks",
       "sources": [
         {
+          "title": "Investing.com: Bitcoin dips below $80k as Strategy pauses buying",
+          "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-dips-below-80k-as-strategy-pauses-buying-fed-caution-weighs-4974244"
+        },
+        {
           "title": "Capp Notes: Closing look, Oct. 26",
           "url": "https://cappnotes.substack.com/p/closing-look-monday-october-26-2026"
-        },
-        {
-          "title": "Analytics Insight: Bitcoin struggles near $80,000 ahead of Fed",
-          "url": "https://www.analyticsinsight.net/amp/story/news/bitcoin-price-struggles-near-usd-80000-ahead-of-fed-decision-and-ai-earnings"
-        },
-        {
-          "title": "CoinDesk: Bitcoin slips under $80,000 as traders de-risk ahead of Fed",
-          "url": "https://www.coindesk.com/markets/2026/10/26/bitcoin-slips-under-usd80-000-as-traders-de-risk-ahead-of-fed-meeting"
         }
       ]
     },
     {
-      "title": "Brazil crashes after Lula wins; Bank of Canada likely to hike",
-      "detail": "Brazil's Bovespa index fell about 14.6%, per AP, and the iShares MSCI Brazil ETF lost about 22% at midday, its worst day since March 2020, after President Lula beat Flávio Bolsonaro in Sunday's runoff and stoked fears of heavier government spending and debt, per Benzinga. At home, markets see about 80% odds the Bank of Canada raises its rate to 2.50% Wednesday; the loonie is about 71.3 U.S. cents.",
-      "effect": "bearish",
-      "assets": "Emerging markets, loonie, Canadian banks",
+      "title": "Crypto rules advance: Ripple bank charter, Canada stablecoin draft",
+      "detail": "U.S. bank regulator the OCC gave Ripple final approval for a national trust bank that will hold the reserves behind its RLUSD stablecoin (a token pegged to the U.S. dollar) and offer custody, per CoinDesk. Ottawa also opened a 60-day consultation on draft stablecoin rules that ban paying interest to holders, require full reserves at Canadian institutions and cap redemption fees at 1%, with comments due Dec. 23, per CoinDesk.",
+      "effect": "mixed",
+      "assets": "XRP, stablecoins, Canadian crypto platforms",
       "sources": [
         {
-          "title": "Benzinga: Nasdaq 100 rallies on chip rebound, Brazil ETF sinks 21%",
-          "url": "https://www.benzinga.com/markets/equities/26/10/62598326/nasdaq-100-chip-rebound-brazil-etf-ewz-stock-market-today"
+          "title": "CoinDesk: Ripple gets final go-ahead for U.S. trust bank",
+          "url": "https://www.coindesk.com/markets/2026/10/27/ripple-gets-a-final-go-ahead-to-launch-its-own-u-s-national-trust-bank"
         },
         {
-          "title": "TheStreet: Stock market today, Oct. 26",
-          "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-26-2026"
-        },
-        {
-          "title": "AP via Korea Times: US stocks climb amid shaky trading worldwide",
-          "url": "https://www.koreatimes.co.kr/world/20261027/us-stocks-climb-amid-shaky-trading-in-markets-worldwide"
+          "title": "CoinDesk: Canada opens consultation on stablecoin rules",
+          "url": "https://www.coindesk.com/policy/2026/10/26/canada-opens-consultation-on-draft-stablecoin-rules-maintains-ban-on-yields"
         }
       ]
     }
@@ -132,8 +128,8 @@
       "id": "bitcoin",
       "symbol": "BTC",
       "name": "Bitcoin",
-      "move": "Down 0.5% over 24h and 2.6% this week, at about $79,670 (down 5.3% over 30 days)",
-      "why": "Bitcoin fell nearly 2% to about $79,800 in Asian trading Monday as traders cut risk before Wednesday's Fed decision, where any hint of a December rate hike would tighten the money flowing into risky assets, per CoinDesk. It has spent the rest of the day see-sawing around $80,000 and sits just under it this evening in thin trading. Spot bitcoin ETFs (funds that hold the coin for stock-market investors) lost about $169 million on Monday, per Farside data cited by Capp Notes, after about $774 million on Thursday and Friday, so buying from big investors has yet to return.",
+      "move": "Down 0.5% over 24h and down 2.6% this week, at about $79,580 (down 5.8% over 30 days)",
+      "why": "Bitcoin slipped under $80,000 in Asian trading Monday as traders cut risk before Wednesday's Fed decision and has hovered just below it since, at about $79,600 early Tuesday. Spot bitcoin ETFs (funds that hold the coin for stock-market investors) lost about $943 million over three sessions, per Farside data cited by Capp Notes, and Strategy said it made no bitcoin purchases in the week to Oct. 25 while buying back some of its preferred stock instead, per Investing.com. With both big buyers on the sidelines, the price is drifting with little conviction either way.",
       "meaning": "Glassnode estimates ETF buyers and corporate treasuries bought, on average, between about $80,000 and $81,500, so bitcoin is sitting right around the price where many big holders break even; slipping back under it can prompt more selling. Bitcoin is also failing to keep up with stocks today, a sign that crypto-specific demand is weak right now.",
       "outlook": {
         "lean": "down",
@@ -141,9 +137,13 @@
         "horizon": "next 1–2 weeks",
         "bullCase": "A calm Fed on Oct. 28, ETF inflows returning and a U.S.–Iran deal could lift it back above $82,000–$82,500 (Thursday's lost floor), putting $85,000–$87,000 back in view.",
         "bearCase": "A daily close below $79,000, more ETF outflows, a hawkish Fed or a U.S. strike on Iran could extend the slide toward $77,600 (Glassnode's estimate of the average holder's cost) and then $75,000.",
-        "watch": "Whether it closes the day above $79,000, Tuesday's ETF flow data, the Fed decision and Warsh press conference on Oct. 28, Strategy's results Oct. 29, and about $11 billion of bitcoin options expiring Oct. 30."
+        "watch": "Whether it closes the day above $79,000, Tuesday's ETF flow data, the Fed decision and Warsh press conference on Oct. 28, whether Strategy resumes buying (its results are Oct. 29), and about $11 billion of bitcoin options expiring Oct. 30."
       },
       "sources": [
+        {
+          "title": "Investing.com: Bitcoin dips below $80k as Strategy pauses buying",
+          "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-dips-below-80k-as-strategy-pauses-buying-fed-caution-weighs-4974244"
+        },
         {
           "title": "CoinDesk: Bitcoin slips under $80,000 as traders de-risk ahead of Fed",
           "url": "https://www.coindesk.com/markets/2026/10/26/bitcoin-slips-under-usd80-000-as-traders-de-risk-ahead-of-fed-meeting"
@@ -151,10 +151,6 @@
         {
           "title": "Capp Notes: Closing look, Oct. 26",
           "url": "https://cappnotes.substack.com/p/closing-look-monday-october-26-2026"
-        },
-        {
-          "title": "crypto.news: Why is bitcoin down today?",
-          "url": "https://crypto.news/why-is-bitcoin-price-down-today-fed-etf-outflows/"
         }
       ]
     },
@@ -162,8 +158,8 @@
       "id": "ethereum",
       "symbol": "ETH",
       "name": "Ethereum",
-      "move": "Down 0.6% over 24h and 4.0% this week, at about $2,304 (down 14.0% over 30 days)",
-      "why": "Ether fell nearly 3% to just above $2,300 in Asian trading Monday, per CoinDesk, and is about $2,309 late this evening, roughly flat over 24 hours. It is still under the $2,400 level that had supported it for about a week, and it led liquidations (forced closures of borrowed bets) over the past day.",
+      "move": "Down 0.6% over 24h and down 3.9% this week, at about $2,300 (down 14.9% over 30 days)",
+      "why": "Ether fell nearly 3% to just above $2,300 in Asian trading Monday, per CoinDesk, and is about $2,303 early Tuesday, down 0.6% over 24 hours. It is still under the $2,400 level that had supported it for about a week, and ether ETFs have now seen outflows for four straight weeks, per CoinCentral, even as treasury company BitMine kept buying.",
       "meaning": "Ether is lagging bitcoin because big investors keep pulling money from the ETFs. Until those flows turn, rallies may be harder to sustain.",
       "outlook": {
         "lean": "unclear",
@@ -196,29 +192,29 @@
       "id": "quack-ai",
       "symbol": "Q",
       "name": "Quack AI",
-      "move": "Up about 261% in 24h to roughly $0.21, and up about 75% for the week (up about 514% over 30 days)",
-      "why": "Quack AI pitches itself as an AI layer for crypto governance, using software agents to read and vote on project proposals across blockchains; its Q token runs on BNB Chain and Ethereum. It ran up about 450% in the week to Oct. 19, reaching about $0.17, then gave most of that back during the week before more than doubling again today; we could not find a specific news trigger, and trader posts credit momentum and futures speculation. It is the top gainer in CoinGecko's top 100 and the No. 1 trending coin, and this evening's leg up has lifted it past its Oct. 19 peak, to a market value of roughly $1 billion, though it has slipped about 5% in the past hour.",
-      "meaning": "This is a momentum-driven, highly speculative token: a move of more than 100% in a day with no clear news usually reflects traders chasing price, often with borrowed money in futures markets, and can reverse just as fast. Only about 4 billion of the 10 billion tokens are circulating, so later unlocks (tokens released to insiders or funds) could add selling pressure.",
+      "move": "Down about 35% in the past hour to roughly $0.148, after peaking near $0.20; still up about 157% over 24h and 202% over 30 days",
+      "why": "Quack AI pitches itself as an AI layer for crypto governance, using software agents to read and vote on project proposals; its Q token runs on BNB Chain and Ethereum. It spiked about 260% to roughly $0.20 Monday with no official news, and a report via Pluang said about 78% of roughly $280 million in trading volume looked like wash trading (the same parties buying and selling to fake activity), with two wallets holding about 1.7% of supply accumulating for weeks. In the past hour it has given back about 35%, and AMBCrypto reports about 241 million Q (about 2.4% of max supply) is due to unlock on Nov. 2.",
+      "meaning": "This looks like a coordinated pump in a thinly traded token rather than demand from new users, and such spikes often unwind sharply, as is happening now. A mintable contract (more tokens can be created) and the Nov. 2 unlock add dilution and selling risk on top of that.",
       "outlook": {
-        "lean": "unclear",
+        "lean": "down",
         "confidence": "low",
         "horizon": "next few days",
-        "bullCase": "If buying keeps up and Q holds above its Oct. 19 peak near $0.17–$0.18, the next round-number test is around $0.20–$0.22; moves this steep rarely last long without a pause.",
-        "bearCase": "If momentum traders take profits, Q could quickly drop back toward $0.12–$0.14, and a full unwind of today's spike would put it near $0.06, where it sat a day ago.",
-        "watch": "Whether $0.17 holds as support, futures open interest and funding (signs of leveraged betting), large transfers to exchanges, and any actual product or listing news."
+        "bullCase": "If buyers defend about $0.14 and real product or exchange news emerges, Q could retest $0.17–$0.20, though moves this steep rarely repeat soon.",
+        "bearCase": "If the unwind continues, Q could fall toward $0.11 and then about $0.06, where it sat before Monday's spike, with the Nov. 2 unlock adding pressure.",
+        "watch": "Whether $0.14 holds, transfers from the top wallets to exchanges, futures funding and open interest, and the Nov. 2 unlock."
       },
       "sources": [
         {
-          "title": "CoinEdition: Quack AI rally faces correction risks",
-          "url": "https://coinedition.com/quack-ai-price-prediction-q-price-rally-faces-correction-risks-despite-strong-buying-momentum/"
+          "title": "Pluang: Quack AI surges 261% amid suspected wash trading",
+          "url": "https://pluang.com/en/news-feed/kenapa-harga-quack-ai-q-naik-tajam-hari-ini"
+        },
+        {
+          "title": "AMBCrypto: Quack AI ahead of 241M token unlock",
+          "url": "https://ambcrypto.com/quack-ai-q-falls-28-before-241m-token-unlock-can-this-hold/"
         },
         {
           "title": "Coinranking: What is Quack AI (Q)?",
           "url": "https://coinranking.com/coin/UNkdOSiqYsM1+quackaitoken-q/about"
-        },
-        {
-          "title": "KuCoin Square: Quack AI Q soars 105%",
-          "url": "https://www.kucoin.com/square/post/content_6ad45a0c9f055d00071cb61e"
         }
       ]
     },
@@ -226,7 +222,7 @@
       "id": "bitway",
       "symbol": "BTW",
       "name": "Bitway",
-      "move": "Down 16.0% in 24h and 23% this week, at about $1.39, though up about 4.6% in the last hour",
+      "move": "Down 15.8% over 24h and down 23.3% this week, at about $1.37 (up 30.3% over 30 days)",
       "why": "Bitway is still the worst performer in CoinGecko's top 100 today, with no specific news trigger we could find; it had already fallen about 25% on Oct. 15 when a hot U.S. inflation report hit crypto, and slid from above $2.60 to about $1.70 in the week to Oct. 24, per CoinMarketCap's update page. Trackers say the top 100 wallets hold almost all of the supply, which makes sharp moves like this more likely, and about 101.6 million BTW (roughly 1% of the 10 billion total, about $120 million at today's price) is due to unlock on Nov. 2, per CryptoTicker. An unlock is when tokens held back for insiders or ecosystem funds become free to sell. An early-afternoon bounce of nearly 30% off a low near $1.00 has mostly faded, typical of a thinly traded token after a crash, again with no news we could find.",
       "meaning": "This is a high-risk token whose price can swing tens of percent in a day, with conflicting public data on how many tokens are actually circulating. Holders face more supply coming each month through 2030, and whether the Nov. 2 tranche goes to early backers (more likely to sell) or ecosystem pools is disputed between trackers.",
       "outlook": {
@@ -256,7 +252,7 @@
       "id": "layerzero",
       "symbol": "ZRO",
       "name": "LayerZero",
-      "move": "Down 4.3% in 24h and 12.6% this week, to about $1.61 (up 2.8% over 30 days)",
+      "move": "Down 2.7% over 24h and down 12.7% this week, at about $1.62 (down 0.8% over 30 days)",
       "why": "LayerZero runs a messaging system that lets apps send tokens and data between different blockchains, and ZRO is its token. It is one of the worst performers in the top 100 today, but we found no fresh headline behind Monday's drop. It has been weak since an Oct. 20 token unlock (about 6% of supply), after which roughly 9.7 million ZRO was reportedly moved to big exchanges, per CoinMarketCap's AI news summary; an unlock is when tokens held back for insiders become free to sell. The project announced on Oct. 20 that its Zero mainnet and lzATLAS launch, which adds a buy-and-burn of ZRO funded by fees, is planned for Nov. 30, per TokenPost.",
       "meaning": "Recurring unlocks keep adding supply that early holders can sell, which has outweighed upgrade news so far this month. The Nov. 30 launch is the project's main potential catalyst, but a fee-funded burn only helps the price if the network earns meaningful fees.",
       "outlook": {
@@ -282,18 +278,26 @@
       "id": "ripple",
       "symbol": "XRP",
       "name": "XRP",
-      "move": "Up 0.8% over 24h and down 0.3% this week, at about $1.30 (down 13.7% over 30 days)",
-      "why": "XRP has held up better than most large coins over the past few days. CoinDesk reported Saturday that Franklin Templeton on Thursday put about $150 million more of its tokenized money-market fund (sgBENJI, a fund whose shares exist as tokens on a blockchain) onto the XRP Ledger, taking the fund's holdings there to nearly 193 million shares, worth roughly $200 million. All of the new shares sit in a single wallet linked to Franklin's issuing account, and it is not clear whether they belong to one investor or several.",
-      "meaning": "A big asset manager using the XRP Ledger for tokenized funds supports the network's case for real-world finance, but the fund tokens don't require anyone to buy XRP, so the price link is indirect. XRP is still down about 14% over the past month, so this is a small bounce inside a larger slide.",
+      "move": "Up 1.2% over 24h and down 0.4% this week, at about $1.30 (down 14.7% over 30 days)",
+      "why": "Ripple, the company most closely tied to XRP, won final approval from the U.S. bank regulator (the OCC) for a national trust bank that will manage the reserves behind its RLUSD stablecoin and hold crypto for institutional clients, per CoinDesk. XRP rose about 1% on the news, per Investing.com, but is still around $1.30. Separately, Franklin Templeton last week put about $150 million more of its tokenized money-market fund onto the XRP Ledger, per CoinDesk.",
+      "meaning": "A federal bank charter gives Ripple's stablecoin and custody business more credibility with banks, but neither the charter nor tokenized funds require anyone to buy XRP, so the price link is indirect. XRP is still down about 15% over the past month, so this is a small bounce inside a larger slide.",
       "outlook": {
         "lean": "sideways",
         "confidence": "low",
         "horizon": "next 1–2 weeks",
         "bullCase": "More tokenized-fund news and a steadier bitcoin above $80,000 could lift XRP back toward $1.40–$1.45.",
         "bearCase": "If bitcoin loses $80,000 again or the wider market turns risk-off after the Fed, XRP could slip back toward $1.20–$1.25.",
-        "watch": "Whether Franklin clarifies who holds the new fund shares, bitcoin's hold on $80,000, and the Oct. 28 Fed decision."
+        "watch": "Whether XRP can hold gains on the bank-charter news, RLUSD growth, bitcoin's hold on $80,000, and the Oct. 28 Fed decision."
       },
       "sources": [
+        {
+          "title": "CoinDesk: Ripple gets final go-ahead for U.S. trust bank",
+          "url": "https://www.coindesk.com/markets/2026/10/27/ripple-gets-a-final-go-ahead-to-launch-its-own-u-s-national-trust-bank"
+        },
+        {
+          "title": "Investing.com: Bitcoin dips below $80k as Strategy pauses buying",
+          "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-dips-below-80k-as-strategy-pauses-buying-fed-caution-weighs-4974244"
+        },
         {
           "title": "CoinDesk: Franklin Templeton adds $150 million of fund shares to XRP Ledger",
           "url": "https://coindesk.com/markets/2026/10/24/franklin-templeton-adds-usd150-million-in-fund-shares-to-xrp-ledger-all-in-one-wallet"
@@ -304,8 +308,8 @@
       "id": "quant-network",
       "symbol": "QNT",
       "name": "Quant",
-      "move": "Up 2.7% in 24h and 1.9% this week, at about $199 (up 5.1% over 30 days)",
-      "why": "Quant makes software (its Overledger platform) that lets banks move tokenized money, meaning bank deposits recorded on a blockchain-style ledger, between different systems. The token is up about 70% over the past month after The Clearing House, the payments company owned by big U.S. banks, picked Quant's technology in late September for a project to settle tokenized deposits over its existing payment rails, with rollout targeted for the first half of 2027; seven big UK banks also made the first live customer payments with tokenized sterling on infrastructure Quant built, per CoinMarketCap. It is among the top gainers in the top 100 over the latest 24 hours, and we could not find a fresh announcement behind Monday's jump.",
+      "move": "Up 5.2% over 24h and up 4.0% this week, at about $204 (up 17.0% over 30 days)",
+      "why": "Quant makes software (its Overledger platform) that lets banks move tokenized money, meaning bank deposits recorded on a blockchain-style ledger, between different systems. The token is up about 17% over the past month, helped by news that The Clearing House, the payments company owned by big U.S. banks, picked Quant's technology in late September for a project to settle tokenized deposits over its existing payment rails, with rollout targeted for the first half of 2027; seven big UK banks also made the first live customer payments with tokenized sterling on infrastructure Quant built, per CoinMarketCap. It is among the top gainers in the top 100 over the latest 24 hours, and we could not find a fresh announcement behind Monday's jump.",
       "meaning": "QNT is trading on a real business story, bank adoption of tokenized money, rather than pure hype, but the actual rollout is still more than six months away and banks paying for software does not automatically mean demand for the token. After a roughly 70% gain in a month, much of the good news may already be in the price.",
       "outlook": {
         "lean": "unclear",
@@ -326,8 +330,8 @@
       "id": "memecore",
       "symbol": "M",
       "name": "MemeCore",
-      "move": "Flat over 24h but up 25.5% this week, at about $0.97 (down 21% over 30 days)",
-      "why": "MemeCore, a blockchain built around meme coins, was the biggest decliner among about 90 large coins tracked by TokenPost on Sunday morning, falling to about $0.92; it has since bounced to about $0.97, though it is down about 3% over 24 hours, with no specific trigger reported either way. The swings follow a choppy month: the token fell about 23% in the week to Oct. 19 after LayerZero and Stargate opened bridges letting holders move M to BNB Chain and Base, then bounced roughly 50%. On-chain investigator ZachXBT has previously accused insiders of manipulating the token's price, and a token unlock is due Nov. 1.",
+      "move": "Up 0.2% over 24h and up 26.6% this week, at about $0.982 (down 20.5% over 30 days)",
+      "why": "MemeCore, a blockchain built around meme coins, was the biggest decliner among about 90 large coins tracked by TokenPost on Sunday morning, falling to about $0.92; it has since bounced to about $0.98, roughly flat over 24 hours, with no specific trigger reported either way. The swings follow a choppy month: the token fell about 23% in the week to Oct. 19 after LayerZero and Stargate opened bridges letting holders move M to BNB Chain and Base, then bounced roughly 50%. On-chain investigator ZachXBT has previously accused insiders of manipulating the token's price, and a token unlock is due Nov. 1.",
       "meaning": "Moves of 20% in a day without clear news are typical of tokens where a few wallets hold much of the supply, so price can swing on a handful of trades. About 56 million new M tokens (roughly 2.5% of circulating supply) unlock on Nov. 1, which adds potential selling pressure.",
       "outlook": {
         "lean": "unclear",
@@ -356,8 +360,8 @@
       "id": "zcash",
       "symbol": "ZEC",
       "name": "Zcash",
-      "move": "Up 0.8% in 24h and 6.3% this week, at about $1,215 (down 25.2% over 30 days)",
-      "why": "Traders had been positioning for the NU7 upgrade, which developers scheduled for about 7:50 p.m. ET on Nov. 5; it cuts block times from 75 to 25 seconds and sends 60% of fees to a reserve. Futures open interest (the value of open bets) had risen about 19–24% and two large traders reportedly opened about $37.6 million of 10x leveraged longs. Those leveraged bets have been unwinding: CoinDesk flagged ZEC among the coins where bullish traders were closing positions, and it noted an 8% drop in open interest Friday. After dipping below the $1,190–$1,230 support area, the price has bounced back to about $1,227 (up about 2.4% over 24 hours), inside that zone.",
+      "move": "Up 1.4% over 24h and up 6.9% this week, at about $1,220 (down 26.5% over 30 days)",
+      "why": "Traders had been positioning for the NU7 upgrade, which developers scheduled for about 7:50 p.m. ET on Nov. 5; it cuts block times from 75 to 25 seconds and sends 60% of fees to a reserve. Futures open interest (the value of open bets) had risen about 19–24% and two large traders reportedly opened about $37.6 million of 10x leveraged longs. Those leveraged bets have been unwinding: CoinDesk flagged ZEC among the coins where bullish traders were closing positions, and it noted an 8% drop in open interest Friday. After dipping below the $1,190–$1,230 support area, the price has bounced back to about $1,223 (up about 1.4% over 24 hours), inside that zone.",
       "meaning": "Much of this month's rally was driven by borrowed money, and this week shows how fast that can reverse. Upgrade dates often bring 'buy the rumour, sell the news' behaviour, so swings both ways are likely into Nov. 5.",
       "outlook": {
         "lean": "unclear",
@@ -386,8 +390,8 @@
       "id": "solana",
       "symbol": "SOL",
       "name": "Solana",
-      "move": "Down 1.2% in 24h and 4.8% this week, at about $99.75 (down 16.7% over 30 days)",
-      "why": "Solana completed its Alpenglow upgrade, a major overhaul aimed at much faster transaction finality (the point at which a payment can't be reversed), according to CoinDesk. The price has moved with the market rather than rallying on the news, and it slipped under $100 Saturday morning as bitcoin's break below $80,000 triggered forced selling across crypto, briefly tested $100 again in Asian trading Monday, and it is about $100.40 this evening, barely above that line.",
+      "move": "Down 1.2% over 24h and down 4.8% this week, at about $99.61 (down 17.9% over 30 days)",
+      "why": "Solana completed its Alpenglow upgrade, a major overhaul aimed at much faster transaction finality (the point at which a payment can't be reversed), according to CoinDesk. The price has moved with the market rather than rallying on the news, and it slipped under $100 Saturday morning as bitcoin's break below $80,000 triggered forced selling across crypto, briefly tested $100 again in Asian trading Monday, and it is about $99.60 early Tuesday, just below that line.",
       "meaning": "A smooth Alpenglow launch is a meaningful technical milestone, but the market is treating it as already expected. The first days after a big upgrade are when problems usually show up, so stability matters more than headlines.",
       "outlook": {
         "lean": "sideways",
@@ -642,7 +646,7 @@
       "symbol": "MSTR",
       "name": "Strategy",
       "move": "Closed down 4.2% at about $139.80 (low $137.26); Coinbase fell 2.9% to about $159.60 and the IBIT bitcoin ETF 1.6%",
-      "why": "Strategy, the largest corporate bitcoin holder with about 848,000 BTC, fell as much as 6% early as bitcoin slipped under $80,000, recovered some of that, then closed down about 4.2%. We found no company-specific news; spot bitcoin ETFs have now lost about $943 million over three sessions, per Farside data, which weighs on bitcoin-linked stocks. Strategy reports third-quarter results on Oct. 29.",
+      "why": "Strategy, the largest corporate bitcoin holder with about 848,000 BTC, fell as much as 6% early as bitcoin slipped under $80,000, recovered some of that, then closed down about 4.2%. On Monday it disclosed no bitcoin purchases for the week to Oct. 25, while it bought back about $205 million of its STRC preferred stock, per Investing.com; spot bitcoin ETFs have now lost about $943 million over three sessions, per Farside data, which weighs on bitcoin-linked stocks. Strategy reports third-quarter results on Oct. 29.",
       "meaning": "MSTR is effectively a leveraged bet on bitcoin, so it amplifies both gains and losses. Its daily moves say more about bitcoin than about the company.",
       "outlook": {
         "lean": "sideways",
@@ -842,8 +846,8 @@
     },
     {
       "date": "2026-11-02",
-      "label": "Apple earnings (after the close); Bitway (BTW) token unlock",
-      "why": "Apple is the largest index weight; about 101.6 million BTW (roughly 1% of supply) becomes free to trade after a steep crash."
+      "label": "Apple earnings (after the close); Bitway (BTW) and Quack AI (Q) token unlocks",
+      "why": "Apple is the largest index weight; about 101.6 million BTW (roughly 1% of supply) and about 241 million Q (about 2.4% of max supply) become free to trade after big swings in both."
     },
     {
       "date": "2026-11-03",
