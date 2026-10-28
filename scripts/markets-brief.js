@@ -64,7 +64,7 @@ function dedupe(items) { const out = []; for (const i of items) if (!out.some((o
 const srcOf = (i) => ({ title: `${i.source}: ${i.title.length > 80 ? i.title.slice(0, 77).replace(/\s+\S*$/, "") + "…" : i.title}`, url: i.link });
 
 const esc = (x) => String(x).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-const JUNK = /^(BC-|“|")|\?$|price prediction|how to buy|\b(i'm|my wife|my husband)\b/i;
+const JUNK = /^(BC-|“|")|\?$|price prediction|how to buy|^convert \d|price today|live chart|market report 20\d\d|\b(i'm|my wife|my husband)\b/i;
 function relevant(items, terms) {
   const rx = new RegExp(`\\b(${terms.filter(Boolean).map(esc).join("|")})\\b`, "i");
   return items.filter((i) => !JUNK.test(i.title) && rx.test(i.title));
