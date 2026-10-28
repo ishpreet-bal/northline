@@ -17,7 +17,7 @@ const TOTAL = 12;
 
 const RX = {
   ontario: /\b(ontario|toronto|gta|york region|mississauga|brampton|markham|vaughan|richmond hill|hamilton|ottawa city|ttc|metrolinx|go transit|queen's park|doug ford|olivia chow|peel|durham|halton)\b/i,
-  canada: /\b(canada|canadian|carney|poilievre|ottawa|parliament|bank of canada|macklem|statistics canada|statcan|rcmp|province|quebec|alberta|british columbia|manitoba|saskatchewan|nova scotia|new brunswick|loonie)\b/i,
+  canada: /\b(canada|canadian|carney|poilievre|ottawa|parliament|bank of canada|macklem|statistics canada|statcan|rcmp|quebec|alberta|british columbia|manitoba|saskatchewan|nova scotia|new brunswick|loonie)\b/i,
   us: /\b(fed|wall street|trump|white house|congress|senate|house republicans|democrats|republicans|supreme court|u\.s\.|us |american|pentagon|federal reserve|midterm|governor|washington)\b/i,
 };
 const TOPICS = [
@@ -61,7 +61,7 @@ function regionOf(text, feedRegions) {
   const clusters = [];
   for (const it of all.sort((a, b) => (b.date || 0) - (a.date || 0))) {
     if (/^(watch|listen|video|podcast|quiz|photos?)\b|live updates?:?$/i.test(it.title)) continue;
-    const c = clusters.find((k) => L.similarity(k.items[0].title, it.title) > 0.5);
+    const c = clusters.find((k) => k.items.some((x) => { const n = L.shared(x.title, it.title); return n >= 3 && L.similarity(x.title, it.title) >= 0.35 || n >= 2 && L.similarity(x.title, it.title) >= 0.5; }));
     if (c) { if (!c.items.some((x) => x.link === it.link)) c.items.push(it); } else clusters.push({ items: [it] });
   }
   for (const c of clusters) {
@@ -127,7 +127,7 @@ function regionOf(text, feedRegions) {
   const keyDates = dates.filter((k) => k.date >= now.date && !seen.has(k.date + k.label) && seen.add(k.date + k.label)).sort((a, b) => a.date.localeCompare(b.date)).slice(0, 6);
   const top = stories.slice(0, 3).map((s) => s.headline.replace(/[.\s]+$/, ""));
   const edition = {
-    updatedAt: now.iso, nextRefresh: `around ${L.clock(np.hour, np.minute).replace(/:\d\d/, "")}`, generatedBy: "feeds (no AI)",
+    updatedAt: now.iso, nextRefresh: `around ${L.clock(np.hour, np.minute)}`, generatedBy: "feeds (no AI)",
     headline: stories[0].headline,
     briefing: `Top stories right now: ${top.slice(0, -1).join("; ")}${top.length > 1 ? "; and " : ""}${top[top.length - 1]}.`,
     keyDates, stories,

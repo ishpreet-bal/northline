@@ -22,7 +22,6 @@ const CRYPTO_FEEDS = [
 ];
 const MARKET_FEEDS = [
   ["https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=20910258", "CNBC"],
-  ["https://feeds.content.dowjones.io/public/rss/mw_topstories", "MarketWatch"],
   ["https://finance.yahoo.com/news/rssindex", "Yahoo Finance"],
   ["https://www.cbc.ca/webfeed/rss/rss-business", "CBC News"],
   ["https://www.theglobeandmail.com/arc/outboundfeeds/rss/category/business/", "Globe and Mail"],
@@ -64,6 +63,18 @@ function recent(items, maxAgeH) { const now = Date.now(); return items.filter((i
 function dedupe(items) { const out = []; for (const i of items) if (!out.some((o) => L.similarity(o.title, i.title) > 0.6)) out.push(i); return out; }
 const srcOf = (i) => ({ title: `${i.source}: ${i.title.length > 80 ? i.title.slice(0, 77).replace(/\s+\S*$/, "") + "…" : i.title}`, url: i.link });
 
+const esc = (x) => String(x).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+const JUNK = /^(BC-|“|")|\?$|price prediction|how to buy|\b(i'm|my wife|my husband)\b/i;
+function relevant(items, terms) {
+  const rx = new RegExp(`\\b(${terms.filter(Boolean).map(esc).join("|")})\\b`, "i");
+  return items.filter((i) => !JUNK.test(i.title) && rx.test(i.title));
+}
+const GENERIC = /^(canadian|the|american|first|general|united|royal|national|bank|advanced)$/i;
+function nameTerms(name) {
+  const w = String(name).replace(/,?\s+(inc\.?|corporation|corp\.?|limited|ltd\.?|plc|co\.?|company|holdings|group)$/i, "").replace(/[.,]/g, "").split(/\s+/);
+  return [GENERIC.test(w[0]) && w[1] ? w.slice(0, 2).join(" ") : w[0], w.join(" ")];
+}
+
 function coverage(news) {
   if (!news.length) return "";
   return "Recent coverage: " + news.slice(0, 3).map((n) => `“${n.title}” (${n.source})`).join("; ") + ".";
@@ -75,7 +86,8 @@ function isWrapped(c) { return /wrapped|bridged|staked|liquid staked|restaked/i.
 
 async function cryptoCard(c, btc) {
   const q = c.id === "bitcoin" ? "bitcoin price" : c.id === "ethereum" ? "ether OR ethereum price" : `"${c.name}" crypto`;
-  const news = dedupe(recent(await L.readFeed(gnews(q), "Google News"), 36)).slice(0, 3);
+  const terms = [c.name, c.symbol.length >= 3 ? c.symbol : null, c.id === "ethereum" ? "ether" : null, c.id === "bitcoin" ? "BTC" : null];
+  const news = dedupe(relevant(recent(await L.readFeed(gnews(q), "Google News"), 36), terms)).slice(0, 3);
   const move = `${dir(c.ch24h)} ${pc(c.ch24h)} in 24h and ${dirl(c.ch7d)} ${pc(c.ch7d)} this week, at about ${usd(c.price)} (${dirl(c.ch30d)} ${pc(c.ch30d, 0)} over 30 days)`;
   let why = coverage(news);
   if (c.id !== "bitcoin" && btc) {
@@ -108,7 +120,8 @@ async function stockCard(q) {
   const isIdx = INDEX.has(q.symbol);
   let news = recent(await L.readFeed(yfeed(q.symbol), "Yahoo Finance"), 36);
   if (news.length < 2) news = news.concat(recent(await L.readFeed(gnews(`${NICE[q.symbol] || q.name} ${isIdx ? "" : "stock"}`), "Google News"), 36));
-  news = dedupe(news).slice(0, 3);
+  const terms = isIdx ? ["stocks?", "S&P", "Nasdaq", "Dow", "TSX", "Wall Street", "markets?", "index"] : q.symbol === "CL=F" ? ["oil", "crude", "OPEC", "Brent", "WTI"] : [...nameTerms(q.name), q.symbol.replace(/\.TO$/, "")];
+  news = dedupe(news.filter((i) => !JUNK.test(i.title) && new RegExp(`\\b(${terms.join("|")})\\b`, "i").test(i.title))).slice(0, 3);
   const when = q.state === "open" ? "today" : q.state === "pre-market" ? "at the last close (pre-market)" : "at the last close";
   const lvl = isIdx ? num(q.price, 0) : usd(q.price, q.currency);
   const pts = isIdx && q.change != null ? ` (${num(abs(q.change), 0)} points)` : "";
@@ -171,7 +184,7 @@ async function stockCard(q) {
 
   // Drivers: the most-covered recent market headlines.
   const feeds = await Promise.all([...CRYPTO_FEEDS, ...MARKET_FEEDS].map(([u, n]) => L.readFeed(u, n)));
-  const items = recent(feeds.flat(), 14);
+  const items = recent(feeds.flat(), 14).filter((i) => !JUNK.test(i.title) && (assetsOf(i.title + " " + i.desc) !== "Broad market" || /\b(stocks?|markets?|economy|earnings|shares)\b/i.test(i.title)));
   const clusters = [];
   for (const i of items) { const c = clusters.find((k) => L.similarity(k[0].title, i.title) > 0.5); c ? c.push(i) : clusters.push([i]); }
   clusters.sort((a, b) => new Set(b.map((x) => x.source)).size - new Set(a.map((x) => x.source)).size || (b[0].date || 0) - (a[0].date || 0));
@@ -185,7 +198,7 @@ async function stockCard(q) {
   // New and notable coins: trending coins outside the top 100.
   const newCoins = [];
   for (const t of (tr && tr.coins || []).filter((t) => !by[t.id]).slice(0, 4)) {
-    const news = dedupe(recent(await L.readFeed(gnews(`"${t.name}" crypto`), "Google News"), 72)).slice(0, 2);
+    const news = dedupe(relevant(recent(await L.readFeed(gnews(`"${t.name}" crypto`), "Google News"), 72), [t.name, t.symbol.length >= 3 ? t.symbol : null])).slice(0, 2);
     const mcap = typeof t.mcap === "string" ? t.mcap : t.mcap ? big(t.mcap) : null;
     newCoins.push({
       name: t.name, symbol: t.symbol,

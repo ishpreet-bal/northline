@@ -50,7 +50,9 @@ function parseFeed(xml, sourceName) {
     if (src) source = src;
     // Google News titles end with " - Outlet"
     if (/news\.google\./.test(link) && / - [^-]+$/.test(title)) { const i = title.lastIndexOf(" - "); source = title.slice(i + 3); title = title.slice(0, i); }
-    if (title && link) out.push({ title, link, desc, date: isNaN(date) ? null : date, source });
+    // Google News descriptions only repeat the headline, so drop them
+    const d = /news\.google\./.test(link) ? "" : desc;
+    if (title && link) out.push({ title, link, desc: d, date: isNaN(date) ? null : date, source });
   }
   return out;
 }
@@ -73,13 +75,14 @@ function excerpt(s, n = 2, max = 320) {
 }
 
 const STOP = new Set("a an the and or of to in on for at by with from as is are was were be been it its this that after over into amid says said say new will could would can may up down about than more most out off but not no how why what who when where his her their they he she we you your our has have had do does did just".split(" "));
-function words(s) { return String(s || "").toLowerCase().replace(/[^a-z0-9$%. ]+/g, " ").split(/\s+/).map(w => w.replace(/\.$/, "")).filter(w => w.length > 2 && !STOP.has(w)); }
+function words(s) { return String(s || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9$%. ]+/g, " ").split(/\s+/).map(w => w.replace(/\.$/, "")).filter(w => w.length > 2 && !STOP.has(w)); }
 function similarity(a, b) {
   const A = new Set(words(a)), B = new Set(words(b));
   if (!A.size || !B.size) return 0;
   let n = 0; for (const w of A) if (B.has(w)) n++;
   return n / Math.min(A.size, B.size);
 }
+function shared(a, b) { const A = new Set(words(a)); return [...new Set(words(b))].filter((w) => A.has(w)).length; }
 function slug(s, n = 6) { return words(s).slice(0, n).join("-").replace(/[^a-z0-9-]/g, "").slice(0, 60) || "story"; }
 
 // Toronto time helpers
@@ -97,4 +100,4 @@ function clock(h, m) { const ap = h >= 12 ? "PM" : "AM"; const hh = h % 12 || 12
 function readJSON(rel, fallback = null) { try { return JSON.parse(fs.readFileSync(path.join(ROOT, rel), "utf8")); } catch { return fallback; } }
 function writeJSON(rel, obj) { const p = path.join(ROOT, rel); fs.mkdirSync(path.dirname(p), { recursive: true }); fs.writeFileSync(p, JSON.stringify(obj, null, 2) + "\n"); }
 
-module.exports = { ROOT, fetchText, readFeed, parseFeed, clean, excerpt, words, similarity, slug, torontoParts, isoToronto, clock, readJSON, writeJSON };
+module.exports = { ROOT, fetchText, readFeed, parseFeed, clean, excerpt, words, similarity, shared, slug, torontoParts, isoToronto, clock, readJSON, writeJSON };
