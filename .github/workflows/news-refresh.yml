@@ -1,0 +1,24 @@
+name: News refresh (every 3 hours, no AI)
+on:
+  schedule:
+    - cron: "42 */3 * * *"   # every 3 hours at :42 UTC
+  workflow_dispatch: {}
+permissions:
+  contents: write
+concurrency:
+  group: northline-data
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/news-refresh.js
+      - name: Commit and push
+        env:
+          VERCEL_DEPLOY_HOOK_URL: ${{ secrets.VERCEL_DEPLOY_HOOK_URL }}
+        run: bash scripts/publish.sh "Edition" data/current.json data/week.json data/index.json data/days

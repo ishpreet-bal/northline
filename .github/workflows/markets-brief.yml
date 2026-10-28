@@ -1,0 +1,24 @@
+name: Markets brief (hourly, no AI)
+on:
+  schedule:
+    - cron: "22 * * * *"   # every hour at :22 (GitHub may start it a few minutes late)
+  workflow_dispatch: {}
+permissions:
+  contents: write
+concurrency:
+  group: northline-data
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/markets-brief.js
+      - name: Commit and push
+        env:
+          VERCEL_DEPLOY_HOOK_URL: ${{ secrets.VERCEL_DEPLOY_HOOK_URL }}
+        run: bash scripts/publish.sh "Markets brief" data/markets.json
