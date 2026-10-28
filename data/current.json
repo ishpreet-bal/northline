@@ -1,16 +1,11 @@
 {
-  "briefing": "Israeli TV exit polls after the vote show neither Netanyahu's bloc nor the opposition reaching the 61 seats needed to govern, with Likud and Gadi Eisenkot's Yashar party close behind each other. At Queen's Park, Premier Ford is standing by his colleges minister over the OSAP student-aid changes, a day before the Bank of Canada and the Fed announce rate decisions, with a Canadian hike to 2.50% widely expected.",
-  "headline": "Israel exit polls show deadlock; rate decisions loom",
+  "briefing": "Gadi Eisenkot has declared victory in Israel after exit polls gave his opposition bloc about 53 seats to 50 for Netanyahu's camp, but neither side has the 61 needed and the count could run to Friday. Here at home, the Bank of Canada and the U.S. Federal Reserve both announce rate decisions Wednesday, with a Canadian hike to 2.50% widely expected, and Ontario's fall economic statement follows Thursday.",
+  "headline": "Eisenkot claims Israeli win; rate decisions due Wednesday",
   "keyDates": [
-    {
-      "date": "2026-10-27",
-      "label": "Israeli count and exit polls",
-      "why": "Official counting continues after the TV exit polls; coalition talks are expected to take weeks."
-    },
     {
       "date": "2026-10-28",
       "label": "Bank of Canada and Fed decisions",
-      "why": "Both central banks set rates the same day; swaps price a strong chance the Bank of Canada hikes to 2.50%."
+      "why": "Both central banks set rates the same day; markets see a strong chance the Bank of Canada hikes to 2.50%."
     },
     {
       "date": "2026-10-29",
@@ -26,39 +21,44 @@
       "date": "2026-11-03",
       "label": "U.S. midterm elections",
       "why": "Control of Congress decides how much room Trump has on tariffs and the Iran war."
+    },
+    {
+      "date": "2026-11-04",
+      "label": "Israel certifies results",
+      "why": "Final Knesset results are due, after which President Herzog consults parties on who can form a government."
     }
   ],
-  "nextRefresh": "around 9 PM",
+  "nextRefresh": "around 6 AM",
   "stories": [
     {
       "backstory": "This is Israel's first national election since the Hamas attack of October 7, 2023, and the long Gaza war that followed. Netanyahu, the country's longest-serving prime minister, leads a coalition of Likud with ultra-Orthodox and far-right parties and is still on trial for corruption, which he denies. The opposition has campaigned on accountability for the security failures before October 7, while the war with Iran and the military-service exemption for ultra-Orthodox men are also major issues. In Israel the biggest party does not automatically govern; whoever can assemble 61 seats forms the government.",
-      "headline": "Israel exit polls show deadlock: Likud and Eisenkot's party close, no bloc at 61",
+      "headline": "Eisenkot claims win as Israel's exit polls show a split Knesset",
       "id": "israel-election",
       "impact": "For Ontario residents the main channel is energy: a government seen as more or less willing to strike Iran again could move crude and gasoline prices at GTA pumps. The vote also matters to many Jewish, Arab and Muslim families in the GTA with ties to the region.",
       "impactLevel": "medium",
-      "now": "The three main Israeli TV exit polls put Likud as the largest party at roughly 24 to 25 seats, with Gadi Eisenkot's Yashar party at roughly 21 to 23. Channel 12 projects the opposition bloc at about 52 seats against 50 for Netanyahu's bloc, so neither reaches the 61 of 120 needed. Arab parties are projected to win a record number of seats, which could make them pivotal, though analysts say that does not automatically mean they would back an opposition-led government. Exit polls are unofficial and have been wrong before, and the final allocation can move as ballots are counted. Earlier, turnout hit a record 66.7% by 6 p.m. local time.",
+      "now": "Averaging the Kan 11, Channel 12 and Channel 13 exit polls, the opposition bloc is projected at about 52 to 53 seats, Netanyahu's bloc at 50 and Arab parties at about 17 combined, so no camp reaches 61 of 120. Eisenkot, whose Yashar party is projected at 19 to 23 seats, declared victory late Tuesday Israel time and called the result a clear loss of confidence in Netanyahu, while Likud figures said the celebrations were premature. Final turnout was reported at 77.7%, the highest in decades, with a notable surge among Arab voters. Officials warn that counting special double-envelope ballots could run into Friday, with certification on Nov. 4, after which President Isaac Herzog consults parties on who should try to form a government.",
       "rank": 1,
       "region": "world",
       "sources": [
         {
-          "title": "CNN: Israeli election results, exit polls",
-          "url": "https://www.cnn.com/2026/10/27/world/live-news/israel-elections-live-results-latest-votes-intl"
+          "title": "Jerusalem Post: Israel election live updates",
+          "url": "https://www.jpost.com/israel-election-2026/2026-10-27/live-updates-912992"
         },
         {
-          "title": "Jerusalem Post: Exit polls, neither Netanyahu nor Eisenkot wins majority",
-          "url": "https://www.jpost.com/israel-election-2026/article-913053"
+          "title": "Ynet: Eisenkot responds to exit polls",
+          "url": "https://www.ynetnews.com/article/ryu6afrnzg"
         },
         {
-          "title": "NBC News: Israel election live updates",
-          "url": "https://www.nbcnews.com/world/israel/live-blog/israel-election-live-updates-netanyahu-eisenkot-voters-war-iran-gaza-rcna604979"
+          "title": "JTA: Netanyahu leads in exit polls, but change bloc has more seats",
+          "url": "https://www.jta.org/2026/10/27/israel/netanyahu-leads-in-exit-polls-but-change-bloc-by-eisenkot-has-more-seats"
         },
         {
-          "title": "Times of Israel: Turnout at 66.7% as of 6 p.m.",
-          "url": "https://www.timesofisrael.com/liveblog_entry/voter-turnout-at-66-7-as-of-6-p-m-keeping-up-all-time-record-numbers/"
+          "title": "Al Jazeera: Israel election results live",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/10/27/israel-election-results-live-exit-polls-soon-as-netanyahu-faces-tight-race"
         }
       ],
       "status": "developing",
-      "summary": "Israeli TV exit polls after a record-turnout vote show neither Benjamin Netanyahu's bloc nor the opposition reaching a 61-seat majority. Official results will shift the numbers, and coalition talks are expected to take weeks.",
+      "summary": "Averaged TV exit polls give the opposition bloc about 53 seats to roughly 50 for Netanyahu's camp, with Likud still the largest party. Gadi Eisenkot has declared victory, but neither side reaches 61 and the full count may run to Friday.",
       "timeline": [
         {
           "date": "2023",
@@ -78,19 +78,15 @@
         },
         {
           "date": "Oct 27",
-          "event": "Polls open; about 7.3 million eligible"
+          "event": "Turnout hits 77.7%; exit polls show no majority"
         },
         {
           "date": "Oct 27",
-          "event": "Record turnout of 66.7% by 6 p.m."
-        },
-        {
-          "date": "Oct 27",
-          "event": "Exit polls show neither bloc at 61 seats"
+          "event": "Eisenkot declares victory"
         }
       ],
       "topic": "Israel vote",
-      "updatedAt": "2026-10-27T16:58:00-04:00",
+      "updatedAt": "2026-10-27T20:45:00-04:00",
       "why": "The result will shape Israel's approach to the Iran war, Gaza and relations with its neighbours, all of which feed into oil prices. A deadlock could mean weeks of coalition bargaining or even another election."
     },
     {
@@ -213,11 +209,11 @@
     },
     {
       "backstory": "The U.S. and Israel began striking Iran on February 28, 2026, in the middle of nuclear talks. The first wave killed Supreme Leader Ali Khamenei. Iran answered with missiles and drones on Israel, Gulf states and U.S. bases, and closed the Strait of Hormuz, the channel that roughly a fifth of the world's oil normally passes through. A peace memorandum signed in June briefly reopened shipping, but it fell apart in July when Iran started attacking commercial ships again to press its claim over the strait.",
-      "headline": "Iran's leader repeats terms to end war as oil eases toward US$114",
+      "headline": "Iran's leader repeats terms to end war as Brent settles near US$114",
       "id": "iran-hormuz",
       "impact": "This is a big part of why gas and diesel in Ontario stay expensive: GTA regular is forecast around $1.80 a litre on Friday and diesel near $2.65. Diesel feeds straight into grocery and delivery prices, and higher fuel is one reason the Bank of Canada has been cautious about cutting rates.",
       "impactLevel": "high",
-      "now": "Khamenei met security council secretary Mohsen Rezaei on Tuesday and said Iran's demands, chiefly an end to the U.S. naval blockade of its ports and to oil sanctions, must be met to end what he called a state of 'neither war nor peace'; an Iranian official says the nuclear program won't be discussed until then, while U.S. Vice-President JD Vance insists Iran cut enrichment. Brent crude traded around US$114.70 a barrel Tuesday, down about 1% after settling at US$115.81 Monday, with U.S. crude (WTI) near US$101. The Saudi-led coalition said it destroyed three Houthi drones aimed at Riyadh and southern Saudi Arabia on Monday, after Egypt's parliament authorized troops for Saudi Arabia. The Fed and Bank of Canada both weigh the oil shock in Wednesday's rate decisions.",
+      "now": "Khamenei met security council secretary Mohsen Rezaei on Tuesday and said Iran's demands, chiefly an end to the U.S. naval blockade of its ports and to oil sanctions, must be met to end what he called a state of 'neither war nor peace'; an Iranian official says the nuclear program won't be discussed until then, while U.S. Vice-President JD Vance insists Iran cut enrichment. Brent crude settled about 1.5% lower Tuesday at roughly US$114 a barrel, and U.S. crude (WTI) settled near US$100. The Saudi-led coalition said it destroyed three Houthi drones aimed at Riyadh and southern Saudi Arabia on Monday, after Egypt's parliament authorized troops for Saudi Arabia. The Fed and Bank of Canada both weigh the oil shock in Wednesday's rate decisions.",
       "rank": 4,
       "region": "world",
       "sources": [
@@ -226,8 +222,8 @@
           "url": "https://www.turkiyetoday.com/region/mojtaba-khamenei-says-irans-conditions-must-be-met-to-end-neither-war-nor-peace-3231133"
         },
         {
-          "title": "FinanceFeeds: Brent near $114.68 Tuesday",
-          "url": "https://financefeeds.com/brent-crude-oil-price-114-68-tuesday-fomc-day-one-after-monday-round-trip-tehran-talks-bull-120-bear-108/"
+          "title": "Finwire: Oil settles lower ahead of Fed",
+          "url": "https://finwire.io/news/stock-markets-news/nasdaq-rises-114-as-chip-stocks-rally-ahead-of-fed-decision"
         },
         {
           "title": "Just Security: Early Edition, October 27",
@@ -267,7 +263,7 @@
         }
       ],
       "topic": "Iran war",
-      "updatedAt": "2026-10-27T14:43:00-04:00",
+      "updatedAt": "2026-10-27T17:50:00-04:00",
       "why": "A renewed U.S. strike on Iran, or a wider Houthi campaign against Saudi oil, could push crude even higher just as Canada's inflation is running at 3.1%. The Bank of Canada meets Wednesday with energy prices front and centre."
     },
     {
@@ -543,29 +539,29 @@
     },
     {
       "backstory": "Tech giants have poured hundreds of billions of dollars into data centres and chips for AI, and those stocks have driven much of the market's gains. Investors have swung between excitement and doubt about whether the spending will pay off. This year's oil shock from the Iran war has also kept inflation and interest-rate worries alive.",
-      "headline": "Tech lifts stocks at midday as the Fed opens its meeting",
+      "headline": "Chip rally lifts Nasdaq 1.1% as Boeing sinks ahead of the Fed",
       "id": "us-markets-ai-selloff",
       "impact": "Many Ontario RRSPs, TFSAs and pension plans hold U.S. tech through index funds, so today's bounce partly offsets last week's dip. A slightly weaker loonie makes cross-border shopping and U.S. trips a touch pricier.",
       "impactLevel": "medium",
-      "now": "By late morning the S&P 500 was up about 0.6% at roughly 7,720, the Nasdaq up about 1.1% and the Dow little changed, with chip stocks up close to 2%. Royal Caribbean jumped more than 7% after raising its profit forecast, SoFi surged about 15% on an earnings beat, and General Motors rose about 5% after saying it will move its listing to the Nasdaq; Boeing fell about 2% after a larger-than-expected loss. Gold rose about 1.2% to near US$4,063 an ounce and the 10-year U.S. Treasury yield was about 4.99%. The Fed and Bank of Canada both announce rates Wednesday, when Alphabet and Microsoft also report.",
+      "now": "The Nasdaq closed up 1.14% at 26,467 and the S&P 500 rose 0.57% to 7,721, while the Dow ended essentially flat at 52,364. Broadcom gained about 4% after a US$63-billion financing package tied to its chips for Anthropic, AMD rose about 5% and Micron more than 3%. Boeing fell 9.7% after a bigger-than-expected quarterly loss, while JetBlue jumped 18% and Royal Caribbean 6.5%. U.S. crude settled near US$100 a barrel, and the Fed and Bank of Canada both announce rates Wednesday, when Alphabet and Microsoft also report.",
       "rank": 10,
       "region": "us",
       "sources": [
         {
-          "title": "Motley Fool: Stock market midday, Oct. 27",
-          "url": "https://www.fool.com/coverage/stock-market-today/2026/10/27/stock-market-midday-oct-27-tech-stocks-lead-as-nasdaq-climbs-on-market-momentum/"
+          "title": "Finwire: Nasdaq rises 1.14% as chip stocks rally",
+          "url": "https://finwire.io/news/stock-markets-news/nasdaq-rises-114-as-chip-stocks-rally-ahead-of-fed-decision"
+        },
+        {
+          "title": "BNN Bloomberg: TSX up, U.S. markets higher",
+          "url": "https://www.bnnbloomberg.ca/markets/2026/10/27/sptsx-composite-up-more-than-100-points-us-stock-markets-also-trade-higher/"
         },
         {
           "title": "Kitco/Reuters: S&P 500, Nasdaq advance as oil eases",
           "url": "https://www.kitco.com/news/off-the-wire/2026-10-27/sp-500-nasdaq-advance-oil-eases-ahead-fed-decision"
-        },
-        {
-          "title": "Investing.com: TSX higher at Monday close",
-          "url": "https://www.investing.com/news/stock-market-news/canada-stocks-higher-at-close-of-trade-sptsx-composite-up-044-4973636"
         }
       ],
       "status": "developing",
-      "summary": "U.S. stocks rose Tuesday led by chipmakers and strong earnings, while investors waited for Wednesday's Federal Reserve decision.",
+      "summary": "U.S. stocks closed higher Tuesday, led by chipmakers, while investors waited for Wednesday's Federal Reserve decision.",
       "timeline": [
         {
           "date": "Feb 28",
@@ -589,11 +585,11 @@
         },
         {
           "date": "Oct 27",
-          "event": "Fed meeting opens; Boeing narrows loss."
+          "event": "Nasdaq up 1.1%; Boeing drops nearly 10%"
         }
       ],
       "topic": "Markets",
-      "updatedAt": "2026-10-27T14:43:00-04:00",
+      "updatedAt": "2026-10-27T17:50:00-04:00",
       "why": "Big tech makes up a large share of U.S. stock indexes, so how investors treat AI companies, including a very large new listing, moves retirement accounts widely. Lower oil is also easing some of last week's inflation and rate fears."
     },
     {
@@ -703,13 +699,56 @@
       "why": "First Nations support or opposition can make or break the pipelines, mines and power lines at the centre of Ottawa's plan to cut reliance on the U.S. market. The UAE and EU visits are part of the same diversification push."
     },
     {
+      "backstory": "Trump has long questioned mail-in voting, and California mails a ballot to every registered voter. The Justice Department has sued 30 states and Washington, D.C., for voter-roll data and, according to Reuters, has lost 26 of those cases and won none. Studies and court records show voting by non-citizens is rare; a Reuters review found 129 federal cases since 1996. Last week federal authorities charged 28 immigrants in California with illegal voting.",
+      "headline": "Appeals court refuses to set aside 20,000 California mail ballots",
+      "id": "california-ballots-ruling",
+      "impact": "There is no direct effect on Ontario voters, but a contested U.S. result could unsettle markets and the Canadian dollar. Fights over certification could also delay clarity on which party will shape tariff policy toward Canada.",
+      "impactLevel": "low",
+      "now": "A three-judge panel of the 9th U.S. Circuit Court of Appeals ruled 2-1 against the Justice Department's request to set aside roughly 20,000 mailed ballots and declined to stop California from counting them. Judge Gabriel Sanchez wrote that granting the request would invite disorder and confusion for voters and election officials, stressing that running elections is a state responsibility. The administration sued California on Oct. 15 but has not explained publicly how it identified the voters as ineligible; California's lawyers called the suit a reckless political stunt. The case continues in a lower court. Separately, the department is suing in Alaska to stop a possible Democratic Senate win from being certified.",
+      "rank": 13,
+      "region": "us",
+      "sources": [
+        {
+          "title": "Al Jazeera: US court rules against Trump administration in California voting case",
+          "url": "https://www.aljazeera.com/news/2026/10/27/us-court-rules-against-trump-administration-in-california-voting-case"
+        },
+        {
+          "title": "ABC News: Midterm elections live updates",
+          "url": "https://abcnews.com/Politics/live-updates/midterm-elections-2026-1-week-high-stakes-elections/?id=137578278"
+        }
+      ],
+      "status": "new",
+      "summary": "A U.S. appeals court rejected the Trump administration's bid to sequester about 20,000 California mail ballots it says went to likely non-citizens. The ruling comes a week before the Nov. 3 midterms, as the Justice Department presses several election lawsuits.",
+      "timeline": [
+        {
+          "date": "2025",
+          "event": "Justice Department starts suing states for voter rolls"
+        },
+        {
+          "date": "Oct 15",
+          "event": "U.S. sues California over 20,000 ballots"
+        },
+        {
+          "date": "Oct 23",
+          "event": "Justice Department sues over Alaska Senate race"
+        },
+        {
+          "date": "Oct 26",
+          "event": "9th Circuit rejects ballot sequester, 2-1"
+        }
+      ],
+      "topic": "Voting rights",
+      "updatedAt": "2026-10-27T15:00:00-04:00",
+      "why": "The rulings set limits on how far federal authorities can intervene in state-run elections days before a vote that decides control of Congress. More disputes over counting and certification are likely after Nov. 3."
+    },
+    {
       "backstory": "Russia's full-scale invasion is in its fifth year. Trump's envoys have made several trips to Moscow, while Zelenskyy has pushed for a leaders' meeting that Russia rejects. Russia has been pounding Ukraine's power grid ahead of winter, and Kyiv has struck Russian refineries in return. Ukraine has also complained about U.S. limits on intelligence sharing and a Starlink slowdown.",
       "headline": "UN inquiry calls Russia's energy strikes a crime against humanity",
       "id": "ukraine-energy",
       "impact": "Canada is a major Ukraine backer and is being asked for more money at the October 29–30 Canada-EU summit, which affects federal spending. Any real progress toward peace could ease diesel and gas prices over time.",
       "impactLevel": "medium",
       "now": "A UN Commission of Inquiry told the General Assembly that Russia's sustained attacks on Ukraine's energy infrastructure amount to a crime against humanity. Ukrainian and Russian defence officials say the U.S.-brokered ceasefire around occupied Oleshky is holding so aid and evacuations can proceed; Ukraine estimates about 6,000 people remain there, down from 24,000. A Russian attack damaged Kyiv's Southern Bridge and subway infrastructure, and President Volodymyr Zelenskyy says Ukraine has waited nearly a month for U.S. approval to send air-defence missiles. Finland's and Norway's leaders held calls with Vladimir Putin and then Zelenskyy ahead of planned meetings in Abu Dhabi.",
-      "rank": 13,
+      "rank": 14,
       "region": "world",
       "sources": [
         {
@@ -756,58 +795,7 @@
       "topic": "Russia–Ukraine",
       "updatedAt": "2026-10-27T08:48:23-04:00",
       "why": "It is the first concrete sign in weeks that direct talks could restart, but both sides are still escalating strikes, and Moscow continues to demand all of Donetsk and no NATO membership for Kyiv. Moscow's offer to help on Iran also links the two wars driving energy prices."
-    },
-    {
-      "backstory": "Peltola, a former one-term congresswoman, topped the August nonpartisan primary and is in a close race with Sullivan. Alaska uses ranked-choice voting, so voters can rank both Sullivans if they are unsure. Democrats and voting-rights groups have long warned the administration might try to stop states from certifying races Trump's party loses. Under the Constitution, states run their own elections within rules set by Congress.",
-      "headline": "Justice Department sues to block a possible Democratic win in Alaska",
-      "id": "doj-alaska-senate-suit",
-      "impact": "There is no direct effect on Ontario, but a fight over who controls the U.S. Senate would shape how much room Trump has on tariffs against Canada next year.",
-      "impactLevel": "low",
-      "now": "The U.S. Justice Department filed the suit in federal court in Alaska, 11 days before the November 3 vote, and Trump said he ordered it. It targets Daniel J. Sullivan of Petersburg, who appears on the ballot with no party label and drew 4,107 votes (about 2%) in the August primary, versus more than 68,000 for the incumbent. The suit also asks for a probe into whether votes for him were meant for the senator; Republicans call him a Democratic plant, which he denies, and Alaska's Supreme Court already refused to remove him. Attorney General Todd Blanche said the department does not aim to interfere improperly, while Democrats called it a sham, and a Notre Dame election-law expert said the statute does not appear to allow blocking certification. Separately, Fox News reports Peltola and family members suffered minor injuries in a two-vehicle crash in Anchorage on Saturday night, and her campaign postponed some appearances.",
-      "rank": 14,
-      "region": "us",
-      "sources": [
-        {
-          "title": "Alaska Public Media: Administration sues over Alaska Senate race",
-          "url": "https://alaskapublic.org/news/politics/elections/2026-10-23/trumps-administration-sues-to-block-a-possible-democratic-win-in-the-alaska-u-s-senate-race"
-        },
-        {
-          "title": "The Hill: DOJ sues to block Alaska results if Sullivan loses",
-          "url": "https://thehill.com/homenews/campaign/6168331-justice-department-sues-to-block-alaska-results-if-sullivan-loses/"
-        },
-        {
-          "title": "Al Jazeera: Why is Trump's DOJ suing in Alaska?",
-          "url": "https://www.aljazeera.com/news/2026/10/24/dan-sullivan-vs-dan-sullivan-why-is-trumps-doj-suing-in-alaska"
-        },
-        {
-          "title": "Fox News: Midterm live blog, Oct. 25",
-          "url": "https://www.foxnews.com/live-news/midterm-elections-2026-trump-obama-michigan-alaska-october-25"
-        }
-      ],
-      "status": "developing",
-      "summary": "The Trump administration asked a federal court to stop Alaska from certifying a Senate victory for Democrat Mary Peltola if a man sharing Republican Sen. Dan Sullivan's name stays on the ballot.",
-      "timeline": [
-        {
-          "date": "Aug",
-          "event": "Peltola tops Alaska's nonpartisan primary."
-        },
-        {
-          "date": "Oct 21",
-          "event": "Trump says he is weighing legal options."
-        },
-        {
-          "date": "Oct 22",
-          "event": "Justice Department files suit in Alaska."
-        },
-        {
-          "date": "Oct 24",
-          "event": "Peltola hurt in minor car crash; events postponed."
-        }
-      ],
-      "topic": "Elections",
-      "updatedAt": "2026-10-25T14:46:12-04:00",
-      "why": "It is the first federal attempt this cycle to pre-emptively challenge certification of a race, and Senate control could hinge on a handful of seats."
     }
   ],
-  "updatedAt": "2026-10-27T16:58:00-04:00"
+  "updatedAt": "2026-10-27T20:55:00-04:00"
 }
