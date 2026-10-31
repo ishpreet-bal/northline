@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-31T14:30:00-04:00",
-  "nextRefresh": "around 3:22 PM",
-  "headline": "Crypto edges up ahead of Binance's Sunday withdrawal restart; stocks shut",
-  "summary": "Stocks are closed for the weekend after Friday's worst day since June: the Nasdaq fell 2.9%, the S&P 500 1.8% and the TSX 1.7% on worries about runaway AI spending and a slump in gold. Crypto is steady on Saturday afternoon, with bitcoin up about 0.9% near $77,600 and ether up about 1% near $2,256, as Binance says it has replaced 90% of the $6.3 billion stolen on Oct. 29 and plans to begin reopening withdrawals on Sunday; lending tokens like Morpho and Aave and the bitcoin-linked Stacks are bouncing hardest. Next week is packed: Apple, Shopify and AMD earnings, the U.S. midterms on Tuesday and the U.S. jobs report on Friday.",
+  "updatedAt": "2026-10-31T15:30:00-04:00",
+  "nextRefresh": "around 4:22 PM",
+  "headline": "Crypto holds gains as Binance readies Sunday withdrawal restart; stocks closed",
+  "summary": "Stocks are closed for the weekend after Friday's worst day since June: the Nasdaq fell 2.9%, the S&P 500 1.8% and the TSX 1.7% on worries about runaway AI spending and a slump in gold. Crypto is steady on Saturday afternoon, with bitcoin up about 1.5% near $77,500 and ether up about 1.4% near $2,255, as Binance says it has covered 90% of the $6.3 billion stolen on Oct. 29 and plans to start reopening withdrawals on Sunday; Stacks, Morpho and Aave are bouncing hardest while Tron and Bitway lag. Next week is packed: Apple, Shopify and AMD earnings, the U.S. midterms on Tuesday and the U.S. jobs report on Friday.",
   "mood": {
     "crypto": {
       "label": "Fearful",
-      "why": "The Fear & Greed index sits at 30 (Fear), down from 51 earlier in the week, and the whole crypto market is worth about $2.63 trillion, down 2% in 24 hours, even as bitcoin itself edges up."
+      "why": "The Fear & Greed index sits at 30 (Fear), down from 51 earlier in the week, and the whole crypto market is worth about $2.63 trillion, down 1.4% in 24 hours, even as bitcoin and ether edge up."
     },
     "stocks": {
       "label": "Risk-off",
@@ -50,7 +50,7 @@
       "id": "bitcoin",
       "symbol": "BTC",
       "name": "Bitcoin",
-      "move": "Up 0.9% in 24h but down 3.1% this week, at about $77,600 (down 7.7% over 30 days)",
+      "move": "Up 1.5% in 24h but down 3.3% this week, at about $77,500 (down 8.5% over 30 days)",
       "why": "Bitcoin hit about $81,900 on Thursday before the Binance hack news set off a wave of liquidations (forced selling of borrowed, leveraged bets), sending it to a six-week low near $76,300. U.S. spot bitcoin ETFs (funds that hold real bitcoin and trade like stocks) saw about $643 million of outflows on Friday, ending four days of inflows. On Saturday it is holding steady as Binance says it has covered 90% of the stolen assets and plans to reopen withdrawals on Sunday.",
       "meaning": "The price held up better than you might expect after the largest crypto theft ever, which suggests the hack is being treated as a Binance problem rather than a flaw in bitcoin itself. But with ETF buyers retreating and rates possibly rising, there is little fresh demand to lift it quickly.",
       "outlook": {
@@ -84,7 +84,7 @@
       "id": "ethereum",
       "symbol": "ETH",
       "name": "Ethereum",
-      "move": "Up 1.0% in 24h but down 2.7% this week, at about $2,256 (down 15.9% over 30 days)",
+      "move": "Up 1.4% in 24h but down 2.9% this week, at about $2,255 (down 16.4% over 30 days)",
       "why": "A large share of the stolen Binance funds was ether and stablecoins, and ether dropped more than 3% to a two-month low near $2,178 when the hack broke. Ether ETFs also had outflows of about $156 million on the same day bitcoin funds bled $643 million. It has since steadied around $2,250.",
       "meaning": "Ether has fallen harder than bitcoin over the past month, a sign that investors are favouring the biggest, most liquid coin when nervous. A holder should expect bigger swings than bitcoin in either direction.",
       "outlook": {
@@ -110,7 +110,7 @@
       "id": "solana",
       "symbol": "SOL",
       "name": "Solana",
-      "move": "Up 2.2% in 24h but down 4.4% this week, at about $96 (down 18% over 30 days)",
+      "move": "Up 1.9% in 24h but down 4.5% this week, at about $96 (down 18.8% over 30 days)",
       "why": "Solana has no major coin-specific news this week; it is moving with the broader market, which turned risk-averse after the Binance hack and the tech-stock sell-off. Its 30-day loss is more than double bitcoin's, typical of higher-risk coins in a falling market.",
       "meaning": "Solana tends to amplify bitcoin's moves. Until the broader market settles, its direction will mostly follow bitcoin.",
       "outlook": {
@@ -132,7 +132,7 @@
       "id": "tron",
       "symbol": "TRX",
       "name": "TRON",
-      "move": "Down 7.8% in 24h and 6.6% this week, to about $0.31",
+      "move": "Down 7.3% in 24h and 6.5% this week, to about $0.31 (down 8.1% over 30 days)",
       "why": "TRON had climbed above $0.36 right after the Binance hack, but blockchain firm TRM Labs says much of that buying came from the attackers themselves: they moved about $628 million through the TRON network and swapped roughly $234 million of the stablecoin USDT into TRX before Tether froze the linked wallets. With that artificial demand gone, the price has fallen back and given up the whole spike. Derivatives traders are also leaning bearish, with funding rates (the fee between long and short traders) negative.",
       "meaning": "The earlier jump was not a sign of real new demand, so holders should not read it as a breakout. TRON's core business, moving USDT payments, is unchanged, but the coin may stay volatile while hacker-linked TRX is still in circulation.",
       "outlook": {
@@ -158,7 +158,7 @@
       "id": "hyperliquid",
       "symbol": "HYPE",
       "name": "Hyperliquid",
-      "move": "Down 2.1% in 24h but up 16% this week, at about $88",
+      "move": "Down 2.5% in 24h but up 16.5% this week, at about $88",
       "why": "HYPE jumped about 15% on Thursday after Intercontinental Exchange, owner of the New York Stock Exchange, agreed to work with TradeXYZ to offer Hyperliquid-based perpetual futures (contracts with no expiry date) to U.S. traders, pending regulatory approval. Some of that gain is now being given back. A modeled release of roughly 9.9 million HYPE (about $920 million) to core contributors is expected around Nov. 6.",
       "meaning": "The ICE deal is a big vote of confidence from traditional finance, but it still needs approval and has no launch date. The large scheduled unlock could add selling pressure in the short term.",
       "outlook": {
@@ -184,7 +184,7 @@
       "id": "aave",
       "symbol": "AAVE",
       "name": "Aave",
-      "move": "Up 7.3% in 24h and roughly flat this week, at about $135 (down 18.8% over 30 days)",
+      "move": "Up 7.0% in 24h and roughly flat this week, at about $134 (down 21% over 30 days)",
       "why": "Aave, the biggest crypto lending protocol, froze markets across 16 networks after a wallet linked to the Binance hacker started borrowing against stolen funds, then reopened them with nine assets still blocked from being used as collateral. Traders appear to be rewarding how quickly it contained the risk.",
       "meaning": "The bounce reflects relief that Aave avoided losses, not a change in the broader downtrend. Lending protocols are exposed if stolen or volatile assets are used as collateral, so its handling of the incident matters for confidence.",
       "outlook": {
@@ -210,7 +210,7 @@
       "id": "morpho",
       "symbol": "MORPHO",
       "name": "Morpho",
-      "move": "Up 15.9% in 24h and 12.3% this week, at about $2.38 (down 3.2% over 30 days)",
+      "move": "Up 16.9% in 24h and 12.8% this week, at about $2.39 (down 5.9% over 30 days)",
       "why": "Morpho, a DeFi (decentralized finance) lending network where users lend and borrow crypto without a bank, jumped alongside Aave as lending tokens bounced after this week's hack-driven sell-off. We found no single new announcement behind Saturday's move in major outlets, so it looks like short-term traders rotating back into the lending sector.",
       "meaning": "Lending tokens are recovering because the Binance hack did not spread into DeFi lending losses, but a one-day 16% jump with no clear news can reverse just as fast. It remains a higher-risk, smaller asset than bitcoin or ether.",
       "outlook": {
@@ -232,7 +232,7 @@
       "id": "zcash",
       "symbol": "ZEC",
       "name": "Zcash",
-      "move": "Up 5.0% in 24h and 10.9% this week, at about $1,287 (down 4.3% over 30 days)",
+      "move": "Up 5.1% in 24h and 10.3% this week, at about $1,278 (down 5.6% over 30 days)",
       "why": "Traders are positioning ahead of Zcash's NU7 network upgrade, targeted for Nov. 5, which cuts the target time between blocks from 75 seconds to 25 seconds for faster payments. The privacy coin has been one of the strongest performers of the year.",
       "meaning": "Upgrades often bring a 'buy the rumour, sell the news' pattern: prices can rise into the event and fall after it. Expect sharp swings around Nov. 5.",
       "outlook": {
@@ -254,7 +254,7 @@
       "id": "bitway",
       "symbol": "BTW",
       "name": "Bitway",
-      "move": "Down 8.8% in 24h and 36.6% this week, at about $1.11",
+      "move": "Down 12.5% in 24h and 35.6% this week, at about $1.11 (down 21.5% over 30 days)",
       "why": "Bitway is down almost 60% from its Oct. 14 record of $2.77 as traders sell ahead of a token unlock of about 101.6 million BTW (roughly 1% of total supply) on Nov. 2. Sources disagree on whether those tokens go to community pools or to early investors, who may be more likely to sell.",
       "meaning": "An unlock adds new tokens to the market; past Bitway unlocks were followed by an average drop of about 7% over two weeks, per CryptoTicker. Much of that risk may already be priced in after this week's slide, but volatility will stay extreme.",
       "outlook": {
@@ -280,7 +280,7 @@
       "id": "blockstack",
       "symbol": "STX",
       "name": "Stacks",
-      "move": "Up 19.7% in 24h and 8.1% this week, at about $0.33 (down 15.8% over 30 days)",
+      "move": "Up 21% in 24h and 11.2% this week, at about $0.34 (down 13.4% over 30 days)",
       "why": "Stacks, a network that adds smart contracts on top of bitcoin, has bounced sharply from recent lows. We found no single clear news catalyst in major outlets; the move looks driven by short-term traders.",
       "meaning": "Moves without a clear cause can reverse just as fast. It remains well below where it traded a month ago.",
       "outlook": {
@@ -586,7 +586,7 @@
       "name": "Lisk",
       "symbol": "LSK",
       "what": "An older blockchain project whose original chain was scheduled to shut down permanently on Oct. 31, 2026, with holders required to migrate tokens to Ethereum.",
-      "why": "It jumped about 54% in 24 hours and is trending on CoinGecko as the migration deadline hits; earlier spikes were driven by migration-related trading rather than new products.",
+      "why": "It jumped about 54% in 24 hours earlier on Saturday and is trending on CoinGecko as the migration deadline hits; earlier spikes were driven by migration-related trading rather than new products.",
       "risk": "very high",
       "redFlags": "Tokens not migrated in time become unrecoverable; Binance put a monitoring tag on LSK in July; deadline-driven spikes often reverse.",
       "sources": [
@@ -600,7 +600,7 @@
       "name": "Pearl",
       "symbol": "PRL",
       "what": "A new blockchain launched in April 2026 that claims its mining also does useful AI computing; all coins come from mining, with no team or investor allocation.",
-      "why": "It rose about sevenfold between August and mid-October and is now ranked about 104th by market value (roughly $514 million), though it has dropped about 10% in the past 24 hours.",
+      "why": "It rose about sevenfold between August and mid-October and is now ranked about 100th by market value (roughly $536 million), though it has dropped about 7% in the past 24 hours and 21% this week.",
       "risk": "very high",
       "redFlags": "A researcher showed miners can earn rewards without doing AI work; about 1 million new coins are mined daily, nearly doubling supply over a year; it trades on few exchanges with thin liquidity.",
       "sources": [
@@ -614,7 +614,7 @@
       "name": "Super Inu",
       "symbol": "SI",
       "what": "A small meme coin (a token with no real product, driven by online hype).",
-      "why": "It is trending on CoinGecko after jumping about 38% in 24 hours, to a market value of only about $24 million.",
+      "why": "It is trending on CoinGecko after jumping about 42% in 24 hours, to a market value of only about $24 million.",
       "risk": "very high",
       "redFlags": "No product; tiny market value, so a few trades move the price; ownership concentration unknown.",
       "sources": [
@@ -628,7 +628,7 @@
       "name": "Super Pepe",
       "symbol": "SP",
       "what": "A small meme coin themed on the Pepe frog meme.",
-      "why": "It is trending on CoinGecko after rising about 23% in 24 hours, with a market value near $18 million.",
+      "why": "It is trending on CoinGecko after rising about 15% in 24 hours, with a market value near $18 million.",
       "risk": "very high",
       "redFlags": "No product; very thin liquidity; copycat meme coins often collapse after brief spikes.",
       "sources": [
