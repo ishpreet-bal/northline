@@ -1,97 +1,97 @@
 {
-  "updatedAt": "2026-10-31T11:58:00-04:00",
-  "rangeStart": "2026-10-25",
+  "headline": "Oil, a rate hike and a bigger Ontario deficit define the week",
   "rangeEnd": "2026-10-31",
-  "headline": "Oil near US$118, a Bank of Canada hike and a $16.9B Ontario deficit defined the week",
-  "summary": "Brent crude climbed about 15% in October as tankers were hit near Hormuz, and the Bank of Canada raised rates while Statistics Canada reported the economy stalled in August. Ontario's fall update lifted the deficit to $16.9 billion, new U.S. tariffs took effect, and the U.S. midterms are Tuesday.",
+  "rangeStart": "2026-10-25",
+  "summary": "The Iran war pushed oil to its highest since April and helped prompt the Bank of Canada's first hike since 2023, even as the economy stalled. Ontario's deficit grew to $16.9 billion, U.S. tariffs shifted again, and the U.S. heads to the polls Tuesday.",
   "top": [
     {
-      "rank": 1,
+      "headline": "Oil tops US$117 as Hormuz tanker attacks continue",
       "id": "iran-hormuz",
+      "impactLevel": "high",
+      "latestDate": "2026-10-31",
+      "rank": 1,
       "region": "world",
-      "when": "Oct 25–31",
-      "impactLevel": "high",
-      "latestDate": "2026-10-31",
-      "headline": "Brent tops US$117 as two more tankers are hit near Hormuz",
-      "what": "Oil posted its fourth straight monthly gain on Friday after two tankers were damaged in the Strait of Hormuz within a day and Washington kept the option of new strikes on Iran open.",
-      "why": "In the briefing on 3 of the last 7 days."
+      "what": "Brent rose about 15% in October to its highest since April as tankers were hit and Washington kept strikes on Iran on the table.",
+      "when": "All week",
+      "why": "It keeps Ontario fuel and grocery costs high and drives inflation."
     },
     {
-      "rank": 2,
-      "id": "trade-war",
-      "region": "canada",
-      "when": "Oct 25–31",
-      "impactLevel": "high",
-      "latestDate": "2026-10-31",
-      "headline": "New U.S. tariff list takes effect as Ottawa reports little progress",
-      "what": "A reshuffled list of Canadian goods facing 50% U.S. tariffs took effect Friday, while a Canadian official said talks on steel and auto duties have made only limited progress.",
-      "why": "In the briefing on 3 of the last 7 days."
-    },
-    {
-      "rank": 3,
+      "headline": "Bank of Canada hikes to 2.50% as economy stalls",
       "id": "canada-inflation-september",
-      "region": "canada",
-      "when": "Oct 25–31",
       "impactLevel": "high",
-      "latestDate": "2026-10-30",
-      "headline": "Economy stalls in August, two days after Bank of Canada's hike",
-      "what": "Statistics Canada says the economy was flat in August and probably shrank 0.1% in September, a weak backdrop for the Bank of Canada's first rate increase since 2023.",
-      "why": "In the briefing on 3 of the last 7 days."
-    },
-    {
-      "rank": 4,
-      "id": "municipal-elections",
-      "region": "ontario",
-      "when": "Oct 25–31",
-      "impactLevel": "medium",
-      "latestDate": "2026-10-27",
-      "headline": "Chow re-elected; GTA voters oust mayors in Mississauga, Hamilton, Oakville and Milton",
-      "what": "Olivia Chow won a second term as Toronto mayor, and final counts show voters across the region replaced several long-serving incumbents.",
-      "why": "In the briefing on 3 of the last 7 days."
-    },
-    {
-      "rank": 5,
-      "id": "us-midterms",
-      "region": "us",
-      "when": "Oct 25–31",
-      "impactLevel": "medium",
       "latestDate": "2026-10-31",
-      "headline": "Senate control a toss-up as midterms enter final weekend",
-      "what": "With Election Day on Tuesday, forecasters see control of the U.S. Senate hinging on about six states, and both parties are pouring in late money.",
-      "why": "In the briefing on 3 of the last 7 days."
+      "rank": 2,
+      "region": "canada",
+      "what": "The bank raised rates for the first time since 2023, then data showed August GDP flat and September likely down 0.1%.",
+      "when": "Oct 28–30",
+      "why": "Borrowing costs rise just as growth fades."
     },
     {
-      "rank": 6,
+      "headline": "Ontario deficit grows to $16.9 billion",
       "id": "ontario-fall-economic-statement",
+      "impactLevel": "high",
+      "latestDate": "2026-10-31",
+      "rank": 3,
       "region": "ontario",
-      "when": "Oct 25–31",
-      "impactLevel": "medium",
-      "latestDate": "2026-10-29",
-      "headline": "Ontario deficit grows to $16.9 billion; balance pushed to 2029-30",
-      "what": "Finance Minister Peter Bethlenfalvy's fall update raised this year's deficit by more than $3 billion and delayed a balanced budget by a year as the trade war slows growth.",
-      "why": "In the briefing on 3 of the last 7 days."
+      "what": "The fall update raised this year's deficit, cut growth to 0.5% and pushed balance to 2029-30.",
+      "when": "Oct 28–29",
+      "why": "It limits Queen's Park's room for relief and signals a weak provincial economy."
     },
     {
-      "rank": 7,
-      "id": "ukraine-energy",
-      "region": "world",
-      "when": "Oct 25–31",
+      "headline": "U.S. tariff list shifts as Canada reports little progress",
+      "id": "trade-war",
+      "impactLevel": "high",
+      "latestDate": "2026-10-31",
+      "rank": 4,
+      "region": "canada",
+      "what": "Talks on steel and autos continued with limited progress, and a revised 50% tariff list took effect Oct. 30.",
+      "when": "All week",
+      "why": "Ontario factory jobs remain exposed."
+    },
+    {
+      "headline": "Senate control a toss-up heading into Nov. 3",
+      "id": "us-midterms",
       "impactLevel": "medium",
       "latestDate": "2026-10-31",
-      "headline": "U.S. approves 500 Patriot missiles for Ukraine as Russia keeps up strikes",
-      "what": "Washington cleared the sale of 500 Patriot air-defence missiles to Kyiv as Russia fired more than 100 drones and several missiles overnight, while Moscow signalled no change in its war aims.",
-      "why": "In the briefing on 3 of the last 7 days."
+      "rank": 5,
+      "region": "us",
+      "what": "Polls tightened in key states and forecasters call the Senate a toss-up.",
+      "when": "All week",
+      "why": "The result shapes U.S. trade and Iran policy that affects Canada."
     },
     {
+      "headline": "Chow re-elected; several GTA mayors ousted",
+      "id": "municipal-elections",
+      "impactLevel": "medium",
+      "latestDate": "2026-10-31",
+      "rank": 6,
+      "region": "ontario",
+      "what": "Toronto re-elected Olivia Chow while Mississauga, Hamilton, Oakville and Milton chose new mayors.",
+      "when": "Oct 26–27",
+      "why": "New councils set taxes, transit and housing for four years."
+    },
+    {
+      "headline": "Israel's vote leaves no majority for Netanyahu",
+      "id": "israel-election",
+      "impactLevel": "medium",
+      "latestDate": "2026-10-31",
+      "rank": 7,
+      "region": "world",
+      "what": "Final results gave Netanyahu's bloc 53 seats and Eisenkot's 48, setting up long coalition talks.",
+      "when": "Oct 27–30",
+      "why": "The outcome affects the Iran war and oil prices."
+    },
+    {
+      "rank": 8,
       "id": "bridle-path-home-invasion",
       "region": "ontario",
       "when": "Oct 29–31",
       "impactLevel": "medium",
       "latestDate": "2026-10-31",
-      "headline": "Police seek suspects after violent Bridle Path home invasion; family asks for privacy",
-      "what": "A Toronto real estate company CEO and his two adult daughters were shot, and the family was beaten, in a home invasion early Thursday. Police are still looking for suspects.",
-      "why": "A rare, violent attack in one of Toronto's wealthiest neighbourhoods that is drawing national attention.",
-      "rank": 8
+      "headline": "Police seek suspects after violent Bridle Path home invasion",
+      "what": "A Toronto real estate CEO and his two adult daughters were shot in a home invasion early Thursday; police are still seeking suspects.",
+      "why": "A rare violent attack in one of Toronto's wealthiest neighbourhoods, drawing national attention."
     }
-  ]
+  ],
+  "updatedAt": "2026-10-31T11:58:00-04:00"
 }
