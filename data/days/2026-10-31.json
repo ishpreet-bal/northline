@@ -1,18 +1,16 @@
 {
-  "updatedAt": "2026-10-31T17:50:19-04:00",
-  "generatedBy": "feeds (no AI)",
-  "headline": "Toronto police identify suspect in Bridle Path home invasion",
-  "briefing": "Top stories right now: Toronto police identify suspect in Bridle Path home invasion; Four killed, two injured in crash in Puslinch, Ont.: OPP; and AFC Toronto powers past Ottawa Rapid with 4-2 win in NSL semi final.",
+  "briefing": "Iran says talks are under way on a plan to reopen the Strait of Hormuz within two days if Washington meets its terms, after a letter from U.S. Vice-President JD Vance that Tehran called a change in tone; oil still ended October up about 14%. Americans vote Tuesday with more than 44 million ballots already cast and the Senate a toss-up, and Ottawa tables its budget Thursday. Clocks in Ontario fall back one hour at 2 a.m. Sunday.",
+  "headline": "Iran signals opening on Hormuz as oil ends October near US$113",
   "keyDates": [
     {
       "date": "2026-11-01",
-      "label": "Clocks fall back",
-      "why": "Most of Ontario turns clocks back one hour at 2 a.m. Sunday."
+      "label": "Clocks fall back; OPEC+ meets",
+      "why": "Ontario turns clocks back an hour at 2 a.m., and seven core OPEC+ producers meet online on December output."
     },
     {
       "date": "2026-11-03",
       "label": "U.S. midterm elections",
-      "why": "Control of Congress is at stake, with knock-on effects for trade and the Iran conflict."
+      "why": "Control of Congress decides how much room Trump has on tariffs and the Iran war."
     },
     {
       "date": "2026-11-04",
@@ -22,324 +20,695 @@
     {
       "date": "2026-11-05",
       "label": "Federal budget",
-      "why": "Ottawa tables its budget, showing how it will pay for tariff relief and defence spending."
+      "why": "Finance Minister François-Philippe Champagne tables a budget themed on economic sovereignty."
     },
     {
       "date": "2026-11-06",
-      "label": "U.S. October jobs report",
-      "why": "A strong report could push interest rates higher, which affects Canadian borrowing costs too."
+      "label": "U.S. jobs report; Ukraine talks",
+      "why": "October U.S. jobs data lands at 8:30 a.m., and Zelensky hopes for talks in Abu Dhabi Nov. 6–10."
     },
     {
-      "date": "2026-11-06",
-      "label": "Possible Ukraine talks",
-      "why": "Zelensky hopes for three-way talks with the U.S. in Abu Dhabi between Nov. 6 and 10."
+      "date": "2027-01-01",
+      "label": "Threatened U.S. tariff hike",
+      "why": "Trump has said steel and auto tariffs on Canada will rise to 50% unless a deal is reached."
     }
   ],
   "stories": [
     {
-      "id": "bridle-path-home-invasion",
+      "backstory": "The U.S. and Israel began striking Iran on Feb. 28, and Iran responded by choking traffic through the Strait of Hormuz, the route for about a fifth of the world's oil. A June peace memorandum briefly reopened the strait, but it collapsed in July and the U.S. imposed a blockade on Iranian shipping. Yemen's Houthis have since widened the fight with missile attacks on Saudi Arabia, and Egypt's parliament has authorized sending troops to help the Saudis. Qatar handed Iran a new draft deal on Oct. 25, which Tehran said contained ideas it could not accept.",
+      "headline": "Iran says talks under way on two-day plan to reopen Hormuz",
+      "id": "iran-hormuz",
+      "impact": "Expect GTA gas and diesel prices to stay high, which feeds into grocery, delivery and transit costs. Alberta oil revenues rise, but Ontario households and manufacturers mostly feel the cost side.",
+      "impactLevel": "high",
+      "now": "Iranian Foreign Minister Abbas Araghchi said talks with Qatari mediators are under way on a plan to reopen the strait within two days, provided Washington accepts Tehran's conditions. Iran's security chief Mohsen Rezaei said a letter from U.S. Vice-President JD Vance showed a markedly changed tone, which he called a positive sign. Separately, Iran's Revolutionary Guard navy said more tankers caught fire after hitting mines on what it calls unauthorized routes, and Oman evacuated injured crew from an attacked vessel; these claims have not been confirmed by maritime authorities. On Friday the expiring December Brent contract settled at US$117.64, while the January contract, now the benchmark, closed at US$113.43, up about 14% for October; U.S. WTI closed at US$104.12.",
       "rank": 1,
-      "region": "ontario",
-      "topic": "Conflict",
+      "region": "world",
+      "sources": [
+        {
+          "title": "Al Jazeera: Araghchi on two-day Hormuz plan",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/11/1/iran-war-live-araghchi-says-talks-under-way-on-2-day-plan-to-reopen-hormuz"
+        },
+        {
+          "title": "FinanceFeeds: Brent at $113.43 after October gain",
+          "url": "https://financefeeds.com/brent-crude-oil-price-113-saturday-week-ahead-after-october-13-6-percent-gain-hormuz-mines-midterms-jobs-report-bull-120-bear-106/"
+        },
+        {
+          "title": "gCaptain: IRGC says tankers catch fire",
+          "url": "https://gcaptain.com/irans-irgc-navy-says-four-tankers-catch-fire-in-strait-of-hormuz"
+        },
+        {
+          "title": "The War Zone: Limpet mine used in latest Hormuz attack",
+          "url": "https://twz.com/news-features/iran-used-limpet-mine-placed-on-ships-hull-in-latest-strait-of-hormuz-attack-report"
+        }
+      ],
       "status": "developing",
-      "impactLevel": "medium",
-      "updatedAt": "2026-10-31T17:31:48-04:00",
-      "headline": "Toronto police identify suspect in Bridle Path home invasion",
-      "summary": "In an update Saturday morning, Insp. Kristy Smith said police have issued a Canada-wide arrest warrant for 23-year-old Daijohn Richards.",
-      "sources": [
+      "summary": "Tehran says it is negotiating through Qatar on reopening the Strait of Hormuz within two days if the U.S. meets its conditions, even as tankers keep catching fire near the strait.",
+      "timeline": [
         {
-          "title": "Yahoo News Canada: Toronto police identify suspect in Bridle Path home invasion",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNWHRMR3lGTlNJaWhLbjhSQ3hWdVJza19TNGFZQ1JMZnA5bGpYUUJQRFVUeEtIaXM5SmdKNXdCZml6Yk9Dc3IyQk9KT0g4cFd6NW1nYllpQmFLVW5TN0hJUU1iTkk1QUdxLUc0MzdBaWJpbnNLS0RxUEQ0ZlY1Qkc3aVBqUFdVQQ?oc=5"
+          "date": "Feb 28",
+          "event": "U.S. and Israel begin striking Iran"
         },
         {
-          "title": "Toronto Sun: Hunt on for Bridle Path home invasion suspect allegedly shot by accomplice",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNcmtqbHh3dWhmazFxR0tRMm8zWnpwTE1ldnh5Z3JjYnA0d2xIaS1vTVgwekFYMG9VQW5GTEpNdno3NDJub1V0YTZtY1R4YUp3WTY4c1U3QlhfYWxBWlVFNkhKd2tNVnNrd0VKZVhZT0tlY1pQYlp0Si1NblBfZWVUazFIN1IzVXY2MGcyNGNXdGdzekY2aHYwZzNEbm1sZDdqUTJR?oc=5"
+          "date": "Jun",
+          "event": "Peace memorandum briefly reopens Hormuz"
         },
         {
-          "title": "CTV News: Toronto police identify suspect in violent Bridle Path home invasion, say he…",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZWVrOWN4QzlXdHJVWVc3b1lQUnF2UUJfZUpEcndBVzh0NjJHSERhZVVJa0dyRnl3M09NYjJadmt2Wm5yWHVldWg3NzNpUk5yOGR3S0RVaVhPSHRZYlJwZnprR3VfLWNTX3M4dXhzeFZwYzBBaFlMSlRfenktVk1YVnJVSC1hUlVkODJ3YlA0Q05VOGVjZHlLbDFyM3pqbGU0U2Z2RFJ6OC05NkNpblJYZWMtbXZ0enZEMnBLY2NLSmJFY3hqVXZTag?oc=5"
+          "date": "Jul",
+          "event": "Deal collapses; U.S. blockade of Iranian shipping"
         },
         {
-          "title": "unpublished.ca: Suspect identified in Toronto home invasion where residents were shot,…",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQM2dPQmF2R2FzaDZKYkw0LURYOVhZMmMwRWFFUWszLWF4MjJpVjlQdXpabFpVeW5aQ1liRm1RSlVzQi05RTNFbE1scWEwQ3V1b2FTc0RQR05pb09kb040NFdxenR6QWpiQnQwVnl2azFBZWwybXpPUVRfRXdCMkk5SVYxbk50ZXBYZDRmUGtTYlQzcWpuaHF4SDU4WFJzaTRFS2o2Y1NNUnJOclg4UC0zeFY1bFFCV092dUE?oc=5"
+          "date": "Oct 25",
+          "event": "Qatar hands Iran a new draft peace deal"
+        },
+        {
+          "date": "Oct 30",
+          "event": "Tankers hit; Brent ends October up ~14%"
+        },
+        {
+          "date": "Oct 31",
+          "event": "Iran cites Vance letter, two-day reopening plan"
         }
       ],
-      "now": "CityNews: Toronto police have identified one of the three suspects wanted in connection with a violent home invasion in the Bridle Path on Thursday. Global News: MAC Group CEO David Morton says his family is recovering after a violent Bridle Path home invasion left three relatives shot and all four attacked with a hammer.",
-      "backstory": "The attack drew national attention because it took place in the Bridle Path, one of Toronto's wealthiest neighbourhoods. The family's father, David Morton, CEO of MAC Group, has called the experience terrifying and urged anyone with information to come forward. Police say it was the 119th home invasion reported in Toronto this year, up about 32% from the same period in 2025. Chief Myron Demkiw promised a stronger police presence in the area."
+      "topic": "Iran war",
+      "updatedAt": "2026-10-31T20:55:00-04:00",
+      "why": "Oil above US$110 is the main force behind higher inflation in Canada and the U.S., and it pushed the Bank of Canada into a rate hike this week. A real reopening plan could pull prices down quickly, while a collapse of talks could send them higher."
     },
     {
-      "id": "four-killed-two-injured-crash-puslinch",
+      "backstory": "Broad Canada-U.S. trade talks collapsed in August, and Trump then imposed 50% tariffs on about $20 billion of Canadian goods, prompting Canadian counter-tariffs. Since then the White House has repeatedly adjusted which products are covered, easing some farm and forestry goods while adding others. Separate U.S. tariffs on steel, aluminum and autos under a national-security law (Section 232) hit Ontario's factories hardest. Sources said this week a narrower deal on steel and autos was possible before the midterms, but U.S. officials want more concessions.",
+      "headline": "Carney widens trade push as U.S. deal stays out of reach",
+      "id": "trade-war",
+      "impact": "Factory jobs in Windsor, Oshawa, Hamilton and the GTA's parts plants remain exposed. Some imported goods such as paint, rugs and air conditioners may cost more if Canada responds or suppliers pass on costs.",
+      "impactLevel": "high",
+      "now": "From Oct. 30, the U.S. dropped plywood, plastic wrap, cardboard boxes and some food machinery from its 50% tariff list on Canadian goods but added items including cocoa powder, paint, fibreboard (MDF), carpets and rugs, air conditioners and canoes. Talks with Washington have intensified without a breakthrough, and Trump has said steel and auto tariffs on Canada will rise to 50% on Jan. 1. Ottawa is leaning on other markets: a new partnership with the United Arab Emirates this week, a Canada-EU summit in Montreal, a trip to Antigua and Barbuda Nov. 2–4, and India's envoy saying a trade deal could be ready before Prime Minister Narendra Modi visits Dec. 11–12. Conservative Leader Pierre Poilievre says Canadians need results, not signing ceremonies.",
       "rank": 2,
-      "region": "ontario",
-      "topic": "Ontario",
-      "status": "new",
-      "impactLevel": "medium",
-      "updatedAt": "2026-10-31T16:13:55-04:00",
-      "headline": "Four killed, two injured in crash in Puslinch, Ont.: OPP",
-      "summary": "Wellington OPP, fire and paramedic services responded to reports of the collision on Watson Road South between Maltby Road East and Wellington Road 34.",
+      "region": "canada",
       "sources": [
         {
-          "title": "Toronto Sun: Four killed, two injured in crash in Puslinch, Ont.: OPP",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZUg1NzBGY005X1BaQnk4YzkybjZiMnJMZEtPcUJ6NGFQM3UtMWNScXN4V2JNODByMmpkUnZJSXEzSWtCYTZfRFZSczRpcUJRNlRmNHVqcVdXVmR3UW1UTFBVaDZ6RkNaekl0VFIyVHhsVllSb3ZZS0Z5ODUwUDFpZ21ld1BQbkJaR3p4N3ZfaFI2R3kxSGc?oc=5"
+          "title": "CP24: Carney ramps up trade diversification",
+          "url": "https://www.cp24.com/news/canada/2026/10/31/carney-ramps-up-trade-diversification-efforts-with-canada-us-deal-still-out/"
         },
         {
-          "title": "thecanadianpressnews.ca: Four dead, two injured after single-vehicle crash in Puslinch, Ont.",
-          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQVmZFaDFkN2dKZUJGLUVqeFAzUmhqRXhlU3JMN1ZvZFBGNDZvWEZXMHJDMVc5RmJHbzhfcGlvTkFoLU9Nang2ZFN1clQyc1Q0eEViOENsV3hFX3plbTdxaFRUcnMzaFd0QjFITzRHUnE1WFJyQTdHQnZjckFhRksxalRhOTNSbzF6ejMyTVl3YmJvRjFHOGZ6RG1Ody1uVWhCZl9jYWxKeHpnMEc1Y2s1ZGM2ZW94Y1pQTDhiMG5xVzQ0ZHZscUJtTmJ1cHUyTV9hZ0JtM0hvWHlCcTFMTWw2Y3o3R0I3NGxGWXozaE9XYw?oc=5"
+          "title": "Flexport: Canada tariffs change again on Oct. 30",
+          "url": "https://www.flexport.com/blog/canada-tariffs-change-again-on-october-30/index.md"
         },
         {
-          "title": "insauga.com: Four people dead, two critical after southern Ontario car crash",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUkw0Q3hvajBXQ1RpV3lHcFFVaHdja2luU2JZR2xMVzF2RVg4V1JiRFdXdVZmTW04OUZac291cE5hOWw1VFdFWVB4ZXhpSGlCMElReVhIem1ianBjQV81d0ZuOWYweERGQTBNaHV0NDk2elFJaGZEVWk4ZlZyaWxNVVI1d25VWGVGX1NmWk9rQ2g?oc=5"
-        },
-        {
-          "title": "CBC: 4 dead, 2 in life-threatening condition after single-vehicle crash in…",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNUkVXdEhRc21BOHUxQ0J0cUxaNE1oVjBOWXlhTFJVbjRybUotTGtzMjZEdlpsVjRtbkloVXJrWHdRV3RBUk9vbmNHRklBNW5qNlhNTGprdy1rbGYtZVNRamlYbkUtNEdFRkh2ZlQ0TFlsTEtNQ0ZRV3JBa0VmclVYZVNUcUNPZktPN2F3TUp5eWhBVzA?oc=5"
+          "title": "CP24: Midterms may not relieve U.S.-Canada tensions",
+          "url": "https://www.cp24.com/politics/2026/10/31/the-outcome-of-the-us-midterms-may-not-relieve-us-canada-tensions/"
         }
       ],
-      "now": "CityNews: Four people are dead and two others are fighting for their lives following a single-vehicle crash outside of Guelph."
+      "status": "developing",
+      "summary": "With a deal on U.S. tariffs still elusive, Prime Minister Mark Carney is stepping up trade talks with other partners, while a reshuffled list of Canadian goods facing 50% U.S. tariffs took effect Friday.",
+      "timeline": [
+        {
+          "date": "Aug",
+          "event": "Talks collapse; 50% U.S. tariffs and Canadian retaliation"
+        },
+        {
+          "date": "Oct 20",
+          "event": "First court challenge to the 50% tariffs filed"
+        },
+        {
+          "date": "Oct 28",
+          "event": "Canadian official reports limited progress"
+        },
+        {
+          "date": "Oct 30",
+          "event": "Revised 50% tariff list takes effect"
+        },
+        {
+          "date": "Oct 31",
+          "event": "Carney steps up diversification as talks continue"
+        }
+      ],
+      "topic": "Trade",
+      "updatedAt": "2026-10-31T14:46:53-04:00",
+      "why": "Ontario sells most of its steel and auto output to the U.S., and the province says steel exports there have fallen by more than half since 2024. The midterm result could change how willing Washington is to bargain."
     },
     {
-      "id": "afc-toronto-powers-past-ottawa-rapid",
+      "backstory": "Ontario's spring budget had already forecast a deficit near $13.8 billion as U.S. tariffs hit steel and auto exports. The province's steel exports to the U.S. fell to $4.1 billion in the first eight months of 2026 from $8.4 billion in the same period of 2024. Ottawa and Ontario announced an $8.7-billion action plan for steel, autos and critical minerals in October. The legislature returned on Oct. 27 after a 21-week break.",
+      "headline": "Ontario deficit grows to $16.9 billion; balance pushed to 2029-30",
+      "id": "ontario-fall-economic-statement",
+      "impact": "Most homes use about 700 kWh a month, so the rebate cap mainly affects heavy electricity users from May 2027. Businesses investing in equipment get faster write-offs, and buyers of newly built homes keep the HST break.",
+      "impactLevel": "high",
+      "now": "Thursday's fall economic statement projects a $16.9-billion deficit for 2026-27, up from $13.8 billion in the spring budget, followed by shortfalls of $12.7 billion and $6.7 billion before a $200-million surplus in 2029-30. The province now expects growth of just 0.5% this year and 1.5% in 2027, with unemployment at 7.2% this year. New and confirmed measures include an $8-billion business write-off matching Ottawa's, about $8 billion more for health care by decade's end, and a nearly $4-billion top-up to the contingency fund for more tariffs. The Ontario Electricity Rebate will be capped at 1,200 kWh a month for homes starting May 2027, and the $4-billion Protect Ontario Investment Fund is paused. Opposition parties called the update weak on affordability.",
       "rank": 3,
       "region": "ontario",
-      "topic": "Ontario",
-      "status": "new",
-      "impactLevel": "medium",
-      "updatedAt": "2026-10-31T17:45:23-04:00",
-      "headline": "AFC Toronto powers past Ottawa Rapid with 4-2 win in NSL semi final",
-      "summary": "AFC Toronto powers past Ottawa Rapid with 4-2 win in NSL semi final",
       "sources": [
         {
-          "title": "CBC: AFC Toronto powers past Ottawa Rapid with 4-2 win in NSL semi final",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQb2hQUGVSWlhnZEpUZkVFYy01RVpqR241TkV3dGJTLWxlcVA5TGtjZmZJVVhSNC1USjdiMWhORDR6MnhuVUM5aXhJSk1kR1hJRThzNjRBZWF5cEx1dHlvaDRNT3VWdTZiNWNrc3hrSTlCMWwtMUowY1FfT1NOT3dFN1BmXzV2QlpnTkZF?oc=5"
+          "title": "CP24: Ontario deficit grows to $16.9 billion",
+          "url": "https://www.cp24.com/politics/queens-park/2026/10/29/ontario-deficit-grows-to-169-billion-as-trade-war-with-us-drags-on/"
         },
         {
-          "title": "TSN: NSL: AFC Toronto 4, Ottawa Rapid 2",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPVjZJaUZLeTBfTzg3WlRlRlp5bUtPTVo2anJ2TEFhakxiNnM5Y0Fod0JDcVVSNUI4UGlwNGs5a2ZwVEtfVkdSYk15ODR4Z0hxOENENk9ORDJvUnc4ZTBCd1BpM1JuV045YTZLbmQyNzRlRDRxc1hCYzRRVjlvWVpFbzd3?oc=5"
+          "title": "Global News: $36B in deficits over 3 years",
+          "url": "https://globalnews.ca/news/12125618/ontario-fall-economic-update-2026/"
         },
         {
-          "title": "NanaimoNewsNOW: Kaylee Hunter’s brace paces AFC Toronto in 4-2 win over Ottawa Rapid in NSL…",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNR0NXa1p5UGRKVGlzSERsaHNvdy1YSWlTNUU5dGZkcmFLRWs3VXBxTXVReGhubnRVWFk2a2ZaUGFIRl9VQXE5emFsVVJ5dGhTX0NNRUd1WFpaQXhKcXNnZTBfMVRZTFN4dU1JRkgtY19LZFhpcGh2TU9vc2hrUkluaUNxNTFwc2lwemJqaXRQR0ktTVpOS3ZCOFg3aWxOX0lobW1NelJGekl5ME15WkRIOXBhVHBUSzBwc0p0Tm9ZNFY?oc=5"
-        },
-        {
-          "title": "TSN: Kaylee Hunter’s brace paces AFC Toronto in win over Rapid in NSL semifinal",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNb1JmNmlGREN1bmg2SElDRUUwaGplWHdQY0NFdkNoNlNPVGwybzdPbl9YUnJuZ3pSVEgxOTFaUFM1WnQzYjVRc0I5aURabWRsWkJaYVpON0xZRVZiekdGNGNQOXRWSktHSUxzeXljM0wzRklndGh6ZjFEY2E3Q2xQT1dLTnNGem1BUUVQMkcxM3ZPRlFoR3VZMkVWdW9kanhRNVI0?oc=5"
+          "title": "Ontario: 2026 Fall Economic Statement",
+          "url": "https://budget.ontario.ca/2026/fallstatement/pdf/2026-fall-statement-en.pdf"
         }
-      ]
+      ],
+      "status": "developing",
+      "summary": "Finance Minister Peter Bethlenfalvy's fall update raised this year's deficit by more than $3 billion and delayed a balanced budget by a year as the trade war slows growth.",
+      "timeline": [
+        {
+          "date": "Mar",
+          "event": "Spring budget forecasts $13.8B deficit"
+        },
+        {
+          "date": "Oct 21",
+          "event": "$8.7B federal-Ontario tariff plan announced"
+        },
+        {
+          "date": "Oct 27",
+          "event": "Legislature resumes after 21-week break"
+        },
+        {
+          "date": "Oct 28",
+          "event": "Ontario matches federal investment write-off"
+        },
+        {
+          "date": "Oct 29",
+          "event": "Fall update: $16.9B deficit, balance in 2029-30"
+        }
+      ],
+      "topic": "Queen's Park",
+      "updatedAt": "2026-10-29T16:00:00-04:00",
+      "why": "A bigger deficit and slower growth limit room for new programs and tax relief, and confirm the trade war is hurting Ontario more than other provinces."
     },
     {
-      "id": "toronto-argonauts-believe-chad-kelly-injury",
+      "backstory": "The Bank of Canada cut to 2.25% in October 2025 and then held for seven meetings. Oil prices driven up by the Iran war lifted September inflation to 3.1%, even as Canada lost 68,000 jobs that month. The bank's new forecast puts 2027 inflation at 3.1%, well above its 2% target. Flat growth and rising rates together raise the risk of stagflation, meaning weak growth with high inflation.",
+      "headline": "Economy stalls in August, two days after Bank of Canada's hike",
+      "id": "canada-inflation-september",
+      "impact": "Variable-rate mortgages and lines of credit already cost more after the hike. A weak economy could slow hiring in the GTA, so it is a good moment to review budgets and renewal plans.",
+      "impactLevel": "high",
+      "now": "Real gross domestic product (GDP) was unchanged in August, missing the 0.2% gain economists expected, with retail up 1.2% but wholesale trade and car-and-parts manufacturing down. StatCan's early estimate shows a 0.1% drop in September as manufacturing and oil and gas output fell, leaving third-quarter growth at about 0.3%. That follows Wednesday's quarter-point hike to 2.50%, which the Bank of Canada made to keep high oil prices from spreading through the economy, while signalling more could be needed. Premier Doug Ford called the hike a massive mistake, and Ontario's fall update now sees provincial growth of only 0.5% this year.",
       "rank": 4,
-      "region": "ontario",
-      "topic": "Ontario",
-      "status": "new",
-      "impactLevel": "medium",
-      "updatedAt": "2026-10-31T17:23:14-04:00",
-      "headline": "Toronto Argonauts believe Chad Kelly injury occurred on strip-sack touchdown in East Semi-Final",
-      "summary": "Toronto Argonauts believe Chad Kelly injury occurred on strip-sack touchdown in East Semi-Final",
+      "region": "canada",
       "sources": [
         {
-          "title": "3DownNation: Toronto Argonauts believe Chad Kelly injury occurred on strip-sack touchdown…",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQODZhV0VCb2ZIUzF6Wm9HTm1JNmV3TGxvaFo5Yjh5N3pfdU5QbEttV1Etenhyb3ZhemdzMVpOcGk2UEZNdWlWMWpvb1BhWkFtUWRMclJCVGcxUmRJMlFSU0prR1doei1VNkxYZnhKZnBjUWdLYUdSM1F6dHJZci1uMmMzNWd2V01uWjNpSGxhSVNtRmUzbnJsd29PVER5WGw3aF84NnN3Mm5CMVdxa3RhUTBMOWZFWFRwZzh6cUxHT242dlp5VXVTWE00UQ?oc=5"
+          "title": "Statistics Canada: GDP by industry, August 2026",
+          "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/261030/dq261030a-eng.htm"
         },
         {
-          "title": "Sportsnet.ca: Blue Bombers shock Argonauts in final minute to reach East final",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOS3BOeUVTZVJkUGptR09wNkFZNU5Hd3RNVlNiOWs5YUtob0ZGek5uNXZzWXNWNzloMFBsaE12a2FBRmpCalVoSEhjS3FJd1p0UGpCSVZpM2l6VFNEaDlVV1J1dkFKLVdSSXVVRUMwbkM2UVB1N29aWlotTUFjTDFZVFNqWU5oRm9TWW9LR0ZZS0hfOEVCaDBhY0lzRklUQ00wVUdJSQ?oc=5"
+          "title": "CBC: Economy stalled in August",
+          "url": "https://www.cbc.ca/news/business/august-2026-gdp-canada-9.7402495"
         },
         {
-          "title": "ElliotLakeToday.com: #LIVE^CFL**Toronto Argonauts vs Winnipeg Blue Bombers LIVE STREA.MS Free CFL…",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNa2FRV0JXQURkbk9LQzBudEtPUjVPTElyZkJ1cUZMSDd3dm9DVE1JUTVLY3ZZMXVrZ0Q0M21UcUVBMFJYYUtTdjc1TE9oMVV3TFhiTkhDQW93SHRhdkkwM21EZlJoRy1BTW92ZU1wVjNqODI4dEZwS0VYNXhmUDhRUllhSThwQQ?oc=5"
+          "title": "Bank of Canada: Policy rate raised to 2.50%",
+          "url": "https://www.bankofcanada.ca/2026/10/fad-press-release-2026-10-28/"
         },
         {
-          "title": "Powell River Peak: Semi-Final Saturday: Toronto Argonauts vs Winnipeg Blue Bombers Live Free…",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPd0NmOW1TajUxSzQtMGpMV0kxQ1RKZWx2TmVHTU1wdV8tek9SclhaMU5FQWNCUEZ3amFmaXp1djN4cVpZTTMwcUpWbWVfQXlRT0hyTDFKYTg2ekFZOVcxM0YwZFJTWllhNHRGeDRoaUFSYVRCM2ZhUGdrVndXUktjb3Vhc19vaTJkZ1lR?oc=5"
+          "title": "CP24: Ford blasts Bank of Canada rate hike",
+          "url": "https://www.cp24.com/local/toronto/2026/10/28/a-massive-mistake-ontario-premier-doug-ford-blasts-bank-of-canada-interest-rate-hike/"
         }
-      ]
+      ],
+      "status": "developing",
+      "summary": "Statistics Canada says the economy was flat in August and probably shrank 0.1% in September, a weak backdrop for the Bank of Canada's first rate increase since 2023.",
+      "timeline": [
+        {
+          "date": "Oct 2025",
+          "event": "Rate cut to 2.25%; seven holds follow"
+        },
+        {
+          "date": "Oct",
+          "event": "September jobs report: 68,000 jobs lost"
+        },
+        {
+          "date": "Oct 20",
+          "event": "September inflation at 3.1%"
+        },
+        {
+          "date": "Oct 28",
+          "event": "Bank raises rate to 2.50%"
+        },
+        {
+          "date": "Oct 30",
+          "event": "August GDP flat; September seen down 0.1%"
+        }
+      ],
+      "topic": "Economy & rates",
+      "updatedAt": "2026-10-30T08:30:00-04:00",
+      "why": "The data shows the bank raising rates into a stalling economy, a tough trade-off that makes its next moves less predictable."
     },
     {
-      "id": "oleshky-evacuees-reunite-families-truce-allows",
+      "backstory": "Republicans have held both chambers of Congress since January 2025. All 435 House seats and about a third of the Senate are on the ballot on Nov. 3. Tariffs and high gas prices tied to the Iran war have hurt Trump's approval, which Reuters recently put at 32%. Recent national polls have given Democrats a lead on the generic ballot.",
+      "headline": "Early vote passes 44 million as midterms enter final weekend",
+      "id": "us-midterms",
+      "impact": "The outcome will shape U.S. tariff policy on Canadian steel and autos and the timing of any strikes on Iran, both of which affect Ontario jobs and fuel prices.",
+      "impactLevel": "medium",
+      "now": "About 44.8 million Americans had voted by Thursday evening, according to the University of Florida Election Lab, well ahead of the 2022 pace; early turnout in Texas is up about 50%. Democrats lead the RealClearPolling generic-ballot average 51.4% to 43.2%, and analysts call a House flip likely while the Senate stays uncertain. CBS News rates Maine, Michigan, Ohio, Texas and Alaska as Senate toss-ups, and an Emerson poll has Democrat Adam Hamilton ahead of Sen. Roger Marshall 49% to 45% in Kansas. Trump plans in-person rallies in Iowa and Kansas on Sunday plus tele-rallies in 19 states.",
       "rank": 5,
-      "region": "world",
-      "topic": "Transit",
-      "status": "new",
-      "impactLevel": "medium",
-      "updatedAt": "2026-10-31T15:17:22-04:00",
-      "headline": "Oleshky evacuees reunite with families after truce allows crossing back into Ukraine",
-      "summary": "Residents of nearby villages line highway waving flags to greet the evacuees’ convoy from the Russian-occupied city Evacuees from Russian-occupied Oleshky have been reunited with their families after crossing into Ukrainian-held territory on Saturday. The major rescue operation began on Friday and was carried out…",
+      "region": "us",
       "sources": [
         {
-          "title": "The Guardian: Oleshky evacuees reunite with families after truce allows crossing back into…",
-          "url": "https://www.theguardian.com/world/2026/oct/31/oleshky-evacuees-reunite-with-families-after-truce-allows-crossing-into-ukraine"
+          "title": "Al Jazeera: US midterms, 3 days to go",
+          "url": "https://www.aljazeera.com/news/2026/10/31/us-midterms-3-days-to-go-what-latest-polls-say-as-early-voting-surges"
         },
         {
-          "title": "Al Jazeera: Evacuees of Russian-occupied Oleshky reunited with families",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/aje-onl-nf_evacuees-from-oleshky-reunite-w-families-in-ukraine-311026?traffic_source=rss"
+          "title": "CBS News: Final-weekend live updates",
+          "url": "https://www.cbsnews.com/live-updates/2026-midterm-elections-campaigns-weekend-before/"
         },
         {
-          "title": "The Hill: Evacuees from Russia-controlled Oleshky arrive back in Ukraine amid…",
-          "url": "https://thehill.com/policy/international/6186192-oleshky-residents-return-ukraine/"
-        },
-        {
-          "title": "BBC News: How has the ceasefire in Russian-occupied Oleshky been unfolding?",
-          "url": "https://www.bbc.co.uk/news/videos/cmp3gp2vg078o?at_medium=RSS&at_campaign=rss"
+          "title": "CP24: Midterms may not relieve U.S.-Canada tensions",
+          "url": "https://www.cp24.com/politics/2026/10/31/the-outcome-of-the-us-midterms-may-not-relieve-us-canada-tensions/"
         }
       ],
-      "now": "Al Jazeera: Ukrainian residents evacuated from Russian-occupied city of Oleshky have arrived in Ukrainian-controlled territory. The Hill: Residents evacuated from the Russian-occupied city of Oleshky arrived back in Ukraine on Saturday amid a localized U.S.-brokered ceasefire agreement."
+      "status": "developing",
+      "summary": "With Election Day on Tuesday, Democrats lead national polls for the House while Senate control rests on a handful of toss-up races.",
+      "timeline": [
+        {
+          "date": "Jan 2025",
+          "event": "Republicans take control of both chambers"
+        },
+        {
+          "date": "Oct 26",
+          "event": "Reuters/Ipsos: Democrats lead by 9 with leaners"
+        },
+        {
+          "date": "Oct 30",
+          "event": "Fox shifts Ohio to lean Democrat"
+        },
+        {
+          "date": "Oct 30",
+          "event": "Sabato shifts Minnesota, Louisiana ratings"
+        },
+        {
+          "date": "Oct 30",
+          "event": "Early vote tops 44 million"
+        },
+        {
+          "date": "Nov 3",
+          "event": "Election Day"
+        }
+      ],
+      "topic": "Midterms",
+      "updatedAt": "2026-10-31T20:55:00-04:00",
+      "why": "A Democratic Congress could check Trump's tariffs and war powers, while Republican control would give him a freer hand for the next two years."
     },
     {
-      "id": "binance-recovers-percent-stolen-assets-hack",
+      "backstory": "The attack drew national attention because it took place in the Bridle Path, one of Toronto's wealthiest neighbourhoods. The family's father, David Morton, CEO of MAC Group, has called the experience terrifying and urged anyone with information to come forward. Police say it was the 119th home invasion reported in Toronto this year, up about 32% from the same period in 2025. Chief Myron Demkiw promised a stronger police presence in the area.",
+      "headline": "Canada-wide warrant issued in Bridle Path home invasion",
+      "id": "bridle-path-home-invasion",
+      "impact": "Police remain on the lookout for two more suspects in their 20s, so North York residents may see extra patrols. Police are asking anyone with information or home security video from the area to contact them.",
+      "impactLevel": "medium",
+      "now": "Police issued a Canada-wide arrest warrant on Saturday for Daijohn Richards, 23, who went to hospital later on Oct. 29 with a gunshot wound to the shoulder that police believe another suspect fired by accident. He faces charges including discharging a firearm with intent to wound, armed robbery and aggravated assault. Police say three masked men with handguns and a hammer forced their way into a Hyde Park Circle home near Bayview and Lawrence avenues around 3:45 a.m.; three of the four family members were shot and two were struck with a hammer. All four are expected to survive, though two have life-altering injuries, and police believe the home was chosen for the area's wealth rather than the family itself.",
       "rank": 6,
-      "region": "world",
-      "topic": "Trade",
-      "status": "new",
-      "impactLevel": "medium",
-      "updatedAt": "2026-10-31T15:08:38-04:00",
-      "headline": "Binance recovers 90 percent of stolen assets from hack",
-      "summary": "Cryptocurrency exchange Binance said Saturday that it was able to replenish 90 percent of the stolen assets ‌after a $6.3 billion hack of its platform. On Thursday, the money started moving out of Binance wallets, prompting the company to suspend all deposits and withdrawals.",
+      "region": "ontario",
       "sources": [
         {
-          "title": "The Hill: Binance recovers 90 percent of stolen assets from hack",
-          "url": "https://thehill.com/policy/technology/6186304-binance-replenishes-ninety-percent-hack/"
+          "title": "Global News: Home invasion suspect was also shot",
+          "url": "https://globalnews.ca/news/12128691/toronto-home-invasion-suspect/"
         },
         {
-          "title": "BBC News: Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to…",
-          "url": "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "title": "The Guardian: How crypto hacking funds isolated North Korea’s nuclear programme",
-          "url": "https://www.theguardian.com/world/2026/oct/30/how-crypto-hacking-funds-isolated-north-korea-nuclear-programme"
-        },
-        {
-          "title": "NPR: Blockchain intelligence firms link North Korea to $6.3B hack on Binance",
-          "url": "https://www.npr.org/2026/10/30/g-s1-150902/blockchain-intelligence-firms-link-north-korea-to-6-3b-hack-on-binance"
+          "title": "CP24: Family speaks out after Bridle Path home invasion",
+          "url": "https://www.cp24.com/local/toronto/2026/10/30/life-threatening-experience-family-releases-statement-following-violent-bridle-path-home-invasion/"
         }
       ],
-      "now": "BBC News: The cyber-attack, which the company describes as complex, is believed to be the largest ever of its kind. The Guardian: Cryptocurrency theft is estimated to generate half of the country’s foreign currency income North Korea plays by its own rules."
+      "status": "developing",
+      "summary": "Toronto police have named a 23-year-old suspect who they say was shot by an accomplice during Thursday's violent home invasion, and two other suspects are still being sought.",
+      "timeline": [
+        {
+          "date": "Oct 29",
+          "event": "Home invasion at Hyde Park Circle; four hospitalized"
+        },
+        {
+          "date": "Oct 30",
+          "event": "Police release suspect descriptions; family speaks out"
+        },
+        {
+          "date": "Oct 31",
+          "event": "Canada-wide warrant for Daijohn Richards, 23"
+        }
+      ],
+      "topic": "Crime",
+      "updatedAt": "2026-10-31T14:46:53-04:00",
+      "why": "Toronto home invasions are up about a third this year, and this case has raised questions about residential security across the city."
     },
     {
-      "id": "district-columbia-virginia-sue-block-trump",
+      "backstory": "The Fed raised rates in September for the first time in three years as the Iran war pushed oil above US$100 a barrel. Tech giants have spent heavily on artificial intelligence (AI), and those stocks have driven much of the market's swings this month. Strong U.S. growth paired with high energy prices keeps pressure on the Fed not to cut.",
+      "headline": "U.S. economy grows 3.4% in third quarter as inflation cools",
+      "id": "us-markets-ai-selloff",
+      "impact": "Canadian fixed mortgage rates follow bond yields, so they are unlikely to fall soon. Strong U.S. demand helps Ontario exporters that are not hit by tariffs.",
+      "impactLevel": "medium",
+      "now": "The Bureau of Economic Analysis said real GDP grew at a 3.4% annual rate in the third quarter, up from 2.2% in the second, driven by business investment in equipment and computers, inventory building and consumer spending. The personal consumption expenditures (PCE) price index rose at a 2.1% rate, down from 5.0%, and core PCE, which excludes food and energy, eased to 2.5%. The data came a day after the Federal Reserve held its key rate at 3.75% to 4% in a 10-2 vote, with Lisa Cook and Beth Hammack favouring a hike. Gold fell to a one-year low on Friday as investors bet rates will stay high.",
       "rank": 7,
       "region": "us",
-      "topic": "Transit",
-      "status": "new",
-      "impactLevel": "medium",
-      "updatedAt": "2026-10-31T16:30:35-04:00",
-      "headline": "District of Columbia and Virginia sue to block Trump’s triumphal arch plans",
-      "summary": "The monument has sparked fierce opposition from local governments fearing disruption to traffic and historic views.",
       "sources": [
         {
-          "title": "Al Jazeera: District of Columbia and Virginia sue to block Trump’s triumphal arch plans",
-          "url": "https://www.aljazeera.com/news/2026/10/31/district-of-columbia-and-virginia-sue-to-block-trumps-triumphal-arch-plans?traffic_source=rss"
+          "title": "BEA: GDP advance estimate, Q3 2026",
+          "url": "https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026"
         },
         {
-          "title": "PBS NewsHour: Virginia and D.C. sue over Trump's arch, adding to legal challenges as…",
-          "url": "https://www.pbs.org/newshour/politics/virginia-and-d-c-sue-over-trumps-arch-adding-to-legal-challenges-as-government-wants-work-to-begin"
+          "title": "Bloomberg: Fed holds rates",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-28/fed-holds-rates-says-more-data-will-help-next-decision"
         },
         {
-          "title": "The Guardian: Virginia and DC sue to stop Trump’s arch as government looks to start…",
-          "url": "https://www.theguardian.com/us-news/2026/oct/31/trump-arch-lawsuits-dc-virginia"
+          "title": "The National: Gold falls to one-year low",
+          "url": "https://www.thenationalnews.com/business/markets/2026/10/30/oil-prices-set-for-sharp-monthly-rise-on-hormuz-strikes-and-us-threat-to-hit-iran/"
         }
       ],
-      "now": "PBS NewsHour: There are now three lawsuits calling for a halt to potential work on a monument that would rise 250 feet on a patch of grass off the bridge that spans the Potomac River, connecting the city with Arlington National… The Guardian: Legal challenges to Donald Trump’s proposed memorial arch are mounting even as its construction is imminent The legal challenges to Donald Trump ’s proposed memorial arch are mounting, with the District of Columbia and…"
+      "status": "developing",
+      "summary": "The U.S. economy expanded at a 3.4% annual rate from July to September, faster than the spring, while a key inflation gauge eased.",
+      "timeline": [
+        {
+          "date": "Sep",
+          "event": "Fed raises rates for first time in three years"
+        },
+        {
+          "date": "Oct 22",
+          "event": "Tech stocks lead 2.6% Nasdaq slide"
+        },
+        {
+          "date": "Oct 28",
+          "event": "Fed holds 10-2; two votes for a hike"
+        },
+        {
+          "date": "Oct 29",
+          "event": "Q3 GDP grows 3.4%; PCE inflation 2.1%"
+        }
+      ],
+      "topic": "U.S. economy",
+      "updatedAt": "2026-10-29T08:30:00-04:00",
+      "why": "A strong U.S. economy and a hawkish Fed tend to keep bond yields up on both sides of the border."
     },
     {
-      "id": "london-police-arrest-139-hundreds-protest",
+      "backstory": "Alaska uses ranked-choice voting, so voters can rank both Sullivans. Peltola, a former congresswoman, is seen as a serious challenger to the incumbent. Trump has called for Peltola to be prosecuted, and it is unusual for prosecutors to confirm an investigation this close to a vote. A federal appeals court recently refused a similar Justice Department request to set aside about 20,000 California ballots.",
+      "headline": "Federal prosecutors open criminal probe in Alaska Senate race",
+      "id": "alaska-senate-probe",
+      "impact": "Little direct effect on Ontario, but a disputed or delayed Senate result could prolong uncertainty over U.S. trade policy toward Canada.",
+      "impactLevel": "low",
+      "now": "U.S. Attorney Michael Heyman confirmed a months-long investigation and a surge of federal law-enforcement resources to Alaska, but did not name targets or possible crimes. It follows a New York Times report that Democrat Mary Peltola's campaign appeared to help recruit retired teacher Dan J. Sullivan, who shares a name with Republican Sen. Dan S. Sullivan; Peltola and the second Sullivan both deny it. In a separate civil case, the Justice Department wants ballots ranking the second Sullivan set aside and has asked a judge to rule by Monday. Alaska's lawyers say the ballot already tells the two men apart.",
       "rank": 8,
       "region": "us",
-      "topic": "Courts & crime",
-      "status": "new",
-      "impactLevel": "medium",
-      "updatedAt": "2026-10-31T14:48:29-04:00",
-      "headline": "London police arrest 139 as hundreds protest Palestine Action ban",
-      "summary": "Demonstrations in London and Edinburgh come days before a UK Supreme Court appeal challenging the group's proscription.",
       "sources": [
         {
-          "title": "Al Jazeera: London police arrest 139 as hundreds protest Palestine Action ban",
-          "url": "https://www.aljazeera.com/news/2026/10/31/london-police-arrest-48-as-hundreds-protest-palestine-action-ban?traffic_source=rss"
-        },
-        {
-          "title": "The Guardian: Almost 140 arrested at protest against Palestine Action ban outside US…",
-          "url": "https://www.theguardian.com/uk-news/2026/oct/31/protest-against-palestine-action-ban-outside-us-embassy-in-london"
-        },
-        {
-          "title": "CityNews: London police arrest 139 people outside US Embassy for supporting banned…",
-          "url": "https://toronto.citynews.ca/2026/10/31/dozens-arrested-outside-us-embassy-in-london-for-supporting-proscribed-pro-palestinian-group/"
+          "title": "CP24 (AP): Criminal probe in Alaska Senate race",
+          "url": "https://www.cp24.com/news/world/2026/10/30/criminal-probe-underway-in-alaskan-senate-race-controversy/"
         }
       ],
-      "now": "The Guardian: Met alleges demonstrators ‘meeting to purposefully commit a crime’ in largest such gathering under Burnham Almost 140 people have been arrested at the largest mass demonstrations under Andy Burnham’s premiership… CityNews: LONDON (AP) — London police said they arrested 139 people at a protest outside the U.S. Embassy on Saturday in support of the banned group Palestine Action."
+      "status": "new",
+      "summary": "The U.S. attorney in Alaska confirmed a criminal investigation into whether a candidate sharing the Republican senator's name was placed on the ballot to confuse voters.",
+      "timeline": [
+        {
+          "date": "Oct",
+          "event": "NYT reports on recruitment of second Sullivan"
+        },
+        {
+          "date": "Late Oct",
+          "event": "Justice Department sues to segregate ballots"
+        },
+        {
+          "date": "Oct 30",
+          "event": "U.S. attorney confirms criminal probe"
+        },
+        {
+          "date": "Nov 3",
+          "event": "Election Day"
+        }
+      ],
+      "topic": "Election probe",
+      "updatedAt": "2026-10-30T18:00:00-04:00",
+      "why": "The Alaska seat could help decide Senate control, and the case is one of several Justice Department moves around the election that could delay certifying results."
     },
     {
-      "id": "fbi-visits-dan-sullivan-donor-candidate",
+      "backstory": "The Justice Department sued California on Oct. 15, alleging that more than 20,000 registered voters are likely noncitizens. U.S. elections are run by states, and the Constitution gives them primary control over how they are held. The administration has pressed several states over voter rolls ahead of the midterms.",
+      "headline": "Courts block Trump bid to set aside 20,000 California ballots",
+      "id": "us-california-ballots",
+      "impact": "Little direct effect in Ontario, but disputes over vote counting could delay results in close races that decide control of Congress.",
+      "impactLevel": "low",
+      "now": "A three-judge panel of the 9th Circuit ruled 2-1 on Friday that setting the ballots aside would violate the Constitution's Elections Clause and risk disenfranchising eligible voters, with Judge Patrick Bumatay dissenting. Late Friday, U.S. District Judge Trina Thompson issued a temporary restraining order barring federal officials from demanding that California officials separate or withhold ballots, or threatening them with prosecution. The Justice Department has also sent letters to all 50 states telling them to preserve election records for 22 months.",
       "rank": 9,
       "region": "us",
-      "topic": "Elections",
-      "status": "new",
-      "impactLevel": "high",
-      "updatedAt": "2026-10-31T15:50:16-04:00",
-      "headline": "FBI visits Dan J. Sullivan donor in candidate's hometown as Alaska Senate inquiry widens",
-      "summary": "An Anchorage-based FBI agent visited a boat dealership in Petersburg, a small fishing community accessible only by air or water where the candidate lives.",
       "sources": [
         {
-          "title": "PBS NewsHour: FBI visits Dan J. Sullivan donor in candidate's hometown as Alaska Senate…",
-          "url": "https://www.pbs.org/newshour/politics/fbi-visits-dan-j-sullivan-donor-in-candidates-hometown-as-alaska-senate-inquiry-widens"
+          "title": "Al Jazeera: Appeals court rejects bid on California ballots",
+          "url": "https://www.aljazeera.com/news/2026/10/30/us-appeals-court-again-rejects-trump-bid-to-set-aside-california-ballots"
         },
         {
-          "title": "BBC News: Alaska Senate candidate denies knowing about alleged plot to put two Dan…",
-          "url": "https://www.bbc.co.uk/news/articles/cmwyq2gg1yzzo?at_medium=RSS&at_campaign=rss"
+          "title": "CBS News: Final-weekend live updates",
+          "url": "https://www.cbsnews.com/live-updates/2026-midterm-elections-campaigns-weekend-before/"
         }
       ],
-      "now": "BBC News: The incumbent Republican running for re-election and allies have accused the Democrats of trying to confuse voters by recruiting a second Dan Sullivan to also stand in the race."
+      "status": "developing",
+      "summary": "A federal appeals panel and then a district judge have stopped the Justice Department from forcing California to separate about 20,000 mail ballots it says may come from noncitizens.",
+      "timeline": [
+        {
+          "date": "Oct 15",
+          "event": "Justice Department sues California"
+        },
+        {
+          "date": "Oct 27",
+          "event": "First appeal rejected on procedural grounds"
+        },
+        {
+          "date": "Oct 29",
+          "event": "District court rules against the administration"
+        },
+        {
+          "date": "Oct 30",
+          "event": "9th Circuit panel rejects bid 2-1"
+        },
+        {
+          "date": "Oct 30",
+          "event": "Judge Thompson issues restraining order"
+        }
+      ],
+      "topic": "Courts",
+      "updatedAt": "2026-10-30T23:00:00-04:00",
+      "why": "The ruling sets limits on how far federal officials can intervene in state-run elections days before a national vote."
     },
     {
-      "id": "canada-echoes-us-mass-casualty-event",
+      "backstory": "Canada joined the EU's SAFE defence procurement program in February as Ottawa looked to diversify away from the U.S. A Canada-EU trade deal (CETA) has been in force provisionally since 2017. The term 'associate member' was dropped from a draft statement days before the summit. Carney also visited the United Arab Emirates this month to expand trade ties.",
+      "headline": "Canada and EU launch 'Alliance for the Future' and aim for associate ties",
+      "id": "canada-eu-uae-diplomacy",
+      "impact": "Nothing changes right away, but over time it could open more European markets to Ontario firms and widen work and study options for young people.",
+      "impactLevel": "low",
+      "now": "Carney and European Commission President Ursula von der Leyen launched an 'Alliance for the Future' focused on AI, energy, critical minerals and quantum technology. Both backed the idea of Canada as the EU's first 'associate' member, though the final joint statement used the phrase 'ever-closer association' after some member states asked for more time. Carney said the substance will be worked out in coming months, plans to attend a June meeting of European leaders, and the sides aim to define the concept by the 2027 summit. He said it could make it easier for young Canadians to live, study and travel in Europe.",
       "rank": 10,
       "region": "canada",
-      "topic": "Conflict",
-      "status": "new",
-      "impactLevel": "low",
-      "updatedAt": "2026-10-31T14:16:50-04:00",
-      "headline": "Canada echoes U.S. ‘mass casualty event’ warning for Moscow",
-      "summary": "The U.S. Embassy in Moscow has issued an alert regarding a threat of a “mass casualty event” at the Tsaritsyno Museum Reserve in Moscow.",
       "sources": [
         {
-          "title": "Global News: Canada echoes U.S. ‘mass casualty event’ warning for Moscow",
-          "url": "https://globalnews.ca/news/12128764/mass-casualty-threat-russia/"
+          "title": "TIME: Carney sets target for EU 'associate' status",
+          "url": "https://time.com/article/2026/10/30/canada-eu-membership-associate-partnership-us-trade-war/"
+        },
+        {
+          "title": "National Observer: Carney, von der Leyen both want associate membership",
+          "url": "https://www.nationalobserver.com/2026/10/29/news/carney-von-der-leyen-both-want-canada-associate-member-european-union"
+        },
+        {
+          "title": "Council of the EU: EU-Canada summit, 29-30 October 2026",
+          "url": "https://www.consilium.europa.eu/en/meetings/international-summit/2026/10/29-30/"
         }
-      ]
+      ],
+      "status": "developing",
+      "summary": "Carney and EU leaders wrapped a two-day summit in Montreal by starting work on a closer partnership short of full membership, with a goal of defining it by next year.",
+      "timeline": [
+        {
+          "date": "2017",
+          "event": "Canada-EU trade deal provisionally in force"
+        },
+        {
+          "date": "Feb",
+          "event": "Canada joins EU's SAFE defence program"
+        },
+        {
+          "date": "Oct 28",
+          "event": "'Associate member' dropped from draft"
+        },
+        {
+          "date": "Oct 29",
+          "event": "Montreal summit opens"
+        },
+        {
+          "date": "Oct 30",
+          "event": "Alliance launched; 2027 target set"
+        }
+      ],
+      "topic": "Canada–EU",
+      "updatedAt": "2026-10-30T15:00:00-04:00",
+      "why": "It is Canada's biggest step yet to tie its economy and security more closely to Europe amid the U.S. trade war."
     },
     {
-      "id": "protesters-stage-die-against-pesticides-montreal",
+      "backstory": "Israelis voted on Oct. 27 amid an eight-month war with Iran that has reshaped regional politics. Netanyahu's outgoing coalition held 60 seats when the last Knesset dissolved in July. Arab parties won more seats than in any previous election, making them potential kingmakers.",
+      "headline": "Final count leaves Netanyahu's bloc at 53 seats, short of a majority",
+      "id": "israel-election",
+      "impact": "Indirect for Ontario, mainly through oil prices and the wider conflict's effect on inflation.",
+      "impactLevel": "low",
+      "now": "Final results give Benjamin Netanyahu's right-wing and religious bloc 53 of 120 seats and the opposition bloc led by Gadi Eisenkot 48, with Arab-led parties holding the balance. Likud figures alleged fraud, but the Central Elections Committee said the vote was lawful and there was no basis for claims of election theft. The Joint List said it is ready to help form an alternative government, and Ra'am leader Mansour Abbas said he has talked with both sides. Results are due to be certified on Nov. 4, after which President Isaac Herzog consults parties.",
       "rank": 11,
-      "region": "canada",
-      "topic": "Canada",
-      "status": "new",
-      "impactLevel": "low",
-      "updatedAt": "2026-10-31T13:25:31-04:00",
-      "headline": "Protesters stage ‘die-in’ against pesticides in Montreal",
-      "summary": "Participants lay on the ground in front of the Guy-Favreau complex as others dressed in white coveralls moved through the crowd pretending to spray pesticides.",
+      "region": "world",
       "sources": [
         {
-          "title": "Global News: Protesters stage ‘die-in’ against pesticides in Montreal",
-          "url": "https://globalnews.ca/news/12128752/die-in-protest-montreal/"
+          "title": "ABC News: Israel final election results",
+          "url": "https://abcnews.com/International/israel-election-partial-results-deadlock-netanyahu-alleges-fraud/story?id=137665276"
+        },
+        {
+          "title": "CNBC: Israel faces weeks of coalition haggling",
+          "url": "https://www.cnbc.com/2026/10/30/israel-election-netanyahu-eisenkot-coalition-talks-.html"
+        },
+        {
+          "title": "CNN: Final results are in",
+          "url": "https://www.cnn.com/2026/10/28/middleeast/netanyahu-israel-election-intl"
         }
-      ]
+      ],
+      "status": "developing",
+      "summary": "Israel faces weeks of coalition talks after final results gave neither Netanyahu's bloc nor Gadi Eisenkot's a 61-seat majority, and Likud claimed the vote was stolen.",
+      "timeline": [
+        {
+          "date": "Jul",
+          "event": "Knesset dissolves; election called"
+        },
+        {
+          "date": "Oct 27",
+          "event": "Israel votes; exit polls show no majority"
+        },
+        {
+          "date": "Oct 28",
+          "event": "Count shows Netanyahu bloc short"
+        },
+        {
+          "date": "Oct 29",
+          "event": "Final results: 53 vs 48; Likud alleges fraud"
+        },
+        {
+          "date": "Nov 4",
+          "event": "Results to be certified"
+        }
+      ],
+      "topic": "Israel vote",
+      "updatedAt": "2026-10-30T12:00:00-04:00",
+      "why": "Who governs Israel will shape whether the war with Iran escalates or winds down."
     },
     {
-      "id": "canada-needs-good-mix-tech-like",
+      "backstory": "Russia's full-scale invasion began in February 2022, and both sides now regularly strike each other's energy sites. A local humanitarian ceasefire began in occupied Oleshky in Kherson region on Oct. 27, and a Ukrainian delegation arrived there on Oct. 30. U.S. envoy Steve Witkoff met Putin on Oct. 21 as Washington pushes for new talks.",
+      "headline": "Russian strike cuts power in parts of Kyiv as Canada pledges €500 million",
+      "id": "ukraine-energy",
+      "impact": "Canada's €500-million pledge adds to federal spending ahead of Thursday's budget; the war also keeps European energy markets tight, adding to global fuel prices.",
+      "impactLevel": "low",
+      "now": "A Russian strike hit an energy facility in Kyiv on Saturday, leaving parts of the city without electricity and water. Canada pledged 500 million euros toward an international support loan as Ukraine faces a 2027 budget gap, following large pledges from Norway and the U.K. Earlier the U.S. approved the sale of 500 Patriot PAC-3 missiles, though President Zelensky warned deliveries may take years, and Russian Foreign Minister Sergei Lavrov said Moscow's position is unchanged. Zelensky hopes for three-way talks with the U.S. in Abu Dhabi between Nov. 6 and 10.",
       "rank": 12,
-      "region": "canada",
-      "topic": "Budget",
-      "status": "new",
-      "impactLevel": "high",
-      "updatedAt": "2026-10-30T14:50:51-04:00",
-      "headline": "Canada needs a ‘good mix’ of new tech like drones, AI: NATO commander",
-      "summary": "Next week’s federal budget is expected to have more details about how Canada intends to meet ambitious defence spending targets by 2035.",
+      "region": "world",
       "sources": [
         {
-          "title": "Global News: Canada needs a ‘good mix’ of new tech like drones, AI: NATO commander",
-          "url": "https://globalnews.ca/news/12127659/canadian-military-drone-technology-nato/"
+          "title": "Kyiv Independent: Latest news",
+          "url": "https://kyivindependent.com/"
+        },
+        {
+          "title": "Kyiv Post (ISW): Russian offensive assessment, Oct. 30",
+          "url": "https://www.kyivpost.com/post/88722"
+        },
+        {
+          "title": "Moscow Times: Lavrov says position unchanged",
+          "url": "https://www.themoscowtimes.com/2026/10/31/lavrov-says-russian-position-on-ukraine-unchanged-at-g20-summit-a94141"
         }
-      ]
+      ],
+      "status": "developing",
+      "summary": "A Russian attack on a Kyiv energy facility knocked out power and water in parts of the capital, while Canada pledged 500 million euros toward a loan for Ukraine.",
+      "timeline": [
+        {
+          "date": "Oct 21",
+          "event": "Witkoff meets Putin"
+        },
+        {
+          "date": "Oct 27",
+          "event": "Oleshky ceasefire begins"
+        },
+        {
+          "date": "Oct 30",
+          "event": "113 drones fired; 500 Patriots approved"
+        },
+        {
+          "date": "Oct 31",
+          "event": "Kyiv energy site hit; Canada pledges €500M"
+        },
+        {
+          "date": "Nov 6–10",
+          "event": "Hoped-for talks in Abu Dhabi"
+        }
+      ],
+      "topic": "Russia–Ukraine",
+      "updatedAt": "2026-10-31T20:55:00-04:00",
+      "why": "Talks in early November could be the first real test of a ceasefire path since early this year."
+    },
+    {
+      "backstory": "Weekend closures have become routine as Metrolinx builds out GO Expansion and the TTC does track and signal work. This weekend's closures overlap with Halloween events and the end of daylight saving time at 2 a.m. Sunday.",
+      "headline": "Subway, GO and UP Express closures hit Halloween weekend",
+      "id": "halloween-weekend-transit",
+      "impact": "Leave extra time for trips downtown or to Pearson this weekend, and check TTC and GO service alerts before heading out.",
+      "impactLevel": "low",
+      "now": "The TTC has no Line 2 Bloor-Danforth service between St. George and Broadview stations this weekend, with shuttle buses running instead. Metrolinx has no Barrie line trains between Downsview Park and Union on Oct. 31 and Nov. 1, so riders are told to use Line 1, and UP Express service to and from Pearson airport is suspended for the weekend. Kitchener line riders face construction-related bus replacements, and some Stouffville line trains are running late or replaced by buses.",
+      "rank": 13,
+      "region": "ontario",
+      "sources": [
+        {
+          "title": "NOW Toronto: TTC and GO outages this Halloween weekend",
+          "url": "https://nowtoronto.com/news/ttc-go-service-disruptions-halloween-weekend-toronto/"
+        },
+        {
+          "title": "CP24: Clocks fall back this weekend",
+          "url": "https://www.cp24.com/local/toronto/2026/10/30/clocks-fall-back-an-hour-this-weekend-for-most-of-ontario-heres-what-you-need-to-know/"
+        }
+      ],
+      "status": "new",
+      "summary": "Line 2 subway service is shut downtown and GO's Barrie line and the UP Express are off for parts of the weekend, as the clocks also fall back an hour.",
+      "timeline": [
+        {
+          "date": "Oct 30",
+          "event": "Line 2 closure begins Friday night"
+        },
+        {
+          "date": "Oct 31",
+          "event": "Barrie line and UP Express shut down"
+        },
+        {
+          "date": "Nov 1",
+          "event": "Clocks fall back; closures end"
+        }
+      ],
+      "topic": "Transit",
+      "updatedAt": "2026-10-31T14:46:53-04:00",
+      "why": "Closures on major lines affect thousands of weekend trips, including airport travellers."
+    },
+    {
+      "backstory": "Toronto uses traffic agents to direct vehicles at busy intersections near construction zones and during rush hour. The Thorncliffe Park area around Millwood and Overlea sees heavy truck traffic. Careless driving causing death is a provincial offence, not a Criminal Code charge.",
+      "headline": "Dump truck driver charged after Toronto traffic agent killed",
+      "id": "toronto-traffic-agent",
+      "impact": "Drivers in construction zones should watch for traffic agents and follow their directions; expect continued scrutiny of turning trucks in dense neighbourhoods.",
+      "impactLevel": "low",
+      "now": "Police say a southbound dump truck turning left from Millwood Road onto Overlea Boulevard hit the 42-year-old agent around 9 a.m. Thursday, and he died at the scene. The 33-year-old driver stayed and co-operated, and was charged with careless driving causing death under the Highway Traffic Act. He is due in court on Jan. 28, and police are asking for dashcam or security video. Mayor Olivia Chow identified the victim later Thursday.",
+      "rank": 14,
+      "region": "ontario",
+      "sources": [
+        {
+          "title": "CP24: Dump truck driver charged in death of traffic agent",
+          "url": "https://www.cp24.com/local/toronto/2026/10/30/dump-truck-driver-charged-in-death-of-toronto-traffic-agent/"
+        },
+        {
+          "title": "CBC: City traffic agent dead after being struck",
+          "url": "https://www.cbc.ca/news/canada/toronto/thorncliffe-park-toronto-pedestrian-fatal-9.7401085"
+        }
+      ],
+      "status": "new",
+      "summary": "A Brampton man faces a careless driving charge after a City of Toronto traffic agent was struck and killed while directing traffic in the east end.",
+      "timeline": [
+        {
+          "date": "Oct 29",
+          "event": "Agent struck and killed at Millwood and Overlea"
+        },
+        {
+          "date": "Oct 30",
+          "event": "Driver charged with careless driving causing death"
+        },
+        {
+          "date": "Jan 28",
+          "event": "Court date"
+        }
+      ],
+      "topic": "Road safety",
+      "updatedAt": "2026-10-30T12:00:00-04:00",
+      "why": "It is a rare death of a city worker on traffic duty and adds to pressure for stricter truck safety rules."
     }
   ],
+  "updatedAt": "2026-10-31T20:58:00-04:00",
   "date": "2026-10-31"
 }
