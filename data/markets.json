@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-01T10:25:00-05:00",
-  "nextRefresh": "around 11:22 AM",
-  "headline": "Crypto steady near $78,000; Iran's Hormuz offer in focus before oil reopens",
-  "summary": "Crypto is calm on Sunday morning: bitcoin is near $78,000 (up 0.8% in 24 hours) and ether near $2,270 after Binance's first withdrawal window ran without trouble, while Lighter (LIT) is up about 14%. Stocks are closed after Friday's worst day since June (Nasdaq −2.9%, S&P 500 −1.8%, TSX −1.7%), and the new weekend factor is Iran's offer to reopen the Strait of Hormuz within 48 hours if the U.S. meets steep conditions, which oil traders will react to when futures reopen Sunday evening. Next week is packed: Apple, Shopify and AMD earnings, the U.S. midterms on Tuesday and the U.S. jobs report on Friday.",
+  "updatedAt": "2026-11-01T11:25:00-05:00",
+  "nextRefresh": "around 12:22 PM",
+  "headline": "Crypto holds near $78,000 as Binance withdrawals reopen; stocks shut till Monday",
+  "summary": "Crypto is quiet on Sunday: bitcoin sits near $78,000 (up 0.6% in 24 hours) and ether near $2,267 after Binance reopened withdrawals for bitcoin and 14 other networks without trouble, while Lighter (LIT) leads the gainers, up about 12%. Stocks are closed after Friday's worst day since June (Nasdaq −2.9%, S&P 500 −1.8%, TSX −1.7%), and oil traders will react to Iran's conditional offer to reopen the Strait of Hormuz when futures reopen Sunday evening. Next week is packed: Apple, Shopify and AMD earnings, the U.S. midterms on Tuesday and the U.S. jobs report on Friday.",
   "mood": {
     "crypto": {
       "label": "Fearful",
-      "why": "The Fear & Greed index reads 34 (Fear), up from 30 but well below 51 earlier in the week; the whole crypto market is worth about $2.61 trillion, down about 3% in 24 hours as many smaller coins lag while bitcoin and ether edge higher."
+      "why": "The Fear & Greed index reads 34 (Fear), up from 30 but below 51 earlier in the week; the whole crypto market is worth about $2.61 trillion, down about 3% in 24 hours as many smaller coins lag while bitcoin, now about 60% of the market, edges higher."
     },
     "stocks": {
       "label": "Risk-off",
@@ -22,7 +22,7 @@
     },
     {
       "title": "Binance restarts withdrawals after record $6.3 billion hack",
-      "detail": "Binance's first withdrawal window ran from 06:00 to 09:00 UTC Sunday (1–4 a.m. Toronto time) for bitcoin, ether, USDT, USDC, BNB, XRP and coins on other top networks, and it says it has replaced about 95% of the stolen funds, with roughly $3 billion, mostly stablecoins, frozen. Further phases will open only after each network passes its own security checks, with no timeline yet; the FBI has tied the theft to North Korea's TraderTraitor group, and a full proof-of-reserves check (a way for users to verify their coins are backed) is promised by Nov. 3.",
+      "detail": "Binance reopened withdrawals Sunday, starting with bitcoin and then selected coins on 14 other networks including Ethereum, Solana, XRP and Tron; it says about 95% of the stolen assets have been replaced from its own reserves, with roughly $3 billion, mostly stablecoins, frozen. Other coins wait on security checks with no set timeline, the FBI has tied the theft to North Korea's TraderTraitor group, and a full proof-of-reserves check (a way for users to verify their coins are backed) is promised by Nov. 3.",
       "effect": "bearish",
       "assets": "Bitcoin, ether, crypto stocks"
     },
@@ -50,8 +50,8 @@
       "id": "bitcoin",
       "symbol": "BTC",
       "name": "Bitcoin",
-      "move": "Up 0.8% in 24h but down 2.9% this week, at about $77,989 (down 9.9% over 30 days)",
-      "why": "Bitcoin hit about $81,900 on Thursday before the Binance hack news set off a wave of liquidations (forced selling of borrowed, leveraged bets), sending it to a six-week low near $76,300. U.S. spot bitcoin ETFs (funds that hold real bitcoin and trade like stocks) saw about $643 million of outflows on Friday, ending four days of inflows. Binance's first withdrawal window (bitcoin first) ran for three hours early Sunday, and the price has barely moved, holding near $78,000; analysts cited by crypto.news see $76,000–$77,000 as the key support zone.",
+      "move": "Up 0.6% in 24h but down 3.3% this week, at about $77,975 (down 9.1% over 30 days)",
+      "why": "Bitcoin hit about $81,900 on Thursday before the Binance hack news set off a wave of liquidations (forced selling of borrowed, leveraged bets), sending it to a six-week low near $76,300. U.S. spot bitcoin ETFs (funds that hold real bitcoin and trade like stocks) saw about $643 million of outflows on Friday, ending four days of inflows. Binance reopened bitcoin withdrawals early Sunday and then other major networks, and the price has barely moved, holding near $78,000; analysts cited by crypto.news see $76,000–$77,000 as the key support zone.",
       "meaning": "The price held up better than you might expect after the largest crypto theft ever, which suggests the hack is being treated as a Binance problem rather than a flaw in bitcoin itself. But with ETF buyers retreating and rates possibly rising, there is little fresh demand to lift it quickly.",
       "outlook": {
         "lean": "sideways",
@@ -71,8 +71,8 @@
           "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-holds-above-77000-as-binance-hack-recovery-takes-shape-4989115"
         },
         {
-          "title": "Bitcoin Magazine: Binance halts withdrawals, confirms $6.3B hack",
-          "url": "https://bitcoinmagazine.com/news/bitcoin-price-slides-near-76000-binance"
+          "title": "crypto.news: Binance reopens bitcoin withdrawals, says 95% restored",
+          "url": "https://crypto.news/binance-reopens-bitcoin-withdrawals-after-hack/"
         },
         {
           "title": "Al Jazeera: Binance says $6.3bn stolen in biggest crypto heist",
@@ -84,7 +84,7 @@
       "id": "ethereum",
       "symbol": "ETH",
       "name": "Ethereum",
-      "move": "Up 1.0% in 24h but down 2.7% this week, at about $2,270 (down 17.3% over 30 days)",
+      "move": "Up 0.7% in 24h but down 3.2% this week, at about $2,267 (down 16.4% over 30 days)",
       "why": "A large share of the stolen Binance funds was ether and stablecoins, and ether dropped more than 3% to a two-month low near $2,178 when the hack broke. Ether ETFs also had outflows of about $156 million on the same day bitcoin funds bled $643 million. Ethereum was in the first group of networks to reopen for Binance withdrawals on Sunday, and the price has steadied around $2,260.",
       "meaning": "Ether has fallen harder than bitcoin over the past month, a sign that investors are favouring the biggest, most liquid coin when nervous. A holder should expect bigger swings than bitcoin in either direction.",
       "outlook": {
@@ -110,7 +110,7 @@
       "id": "tron",
       "symbol": "TRX",
       "name": "TRON",
-      "move": "Down 0.9% in 24h and down 5.5% this week, at about $0.3119 (down 7.1% over 30 days)",
+      "move": "Up 0.4% in 24h but down 4.9% this week, at about $0.3127 (down 6.7% over 30 days)",
       "why": "TRON had climbed above $0.36 right after the Binance hack, but blockchain firm TRM Labs says much of that buying came from the attackers themselves: they moved about $628 million through the TRON network and swapped roughly $234 million of the stablecoin USDT into TRX before Tether froze the linked wallets. With that artificial demand gone, the price has fallen back and given up the whole spike. Derivatives traders are also leaning bearish, with funding rates (the fee between long and short traders) negative.",
       "meaning": "The earlier jump was not a sign of real new demand, so holders should not read it as a breakout. TRON's core business, moving USDT payments, is unchanged, but the coin may stay volatile while hacker-linked TRX is still in circulation.",
       "outlook": {
@@ -136,7 +136,7 @@
       "id": "hyperliquid",
       "symbol": "HYPE",
       "name": "Hyperliquid",
-      "move": "Up 0.7% in 24h and up 15.3% this week, at about $87.84 (down 2.9% over 30 days)",
+      "move": "Up 0.7% in 24h and up 14.2% this week, at about $88.10 (down 2.6% over 30 days)",
       "why": "HYPE jumped about 15% on Thursday after Intercontinental Exchange, owner of the New York Stock Exchange, agreed to work with TradeXYZ to offer Hyperliquid-based perpetual futures (contracts with no expiry date) to U.S. traders, pending regulatory approval. The token has held most of that gain, near $88. A modeled release of roughly 9.9 million HYPE (about $920 million) to core contributors is expected around Nov. 6.",
       "meaning": "The ICE deal is a big vote of confidence from traditional finance, but it still needs approval and has no launch date. The large scheduled unlock could add selling pressure in the short term.",
       "outlook": {
@@ -162,8 +162,8 @@
       "id": "aave",
       "symbol": "AAVE",
       "name": "Aave",
-      "move": "Up 2.6% in 24h and up 2.0% this week, at about $138.60 (down 24.6% over 30 days)",
-      "why": "Aave, the biggest crypto lending protocol, froze markets across 16 networks after a wallet linked to the Binance hacker started borrowing against stolen funds, then reopened them with nine assets still blocked from being used as collateral. Traders appear to be rewarding how quickly it contained the risk.",
+      "move": "Up 0.4% in 24h and up 1.1% this week, at about $136.88 (down 24.8% over 30 days)",
+      "why": "Aave, the biggest crypto lending protocol, froze markets across 16 networks after a wallet linked to the Binance hacker started borrowing against stolen funds, then reopened them with nine assets still blocked from being used as collateral. The token bounced after the reopening and is now holding roughly flat, as traders weigh how quickly it contained the risk.",
       "meaning": "The bounce reflects relief that Aave avoided losses, not a change in the broader downtrend. Lending protocols are exposed if stolen or volatile assets are used as collateral, so its handling of the incident matters for confidence.",
       "outlook": {
         "lean": "unclear",
@@ -188,8 +188,8 @@
       "id": "morpho",
       "symbol": "MORPHO",
       "name": "Morpho",
-      "move": "Up 0.1% in 24h and up 9.8% this week, at about $2.27 (down 14.6% over 30 days)",
-      "why": "Morpho, a DeFi (decentralized finance) lending network where users lend and borrow crypto without a bank, rose about 10% this week alongside Aave as lending tokens bounced after the hack-driven sell-off, and is flat over the past 24 hours. We found no single new announcement behind the move in major outlets, so it looks like short-term traders rotating back into the lending sector.",
+      "move": "Down 2.5% in 24h but up 9.5% this week, at about $2.28 (down 13.9% over 30 days)",
+      "why": "Morpho, a DeFi (decentralized finance) lending network where users lend and borrow crypto without a bank, rose about 10% this week alongside Aave as lending tokens bounced after the hack-driven sell-off, but is giving back some of that gain on Sunday, down about 2.5% in 24 hours. We found no single new announcement behind the move in major outlets, so it looks like short-term traders rotating back into the lending sector.",
       "meaning": "Lending tokens are recovering because the Binance hack did not spread into DeFi lending losses, but a quick jump with no clear news can reverse just as fast. It remains a higher-risk, smaller asset than bitcoin or ether.",
       "outlook": {
         "lean": "unclear",
@@ -210,8 +210,8 @@
       "id": "lighter",
       "symbol": "LIT",
       "name": "Lighter",
-      "move": "Up 14.4% in 24h and up 3.0% this week, at about $3.25 (down 13.4% over 30 days)",
-      "why": "Lighter runs a perpetual-futures exchange (a venue for leveraged bets on crypto prices that never expire). Its token jumped about 20% on Oct. 22 after the team said it plans to seek a U.S. CFTC licence (the regulator for futures) and is weighing access through Robinhood, then gave much of that back in the hack-driven sell-off. It is leading Sunday's altcoin gainers and tops CoinGecko's trending list, on more than $100 million of trading volume, but we found no new announcement behind the rebound in major outlets, so it looks like traders rotating back into exchange tokens after HYPE's strong week.",
+      "move": "Up 11.7% in 24h and up 1.9% this week, at about $3.24 (down 11.9% over 30 days)",
+      "why": "Lighter runs a perpetual-futures exchange (a venue for leveraged bets on crypto prices that never expire). Its token jumped about 20% on Oct. 22 after the team said it plans to seek a U.S. CFTC licence (the regulator for futures) and is weighing access through Robinhood, then gave much of that back in the hack-driven sell-off. It is leading Sunday's altcoin gainers, up about 12%, and sits near the top of CoinGecko's trending list, on more than $100 million of trading volume, but we found no new announcement behind the rebound in major outlets, so it looks like traders rotating back into exchange tokens after HYPE's strong week.",
       "meaning": "LIT is still down about 13% over 30 days, so Sunday's jump only repairs part of the damage. Its value depends heavily on the U.S. licence plan actually moving forward, and small-cap exchange tokens can give back gains as quickly as they make them.",
       "outlook": {
         "lean": "unclear",
@@ -236,7 +236,7 @@
       "id": "zcash",
       "symbol": "ZEC",
       "name": "Zcash",
-      "move": "Down 2.8% in 24h but up 3.2% this week, at about $1,240 (down 10.0% over 30 days)",
+      "move": "Down 3.6% in 24h but up 2.1% this week, at about $1,235 (down 9.9% over 30 days)",
       "why": "Traders are positioning ahead of Zcash's NU7 network upgrade, targeted for Nov. 5, which cuts the target time between blocks from 75 seconds to 25 seconds for faster payments. The privacy coin has been one of the strongest performers of the year.",
       "meaning": "Upgrades often bring a 'buy the rumour, sell the news' pattern: prices can rise into the event and fall after it. Expect sharp swings around Nov. 5.",
       "outlook": {
@@ -258,8 +258,8 @@
       "id": "bitway",
       "symbol": "BTW",
       "name": "Bitway",
-      "move": "Down 2.5% in 24h and down 37.1% this week, at about $1.11 (down 19.9% over 30 days)",
-      "why": "Bitway is down almost 60% from its Oct. 14 record of $2.77 as traders sell ahead of a token unlock of about 101.6 million BTW (roughly 1% of total supply) on Nov. 2. Sources disagree on whether those tokens go to community pools or to early investors, who may be more likely to sell.",
+      "move": "Down 0.7% in 24h and down 34.3% this week, at about $1.11 (down 20.7% over 30 days)",
+      "why": "Bitway is down almost 60% from its Oct. 14 record of $2.77 as traders sell ahead of a token unlock of about 101.6 million BTW (roughly 1% of total supply) on Nov. 2 (Monday). Sources disagree on whether those tokens go to community pools or to early investors, who may be more likely to sell.",
       "meaning": "An unlock adds new tokens to the market; past Bitway unlocks were followed by an average drop of about 7% over two weeks, per CryptoTicker. Much of that risk may already be priced in after this week's slide, but volatility will stay extreme.",
       "outlook": {
         "lean": "down",
@@ -284,7 +284,7 @@
       "id": "blockstack",
       "symbol": "STX",
       "name": "Stacks",
-      "move": "Up 0.6% in 24h and up 8.8% this week, at about $0.3210 (down 12.9% over 30 days)",
+      "move": "Up 0.1% in 24h and up 8.7% this week, at about $0.3212 (down 12.0% over 30 days)",
       "why": "Stacks, a network that adds smart contracts on top of bitcoin, has bounced sharply from recent lows. We found no single clear news catalyst in major outlets; the move looks driven by short-term traders.",
       "meaning": "Moves without a clear cause can reverse just as fast. It remains well below where it traded a month ago.",
       "outlook": {
@@ -602,9 +602,9 @@
     },
     {
       "name": "Pearl",
-      "symbol": "PRL",
+      "symbol": "PEARL",
       "what": "A new blockchain launched in April 2026 that claims its mining also does useful AI computing; all coins come from mining, with no team or investor allocation.",
-      "why": "It rose about sevenfold between August and mid-October and is now ranked about 100th by market value (roughly $543 million). It is up about 28% over 30 days but down about 18% this week, and it is trending on CoinGecko.",
+      "why": "It rose about sevenfold between August and mid-October and is now ranked about 99th by market value (roughly $558 million, near $1.52 per coin). It is up about 34% over 30 days but down about 19% this week, and it is trending on CoinGecko, up about 4% in 24 hours.",
       "risk": "very high",
       "redFlags": "A researcher showed miners can earn rewards without doing AI work; about 1 million new coins are mined daily, nearly doubling supply over a year; it trades on few exchanges with thin liquidity.",
       "sources": [
@@ -618,7 +618,7 @@
       "name": "Kinetiq",
       "symbol": "KNTQ",
       "what": "A liquid staking project on Hyperliquid: users lock up HYPE tokens to help secure the network and get a tradable receipt token back, so their HYPE keeps earning rewards while staying usable. KNTQ is its governance token.",
-      "why": "It is trending on CoinGecko at about $0.53 (market value near $171 million), up about 4% in 24 hours. It has been moving with HYPE, which jumped this week on the ICE (New York Stock Exchange owner) tie-up, and set a record near $0.50 on Oct. 29 before rising further.",
+      "why": "It is trending on CoinGecko at about $0.57 (market value near $182 million), up about 6% in 24 hours. It has been moving with HYPE, which jumped this week on the ICE (New York Stock Exchange owner) tie-up, and set a record near $0.50 on Oct. 29 before rising further.",
       "risk": "very high",
       "redFlags": "Price closely tied to a single ecosystem (Hyperliquid); a young token with future unlocks likely; a large HYPE unlock on Nov. 6 could hit the whole ecosystem; thinner trading than major coins.",
       "sources": [
@@ -636,7 +636,7 @@
       "name": "Quantus",
       "symbol": "QTC",
       "what": "A new blockchain built to resist future quantum computers, which could one day break the cryptography that protects today's coins. Its QTC token launched for trading on NEAR's near.com and NEAR Intents in early October.",
-      "why": "It is trending on CoinGecko at about $73 per token, though its total market value is only about $23 million because very few tokens are in circulation; reports say its October rally was driven by that small float as much as by the quantum-safety story.",
+      "why": "It trended on CoinGecko this week at about $73 per token, though its total market value was only about $23 million because very few tokens are in circulation; reports say its October rally was driven by that small float as much as by the quantum-safety story.",
       "risk": "very high",
       "redFlags": "Very small circulating supply, so prices can swing wildly and more tokens may unlock later; thin trading on few venues; a young network with an unproven product.",
       "sources": [
