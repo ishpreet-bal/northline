@@ -1,97 +1,86 @@
 {
-  "updatedAt": "2026-11-01T20:55:00-05:00",
-  "rangeStart": "2026-10-26",
+  "headline": "Iran talks drag on and Americans head to the polls",
   "rangeEnd": "2026-11-01",
-  "headline": "Carney says he had 'good conversation' with Trump regarding trade",
-  "summary": "The stories that stayed in the briefing most this week: Carney says he had 'good conversation' with Trump regarding trade; Russian strikes cut power to thousands in Ukraine as Kherson ceasefire ends; Iran says no Hormuz reopening until U.S. meets its seven conditions.",
+  "rangeStart": "2026-10-26",
+  "summary": "The week was dominated by talks on reopening the Strait of Hormuz, the run-up to Tuesday's U.S. midterms, and Canada–U.S. trade and a weakening economy after the Bank of Canada's rate hike. In Ontario, Toronto re-elected Olivia Chow, the province's deficit grew to $16.9 billion, and a violent Bridle Path home invasion shook the city.",
   "top": [
     {
-      "rank": 1,
-      "id": "trade-war",
-      "region": "canada",
-      "when": "Oct 26–Nov 1",
-      "impactLevel": "high",
-      "latestDate": "2026-11-01",
-      "headline": "Carney says he had 'good conversation' with Trump regarding trade",
-      "what": "Carney said the conversation built on recent discussions about the outlines of a deal that would create jobs, lower costs for families and protect Canada's languages, culture and sovereignty.",
-      "why": "In the briefing on 5 of the last 7 days."
-    },
-    {
-      "rank": 2,
-      "id": "ukraine-energy",
-      "region": "world",
-      "when": "Oct 26–Nov 1",
-      "impactLevel": "high",
-      "latestDate": "2026-11-01",
-      "headline": "Russian strikes cut power to thousands in Ukraine as Kherson ceasefire ends",
-      "what": "A rare humanitarian ceasefire allowed civilians to evacuate the Russian-occupied city of Oleshky.",
-      "why": "In the briefing on 5 of the last 7 days."
-    },
-    {
-      "rank": 3,
+      "headline": "Iran's two-day Hormuz plan waits on U.S. as Trump vows the war ends soon",
       "id": "iran-hormuz",
-      "region": "world",
-      "when": "Oct 26–31",
       "impactLevel": "high",
-      "latestDate": "2026-10-31",
-      "headline": "Iran says no Hormuz reopening until U.S. meets its seven conditions",
-      "what": "Iran's security chief says Tehran has not yet replied to a U.S. letter and will keep the Strait of Hormuz shut and stay out of talks until Washington accepts its terms.",
-      "why": "In the briefing on 4 of the last 7 days."
+      "latestDate": "2026-11-01",
+      "rank": 1,
+      "region": "world",
+      "what": "Iran and Qatari mediators shortened a plan to reopen the Strait of Hormuz to two days, but it depends on Washington, and Trump says the war will end soon one way or the other after pledging no strikes before Tuesday's vote.",
+      "when": "Oct 26–Nov 1",
+      "why": "Oil above US$110 is the main force behind higher inflation in Canada and the U.S., and it pushed the Bank of Canada into a rate hike this week."
     },
     {
-      "rank": 4,
-      "id": "canada-inflation-september",
+      "headline": "Carney widens trade push as U.S. deal stays out of reach",
+      "id": "trade-war",
+      "impactLevel": "high",
+      "latestDate": "2026-11-01",
+      "rank": 2,
       "region": "canada",
-      "when": "Oct 26–31",
-      "impactLevel": "high",
-      "latestDate": "2026-10-31",
+      "what": "With a deal on U.S. tariffs still elusive, Prime Minister Mark Carney is stepping up trade talks with other partners, while a reshuffled list of Canadian goods facing 50% U.S. tariffs took effect Friday.",
+      "when": "Oct 26–Nov 1",
+      "why": "Ontario sells most of its steel and auto output to the U.S., and the province says steel exports there have fallen by more than half since 2024."
+    },
+    {
       "headline": "Economy stalls in August, two days after Bank of Canada's hike",
+      "id": "canada-inflation-september",
+      "impactLevel": "high",
+      "latestDate": "2026-11-01",
+      "rank": 3,
+      "region": "canada",
       "what": "Statistics Canada says the economy was flat in August and probably shrank 0.1% in September, a weak backdrop for the Bank of Canada's first rate increase since 2023.",
-      "why": "In the briefing on 4 of the last 7 days."
+      "when": "Oct 26–Nov 1",
+      "why": "The data shows the bank raising rates into a stalling economy, a tough trade-off that makes its next moves less predictable."
     },
     {
-      "rank": 5,
+      "headline": "Ontario deficit grows to $16.9 billion; balance pushed to 2029-30",
       "id": "ontario-fall-economic-statement",
-      "region": "ontario",
-      "when": "Oct 26–31",
       "impactLevel": "high",
       "latestDate": "2026-10-31",
-      "headline": "Ontario deficit grows to $16.9 billion; balance pushed to 2029-30",
+      "rank": 4,
+      "region": "ontario",
       "what": "Finance Minister Peter Bethlenfalvy's fall update raised this year's deficit by more than $3 billion and delayed a balanced budget by a year as the trade war slows growth.",
-      "why": "In the briefing on 4 of the last 7 days."
+      "when": "Oct 26–31",
+      "why": "A bigger deficit and slower growth limit room for new programs and tax relief, and confirm the trade war is hurting Ontario more than other provinces."
     },
     {
-      "rank": 6,
+      "headline": "53 million early votes as Trump closes in Iowa and Kansas",
       "id": "us-midterms",
-      "region": "us",
-      "when": "Oct 26–31",
       "impactLevel": "medium",
-      "latestDate": "2026-10-31",
-      "headline": "Nearly 45 million votes cast as midterms enter final weekend",
-      "what": "With Election Day on Tuesday, Democrats lead national polls for the House while Senate control rests on a handful of toss-up races.",
-      "why": "In the briefing on 4 of the last 7 days."
+      "latestDate": "2026-11-01",
+      "rank": 5,
+      "region": "us",
+      "what": "Early voting far outpaced 2022, and Democrats lead most recent polls in key Senate races heading into Tuesday.",
+      "when": "Oct 26–Nov 1",
+      "why": "A Democratic Congress could check Trump's tariffs and war powers, while Republican control would give him a freer hand for the next two years."
     },
     {
-      "rank": 7,
-      "id": "us-markets-ai-selloff",
-      "region": "us",
-      "when": "Oct 26–31",
-      "impactLevel": "medium",
-      "latestDate": "2026-10-31",
       "headline": "U.S. economy grows 3.4% in third quarter as inflation cools",
+      "id": "us-markets-ai-selloff",
+      "impactLevel": "medium",
+      "latestDate": "2026-11-01",
+      "rank": 6,
+      "region": "us",
       "what": "The U.S. economy expanded at a 3.4% annual rate from July to September, faster than the spring, while a key inflation gauge eased.",
-      "why": "In the briefing on 4 of the last 7 days."
+      "when": "Oct 26–Nov 1",
+      "why": "A strong U.S."
     },
     {
-      "rank": 8,
-      "id": "israel-election",
-      "region": "world",
-      "when": "Oct 26–31",
+      "headline": "Russian grid strikes continue as Kherson truce ends",
+      "id": "ukraine-energy",
       "impactLevel": "low",
-      "latestDate": "2026-10-31",
-      "headline": "Final count leaves Netanyahu's bloc at 53 seats, short of a majority",
-      "what": "Israel faces weeks of coalition talks after final results gave neither Netanyahu's bloc nor Gadi Eisenkot's a 61-seat majority, and Likud claimed the vote was stolen.",
-      "why": "In the briefing on 4 of the last 7 days."
+      "latestDate": "2026-11-01",
+      "rank": 7,
+      "region": "world",
+      "what": "Russian strikes on Ukraine's power grid cut electricity to about 280,000 households, while a large drone attack hit an industrial site near a major Russian refinery.",
+      "when": "Oct 26–Nov 1",
+      "why": "Talks in early November could be the first real test of a ceasefire path since early this year."
     }
-  ]
+  ],
+  "updatedAt": "2026-11-01T20:55:00-05:00"
 }
