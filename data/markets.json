@@ -1,22 +1,22 @@
 {
-  "updatedAt": "2026-11-01T22:23:00-05:00",
-  "nextRefresh": "around 11:22 PM",
-  "headline": "Futures steady ahead of a big week; bitcoin holds near $78,500",
-  "summary": "U.S. stock futures are holding small gains Sunday evening after Friday's tech-led sell-off (Nasdaq −2.9%, S&P 500 −1.8%, TSX −1.7%), heading into Apple and Palantir earnings Monday, Tuesday's U.S. midterms and Friday's jobs report. Crypto is calm: bitcoin is near $78,490 (up 1.0% over 24 hours, down 1.6% this week) and ether near $2,295, as Binance keeps reopening withdrawals after its $6.3 billion hack; the whole market is worth about $2.62 trillion and Fear & Greed sits at 37. U.S. crude has slipped about 3.1% to $100.92 after OPEC+ held output steady, while gold is up 0.4% to about $3,914 after hitting a one-year low.",
+  "updatedAt": "2026-11-01T23:22:00-05:00",
+  "nextRefresh": "around 12:22 AM",
+  "headline": "Asia slips but U.S. futures firm; bitcoin steady near $78,700",
+  "summary": "U.S. stock futures are up about 0.4% (S&P 500) and 0.6% (Nasdaq) late Sunday after Friday's tech sell-off, even as Asian markets open lower on AI-spending worries (Nikkei −0.5%, Kospi −0.8%); Apple and Palantir report Monday, the U.S. midterms are Tuesday and the jobs report is Friday. Crypto is calm: bitcoin is near $78,660 (up 1.3% in 24 hours, down 1.1% this week) and ether near $2,306 as Binance keeps restoring withdrawals after its $6.3 billion hack; the market is worth about $2.63 trillion and Fear & Greed reads 37. U.S. crude is down about 3.4% to $100.60 on Iran peace-talk hopes, and gold is up 0.5% to about $3,917, just above a one-year low.",
   "mood": {
     "crypto": {
       "label": "Fearful",
-      "why": "The Fear & Greed index reads 37 (Fear), up from 30 midweek but well below 51 a week ago; bitcoin, about 60% of the $2.62 trillion crypto market, is holding steady while smaller coins such as Morpho and NEAR slip."
+      "why": "The Fear & Greed index reads 37 (Fear), up from 30 midweek but well below 51 a week ago; bitcoin, about 60% of the $2.63 trillion crypto market, is holding steady while smaller coins such as Bitway, Morpho and NEAR slip."
     },
     "stocks": {
       "label": "Cautious",
-      "why": "Futures are bouncing slightly after Friday's worst day since June, but the VIX fear gauge ended the week at 19.4 and a heavy week of earnings, the midterms and jobs data could swing things either way."
+      "why": "U.S. futures are bouncing modestly after Friday's worst day since June, but Asia opened lower on AI-spending worries, the VIX fear gauge ended the week at 19.4, and earnings, the midterms and jobs data could swing things either way."
     }
   },
   "drivers": [
     {
       "title": "Big Tech's AI bills spook investors",
-      "detail": "Alphabet fell 12.6% Thursday after heavy capital spending and a profit miss, and Intel's weak outlook (down 28.6%) dragged chip stocks Friday; the biggest AI and chip stocks have shed about $5 trillion in value since Oct. 6. The rest of the market has held up better, with 9 of 11 S&P 500 sectors rising last week, so futures edged up 0.2%–0.4% Sunday evening.",
+      "detail": "Alphabet fell 12.6% Thursday after heavy capital spending and a profit miss, and Intel's weak outlook (down 28.6%) dragged chip stocks Friday, leaving the Nasdaq down almost 7% in October, its worst month since April 2025. Asian shares opened Monday lower on the same worries (Kospi −0.8%, Nikkei −0.5%), though U.S. futures are up 0.4%–0.6% as Goldman Sachs still expects S&P 500 earnings to grow almost 30% this year.",
       "effect": "mixed",
       "assets": "Nasdaq, chip stocks, Shopify"
     },
@@ -28,19 +28,19 @@
     },
     {
       "title": "Central banks lean toward hiking, not cutting",
-      "detail": "The Fed held at 3.75%–4.00% on Oct. 28 after a September hike, and futures priced roughly an 83% chance of a December increase, per Kitco. The Bank of Canada raised its rate to 2.50% the same day, its first hike in three years, and said more may be needed because of high energy prices.",
+      "detail": "The Fed held at 3.75%–4.00% on Oct. 28 after a September hike, and futures now price about a 72% chance of another quarter-point increase in December, per Reuters. The Bank of Canada raised its rate to 2.50% the same day, its first hike in three years, and markets expect the Reserve Bank of Australia and Bank of England to hike this week too.",
       "effect": "bearish",
       "assets": "Stocks, bonds, bitcoin, Canadian banks"
     },
     {
-      "title": "Oil eases at the reopen as OPEC+ holds and Iran dangles a Hormuz deal",
-      "detail": "OPEC+ kept December output targets unchanged on Sunday for a third straight month, and U.S. crude is trading about 3.1% lower at $100.92 after Friday's six-month-high close of $104.12; the Strait of Hormuz remains effectively closed as the Iran war enters its ninth month. Real progress on Iran's conditional offer to reopen the strait could pull oil and inflation fears lower, while a breakdown could send prices back up.",
+      "title": "Oil slides as OPEC+ holds and Iran peace talks progress",
+      "detail": "OPEC+ kept December output targets unchanged on Sunday, and U.S. crude is trading about 3.4% lower at $100.60 (Brent near $111.70) after Friday's six-month-high close of $104.12, as Iran-Qatar talks aimed at ending the war weigh on prices. Real progress toward reopening the Strait of Hormuz could pull oil and inflation fears lower, while a breakdown could send prices back up.",
       "effect": "mixed",
       "assets": "Oil, Canadian energy stocks, inflation, bond yields"
     },
     {
       "title": "Gold steadies just above a one-year low",
-      "detail": "Gold futures fell 3.3% Friday to about $3,899 as the prospect of higher interest rates outweighed safe-haven demand, dragging TSX materials stocks down 4.8%. It is up about 0.4% to $3,914 in Sunday evening trading.",
+      "detail": "Gold futures fell 3.3% Friday to about $3,899, ending October down 6.8%, as the prospect of higher interest rates and reports of investors selling gold to cover margin calls outweighed safe-haven demand. It is up about 0.5% to $3,917 in Sunday evening trading, just above its 52-week low of $3,879.",
       "effect": "bearish",
       "assets": "Gold, TSX miners"
     }
@@ -50,7 +50,7 @@
       "id": "bitcoin",
       "symbol": "BTC",
       "name": "Bitcoin",
-      "move": "Up 1.0% in 24h but down 1.6% this week, at about $78,485 (down 7.3% over 30 days)",
+      "move": "Up 1.3% in 24h but down 1.1% this week, at about $78,660 (down 7.1% over 30 days)",
       "why": "Bitcoin hit about $81,900 on Thursday before the Binance hack news set off a wave of liquidations (forced selling of borrowed, leveraged bets), sending it to a six-week low near $76,300. U.S. spot bitcoin ETFs (funds that hold real bitcoin and trade like stocks) saw about $643 million of outflows on Friday, ending four days of inflows. Binance reopened bitcoin withdrawals early Sunday and then other major networks, and the price has barely moved, edging up to about $78,300 by Sunday evening; analysts cited by crypto.news see $76,000–$77,000 as the key support zone.",
       "meaning": "The price held up better than you might expect after the largest crypto theft ever, which suggests the hack is being treated as a Binance problem rather than a flaw in bitcoin itself. But with ETF buyers retreating and rates possibly rising, there is little fresh demand to lift it quickly.",
       "outlook": {
@@ -84,7 +84,7 @@
       "id": "ethereum",
       "symbol": "ETH",
       "name": "Ethereum",
-      "move": "Up 1.2% in 24h but down 0.9% this week, at about $2,295 (down 14.4% over 30 days)",
+      "move": "Up 1.8% in 24h and roughly flat this week, at about $2,306 (down 13.8% over 30 days)",
       "why": "A large share of the stolen Binance funds was ether and stablecoins, and ether dropped more than 3% to a two-month low near $2,178 when the hack broke. Ether ETFs also had outflows of about $156 million on the same day bitcoin funds bled $643 million. Ethereum was in the first group of networks to reopen for Binance withdrawals on Sunday, and the price has steadied around $2,280.",
       "meaning": "Ether has fallen harder than bitcoin over the past month, a sign that investors are favouring the biggest, most liquid coin when nervous. A holder should expect bigger swings than bitcoin in either direction.",
       "outlook": {
@@ -110,7 +110,7 @@
       "id": "tron",
       "symbol": "TRX",
       "name": "TRON",
-      "move": "Up 1.3% in 24h but down 4.9% this week, at about $0.3136 (down 6.3% over 30 days)",
+      "move": "Up 1.7% in 24h but down 5.0% this week, at about $0.3138 (down 6.2% over 30 days)",
       "why": "TRON had climbed above $0.36 right after the Binance hack, but blockchain firm TRM Labs says much of that buying came from the attackers themselves: they moved about $628 million through the TRON network and swapped roughly $234 million of the stablecoin USDT into TRX before Tether froze the linked wallets. With that artificial demand gone, the price fell back and gave up the whole spike, though it is up about 1.4% over 24 hours. Derivatives traders are also leaning bearish, with funding rates (the fee between long and short traders) negative.",
       "meaning": "The earlier jump was not a sign of real new demand, so holders should not read it as a breakout. TRON's core business, moving USDT payments, is unchanged, but the coin may stay volatile while hacker-linked TRX is still in circulation.",
       "outlook": {
@@ -136,7 +136,7 @@
       "id": "hyperliquid",
       "symbol": "HYPE",
       "name": "Hyperliquid",
-      "move": "Down 0.5% in 24h but up 15.0% this week, at about $87.73 (down 1.5% over 30 days)",
+      "move": "Up 0.8% in 24h and up 17.5% this week, at about $88.62 (up 0.4% over 30 days)",
       "why": "HYPE jumped about 15% on Thursday after Intercontinental Exchange, owner of the New York Stock Exchange, agreed to work with TradeXYZ to offer Hyperliquid-based perpetual futures (contracts with no expiry date) to U.S. traders, pending regulatory approval. The token has held most of that gain, near $87. A modeled release of roughly 9.9 million HYPE (about $920 million) to core contributors is expected around Nov. 6.",
       "meaning": "The ICE deal is a big vote of confidence from traditional finance, but it still needs approval and has no launch date. The large scheduled unlock could add selling pressure in the short term.",
       "outlook": {
@@ -162,7 +162,7 @@
       "id": "aave",
       "symbol": "AAVE",
       "name": "Aave",
-      "move": "Down 2.1% in 24h and roughly flat this week, at about $134.96 (down 25.8% over 30 days)",
+      "move": "Down 2.0% in 24h and roughly flat this week, at about $134.80 (down 25.0% over 30 days)",
       "why": "Aave, the biggest crypto lending protocol, froze markets across 16 networks after a wallet linked to the Binance hacker started borrowing against stolen funds, then reopened them with nine assets still blocked from being used as collateral. The token bounced after the reopening and is up about 1% over 24 hours, as traders weigh how quickly it contained the risk.",
       "meaning": "The bounce reflects relief that Aave avoided losses, not a change in the broader downtrend. Lending protocols are exposed if stolen or volatile assets are used as collateral, so its handling of the incident matters for confidence.",
       "outlook": {
@@ -188,7 +188,7 @@
       "id": "morpho",
       "symbol": "MORPHO",
       "name": "Morpho",
-      "move": "Down 4.6% in 24h but up 9.5% this week, at about $2.23 (down 13.4% over 30 days)",
+      "move": "Down 3.3% in 24h but up 10.9% this week, at about $2.23 (down 12.8% over 30 days)",
       "why": "Morpho, a DeFi (decentralized finance) lending network where users lend and borrow crypto without a bank, is still up about 8% this week alongside Aave as lending tokens bounced after the hack-driven sell-off, but it is the weakest large coin on Sunday, down about 6% in 24 hours. We found no single new announcement behind the move in major outlets, so it looks like short-term traders taking profits.",
       "meaning": "Lending tokens are recovering because the Binance hack did not spread into DeFi lending losses, but a quick jump with no clear news can reverse just as fast. It remains a higher-risk, smaller asset than bitcoin or ether.",
       "outlook": {
@@ -210,7 +210,7 @@
       "id": "lighter",
       "symbol": "LIT",
       "name": "Lighter",
-      "move": "Up 0.4% in 24h and roughly flat this week, at about $3.20 (down 11.1% over 30 days)",
+      "move": "Up 1.6% in 24h and up 4.4% this week, at about $3.22 (down 7.5% over 30 days)",
       "why": "Lighter runs a perpetual-futures exchange (a venue for leveraged bets on crypto prices that never expire). Its token jumped about 20% on Oct. 22 after the team said it plans to seek a U.S. CFTC licence (the regulator for futures) and is weighing access through Robinhood, then gave much of that back in the hack-driven sell-off. It was among Sunday's top large-coin gainers earlier in the day and is still trending on CoinGecko, though it has since slipped back to roughly flat over 24 hours; we found no new announcement behind it in major outlets, so it looks like traders rotating back into exchange tokens after HYPE's strong week.",
       "meaning": "LIT is still down about 11% over 30 days, so the weekend bounce only repairs part of the damage. Its value depends heavily on the U.S. licence plan actually moving forward, and small-cap exchange tokens can give back gains as quickly as they make them.",
       "outlook": {
@@ -236,7 +236,7 @@
       "id": "zcash",
       "symbol": "ZEC",
       "name": "Zcash",
-      "move": "Up 1.1% in 24h and up 3.9% this week, at about $1,260 (down 5.0% over 30 days)",
+      "move": "Up 3.0% in 24h and up 7.6% this week, at about $1,282 (down 3.1% over 30 days)",
       "why": "Traders are positioning ahead of Zcash's NU7 network upgrade, targeted for Nov. 5, which cuts the target time between blocks from 75 seconds to 25 seconds for faster payments. The privacy coin has been one of the strongest performers of the year.",
       "meaning": "Upgrades often bring a 'buy the rumour, sell the news' pattern: prices can rise into the event and fall after it. Expect sharp swings around Nov. 5.",
       "outlook": {
@@ -258,7 +258,7 @@
       "id": "bitway",
       "symbol": "BTW",
       "name": "Bitway",
-      "move": "Down 3.1% in 24h and down 33.8% this week, at about $1.07 (down 23.0% over 30 days)",
+      "move": "Down 5.5% in 24h and down 37.0% this week, at about $1.05 (down 24.3% over 30 days)",
       "why": "Bitway is down almost 60% from its Oct. 14 record of $2.77 as traders sell ahead of a token unlock of about 101.6 million BTW (roughly 1% of total supply) on Nov. 2 (Monday). Sources disagree on whether those tokens go to community pools or to early investors, who may be more likely to sell.",
       "meaning": "An unlock adds new tokens to the market; past Bitway unlocks were followed by an average drop of about 7% over two weeks, per CryptoTicker. Much of that risk may already be priced in after this week's slide, but volatility will stay extreme.",
       "outlook": {
@@ -284,7 +284,7 @@
       "id": "blockstack",
       "symbol": "STX",
       "name": "Stacks",
-      "move": "Up 2.5% in 24h and up 10.5% this week, at about $0.3351 (down 9.1% over 30 days)",
+      "move": "Up 2.0% in 24h and up 11.5% this week, at about $0.3347 (down 8.0% over 30 days)",
       "why": "Stacks, a network that adds smart contracts on top of bitcoin, is up about 6% this week after bouncing from recent lows, and up about 2% over 24 hours. We found no single clear news catalyst in major outlets; the move looks driven by short-term traders.",
       "meaning": "Moves without a clear cause can reverse just as fast. It remains well below where it traded a month ago.",
       "outlook": {
@@ -308,7 +308,7 @@
       "symbol": "^GSPC",
       "name": "S&P 500",
       "move": "Down 1.8% Friday to about 7,580, and down 0.6% for the week; 3.4% below its 52-week high",
-      "why": "Friday was the worst day since June, led by tech after Intel's dismal outlook, Amazon's earnings miss and Alphabet's capex-heavy quarter. Rising expectations of a December Fed hike also weighed. Futures opened Sunday evening with small gains of roughly 0.2%–0.4%, a modest early bounce.",
+      "why": "Friday was the worst day since June, led by tech after Intel's dismal outlook, Amazon's earnings miss and Alphabet's capex-heavy quarter. Rising expectations of a December Fed hike also weighed. Futures are up about 0.4% late Sunday, a modest early bounce, even as Asian markets open lower.",
       "meaning": "The index is still up about 11% this year, so this is a pullback, not a crash. But the market's biggest companies are now being punished for spending heavily on AI.",
       "outlook": {
         "lean": "unclear",
@@ -328,8 +328,12 @@
           "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nasdaq-p-123540419.html"
         },
         {
-          "title": "Stock Titan: Tech stocks fall as Intel has worst day in decades",
-          "url": "https://www.stocktitan.net/articles/stock-market-today-live-october-30-2026"
+          "title": "Free Malaysia Today (Reuters): Asian shares bend under AI stress",
+          "url": "https://www.freemalaysiatoday.com/category/business/2026/11/02/asian-shares-bend-under-ai-stress"
+        },
+        {
+          "title": "CNBC: Stock futures tick higher ahead of a busy week",
+          "url": "https://www.cnbc.com/2026/11/01/stock-market-today-live-updates.html"
         }
       ]
     },
@@ -337,7 +341,7 @@
       "symbol": "^IXIC",
       "name": "Nasdaq Composite",
       "move": "Down 2.9% Friday to about 25,437, and down 2.0% for the week; 8.2% below its 52-week high",
-      "why": "Chipmakers led the drop: Intel fell 28.6%, AMD about 11%, Broadcom 5.5% and Nvidia 4.2%. The Nasdaq posted its worst month since March 2025.",
+      "why": "Chipmakers led the drop: Intel fell 28.6%, AMD about 11%, Broadcom 5.5% and Nvidia 4.2%. The Nasdaq posted its worst month since April 2025, down almost 7% in October per Reuters; Nasdaq futures are up about 0.6% late Sunday.",
       "meaning": "Tech-heavy portfolios are most exposed to the AI-spending debate. Expect large daily moves while key tech earnings arrive.",
       "outlook": {
         "lean": "unclear",
@@ -355,6 +359,14 @@
         {
           "title": "24/7 Wall St.: Broadcom falls 5%; Arm and Qualcomm sink",
           "url": "https://247wallst.com/investing/2026/10/30/broadcom-falls-5-despite-da-davidson-upgrade-on-anthropic-and-openai-ipo-hopes-arm-and-qualcomm-sink-10-marvell-drops-8/"
+        },
+        {
+          "title": "Free Malaysia Today (Reuters): Asian shares bend under AI stress",
+          "url": "https://www.freemalaysiatoday.com/category/business/2026/11/02/asian-shares-bend-under-ai-stress"
+        },
+        {
+          "title": "CNBC: Stock futures tick higher ahead of a busy week",
+          "url": "https://www.cnbc.com/2026/11/01/stock-market-today-live-updates.html"
         }
       ]
     },
