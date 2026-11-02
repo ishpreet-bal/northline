@@ -1,11 +1,13 @@
 {
-  "briefing": "Trump says the U.S. and Canada are very close to a trade deal after his weekend call with Mark Carney, though no terms or tariff relief have been announced. Americans vote Tuesday after more than 54 million early ballots, with Democrats favoured for the House and the Senate a toss-up. Oil is holding near US$110 as Iran and Qatari mediators keep talking, and Ottawa tables its federal budget Thursday.",
-  "headline": "Trump says Canada deal 'very close' on midterm eve",
+  "updatedAt": "2026-11-02T14:45:12-05:00",
+  "generatedBy": "feeds (no AI)",
+  "headline": "‘There’s been no failure,’ police chief says of Bridle Path home invasion suspect let go from hospital",
+  "briefing": "Top stories right now: ‘There’s been no failure,’ police chief says of Bridle Path home invasion suspect let go from hospital; Sewing needles, nail reportedly found in Toronto-area Halloween candy, prompting police probes; and SIU investigating after 14-year-old 'seriously injured' during arrest at TTC station.",
   "keyDates": [
     {
       "date": "2026-11-03",
       "label": "U.S. midterm elections",
-      "why": "Control of Congress decides how much room Trump has on tariffs and the Iran war."
+      "why": "Control of Congress is at stake, with knock-on effects for trade and the Iran conflict."
     },
     {
       "date": "2026-11-04",
@@ -19,6 +21,11 @@
     },
     {
       "date": "2026-11-06",
+      "label": "U.S. October jobs report",
+      "why": "A strong report could push interest rates higher, which affects Canadian borrowing costs too."
+    },
+    {
+      "date": "2026-11-06",
       "label": "U.S. jobs report; Ukraine talks",
       "why": "October U.S. jobs data lands at 8:30 a.m., and Zelensky hopes for talks in Abu Dhabi Nov. 6–10."
     },
@@ -26,685 +33,330 @@
       "date": "2026-12-07",
       "label": "Federal by-elections",
       "why": "Scarborough North, Brantford–Brant South and four other ridings elect new MPs."
-    },
-    {
-      "date": "2026-12-11",
-      "label": "Modi visits Canada",
-      "why": "India's envoy says a Canada-India trade deal could be ready for Prime Minister Narendra Modi's Dec. 11–12 visit."
     }
   ],
   "stories": [
     {
-      "backstory": "The U.S. and Israel began striking Iran on Feb. 28, and Iran responded by choking traffic through the Strait of Hormuz, the route for about a fifth of the world's oil. A June peace memorandum briefly reopened the strait, but it collapsed in July and the U.S. imposed a blockade on Iranian shipping. Yemen's Houthis have since widened the fight with missile attacks on Saudi Arabia, and Egypt's parliament has authorized sending troops to help the Saudis. Qatar handed Iran a new draft deal on Oct. 25, which Tehran said contained ideas it could not accept.",
-      "headline": "Oil slides 3% to about US$110 as Iran–Qatar talks continue",
-      "id": "iran-hormuz",
-      "impact": "Expect GTA gas and diesel prices to stay high, which feeds into grocery, delivery and transit costs. Alberta oil revenues rise, but Ontario households and manufacturers mostly feel the cost side.",
-      "impactLevel": "high",
-      "now": "Reuters reported Brent crude down US$3.43, or 3%, at US$110 a barrel early Monday, with U.S. crude down US$3.50 (3.4%) at US$100.62, after Brent ended October at a six-month high. Iran's Foreign Minister Abbas Araghchi said Sunday that talks with Qatari mediators were ongoing and making progress, while saying Tehran is ready for both defence and diplomacy; Iran says there is no breakthrough yet on a plan to reopen the Strait of Hormuz within two days. Axios reported that Trump told Israeli Prime Minister Benjamin Netanyahu on Saturday he preferred to let diplomacy run longer. DBS Bank estimates oil is still moving through the strait and bypass routes at close to 80% of pre-war levels, and the OPEC+ producer group left its December output targets unchanged on Sunday. One analyst warned Brent could climb back toward US$120 if rhetoric about Iran sharpens after the U.S. vote.",
+      "id": "bridle-path-home-invasion",
       "rank": 1,
-      "region": "world",
-      "sources": [
-        {
-          "title": "Political Economist (Reuters): Oil eases 3% on Qatari-led talks",
-          "url": "https://politicaleconomistng.com/oil-prices-ease-3-on-optimism-for-qatari-led-talks-on-ending-iran-war/"
-        },
-        {
-          "title": "Investing.com: Oil falls as Trump favours Iran diplomacy",
-          "url": "https://www.investing.com/news/commodities-news/oil-falls-as-trump-favours-iran-diplomacy-before-midterm-elections-4989799"
-        },
-        {
-          "title": "Business Recorder (Reuters): Oil slips as Iran talks continue",
-          "url": "https://www.brecorder.com/news/40446999/oil-slips-more-than-1-as-talks-continue-on-ending-iran-war"
-        },
-        {
-          "title": "Yahoo Finance (Reuters): Oil slips as talks continue on ending Iran war",
-          "url": "https://finance.yahoo.com/energy/articles/oil-slips-more-1-talks-231257365.html"
-        }
-      ],
-      "status": "developing",
-      "summary": "Oil prices fell in Monday trading as Iran and Qatari mediators kept talking and reports said Trump wants to give diplomacy more time before deciding on new strikes.",
-      "timeline": [
-        {
-          "date": "Jun",
-          "event": "Peace memorandum briefly reopens Hormuz"
-        },
-        {
-          "date": "Jul",
-          "event": "Deal collapses; U.S. blockade of Iranian shipping"
-        },
-        {
-          "date": "Oct 25",
-          "event": "Qatar hands Iran a new draft peace deal"
-        },
-        {
-          "date": "Oct 30",
-          "event": "Tankers hit; Brent ends October up ~14%"
-        },
-        {
-          "date": "Nov 1",
-          "event": "Trump tells Netanyahu he favours more diplomacy"
-        },
-        {
-          "date": "Nov 2",
-          "event": "Brent falls 3% to about US$110"
-        }
-      ],
-      "topic": "Iran war",
-      "updatedAt": "2026-11-02T05:46:06-05:00",
-      "why": "Oil above US$110 is the main force behind higher inflation in Canada and the U.S., and it pushed the Bank of Canada into a rate hike last week. A real reopening plan could pull prices down quickly, while a collapse of talks after the U.S. vote could send them higher."
-    },
-    {
-      "backstory": "Republicans have held both chambers of Congress since January 2025. All 435 House seats and about a third of the Senate are on the ballot on Nov. 3. Tariffs and high gas prices tied to the Iran war have hurt Trump's approval, which Reuters recently put at 32%. Recent national polls have given Democrats a lead on the generic ballot.",
-      "headline": "Midterm eve: Trump speaks in Washington as early vote passes 54M",
-      "id": "us-midterms",
-      "impact": "The outcome will shape U.S. tariff policy on Canadian steel and autos and the timing of any strikes on Iran, both of which affect Ontario jobs and fuel prices.",
-      "impactLevel": "medium",
-      "now": "Trump is set to speak at 2 p.m. Monday at the Lincoln Memorial Reflecting Pool after Sunday rallies in Kansas and Iowa, both home to tight Senate races, plus telephone rallies for Ohio and Pennsylvania. The University of Florida's tracker shows more than 54 million early ballots, well above roughly 46 million in 2022. A CBS News poll gives Democrats an edge for the House, with Senate control likely decided in toss-ups such as Maine, Ohio and Texas; CBS now rates South Carolina as leaning Republican. The final New York Times/Siena poll had Democrats ahead in all seven most competitive Senate races, five within the margin of error. Texas Republican Ken Paxton cancelled a planned election-eve event at the Alamo.",
-      "rank": 2,
-      "region": "us",
-      "sources": [
-        {
-          "title": "CBS News: Final push before the midterms",
-          "url": "https://www.cbsnews.com/live-updates/2026-midterm-elections-campaigns-weekend-before/"
-        },
-        {
-          "title": "France 24 (AFP): Final rallies before midterms",
-          "url": "https://france24.com/en/live-news/20261102-democrats-trump-hold-final-rallies-before-midterm-elections"
-        },
-        {
-          "title": "Forbes: Trump's final pitch at closed Reflecting Pool",
-          "url": "https://www.forbes.com/sites/siladityaray/2026/11/02/trump-to-deliver-final-midterm-pitch-at-lincoln-memorial-reflecting-pool-despite-ongoing-closure/"
-        },
-        {
-          "title": "AP (via Live 5): Closing pitch at problem-plagued pool",
-          "url": "https://www.live5news.com/2026/11/02/trump-is-giving-his-closing-midterm-pitch-problem-plagued-lincoln-memorial-reflecting-pool/"
-        }
-      ],
-      "status": "developing",
-      "summary": "On the eve of Tuesday's midterms, Trump gives his closing speech in Washington while Democrats rally in key states, with polls favouring Democrats for the House and the Senate a toss-up.",
-      "timeline": [
-        {
-          "date": "Jan 2025",
-          "event": "Republicans take control of both chambers"
-        },
-        {
-          "date": "Sep 18",
-          "event": "Early in-person voting begins in Virginia"
-        },
-        {
-          "date": "Oct 26",
-          "event": "Reuters/Ipsos: Democrats lead generic ballot"
-        },
-        {
-          "date": "Oct 30",
-          "event": "AP: early vote tops 43 million"
-        },
-        {
-          "date": "Nov 1",
-          "event": "Trump rallies in Kansas and Iowa"
-        },
-        {
-          "date": "Nov 2",
-          "event": "Early vote tops 54M; Trump speaks in D.C."
-        }
-      ],
-      "topic": "Midterms",
-      "updatedAt": "2026-11-02T09:05:27-05:00",
-      "why": "A Democratic Congress could check Trump's tariffs and war powers, while Republican control would give him a freer hand for the next two years."
-    },
-    {
-      "backstory": "Broad Canada-U.S. trade talks collapsed in August, and Trump then imposed 50% tariffs on about $20 billion of Canadian goods, prompting Canadian counter-tariffs. Since then the White House has repeatedly adjusted which products are covered, easing some farm and forestry goods while adding others. Separate U.S. tariffs on steel, aluminum and autos under a national-security law (Section 232) hit Ontario's factories hardest. Sources said this week a narrower deal on steel and autos was possible before the midterms, but U.S. officials want more concessions.",
-      "headline": "Trump says Canada deal 'very close' after call with Carney",
-      "id": "trade-war",
-      "impact": "Factory jobs in Windsor, Oshawa, Hamilton and the GTA's parts plants remain exposed. Some imported goods such as paint, rugs and air conditioners may cost more if Canada responds or suppliers pass on costs.",
-      "impactLevel": "high",
-      "now": "Speaking to reporters Sunday, Trump said the U.S. and Canada have the concept of a very good deal and are very close, adding that it would help American farmers and be fine for Canada too. Carney had said on X that their Saturday call built on recent constructive talks and that negotiators will keep working over the coming weeks. Carney has said he will not accept terms like those offered in August and can't be sure Trump would honour an agreement. The White House says it welcomes continued engagement, while Trade Minister Dominic LeBlanc's office says he has no Washington travel planned. Trump has said steel and auto tariffs on Canada will rise to 50% on Jan. 1.",
-      "rank": 3,
-      "region": "canada",
-      "sources": [
-        {
-          "title": "CP24: Trump says Canada, U.S. 'very close' to a deal",
-          "url": "https://www.cp24.com/news/canada/2026/11/01/trump-says-canada-us-very-close-to-having-a-deal-following-pm-carney-saying-they-had-a-good-conversation/"
-        },
-        {
-          "title": "CP24: Carney says he had a 'good conversation' with Trump",
-          "url": "https://www.cp24.com/news/world/2026/11/01/mark-carney-says-he-had-a-good-conversation-with-donald-trump/"
-        },
-        {
-          "title": "Bloomberg: Carney says no hurry on trade deal without good terms",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-31/carney-says-no-hurry-on-trade-deal-if-us-won-t-offer-good-terms"
-        },
-        {
-          "title": "CP24: Carney ramps up trade diversification",
-          "url": "https://www.cp24.com/news/canada/2026/10/31/carney-ramps-up-trade-diversification-efforts-with-canada-us-deal-still-out/"
-        }
-      ],
-      "status": "developing",
-      "summary": "A day after a call with Prime Minister Mark Carney, Donald Trump told reporters the two countries have the outline of a trade deal, though no terms or tariff relief have been announced.",
-      "timeline": [
-        {
-          "date": "Aug",
-          "event": "Talks collapse; 50% U.S. tariffs and Canadian retaliation"
-        },
-        {
-          "date": "Oct 28",
-          "event": "Canadian official reports limited progress"
-        },
-        {
-          "date": "Oct 30",
-          "event": "Revised 50% tariff list takes effect"
-        },
-        {
-          "date": "Nov 1",
-          "event": "Carney and Trump hold 'good' call"
-        },
-        {
-          "date": "Nov 1",
-          "event": "Trump says a deal is 'very close'"
-        }
-      ],
-      "topic": "Trade",
-      "updatedAt": "2026-11-02T09:05:27-05:00",
-      "why": "Ontario sells most of its steel and auto output to the U.S., and the province says steel exports there have fallen by more than half since 2024. The midterm result could change how willing Washington is to bargain."
-    },
-    {
-      "backstory": "Ottawa moved its budget to the fall last year so it lines up with the construction season and avoids a separate fall update. The 2025 fall budget focused on big infrastructure, housing and defence investment and ran a large deficit. Since then, 50% U.S. tariffs and Canada's counter-tariffs have hit manufacturing, and Ottawa has rolled out support packages, including $25 billion for affected workers and businesses and the new $8.7 billion plan with Ontario. The Liberals do not hold a majority, so the budget needs support from at least one other party to pass.",
-      "headline": "Poilievre lists budget demands as Thursday's federal budget nears",
-      "id": "federal-budget-2026",
-      "impact": "Watch for changes to personal taxes, housing programs, EI and tariff relief for Ontario workers. Bigger deficits can also keep longer-term borrowing costs, including fixed mortgage rates, higher.",
-      "impactLevel": "high",
-      "now": "In a letter released Sunday, Poilievre asked the government to scrap federal diesel taxes until Canada Day, suspend the GST (goods and services tax) on fuel until summer, permanently drop the clean fuel standard, and cut spending he calls wasteful. He also wants Ottawa to keep its promise to lower debt and deficits as a share of the economy. The Parliamentary Budget Officer (PBO) forecasts a $63.3-billion deficit for 2026-27, down from $71.8 billion in its June outlook, but expects deficits to peak at $70.2 billion the following year and the deficit-to-GDP ratio to rise. Champagne says the budget will lay out next steps toward a stronger, more resilient and more affordable Canada.",
-      "rank": 4,
-      "region": "canada",
-      "sources": [
-        {
-          "title": "Calgary Journal (CP): Poilievre lays out budget demands",
-          "url": "https://calgaryjournal.ca/2026/11/01/poilievre-lays-out-demands-ahead-of-budget-includes-call-to-cut-wasteful-spending/"
-        },
-        {
-          "title": "CP24: Finance minister announces budget date",
-          "url": "https://www.cp24.com/politics/2026/10/20/finance-minister-announces-date-for-new-federal-budget-to-be-tabled/"
-        },
-        {
-          "title": "Global News: Federal budget date revealed",
-          "url": "https://globalnews.ca/news/12109519/canada-2026-budget-date-revealed"
-        }
-      ],
-      "status": "developing",
-      "summary": "Conservative Leader Pierre Poilievre wrote to Prime Minister Mark Carney asking for fuel tax relief and spending cuts in the budget Finance Minister François-Philippe Champagne tables Thursday, Nov. 5.",
-      "timeline": [
-        {
-          "date": "Aug 22",
-          "event": "U.S. 50% tariffs take effect."
-        },
-        {
-          "date": "Sep 8",
-          "event": "Canada's counter-tariffs and $25B support package."
-        },
-        {
-          "date": "Oct",
-          "event": "PBO says balance goal will likely slip a year."
-        },
-        {
-          "date": "Oct 20",
-          "event": "Champagne sets November 5 budget date."
-        },
-        {
-          "date": "Nov 1",
-          "event": "Poilievre sends budget demands to Carney"
-        }
-      ],
-      "topic": "Budget",
-      "updatedAt": "2026-11-01T14:00:00-05:00",
-      "why": "The budget sets federal taxes, benefits, defence spending and borrowing during the trade war. The Liberals need another party's support to pass it, so a failed vote could trigger an election."
-    },
-    {
-      "backstory": "Michigan's Senate seat is open because Democrat Gary Peters is retiring, and it is one of the closest races that will decide which party controls the Senate. El-Sayed, a former public health official who would be the first Muslim U.S. senator, narrowly beat Stevens in the August Democratic primary even though she had strong backing from the party's Senate campaign arm. Rogers is a former Republican congressman who narrowly lost the state's 2024 Senate race. Early voting in Michigan began Oct. 24.",
-      "headline": "Democrats denounce Haley Stevens after she backs Republican Mike Rogers",
-      "id": "us-michigan-senate",
-      "impact": "Michigan is Ontario's biggest cross-border auto partner, and the Senate's makeup will shape how much room Trump has on tariffs that hit plants in Windsor, Oshawa and Alliston.",
-      "impactLevel": "low",
-      "now": "After appearing with Rogers at a Detroit church Sunday, Stevens endorsed him and told CNN she felt a weight off her shoulders, while saying she still wants Democrats to win the Senate. Senate Democratic leader Chuck Schumer called it a betrayal, and former Speaker Nancy Pelosi said she had betrayed Michigan families. El-Sayed's campaign says it raised more than US$1.2 million since the endorsement, and Trump praised Stevens online. The rift began over an outside group's ad on U.S. military aid to Israel that Stevens called antisemitic; El-Sayed says he did not make it and disagrees with it.",
-      "rank": 5,
-      "region": "us",
-      "sources": [
-        {
-          "title": "CBS News: Michigan Democratic rift and final push",
-          "url": "https://www.cbsnews.com/live-updates/2026-midterm-elections-campaigns-weekend-before/"
-        },
-        {
-          "title": "CBS News: Stevens endorses Rogers amid rift with El-Sayed",
-          "url": "https://www.cbsnews.com/news/haley-stevens-mike-rogers-together-church-abdul-el-sayed-michigan-senate/"
-        },
-        {
-          "title": "Bridge Michigan: Stevens joins Rogers in Detroit",
-          "url": "https://bridgemi.com/michigan-politics/haley-stevens-joins-mike-rogers-in-detroit-bucking-abdul-el-sayed-in-senate-race/"
-        },
-        {
-          "title": "Washington Post: Stevens praises Michigan GOP Senate candidate",
-          "url": "https://www.washingtonpost.com/politics/2026/11/01/democrat-haley-stevens-praises-michigan-gop-senate-candidate-mike-rogers/"
-        }
-      ],
-      "status": "developing",
-      "summary": "Rep. Haley Stevens endorsed Republican Mike Rogers in Michigan's Senate race two days before the vote, drawing sharp criticism from Democratic leaders and a fundraising surge for nominee Abdul El-Sayed.",
-      "timeline": [
-        {
-          "date": "Aug",
-          "event": "El-Sayed narrowly beats Stevens in the Democratic primary"
-        },
-        {
-          "date": "Oct 24",
-          "event": "Early voting opens in Michigan"
-        },
-        {
-          "date": "Late Oct",
-          "event": "Stevens calls an outside group's ad antisemitic and presses El-Sayed"
-        },
-        {
-          "date": "Nov 1",
-          "event": "Stevens appears with Rogers and endorses him"
-        },
-        {
-          "date": "Nov 2",
-          "event": "Schumer, Pelosi condemn her; El-Sayed raises $1.2M+"
-        },
-        {
-          "date": "Nov 3",
-          "event": "Election Day"
-        }
-      ],
-      "topic": "Michigan Senate",
-      "updatedAt": "2026-11-02T09:05:27-05:00",
-      "why": "A tight Michigan race could decide whether Republicans keep the Senate, and a public Democratic split this late could cost votes in Detroit's suburbs."
-    },
-    {
-      "backstory": "Ontario's spring budget had already run deeper deficits as U.S. tariffs on steel, aluminum and autos hit the province's factories. The Ford government has said it will spend through the trade war rather than cut sharply. Ottawa and Ontario have also announced a joint $8.7-billion plan to support steel and auto manufacturing.",
-      "headline": "Ontario's deficit swells to $16.9 billion as tariffs delay balanced budget",
-      "id": "ontario-fall-economic-statement",
-      "impact": "Buyers of new homes may get a tax break, and business owners can write off equipment faster. The province says health spending rises, but a hiring freeze and payment reviews are part of its savings plan.",
-      "impactLevel": "medium",
-      "now": "The Oct. 29 update puts this year's deficit 22% above the spring plan, partly because of a roughly $3.8-billion top-up to a contingency fund for tariff costs. Next year's shortfall more than doubles to $12.7 billion from $6.1 billion, and 2028 now shows a $6.7-billion deficit instead of balance. Ontario will match Ottawa's 100% write-off for business investment, an $8-billion tax cut over five years the province says could create up to 30,000 jobs, and adds a tax break for buyers of newly built homes. Interest on provincial debt costs $17.4 billion this year.",
-      "rank": 6,
       "region": "ontario",
+      "topic": "Courts & crime",
+      "status": "developing",
+      "impactLevel": "medium",
+      "updatedAt": "2026-11-02T14:44:00-05:00",
+      "headline": "‘There’s been no failure,’ police chief says of Bridle Path home invasion suspect let go from hospital",
+      "summary": "Investigators didn’t know a man who showed up to a Toronto hospital last Thursday with a gunshot wound was wanted in a violent home invasion, Chief Myron Demkiw says.",
       "sources": [
         {
-          "title": "Global News: Ontario projects $36B in deficits over 3 years",
-          "url": "https://globalnews.ca/news/12125618/ontario-fall-economic-update-2026/"
+          "title": "CBC: ‘There’s been no failure,’ police chief says of Bridle Path home invasion…",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5NdnZudmhqUDBFRXRLQ0ZMcjdiUVFoMDNMWG5EWC1aSG5XNGhqSGpZSXRNck5fQ05EZWNtNFNKYURnME5KazNQbkVmbkZvOHln?oc=5"
         },
         {
-          "title": "National Observer: Ontario projects record $16.9B deficit",
-          "url": "https://www.nationalobserver.com/2026/10/29/news/ontario-projects-record-169-billion-deficit-blames-us-tariffs"
+          "title": "CityNews Toronto: Toronto police defend handling of investigation into Bridle Path home invasion",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNa3cyZm5iSmh4RFdDVFAwdFdXMkxjYXBxSHVxMGlHdTB5LXlSN1JEQ0RhdVFBRU5xN3pPcjdQYUJTWkhDWnFzOHFUeFhLLXFzRnpTMHFnTmZUYkE0VmVaNXBWSjItSDlieGYxeWVEM3RSM0xjb0c4d1REQ19LM09xeWhPTTMwWUMwRlJVVlY5U0Z5VnhrY3diWi1CUXlSZTNBTnI4NThRNDhuRnNKNm51dTF0QklXTzMzSEd6Qk1xWVVpZw?oc=5"
+        },
+        {
+          "title": "Global News: Toronto police didn’t know hospital patient was home invasion suspect: Demkiw",
+          "url": "https://globalnews.ca/news/12130047/bridle-path-home-invasion-suspect/"
+        },
+        {
+          "title": "Global News: Toronto police didn’t know hospital patient was home invasion suspect: Demkiw",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE0tVThJZE9HSEphczFjc3hEaXlyZm1OTW0xTl93UW1OODZLWFVwSkFUZnJWOWwyX3VELTNGbjFFS3FFdnV6VFd2RHJIb3lMRFVzdU5vdlFVTlQ4OEl4OHhqRkNCRkNXTFVIM3p6WnItTUw3NFA0LXJkZVNB?oc=5"
         }
       ],
-      "status": "ongoing",
-      "summary": "Finance Minister Peter Bethlenfalvy's fall economic statement projects a record $16.9-billion deficit this year and $36 billion over three years, pushing a balanced budget beyond 2028.",
-      "timeline": [
-        {
-          "date": "Spring",
-          "event": "Ontario budget delays balance amid tariffs"
-        },
-        {
-          "date": "Aug",
-          "event": "U.S. hits Canada with 50% tariffs"
-        },
-        {
-          "date": "Oct 28",
-          "event": "Ontario matches federal investment write-off"
-        },
-        {
-          "date": "Oct 29",
-          "event": "Fall statement: $16.9B deficit"
-        }
-      ],
-      "topic": "Provincial budget",
-      "updatedAt": "2026-10-29T16:00:00-04:00",
-      "why": "Bigger deficits mean more provincial borrowing and interest costs, which can squeeze future spending on health, schools and transit."
+      "now": "CityNews: Toronto Police Chief Myron Demkiw is defending his officers for not arresting a man who showed up at a hospital with a gunshot wound not long after a violent Bridle Path home invasion, saying despite noting a possible…",
+      "backstory": "The attack drew national attention because it took place in the Bridle Path, one of Toronto's wealthiest neighbourhoods. The family's father, David Morton, CEO of MAC Group, has called the experience terrifying and urged anyone with information to come forward. Police say it was the 119th home invasion reported in Toronto this year, up about 32% from the same period in 2025. Chief Myron Demkiw promised a stronger police presence in the area."
     },
     {
-      "backstory": "Russia's full-scale invasion began in February 2022, and both sides now regularly strike each other's energy sites. A local humanitarian ceasefire began in occupied Oleshky in Kherson region on Oct. 27, and a Ukrainian delegation arrived there on Oct. 30. U.S. envoy Steve Witkoff met Putin on Oct. 21 as Washington pushes for new talks.",
-      "headline": "Kherson truce ends as Russian strikes leave Ukrainians without power",
-      "id": "ukraine-energy",
-      "impact": "Canada's €500-million pledge adds to federal spending ahead of Thursday's budget; the war also keeps European energy markets tight, adding to global fuel prices.",
-      "impactLevel": "low",
-      "now": "The local Kherson ceasefire around Russian-occupied Oleshky, brokered with help from Melania Trump and Pope Leo, ended at 21:00 GMT Sunday; Ukrainian forces say they evacuated 167 residents during it, including 22 children. Russian strikes over the weekend hit energy sites in at least four regions, leaving hundreds of thousands without power, and a drone strike on a dormitory for displaced people in Vinnytsia region killed two, including a 13-year-old girl. Ukraine's air alert system was hacked late Sunday, sending false warnings of nuclear and chemical threats. Ukraine's military claims Russia lost about 54,400 soldiers in October, its worst month of the war, and Zelensky hopes for talks in Abu Dhabi Nov. 6–10.",
+      "id": "halloween-candy-needles",
+      "rank": 2,
+      "region": "ontario",
+      "topic": "Courts & crime",
+      "status": "developing",
+      "impactLevel": "medium",
+      "updatedAt": "2026-11-02T14:30:09-05:00",
+      "headline": "Sewing needles, nail reportedly found in Toronto-area Halloween candy, prompting police probes",
+      "summary": "Police across Canada are urging caution after several reports of families finding tampered Halloween candy.",
+      "sources": [
+        {
+          "title": "The Spec: Sewing needles, nail reportedly found in Toronto-area Halloween candy,…",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQa3d1OC03NUdkQjVPbDdYeXFtXy1tLVBmY2pSQVZqdWxlMUxtRWRRN2lmX1Bvck9pY0VORWZRdHZXOWtvUE9wMjhld051WUZ4cGpxek1wTFlEbk85dEFfamJLNEUyTThhUW5CMERZMVVsMXlIMkdWYTctclJiRmNVTmkwb1FhM28zZUl2TjhXZk1DaW5JWnhWa1RYRm15UWJxODhzbzhvY2FBdFZySDROVE9CM3BrMTRHb2tIQ0RZNGh0eXJyVDk0XzN6WWZGUW9kRUJKTzVuTEgwN1N2eFB0WQ?oc=5"
+        },
+        {
+          "title": "DurhamRegion.com: ‘Check all Halloween candy’: Needles found in treats handed out in Oshawa,…",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPYmxyZ0RMNHc2SXoydGQyNGhaZ2RieU5KOHMzTFlYU3Y0RG00UTBmejBuNDBoUjlZc2xXVDhSM2MyQ3ItM3JkVVdPMEF3ZmZQSDFTaG4xYnBEd1lnQTlXNXVQek5NS0hNSWRSblUyT3A5QlhjYndMWExNVU00MTFaNDhNRDNSeTcxeWVrSWhXSHFuTnF0YURmUHJSbzhyR2xqRkdNZ21VQ2UyZklFYlRyLTZaZVk1YmluOWpBdXdsYWtoZ2lNSHFpbnFsdGdLcjQ2WkRhaE51YkpSZw?oc=5"
+        },
+        {
+          "title": "Global News: Canadian police urge caution after reports of tampered Halloween candy",
+          "url": "https://globalnews.ca/news/12129955/tampered-halloween-candy-2026/"
+        },
+        {
+          "title": "Global News: Police in Toronto and Oshawa investigating tainted Halloween candy",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNdGlOekx6RU1Jd2NETkRVTHl6VjhDTFpDbjZ6NUZTd0Q3OGJNY3ZqSHhKY1lZazZWdDNTZTg2ZUItMllnb1JXaHdhcFVnME5hNjVxZ0FtYm1GRHctRnRQTURyN0U2RDRNNWVVNnhkQlVaSHdTR3RqQllnYVVGSHVpLXdSOGpZM2lER0JHVHJWd2JCdmxSY3dOU1pMWHR1dmk5eXMzOXJoZw?oc=5"
+        }
+      ],
+      "backstory": "Reports of tampered Halloween candy surface most years, but confirmed cases are rare and police usually treat each one as a possible criminal act. Tampering with food can lead to charges such as administering a noxious thing or mischief. Police across the GTA routinely advise parents to inspect treats before children eat them. This year's reports come from several places in the same weekend, which is why police are asking anyone with concerns to come forward."
+    },
+    {
+      "id": "siu-investigating-year-old-seriously-injured",
+      "rank": 3,
+      "region": "ontario",
+      "topic": "Transit",
+      "status": "new",
+      "impactLevel": "high",
+      "updatedAt": "2026-11-02T14:11:18-05:00",
+      "headline": "SIU investigating after 14-year-old 'seriously injured' during arrest at TTC station",
+      "summary": "Ontario’s police watchdog is investigating after a 14-year-old boy sustained a serious injury following an interaction with officers at a Toronto transit station last month. The Special Investigations Unit (SIU) said the incident occurred on Oct. 7 at approximately 3:30 p.m. at TTC Finch West Station, in the Finch…",
+      "sources": [
+        {
+          "title": "CBC: SIU investigating after 14-year-old 'seriously injured' during arrest at TTC…",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPUFR6cVo1d1daaW40TXFDQkczOVM5bFMzOEpvOXR0US0wbUFOU01Bd0NJY0Nrby0tdmdHMWpkY3diUW13SV9CX1E1Y0Z5V3hzM0d3OWFQYklPTUpzSnpuQjRraHJ0bUxkUGxodGVZbnJoZTMzQVVKd0ZiSm1FQUw2Z0tsMll5SW5lMG9F?oc=5"
+        },
+        {
+          "title": "CBC: SIU investigating after teen injured in arrest at Toronto transit station",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNeFAyeVk2U2pTbGxLZklYSFN3V2M0WXJ6NU5kWlprZG92SloyRUN2UHYyU3Zyb2syUEJaQmhMNEZjWjNWSlpiMWtQM2w1UEUxekRMbjJPTnZfeXA4RUFPSEFkanpHNHBZNXRmU0hJYm03VWlKblk4STh0TnpBZUl4Mw?oc=5"
+        },
+        {
+          "title": "CTV News: Ontario’s police watchdog investigating after teen injured during arrest at…",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNU0tqakh0eU94VlhWZXRFeFlxa3ZoYkdKUEdHZGhBSTQ2RC1BX0JsSFcxejV2c3U2VGx4MXhaTW9fa1VQOHJQZnVOeFNqUlFOQTNxQmIxd1pEQWJmTkFHYkYteWJfLWJxVzNSdnIwVHBoLU9kSHFwdnpWQm0wTTQwcEhzbXVHTloxbEx2NWlHSm42eXgtd2FqVGJTazMtUmVvME9kanRHaDZNZ1ZRdU1QZUNQeTBmeVBuYkVHbVhMaV9xNmpEV0pod0VHNFluQQ?oc=5"
+        },
+        {
+          "title": "CHCH: Toronto police under investigation after teen boy injured during arrest:…",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWHVZNXNCNFVYOVBMbnlITklTLWxNc2ZkOGNJenlfRC1CbEFTZGFfVG85ZlFaWllHS3hCUjhRREl2eW16NUlkUE1TZ0tlQTFmN2ozdGhJM2Q0NjhjZmxlWDkyWTNzWVpUb2ZRQ2VlSkY2c2tJVnc4SDlCaUxfS05IZk5GYzZrRHAyekJsZHhvcmlLbVZ4MExPYUxFa1ZkYkVRdWxyZWtqelBSWkE3RlpiX2J3?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "judge-accuses-doj-weaponization-tosses-case",
+      "rank": 4,
+      "region": "us",
+      "topic": "Elections",
+      "status": "new",
+      "impactLevel": "medium",
+      "updatedAt": "2026-11-02T13:54:01-05:00",
+      "headline": "Judge accuses DOJ of 'weaponization,' tosses case against ex-FBI officials",
+      "summary": "The judge said he was \"deeply troubled\" by the mistakes and rushed nature of the case over the FBI's Hunter Biden probes — one of several politically charged DOJ actions ahead of the midterms.",
+      "sources": [
+        {
+          "title": "NPR: Judge accuses DOJ of 'weaponization,' tosses case against ex-FBI officials",
+          "url": "https://www.npr.org/2026/11/02/g-s1-151242/judge-tosses-case-fbi-officials-hunter-biden"
+        },
+        {
+          "title": "Al Jazeera: Judge dismisses charges against FBI agents involved in Hunter Biden case",
+          "url": "https://www.aljazeera.com/news/2026/11/2/judge-dismisses-charges-against-fbi-agents-involved-in-hunter-biden-case?traffic_source=rss"
+        },
+        {
+          "title": "The Guardian: Judge tosses case against two officials accused of lying about Hunter Biden",
+          "url": "https://www.theguardian.com/us-news/2026/nov/02/judge-tosses-case-fbi-hunter-biden"
+        },
+        {
+          "title": "PBS NewsHour: Judge dismisses charges against ex-FBI agents accused of lying about Hunter…",
+          "url": "https://www.pbs.org/newshour/politics/judge-dismisses-charges-against-ex-fbi-agents-accused-of-lying-about-hunter-biden-citing-weaponization"
+        }
+      ],
+      "now": "Al Jazeera: A federal judge tossed charges accusing two former FBI officials of lying to Congress about Hunter Biden investigation. The Guardian: The two FBI agents were charged with making false statements to Congress while testifying about the bureau’s role in investigating Biden’s laptop A federal judge dismissed criminal charges against two former FBI…"
+    },
+    {
+      "id": "toronto-maple-leafs-place-groulx-waivers",
+      "rank": 5,
+      "region": "ontario",
+      "topic": "Ontario",
+      "status": "new",
+      "impactLevel": "medium",
+      "updatedAt": "2026-11-02T14:26:51-05:00",
+      "headline": "Toronto Maple Leafs place F Groulx on waivers",
+      "summary": "Toronto Maple Leafs place F Groulx on waivers",
+      "sources": [
+        {
+          "title": "TSN: Toronto Maple Leafs place F Groulx on waivers",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1zNWNudDFPTDlyU0RZWGtuSG9oQXI2WERGQkJmS2ZRNkxVUUEzT21hV3VIbHBRSmR5VE0wOEtiV0xmNER0TFh2ZXMtc3QtNHFXd2w2MWhkSXJLcjVGbktzaEp1S2NKdXNWOVVGVlA2RHh3eDVudmJzLQ?oc=5"
+        },
+        {
+          "title": "Daily Faceoff: Toronto Maple Leafs NHL Line Combinations",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBsVVlqNVpLWG40Tl9Ma3RqWUFEZDN5ZkNJRVA3bEl2MTRsVHYtM2lVZ1hINEJZWmxkaFREUDZ0M0tCVXMyNjZpaExKNldkRmlQM1YwQURlVU1oVVVVNURsUDFOQTlhbk5aVmstVG9pYVd6cTVrRjhOQk9Md2Y0Zw?oc=5"
+        },
+        {
+          "title": "Toronto.com: Loud Luxury returns home for exclusive pop up celebrating Toronto Maple Leafs",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxONnNtbTQ3MG93M2hPTUwwZ0Jwa3JkLVJHMFdvX0VZaWpQS2R2N2pRV3J6WDZmVUM4bzNBODV1Vkd0NVNmRjVGaFlSUWFXVXVTa2NpdE5zbVhqREY1eFlYUDJBMHFkLWhBNGRIYTh0Z1psekFWQThfc09IZkNYUnpKcHROdHZmU29iNTN0dy1wWldZSFJtMVdtV0laZ2xUQ1VVUUwzSm9iUG11T2pBaHhvN2hkTWdVbDZRT1BDWkltR0hOR0FGdnVUeUdLZjN3bFM5MTVfaEVuTHp0MWtkaG81Mg?oc=5"
+        },
+        {
+          "title": "blogTO: Toronto Maple Leafs have a new jersey and here's what inspired it",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxONkRObW9OQVYxQVB0ME1wZ0F4MmtYazZkdEU1N1dCdkZHT0czT0M4ZmZQTDhDeXNKZVEwZloybFMwYUppM3ltRW1ieUc4YXc2TWtQMUUxRVF1TlAyZ1A0ektFX3R2b2lBcTA3bmQwdzZpX0M5a1ZLdEdJUmpJTzZnU1lFRm44dw?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "trump-asks-supreme-court-block-000",
+      "rank": 6,
+      "region": "us",
+      "topic": "Elections",
+      "status": "new",
+      "impactLevel": "high",
+      "updatedAt": "2026-11-02T14:06:52-05:00",
+      "headline": "Trump asks Supreme Court to block 20,000 California ballots before midterms",
+      "summary": "California says any move to block ballots from suspected noncitizens could disenfranchise eligible voters.",
+      "sources": [
+        {
+          "title": "Al Jazeera: Trump asks Supreme Court to block 20,000 California ballots before midterms",
+          "url": "https://www.aljazeera.com/news/2026/11/2/trump-asks-supreme-court-to-block-20000-california-ballots-before-midterms?traffic_source=rss"
+        },
+        {
+          "title": "PBS NewsHour: Trump administration asks Supreme Court to sideline 20,000 disputed…",
+          "url": "https://www.pbs.org/newshour/politics/trump-administration-asks-supreme-court-to-sideline-20000-disputed-california-mail-ballots"
+        },
+        {
+          "title": "Al Jazeera: Trump, Vance and candidates campaign on last day before US midterms",
+          "url": "https://www.aljazeera.com/news/2026/11/2/trump-vance-and-candidates-make-final-push-before-us-midterms?traffic_source=rss"
+        },
+        {
+          "title": "NPR: DOJ asks for Supreme Court to intervene on California ballot demands",
+          "url": "https://www.npr.org/2026/11/02/nx-s1-6023802/supreme-court-california-voting-ballots-trump"
+        }
+      ],
+      "now": "PBS NewsHour: WASHINGTON (AP) — President Donald Trump's administration appealed to the Supreme Court on Monday in its push to sideline thousands of disputed California mail ballots the day before the pivotal midterm elections. Al Jazeera: Republicans and Democrats hold last rallies around the United States as polls point to a tight congressional race."
+    },
+    {
+      "id": "abdul-sayed-campaign-reports-record-fundraising",
       "rank": 7,
       "region": "world",
-      "sources": [
-        {
-          "title": "Kyiv Independent: Live updates, Nov. 1–2",
-          "url": "https://kyivindependent.com/"
-        },
-        {
-          "title": "AP (via AOL): Russian strikes cut power as Kherson ceasefire ends",
-          "url": "https://www.aol.com/articles/russian-strikes-cut-power-thousands-194939000.html"
-        },
-        {
-          "title": "Kyiv Independent: Zelensky confirms strike on Russian rocket-fuel plant",
-          "url": "https://kyivindependent.com/zelensky-confirms-attack-on-russian-rocket-fuel-factory-missile-launcher-system/"
-        },
-        {
-          "title": "Euronews: Drone attack hits Russian industrial site",
-          "url": "https://euronews.com/2026/11/01/russia-says-massive-drone-attack-targeted-industrial-enterprise-amid-reports-oil-refinery-"
-        }
-      ],
-      "status": "developing",
-      "summary": "A short humanitarian ceasefire around occupied Oleshky in Kherson region expired Sunday night, as Russian strikes on the power grid kept outages in place across Ukraine.",
-      "timeline": [
-        {
-          "date": "Oct 21",
-          "event": "Witkoff meets Putin"
-        },
-        {
-          "date": "Oct 27",
-          "event": "Oleshky ceasefire begins"
-        },
-        {
-          "date": "Oct 31",
-          "event": "Kyiv energy site hit; Canada pledges €500M"
-        },
-        {
-          "date": "Nov 1",
-          "event": "Kherson truce ends; alert system hacked"
-        }
-      ],
-      "topic": "Russia–Ukraine",
-      "updatedAt": "2026-11-02T05:46:06-05:00",
-      "why": "Talks in early November could be the first real test of a ceasefire path since early this year."
-    },
-    {
-      "backstory": "Reports of tampered Halloween candy surface most years, but confirmed cases are rare and police usually treat each one as a possible criminal act. Tampering with food can lead to charges such as administering a noxious thing or mischief. Police across the GTA routinely advise parents to inspect treats before children eat them. This year's reports come from several places in the same weekend, which is why police are asking anyone with concerns to come forward.",
-      "headline": "Toronto and Durham police probe needles found in Halloween candy",
-      "id": "halloween-candy-needles",
-      "impact": "If your children trick-or-treated in the Upper Beaches or north Oshawa, check any remaining candy, including inside wrappers, and call police with anything suspicious. Police have not issued a wider warning.",
-      "impactLevel": "low",
-      "now": "Barry Horn says the needles and pins were inside a KitKat, a Snickers, two Cadbury bars and a Tunnock's wafer collected around 6 p.m. Saturday on streets including Enderby Road, Norway Avenue, Kimberley Avenue, Benlamond Avenue and Osborne Avenue. The objects could not be seen from outside the wrappers, and none of his children ate or handled the affected candy. Toronto police are investigating the report but say they have not confirmed a wider public safety concern. Durham Regional Police are investigating a similar report near Ritson Road North and Taunton Road in Oshawa, and police in Quebec reported needles in Halloween chocolate there too.",
-      "rank": 8,
-      "region": "ontario",
-      "sources": [
-        {
-          "title": "CP24: Father finds needles, pins in five Halloween treats",
-          "url": "https://www.cp24.com/local/toronto/2026/11/02/toronto-police-investigating-after-father-discovers-needles-pins-inside-five-halloween-treats/"
-        },
-        {
-          "title": "CP24: Needles found in Halloween chocolate in Quebec",
-          "url": "https://www.cp24.com/news/canada/2026/11/01/needles-metal-pins-found-in-halloween-chocolate-in-quebec-police-say/"
-        }
-      ],
+      "topic": "Elections",
       "status": "new",
-      "summary": "A Toronto father says he found sewing needles and pins hidden inside five Halloween treats his children collected in the Upper Beaches, and Durham police are looking into a similar case in Oshawa.",
-      "timeline": [
-        {
-          "date": "Oct 31",
-          "event": "Trick-or-treating in Upper Beaches and Oshawa"
-        },
-        {
-          "date": "Nov 1",
-          "event": "Quebec police report needles in chocolate"
-        },
-        {
-          "date": "Nov 2",
-          "event": "Toronto and Durham police confirm investigations"
-        }
-      ],
-      "topic": "Public safety",
-      "updatedAt": "2026-11-02T09:05:27-05:00",
-      "why": "Even a few tampering cases can put children at risk, and police want leftover candy checked before it is eaten."
-    },
-    {
-      "backstory": "The energy board resets regulated prices every Nov. 1 and May 1 based on forecast supply costs. Winter time-of-use hours shift so the expensive on-peak periods fall on weekday mornings and early evenings, when heating and lighting demand is highest. The provincial rebate is a taxpayer-funded discount shown on bills, and the province adjusts its size when underlying prices move. Most GTA homes are on time-of-use pricing unless they opted for tiered or ultra-low overnight plans.",
-      "headline": "Ontario hydro rates drop as winter pricing kicks in",
-      "id": "ontario-hydro-prices",
-      "impact": "Lower per-kWh prices are partly offset by a smaller rebate, so actual bills depend on usage and your utility. Ultra-low overnight customers who run appliances between 4 and 9 p.m. on weekdays face the highest rate in the province.",
-      "impactLevel": "medium",
-      "now": "The Ontario Energy Board's winter time-of-use prices are now 9.1 cents per kilowatt-hour off-peak, 14.6 cents mid-peak and 18.9 cents on-peak. Ultra-low overnight customers pay 3.7 cents from 11 p.m. to 7 a.m. but 37.7 cents on weekday evenings from 4 to 9 p.m. Tiered customers pay 11.2 cents for the first 1,000 kWh a month and 13.2 cents above that. The Ontario Electricity Rebate drops to 15.7%, which the board says still trims about $23 a month from a typical 700 kWh household bill.",
-      "rank": 9,
-      "region": "ontario",
+      "impactLevel": "high",
+      "updatedAt": "2026-11-02T14:29:53-05:00",
+      "headline": "Abdul El-Sayed’s campaign reports record fundraising day as Haley Stevens faces backlash for endorsing his opponent – live",
+      "summary": "Democratic candidate for Michigan US Senate seat raised $2.4m on Sunday after congresswoman Haley Stevens pulled her endorsement of him in favor of Trump-backed Mike Rogers Sign up for the Breaking News US email Newsletter: How you (yes you) can fight dark money in elections How Israel is at the heart of Haley…",
       "sources": [
         {
-          "title": "Ontario Energy Board: Changes to electricity prices",
-          "url": "https://www.oeb.ca/newsroom/2026/ontario-energy-board-announces-changes-electricity-prices-households-small-businesses"
+          "title": "The Guardian: Abdul El-Sayed’s campaign reports record fundraising day as Haley Stevens…",
+          "url": "https://www.theguardian.com/us-news/live/2026/nov/02/democrats-haley-stevens-mike-rogers-abdul-el-sayed-michigan-midterms-trump-rallies-latest-news-updates"
+        },
+        {
+          "title": "The Hill: 'Despicable': Haley Stevens blasted by Dems after endorsing Mike Rogers",
+          "url": "https://thehill.com/opinion/lindseys-lens/6189565-haley-stevens-abandons-el-sayed/"
+        },
+        {
+          "title": "The Hill: Haley Stevens endorses Mike Rogers, ditches far-left Abdul El-Sayed",
+          "url": "https://thehill.com/opinion/robbys-radar/6189514-michigan-stevens-endorsement-el-sayed/"
+        },
+        {
+          "title": "NPR: Haley Stevens backs Mike Rogers. And, Gulf states brace for potential attack…",
+          "url": "https://www.npr.org/2026/11/02/g-s1-151215/up-first-newsletter-michigan-senate-iran-war-supreme-court-colorado-catholic-church"
         }
       ],
-      "status": "ongoing",
-      "summary": "New regulated electricity prices took effect Nov. 1, lower than a year ago, while the provincial rebate on bills shrinks to 15.7%.",
-      "timeline": [
-        {
-          "date": "Nov 2025",
-          "event": "Previous winter prices take effect"
-        },
-        {
-          "date": "May 2026",
-          "event": "Summer prices take effect"
-        },
-        {
-          "date": "Oct 16",
-          "event": "Energy board announces new prices"
-        },
-        {
-          "date": "Nov 1",
-          "event": "Winter prices and 15.7% rebate start"
-        }
-      ],
-      "topic": "Electricity bills",
-      "updatedAt": "2026-11-01T00:00:00-04:00",
-      "why": "Electricity is a fixed monthly cost for every household, and the rate structure rewards shifting laundry, dishwashers and EV charging to off-peak hours."
+      "now": "The Hill: Stevens is entitled to disagree with El-Sayed, but repeatedly creating headlines that undermine your own party's nominee days before an election that could decide the balance of power in the Senate is absurd. The Hill: Unsurprisingly, Democrats are furious, and are roundly denouncing her as a traitor."
     },
     {
-      "backstory": "By-elections fill House of Commons seats left empty between general elections. Two of the Quebec seats emptied when NDP MP Alexandre Boulerice and Bloc MP Simon-Pierre Savard-Tremblay left to run, successfully, in Quebec's 2026 provincial election. Steven Guilbeault resigned his seat in August, and Saskatchewan Conservative Cathay Wagantall resigned on Aug. 31. The prime minister has discretion over when to call by-elections within legal time limits.",
-      "headline": "Carney calls six federal by-elections for Dec. 7, including Scarborough North",
-      "id": "federal-byelections",
-      "impact": "Scarborough North residents vote on Dec. 7 and will need to check registration with Elections Canada. Ontario voters elsewhere will see the results as an early signal on federal politics ahead of the next general election.",
+      "id": "brief-ceasefire-between-russia-ukraine-opens",
+      "rank": 8,
+      "region": "world",
+      "topic": "Conflict",
+      "status": "new",
+      "impactLevel": "high",
+      "updatedAt": "2026-11-02T12:38:11-05:00",
+      "headline": "A brief ceasefire between Russia and Ukraine opens a perilous escape window from Kherson's riverside kill zone",
+      "summary": "Despite the risks, many residents of Ukraine's Kherson region refuse to leave, fearing they have nowhere else to go.",
+      "sources": [
+        {
+          "title": "PBS NewsHour: A brief ceasefire between Russia and Ukraine opens a perilous escape window…",
+          "url": "https://www.pbs.org/newshour/world/a-brief-ceasefire-between-russia-and-ukraine-opens-a-perilous-escape-window-from-khersons-riverside-kill-zone"
+        },
+        {
+          "title": "BBC News: Fighting returns to Kherson region after longest Ukraine war ceasefire",
+          "url": "https://www.bbc.co.uk/news/articles/ckg5jlyp66jzo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "title": "NPR: Hundreds evacuate city during temporary ceasefire between Russia and Ukraine",
+          "url": "https://www.npr.org/2026/11/02/nx-s1-6022261/hundreds-evacuate-city-during-temporary-ceasefire-between-russia-and-ukraine"
+        }
+      ],
+      "now": "BBC News: Though unprecedented, the six-day truce has done little to alter the wider trajectory of a war that continues to grinds on. NPR: The ceasefire in a Russian-occupied Ukrainian city has ended."
+    },
+    {
+      "id": "prosecutors-hint-retrial-lindsay-clancy-murder",
+      "rank": 9,
+      "region": "us",
+      "topic": "Courts & crime",
+      "status": "new",
       "impactLevel": "medium",
-      "now": "The Prime Minister's Office announced on Sunday that by-elections will be held Dec. 7 in Scarborough North and Brantford–Brant South in Ontario, three Quebec ridings (Laurier–Sainte-Marie, Rosemont–La Petite-Patrie and Saint-Hyacinthe–Bagot–Acton) and Yorkton–Melville in Saskatchewan. Scarborough North opened up when Liberal MP Shaun Chen stepped down for health reasons after a car crash in October 2025. In Brantford–Brant South, Conservative Larry Brock left to return to work as a Crown prosecutor; the Liberals are running Joy O'Donnell, the Conservatives former Brantford mayor Kevin Davis, and Brock's preferred successor Dave Carroll plans to run as an independent. In Laurier–Sainte-Marie, vacated by former environment minister Steven Guilbeault, the Liberals have nominated former Desjardins chief executive Guy Cormier.",
+      "updatedAt": "2026-11-02T14:23:07-05:00",
+      "headline": "Prosecutors hint at retrial for Lindsay Clancy on murder charges",
+      "summary": "Judge William Sullivan said if the case is headed to a retrial, that could happen as soon as March 2027.",
+      "sources": [
+        {
+          "title": "BBC News: Prosecutors hint at retrial for Lindsay Clancy on murder charges",
+          "url": "https://www.bbc.co.uk/news/articles/cjly0rgk34y2o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "title": "Al Jazeera: Lindsay Clancy in court to drop child murder charges after mistrial",
+          "url": "https://www.aljazeera.com/news/2026/11/2/lindsay-clancy-in-court-to-drop-child-murder-charges-after-mistrial?traffic_source=rss"
+        },
+        {
+          "title": "CityNews: Lindsay Clancy returns to court in a bid to dismiss charges she killed her…",
+          "url": "https://toronto.citynews.ca/2026/11/02/lindsay-clancy-returns-to-court-in-a-bid-to-dismiss-charges-she-killed-her-three-young-children/"
+        },
+        {
+          "title": "BBC News: Lindsay Clancy is back in court - where will her case go next?",
+          "url": "https://www.bbc.co.uk/news/articles/ck3r5z3pw928o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "now": "Al Jazeera: Defence argues juror misconduct and judge's questioning impacted Clancy's trial for strangling of her three children. CityNews: PLYMOUTH, Mass."
+    },
+    {
+      "id": "small-business-tax-troubles-target-federal",
       "rank": 10,
       "region": "canada",
-      "sources": [
-        {
-          "title": "PMO: Prime Minister Carney announces by-elections",
-          "url": "https://www.pm.gc.ca/en/news/news-releases/2026/11/01/prime-minister-carney-announces-elections"
-        },
-        {
-          "title": "Global News: Carney calls 6 byelections for December",
-          "url": "https://globalnews.ca/news/12129143/canada-byelections-december-2026/"
-        },
-        {
-          "title": "CP24: Carney announces by-elections",
-          "url": "https://www.cp24.com/news/canada/2026/11/01/pm-carney-announces-by-elections-in-ontario-quebec-saskatchewan/"
-        }
-      ],
-      "status": "ongoing",
-      "summary": "Prime Minister Mark Carney has set Dec. 7 votes in six vacant ridings, two of them in Ontario: Scarborough North and Brantford–Brant South.",
-      "timeline": [
-        {
-          "date": "Oct 2025",
-          "event": "Shaun Chen injured in car crash"
-        },
-        {
-          "date": "Aug",
-          "event": "Guilbeault resigns his Montreal seat"
-        },
-        {
-          "date": "Aug 31",
-          "event": "Wagantall resigns in Saskatchewan"
-        },
-        {
-          "date": "Oct",
-          "event": "Two Quebec MPs win provincial seats"
-        },
-        {
-          "date": "Nov 1",
-          "event": "Carney sets Dec. 7 by-elections"
-        }
-      ],
-      "topic": "By-elections",
-      "updatedAt": "2026-11-01T10:00:00-05:00",
-      "why": "Six seats are a measurable test of Carney's government a year and a half into his mandate, in the middle of a trade war and a budget week. Results in a Scarborough Liberal seat and a Conservative-held Brantford riding will show how Ontario voters are leaning."
-    },
-    {
-      "backstory": "Alaska uses an open top-four primary and ranked-choice voting in general elections, so voters can rank several candidates. A judge allowed Daniel J. Sullivan onto the primary ballot over the summer, and he advanced to the general election against the senator with the same name. The Justice Department sued on Oct. 23, and Alaska's election officials asked the court to dismiss the case on Oct. 27. The seat is one of several close races that could decide Senate control.",
-      "headline": "Judge throws out Justice Department suit over Alaska Senate ballots",
-      "id": "us-alaska-ballots",
-      "impact": "No direct effect in Ontario, but a cleaner count in close Senate races means a faster answer on which party will shape U.S. tariff and war policy.",
-      "impactLevel": "low",
-      "now": "U.S. District Judge Sharon Gleason ruled Sunday in a 20-page order that the Justice Department lacked standing, because a court order could not fix the harm it claimed, and that it offered no workable way to separate ballots without breaking voter secrecy. The department had argued that a teacher named Daniel J. Sullivan was put on the ballot to confuse voters and pull support from Republican Sen. Dan Sullivan, helping Democrat Mary Peltola. A separate federal criminal investigation into how he got on the ballot continues, with subpoenas sent to several Democratic officials, but no one has been charged.",
-      "rank": 11,
-      "region": "us",
-      "sources": [
-        {
-          "title": "CBS News: Judge tosses DOJ lawsuit over Alaska Senate race",
-          "url": "https://www.cbsnews.com/news/judge-doj-lawsuit-alaska-senate-race-dan-sullivan/"
-        },
-        {
-          "title": "CNN: Judge throws out DOJ attempt to delay Alaska certification",
-          "url": "https://www.cnn.com/2026/11/01/politics/alaska-senate-judge-ruling"
-        },
-        {
-          "title": "Axios: DOJ sues to block Alaska results",
-          "url": "https://www.axios.com/2026/10/23/trump-administration-sues-alaska-dan-sullivan"
-        }
-      ],
-      "status": "ongoing",
-      "summary": "A federal judge dismissed the Trump administration's bid to set aside Alaska ballots ranking a second candidate named Dan Sullivan and to hold up certification if the Republican incumbent loses.",
-      "timeline": [
-        {
-          "date": "Aug",
-          "event": "Second Dan Sullivan advances from primary"
-        },
-        {
-          "date": "Oct 23",
-          "event": "Justice Department sues Alaska"
-        },
-        {
-          "date": "Oct 27",
-          "event": "State asks judge to toss the case"
-        },
-        {
-          "date": "Oct 30",
-          "event": "Criminal probe confirmed"
-        },
-        {
-          "date": "Nov 1",
-          "event": "Judge Gleason dismisses the lawsuit"
-        }
-      ],
-      "topic": "Courts",
-      "updatedAt": "2026-11-01T12:00:00-05:00",
-      "why": "It is the second court loss in days for federal attempts to intervene in state vote counts, limiting the chance of results being held up in a close Senate race."
-    },
-    {
-      "backstory": "Puslinch is a rural township just south of Guelph, off Highway 401, and its winding concession roads see fast traffic at night. Ontario police have warned for several years about rising deaths among young drivers and passengers, often linked to speed, alcohol and unbuckled seat belts. Collisions involving several teenagers in one vehicle are among the deadliest on provincial roads. Ontario's graduated licensing rules limit how many young passengers new drivers may carry at night.",
-      "headline": "Four Peel and Halton teens killed in Puslinch crash",
-      "id": "puslinch-crash",
-      "impact": "Schools in Mississauga, Brampton and Milton may offer grief support this week. Anyone who drove Watson Road South around 1:30 a.m. Saturday can help police with dash-cam footage.",
-      "impactLevel": "low",
-      "now": "Wellington County OPP say the vehicle hit a guardrail and went into a ravine on Watson Road South in Puslinch around 1:35 a.m. Oct. 31. Two 19-year-old men from Mississauga and Brampton, a 17-year-old girl from Mississauga and a 15-year-old girl from Milton died at the scene. A 17-year-old girl has life-altering injuries and a 15-year-old girl has non-life-threatening injuries. Police are looking at speed and seat-belt use and want dash-cam or security video from the area; the number is 1-888-310-1122.",
-      "rank": 12,
-      "region": "ontario",
-      "sources": [
-        {
-          "title": "CP24: Four aged 15 to 19 killed in Puslinch crash",
-          "url": "https://www.cp24.com/news/canada/2026/11/01/four-people-ranging-in-age-from-15-to-19-years-old-killed-in-puslinch-ont-crash/"
-        }
-      ],
+      "topic": "Budget",
       "status": "new",
-      "summary": "Four young people from Mississauga, Brampton and Milton died when a vehicle carrying six people went into a ravine near Guelph early Saturday.",
-      "timeline": [
-        {
-          "date": "Oct 31",
-          "event": "Vehicle leaves Watson Road South; four die"
-        },
-        {
-          "date": "Nov 1",
-          "event": "OPP identify victims' ages and hometowns, appeal for video"
-        }
-      ],
-      "topic": "Road safety",
-      "updatedAt": "2026-10-31T01:35:00-04:00",
-      "why": "It is one of the deadliest crashes in the region this year and has hit families and schools across Peel and Halton."
-    },
-    {
-      "backstory": "The attack drew national attention because it took place in the Bridle Path, one of Toronto's wealthiest neighbourhoods. The family's father, David Morton, CEO of MAC Group, has called the experience terrifying and urged anyone with information to come forward. Police say it was the 119th home invasion reported in Toronto this year, up about 32% from the same period in 2025. Chief Myron Demkiw promised a stronger police presence in the area.",
-      "headline": "Canada-wide warrant issued in Bridle Path home invasion",
-      "id": "bridle-path-home-invasion",
-      "impact": "Police remain on the lookout for two more suspects in their 20s, so North York residents may see extra patrols. Police are asking anyone with information or home security video from the area to contact them.",
-      "impactLevel": "medium",
-      "now": "Police issued a Canada-wide arrest warrant on Saturday for Daijohn Richards, 23, who went to hospital later on Oct. 29 with a gunshot wound to the shoulder that police believe another suspect fired by accident. He faces charges including discharging a firearm with intent to wound, armed robbery and aggravated assault. Police say three masked men with handguns and a hammer forced their way into a Hyde Park Circle home near Bayview and Lawrence avenues around 3:45 a.m.; three of the four family members were shot and two were struck with a hammer. All four are expected to survive, though two have life-altering injuries, and police believe the home was chosen for the area's wealth rather than the family itself.",
-      "rank": 13,
-      "region": "ontario",
+      "impactLevel": "high",
+      "updatedAt": "2026-11-02T13:10:43-05:00",
+      "headline": "Small business tax troubles a target of federal budget: Champagne",
+      "summary": "Champagne acknowledged that one of the barriers to investment, particularly among Canada's small businesses, is the complexity of the tax code.",
       "sources": [
         {
-          "title": "Global News: Home invasion suspect was also shot",
-          "url": "https://globalnews.ca/news/12128691/toronto-home-invasion-suspect/"
+          "title": "Global News: Small business tax troubles a target of federal budget: Champagne",
+          "url": "https://globalnews.ca/news/12130114/budget-2026-small-business-tax-help/"
         },
         {
-          "title": "CP24: Family speaks out after Bridle Path home invasion",
-          "url": "https://www.cp24.com/local/toronto/2026/10/30/life-threatening-experience-family-releases-statement-following-violent-bridle-path-home-invasion/"
+          "title": "CityNews: Ottawa targeting small business tax troubles in upcoming budget: Champagne",
+          "url": "https://toronto.citynews.ca/2026/11/02/federal-budget-is-about-changing-canadas-growth-model-finance-minister-says/"
         }
       ],
-      "status": "developing",
-      "summary": "Toronto police have named a 23-year-old suspect who they say was shot by an accomplice during Thursday's violent home invasion, and two other suspects are still being sought.",
-      "timeline": [
-        {
-          "date": "Oct 29",
-          "event": "Home invasion at Hyde Park Circle; four hospitalized"
-        },
-        {
-          "date": "Oct 30",
-          "event": "Police release suspect descriptions; family speaks out"
-        },
-        {
-          "date": "Oct 31",
-          "event": "Canada-wide warrant for Daijohn Richards, 23"
-        }
-      ],
-      "topic": "Crime",
-      "updatedAt": "2026-10-31T14:46:53-04:00",
-      "why": "Toronto home invasions are up about a third this year, and this case has raised questions about residential security across the city."
+      "now": "CityNews: TORONTO — Thursday's federal budget will look to make life easier for Canada's small- and medium-sized businesses, says Finance Minister Francois-Philippe Champagne."
     },
     {
-      "backstory": "Recreational cannabis became legal in Canada in October 2018, and Ontario licenses private stores through the AGCO. Enforcement against unlicensed shops has largely fallen to police and cities, and the AGCO has not had a clear mandate to go after them. In 2024 the province set aside $31 million over three years for an OPP-led cannabis enforcement team. In January 2025 Toronto's bylaw officers stopped closing illegal dispensaries, citing a lack of funding and safety concerns.",
-      "headline": "Legal pot shops say Ontario's illegal-store crackdown needs real enforcement",
-      "id": "ontario-cannabis-crackdown",
-      "impact": "If the powers pass and are funded, unlicensed storefronts in Toronto and the GTA could face inspections, seizures and fines; buyers can check the AGCO's map to confirm a store is licensed.",
-      "impactLevel": "low",
-      "now": "The proposal, announced Oct. 19, would give the Alcohol and Gaming Commission of Ontario (AGCO) power to inspect suspected illegal stores, seize products and issue fines; no fine amounts have been released. Ministry data suggest about 30% of the province's cannabis retail market is still illegal, alongside roughly 1,800 licensed stores. A Toronto store owner told CP24 the plan has no budget or timeline yet, and the Retail Cannabis Council of Ontario says success means closures that stick. Attorney General Doug Downey says illegal sellers undermine legitimate businesses and pose risks to consumers.",
-      "rank": 14,
-      "region": "ontario",
+      "id": "canada-minds-american-voters-ahead-us",
+      "rank": 11,
+      "region": "canada",
+      "topic": "Elections",
+      "status": "new",
+      "impactLevel": "high",
+      "updatedAt": "2026-11-02T13:49:51-05:00",
+      "headline": "Canada on the minds of American voters ahead of the U.S. midterm elections",
+      "summary": "As Americans are preparing to cast their ballots in their midterm election on Tuesday, their northern neighbours are in the back of their mind as Canadians are paying close attention to what the outcome could mean on this side of the border. For the Republican Party, they are looking to hold onto their slim majorities…",
       "sources": [
         {
-          "title": "CP24: Ontario proposes crackdown on illegal cannabis stores",
-          "url": "https://www.cp24.com/local/toronto/2026/11/01/ontario-is-proposing-a-crackdown-on-illegal-cannabis-stores-legal-retailers-say-it-is-long-overdue/"
+          "title": "CityNews: Canada on the minds of American voters ahead of the U.S. midterm elections",
+          "url": "https://toronto.citynews.ca/2026/11/02/canada-on-the-minds-of-american-voters-ahead-of-the-u-s-midterm-elections/"
         }
-      ],
-      "status": "ongoing",
-      "summary": "Ontario plans to let its alcohol and cannabis regulator inspect, seize from and fine illegal cannabis storefronts, and licensed retailers say the move is overdue but untested.",
-      "timeline": [
+      ]
+    },
+    {
+      "id": "alberta-contentious-riding-boundary-map-made",
+      "rank": 12,
+      "region": "canada",
+      "topic": "Elections",
+      "status": "new",
+      "impactLevel": "high",
+      "updatedAt": "2026-11-02T12:49:57-05:00",
+      "headline": "Alberta’s contentious new riding boundary map to be made public",
+      "summary": "The NDP claims the UCP is aiming to use its legislative majority to gerrymander the new boundaries, in order to give themselves an unfair advantage in the 2027 provincial election.",
+      "sources": [
         {
-          "date": "Oct 2018",
-          "event": "Recreational cannabis legalized"
-        },
-        {
-          "date": "2024",
-          "event": "$31M for OPP-led enforcement team"
-        },
-        {
-          "date": "Jan 2025",
-          "event": "Toronto stops bylaw enforcement"
-        },
-        {
-          "date": "Oct 19",
-          "event": "Province proposes new AGCO powers"
-        },
-        {
-          "date": "Nov 1",
-          "event": "Retailers press for real enforcement"
+          "title": "Global News: Alberta’s contentious new riding boundary map to be made public",
+          "url": "https://globalnews.ca/news/12130025/alberta-electoral-riding-boundaries-2026/"
         }
-      ],
-      "topic": "Cannabis",
-      "updatedAt": "2026-11-01T12:00:00-05:00",
-      "why": "Illegal stores undercut licensed shops that pay more than $10,000 in fees and face background checks, and unregulated products carry health risks."
+      ]
     }
   ],
-  "updatedAt": "2026-11-02T12:10:49-05:00",
   "date": "2026-11-02"
 }
