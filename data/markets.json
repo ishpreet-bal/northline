@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-02T03:35:00-05:00",
-  "nextRefresh": "around 4:22 AM",
-  "headline": "Quiet pre-dawn: bitcoin holds $78,000, oil slips near $100 on Iran talks",
-  "summary": "Markets are steady in the early hours after Friday's tech sell-off, with Apple and Palantir reporting Monday, the U.S. midterms Tuesday and the jobs report Friday; U.S. futures were up about 0.4%–0.8% earlier and Asia is mixed. Bitcoin is near $78,070 (up 0.2% in 24 hours, down 2.5% this week) and ether near $2,290, even as Binance saw about $3.6 billion of net withdrawals after reopening; Bitway and NEAR are the weakest big coins, and Fear & Greed reads 37. U.S. crude is down about 3.6% to $100.33 on Iran peace-talk hopes, and gold is up 0.2% to about $3,906, just above a one-year low.",
+  "updatedAt": "2026-11-02T04:30:00-05:00",
+  "nextRefresh": "around 5:22 AM",
+  "headline": "Oil dips below $100 on Iran-talk hopes; bitcoin flat near $78,000",
+  "summary": "Markets are quiet before the U.S. open after Friday's tech sell-off, with Apple and Palantir reporting today, the U.S. midterms Tuesday and the jobs report Friday; U.S. futures were pointing modestly higher overnight and Asia is mixed. Bitcoin is near $78,150 (flat over 24 hours, down 2.3% this week) and ether near $2,293, while Bitway sank below $1 on its token-unlock day and NEAR is the weakest big coin; Fear & Greed reads 37. U.S. crude is down about 4.2% to $99.74 on Iran peace-talk hopes, and gold is up 0.3% to about $3,911, just above a one-year low.",
   "mood": {
     "crypto": {
       "label": "Fearful",
-      "why": "The Fear & Greed index reads 37 (Fear), up from 30 midweek but well below 51 a week ago; bitcoin, about 60% of the $2.61 trillion crypto market, is steady while NEAR, Bitway and DeFi lending coins slide."
+      "why": "The Fear & Greed index reads 37 (Fear), up from 30 midweek but well below 51 a week ago; bitcoin, about 60% of the $2.61 trillion crypto market, is steady while Bitway, NEAR and DeFi lending coins slide."
     },
     "stocks": {
       "label": "Cautious",
@@ -33,14 +33,14 @@
       "assets": "Stocks, bonds, bitcoin, Canadian banks"
     },
     {
-      "title": "Oil slides as OPEC+ holds and Iran peace talks progress",
-      "detail": "OPEC+ kept December output targets unchanged on Sunday, and U.S. crude is about 3.6% lower at $100.33 (Brent near $111) after Friday's six-month-high close of $104.12, on reports that Iran-Qatar talks aimed at ending the war will continue. Real progress toward reopening the Strait of Hormuz could pull oil and inflation fears lower, while tanker attacks in the Gulf or a breakdown could send prices back up.",
+      "title": "Oil slips below $100 as OPEC+ holds and Iran peace talks progress",
+      "detail": "OPEC+ kept December output targets unchanged on Sunday, and U.S. crude is down about 4.2% to $99.74 after Friday's six-month-high close of $104.12, on reports that Iran-Qatar talks aimed at ending the war will continue. Real progress toward reopening the Strait of Hormuz could pull oil and inflation fears lower, while tanker attacks in the Gulf or a breakdown could send prices back up.",
       "effect": "mixed",
       "assets": "Oil, Canadian energy stocks, inflation, bond yields"
     },
     {
       "title": "Gold steadies just above a one-year low",
-      "detail": "Gold futures fell 3.3% Friday to about $3,899, ending October down 6.8%, as the prospect of higher interest rates and reports of investors selling gold to cover margin calls outweighed safe-haven demand. It is up about 0.2% to $3,906 in overnight trading, just above its 52-week low of $3,879.",
+      "detail": "Gold futures fell 3.3% Friday to about $3,899, ending October down 6.8%, as the prospect of higher interest rates and reports of investors selling gold to cover margin calls outweighed safe-haven demand. It is up about 0.3% to $3,911 in overnight trading, just above its 52-week low of $3,879.",
       "effect": "bearish",
       "assets": "Gold, TSX miners"
     }
@@ -50,7 +50,7 @@
       "id": "bitcoin",
       "symbol": "BTC",
       "name": "Bitcoin",
-      "move": "Up 0.2% in 24h but down 2.5% this week, at about $78,070 (down 7.7% over 30 days)",
+      "move": "Flat over 24h and down 2.3% this week, at about $78,146 (down 7.6% over 30 days)",
       "why": "Bitcoin hit about $81,900 on Thursday before the Binance hack news set off a wave of liquidations (forced selling of borrowed, leveraged bets), sending it to a six-week low near $76,300. U.S. spot bitcoin ETFs (funds that hold real bitcoin and trade like stocks) saw about $643 million of outflows on Friday, ending four days of inflows. Binance reopened bitcoin withdrawals early Sunday and saw about $3.6 billion of net outflows in the first hours, with its bitcoin balance down about 19,300 BTC as users moved coins to other exchanges, yet the price has barely moved, holding near $78,000 overnight; analysts cited by crypto.news see $76,000–$77,000 as the key support zone.",
       "meaning": "The price held up better than you might expect after the largest crypto theft ever, which suggests the hack is being treated as a Binance problem rather than a flaw in bitcoin itself. But with ETF buyers retreating and rates possibly rising, there is little fresh demand to lift it quickly.",
       "outlook": {
@@ -84,7 +84,7 @@
       "id": "ethereum",
       "symbol": "ETH",
       "name": "Ethereum",
-      "move": "Up 0.8% in 24h but down 1.5% this week, at about $2,288 (down 14.8% over 30 days)",
+      "move": "Up 0.9% in 24h but down 0.9% this week, at about $2,293 (down 14.4% over 30 days)",
       "why": "A large share of the stolen Binance funds was ether and stablecoins, and ether dropped more than 3% to a two-month low near $2,178 when the hack broke. Ether ETFs also had outflows of about $156 million on the same day bitcoin funds bled $643 million. Ethereum was in the first group of networks to reopen for Binance withdrawals on Sunday, and the price has steadied around $2,280.",
       "meaning": "Ether has fallen harder than bitcoin over the past month, a sign that investors are favouring the biggest, most liquid coin when nervous. A holder should expect bigger swings than bitcoin in either direction.",
       "outlook": {
@@ -110,7 +110,7 @@
       "id": "tron",
       "symbol": "TRX",
       "name": "TRON",
-      "move": "Up 1.6% in 24h but down 4.5% this week, at about $0.315 (down 6.0% over 30 days)",
+      "move": "Up 1.7% in 24h but down 4.4% this week, at about $0.316 (down 5.8% over 30 days)",
       "why": "TRON had climbed above $0.36 right after the Binance hack, but blockchain firm TRM Labs says much of that buying came from the attackers themselves: they moved about $628 million through the TRON network and swapped roughly $234 million of the stablecoin USDT into TRX before Tether froze the linked wallets. With that artificial demand gone, the price fell back and gave up the whole spike, though it is up about 1.6% over 24 hours. Derivatives traders are also leaning bearish, with funding rates (the fee between long and short traders) negative.",
       "meaning": "The earlier jump was not a sign of real new demand, so holders should not read it as a breakout. TRON's core business, moving USDT payments, is unchanged, but the coin may stay volatile while hacker-linked TRX is still in circulation.",
       "outlook": {
@@ -136,7 +136,7 @@
       "id": "hyperliquid",
       "symbol": "HYPE",
       "name": "Hyperliquid",
-      "move": "Down 1.4% in 24h but up 11.8% this week, at about $86.17 (down 2.9% over 30 days)",
+      "move": "Down 1.4% in 24h but up 12.9% this week, at about $86.42 (down 2.0% over 30 days)",
       "why": "HYPE jumped about 15% on Thursday after Intercontinental Exchange, owner of the New York Stock Exchange, agreed to work with TradeXYZ to offer Hyperliquid-based perpetual futures (contracts with no expiry date) to U.S. traders, pending regulatory approval. The token has held most of that gain, near $87. A modeled release of roughly 9.9 million HYPE (about $920 million) to core contributors is expected around Nov. 6.",
       "meaning": "The ICE deal is a big vote of confidence from traditional finance, but it still needs approval and has no launch date. The large scheduled unlock could add selling pressure in the short term.",
       "outlook": {
@@ -162,7 +162,7 @@
       "id": "near",
       "symbol": "NEAR",
       "name": "NEAR Protocol",
-      "move": "Down 6.4% in 24h and down 8.0% this week, at about $4.10 (down 12.9% over 30 days)",
+      "move": "Down 5.7% in 24h and down 7.5% this week, at about $4.13 (down 11.7% over 30 days)",
       "why": "NEAR is the weakest of the 25 biggest coins overnight, extending a slide that saw it drop about 7.6% in four hours to near $4.06 on Oct. 29, when forced selling of leveraged bets (liquidations) hit long positions. Binance had not yet fully restored NEAR withdrawals as of Sunday afternoon, which can make traders wary of holding it on the exchange. We found no project-specific bad news in major outlets.",
       "meaning": "NEAR is trading near its late-October lows, and it tends to swing harder than bitcoin. Without a clear catalyst, its direction is likely to follow broader crypto sentiment and how smoothly Binance restores withdrawals.",
       "outlook": {
@@ -188,7 +188,7 @@
       "id": "aave",
       "symbol": "AAVE",
       "name": "Aave",
-      "move": "Down 2.9% in 24h and down 0.3% this week, at about $133.52 (down 25.6% over 30 days)",
+      "move": "Down 3.4% in 24h and down 1.2% this week, at about $132.04 (down 26.2% over 30 days)",
       "why": "Aave, the biggest crypto lending protocol, froze markets across 16 networks after a wallet linked to the Binance hacker started borrowing against stolen funds, then reopened them with nine assets still blocked from being used as collateral. The token bounced after the reopening but is down about 4% over 24 hours, as traders weigh how quickly it contained the risk.",
       "meaning": "The bounce reflects relief that Aave avoided losses, not a change in the broader downtrend. Lending protocols are exposed if stolen or volatile assets are used as collateral, so its handling of the incident matters for confidence.",
       "outlook": {
@@ -214,7 +214,7 @@
       "id": "morpho",
       "symbol": "MORPHO",
       "name": "Morpho",
-      "move": "Down 4.6% in 24h but up 10.5% this week, at about $2.21 (down 13.3% over 30 days)",
+      "move": "Down 4.8% in 24h but up 10.7% this week, at about $2.22 (down 12.9% over 30 days)",
       "why": "Morpho, a DeFi (decentralized finance) lending network where users lend and borrow crypto without a bank, is still up about 8% this week alongside Aave as lending tokens bounced after the hack-driven sell-off, but it is down about 4% over 24 hours. We found no single new announcement behind the move in major outlets, so it looks like short-term traders taking profits.",
       "meaning": "Lending tokens are recovering because the Binance hack did not spread into DeFi lending losses, but a quick jump with no clear news can reverse just as fast. It remains a higher-risk, smaller asset than bitcoin or ether.",
       "outlook": {
@@ -236,7 +236,7 @@
       "id": "zcash",
       "symbol": "ZEC",
       "name": "Zcash",
-      "move": "Up 0.8% in 24h and up 4.8% this week, at about $1,257 (down 4.1% over 30 days)",
+      "move": "Up 0.6% in 24h and up 5.0% this week, at about $1,257 (down 4.1% over 30 days)",
       "why": "Traders are positioning ahead of Zcash's NU7 network upgrade, targeted for Nov. 5, which cuts the target time between blocks from 75 seconds to 25 seconds for faster payments. The privacy coin has been one of the strongest performers of the year.",
       "meaning": "Upgrades often bring a 'buy the rumour, sell the news' pattern: prices can rise into the event and fall after it. Expect sharp swings around Nov. 5.",
       "outlook": {
@@ -258,8 +258,8 @@
       "id": "bitway",
       "symbol": "BTW",
       "name": "Bitway",
-      "move": "Down 12.3% in 24h and down 38.4% this week, at about $0.987 (down 30.9% over 30 days)",
-      "why": "Bitway is down about 64% from its Oct. 14 record of $2.77, and slid another 10% over 24 hours as the token unlock of about 101.6 million BTW (roughly 1% of total supply) arrives today, Nov. 2. Sources disagree on whether those tokens go to community pools or to early investors, who may be more likely to sell.",
+      "move": "Down 16.3% in 24h and down 40.2% this week, at about $0.928 (down 33.1% over 30 days)",
+      "why": "Bitway is down about 67% from its Oct. 14 record of $2.77, and slid about 16% over 24 hours, breaking below $1 as the token unlock of about 101.6 million BTW (roughly 1% of total supply) arrives today, Nov. 2. Sources disagree on whether those tokens go to community pools or to early investors, who may be more likely to sell.",
       "meaning": "An unlock adds new tokens to the market; past Bitway unlocks were followed by an average drop of about 7% over two weeks, per CryptoTicker. Much of that risk may already be priced in after this week's slide, but volatility will stay extreme.",
       "outlook": {
         "lean": "down",
@@ -562,7 +562,7 @@
         "horizon": "next 1–2 weeks",
         "bullCase": "Continued high oil and solid results on Nov. 5 could push it to new highs above C$80.",
         "bearCase": "A peace deal or ceasefire that sends oil lower could pull it back toward C$72–74.",
-        "watch": "Oil prices after Sunday's OPEC+ hold (U.S. crude about $100.92); Iran–U.S. talks; CNQ earnings (Nov. 5)."
+        "watch": "Oil prices after Sunday's OPEC+ hold (U.S. crude about $99.74); Iran–U.S. talks; CNQ earnings (Nov. 5)."
       },
       "sources": [
         {
