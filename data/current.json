@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-11-04T20:58:00-05:00",
-  "nextRefresh": "around 6 AM",
-  "headline": "Democrats win Congress; Canada’s budget lands Thursday",
-  "briefing": "Democrats have won control of both chambers of Congress in Tuesday's U.S. midterms, Speaker Mike Johnson is stepping aside as House Republican leader, and Trump says the Iran war largely drove the losses. Canada's federal budget arrives Thursday, while Doug Ford ruled out a new funding deal for Toronto, which faces a roughly $1.12-billion shortfall.",
+  "updatedAt": "2026-11-05T05:56:00-05:00",
+  "nextRefresh": "around noon",
+  "headline": "Federal budget lands today as Democrats take Congress",
+  "briefing": "Canada's federal budget is tabled today, with an immigration levels update and fresh deficit numbers in focus. Democrats have won control of Congress in the U.S. midterms, and oil is swinging on mixed signals over U.S.-Iran talks. Doug Ford has ruled out a new funding deal for Toronto, which faces a roughly $1.12-billion shortfall.",
   "keyDates": [
     {
       "date": "2026-11-05",
@@ -147,14 +147,22 @@
     },
     {
       "backstory": "The U.S. and Israel began striking Iran on Feb. 28, and Iran choked traffic through the Strait of Hormuz, route for about a fifth of the world's oil. A June peace memorandum briefly reopened it but collapsed in July, and the U.S. imposed a blockade on Iranian shipping. Qatar gave Iran a new draft deal on Oct. 25. Trump has said the war will end soon, one way or the other.",
-      "headline": "Oil falls on hopes of an Iran breakthrough after limited U.S. strikes",
+      "headline": "Oil swings as U.S.-Iran talks stay unsettled",
       "id": "iran-hormuz",
       "impact": "Lower crude should show up at GTA pumps within days, but a failed deal could send prices back up. Fuel costs feed into groceries, deliveries and transit.",
       "impactLevel": "high",
-      "now": "The Guardian reports Brent dropped over 6% to US$105.55 a barrel, its lowest in more than two weeks, on hopes of a breakthrough. On Monday the U.S. struck radar detectors and missile launchers on Iran's Qeshm Island, which officials described as limited and defensive, while mediators kept pushing for a deal. Al Jazeera's live coverage says Vice-President JD Vance sees progress in talks while Tehran says the ball is in Washington's court. DNC chair Ken Martin said Democrats should end the Iran war if they win power. Iranian leaders said the U.S. midterm results show voters rejected the war, though Al Jazeera notes Trump could still order more attacks.",
+      "now": "Reports from Nov. 4 describe oil swinging after a two-day decline, with Brent quoted around US$100 on Wednesday and near US$94 in a separate report. A senior Iranian official reportedly said Tehran could reopen the Strait of Hormuz within two days if Washington lifts oil sanctions and releases frozen assets. Iran's security chief called the U.S. response not satisfactory, and both sides are reviewing new mediator proposals. Trump reportedly told the Financial Times there are no immediate plans to strike Iran, after earlier threatening renewed strikes following the midterms.",
       "rank": 3,
       "region": "world",
       "sources": [
+        {
+          "title": "Irish Times: Oil swings after two-day decline as US-Iran talks remain mixed",
+          "url": "https://www.irishtimes.com/business/markets/2026/11/04/oil-swings-after-two-day-decline-as-us-iran-talks-remain-mixed/"
+        },
+        {
+          "title": "FinanceFeeds: Brent crude after US-Iran deal bets",
+          "url": "https://financefeeds.com/brent-crude-oil-price-94-thursday-after-9-percent-crash-us-iran-deal-bets-bull-100-bear-90/"
+        },
         {
           "title": "The Guardian: Oil price falls amid hope of a breakthrough to end Iran war",
           "url": "https://www.theguardian.com/business/2026/nov/02/oil-price-falls-amid-hope-of-a-breakthrough-to-end-iran-war"
@@ -162,18 +170,10 @@
         {
           "title": "Al Jazeera: Explosions hit Iran's Qeshm Island",
           "url": "https://www.aljazeera.com/news/2026/11/3/explosions-hit-irans-qeshm-island-as-us-media-report-us-strikes-in-hormuz?traffic_source=rss"
-        },
-        {
-          "title": "The Hill: U.S. strikes Iranian radar, missiles",
-          "url": "https://thehill.com/policy/defense/6190947-us-strikes-iranian-radar-missiles/"
-        },
-        {
-          "title": "The Hill: DNC chair says Democrats should repeal Trump tariffs, end Iran war",
-          "url": "https://thehill.com/homenews/campaign/6195001-dnc-chair-trump-tariffs-iran/"
         }
       ],
       "status": "developing",
-      "summary": "Brent crude fell more than 6% to about US$105.55 on hopes of a deal, even as U.S. forces struck Iranian radar and missile sites on Qeshm Island.",
+      "summary": "Oil has fallen for several days on hopes of a deal, but Tehran calls the U.S. response unsatisfactory and sources disagree on Brent's level (roughly US$94–100).",
       "timeline": [
         {
           "date": "Feb 28",
@@ -194,10 +194,14 @@
         {
           "date": "Nov 2",
           "event": "U.S. strikes on Qeshm Island; Brent falls to US$105.55"
+        },
+        {
+          "date": "Nov 4",
+          "event": "Oil swings; Iran says Hormuz could reopen if sanctions lifted"
         }
       ],
       "topic": "Iran war",
-      "updatedAt": "2026-11-04T16:56:00-05:00",
+      "updatedAt": "2026-11-05T05:56:00-05:00",
       "why": "Oil near or above US$100 is the main driver of higher inflation in Canada and the U.S., and it pushed the Bank of Canada to raise rates last week."
     },
     {
@@ -224,7 +228,7 @@
         }
       ],
       "status": "developing",
-      "summary": "A government source says the annual immigration levels update will be part of Thursday's federal budget, which also targets small-business tax complexity.",
+      "summary": "Finance Minister Champagne tables the federal budget today, with the annual immigration levels update included.",
       "timeline": [
         {
           "date": "Oct 20",
@@ -248,7 +252,7 @@
         }
       ],
       "topic": "Budget",
-      "updatedAt": "2026-11-04T11:53:11-05:00",
+      "updatedAt": "2026-11-05T05:56:00-05:00",
       "why": "The budget sets Ottawa's response to tariffs, deficits and defence spending, and the immigration targets shape population growth."
     },
     {
