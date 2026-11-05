@@ -1,86 +1,97 @@
 {
- "updatedAt": "2026-11-04T16:56:00-05:00",
- "rangeStart": "2026-10-29",
- "rangeEnd": "2026-11-04",
- "headline": "Democrats sweep the U.S. midterms as Canada awaits its budget",
- "summary": "Democrats won both chambers of Congress, ending Republican control and raising questions about tariffs and the Iran war. In Canada, attention turned to Thursday’s federal budget, while GTA housing stayed soft.",
- "top": [
-  {
-   "rank": 1,
-   "id": "us-midterms",
-   "region": "us",
-   "when": "Nov 3–4",
-   "impactLevel": "high",
-   "latestDate": "2026-11-04",
-   "headline": "Democrats win House and Senate",
-   "what": "Democrats took control of both chambers in the midterms, a broad rebuke of President Trump.",
-   "why": "It changes who controls investigations, spending and tariff oversight from January."
-  },
-  {
-   "rank": 2,
-   "id": "iran-hormuz",
-   "region": "world",
-   "when": "All week",
-   "impactLevel": "high",
-   "latestDate": "2026-11-04",
-   "headline": "Iran war and oil prices swing on talks",
-   "what": "Oil moved with hopes of an Iran breakthrough and limited U.S. strikes.",
-   "why": "Energy prices feed straight into Ontario gas and shipping costs."
-  },
-  {
-   "rank": 3,
-   "id": "budget-2026-include-update-immigration-levels",
-   "region": "canada",
-   "when": "Nov 3–5",
-   "impactLevel": "high",
-   "latestDate": "2026-11-04",
-   "headline": "Federal budget set for Thursday",
-   "what": "Finance Minister Champagne tables the budget Nov. 5 with an immigration levels update.",
-   "why": "It sets taxes, spending and deficit direction for Canadians."
-  },
-  {
-   "rank": 4,
-   "id": "trade-war",
-   "region": "canada",
-   "when": "All week",
-   "impactLevel": "high",
-   "latestDate": "2026-11-04",
-   "headline": "Canada-U.S. trade talks continue",
-   "what": "Talks continue as Democrats vow to push back on tariffs and Canadian industry hopes for relief.",
-   "why": "Tariffs shape Ontario manufacturing jobs and prices."
-  },
-  {
-   "rank": 5,
-   "id": "toronto-home-sales-rise-first-time",
-   "region": "ontario",
-   "when": "Nov 4",
-   "impactLevel": "high",
-   "latestDate": "2026-11-04",
-   "headline": "GTA home sales down 7.9% in October",
-   "what": "TRREB reported 5,603 sales, down from a year earlier.",
-   "why": "Prices and sales show how rates are affecting buyers."
-  },
-  {
-   "rank": 6,
-   "id": "tough-times-doug-ford-shuts-door",
-   "region": "ontario",
-   "when": "Nov 4",
-   "impactLevel": "medium",
-   "latestDate": "2026-11-04",
-   "headline": "Ford rules out new Toronto funding deal",
-   "what": "Ford said the province will not sign a new financial deal for Toronto.",
-   "why": "City budgets, taxes and transit service depend on it."
-  },
-  {
-   "rank": 7,
-   "id": "ontario-fall-economic-statement",
-   "region": "ontario",
-   "when": "Oct 30–Nov 1",
-   "impactLevel": "medium",
-   "latestDate": "2026-11-04",
-   "headline": "Ontario deficit swells to $16.9B",
-   "what": "Tariffs delayed the province’s return to balance.",
-   "why": "It affects provincial spending and services."
-  }
- ]
+  "updatedAt": "2026-11-04T20:45:44-05:00",
+  "rangeStart": "2026-10-29",
+  "rangeEnd": "2026-11-04",
+  "headline": "Oil falls on hopes of an Iran breakthrough after limited U.S. strikes",
+  "summary": "The stories that stayed in the briefing most this week: Oil falls on hopes of an Iran breakthrough after limited U.S. strikes; Canada-U.S. trade talks continue as Democrats vow to repeal tariffs; Democrats flip North Carolina Senate seat as midterm results come in.",
+  "top": [
+    {
+      "rank": 1,
+      "id": "iran-hormuz",
+      "region": "world",
+      "when": "Oct 31–Nov 3",
+      "impactLevel": "high",
+      "latestDate": "2026-11-03",
+      "headline": "Oil falls on hopes of an Iran breakthrough after limited U.S. strikes",
+      "what": "Brent crude fell more than 6% to about US$105.55 on hopes of a deal, even as U.S. forces struck Iranian radar and missile sites on Qeshm Island.",
+      "why": "In the briefing on 3 of the last 7 days."
+    },
+    {
+      "rank": 2,
+      "id": "trade-war",
+      "region": "canada",
+      "when": "Oct 31–Nov 3",
+      "impactLevel": "high",
+      "latestDate": "2026-11-03",
+      "headline": "Canada-U.S. trade talks continue as Democrats vow to repeal tariffs",
+      "what": "Tariffs on Canadian goods remain while talks continue, and the DNC chair says Democrats would move to end them if they win power.",
+      "why": "In the briefing on 3 of the last 7 days."
+    },
+    {
+      "rank": 3,
+      "id": "us-midterms",
+      "region": "us",
+      "when": "Oct 31–Nov 3",
+      "impactLevel": "high",
+      "latestDate": "2026-11-03",
+      "headline": "Democrats flip North Carolina Senate seat as midterm results come in",
+      "what": "Early results favour Democrats: Roy Cooper is projected to win North Carolina's open Senate seat, and Jon Ossoff held Georgia, while Florida's races are tight.",
+      "why": "In the briefing on 3 of the last 7 days."
+    },
+    {
+      "rank": 4,
+      "id": "ontario-fall-economic-statement",
+      "region": "ontario",
+      "when": "Oct 31–Nov 3",
+      "impactLevel": "medium",
+      "latestDate": "2026-11-03",
+      "headline": "Ontario's deficit swells to $16.9 billion as tariffs delay balanced budget",
+      "what": "Ontario's fall update projects a record $16.9-billion deficit this year and $36 billion over three years.",
+      "why": "In the briefing on 3 of the last 7 days."
+    },
+    {
+      "rank": 5,
+      "id": "us-california-ballots",
+      "region": "us",
+      "when": "Oct 31–Nov 3",
+      "impactLevel": "medium",
+      "latestDate": "2026-11-03",
+      "headline": "Supreme Court rejects Trump bid to set aside 20,000 California ballots",
+      "what": "The justices quickly refused the administration's emergency request to make California set aside ballots it says may belong to noncitizens.",
+      "why": "In the briefing on 3 of the last 7 days."
+    },
+    {
+      "rank": 6,
+      "id": "canada-inflation-september",
+      "region": "canada",
+      "when": "Oct 31–Nov 1",
+      "impactLevel": "high",
+      "latestDate": "2026-11-01",
+      "headline": "Economy stalls in August, two days after Bank of Canada's hike",
+      "what": "Statistics Canada says the economy was flat in August and probably shrank 0.1% in September, a weak backdrop for the Bank of Canada's first rate increase since 2023.",
+      "why": "In the briefing on 2 of the last 7 days."
+    },
+    {
+      "rank": 7,
+      "id": "bridle-path-home-invasion",
+      "region": "ontario",
+      "when": "Oct 31–Nov 1",
+      "impactLevel": "medium",
+      "latestDate": "2026-11-01",
+      "headline": "Canada-wide warrant issued in Bridle Path home invasion",
+      "what": "Toronto police have named a 23-year-old suspect who they say was shot by an accomplice during Thursday's violent home invasion, and two other suspects are still being sought.",
+      "why": "In the briefing on 2 of the last 7 days."
+    },
+    {
+      "rank": 8,
+      "id": "us-markets-ai-selloff",
+      "region": "us",
+      "when": "Oct 31–Nov 1",
+      "impactLevel": "medium",
+      "latestDate": "2026-11-01",
+      "headline": "U.S. economy grows 3.4% in third quarter as inflation cools",
+      "what": "The U.S. economy expanded at a 3.4% annual rate from July to September, faster than the spring, while a key inflation gauge eased.",
+      "why": "In the briefing on 2 of the last 7 days."
+    }
+  ]
 }
