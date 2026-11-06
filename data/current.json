@@ -1,11 +1,11 @@
 {
-  "briefing": "Ottawa tabled its second Carney-government budget, projecting a $62.3-billion deficit and about $142 billion in new spending over five years. In the U.S., Democrats are projected to hold at least 259 House and 54 Senate seats, and Trump says he will accept the result but use his veto. In the GTA, gas prices are set to drop about 7 cents a litre Friday and Ontario students walked out over OSAP changes. Overnight, Trump said the U.S. may have to 'destroy' the rest of Iran, and four pedestrians including two children were hurt in a Richmond Hill crash.",
-  "headline": "Budget lands, Democrats take Congress, Trump threatens Iran",
+  "briefing": "Ottawa's second Carney-government budget, tabled Nov. 5, is being digested while Democrats' midterm gains and the Iran war keep markets jumpy: Brent crude fell more than 8% on Wednesday, then ticked up Thursday to about US$96, and the TSX dropped over 700 points midday after a big post-election rally. In Ontario, Ford is holding firm against a new Toronto funding deal and OSAP student-aid disputes continue, while police report at least five pedestrians struck across the GTA in under a day. Today brings Canadian and U.S. jobs reports.",
+  "headline": "Oil slides, stocks wobble, and students protest as Ottawa's budget sinks in",
   "keyDates": [
     {
       "date": "2026-11-06",
-      "label": "U.S. October jobs report",
-      "why": "A strong report could keep interest rates higher, which affects Canadian borrowing costs too."
+      "label": "Canada and U.S. October jobs reports",
+      "why": "Both reports land today; economists expect Canadian unemployment near 6.5% after September's 68,000 job loss, which shapes interest-rate bets."
     },
     {
       "date": "2026-11-07",
@@ -28,7 +28,7 @@
       "why": "Both central banks decide the same day; the Bank of Canada has said more hikes are possible."
     }
   ],
-  "nextRefresh": "around 6 AM",
+  "nextRefresh": "around noon",
   "stories": [
     {
       "backstory": "Champagne announced the Nov. 5 date on Oct. 20. The budget arrives while U.S. tariffs remain in place and the Bank of Canada has just raised its rate to 2.50%, its first hike since 2023.",
@@ -146,10 +146,14 @@
       "id": "iran-hormuz",
       "impact": "Lower crude should show up at GTA pumps within days, but a failed deal could send prices back up. Fuel costs feed into groceries, deliveries and transit.",
       "impactLevel": "high",
-      "now": "Trump said on Thursday that the U.S. may have to 'destroy' the rest of Iran, adding that people will 'know soon enough'. PBS NewsHour reports he now weighs his next move in a war that contributed to the Republican losses on Tuesday. The Hill reports Defence Secretary Hegseth's future is uncertain as Trump faces pressure over the war. Earlier this week oil fell on hopes of a breakthrough after limited U.S. strikes. The Guardian reports Brent dropped over 6% to US$105.55 a barrel, its lowest in more than two weeks, on hopes of a breakthrough. On Monday the U.S. struck radar detectors and missile launchers on Iran's Qeshm Island, which officials described as limited and defensive, while mediators kept pushing for a deal. Al Jazeera's live coverage says Vice-President JD Vance sees progress in talks while Tehran says the ball is in Washington's court. DNC chair Ken Martin said Democrats should end the Iran war if they win power. Iranian leaders said the U.S. midterm results show voters rejected the war, though Al Jazeera notes Trump could still order more attacks.",
+      "now": "CNBC reports Brent crude rose about 1.6% to US$96.15 a barrel and U.S. crude to US$88.64 on Thursday, after both tumbled more than 8% in the prior session to their lowest since Aug. 31. Traders had bet that Republican losses in Congress lower the risk of escalation. Iran's Revolutionary Guard said two oil tankers and a tugboat caught fire in separate incidents after using unauthorised routes through the Strait of Hormuz. Eurasia Group trimmed its odds of renewed U.S. strikes to 60% from 65% but cut the odds of a deal to 10% from 20%, warning that escalation could push Brent to US$110–125. Trump has said the U.S. may have to 'destroy' the rest of Iran.",
       "rank": 3,
       "region": "world",
       "sources": [
+        {
+          "title": "CNBC: Oil rises as investors weigh uncertainties around Iran war",
+          "url": "https://cnbc.com/amp/2026/11/05/oil-falls-for-a-fourth-day-on-expectations-for-lower-risk-of-iran-war-escalation.html"
+        },
         {
           "title": "Al Jazeera: Iran war live: Trump warns US may have to ‘destroy’ rest of Iran",
           "url": "https://www.aljazeera.com/news/liveblog/2026/11/6/iran-war-live-trump-warns-us-may-have-to-destroy-rest-of-iran?traffic_source=rss"
@@ -161,14 +165,10 @@
         {
           "title": "PBS NewsHour: After midterms, world leaders await Trump's next move in Iran",
           "url": "https://www.pbs.org/newshour/show/after-midterms-world-leaders-await-trumps-next-move-in-iran"
-        },
-        {
-          "title": "The Guardian: Oil price falls amid hope of a breakthrough to end Iran war",
-          "url": "https://www.theguardian.com/business/2026/nov/02/oil-price-falls-amid-hope-of-a-breakthrough-to-end-iran-war"
         }
       ],
       "status": "developing",
-      "summary": "Trump said the U.S. may have to 'destroy' the rest of Iran and that people will 'know soon enough', while PBS reports the Iran war contributed to Republican midterm losses.",
+      "summary": "Oil fell for several days on hopes of less war escalation after the midterms, but Iran says tankers caught fire near Hormuz and Trump has not ruled out more strikes.",
       "timeline": [
         {
           "date": "Feb 28",
@@ -189,10 +189,14 @@
         {
           "date": "Nov 2",
           "event": "U.S. strikes on Qeshm Island; Brent falls to US$105.55"
+        },
+        {
+          "date": "Nov 5",
+          "event": "Oil hits lowest since Aug. 31; tanker fires reported near Hormuz"
         }
       ],
       "topic": "Iran war",
-      "updatedAt": "2026-11-05T20:53:48-05:00",
+      "updatedAt": "2026-11-06T05:58:00-05:00",
       "why": "Oil near or above US$100 is the main driver of higher inflation in Canada and the U.S., and it pushed the Bank of Canada to raise rates last week."
     },
     {
@@ -298,65 +302,73 @@
       "rank": 6,
       "region": "ontario",
       "topic": "Public safety",
-      "status": "new",
+      "status": "developing",
       "impactLevel": "medium",
-      "updatedAt": "2026-11-05T20:21:00-05:00",
-      "headline": "2 women, 2 children, struck by vehicle in Richmond Hill, Ont.: police",
-      "summary": "Four pedestrians, including two children under the age of 10, were injured in a crash in Richmond Hill on Thursday afternoon. York regional police say the crash happened at the intersection of Major Mackenzie Drive and Newkirk Road around 3:15 p.m.",
-      "now": "Four pedestrians, including two children under the age of 10, were injured in a crash in Richmond Hill on Thursday afternoon. York regional police say the crash happened at the intersection of Major Mackenzie Drive and Newkirk Road around 3:15 p.m. Police were still gathering details at the time of reporting.",
+      "updatedAt": "2026-11-06T05:58:00-05:00",
+      "headline": "Pedestrian crashes across the GTA: Richmond Hill family hit, elderly man critical in Toronto",
+      "summary": "Police say at least five pedestrians were struck by drivers across the GTA in about a day, including four people in Richmond Hill and a 79-year-old Toronto man in critical condition.",
+      "now": "Four pedestrians, including two children under the age of 10, were injured in a crash in Richmond Hill on Thursday afternoon. York regional police say the crash happened at the intersection of Major Mackenzie Drive and Newkirk Road around 3:15 p.m. CP24 reports at least five pedestrians were struck across the GTA between Wednesday night and Thursday, including a 79-year-old man critically injured near O'Connor Drive and Coxwell Avenue around 1 a.m. Police were still gathering details on the causes.",
       "backstory": "York Regional Police are investigating the collision. The cause had not been made public in the reports available at publication time, and more details are expected as the investigation continues.",
       "timeline": [
+        {
+          "date": "Nov 5",
+          "event": "79-year-old man critically hurt at O'Connor Dr. and Coxwell Ave."
+        },
         {
           "date": "Nov 5",
           "event": "About 3:15 p.m., four pedestrians, including two children under 10, are struck at Major Mackenzie Dr. and Newkirk Rd."
         }
       ],
       "why": "Pedestrian crashes involving children raise questions about intersection safety in fast-growing suburbs. The cause has not been stated, so no conclusions can be drawn yet.",
-      "impact": "Expect police updates and possible road closures around Major Mackenzie Drive and Newkirk Road. Drivers in York Region should take extra care at busy intersections.",
+      "impact": "Darker evenings after the clocks changed raise pedestrian risk; drivers should slow down at intersections and crosswalks across Toronto and York Region.",
       "sources": [
         {
           "title": "CityNews: 4 pedestrians, including 2 young children, injured in Richmond Hill collision",
           "url": "https://toronto.citynews.ca/2026/11/05/multiple-pedestrians-struck-in-richmond-hill-collision/"
+        },
+        {
+          "title": "CP24: At least five pedestrians struck by drivers in GTA since last night",
+          "url": "https://www.cp24.com/local/toronto/2026/11/05/at-least-five-pedestrians-struck-by-drivers-in-gta-since-last-night-including-elderly-man-fighting-for-his-life-in-hospital/"
         }
       ]
     },
     {
-      "backstory": "OSAP is the province's student loan and grant program, and tuition fees at publicly assisted Ontario colleges and universities are set within provincial rules. Student groups have raised cost concerns before. Details of the latest changes were not verified here.",
+      "backstory": "OSAP is Ontario's student loan and grant program. The province froze aid to career colleges while auditors review how funds were used, and recent changes to the program and tuition rules have sparked campus protests. Students and compliant colleges say the blanket pause hurts those who did nothing wrong.",
       "headline": "Thousands of Ontario students walk out over OSAP cuts: 'We can't afford rent'",
       "id": "post-secondary-students-across-ontario-walk",
-      "impact": "Students and parents in the GTA should check their OSAP offer and campus fee notices for the coming terms.",
+      "impact": "Students at career colleges may face delays to aid, and others should check their OSAP offer and campus fee notices for the coming terms.",
       "impactLevel": "medium",
-      "now": "Students at campuses across Ontario walked out of class on Thursday, with CBC reporting thousands marching and some saying they cannot afford rent. Students at campuses across Ontario staged walkouts on Thursday over changes to OSAP and a tuition hike, according to Global News. This run could not confirm the exact policy details, turnout or the government's response, so those are left out. Check the linked report for specifics.",
+      "now": "Students at campuses across Ontario, including a large walkout at the University of Toronto, protested OSAP cuts and tuition costs on Nov. 5. Separately, Premier Doug Ford said auditors from KPMG are clearing lower-risk career colleges first so their OSAP funding can be unfrozen, but he gave no timeline. Advanced Education Minister Nolan Quinn has said the pause lasts until a stronger approval process is in place, which he expects in the new year. Preliminary audit findings raised concerns about student verification and have been referred to the OPP, and Career Colleges Ontario wants access restored without delay.",
       "rank": 7,
       "region": "ontario",
       "sources": [
         {
-          "title": "unpublished.ca: Post-secondary students across Ontario walk out of classrooms to protest…",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcldZSEpZaGhRMjhnZVRIUlU5ZXlFbUpQRFM4dzBxSW1IZ2tzaW1uMVVTZmpldTJhNDgwc2RVMzdJZm1PbkdSZ3pkbWpGem5qeUpYbDlwMUJFS3dsNmV0cGctMnZKRlRWUDhsbjExLUlybHNmZHV4aVRZNV9iLXNLQzlFSkhnN0xrWlNoVjBqeTNCT0NyZ1EydS1YV2tCazJWWnRaQ3JaZVZnamc4d3FUb1BYR2NvYUlOalIyQjlyY0E?oc=5"
+          "title": "CP24: Ford says OSAP auditors will clear low-risk career colleges first",
+          "url": "https://www.cp24.com/politics/queens-park/2026/11/04/ford-says-osap-auditors-will-clear-low-risk-career-colleges-first-no-timeline-given/"
+        },
+        {
+          "title": "CP24: Toronto students protest OSAP cuts",
+          "url": "https://www.cp24.com/video/2026/11/05/theres-so-much-insecurity-going-into-the-future-toronto-students-protest-osap-cuts/"
         },
         {
           "title": "CBC: Post-secondary students across Ontario walk out of classrooms to protest…",
           "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQc0JIOGU4VS1FX1c5Z29UdG4tXzFnV0pmYVl2b0QzYm11WThNRFBlbHRUaTN6ckhfeUFHNkNtTm5td1hCMHNpR3J4QlhSdXFlYnY3SWRfOFNoU1hELVBQQm1SWlFPQ0k0QmRmSHBra0U5TXhPdzZoR2F5TGp3Y3hOLUtBR0tQV05WbVBodFFaZGd5SHZhRjI3ZA?oc=5"
-        },
-        {
-          "title": "CTV News: ‘Students are fed up’: Campus walkouts erupt over OSAP cuts and tuition hikes",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOMHgxRUhSOVpPc09JRzM3eXM4UWRNVWJhTk9WSWNGNDlLcnhRQjU5N3B1TDRRLXhVNjdhM0xQeVgxWFVTdVZoUVd4NDBVQVVnV0c1QjlVbmQyZE4tMDJURThLbEJvSGY1X19rcjNCZnhNeHdPcFBOeG00ZVA2aW1aMExhSDdFZ2NHRVJTczNlZjR0ZC1aT3hrSnBCWHA3WV94S3hWM2xILV9yWVI1X3hmNGtoYnlHUExQRHU2SHBPeEtOODByb1dUcGtiZmN4S2VETVJpRS1Ka0ZuRGY4TzdJ?oc=5"
-        },
-        {
-          "title": "Yahoo Finance: Post-secondary students across Ontario walk out of classes and rally against…",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPN3pMbTVNVWE2WHlqX2xNalI2bjNnbEtyNVF2MzJCc29RUUw2dUNBMzdTaUlCVUVBenY1U3BZUGZmaEFUcHliMTBveUw0SEpDRk1rZFRtY1VtMEJVR2otLWRhM1dZbWJzMmdwYVJGSkRQUVE2ZGpjdmtMVFltWE9WOVBINkZzVGFoY1ZfMmxOdGJpM2J3U3hncVN0c2VsNlJNRnk4R05R?oc=5"
         }
       ],
-      "status": "new",
-      "summary": "Thousands of students marched at campuses across Ontario under the banner 'Hands Off Our Education', protesting OSAP student-aid cuts and tuition.",
+      "status": "developing",
+      "summary": "Thousands of students walked out over OSAP changes and tuition, while a separate freeze on student aid at career colleges drags on with no restart date.",
       "timeline": [
+        {
+          "date": "Nov 4",
+          "event": "Ford says auditors will clear low-risk career colleges first"
+        },
         {
           "date": "Nov 5",
           "event": "Students walk out across Ontario"
         }
       ],
       "topic": "Student aid",
-      "updatedAt": "2026-11-05T20:53:48-05:00",
+      "updatedAt": "2026-11-06T05:58:00-05:00",
       "why": "Student aid and tuition decide whether many families in the GTA can afford post-secondary education and how much debt graduates carry."
     },
     {
@@ -399,13 +411,52 @@
       "why": "Toronto relies heavily on property taxes and fees, so a lack of new provincial or federal money keeps pressure on city budgets."
     },
     {
+      "id": "tsx-drops-700-points-after-midterm-rally",
+      "rank": 9,
+      "region": "canada",
+      "topic": "Markets",
+      "status": "new",
+      "impactLevel": "medium",
+      "updatedAt": "2026-11-06T05:58:00-05:00",
+      "headline": "TSX falls more than 700 points a day after post-election rally",
+      "summary": "Canada's main stock index dropped sharply midday Nov. 5, giving back gains made after the U.S. midterms.",
+      "now": "CP24 reported the S&P/TSX composite index was down 736 points at 35,605 midday on Nov. 5, with U.S. markets also lower, a day after big gains following the U.S. midterm elections. The swings came as oil prices moved sharply and investors weighed Ottawa's budget and the Iran war. Closing figures were not verified in this run.",
+      "backstory": "Markets rallied on Nov. 4 as Democrats' House gains were seen as reducing the risk of more war escalation and tariff moves. Oil fell more than 8% on Wednesday to its lowest since Aug. 31, which weighs on Canada's energy-heavy index.",
+      "timeline": [
+        {
+          "date": "Oct 28",
+          "event": "Bank of Canada raises rate to 2.50%"
+        },
+        {
+          "date": "Nov 3",
+          "event": "U.S. midterms"
+        },
+        {
+          "date": "Nov 4",
+          "event": "Stocks rally after the vote"
+        },
+        {
+          "date": "Nov 5",
+          "event": "TSX drops more than 700 points midday"
+        }
+      ],
+      "why": "Big daily swings show how sensitive Canadian markets are to U.S. politics, oil and the Iran war.",
+      "impact": "Pension funds, RRSPs and TFSAs invested in stocks can swing with these moves; short-term dips matter less for long-term savers.",
+      "sources": [
+        {
+          "title": "CP24: S&P/TSX composite down more than 700 points, U.S. stock markets also fall",
+          "url": "https://www.cp24.com/news/money/2026/11/05/sptsx-composite-down-nearly-500-points-us-stock-markets-also-fall/"
+        }
+      ]
+    },
+    {
       "backstory": "Pump prices rose sharply earlier this year after the U.S.-Israel strikes on Iran began in late February and disrupted shipping through the Strait of Hormuz. Prices have swung with each turn in the talks.",
       "headline": "GTA gas prices expected to drop 7 cents a litre Friday, lowest since June",
       "id": "gta-gas-prices-expected-drop-cents",
       "impact": "Commuters could see a noticeable break at the pump on Friday, though prices may rise again if Iran talks falter.",
       "impactLevel": "medium",
       "now": "Energy analysts expect GTA gas prices to fall by roughly 7 cents a litre on Friday to the lowest level since June. The drop follows recent oil price declines on hopes of progress in Iran talks. Exact pump prices were not verified in this run.",
-      "rank": 9,
+      "rank": 10,
       "region": "ontario",
       "sources": [
         {
@@ -452,7 +503,7 @@
       "impact": "New-home buyers may get a tax break and business owners can write off equipment faster.",
       "impactLevel": "medium",
       "now": "The Oct. 29 update puts this year's deficit 22% above the spring plan, partly because of about $3.8 billion added to a contingency fund for tariff costs. Next year's shortfall is $12.7 billion and 2028 shows a $6.7-billion deficit instead of balance. Ontario will match Ottawa's 100% write-off for business investment and adds a tax break for buyers of newly built homes.",
-      "rank": 10,
+      "rank": 11,
       "region": "ontario",
       "sources": [
         {
@@ -486,7 +537,7 @@
     },
     {
       "id": "newsom-plans-commute-all-california-death",
-      "rank": 11,
+      "rank": 12,
       "region": "us",
       "topic": "Justice",
       "status": "new",
@@ -518,49 +569,6 @@
           "url": "https://www.bbc.co.uk/news/articles/cqrkyyd2j8mvo?at_medium=RSS&at_campaign=rss"
         }
       ]
-    },
-    {
-      "backstory": "Sullivan and allies accused Democrats last week of recruiting a second Dan Sullivan for the ballot, and an Alaska prosecutor opened a probe. Peltola, a Democrat, is challenging Sullivan for the seat.",
-      "headline": "Justice Department expands probe into Alaska Senate race 'spoiler' candidate",
-      "id": "department-justice-expands-probe-alaska-senate",
-      "impact": "There is no direct Ontario effect, but the Senate majority shapes U.S. trade and tariff policy toward Canada.",
-      "impactLevel": "medium",
-      "now": "PBS NewsHour and Al Jazeera report the Justice Department escalated its investigation by sending target letters to a prominent Democratic lawyer in Washington and others, saying they may face charges. The probe concerns a Democratic-aligned candidate who shares a name with Republican Sen. Dan Sullivan. Republicans accuse Democrats of recruiting a spoiler to confuse voters, while Democratic candidate Mary Peltola has denied knowing about any such plot.",
-      "rank": 12,
-      "region": "us",
-      "sources": [
-        {
-          "title": "Al Jazeera: US DOJ expands probe into Alaska Senate election",
-          "url": "https://www.aljazeera.com/news/2026/11/4/us-department-of-justice-expands-its-probe-into-alaskas-us-senate-ele"
-        },
-        {
-          "title": "PBS NewsHour: Justice Department target letters in Alaska Senate probe",
-          "url": "https://www.pbs.org/newshour/politics/justice-department-sent-target-letters-in-alaska-senate-criminal-probe-h"
-        },
-        {
-          "title": "The Guardian: Alaska prosecutor investigates alleged plot",
-          "url": "https://www.theguardian.com/us-news/2026/oct/30/alaska-democrat-senate-mary-peltola-dan-sullivan"
-        }
-      ],
-      "status": "developing",
-      "summary": "The department sent target letters, including to a prominent Democratic attorney, in a criminal probe tied to a second Dan Sullivan on Alaska's Senate ballot.",
-      "timeline": [
-        {
-          "date": "Oct 30",
-          "event": "Peltola denies knowledge of alleged plot"
-        },
-        {
-          "date": "Oct 30",
-          "event": "Alaska prosecutor investigates"
-        },
-        {
-          "date": "Nov 3",
-          "event": "Justice Department sends target letters"
-        }
-      ],
-      "topic": "Elections",
-      "updatedAt": "2026-11-03T19:33:00-05:00",
-      "why": "The case adds a federal criminal angle to a Senate race that could help decide control of the chamber."
     },
     {
       "backstory": "GTA housing has been soft through 2025 and 2026 as higher interest rates, tariff uncertainty and weak consumer confidence weighed on demand. The Bank of Canada's recent rate hike added to affordability pressures.",
@@ -649,5 +657,5 @@
       "why": "Strikes on aid sites underline how far the war is from a ceasefire."
     }
   ],
-  "updatedAt": "2026-11-05T20:53:48-05:00"
+  "updatedAt": "2026-11-06T05:58:00-05:00"
 }
