@@ -1,9 +1,8 @@
 {
-  "updatedAt": "2026-11-12T15:24:36-05:00",
-  "nextRefresh": "around 4:42 PM",
-  "generatedBy": "feeds (no AI)",
-  "headline": "Ontario looks to cracks down on OSAP abuse in new proposed legislation",
-  "briefing": "Top stories right now: Ontario looks to cracks down on OSAP abuse in new proposed legislation; Nvidia’s Jensen Huang to testify to US Congress amid scandal, reports say, as CFO Colette Kress replaces him as interim CEO – follow live; and Washington DC shooting: suspect confirmed dead after one person is killed and four injured – latest updates.",
+  "updatedAt": "2026-11-12T16:56:14-05:00",
+  "nextRefresh": "around 9 PM",
+  "headline": "Ottawa puts Stellantis on default notice; oil jumps on Trump's Iran post",
+  "briefing": "Ottawa ended talks with Stellantis on Thursday and gave the automaker 30 days to fix what it calls a breach of its 2022 funding deal over the sale of the Brampton plant. Oil rose about 3%, with Brent near US$96, after President Trump said the U.S. no longer needs a deal with Iran, and Nvidia closed down about 4% after chief executive Jensen Huang resigned. At Queen's Park, the province outlined a bill to cap student-aid-funded enrolment at private career colleges and end aid for mostly-online programs.",
   "keyDates": [
     {
       "date": "2026-11-13",
@@ -16,6 +15,11 @@
       "why": "Ontario councils and the appointed regional chairs begin their four-year term, and Israel's security cabinet is due to meet again after ordering readiness for a possible Iran strike."
     },
     {
+      "date": "2026-11-16",
+      "label": "OSAP bill expected",
+      "why": "Ontario is expected to table its legislation on student aid at private career colleges when the legislature sits Monday."
+    },
+    {
       "date": "2026-11-17",
       "label": "Nvidia quarterly results",
       "why": "The chipmaker is due to report earnings, its first under interim CEO Colette Kress after Jensen Huang's resignation."
@@ -26,43 +30,68 @@
       "why": "Carney meets Xi in Shenzhen on Nov. 18–19, and Alaska tabulates its Peltola–Sullivan Senate race."
     },
     {
-      "date": "2026-11-26",
-      "label": "Bill 140 comments close",
-      "why": "Last day for public comments on the province's environmental-law changes on the Environmental Registry."
-    },
-    {
       "date": "2026-12-09",
       "label": "Bank of Canada and Fed rate decisions",
-      "why": "Both central banks decide the same day; the Bank of Canada has said more hikes are possible."
+      "why": "Both central banks decide the same day; higher oil prices keep further hikes on the table."
     }
   ],
   "stories": [
     {
-      "id": "ontario-looks-cracks-osap-abuse-proposed",
+      "id": "stellantis-brampton-roshel-sale",
       "rank": 1,
       "region": "ontario",
-      "topic": "Courts & crime",
-      "status": "new",
-      "impactLevel": "medium",
-      "updatedAt": "2026-11-12T14:17:49-05:00",
-      "headline": "Ontario looks to cracks down on OSAP abuse in new proposed legislation",
-      "summary": "TORONTO — Career colleges in Ontario could soon be subject to limits on the growth of students funded by financial aid, following explosive increases in the sector that prompted the government to call in the police.",
+      "topic": "Auto jobs",
+      "status": "developing",
+      "impactLevel": "high",
+      "updatedAt": "2026-11-12T16:56:14-05:00",
+      "headline": "Ottawa serves Stellantis a default notice over Brampton plant sale",
+      "summary": "Industry Minister Mélanie Joly ended talks with Stellantis on Thursday and gave the automaker formal notice that it is breaking its 2022 funding deal by selling the idled Brampton assembly plant to armoured-vehicle maker Roshel.",
+      "now": "After meeting Stellantis, the union Unifor and Ontario's economic development minister in Toronto on Thursday, Joly wrote to the head of Stellantis Canada to end the dispute-resolution process the two sides had been in. Her letter says the planned sale shows the company is not looking for a satisfactory solution, and gives it 30 days to show it will fix the breaches or be declared in default, a step that could let Ottawa cancel the 2022 agreement and try to recover its subsidies. The Globe and Mail reports the contract provided up to $529 million for the Brampton and Windsor plants, and that Stellantis said this week it would voluntarily repay money it received, without giving details. Prime Minister Carney, who earlier called the sale a betrayal, described the Roshel deal on Thursday as only a partial solution for workers. Stellantis says about 1,800 Brampton workers remain on layoff and that 700 to 1,000 could get a chance to work for Roshel; the sale is expected to close by the end of the year.",
+      "backstory": "The Brampton plant built Dodge and Chrysler cars and has been idle for about three years while workers stayed on paid layoff. In May 2022 Ottawa agreed to give Stellantis $529 million to retool its Brampton and Windsor plants, and the company had planned to build the Jeep Compass in Brampton. In October 2025 it moved that vehicle to Illinois as U.S. tariffs on Canadian-made cars took hold. Stellantis signed a memorandum of understanding with Roshel in September, Unifor's contract expired Sept. 20, and the union declared an impasse over the plant's future.",
+      "timeline": [
+        {
+          "date": "May 2022",
+          "event": "Ottawa pledges $529 million to retool Brampton and Windsor plants"
+        },
+        {
+          "date": "Oct 2025",
+          "event": "Stellantis moves Jeep Compass production to Illinois"
+        },
+        {
+          "date": "Sep",
+          "event": "Stellantis signs memorandum with Roshel; Unifor contract expires"
+        },
+        {
+          "date": "Nov 9",
+          "event": "Stellantis announces sale of Brampton plant to Roshel"
+        },
+        {
+          "date": "Nov 10",
+          "event": "Carney calls the sale a betrayal"
+        },
+        {
+          "date": "Nov 12",
+          "event": "Joly meets company and union, then serves notice of default"
+        }
+      ],
+      "why": "The sale ends hopes that a major GTA auto plant would restart vehicle production, and it tests whether governments can enforce the conditions attached to public subsidies. It also shows how U.S. tariffs are pulling auto investment out of Ontario.",
+      "impact": "Thousands of Peel Region families depend on the plant and its parts suppliers, and most laid-off workers have no guarantee of a job with the new owner. Taxpayers have a stake too: Ottawa says it will seek its money back if Stellantis does not meet its obligations.",
       "sources": [
         {
-          "title": "Yahoo News Canada: Ontario looks to cracks down on OSAP abuse in new proposed legislation",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBsY2J6M2FaZDNIaGlIYTFHemhkdE5yQmpFSU9wcU5rR3ROMDZWMkxRaGhNV0JNWDRQQk5WcW80N3lQbmRmYXBkZ2MyTUQ1b3R0Qm5yT29QeVpmd2g4bWh1YkZsb2Q2RnhTRW5nd1M1VjVFcWF2bnNiTmlxNA?oc=5"
+          "title": "CBC: Industry minister terminates resolution talks with Stellantis",
+          "url": "https://www.cbc.ca/news/politics/resolution-process-terminated-government-stellantis-brampton-plant-9.7419553"
         },
         {
-          "title": "CP24: Ontario NDP, Liberals react strongly to Ford government’s proposed OSAP changes",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOaEI3TEIxSE9KbHdlZnpERVdFWXV5ZXl4cE5YMWh6TUZKV1JjbTMwdUJEU1g3TjBHdjVhUnpYQzJFaFhPeUR4cGZKbUpYMVNHYzRYVDNvb29fUkN3ZmVDMGYzSUpEZXpwTHJ1Z3ltVGpscTlwYTJGemdMWlBsZjU0NmZ6OHNLRWdsV1FOeGRTMkM4SGgxZ1piRnZFR3FTVEN1QkxEaVByQmgxVkdqYllCeGg2Zjl6OUE?oc=5"
+          "title": "Globe and Mail: Stellantis in default of funding agreement, Joly notifies automaker",
+          "url": "https://www.theglobeandmail.com/business/article-stellantis-roshel-joly-brampton-auto-plant-november-12/"
         },
         {
-          "title": "CTV News: Ontario NDP, Liberals react strongly to Ford government’s proposed OSAP changes",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZjZnUThWUkNYR3Yzdm5NMW1CTmRwVHZNeW5vbmlfa3IzcVFTeTZoUm1jSDVLUnZjcXBtT0kwNmhCT1Yyc3lTMDB3cm9kTkFsZC1ubWh4VDhBQTlLWF9kVGNoOS0wcV9ISUVudldJQ0tKMFJOcHdyVjRubTNkNzJHZFhwMFJ3MnlRaGN2RHZaUXVPMVBlSUdKaktndmloQUd0MVFUUG50MmR0S0YxdUh5NEtNMFZUMEd1ckYtT0Fnd3VDV1gw?oc=5"
+          "title": "Canadian Press: Joly meets Stellantis, union as PM calls sale 'partial' solution",
+          "url": "https://www.thecanadianpressnews.ca/politics/joly-meets-with-stellantis-union-as-pm-calls-brampton-plant-sale-partial-solution/article_b679fd9f-46f8-5533-b156-a5227f921f60.html"
         },
         {
-          "title": "CTV News: Online colleges ineligible for OSAP under new Ontario legislation",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQU3VIcUcxNGs2RWxzVHBOam0wNUx0akJmZ1IzcG1WYTk4MDd3dXM3RmtxLXdVai1lcGNYWUFRUmo2aW5QRkRlZ2ZLVFNCRFFaTnRzQ3N5N18wcGstS3dtS1EydzVtVHFMQ1l2OTlpbUJLT3MzcTZoUF9yXzQ2SU1WcDNCMkhtd041bzV5a3B3WWFBcGFMQTliMi0zNV9SOGtVaU9BSkk4YlF1TVNZTExuMlQ4eDM3VWxHYW9Lb3JZdkhod3QwRDRPbkVvSlRZdkFNRW9V?oc=5"
+          "title": "Global News: Stellantis signs deal with Roshel to sell Brampton plant",
+          "url": "https://globalnews.ca/news/12143427/stellantis-roshel-brampton-assembly-plant-deal/"
         }
       ]
     },
@@ -70,292 +99,710 @@
       "id": "nvidia-stock-tanks-report-second-huang",
       "rank": 2,
       "region": "us",
-      "topic": "Elections",
+      "topic": "Nvidia",
       "status": "developing",
-      "impactLevel": "high",
-      "updatedAt": "2026-11-12T15:06:26-05:00",
-      "headline": "Nvidia’s Jensen Huang to testify to US Congress amid scandal, reports say, as CFO Colette Kress replaces him as interim CEO – follow live",
-      "summary": "Nvidia’s value slumps by $888bn this week as scandal over longtime CEO’s two affairs, including with a suspected Chinese spy, engulfs chip maker Analysis: Jensen Huang built an AI kingdom. What now?",
-      "sources": [
-        {
-          "title": "The Guardian: Nvidia’s Jensen Huang to testify to US Congress amid scandal, reports say,…",
-          "url": "https://www.theguardian.com/technology/live/2026/nov/12/nvidia-ceo-jensen-huang-affairs-share-price-plunges-live-latest"
-        },
-        {
-          "title": "Al Jazeera: Why did Nvidia CEO Jensen Huang resign, and who is Colette Kress?",
-          "url": "https://www.aljazeera.com/news/2026/11/12/why-did-nvidia-ceo-jensen-huang-resign-and-who-is-colette-kress?traffic_source=rss"
-        },
-        {
-          "title": "BBC News: Jensen Huang has resigned, what's next for Nvidia?",
-          "url": "https://www.bbc.co.uk/news/videos/cmdx1r99kp9wo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "title": "The Hill: Who is interim Nvidia CEO Colette Kress?",
-          "url": "https://thehill.com/policy/technology/6216664-nvidia-interim-ceo-colette-kress-jensen-huang-resignation-affairs/"
-        }
-      ],
-      "now": "Al Jazeera: Huang has stepped down amid revelations about extramarital affairs and allegations of Chinese espionage. BBC News: The BBC's Samira Hussain reports from Wall Street on what the fall of the tech superstar means for the company and AI.",
+      "impactLevel": "medium",
+      "updatedAt": "2026-11-12T16:56:14-05:00",
+      "headline": "Nvidia shares close down 4% after Huang quits; he agrees to brief Congress",
+      "summary": "Nvidia stock ended Thursday about 4% lower after co-founder Jensen Huang resigned as chief executive, recovering most of a steep early drop. A House committee chair said Huang has agreed to answer lawmakers' questions behind closed doors by late November.",
+      "now": "Nvidia said Thursday morning that Huang has resigned as president, chief executive and director, effective immediately. Chief financial officer Colette Kress is interim CEO while keeping her finance role, and Harvey Jones becomes the company's first board chair as a search for a permanent CEO begins. The shares fell more than 12% early in the session, then closed down 4.34% at US$166.19; the S&P 500 lost about 0.35% and the Nasdaq about 0.4%. Brian Mast, the Republican who chairs the House Foreign Affairs Committee, said Huang has agreed to testify by U.S. Thanksgiving (Nov. 26) in a closed session that is expected to be recorded and transcribed, after lawmakers threatened a subpoena. Members want to know whether a relationship with a woman U.S. officials reportedly believe worked for Chinese intelligence affected policy on exporting advanced chips; China has denied targeting Huang.",
       "backstory": "Huang co-founded Nvidia and has run it since 1993, building it into the main supplier of the chips used to train artificial intelligence (AI) systems and one of the world's most valuable companies. Earlier this week, reports said the company had opened an internal investigation into whether he was targeted by a foreign intelligence effort through a relationship with a Chinese businesswoman who allegedly passed information to Beijing. Huang told staff in a company email that he had been unfaithful in his marriage. The stock had already slipped on that first report before Wednesday's news.",
       "timeline": [
         {
+          "date": "Nov 8",
+          "event": "Board opens independent probe after report Huang was targeted by foreign intelligence"
+        },
+        {
           "date": "Nov 11",
-          "event": "Nvidia shares sink after hours as reports say board may remove CEO Huang"
+          "event": "NYT reports second relationship; WSJ says board preparing to remove Huang"
+        },
+        {
+          "date": "Nov 11",
+          "event": "Board meets late in the day; shares fall after hours"
         },
         {
           "date": "Nov 12",
-          "event": "Nvidia CEO Jensen Huang resigns; finance chief Colette Kress takes over for now"
+          "event": "Huang resigns; Kress named interim CEO; shares close down 4.3%"
+        },
+        {
+          "date": "Nov 12",
+          "event": "House committee chair says Huang will testify by Thanksgiving"
+        }
+      ],
+      "why": "Nvidia is central to the artificial intelligence (AI) boom and one of the largest stocks in major U.S. indexes, and it has never had another chief executive. The spying allegation also raises national-security questions in Washington, which controls what chips the company may sell to China.",
+      "impact": "Most Canadian pension plans, index funds and RRSP or TFSA portfolios that track U.S. stocks hold Nvidia, so its swings show up in retirement savings here. Thursday's quick rebound in the wider market limited the damage, but the company's next results and its CEO search could bring more volatility.",
+      "sources": [
+        {
+          "title": "Nvidia: NVIDIA Announces CEO Transition",
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-CEO-Transition/default.aspx"
+        },
+        {
+          "title": "ABC News: Republicans renew push for Huang's testimony after resignation",
+          "url": "https://abcnews.com/Politics/republicans-renew-push-jensen-huangs-testimony-nvidia-ceos/story?id=138083749"
+        },
+        {
+          "title": "CBS News: GOP lawmakers negotiating for Huang to appear before Congress",
+          "url": "https://www.cbsnews.com/news/jensen-huang-nvidia-congress-testify/"
+        },
+        {
+          "title": "Yahoo Finance: Stocks slip as Nvidia falls on CEO exit",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-12-sp-500-nasdaq-dow-nvidia-invest-110027430.html"
+        }
+      ]
+    },
+    {
+      "id": "iran-hormuz",
+      "rank": 3,
+      "region": "world",
+      "topic": "Iran war",
+      "status": "developing",
+      "impactLevel": "high",
+      "updatedAt": "2026-11-12T16:56:14-05:00",
+      "headline": "Oil jumps 3% after Trump says U.S. needs no deal with Iran",
+      "summary": "Brent crude settled near US$96 a barrel on Thursday after President Trump wrote that the United States no longer needs an agreement with Iran and took Vice-President JD Vance off the talks. Iran's military said four tankers were hit by explosions in the Strait of Hormuz.",
+      "now": "Trump posted on Truth Social that the U.S. does not need a deal with Iran, citing American control over the Strait of Hormuz and Iran's frozen funds, and told Vance to work on fraud and crime at home instead. The post followed a Wall Street Journal report that Vance was weighing a meeting with Mohsen Rezaei, secretary of Iran's Supreme National Security Council; Rezaei denied talks were planned and said Iran will not ship its enriched nuclear material out of the country. Brent crude settled up 3.3% at US$95.82 a barrel and U.S. benchmark WTI (West Texas Intermediate) rose 2.6% to US$88.74. Iran's military said four oil tankers were hit by explosions after ignoring its warnings, a claim that has not been independently confirmed. Israel's caretaker defence minister, Israel Katz, said the outgoing government does not need the opposition's consent to order new military action, a day after the security cabinet reportedly told the army to prepare for a possible strike on Iran; the cabinet meets again Sunday.",
+      "backstory": "The U.S. and Israel began striking Iran on Feb. 28, and Iran choked traffic through the Strait of Hormuz, route for about a fifth of the world's oil. A June peace memorandum briefly reopened it but collapsed in July, and the U.S. imposed a blockade on Iranian shipping. Qatar gave Iran a new draft deal on Oct. 25. Trump has said the war will end soon, one way or the other.",
+      "timeline": [
+        {
+          "date": "Jul",
+          "event": "June deal collapses; U.S. blockade begins"
+        },
+        {
+          "date": "Oct 25",
+          "event": "Qatar hands Iran a new draft deal"
+        },
+        {
+          "date": "Late Oct",
+          "event": "Brent peaks above US$117"
+        },
+        {
+          "date": "Nov 10",
+          "event": "Brent briefly dips below US$90, lowest since August"
+        },
+        {
+          "date": "Nov 11",
+          "event": "Israeli cabinet reportedly orders strike readiness; Iran warns of wider retaliation"
+        },
+        {
+          "date": "Nov 12",
+          "event": "Trump says no deal with Iran is needed; Brent settles at US$95.82"
+        }
+      ],
+      "why": "Oil prices are the main driver of higher inflation in Canada and the U.S.; the October spike is why the Bank of Canada raised rates on Oct. 28.",
+      "impact": "Lower crude usually reaches GTA gas pumps within days, and this month's drop has eased fuel and delivery costs. With Trump stepping back from talks and Israel raising readiness, an Israeli strike or new attacks on shipping could quickly reverse that.",
+      "sources": [
+        {
+          "title": "Bloomberg: Oil prices rise after Trump says U.S. doesn't need Iran deal",
+          "url": "https://bloomberg.com/news/articles/2026-11-12/oil-jumps-after-trump-says-us-doesn-t-need-deal-with-iran"
+        },
+        {
+          "title": "Globe and Mail: U.S. no longer needs peace deal with Iran, Trump says",
+          "url": "https://www.theglobeandmail.com/world/article-us-iran-war-trump-vance-deal/"
+        },
+        {
+          "title": "The New Arab: Trump downplays Iran deal prospects",
+          "url": "https://www.newarab.com/news/trump-downplays-iran-deal-prospects-israel-kills-10-gaza"
+        },
+        {
+          "title": "CNBC: Oil prices jump after Trump says no Iran deal needed",
+          "url": "https://www.cnbc.com/2026/11/12/oil-prices-jump-after-trump-says-no-iran-deal-needed-weve-got-their-strait.html"
+        }
+      ]
+    },
+    {
+      "id": "post-secondary-students-across-ontario-walk",
+      "rank": 4,
+      "region": "ontario",
+      "topic": "Student aid",
+      "status": "developing",
+      "impactLevel": "medium",
+      "updatedAt": "2026-11-12T14:17:49-05:00",
+      "headline": "Ontario plans OSAP caps and online-program ban for private career colleges",
+      "summary": "Colleges Minister Nolan Quinn on Thursday outlined legislation that would limit how fast OSAP-funded enrolment can grow at private career colleges and cut off student aid for programs taught mainly online. The bill is expected to be tabled Monday.",
+      "now": "Quinn said the province found coordinated and sophisticated efforts to exploit the Ontario Student Assistance Program (OSAP), not just paperwork problems. The proposed law would cap growth in OSAP-funded enrolment at private institutions, make mostly-online programs ineligible, require career colleges to have a physical campus and restrict their ties to outside immigration and recruitment firms. It would also make private colleges liable for their students' loans, so the province can recover money more easily, and add new fines. The government has cited thousands of applications from the same internet address, final exams finished in about six minutes and outsiders doing students' coursework. The New Democrats said the plan does nothing for students caught in the freeze on aid at career colleges, and the Liberals want funding restored at schools with no evidence of wrongdoing.",
+      "backstory": "OSAP is Ontario's student loan and grant program. Online programs at private career colleges became eligible during the pandemic, and spending there grew quickly: seven career colleges accounted for about $385 million in grants in 2024-25, roughly as much as all of Ontario's public colleges combined. The province barred several schools over the summer, then paused OSAP payments to all private post-secondary institutions while the accounting firm KPMG audits the sector; early findings were sent to the Ontario Provincial Police and the auditor general. Separately, thousands of students walked out on Nov. 5 over wider OSAP and tuition changes.",
+      "timeline": [
+        {
+          "date": "Jul",
+          "event": "Five career colleges made ineligible for OSAP"
+        },
+        {
+          "date": "Aug",
+          "event": "KPMG audit of career-college OSAP begins"
+        },
+        {
+          "date": "Oct",
+          "event": "Payments paused at all private institutions; findings sent to OPP"
+        },
+        {
+          "date": "Nov 5",
+          "event": "Students walk out across Ontario over OSAP changes"
+        },
+        {
+          "date": "Nov 12",
+          "event": "Quinn outlines bill to cap enrolment and bar online programs"
+        }
+      ],
+      "why": "The province is trying to stop alleged large-scale misuse of public student aid without shutting out legitimate schools. How quickly it restarts payments decides whether thousands of students can continue their programs.",
+      "impact": "Students at private career colleges in the GTA still have no date for aid to resume, and those in mostly-online programs may lose eligibility altogether. Anyone enrolling should confirm a school's OSAP status before paying fees.",
+      "sources": [
+        {
+          "title": "CBC: Ontario proposes stronger OSAP oversight, enforcement",
+          "url": "https://www.cbc.ca/news/canada/toronto/osap-ontario-private-postsecondary-institutions-propose-legislation-oversight-enforcement-9.7419113"
+        },
+        {
+          "title": "CP24: Ontario proposes OSAP changes after 'systematic and widespread' problems",
+          "url": "https://www.cp24.com/politics/queens-park/2026/11/12/ontario-unveils-new-details-about-proposed-osap-changes-after-systematic-and-widespread-problems/"
+        },
+        {
+          "title": "TorontoToday: Ford government proposes enrolment caps, online restrictions",
+          "url": "https://www.torontotoday.ca/local/education/private-college-osap-crackdown-ford-government-proposes-enrolment-caps-online-learning-restrictions-13010322"
+        }
+      ]
+    },
+    {
+      "id": "european-diplomats-press-rubio-role-russia",
+      "rank": 5,
+      "region": "world",
+      "topic": "Ukraine",
+      "status": "developing",
+      "impactLevel": "medium",
+      "updatedAt": "2026-11-12T16:56:14-05:00",
+      "headline": "U.S. envoys meet Putin, then brief Zelenskyy near Dublin",
+      "summary": "Steve Witkoff and Jared Kushner spent about two hours with President Vladimir Putin in the Kremlin on Thursday, then flew to Ireland and met Ukraine's Volodymyr Zelenskyy at an airfield outside Dublin. No breakthrough was announced.",
+      "now": "Kushner said one aim in Moscow was to win Putin's agreement for European representatives to join talks on the continent's wider security, and that Russian and Ukrainian negotiators agree on many principles but not on how to get to peace. The Associated Press reported that Putin pointed the envoys back to Russia's 2021 demands that NATO pull back its forces from central and eastern Europe. On Thursday evening the envoys met Zelenskyy at Casement Aerodrome in Baldonnel; Witkoff said there had been some progress and that he hoped another round would be announced. Earlier, Zelenskyy told the European Political Community summit that Ukraine had detected new speed limits on Starshield, the military satellite service run by Elon Musk's SpaceX. Russia and Ukraine agreed in principle on Wednesday to a large prisoner exchange, but the Abu Dhabi talks ended without agreement on territory or security guarantees.",
+      "backstory": "U.S.-mediated efforts to end the war stalled for months while Washington focused on Iran. Rubio said in May that the effort had stagnated. Europe has repeatedly asked to be included in any deal affecting its own security.",
+      "timeline": [
+        {
+          "date": "Jan",
+          "event": "First Abu Dhabi trilateral round"
+        },
+        {
+          "date": "Feb",
+          "event": "314-prisoner swap; talks then stall"
+        },
+        {
+          "date": "May",
+          "event": "Rubio says peace effort has stagnated"
+        },
+        {
+          "date": "Nov 10",
+          "event": "Talks resume in Abu Dhabi"
+        },
+        {
+          "date": "Nov 11",
+          "event": "Large prisoner swap agreed in principle"
+        },
+        {
+          "date": "Nov 12",
+          "event": "U.S. envoys meet Putin in Moscow, then Zelenskyy near Dublin"
+        }
+      ],
+      "why": "A deal, or a breakdown, would shape European security and Canada's allied commitments. Disagreement between the U.S. and Europe is also a risk.",
+      "impact": "Peace progress could ease energy and grain prices over time. Canada, a NATO and G7 member, would feel the effects of any change in security arrangements.",
+      "sources": [
+        {
+          "title": "PBS NewsHour/AP: U.S. envoys meet Putin, then head for Dublin",
+          "url": "https://www.pbs.org/newshour/world/u-s-envoys-meet-with-putin-in-moscow-on-ukraine-talks-then-head-for-dublin-to-see-zelenskyy"
+        },
+        {
+          "title": "CBC: U.S. envoys Kushner, Witkoff meet Putin at Kremlin",
+          "url": "https://www.cbc.ca/news/world/us-witkoff-kushner-putin-zelenskyy-talks-9.7418799"
+        },
+        {
+          "title": "Irish Times: EPC live updates as Zelenskiy meets U.S. envoys",
+          "url": "https://www.irishtimes.com/politics/2026/11/12/eu-meetings-dublin-road-closures-traffic-disruption-latest/"
+        },
+        {
+          "title": "NBC News: Ukraine reports Starshield limits",
+          "url": "https://www.nbcnews.com/world/ukraine/ukraine-starshield-limits-russia-war-trump-musk-rcna608938"
         }
       ]
     },
     {
       "id": "washington-shooting-suspect-confirmed-dead-one",
-      "rank": 3,
+      "rank": 6,
       "region": "us",
-      "topic": "Conflict",
+      "topic": "D.C. shooting",
       "status": "new",
-      "impactLevel": "high",
+      "impactLevel": "low",
       "updatedAt": "2026-11-12T15:07:24-05:00",
-      "headline": "Washington DC shooting: suspect confirmed dead after one person is killed and four injured – latest updates",
-      "summary": "Suspect has died after suffering a gunshot wound; one injured person in critical condition Multiple people shot in Washington DC as police warn people to stay inside The incident is shifting from an active shooter response to a barricaded subject response , a federal law enforcement official has told NBC News. It is…",
-      "sources": [
+      "headline": "Gunman kills one, wounds four at Washington gym before dying in standoff",
+      "summary": "A man opened fire Thursday morning at a gym in Washington's Logan Circle neighbourhood, killing the building's manager and wounding four other people. Police say he later died of a self-inflicted gunshot in his apartment.",
+      "now": "Police said the shooting began at VIDA Fitness at 15th and P streets in northwest Washington, and some victims were hit at a construction site across the street. One of the four wounded is in critical condition; the other three have injuries not considered life-threatening. Interim police chief Jeffery Carroll identified the gunman as Matt Lambert, 55, described in U.S. media reports as a doctor, and said he fired at officers who were trying to negotiate before he was found dead in a seventh-floor unit. Police named the man killed as the 46-year-old manager of the building. No motive has been confirmed, but investigators say Lambert had a long-running dispute with the building's condominium association and had sued its management.",
+      "backstory": "Logan Circle is a dense residential and restaurant district about two kilometres north of the White House. Residents were told to shelter in place for part of the day while police surrounded the building. The gunman lived in the same complex that houses the gym.",
+      "timeline": [
         {
-          "title": "The Guardian: Washington DC shooting: suspect confirmed dead after one person is killed…",
-          "url": "https://www.theguardian.com/us-news/live/2026/nov/12/washington-dc-shooting-logan-circle-latest-updates"
+          "date": "Nov 12",
+          "event": "Shooting at gym at 15th and P streets NW"
         },
         {
-          "title": "Al Jazeera: Suspect turns gun on himself after deadly shooting in Washington DC",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/suspect-turns-gun-on-himself-after-deadly-shooting-in-washington-dc?traffic_source=rss"
+          "date": "Nov 12",
+          "event": "Police surround building; residents told to shelter in place"
         },
         {
-          "title": "BBC News: Washington DC shooting leaves one dead and four injured as suspect dies…",
-          "url": "https://www.bbc.co.uk/news/articles/crgqx2qqnwpjo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "title": "NPR: Witnesses describe the D.C. shooting that left 1 dead, 4 injured",
-          "url": "https://www.npr.org/2026/11/12/nx-s1-6038860/dc-logan-circle-shooting"
+          "date": "Nov 12",
+          "event": "Suspect found dead; police say scene is safe"
         }
       ],
-      "now": "Al Jazeera: Police say the man suspected to have killed one person in a shooting in Washington DC appears to have shot himself. BBC News: One victim is in a critical condition and three others have non life-threatening injuries, officials say."
+      "why": "It is a mass shooting in the centre of the U.S. capital, and it appears to have grown out of a personal dispute rather than politics or terrorism.",
+      "impact": "There is no continuing threat and no effect on travel to Washington. The area around 15th and P streets may stay closed while police finish their work.",
+      "sources": [
+        {
+          "title": "Axios: D.C. shooting leaves 1 dead, 4 injured in Logan Circle",
+          "url": "https://www.axios.com/local/washington-dc/2026/11/12/logan-circle-shooting-dc-barricade"
+        },
+        {
+          "title": "CBS News: 1 killed, 4 injured in shooting in Logan Circle; suspect is dead",
+          "url": "https://www.cbsnews.com/news/washington-dc-shooting-gym-vida/"
+        },
+        {
+          "title": "NBC Washington: Logan Circle shooter killed building manager amid condo lawsuit",
+          "url": "https://www.nbcwashington.com/news/local/logan-circle-shooter-killed-building-manager-amid-condo-lawsuit-police-say/4182078/"
+        },
+        {
+          "title": "CNN: Live updates on D.C. shooting",
+          "url": "https://www.cnn.com/2026/11/12/us/live-news/washington-dc-shooting"
+        }
+      ]
+    },
+    {
+      "id": "us-midterms",
+      "rank": 7,
+      "region": "us",
+      "topic": "Midterms",
+      "status": "developing",
+      "impactLevel": "high",
+      "updatedAt": "2026-11-11T20:56:02-05:00",
+      "headline": "Democrat Scott Colom wins Mississippi Senate seat as Hyde-Smith concedes",
+      "summary": "News organizations projected Democrat Scott Colom the winner over Republican Sen. Cindy Hyde-Smith on Wednesday, eight days after the vote, and she phoned him to concede.",
+      "now": "CNN's decision desk projected Scott Colom the winner on Wednesday, when the Associated Press count showed him 4,585 votes ahead, and the AP and NBC News followed with their own calls. Sen. Cindy Hyde-Smith's campaign confirmed she called Colom to concede late Wednesday afternoon, and she said in a video message that she respects the voters' decision. Colom, a district attorney, is the first Democrat elected to the U.S. Senate from Mississippi since 1982 and will be the state's first Black senator since the Reconstruction era after the Civil War. Counties still have until Friday to send official results to the secretary of state. Alaska is now the last uncalled Senate race: Democrat Mary Peltola led Republican Sen. Dan Sullivan 49% to 47.2% in first-choice votes in the latest count, with the ranked-choice tabulation set for Nov. 18.",
+      "backstory": "Republicans have held both chambers since January 2025, and all 435 House seats and about a third of the Senate were on the ballot. More than 53 million Americans voted early. Tariffs and high gas prices tied to the Iran war weighed on Trump's approval, and recent polls gave Democrats an edge in most key Senate races. Courts also turned back a Trump administration bid to set aside 20,000 California ballots.",
+      "timeline": [
+        {
+          "date": "Jan 2025",
+          "event": "Republicans take both chambers"
+        },
+        {
+          "date": "Nov 2",
+          "event": "Supreme Court rejects bid to set aside 20,000 California ballots"
+        },
+        {
+          "date": "Nov 3",
+          "event": "Cooper projected to flip North Carolina; Ossoff holds Georgia"
+        },
+        {
+          "date": "Nov 4",
+          "event": "Democrats win both chambers; Vance blames Iran war"
+        },
+        {
+          "date": "Nov 11",
+          "event": "Colom projected winner in Mississippi; Hyde-Smith concedes"
+        }
+      ],
+      "why": "Colom's win in a state Republicans had held for more than four decades pads the Senate majority Democrats take over in January. A bigger majority makes it easier for them to block nominees, run investigations and force votes on tariffs.",
+      "impact": "Canadian exporters are watching whether a Democratic Congress moves to limit tariffs, which could ease pressure on Ontario manufacturers over time; near-term tariffs stay in place unless the White House changes them.",
+      "sources": [
+        {
+          "title": "Mississippi Free Press: Hyde-Smith concedes to Colom",
+          "url": "https://www.mississippifreepress.org/cindy-hyde-smith-concedes-u-s-senate-election-to-scott-colom/"
+        },
+        {
+          "title": "NBC News: Colom wins Mississippi Senate race",
+          "url": "https://www.nbcnews.com/politics/2026-election/scott-colom-mississippi-senate-election-win-democrat-hyde-smith-rcna605729"
+        },
+        {
+          "title": "CNBC: Colom wins over Hyde-Smith",
+          "url": "https://www.cnbc.com/2026/11/11/democrat-scott-colom-projected-to-win-mississippi-senate-election-over-incumbent-hyde-smith.html"
+        },
+        {
+          "title": "Anchorage Daily News: Peltola adds to lead",
+          "url": "https://www.adn.com/politics/2026/11/10/peltola-adds-to-lead-over-sullivan-after-large-batch-of-ballots-drop-but-alaskas-senate-race-is-still-tight/"
+        }
+      ]
+    },
+    {
+      "id": "doug-ford-names-hand-picked-regional",
+      "rank": 8,
+      "region": "ontario",
+      "topic": "Local government",
+      "status": "developing",
+      "impactLevel": "high",
+      "updatedAt": "2026-11-11T16:55:49-05:00",
+      "headline": "Ousted Muskoka chair 'deeply disappointed' as backlash to Ford's regional picks grows",
+      "summary": "A day after Ontario named eight regional heads with 'strong chair' powers, Muskoka's replaced chair Jeff Lehman voiced his disappointment and Markham's mayor kept up criticism of Steven Del Duca's York appointment.",
+      "now": "Jeff Lehman, who was Muskoka's district chair until the province replaced him with Scott Aitchison, said Wednesday he was deeply disappointed by the decision. In York, Markham Mayor Frank Scarpitti called new chair Steven Del Duca, who stays on as Vaughan's mayor, deeply conflicted and no friend of Markham, and said the job gives one person overriding power over nine mayors and a roughly $5.2-billion regional budget. Del Duca said he will speak for all nine York municipalities and that none can be left behind. Municipal Affairs Minister Rob Flack rejected claims the picks are party insiders, noting Del Duca once led the Ontario Liberals; the other appointees are Kevin Ashe (Durham), Ann Mulvale (Halton), Frank Campion (Niagara), Nando Iannicca (Peel), Scott Davey (Waterloo) and Don McIsaac as Simcoe County warden. The chairs can hire or fire senior staff, veto some bylaws and propose the regional budget, and their term starts Nov. 15. Durham's new chair, Pickering Mayor Kevin Ashe, told CBC he is considering using the expanded powers on the regional budget, and Ontario New Democrat MPP Jeff Burch said the appointments undermine local democracy.",
+      "backstory": "Ontario first gave 'strong mayor' powers to Toronto and Ottawa in 2022 and later extended them to dozens of cities. This spring the province brought in the Better Regional Governance Act, letting it appoint chairs in Durham, Halton, Muskoka, Peel, Waterloo and York and the Simcoe warden, and cutting the size of Niagara's council. Some of these posts were previously chosen by voters or by regional councillors. The appointments come right after the Oct. 26 municipal elections.",
+      "timeline": [
+        {
+          "date": "2022",
+          "event": "Strong mayor powers for Toronto and Ottawa"
+        },
+        {
+          "date": "May",
+          "event": "Better Regional Governance Act passes"
+        },
+        {
+          "date": "Oct 26",
+          "event": "Ontario municipal elections"
+        },
+        {
+          "date": "Nov 10",
+          "event": "Eight chairs named"
+        },
+        {
+          "date": "Nov 11",
+          "event": "Ousted Muskoka chair and Markham mayor object"
+        }
+      ],
+      "why": "Regional governments run water, sewers, police budgets, roads and much of the planning that decides where housing goes. Appointed chairs with veto and staffing powers shift control toward Queen's Park.",
+      "impact": "For York, Peel, Durham and Halton residents, regional chairs now have more say over budgets that drive property taxes and over approvals for housing and infrastructure. Watch the first regional budgets under the new chairs.",
+      "sources": [
+        {
+          "title": "Global News: Muskoka regional chair 'deeply disappointed' after being ousted",
+          "url": "https://globalnews.ca/news/12146710/muskoka-regional-chair-deeply-disappointed-after-being-ousted-by-ford-government/"
+        },
+        {
+          "title": "NewmarketToday: Markham mayor among critics of Del Duca appointment",
+          "url": "https://www.newmarkettoday.ca/local-news/deeply-conflicted-markham-mayor-among-critics-of-ontarios-appointment-of-vaughan-mayor-as-regional-chair-13005592"
+        },
+        {
+          "title": "Global News: Critics slam York region chair appointment",
+          "url": "https://globalnews.ca/news/12145404/critics-slam-ford-government-appointment-of-york-region-chair-as-conflict-of-interest/"
+        },
+        {
+          "title": "CBC: Ashe considers expanded powers for Durham budget",
+          "url": "https://cbc.ca/news/canada/toronto/pickering-mayor-kevin-ashe-durham-regional-chair-9.7417134"
+        }
+      ]
+    },
+    {
+      "id": "carney-raise-foreign-interference-concerns-meeting",
+      "rank": 9,
+      "region": "canada",
+      "topic": "Carney abroad",
+      "status": "developing",
+      "impactLevel": "medium",
+      "updatedAt": "2026-11-12T16:56:14-05:00",
+      "headline": "Carney wraps Dublin security talks and heads to Asia",
+      "summary": "Prime Minister Mark Carney finished a day of meetings with European leaders in Dublin on Thursday, where he heard from Ukraine's president and said Canada has a part in Europe's security guarantees. He now travels to the Philippines, Cambodia and China.",
+      "now": "At the European Political Community summit, where he was the only non-European leader, Carney said in French that security guarantees for Ukraine are layered and involve Europe, Canada and the United States. He heard from President Volodymyr Zelenskyy on the state of talks with Russia, and also discussed ratifying the Canada-European Union trade agreement, which some EU member states have yet to approve. More than 40 leaders attended, including NATO Secretary General Mark Rutte, and backed a statement that decisions about Europe's security must be made with Europeans at the table. Carney next meets Philippine President Ferdinand Marcos Jr. in Manila on Saturday, then attends the Francophonie summit in Cambodia and the Asia-Pacific Economic Cooperation (APEC) leaders' meeting in Shenzhen on Nov. 18–19, where he plans to raise foreign interference with Chinese President Xi Jinping.",
+      "backstory": "A federal public inquiry found that China was the most active foreign state trying to interfere in Canada's democratic institutions. Relations soured for years over arrests, tariffs on Chinese electric vehicles and Chinese duties on Canadian canola. Carney's government has since sought to rebuild trade ties with Beijing as tariffs from the Trump administration hit Canadian exports, which drew a tariff threat from Trump over any Canada-China deal.",
+      "timeline": [
+        {
+          "date": "Apr 2025",
+          "event": "Carney calls China Canada's top geopolitical threat"
+        },
+        {
+          "date": "Jan",
+          "event": "Carney visits China; new partnership announced"
+        },
+        {
+          "date": "Nov 10",
+          "event": "Carney says he will raise interference with Xi"
+        },
+        {
+          "date": "Nov 12",
+          "event": "Carney meets European leaders and Zelenskyy in Dublin"
+        },
+        {
+          "date": "Nov 18–19",
+          "event": "APEC leaders meet in Shenzhen"
+        }
+      ],
+      "why": "The trip is part of Ottawa's effort to rely less on the United States for trade and defence. How Carney balances business with Beijing against security worries and pressure from Washington affects farmers, automakers and diaspora communities.",
+      "impact": "GTA residents with family or business ties to China are among those most exposed to interference concerns. Any trade easing could matter for Ontario exporters and for car buyers, while friction with the U.S. over China ties could complicate Canada-U.S. trade talks.",
+      "sources": [
+        {
+          "title": "CBC: Carney wraps meetings on security, trade with European leaders",
+          "url": "https://www.cbc.ca/news/politics/carney-europe-ireland-meetings-9.7419715"
+        },
+        {
+          "title": "BNN Bloomberg/CP: PM Carney in Ireland ahead of Asia summits",
+          "url": "https://www.bnnbloomberg.ca/business/politics/2026/11/12/pm-carney-in-ireland-for-meetings-with-european-leaders-ahead-of-asia-summits/"
+        },
+        {
+          "title": "Global News: Carney's summits in Asia and Ireland",
+          "url": "https://globalnews.ca/news/12146059/carney-summits-asia-ireland/"
+        }
+      ]
+    },
+    {
+      "id": "white-house-sends-warning-democrats-investigating",
+      "rank": 10,
+      "region": "us",
+      "topic": "Oversight",
+      "status": "developing",
+      "impactLevel": "medium",
+      "updatedAt": "2026-11-12T11:57:06-05:00",
+      "headline": "Garcia says Democrats 'not going to be deterred' by White House warning on probes",
+      "summary": "Rep. Robert Garcia, who is set to chair the House Oversight Committee in January, said Thursday that Democrats will go ahead with investigations of the Trump administration despite a White House letter suggesting such probes could amount to crimes.",
+      "now": "Garcia told NPR on Thursday that Democrats will not be deterred or intimidated and that Congress has wide latitude to investigate the executive branch. The Hill reported that he has also warned White House chief of staff Stephen Miller to preserve documents. White House counsel Will Scharf's letter, dated Nov. 9 and made public Wednesday, accused Democrats of abusive threats and said efforts to intimidate officials through congressional proceedings could cross into criminality. The Washington Post reported that the counsel's office has added 15 lawyers to prepare for investigations. Democrats have signalled probes of White House construction projects including the ballroom, the Trump family's role in mineral deals and its cryptocurrency dealings.",
+      "backstory": "Democrats won both chambers of Congress on Nov. 3 and take control in January, which gives their committee chairs subpoena power for the first time in Trump's second term. Garcia said before the election that officials could face subpoenas on day one. Oversight of the executive branch is a routine function of Congress, though administrations of both parties have resisted it.",
+      "timeline": [
+        {
+          "date": "Jan 2025",
+          "event": "Republicans take both chambers"
+        },
+        {
+          "date": "Nov 3",
+          "event": "Democrats win House and Senate"
+        },
+        {
+          "date": "Nov 9",
+          "event": "White House counsel writes to Garcia"
+        },
+        {
+          "date": "Nov 11",
+          "event": "Letter made public; counsel's office reported to have added 15 lawyers"
+        },
+        {
+          "date": "Nov 12",
+          "event": "Garcia says Democrats will not be deterred"
+        },
+        {
+          "date": "Jan 2027",
+          "event": "New Congress sworn in"
+        }
+      ],
+      "why": "It signals that the White House plans to fight congressional investigations hard, which points to subpoena battles and court fights for much of 2027.",
+      "impact": "There is no direct effect on Ontario, but a Washington consumed by investigations may have less room for trade deals, and probes could touch tariff and minerals decisions that matter to Canadian exporters.",
+      "sources": [
+        {
+          "title": "NPR: White House warns Trump probes could be criminal; Garcia won't back down",
+          "url": "https://www.wosu.org/npr-news/2026-11-12/white-house-warns-trump-probes-could-be-criminal-rep-robert-garcia-wont-back-down"
+        },
+        {
+          "title": "The Hill: Garcia warns Miller to preserve documents",
+          "url": "https://thehill.com/homenews/house/6215376-garcia-warns-miller-preserve-documents/"
+        },
+        {
+          "title": "Washington Post: White House starts aggressive moves to block investigations",
+          "url": "https://www.washingtonpost.com/politics/2026/11/11/white-house-starts-aggressive-moves-block-investigations-by-congress/"
+        },
+        {
+          "title": "PBS: Read the letter the White House's top lawyer sent Rep. Garcia",
+          "url": "https://www.pbs.org/newshour/politics/read-the-letter-the-white-houses-top-lawyer-sent-rep-garcia-over-threats-to-investigate-trump"
+        }
+      ]
+    },
+    {
+      "id": "budget-2026-include-update-immigration-levels",
+      "rank": 11,
+      "region": "canada",
+      "topic": "Immigration",
+      "status": "developing",
+      "impactLevel": "medium",
+      "updatedAt": "2026-11-12T16:56:14-05:00",
+      "headline": "Immigration minister hits back after Poilievre calls budget plan 'bonkers'",
+      "summary": "Immigration Minister Lena Diab on Thursday defended the immigration measures in last week's federal budget as temporary and aimed at people already in Canada, after Conservative Leader Pierre Poilievre attacked the plan in a video.",
+      "now": "In a video released Sunday, Poilievre called the plan 'bonkers' and claimed it would admit about 200,000 more permanent residents a year than under former prime minister Justin Trudeau, arguing that population growth has outpaced housing, health care and jobs. Diab said Thursday that the measure is targeted and time-limited, meant to help provinces fill labour needs with workers who already live in Canada and to clear a badly backlogged humanitarian stream, and that it is not a lasting rise in immigration levels. She said she does not think Poilievre understands Canada. Prime Minister Carney has called the levels plan sustainable. The exchange comes ahead of six federal byelections on Dec. 7, including a close race in Brantford–Brant South.",
+      "backstory": "Finance Minister François-Philippe Champagne tabled the Carney government's second budget on Nov. 5, projecting a $62.3-billion deficit for 2026-27 and about $142 billion in new spending over five years. The immigration levels plan, which sets how many permanent residents Canada aims to admit, was released with it. Ottawa cut its targets in 2024 and 2025 after rapid population growth put pressure on housing and services. Permanent residents can live and work in Canada indefinitely and later apply for citizenship.",
+      "timeline": [
+        {
+          "date": "Oct 2024",
+          "event": "Ottawa cuts permanent-resident targets"
+        },
+        {
+          "date": "Nov 5",
+          "event": "Budget and new immigration levels plan tabled"
+        },
+        {
+          "date": "Nov 8",
+          "event": "Poilievre video calls the plan 'bonkers'"
+        },
+        {
+          "date": "Nov 9",
+          "event": "Diab says plan is about predictability"
+        },
+        {
+          "date": "Nov 12",
+          "event": "Diab says Poilievre does not understand Canada"
+        },
+        {
+          "date": "Dec 7",
+          "event": "Six federal byelections"
+        }
+      ],
+      "why": "Immigration levels shape population growth, the labour supply and housing demand. The dispute is also an early test of each party's message before byelections that could change the Liberals' slim majority.",
+      "impact": "The GTA receives a large share of Canada's newcomers, so the targets affect rents, hiring and demand for services here. People already working in Ontario on temporary permits may find a clearer route to permanent status.",
+      "sources": [
+        {
+          "title": "BNN Bloomberg/CP: Minister responds to Poilievre's comments on immigration plan",
+          "url": "https://www.bnnbloomberg.ca/business/politics/2026/11/12/i-feel-sorry-for-him-minister-responds-to-poilievres-comments-on-immigration-plan/"
+        },
+        {
+          "title": "CBC: Carney says new immigration levels plan is 'sustainable'",
+          "url": "https://www.cbc.ca/news/politics/carney-poilievre-budget-immigration-9.7412572"
+        },
+        {
+          "title": "BNN Bloomberg/CP: Diab says immigration plan about predictability",
+          "url": "https://www.bnnbloomberg.ca/business/politics/2026/11/09/diab-says-immigration-plan-about-predictability-doing-the-right-thing/"
+        },
+        {
+          "title": "Hill Times: Six high-stakes byelections",
+          "url": "https://www.hilltimes.com/2026/11/09/upcoming-six-high-stakes-byelections-opening-for-pm-carney-to-expand-slim-house-majority-as-poilievre-fights-to-retain-conservative-seats/525100/"
+        }
+      ]
+    },
+    {
+      "id": "canada-extends-tariff-relief-program-beyond",
+      "rank": 12,
+      "region": "canada",
+      "topic": "Trade",
+      "status": "developing",
+      "impactLevel": "high",
+      "updatedAt": "2026-11-11T20:56:02-05:00",
+      "headline": "Canada's U.S. envoy warns tariffs are raising costs and chilling investment",
+      "summary": "Ambassador Mark Wiseman said tariff uncertainty is pushing up costs and discouraging business expansion, a day after Carney said the Trump administration remains Canada's main negotiating partner.",
+      "now": "Mark Wiseman, Canada's ambassador in Washington, told CNBC on Wednesday that uncertainty over tariffs is raising the cost of investing and putting companies off expanding, including in the United States. The federal government extended its tariff relief program beyond U.S. steel imports, so goods used by public education bodies, including those mandated by Indigenous organizations, can also qualify; Newsweek reports the program now runs to June 30, 2028, while exemptions are being withdrawn for some U.S. goods where Canadian alternatives exist. On Tuesday, Carney said the Trump administration remains the main authority on trade agreements even after Democrats won Congress, and Ottawa will keep working toward a deal that suits Canada. Democrats have pledged to try to repeal tariffs on Canada, but they would need Republican votes to override a veto. Trump has also threatened new tariffs on Canadian vehicles starting in January.",
+      "backstory": "Canada has used remission and relief measures to soften the cost of counter-tariffs on its own importers. A recent Finance Canada report found Ottawa approved about $5.6 billion in relief against a projected $2.2 billion, with more than 800 requests still unresolved.",
+      "timeline": [
+        {
+          "date": "Oct 2025",
+          "event": "Relief offered on some steel and aluminum products"
+        },
+        {
+          "date": "Jul 20",
+          "event": "U.S. announces new tariffs on Canadian goods"
+        },
+        {
+          "date": "Nov 3",
+          "event": "Democrats win Congress"
+        },
+        {
+          "date": "Nov 9",
+          "event": "Relief program widened to more goods"
+        },
+        {
+          "date": "Nov 10",
+          "event": "Carney says White House still leads on trade"
+        },
+        {
+          "date": "Nov 11",
+          "event": "Ambassador Wiseman warns tariffs threaten investment"
+        }
+      ],
+      "why": "Counter-tariffs raise costs for Canadian buyers, so relief rules decide who pays more.",
+      "impact": "Schools and some public bodies in Ontario may face lower costs on imported goods. Businesses importing affected goods may be able to apply for relief.",
+      "sources": [
+        {
+          "title": "CNBC: Canada ambassador warns on Trump tariffs",
+          "url": "https://cnbc.com/2026/11/11/canada-ambassador-trump-tariffs-investments.html"
+        },
+        {
+          "title": "Global News: Canada extends tariff relief program beyond U.S. steel imports",
+          "url": "https://globalnews.ca/news/12143554/canada-tariff-relief-steel-imports-other-goods/"
+        },
+        {
+          "title": "Newsweek: Canada signs new deals with China after Trump drops trade demand",
+          "url": "https://www.newsweek.com/canada-deal-china-donald-trump-drops-trade-demand-12692790"
+        },
+        {
+          "title": "ABC News: Carney welcomes Democrats' push to end tariffs on Canada",
+          "url": "https://abcnews.com/International/wireStory/carney-welcomes-democrats-push-end-trumps-tariffs-canada-137923648"
+        }
+      ]
     },
     {
       "id": "israeli-airstrike-nasser-hospital-gaza-kills",
-      "rank": 4,
+      "rank": 13,
       "region": "world",
-      "topic": "Conflict",
-      "status": "ongoing",
-      "impactLevel": "high",
+      "topic": "Gaza",
+      "status": "new",
+      "impactLevel": "low",
       "updatedAt": "2026-11-12T11:57:06-05:00",
-      "headline": "Jerusalem Daily: Gaza’s Nasser Hospital hit by Israeli air strike",
-      "summary": "For the seventh time, Israel has targeted Gaza’s Nasser Hospital in an air strike.",
-      "sources": [
+      "headline": "Israeli strike on Gaza's Nasser Hospital kills six, including a surgeon",
+      "summary": "Gaza health authorities say an Israeli airstrike hit the surgical wing of Nasser Hospital in Khan Younis early Thursday, killing six people; Israel says it targeted a Hamas commander.",
+      "now": "The Gaza Health Ministry said the dead include a 52-year-old general surgeon, Rizk Abu Shaira, and a 13-year-old boy; counts of the wounded range from about 20 to 28. Hospital director Ahmed al-Farra said the strike halted surgeries and stopped work in the radiology department and laboratory. Israel's military said it struck the commander of Hamas's Khan Younis Brigade, whom it named as Muhammad Abu Ismail, and other militants; it did not provide evidence. One report said it was the seventh time the hospital complex has been hit since the war began. Haaretz reported at least 10 people killed in Israeli strikes across Gaza on Thursday.",
+      "backstory": "The war began with the Hamas-led attack on Israel on Oct. 7, 2023, and Israel's military campaign has since destroyed much of Gaza's health system. Nasser Hospital is one of the few large medical facilities still working in the territory. A U.S.-backed ceasefire took effect on Oct. 10, 2025, but Israeli strikes have continued, with each side accusing the other of violations. Hospitals are protected under international humanitarian law unless they are used for military purposes.",
+      "timeline": [
         {
-          "title": "Al Jazeera: Jerusalem Daily: Gaza’s Nasser Hospital hit by Israeli air strike",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/jerusalem-daily-gazas-nasser-hospital-hit-by-israeli-air-strike?traffic_source=rss"
+          "date": "Oct 2023",
+          "event": "War begins after Hamas-led attack on Israel"
         },
         {
-          "title": "BBC News: Israeli strike on Gaza hospital kills six Palestinians, health ministry says",
-          "url": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss"
+          "date": "Aug 2025",
+          "event": "Israeli strikes on Nasser Hospital kill about 20, including journalists"
+        },
+        {
+          "date": "Oct 10, 2025",
+          "event": "U.S.-backed ceasefire takes effect"
+        },
+        {
+          "date": "Nov 12",
+          "event": "Strike on Nasser Hospital's surgical wing kills six"
+        }
+      ],
+      "why": "A deadly strike on a working hospital puts new strain on a ceasefire that was already fragile. It comes while Israel is between governments and weighing military action against Iran.",
+      "impact": "There is no direct effect on daily life in Ontario. The war remains a deeply felt issue for many GTA communities and has prompted protests and heightened security in Toronto.",
+      "sources": [
+        {
+          "title": "NPR: Israeli strike on a Gaza hospital kills 6 people, health authorities say",
+          "url": "https://www.npr.org/2026/11/12/nx-s1-6038339/israeli-strike-gaza-hospital"
         },
         {
           "title": "The Guardian: Israeli airstrike on Nasser hospital in Gaza kills surgeon and five others",
           "url": "https://www.theguardian.com/world/2026/nov/12/israeli-airstrike-nasser-hospital-gaza-kills-surgeon"
         },
         {
-          "title": "NPR: An Israeli strike on a Gaza hospital kills 6 people, including a doctor and…",
-          "url": "https://www.npr.org/2026/11/12/nx-s1-6038339/israeli-strike-gaza-hospital"
+          "title": "Irish Times: Israeli air strike on Nasser hospital in Gaza kills six",
+          "url": "https://www.irishtimes.com/world/middle-east/2026/11/12/israeli-air-strike-on-nasser-hospital-in-gaza-kills-six/"
         }
-      ],
-      "now": "BBC News: Witnesses say a missile hit a building containing the surgical wards and intensive care units at Nasser hospital, the largest in southern Gaza. The Guardian: Hospital director says 28 wounded in attack on one of few remaining medical facilities in the strip An Israeli airstrike on Nasser hospital in southern Gaza killed six people, including a surgeon and a disabled man, and…",
-      "backstory": "The war began with the Hamas-led attack on Israel on Oct. 7, 2023, and Israel's military campaign has since destroyed much of Gaza's health system. Nasser Hospital is one of the few large medical facilities still working in the territory. A U.S.-backed ceasefire took effect on Oct. 10, 2025, but Israeli strikes have continued, with each side accusing the other of violations. Hospitals are protected under international humanitarian law unless they are used for military purposes."
+      ]
     },
     {
-      "id": "winning-mississauga-lotto-gold-ball-ticket",
-      "rank": 5,
+      "id": "coroner-inquest-set-begin-jamal-francique",
+      "rank": 14,
       "region": "ontario",
-      "topic": "Ontario",
+      "topic": "Policing",
       "status": "new",
-      "impactLevel": "medium",
-      "updatedAt": "2026-11-12T09:49:08-05:00",
-      "headline": "Winning Mississauga Lotto 6/49 Gold Ball ticket worth $38M: OLG",
-      "summary": "A winning Lotto 6/49 Gold Ball ticket sold in Mississauga is worth $38 million, the Ontario Lottery and Gaming Corporation (OLG) says.",
-      "sources": [
+      "impactLevel": "low",
+      "updatedAt": "2026-11-12T11:57:06-05:00",
+      "headline": "Inquest opens into 2020 Peel police shooting of Jamal Francique",
+      "summary": "A coroner's inquest began Thursday into the death of Jamal Francique, who was shot in the head by a Peel Regional Police officer during an attempted arrest in Mississauga nearly seven years ago.",
+      "now": "The inquest is expected to run 11 days and hear from nine witnesses. Francique was shot on Jan. 7, 2020, and died in hospital two days later. Ontario's police watchdog, the Special Investigations Unit (SIU), said officers had been investigating him over alleged drug dealing and gun possession but could not confirm those allegations and moved to arrest him for allegedly breaching bail conditions. Jurors cannot assign blame or legal liability, but they can recommend changes meant to prevent similar deaths.",
+      "backstory": "In January 2021 the SIU found no reasonable grounds to charge the officer who fired. Francique's family disputed that conclusion, and their lawyer said the report had several deficiencies. The family sued police, paramedics, the SIU and others in June 2022. The province announced the inquest in November 2025; it is mandatory under Ontario's Coroners Act.",
+      "timeline": [
         {
-          "title": "Global News: Winning Mississauga Lotto 6/49 Gold Ball ticket worth $38M: OLG",
-          "url": "https://globalnews.ca/news/12147737/lotto-649-gold-ball-winning-ticket/"
+          "date": "Jan 7, 2020",
+          "event": "Francique shot by Peel police in Mississauga"
         },
         {
-          "title": "CityNews: $38M Lotto 6/49 Gold Ball jackpot won by ticket sold in Mississauga",
-          "url": "https://toronto.citynews.ca/2026/11/12/lotto-649-ticket-mississauga-gold-ball-jackpot-november/"
+          "date": "Jan 9, 2020",
+          "event": "He dies in hospital"
         },
         {
-          "title": "CityNews Toronto: $38M Lotto 6/49 Gold Ball jackpot won by ticket sold in Mississauga",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNQkNFT3ZhSXlYeW5JVVZUZ1JPcTF6eXZHUzhUd0syb3dka2lYUzNkeXZFSmliMzJFWV81Y0ZleGJYRU5yNnk0Wno5eG55Ry1tRXduR3FkUmpOS2c0dHdjU0pBMDdqTlVPRXlSVEd4ZVdqWTlwU3UwQlhZTXdCOExvZGNHMzk3S3VqVHdhejdqcW9KbHU5TzJ0MU45QQ?oc=5"
+          "date": "Jan 2021",
+          "event": "SIU clears the officer"
         },
         {
-          "title": "CTV News: Mississauga ticket wins $38M Lotto 6/49 Gold Ball jackpot",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVTBKRTZKWDVJVTJiSlZIbDdCM2pWS3BYYkVLTl9rWWYzR1FoQTB3Skl6akY5TlJDMlMzUjQ0cjZiLW9UbjVkUkF4UUhUcWZpcGVZVVhHd2lWaGMyUGdBTHlGRm9XMXVUbmdnbmRueXZmTU92MkF5bE1LZlBqTkdETldYR1FvTGthM3hTeHJPa3h4RXR6Nlc2T0ZaRQ?oc=5"
+          "date": "Jun 2022",
+          "event": "Family files lawsuit"
+        },
+        {
+          "date": "Nov 2025",
+          "event": "Inquest announced"
+        },
+        {
+          "date": "Nov 12",
+          "event": "Inquest begins"
         }
       ],
-      "now": "CityNews: A Lotto 6/49 player in Mississauga is waking up $38 million richer after matching the winning numbers for the Gold Ball jackpot in Wednesday night’s draw."
-    },
-    {
-      "id": "talks-russia-ukraine-european-countries-agreed",
-      "rank": 6,
-      "region": "world",
-      "topic": "Conflict",
-      "status": "new",
-      "impactLevel": "high",
-      "updatedAt": "2026-11-12T12:17:55-05:00",
-      "headline": "New talks with Russia, Ukraine and European countries agreed, US says - as it happened",
-      "summary": "This blog is now closed Luxembourg’s PM Luc Frieden looks to be absolutely chuffed to be representing all three Benelux countries at today’s summit, as his Belgian and Dutch colleagues are too busy to attend as they face domestic crises. “I have the privilege of representing 30 millions citizens today,” he said on…",
+      "why": "Inquests are one of the few public forums where the details of a police shooting are examined under oath. Jury recommendations can shape police training and arrest tactics across Ontario.",
+      "impact": "Peel Regional Police serve about 1.5 million people in Mississauga and Brampton, so any recommendations on arrests, use of force or emergency care would affect policing there. The findings are not binding, but police services are expected to respond to them.",
       "sources": [
         {
-          "title": "The Guardian: New talks with Russia, Ukraine and European countries agreed, US says - as…",
-          "url": "https://www.theguardian.com/world/live/2026/nov/12/us-envoys-in-moscow-meeting-putin-abu-dhabi-trilateral-ukraine-ceasefire-talks-latest-news-updates"
+          "title": "CP24: Coroner's inquest set to begin for Jamal Francique",
+          "url": "https://www.cp24.com/local/peel/2026/11/12/coroners-inquest-set-to-begin-for-jamal-francique-shot-in-head-by-police/"
         },
         {
-          "title": "NPR: Former U.S. Ambassador William Taylor discusses the latest Russia-Ukraine talks",
-          "url": "https://www.npr.org/2026/11/12/nx-s1-6037526/former-u-s-ambassador-william-taylor-discusses-the-latest-russia-ukraine-talks"
+          "title": "CTV News: A timeline of key events in the Jamal Francique case",
+          "url": "https://www.ctvnews.ca/toronto/local/peel/article/a-timeline-of-key-events-in-the-jamal-francique-case-ahead-of-coroners-inquest/"
         },
         {
-          "title": "PBS NewsHour: Russia and Ukraine agree to a large prisoner exchange as talks end with no…",
-          "url": "https://www.pbs.org/newshour/world/russia-and-ukraine-agree-to-a-large-prisoner-exchange-as-talks-end-with-no-major-breakthrough"
-        }
-      ],
-      "now": "NPR: NPR's A Martinez speaks with former U.S. ambassador to Ukraine, William Taylor, about the ongoing peace talks between the U.S., Russia and Ukraine. PBS NewsHour: Russia and Ukraine agreed to a large exchange of prisoners of war, both sides said Wednesday as two days of U.S.-mediated talks concluded with no major breakthrough on ending Moscow's nearly 5-year-old full-scale…"
-    },
-    {
-      "id": "before-scott-colom-these-two-men",
-      "rank": 7,
-      "region": "us",
-      "topic": "Elections",
-      "status": "new",
-      "impactLevel": "high",
-      "updatedAt": "2026-11-12T09:12:55-05:00",
-      "headline": "Before Scott Colom, these two men were the last black US senators from Mississippi",
-      "summary": "The Democratic candidate won in a southern state that had not seated a black senator since 1874.",
-      "sources": [
-        {
-          "title": "BBC News: Before Scott Colom, these two men were the last black US senators from…",
-          "url": "https://www.bbc.co.uk/news/articles/cmde1y19g19do?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "title": "BBC News: Democrat Scott Colom makes history as Mississippi's first black senator…",
-          "url": "https://www.bbc.co.uk/news/articles/cw7vppyr80eeo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "title": "NPR: How Scott Colom defied the odds to go from DA to Mississippi's Democratic…",
-          "url": "https://www.npr.org/2026/11/12/nx-s1-6037438/scott-colom-defied-the-odds-mississippi-democratic-senator"
-        },
-        {
-          "title": "NPR: Democrat Scott Colom wins Mississippi Senate race",
-          "url": "https://www.npr.org/2026/11/12/nx-s1-6037853/democrat-scott-colom-wins-mississippi-senate-race"
-        }
-      ],
-      "now": "BBC News: In a state Trump won two years ago by 22 points, Colom's victory extends a string of Democratic wins in the Senate. NPR: In a state that hasn't had a Democrat in office since 1980 and hasn't sent a Black senator to Washington since the 1870s, Colom's win represents a massive upset in state politics."
-    },
-    {
-      "id": "troy-stecher-pre-game-minnesota-wild",
-      "rank": 8,
-      "region": "ontario",
-      "topic": "Ontario",
-      "status": "new",
-      "impactLevel": "medium",
-      "updatedAt": "2026-11-12T14:41:15-05:00",
-      "headline": "Troy Stecher | Pre Game vs Minnesota Wild | November 12, 2026",
-      "summary": "Troy Stecher | Pre Game vs Minnesota Wild | November 12, 2026",
-      "sources": [
-        {
-          "title": "NHL.com: Troy Stecher | Pre Game vs Minnesota Wild | November 12, 2026",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNWkJzSllZNnoxa29sUzFVTDB0Z1dYQW5sYTVUQkRnMTFTTDBEU0planVxTGlOQmU2U05ZcHdJZWZRVW11MXNMX29Bb2tsNnhRT1lWbHpKZkllWDdaXzRTaU01anlmUEgtcEJGOTlWMnhFN1NfWUtCdmxfbkVnZEd1RVJEY1NGVlRySXhxM0lrX3BFZXA0?oc=5"
-        },
-        {
-          "title": "NHL.com: GAME DAY vs Wild | Nov. 12, 2026",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ZTmRjWXRFWEQ4RldsY2VwYy1pUUY4LU1zWXJwVzgxa0lvYndxSWNFNDJCTjhVUENOVG9OU1AzejNhc2NGMG9BaE9uSjYzbXhRNk0xanJiazJOanhaOUREczBmZktRaE1tTHh4QUtWem9LUQ?oc=5"
-        },
-        {
-          "title": "NHL.com: Minnesota Wild - Toronto Maple Leafs - Nov 12, 2026",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9JQm5pb2xiWW1HUXBTREYtVHQ1Z3BJcjY4eTBxWDIybGNZbjY2bldMSnVwQU84MUlpeXMyT21LajNFNHMyQXRvZndZSTdILUpOeDBqa3d2TVU0N0NsQTJOMGUxRDlLNVkzX2VGM19lN0s?oc=5"
-        },
-        {
-          "title": "Sportsnet.ca: Maple Leafs quarter-mark report card: Toronto needs improvement",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPcUUySVZEbHY5R1FSbXFxdk1kNnFQLVdTUDEyVXFFTUkwMk1lSjBleUM2NVRCVTR0cFVjM1UyMWc0enNCVTRjZU8wOVFnSEdCeWJieTFxVjNQWTVNU3FZRUtLQkZoUUYxQjkxdTYzMTlwMy03MU5xcFhiRWc1WkFtb1dkY2NjMFdDUWxrMTNpTXl3V3VBamJaNGRnLXdtbGZaVEE?oc=5"
-        }
-      ]
-    },
-    {
-      "id": "eaton-centre-nathan-phillips-square-christmas",
-      "rank": 9,
-      "region": "ontario",
-      "topic": "Ontario",
-      "status": "new",
-      "impactLevel": "medium",
-      "updatedAt": "2026-11-12T13:58:44-05:00",
-      "headline": "From Eaton Centre to Nathan Phillips Square: 9 Christmas tree lightings happening in Toronto",
-      "summary": "The holiday season is set to officially arrive in downtown Toronto as CF Toronto Eaton Centre’s 10th Annual Tree Lighting Ceremony returns on Nov. 12, marking a milestone year for one of the city’s most recognizable holiday traditions. The celebration will see Canada’s tallest indoor holiday tree illuminated for the…",
-      "sources": [
-        {
-          "title": "NOW Toronto: From Eaton Centre to Nathan Phillips Square: 9 Christmas tree lightings…",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPWndiYk0tNzdRTHBCSzM5WUZVdVJwMFJZS1g0S290dW1LaXVLSUpqN0Eyc2NZU0xLdm5JeW9rb0VqbGRWcTZKYTlxUWJyS2hLWUhjS0MxdHpmWkNVT2JEcmJwTW1maWRkRFdCTlZBajhOWUh1U2RxNGpuSlpISTFfU2JlT3h3ZkgxZFZDdVJB?oc=5"
-        },
-        {
-          "title": "CityNews: Canada’s tallest indoor Christmas tree to light up Toronto’s Eaton Centre",
-          "url": "https://toronto.citynews.ca/2026/11/12/toronto-eaton-centre-christmas-tree-lighting-ceremony/"
-        },
-        {
-          "title": "CityNews Toronto: Canada's tallest indoor Christmas tree to light up the Eaton Centre",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQcFlaVG4xQVNyY21SQXFuMlBMUEJjdVJUeFR6UXdBNmtTblZzODJfaERvYmZvOWVwSmVySmF5MGktSVFuOENGN0Z4Ni12YzJUdDg2VEtLMlpoM1ZYZXZBaXl3UDcwUzJXYjJ1X2tha3luSnd3ZXp3TUtVMnUwOUgwd0NuekEtVzVVQ3JMNzFuaG5JenE2TGZ5VQ?oc=5"
-        }
-      ]
-    },
-    {
-      "id": "canada-faces-gradual-bumpy-recovery-kpmg",
-      "rank": 10,
-      "region": "canada",
-      "topic": "Trade",
-      "status": "new",
-      "impactLevel": "high",
-      "updatedAt": "2026-11-12T10:53:42-05:00",
-      "headline": "Canada faces ‘gradual and bumpy recovery,’ KPMG economic outlook says",
-      "summary": "Growth in 2026 is expected to be 'tepid' and 'sub-par' with U.S. President Donald Trump’s trade war weighing on Canada, KMPG's Fall Economic Outlook says.",
-      "sources": [
-        {
-          "title": "Global News: Canada faces ‘gradual and bumpy recovery,’ KPMG economic outlook says",
-          "url": "https://globalnews.ca/news/12147789/canada-faces-gradual-and-bumpy-recovery-kpmg-economic-outlook-says/"
-        }
-      ]
-    },
-    {
-      "id": "democrats-blue-tsunami-reversing-travel-turnoff",
-      "rank": 11,
-      "region": "canada",
-      "topic": "Elections",
-      "status": "new",
-      "impactLevel": "high",
-      "updatedAt": "2026-11-12T10:37:22-05:00",
-      "headline": "Democrats’ blue tsunami could be reversing travel turnoff of Canada-U.S. trade war",
-      "summary": "MONTREAL — Travel experts say the Democrats’ sweeping midterm victory is poised to fan a trend of rising Canadian visitor volumes to the United States, counteracting the effect of the recent trade war flare-up.",
-      "sources": [
-        {
-          "title": "CityNews: Democrats’ blue tsunami could be reversing travel turnoff of Canada-U.S.…",
-          "url": "https://toronto.citynews.ca/2026/11/12/democrats-blue-tsunami-could-be-reversing-travel-turnoff-of-canada-u-s-trade-war/"
-        }
-      ]
-    },
-    {
-      "id": "spain-approves-housing-reforms-nationwide-strike",
-      "rank": 12,
-      "region": "canada",
-      "topic": "Elections",
-      "status": "new",
-      "impactLevel": "high",
-      "updatedAt": "2026-11-12T10:02:30-05:00",
-      "headline": "Spain approves housing reforms after nationwide strike over costs",
-      "summary": "Spanish parliament passes new laws limiting evictions but their duration depends on the upcoming snap election outcome.",
-      "sources": [
-        {
-          "title": "Al Jazeera: Spain approves housing reforms after nationwide strike over costs",
-          "url": "https://www.aljazeera.com/news/2026/11/12/spain-approves-housing-reforms-after-nationwide-strike-over-costs?traffic_source=rss"
+          "title": "CityNews: Coroner's inquest set to begin for Jamal Francique",
+          "url": "https://toronto.citynews.ca/2026/11/12/coroners-inquest-jamal-francique-toronto/"
         }
       ]
     }
