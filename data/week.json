@@ -1,97 +1,97 @@
 {
-  "updatedAt": "2026-11-14T05:55:38-05:00",
+  "updatedAt": "2026-11-14T11:56:20-05:00",
   "rangeStart": "2026-11-08",
   "rangeEnd": "2026-11-14",
-  "headline": "Democrats' gains, a Brampton plant fight, a U.S. flight shutdown and a Philippines trade deal",
-  "summary": "Democrats added a Mississippi Senate seat and the Kansas governorship to their midterm sweep, then opened a leadership contest of their own. Hopes for an Iran deal rose and faded while oil still fell for a second week, U.S. wholesale inflation hit 6.5%, and Nvidia's chief executive resigned. In Ontario, Stellantis's sale of the Brampton plant set off a confrontation with Ottawa that turned into a rescue pitch; a nationwide U.S. ground stop cancelled cross-border flights from Toronto, and Canada wrapped up trade talks with the Philippines on Saturday.",
+  "headline": "Democrats' gains, a Brampton plant fight, a U.S. flight shutdown and trade talks on two fronts",
+  "summary": "Democrats added a Mississippi Senate seat and two governorships to their midterm sweep, then opened a leadership contest of their own. Hopes for an Iran deal rose and faded while oil still fell for a second week, U.S. wholesale inflation hit 6.5%, and Nvidia's chief executive resigned. In Ontario, Stellantis's sale of the Brampton plant set off a confrontation with Ottawa; a nationwide U.S. ground stop cancelled cross-border flights from Toronto, and Carney wrapped up trade talks with the Philippines while saying a U.S. deal must protect the auto sector.",
   "top": [
     {
-      "headline": "Democrats' sweep grows; Van Hollen challenges Schumer for Senate leader",
-      "id": "us-midterms",
-      "impactLevel": "high",
-      "latestDate": "2026-11-14",
       "rank": 1,
+      "id": "us-midterms",
       "region": "us",
-      "what": "Democrat Scott Colom won Mississippi's Senate seat on Wednesday, Cindy Holscher held the Kansas governorship on Thursday and Jonathan Kreiss-Tomkins was declared winner of Alaska's governor's race on Saturday; Alaska's Senate race is still uncalled. Sen. Chris Van Hollen challenged Chuck Schumer for majority leader and won Bernie Sanders's endorsement, though Schumer leads in public support before the Dec. 1 vote.",
       "when": "All week",
-      "why": "Control of Congress changes in January, which affects tariffs, oversight of the White House and U.S. policy toward Canada."
-    },
-    {
-      "headline": "Iran deal hopes fade as Trump says none is needed; oil rebounds",
-      "id": "iran-hormuz",
       "impactLevel": "high",
       "latestDate": "2026-11-14",
+      "headline": "Democrats' sweep grows; Van Hollen challenges Schumer for Senate leader",
+      "what": "Democrats added a Mississippi Senate seat and the Kansas and Alaska governorships to their midterm wins, and Mary Peltola is close to 50% in Alaska's uncalled Senate race. Sen. Chris Van Hollen then challenged Chuck Schumer for majority leader, with a vote set for Dec. 1.",
+      "why": "The size and leadership of the new Democratic majority will decide how hard Congress pushes back on tariffs that hit Canada."
+    },
+    {
       "rank": 2,
+      "id": "iran-hormuz",
       "region": "world",
-      "what": "Brent dipped below US$90 on Tuesday on hopes for a deal, then rebounded to about US$96 after Trump said the U.S. needs no agreement and pulled Vance off the talks. Iran reported tankers burning after hitting mines near the Strait of Hormuz, and the White House said Trump will raise the war with Putin and Xi next week; oil still lost about 2.5% on the week.",
       "when": "All week",
-      "why": "Oil prices drive gas costs and inflation in Canada, and with them the Bank of Canada's next rate move."
-    },
-    {
-      "headline": "Ottawa threatens to sue Stellantis over Brampton sale, then offers a package to stop it",
-      "id": "stellantis-brampton-roshel-sale",
       "impactLevel": "high",
       "latestDate": "2026-11-14",
-      "rank": 3,
-      "region": "ontario",
-      "what": "Stellantis announced the sale of its idled Brampton plant to armoured-vehicle maker Roshel on Monday. By Thursday Ottawa had started a 30-day default clock and rejected a $24-million repayment offer; on Friday the federal and Ontario governments said they are pitching an 'aggressive package' to the company's global chief executive to keep the plant.",
-      "when": "Nov 9–13",
-      "why": "Laid-off GTA auto workers and hundreds of millions in public subsidies are at stake."
+      "headline": "Iran deal hopes fade; tankers reported hit by mines as oil still falls on the week",
+      "what": "Oil dipped below US$90 on hopes of a deal, rebounded when Trump said none was needed, and ended the week near US$96. Iran reported up to four tankers hit by mines, and Trump is said to be holding off on new strikes for now.",
+      "why": "Oil prices are driving inflation and interest rates in Canada, and gas prices in the GTA follow crude within days."
     },
     {
+      "rank": 3,
+      "id": "stellantis-brampton-roshel-sale",
+      "region": "ontario",
+      "when": "Nov 9–14",
+      "impactLevel": "high",
+      "latestDate": "2026-11-14",
+      "headline": "Ottawa threatens to sue Stellantis over Brampton sale, then offers a package to stop it",
+      "what": "Stellantis agreed to sell its idle Brampton plant to armoured-vehicle maker Roshel; Ottawa served a notice of default over $529 million in subsidy commitments, then joined Ontario in pitching a rescue package. Carney said Saturday that Ottawa is not satisfied with the company.",
+      "why": "Thousands of Peel Region auto and parts jobs, and hundreds of millions in public money, depend on the outcome."
+    },
+    {
+      "rank": 4,
       "id": "faa-nationwide-ground-stop",
       "region": "us",
       "when": "Nov 13–14",
       "impactLevel": "high",
+      "latestDate": "2026-11-14",
       "headline": "FAA stops all U.S. departures for more than four hours after network failure",
-      "what": "A communications failure at regional air traffic control centres led the FAA to halt departures nationwide for more than four hours on Friday, cancelling thousands of flights, including more than 120 U.S. flights at Toronto Pearson. Officials blamed old, overloaded equipment and said there was no sign of a cyberattack; cancellations continued Saturday.",
-      "why": "Cross-border travel from the GTA was cut off for an evening, and the backlog ran through the weekend.",
-      "rank": 4,
-      "latestDate": "2026-11-14"
+      "what": "An overloaded router during contractor work halted U.S. departures on Friday; about 12,000 flights could not be completed and thousands more were cancelled Saturday. Pearson lost more than 120 cross-border flights.",
+      "why": "Cross-border travel from Toronto was disrupted through the weekend, and the failure has renewed pressure to modernize U.S. air traffic control."
     },
     {
+      "rank": 5,
+      "id": "canada-extends-tariff-relief-program-beyond",
+      "region": "canada",
+      "when": "Nov 10–14",
+      "impactLevel": "high",
+      "latestDate": "2026-11-14",
+      "headline": "Carney says U.S. trade deal is closer but must keep auto sector viable",
+      "what": "After a call with Trump and his trade team, Carney said talks are progressing but that Canada will not sign a deal that undermines its auto industry. Earlier in the week Ottawa widened tariff relief and its ambassador warned tariffs are chilling investment.",
+      "why": "The terms on autos will shape manufacturing jobs across Ontario."
+    },
+    {
+      "rank": 6,
+      "id": "us-wholesale-inflation-october",
+      "region": "us",
+      "when": "Nov 13",
+      "impactLevel": "high",
+      "latestDate": "2026-11-14",
+      "headline": "U.S. wholesale inflation reaches 6.5%, highest since 2022",
+      "what": "Producer prices rose 6.5% from a year earlier in October; U.S. stocks slipped Friday but still gained more than 2% on the week.",
+      "why": "The data keeps the Federal Reserve, and by extension the Bank of Canada, leaning toward higher interest rates in December."
+    },
+    {
+      "rank": 7,
+      "id": "nvidia-stock-tanks-report-second-huang",
+      "region": "us",
+      "when": "Nov 10–13",
+      "impactLevel": "medium",
+      "latestDate": "2026-11-14",
+      "headline": "Nvidia's Jensen Huang resigns; scandal puts Commerce Secretary Lutnick under pressure",
+      "what": "Huang stepped down as chief executive amid a scandal over chip sales to a firm suspected of supplying China, and Treasury Secretary Bessent publicly blamed Lutnick's department for delays in restricting the sales.",
+      "why": "Nvidia is one of the largest holdings in index funds and pensions, and the affair has reached Trump's cabinet."
+    },
+    {
+      "rank": 8,
       "id": "carney-raise-foreign-interference-concerns-meeting",
       "region": "canada",
       "when": "Nov 14",
       "impactLevel": "medium",
+      "latestDate": "2026-11-14",
       "headline": "Canada and the Philippines conclude free-trade negotiations",
-      "what": "Carney and President Marcos announced in Manila on Saturday that talks on a bilateral free trade agreement are finished, with a signing targeted for 2027 and a goal of tripling trade to more than $10 billion a year by 2035. Ottawa says talks with the wider Southeast Asian bloc are substantially concluded.",
-      "why": "It is a concrete step in Ottawa's effort to depend less on the U.S. market, though no tariffs change until the deal is signed and ratified.",
-      "rank": 5,
-      "latestDate": "2026-11-14"
-    },
-    {
-      "headline": "U.S. wholesale inflation reaches 6.5%, highest since 2022",
-      "id": "us-wholesale-inflation-october",
-      "impactLevel": "high",
-      "latestDate": "2026-11-14",
-      "rank": 6,
-      "region": "us",
-      "what": "U.S. producer prices rose 0.3% in October and 6.5% over the year. The S&P 500 fell 0.4% and the Nasdaq 0.9% on Friday as investors weighed a possible Federal Reserve rate increase in December, though both still gained more than 2% on the week.",
-      "when": "Nov 13",
-      "why": "Higher U.S. rates tend to pull Canadian mortgage and bond rates up with them."
-    },
-    {
-      "headline": "Nvidia's Jensen Huang resigns; scandal puts Commerce Secretary Lutnick under pressure",
-      "id": "nvidia-stock-tanks-report-second-huang",
-      "impactLevel": "medium",
-      "latestDate": "2026-11-14",
-      "rank": 7,
-      "region": "us",
-      "what": "Huang quit as chief executive on Thursday after reports about a relationship with a woman U.S. officials reportedly believe worked for Chinese intelligence; finance chief Colette Kress is interim CEO. On Friday Treasury Secretary Scott Bessent blamed Howard Lutnick's Commerce Department for being slow to restrict chip sales to a firm suspected of supplying China, and CNN reported Trump advisers have discussed removing Lutnick.",
-      "when": "Nov 10–13",
-      "why": "Nvidia is among the most widely held stocks in Canadian pension and index funds, and the case may tighten U.S. chip export rules."
-    },
-    {
-      "headline": "Ontario names 'strong chairs' for eight regions, including York and Peel",
-      "id": "doug-ford-names-hand-picked-regional",
-      "impactLevel": "high",
-      "latestDate": "2026-11-12",
-      "rank": 8,
-      "region": "ontario",
-      "what": "The province appointed regional heads with powers to veto some bylaws, propose budgets and hire or fire senior staff, among them Vaughan Mayor Steven Del Duca in York; several mayors and a replaced chair objected.",
-      "when": "Nov 10–11",
-      "why": "The appointees, not voters, now steer budgets and property-tax decisions across most of the GTA from Nov. 15."
+      "what": "Carney and President Marcos announced in Manila that talks are complete, with signing targeted for 2027; Ottawa says a wider deal with Southeast Asian nations is substantially concluded.",
+      "why": "It is the first concrete result of Ottawa's push to rely less on the U.S. market."
     }
   ]
 }
