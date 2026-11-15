@@ -1,97 +1,97 @@
 {
-  "updatedAt": "2026-11-15T02:08:20-05:00",
-  "rangeStart": "2026-11-09",
+  "headline": "Flight chaos, a Microsoft outage and a fight over Brampton's auto plant",
   "rangeEnd": "2026-11-15",
-  "headline": "Iran's tanker-mine claims climb to as many as seven; Trump said to be holding off on strikes",
-  "summary": "The stories that stayed in the briefing most this week: Iran's tanker-mine claims climb to as many as seven; Trump said to be holding off on strikes; Peltola edges up to 49.9% in Alaska as count nears its end; race still uncalled; Carney: U.S. trade deal is closer, but not without a viable auto sector.",
+  "rangeStart": "2026-11-09",
+  "summary": "Two technology failures hit daily life: a Microsoft outage that cut email at Toronto hospitals and a U.S. air traffic breakdown that cancelled thousands of flights. Ottawa moved against Stellantis over the sale of its Brampton plant while Carney tied any U.S. trade deal to autos. Abroad, the Strait of Hormuz stayed largely shut, and late U.S. election calls widened Democrats' gains.",
   "top": [
     {
-      "rank": 1,
+      "headline": "Hormuz stays mined and blockaded; Iran claims drone attacks on U.S. assets in Bahrain",
       "id": "iran-hormuz",
-      "region": "world",
-      "when": "All week",
       "impactLevel": "high",
-      "latestDate": "2026-11-14",
-      "headline": "Iran's tanker-mine claims climb to as many as seven; Trump said to be holding off on strikes",
-      "what": "Iranian forces now say between five and seven tankers have struck mines and caught fire in and near the Strait of Hormuz within about a day, and claim to have shot down a second U.S. drone in two days; none of this has been independently confirmed. Reuters-sourced reports say President Trump has told advisers he may hold off on attacking Iran unless there are new provocations.",
-      "why": "In the briefing on 6 of the last 7 days."
+      "latestDate": "2026-11-15",
+      "rank": 1,
+      "region": "world",
+      "what": "Iran reported a growing number of tankers striking mines in the Strait of Hormuz, as many as seven in a day by its own unconfirmed count, and twice in three days claimed drone attacks on U.S. military assets in Bahrain, which Bahrain said it intercepted. Brent crude still fell about 2.5% on the week to near US$96 a barrel, and Trump was reported to be leaning against new strikes unless provoked.",
+      "when": "All week",
+      "why": "The strait's closure is the main force behind high fuel prices and the inflation that has central banks raising rates."
     },
     {
+      "headline": "Nationwide FAA ground stop cancels thousands of flights, including Toronto's U.S. routes",
+      "id": "faa-nationwide-ground-stop",
+      "impactLevel": "high",
+      "latestDate": "2026-11-15",
       "rank": 2,
-      "id": "us-midterms",
       "region": "us",
-      "when": "All week",
-      "impactLevel": "high",
-      "latestDate": "2026-11-14",
-      "headline": "Peltola edges up to 49.9% in Alaska as count nears its end; race still uncalled",
-      "what": "Alaska counted more ballots on Saturday, leaving Democrat Mary Peltola at about 49.9% against Republican Sen. Dan Sullivan's 46% in the last uncalled U.S. Senate race, a fraction short of the 50% needed to win outright. The Associated Press has already called Alaska's governorship for Democrat Jonathan Kreiss-Tomkins.",
-      "why": "In the briefing on 6 of the last 7 days."
+      "what": "A network failure halted all U.S. departures for more than four hours on Friday, the longest such stop since 2001; reports put cancellations above 14,000 over Friday and Saturday, and Air Canada said about 27,000 of its passengers were affected on Friday alone. Officials blame a router installed during a contractor's fibre upgrade and expect normal schedules by the end of Sunday.",
+      "when": "Nov 13–15",
+      "why": "It stranded GTA travellers on cross-border routes and exposed how fragile U.S. air traffic control equipment is."
     },
     {
+      "headline": "Ottawa starts 30-day default clock on Stellantis over Brampton plant sale",
+      "id": "stellantis-brampton-roshel-sale",
+      "impactLevel": "high",
+      "latestDate": "2026-11-15",
       "rank": 3,
+      "region": "ontario",
+      "what": "After Stellantis agreed to sell its idled Brampton assembly plant to armoured-vehicle maker Roshel, Ottawa served a notice of default on its subsidy agreement and, with Ontario, offered a package to stop the sale. Carney said Saturday the government is not satisfied with the company.",
+      "when": "Nov 12–14",
+      "why": "Thousands of laid-off Brampton auto workers and up to $529 million in public commitments are at stake."
+    },
+    {
+      "headline": "Carney says U.S. trade deal is closer but autos are a red line",
       "id": "canada-extends-tariff-relief-program-beyond",
-      "region": "canada",
-      "when": "Nov 9–14",
       "impactLevel": "high",
-      "latestDate": "2026-11-14",
-      "headline": "Carney: U.S. trade deal is closer, but not without a viable auto sector",
-      "what": "Speaking in Manila on Saturday, Prime Minister Mark Carney said talks with Washington are making progress and a two-country deal is possible, but that Canada is not there yet. He said he will not sign any agreement that fails to keep Canada's auto industry viable.",
-      "why": "In the briefing on 5 of the last 7 days."
-    },
-    {
+      "latestDate": "2026-11-15",
       "rank": 4,
-      "id": "carney-raise-foreign-interference-concerns-meeting",
       "region": "canada",
-      "when": "Nov 10–14",
-      "impactLevel": "medium",
-      "latestDate": "2026-11-14",
-      "headline": "Canada and the Philippines finish free-trade talks; signing targeted for 2027",
-      "what": "Prime Minister Mark Carney and Philippine President Ferdinand Marcos Jr. announced in Manila on Saturday that negotiations on a Canada-Philippines free trade agreement are complete, with both sides aiming to sign it next year. Ottawa also says talks on a wider deal with the Southeast Asian bloc are substantially concluded, though that agreement is not yet final.",
-      "why": "In the briefing on 5 of the last 7 days."
+      "what": "The prime minister said in Manila that a two-country deal is possible but not yet done, and that Canada will not sign one that leaves its auto sector unviable. U.S. Democrats, who take over Congress in January, say they will try to repeal tariffs on Canada but cannot override a veto.",
+      "when": "Nov 9–14",
+      "why": "Tariffs on autos and steel are the biggest threat to Ontario manufacturing jobs, with new vehicle tariffs threatened for January."
     },
     {
-      "rank": 5,
-      "id": "european-diplomats-press-rubio-role-russia",
-      "region": "world",
-      "when": "Nov 10–14",
-      "impactLevel": "medium",
-      "latestDate": "2026-11-14",
-      "headline": "Washington plays down Zelenskyy's account of a Donbas-for-NATO idea",
-      "what": "After Ukrainian President Volodymyr Zelenskyy said U.S. negotiators asked whether Ukraine would leave the eastern Donbas region in exchange for joining NATO, a U.S. official said many ideas are under discussion and U.S. envoy Jared Kushner said questions about Europe's security set-up should wait until the war is over. European Union leaders agreed that Britain, France, Germany, Italy and Poland, with EU officials, will represent Europe in future talks.",
-      "why": "In the briefing on 5 of the last 7 days."
-    },
-    {
-      "rank": 6,
-      "id": "post-secondary-students-across-ontario-walk",
-      "region": "ontario",
-      "when": "Nov 9–13",
-      "impactLevel": "medium",
-      "latestDate": "2026-11-13",
-      "headline": "Ontario plans OSAP caps and online-program ban for private career colleges",
-      "what": "Colleges Minister Nolan Quinn on Thursday outlined legislation that would limit how fast OSAP-funded enrolment can grow at private career colleges and cut off student aid for programs taught mainly online. The bill is expected to be tabled Monday.",
-      "why": "In the briefing on 4 of the last 7 days."
-    },
-    {
-      "rank": 7,
-      "id": "nvidia-stock-tanks-report-second-huang",
-      "region": "us",
-      "when": "Nov 11–14",
-      "impactLevel": "medium",
-      "latestDate": "2026-11-14",
-      "headline": "Democratic senator says Lutnick 'must go' as Republican unease over Nvidia scandal grows",
-      "what": "Sen. Richard Blumenthal of Connecticut called for Commerce Secretary Howard Lutnick to leave over delayed export curbs on an Nvidia customer, and Republican Sen. John Curtis questioned whether the department is acting in Americans' interest. There is no sign that President Trump has withdrawn his support.",
-      "why": "In the briefing on 4 of the last 7 days."
-    },
-    {
-      "rank": 8,
-      "id": "doug-ford-names-hand-picked-regional",
-      "region": "ontario",
-      "when": "Nov 10–12",
+      "headline": "Late calls extend Democratic gains; Alaska Senate race still open",
+      "id": "us-midterms",
       "impactLevel": "high",
-      "latestDate": "2026-11-12",
-      "headline": "Ousted Muskoka chair 'deeply disappointed' as backlash to Ford's regional picks grows",
-      "what": "A day after Ontario named eight regional heads with 'strong chair' powers, Muskoka's replaced chair Jeff Lehman voiced his disappointment and Markham's mayor kept up criticism of Steven Del Duca's York appointment.",
-      "why": "In the briefing on 3 of the last 7 days."
+      "latestDate": "2026-11-15",
+      "rank": 5,
+      "region": "us",
+      "what": "Democrats added the Kansas and Alaska governorships and Mississippi's Senate seat as counting finished, bringing them to 30 governors. In Alaska's Senate race, Mary Peltola leads Sen. Dan Sullivan with about 49.9% of the vote, just short of an outright win, and a ranked-choice count is set for Nov. 18.",
+      "when": "All week",
+      "why": "A larger Democratic majority in Congress from January shapes U.S. policy on tariffs, spending and oversight of the Trump administration."
+    },
+    {
+      "headline": "Nvidia scandal topples Huang and puts Commerce Secretary Lutnick under pressure",
+      "id": "nvidia-stock-tanks-report-second-huang",
+      "impactLevel": "medium",
+      "latestDate": "2026-11-15",
+      "rank": 6,
+      "region": "us",
+      "what": "Nvidia's shares sank and Jensen Huang stepped down as chief executive over chip sales to Megaspeed International, and the fallout reached cabinet as Treasury Secretary Scott Bessent pointed at the Commerce Department. A Democratic senator has called for Howard Lutnick to go and some Republicans are critical, though the president still backs him.",
+      "when": "Nov 11–14",
+      "why": "Nvidia is one of the most widely held stocks in Canadian retirement and index funds, and the affair touches U.S. export controls on China."
+    },
+    {
+      "headline": "Microsoft outage knocks out email at Toronto hospitals, schools and governments",
+      "id": "code-grey-declared-toronto-hospital-network",
+      "impactLevel": "medium",
+      "latestDate": "2026-11-14",
+      "rank": 7,
+      "region": "ontario",
+      "what": "A worldwide failure of Outlook, Teams and other Microsoft services began Thursday, prompting a Code Grey at Unity Health Toronto and disrupting universities, city hall, federal departments and VIA Rail. Microsoft declared everything restored early Saturday and blamed a network upgrade.",
+      "when": "Nov 12–14",
+      "why": "It showed how much hospitals and public services rely on a single company's online systems."
+    },
+    {
+      "headline": "Ukraine talks end without a land deal; Zelenskyy says U.S. floated Donbas-for-NATO swap",
+      "id": "european-diplomats-press-rubio-role-russia",
+      "impactLevel": "medium",
+      "latestDate": "2026-11-15",
+      "rank": 8,
+      "region": "world",
+      "what": "U.S.-brokered talks in Abu Dhabi produced a prisoner exchange of more than 1,000 people but no agreement on territory. Zelenskyy said American envoys raised trading parts of the Donbas for NATO membership, which Washington has not confirmed, and EU leaders named a five-country team to represent Europe.",
+      "when": "Nov 10–14",
+      "why": "Any settlement would reshape European security and Canada's NATO and aid commitments."
     }
-  ]
+  ],
+  "updatedAt": "2026-11-15T05:56:23-05:00"
 }
