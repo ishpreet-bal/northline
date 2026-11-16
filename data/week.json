@@ -1,97 +1,97 @@
 {
-  "updatedAt": "2026-11-16T02:13:24-05:00",
+  "updatedAt": "2026-11-16T05:57:27-05:00",
   "rangeStart": "2026-11-10",
   "rangeEnd": "2026-11-16",
-  "headline": "Oil opens steady after Iran's claimed drone attack on a U.S. base in Bahrain",
-  "summary": "The stories that stayed in the briefing most this week: Oil opens steady after Iran's claimed drone attack on a U.S. base in Bahrain; Peltola claims victory in Alaska; race still uncalled ahead of Wednesday's ranked-choice count; Carney and Quebec's premier agree to talk regularly; premier defends his own U.S. outreach.",
+  "headline": "A U.S. air travel meltdown, an auto-sector fight and a steadying oil market",
+  "summary": "A network failure grounded U.S. departures on Friday and disrupted cross-border flights through the weekend. In Canada, the week turned on autos: Ottawa started a default clock on Stellantis over the Brampton plant sale, and Carney said a U.S. trade deal is closer but named Chinese automakers as a fallback. Oil eased despite continued Iranian attacks, and Nvidia's chief executive resigned in a China export scandal.",
   "top": [
     {
       "rank": 1,
+      "id": "faa-nationwide-ground-stop",
+      "region": "us",
+      "when": "Nov 13–16",
+      "impactLevel": "high",
+      "latestDate": "2026-11-16",
+      "headline": "Nationwide FAA ground stop cancels thousands of flights, including at Pearson",
+      "what": "A network failure traced to a router in Arkansas halted U.S. departures for hours on Friday, with more than 9,000 cancellations that day and thousands more over the weekend; Air Canada cancelled about 250 flights. Flights are near normal by Monday, and a fight over a US$50-billion repair request is under way in Congress.",
+      "why": "It was the most direct disruption of the week for GTA travellers and exposed how fragile cross-border air travel can be."
+    },
+    {
+      "rank": 2,
       "id": "iran-hormuz",
       "region": "world",
       "when": "All week",
       "impactLevel": "high",
-      "latestDate": "2026-11-15",
-      "headline": "Oil opens steady after Iran's claimed drone attack on a U.S. base in Bahrain",
-      "what": "Oil prices were little changed when trading resumed Sunday evening, with Brent crude just under US$96 a barrel, after Iran's Revolutionary Guards said they sent drones at a U.S. radar at a helicopter base in Bahrain. Bahrain says it shot the attacks down, and Iran's claims have not been independently verified.",
-      "why": "In the briefing on 6 of the last 7 days."
-    },
-    {
-      "rank": 2,
-      "id": "us-midterms",
-      "region": "us",
-      "when": "All week",
-      "impactLevel": "high",
-      "latestDate": "2026-11-15",
-      "headline": "Peltola claims victory in Alaska; race still uncalled ahead of Wednesday's ranked-choice count",
-      "what": "Democrat Mary Peltola's campaign has declared victory in Alaska's U.S. Senate race, where she holds about 49.9% of first-choice votes to Republican Sen. Dan Sullivan's 46%. The Associated Press has not called the race, and a ranked-choice tabulation is set for Wednesday if no one tops 50%.",
-      "why": "In the briefing on 6 of the last 7 days."
+      "latestDate": "2026-11-16",
+      "headline": "Iran war: attacks on Bahrain and tankers continue while oil drifts lower",
+      "what": "Iran claimed drone attacks on a U.S. radar in Bahrain and a string of tanker mine incidents, and a tanker was hit by a projectile leaving the Strait of Hormuz on Monday. Oil still fell about 2.5% on the week, with Brent near US$96, as forecasters see supply exceeding demand.",
+      "why": "Oil prices feed straight into Ontario gasoline, heating and grocery costs, and into the Bank of Canada's rate decisions."
     },
     {
       "rank": 3,
-      "id": "carney-raise-foreign-interference-concerns-meeting",
-      "region": "canada",
-      "when": "All week",
-      "impactLevel": "medium",
-      "latestDate": "2026-11-15",
-      "headline": "Carney and Quebec's premier agree to talk regularly; premier defends his own U.S. outreach",
-      "what": "Prime Minister Mark Carney and Quebec Premier Paul St-Pierre Plamondon held their first meeting on Sunday at the summit of French-speaking countries in Phnom Penh, with reports putting its length at 30 to 45 minutes. St-Pierre Plamondon, whose Parti Québécois government favours independence, called it positive but said Quebec will keep making its own case to U.S. lawmakers.",
-      "why": "In the briefing on 6 of the last 7 days."
-    },
-    {
-      "rank": 4,
-      "id": "european-diplomats-press-rubio-role-russia",
-      "region": "world",
-      "when": "All week",
-      "impactLevel": "medium",
-      "latestDate": "2026-11-15",
-      "headline": "Zelenskyy says Tuesday's allied arms meeting must deliver as air attacks continue",
-      "what": "Ukrainian President Volodymyr Zelenskyy said Sunday night that Tuesday's meeting of Ukraine's military backers in Brussels has to produce results, above all air defence missiles. Russia and Ukraine traded air attacks again on Sunday, days after U.S.-brokered talks ended without a breakthrough.",
-      "why": "In the briefing on 6 of the last 7 days."
-    },
-    {
-      "rank": 5,
       "id": "canada-extends-tariff-relief-program-beyond",
       "region": "canada",
       "when": "Nov 10–15",
       "impactLevel": "high",
-      "latestDate": "2026-11-15",
-      "headline": "Carney: U.S. trade deal is closer, but not without a viable auto sector",
-      "what": "Speaking in Manila on Saturday, Prime Minister Mark Carney said talks with Washington are making progress and a two-country deal is possible, but that Canada is not there yet. He said he will not sign any agreement that fails to keep Canada's auto industry viable.",
-      "why": "In the briefing on 5 of the last 7 days."
+      "latestDate": "2026-11-16",
+      "headline": "Carney says a U.S. trade deal is closer, and names Chinese automakers as a fallback",
+      "what": "Carney said talks with Washington are progressing but that he will not sign a deal that leaves Canada's auto sector unviable. On Sunday he said Canada could turn to Chinese, European or Japanese carmakers if the talks fail.",
+      "why": "The outcome decides tariffs on Ontario-built vehicles and the future of tens of thousands of auto jobs."
     },
     {
-      "rank": 6,
+      "rank": 4,
+      "id": "stellantis-brampton-roshel-sale",
+      "region": "ontario",
+      "when": "Nov 12–14",
+      "impactLevel": "high",
+      "latestDate": "2026-11-16",
+      "headline": "Ottawa starts 30-day default clock on Stellantis over Brampton plant sale",
+      "what": "After Stellantis agreed to sell its idled Brampton assembly plant to armoured-vehicle maker Roshel, Ottawa formally put the company on notice under its subsidy agreement. The federal and Ontario governments are seeking a meeting with chief executive Antonio Filosa to try to stop or slow the sale.",
+      "why": "The plant's fate affects thousands of Brampton-area auto workers and suppliers."
+    },
+    {
+      "rank": 5,
       "id": "nvidia-stock-tanks-report-second-huang",
       "region": "us",
       "when": "Nov 11–15",
       "impactLevel": "medium",
-      "latestDate": "2026-11-15",
-      "headline": "Bessent urges Nvidia to hire an outside CEO as reports say Huang is weighing a return",
-      "what": "Treasury Secretary Scott Bessent said Sunday that Nvidia needs a dramatic shakeup and should bring in a chief executive from outside the company, and again blamed the Commerce Department for not restricting a chip buyer linked to China. The Financial Times reported that former chief executive Jensen Huang has discussed a comeback with allies who are lobbying the board.",
-      "why": "In the briefing on 5 of the last 7 days."
+      "latestDate": "2026-11-16",
+      "headline": "Nvidia's Jensen Huang resigns amid China chip-export scandal",
+      "what": "Nvidia's chief executive stepped down after reports tied the company's chip sales to a Singapore-based buyer linked to China, and the fallout reached Commerce Secretary Howard Lutnick. The buyer, Megaspeed, said Sunday it has opened an internal probe; Nvidia reports results Tuesday.",
+      "why": "Nvidia is one of the largest holdings in index funds and pension plans, so its turmoil moves Canadians' retirement savings."
+    },
+    {
+      "rank": 6,
+      "id": "us-midterms",
+      "region": "us",
+      "when": "All week",
+      "impactLevel": "high",
+      "latestDate": "2026-11-16",
+      "headline": "Midterm aftermath: Peltola nears Alaska win as Democrats prepare to take Congress",
+      "what": "Democrat Mary Peltola leads Alaska's Senate race with about 49.9% of first-choice votes ahead of Wednesday's ranked-choice count, which would give Democrats 56 Senate seats. Democrats take control of both chambers in January.",
+      "why": "A Democratic Congress changes the politics of U.S. tariffs on Canada, though it cannot override a presidential veto alone."
     },
     {
       "rank": 7,
-      "id": "stellantis-brampton-roshel-sale",
-      "region": "ontario",
-      "when": "Nov 12–15",
+      "id": "inflation-expected-stay-high-economists-weigh",
+      "region": "canada",
+      "when": "Nov 13–16",
       "impactLevel": "high",
-      "latestDate": "2026-11-15",
-      "headline": "Ottawa and Ontario still seeking Stellantis CEO meeting as Brampton plant sale clock runs",
-      "what": "Prime Minister Mark Carney said Saturday that his government is not satisfied with Stellantis's approach in Canada, and tied the future of the auto sector to trade talks with Washington. Ottawa and Ontario are still waiting to put their package to stop the Brampton plant sale to global chief executive Antonio Filosa.",
-      "why": "In the briefing on 4 of the last 7 days."
+      "latestDate": "2026-11-16",
+      "headline": "Canada awaits October inflation, with forecasts of 3.0% to 3.3%",
+      "what": "Economists expect Monday's Statistics Canada report to show inflation near September's 3.1%. It is the last reading before the Bank of Canada's Dec. 9 decision, where another rate hike is possible.",
+      "why": "The number shapes mortgage and loan rates for Ontario households."
     },
     {
       "rank": 8,
-      "id": "doug-ford-names-hand-picked-regional",
-      "region": "ontario",
-      "when": "Nov 10–12",
-      "impactLevel": "high",
-      "latestDate": "2026-11-12",
-      "headline": "Ousted Muskoka chair 'deeply disappointed' as backlash to Ford's regional picks grows",
-      "what": "A day after Ontario named eight regional heads with 'strong chair' powers, Muskoka's replaced chair Jeff Lehman voiced his disappointment and Markham's mayor kept up criticism of Steven Del Duca's York appointment.",
-      "why": "In the briefing on 3 of the last 7 days."
+      "id": "european-diplomats-press-rubio-role-russia",
+      "region": "world",
+      "when": "Nov 12–15",
+      "impactLevel": "medium",
+      "latestDate": "2026-11-16",
+      "headline": "Ukraine talks end without breakthrough as air attacks continue",
+      "what": "U.S.-brokered talks ended without agreement, and Zelenskyy said American negotiators raised the idea of Ukraine leaving the Donbas in exchange for NATO membership, which Washington has not confirmed. Ukraine's arms donors meet in Brussels on Tuesday.",
+      "why": "The war's course affects global energy and food prices and Canada's defence commitments."
     }
   ]
 }
