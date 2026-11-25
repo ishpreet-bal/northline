@@ -1,47 +1,47 @@
 {
-  "updatedAt": "2026-11-25T03:51:22-05:00",
-  "nextRefresh": "around 4:22 AM",
+  "updatedAt": "2026-11-25T14:26:28-05:00",
+  "nextRefresh": "around 3:22 PM",
   "generatedBy": "feeds (no AI)",
-  "headline": "Bitcoin $59,300 (−1.6%) · S&P 500 −0.50% · TSX −0.35% · oil $80.63",
-  "summary": "The S&P 500 is down 0.50% at about 7,201, the Nasdaq down 1.48%, the TSX down 0.35% at about 33,962 (last close). U.S. crude is $80.63 (−1.7%), gold $3,562, the 10-year yield 4.90%, the loonie 70.03 U.S. cents. Bitcoin is about $59,300 (−1.6% over 24 hours, −9.2% this week), ether about $1,650 (−2.6%), and all crypto together is worth about $2.06 trillion; Fear & Greed is 13 (Extreme Fear).",
+  "headline": "Bitcoin $60,208 (+0.6%) · S&P 500 −0.22% · TSX +0.53% · oil $83.53",
+  "summary": "The S&P 500 is down 0.22% at about 7,185, the Nasdaq down 0.68%, the TSX up 0.53% at about 34,142. U.S. crude is $83.53 (+1.8%), gold $3,575, the 10-year yield 4.84%, the loonie 70.45 U.S. cents. Bitcoin is about $60,208 (+0.6% over 24 hours, −5.3% this week), ether about $1,693 (+0.9%), and all crypto together is worth about $2.08 trillion; Fear & Greed is 13 (Extreme Fear).",
   "mood": {
     "crypto": {
       "label": "Fearful",
-      "why": "Bitcoin is down 1.6% over 24 hours and down 9.2% this week, and the Fear & Greed index reads 13 (Extreme Fear)."
+      "why": "Bitcoin is up 0.6% over 24 hours and down 5.3% this week, and the Fear & Greed index reads 13 (Extreme Fear)."
     },
     "stocks": {
       "label": "Mixed",
-      "why": "The S&P 500 is down 0.50%, the VIX volatility gauge is 27.7 and the 10-year Treasury yield is 4.90%."
+      "why": "The S&P 500 is down 0.22%, the VIX volatility gauge is 27.7 and the 10-year Treasury yield is 4.84%."
     }
   },
   "drivers": [
     {
-      "title": "Trump willing to pardon Jensen Huang, says it won’t be necessary",
-      "detail": "The president’s remarks come days before Jensen Huang is due to face congressional questioning over national security concerns and US chip export controls. (Cointelegraph, CoinDesk are covering it.)",
+      "title": "Ukraine Passes Law to Legalize and Tax Its Crypto Market From July 2027",
+      "detail": "The law taxes crypto profits at 18% plus a 5% military levy, cuts the rate for older holdings and puts stablecoins under the central bank. (Decrypt, The Block, Cointelegraph are covering it.)",
       "effect": "mixed",
-      "assets": "Tech and chip stocks"
+      "assets": "Crypto, Banks"
     },
     {
-      "title": "EU seeks up to $55B for AI and quantum computing fund: Report",
-      "detail": "Hackers already use AI to target crypto exchanges, while future quantum computers could break the cryptography that protects users’ funds. (Cointelegraph.)",
+      "title": "Nvidia agrees to $290 million settlement over crypto mining disclosures amid Jensen Huang turmoil",
+      "detail": "Nvidia agreed to a $290M settlement over claims it misled investors about crypto mining demand driving 2017–18 gaming GPU sales. (The Block, Cointelegraph are covering it.)",
+      "effect": "mixed",
+      "assets": "Crypto, Tech and chip stocks, Oil, energy stocks"
+    },
+    {
+      "title": "Elon Musk’s X Wins Court Judgment Against Alleged Bitcoin Bot Farm Operators",
+      "detail": "London’s High Court entered a default judgment against Vivek Kumar Sen and Zamyang Sherpa after they failed to respond, though damages, which X estimates at over £207,000, won’t be set until a later hearing. (Decrypt, The Block are covering it.)",
+      "effect": "mixed",
+      "assets": "Bitcoin"
+    },
+    {
+      "title": "Japan’s SBI, SMFG launch Solana venture for stablecoins, tokenization",
+      "detail": "SBI Solana Global plans to develop stablecoin payment infrastructure, explore AI agent micropayments and tokenize financial assets. (Cointelegraph, The Block are covering it.)",
       "effect": "mixed",
       "assets": "Crypto, Tech and chip stocks"
     },
     {
-      "title": "Live updates: Bitcoin slips back under $60,000 as HYPE leads altcoins lower",
-      "detail": "HYPE fell 8% and SOL 5%, and one analyst said a recovery will need selling in stocks to ease first, with U.S. inflation data due before Thanksgiving. (CoinDesk.)",
-      "effect": "bearish",
-      "assets": "Bitcoin, Crypto, U.S. stocks"
-    },
-    {
-      "title": "Ark sells $6.8 million in its own bitcoin ETF as BTC dips below $59,000",
-      "detail": "Cathie Wood's Ark Invest sold its own Ark 21Shares bitcoin ETF on Tuesday amid a broader crypto market downturn. (The Block.)",
-      "effect": "mixed",
-      "assets": "Bitcoin, Crypto, U.S. stocks"
-    },
-    {
-      "title": "South Korea’s crypto bill could move stablecoin race beyond token issuance",
-      "detail": "South Korea’s draft bill favors bank-led stablecoin issuance but allows fintech and technology companies to become the largest individual shareholders. (Cointelegraph.)",
+      "title": "Hong Kong launches tokenized debt platform with 24-hour settlement",
+      "detail": "The HKMA’s new platform supports settlement in multiple currencies and handles debt issuance, interest payments and repayment at maturity. (Cointelegraph, The Block are covering it.)",
       "effect": "mixed",
       "assets": "Crypto, Banks"
     }
@@ -51,29 +51,29 @@
       "id": "bitcoin",
       "symbol": "BTC",
       "name": "Bitcoin",
-      "move": "Down 1.6% in 24h and down 9.2% this week, at about $59,300 (down 26% over 30 days)",
-      "why": "Recent coverage: “Bitcoin Price Forecast: BTC risks fresh yearly low ahead of US PCE” (FXStreet); “Cardano News: Hoskinson Says Bitcoin Would Be $250K if CLARITY Act Had Passed” (Coinpedia); “Bitcoin Drops Over 2% Ahead of US October PCE, Faces Test of $50,000” (TradingKey).",
-      "meaning": "It is 53% below its all-time high of $126,080 and has a market value of about $1.19 trillion. The downtrend over the past month is the bigger picture to keep in mind.",
+      "move": "Up 0.6% in 24h and down 5.3% this week, at about $60,208 (down 26% over 30 days)",
+      "why": "Recent coverage: “CleanSpark is selling Bitcoin to fund its AI expansion as annual losses approach $1 billion” (CryptoSlate); “Is the Anthropic IPO to Blame for Bitcoin's Recent Downturn? The Answer Might Surprise You.” (The Globe and Mail); “Bitcoin briefly slips below $58K as hot PCE inflation fuels Fed rate hike bets” (www.tmgm.com).",
+      "meaning": "It is 52% below its all-time high of $126,080 and has a market value of about $1.21 trillion. The downtrend over the past month is the bigger picture to keep in mind.",
       "outlook": {
         "lean": "unclear",
         "confidence": "low",
         "horizon": "next few days",
-        "bullCase": "Breaking above the 24-hour high of about $60,524 would show buyers in control; the next reference is about $65,342, where it traded a week ago.",
-        "bearCase": "Falling below the 24-hour low of about $58,601 would point to more selling.",
+        "bullCase": "Breaking above the 24-hour high of about $60,001 would show buyers in control; the next reference is about $63,581, where it traded a week ago.",
+        "bearCase": "Falling below the 24-hour low of about $57,308 would point to more selling.",
         "watch": "Daily ETF flows, the Fed and U.S. bond yields, and whether price holds its 24-hour range."
       },
       "sources": [
         {
-          "title": "FXStreet: Bitcoin Price Forecast: BTC risks fresh yearly low ahead of US PCE",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPLWlUdmNXTmtCZ25OS2YxLWNMTmUxR0NCN3RQOXdQTTlUV2FIWkxvZlZXamdvS0FWNV8zczJXTGx3dEpvanhhNHEtNnBENDhLbW4xc3hhc2k0bGpSU2ZveWVqSWdDQ3VjV0JDZVZRdGx1ckJySjVZQ1FFelRLM1RvM255OTg4WkNyWmxaQnpHZTlpYUpKTExyVHY5SnFFSFRfbE94R2haUDdDLVBiNlU2UHp5WWlQS3FFSDU1b0R3RUJiXzQ?oc=5"
+          "title": "CryptoSlate: CleanSpark is selling Bitcoin to fund its AI expansion as annual losses…",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPOFQtaXVQblRzU1h2M3BuNFdYWDNsamx5d1NEWnVCMU5MdGNzNXlsR1lHM1dfcDdQTjJ6bFRZY09fem03RkVRZ083aE1FRkhDU0NsdmF3MHNSSUFOR3UtSFdUOHBScFVSOWRYYUpfUUlrVUxVVTZjNWJxSEJDcUJ4RHU5R2JzdEVpc2EzamRNemh3OFh5ZXFaT292blI4dHI5U2FLY1d1WEpRQ0EwbWtpNlBRN1ZtQQ?oc=5"
         },
         {
-          "title": "Coinpedia: Cardano News: Hoskinson Says Bitcoin Would Be $250K if CLARITY Act Had Passed",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQV3l6YzdEaFMzcm52al9sby1lbVpMZTRqOU12RTRnS1JKYjJrZG40aFJNV1F2N2NpWWRtYU9ycktfeHRZWHRVckJza0pHNE8yMjdISzByLUdaR0p2TnNDVHdhbkhxOUwyU1Q5eENXV2diVi1fekVDVERFaWlPNFFVLU8yWUEyYjJPcGgwQU0wVnA5SzAyYlZ2VFFLd0FuS2hDRGptUU9n0gGrAUFVX3lxTFBsU09iLVNsdFc5SGZXcjVyQzlJYnpwUmt4dFhWTXo5OHN3VmVxSFpGWTEyLUhYd1dGajhsZFJJdXdLd19qbzU1Ti0xdWxiSUh6d1FWR3VFTlc0Sm1Rb19FYTFRdkJGR3ctc2xCZ0JJZFNvR21CRG51WUIxRGVOX0M4YWlpSEhHVDNreFNIV1E5VU1fU1liX3RtaS1iUnpnMlRGazc0YkJ5Z1d2RQ?oc=5"
+          "title": "The Globe and Mail: Is the Anthropic IPO to Blame for Bitcoin's Recent Downturn? The Answer…",
+          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQV09NZWY0YVJBVkNvdnVCRGFjd3dHWDBaVkRsVFo3blpUcThkdW1RZE0yeWVUZ0I2a3IxMllwb09yeFExZkdsVDFOUVJEYnRvSnhoblBFdFJ3eEJhbGJ2X0RrakE2Z3JJa1ZCckxjQjJHb1NmNmR1enhzZW4yc01iVS1mVndtbkF0OHlwTGlkNTZIWFZOaXV0LVdQMjhiNlJRTDNQaXY3QjN0Q2ZJY1lQVlYxMklCSkVYOFhPaXgyeTBCVmM3OExIdDVudk9fOWd3dDhESVlGUjVyNU40Yk9nMGtDRzlFaGNxZXhkYjZjSTlOQ0EtTllvWEFjdEdtQzQ2YVJn?oc=5"
         },
         {
-          "title": "TradingKey: Bitcoin Drops Over 2% Ahead of US October PCE, Faces Test of $50,000",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNQ1ZDUVZfbjVVaE91LXdsLVluSUlkbXI0Q0ZnQW9vVkNhTVkzZmx0RVdFYmk0TmhQaU8xN1ZFeXFOT3UyQVhucHNMazNYVDRvSWVqQjIyZWc0OVd0SzFtQlZmU0ZKdmV5Z1l2ZE54a3RaaU40dkRqTDhiQl9xQXlpM0FnbzBaQ0hIeGRJcnkzNE55QVFwbEd1UkNwNVcxREpLdS0tbzJZbnNVeTNZUURvMWlFaVdVZzQ?oc=5"
+          "title": "www.tmgm.com: Bitcoin briefly slips below $58K as hot PCE inflation fuels Fed rate hike bets",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQcVFqY2lqS2FrNDVobXl6Q2lUSzJyMElocWVZZW0yeVJxdFNCWEFyQVZlQ3VOVnI4U1Q5c2NnWjNrUlVsT2oxeHUwVnItWkhRcHdENUV4MzVxYi1Ec1Z5Z05TSzhKdDF3UTUzb2h5UVBfLWFzcHFIYkpSRkoyUnhfOUdUZDNuSnF4am1QX09tR3hUNEJTcXl1ZGJrQUx5YVI1VDlvYnhMVUxUeTR3a2dMRlZ2U2RUS1lHbDBEcXk1X25XTmJtLWNBNENMVThvREUxSHpPTXc5NHhZSkk?oc=5"
         },
         {
           "title": "CoinGecko: Bitcoin price and data",
@@ -85,29 +85,29 @@
       "id": "ethereum",
       "symbol": "ETH",
       "name": "Ethereum",
-      "move": "Down 2.6% in 24h and down 9.7% this week, at about $1,650 (down 29% over 30 days)",
-      "why": "Recent coverage: “Ethereum slides toward $1,650 as ETF outflows and rate fears return” (Traders Union); “Crypto ETF News Today: BlackRock Pulls $239M From BTC and ETH ETFs” (Coin Gabbar); “Ethereum holdings hit $10.4B as BitMine stakes 86%, but selling pressure keeps ETH below $2K.” (Pluang). Bitcoin moved −1.6% over the same 24 hours, so this looks like a market-wide move rather than coin-specific news.",
-      "meaning": "It is 67% below its all-time high of $4,946 and has a market value of about $201.7 billion. The downtrend over the past month is the bigger picture to keep in mind.",
+      "move": "Up 0.9% in 24h and down 4.9% this week, at about $1,693 (down 28% over 30 days)",
+      "why": "Recent coverage: “Ethereum vs Solana Circulating Stablecoin Supply” (The Block); “Ethereum price falls nearly 29% in a month amid $455M ETF outflows and failed rebound below $1,700” (Pluang); “Ethereum in the red: BitMine opens the checkbook despite a colossal loss” (Cointribune). Bitcoin moved +0.6% over the same 24 hours, so this looks like a market-wide move rather than coin-specific news.",
+      "meaning": "It is 66% below its all-time high of $4,946 and has a market value of about $207.0 billion. The downtrend over the past month is the bigger picture to keep in mind.",
       "outlook": {
         "lean": "unclear",
         "confidence": "low",
         "horizon": "next few days",
-        "bullCase": "Breaking above the 24-hour high of about $1,704 would show buyers in control; the next reference is about $1,828, where it traded a week ago.",
-        "bearCase": "Falling below the 24-hour low of about $1,636 would point to more selling.",
+        "bullCase": "Breaking above the 24-hour high of about $1,692 would show buyers in control; the next reference is about $1,781, where it traded a week ago.",
+        "bearCase": "Falling below the 24-hour low of about $1,610 would point to more selling.",
         "watch": "Daily ETF flows, the Fed and U.S. bond yields, and whether price holds its 24-hour range."
       },
       "sources": [
         {
-          "title": "Traders Union: Ethereum slides toward $1,650 as ETF outflows and rate fears return",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNS2RMQktYaXpLNUhONV9peHhLbXN5Ung4RlpkRXNPTlFOX1ZsWl80Ymk5WU1IZS1IbzU1Wmh1Q1VLRTIxaXVVZjJ3YkpEbVRwR3A3YlN3ZE9qckFpaG5yQ3RVb2VWazdUWHh2bThFQmtxcXlZbTE0VWUyNDcxUzF2b2pObVNLaGFLMWFyeFRLcHU0WkpadWc?oc=5"
+          "title": "The Block: Ethereum vs Solana Circulating Stablecoin Supply",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVE9RWkxyV3dOckp4N2JxOEx2bjZqc3NjSXcxSWhnVHBGUHRWVVVVaHBQOVI0ZTNMRG5xdnpwTG0tTFNWcFgwaWFlanZwak41WXZabERheWlyQ2owSVMyclNzcFgtRUF2cDJlVFo1UWQ4UFBzalRNWXNjVnhqYjMtckdXS0dCdkxXR2ZuRGxIeVI3ckU?oc=5"
         },
         {
-          "title": "Coin Gabbar: Crypto ETF News Today: BlackRock Pulls $239M From BTC and ETH ETFs",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNeVRSTGRhTjVhY2lLOENqT2RpSThvREJ1RTlkaWl3Wk9fRUxXTkp6V2k4cFBGODZKZHpmS3NFZEhKUXlZRWk4TjQ5ZFc2Vld2ODZxUFdIMHdUQXdyWENGdi1tQ20zTElFOWhTNGNBc3hEdFZSckRwR3JzWFRHUVhEeHVwNExjcmdURS1PeWFETS1xMUU?oc=5"
+          "title": "Pluang: Ethereum price falls nearly 29% in a month amid $455M ETF outflows and…",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPYnZpQXozYVBpa2FUNmxCNjhtMHhRbWxHeE9xMnJCcEVtU0lLOTRLSkZPd3QyenJLTGJTU2tTc3dYM1RMbnVsVmR4bGJqUW5OeWtWWERUeHk2UUV3RjItblRDNHQtMkdPS0dPRGd3ajRtbkNnamlJT0VjOVZyVHVwTFVBWmwydWVQeE9oWU14QVpnTDNaQ0JqWg?oc=5"
         },
         {
-          "title": "Pluang: Ethereum holdings hit $10.4B as BitMine stakes 86%, but selling pressure…",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUzlVWXRBVFBFZGVfaU5FWHdfZFYwbGdseGI0VEtKYlRqTkh2TDVZbE04WTQxSEVkalU4b2x6REM1VEdmdWZ5NlhPaXNtN29VSF9mWmRSUXZkVGxxX0dZSnA3ejQ3TmtvNWJBUkJsQlRvNU5rWFpUSm1DQlpIS0VzNHRIbG53TnFIcGhGU1JjVzBMQQ?oc=5"
+          "title": "Cointribune: Ethereum in the red: BitMine opens the checkbook despite a colossal loss",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNVWUzRlVKTWVWNkJEOUh2bHJuNE1vZ3VfUlhkdXZoZm0tSEphSGgxSWFxU3BlcFNqbjI2QXRSUnJxcnVLNFZoRWJBTklEV2d6VXpLUzdzcFRaXzBJSHRta2s5RzJ0TUN1OWdjT0RiU0ZKLWltR29zZ2VtS2wtV0Y2emNPQ2J0dWI5ekVjQ25CdFVDTzdTQjluVURzRVZVbVpFSU5wVGtYbGxUdEhhQ3lYdm1Pb3lzVW1icGNyQmV3RQ?oc=5"
         },
         {
           "title": "CoinGecko: Ethereum price and data",
@@ -116,111 +116,29 @@
       ]
     },
     {
-      "id": "bitway",
-      "symbol": "BTW",
-      "name": "Bitway",
-      "move": "Up 27.5% in 24h and up 92.9% this week, at about $0.8930 (down 45% over 30 days)",
-      "why": "No specific headlines turned up in our news feeds over the past day. That is 29.1 points better than bitcoin (−1.6%), so something specific to this coin is likely driving it.",
-      "meaning": "It is 68% below its all-time high of $2.77 and has a market value of about $1.3 billion. Moves this big in a day are often partly reversed, so expect large swings either way.",
-      "outlook": {
-        "lean": "unclear",
-        "confidence": "low",
-        "horizon": "next few days",
-        "bullCase": "Breaking above the 24-hour high of about $0.8916 would show buyers in control; the next reference is about $1.64, where it traded a month ago.",
-        "bearCase": "Falling below the 24-hour low of about $0.6853 would point to more selling; about $0.4630, where it traded a week ago, is the next reference.",
-        "watch": "Whether it holds between $0.6853 and $0.8916, trading volume, and bitcoin's direction."
-      },
-      "sources": [
-        {
-          "title": "CoinGecko: Bitway price and data",
-          "url": "https://www.coingecko.com/en/coins/bitway"
-        }
-      ]
-    },
-    {
-      "id": "jupiter-exchange-solana",
-      "symbol": "JUP",
-      "name": "Jupiter",
-      "move": "Down 9.3% in 24h and down 15.9% this week, at about $0.2168 (down 22% over 30 days)",
-      "why": "Recent coverage: “Jupiter technical analysis: Price remains under downward pressure with sellers controlling the market” (Traders Union); “Jupiter Wagons shares soar 20% on forming JV with South Korean firm Woojin; details here -” (IndiaIPO); “Stocks to watch on Wednesday, November 25: Jupiter Wagons, RMC Switchgears, APL Apollo, ABB India, India Glycols” (Business Upturn). That is 7.7 points worse than bitcoin (−1.6%), so something specific to this coin is likely driving it.",
-      "meaning": "It is 89% below its all-time high of $2.00 and has a market value of about $719 million. The downtrend over the past month is the bigger picture to keep in mind.",
-      "outlook": {
-        "lean": "unclear",
-        "confidence": "low",
-        "horizon": "next few days",
-        "bullCase": "Breaking above the 24-hour high of about $0.2381 would show buyers in control; the next reference is about $0.2578, where it traded a week ago.",
-        "bearCase": "Falling below the 24-hour low of about $0.2156 would point to more selling.",
-        "watch": "Whether it holds between $0.2156 and $0.2381, trading volume, and bitcoin's direction."
-      },
-      "sources": [
-        {
-          "title": "Traders Union: Jupiter technical analysis: Price remains under downward pressure with…",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPM29rZzJDM01OUm5VVjNBU2ZPX191RG05TzctNVlCaFZTRjluRHM5TTJtVkdjV09XMEw5VTZoR2FYSmhndUxFS3ZMc09jVXJiSzBTRzlaZk40WVRTb0dTTS1iUU40SDcxN21rM0ZVdUVGOHZ6R0ZwUjVLZkZlNGxuNncxMmphN3RCLXAzb042MWxDTFdjU1F3UTMzWWVtQmZIb2MtWg?oc=5"
-        },
-        {
-          "title": "IndiaIPO: Jupiter Wagons shares soar 20% on forming JV with South Korean firm Woojin;…",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOQlF6cTlEdm5HeVBBVXN5TVpIbEgzTDhrOFJnV2xEMDVCa1R6VXpPcGdRcGpzOGJrU2JyLXpfX3BReGdSWkhjSmQtM3FISDhpT3ZkUFA2WGM0LTR1cW1QVy1GVzFQMUV4R0NJOWFOSXlzMjNkT0M0RWdzRzFfQm9JS2VMQ2VUUThicWdWell3Y0cxRzN1TEdwZzBHLUdHUzZFWGlZa3hnVUNGaFpxdlVKdGhWN1k4TXpCaDlmc181SQ?oc=5"
-        },
-        {
-          "title": "Business Upturn: Stocks to watch on Wednesday, November 25: Jupiter Wagons, RMC Switchgears,…",
-          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPb2JxS1NKM0czaUpQOHdoc3MyT2NNZWptMExhYnc2ZXJTSXJzZkt5aFN1RUI5M2FkME5pWE9tZ044WUdLdjF2b05lTGdGVW1ZMi1ISzZKRDhsdnM3UURra1dyaFU1T3ZHa09BV0tzZFJOLWxjajdqOFREQTFENllzem1nSHlIWFF6LXh3TU9pVjdFZlBLdE1QSmFWQ3hoMllnVzA4WC1ERnRySnhUdmhJY3lYNXN3Qll1R3U5X0RxVWh1NkIyRDFMVC03UWZGTmRvQTE2dTE5b0xJYkxCTzlWalI3bnY?oc=5"
-        },
-        {
-          "title": "CoinGecko: Jupiter price and data",
-          "url": "https://www.coingecko.com/en/coins/jupiter-exchange-solana"
-        }
-      ]
-    },
-    {
-      "id": "mantle",
-      "symbol": "MNT",
-      "name": "Mantle",
-      "move": "Down 8.5% in 24h and down 6.5% this week, at about $0.3596 (down 30% over 30 days)",
-      "why": "Recent coverage: “Mantle technical analysis: Downward price move and $0.3447 support in focus” (Traders Union); “MNT slides more than 10% as selling outweighs lack of new developments” (Traders Union); “Mantle falls as downside pressure persists across multiple timeframes” (Traders Union). That is 6.9 points worse than bitcoin (−1.6%), so something specific to this coin is likely driving it.",
-      "meaning": "It is 87% below its all-time high of $2.86 and has a market value of about $1.2 billion. The downtrend over the past month is the bigger picture to keep in mind.",
-      "outlook": {
-        "lean": "unclear",
-        "confidence": "low",
-        "horizon": "next few days",
-        "bullCase": "Breaking above the 24-hour high of about $0.3933 would show buyers in control; the next reference is about $0.3844, where it traded a week ago.",
-        "bearCase": "Falling below the 24-hour low of about $0.3537 would point to more selling.",
-        "watch": "Whether it holds between $0.3537 and $0.3933, trading volume, and bitcoin's direction."
-      },
-      "sources": [
-        {
-          "title": "Traders Union: Mantle technical analysis: Downward price move and $0.3447 support in focus",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZ0pfYzdpOXN1dVRKZ3hSa1FtcmlDVVQzN0djcE83Y2hKMzdiRW10amg3blZwc05UbTFlV3pwdDMyVW05MkthakE2cTU5R0pack5NWlVEZG1vaHNvWF9iZURFcjA1VURINW9TckhMaUE1c0RiV3FYekhPaG51MGhqLTFfRWtUekROeGtnejUzeGRVM3JuWF91eUFfMUh3UQ?oc=5"
-        },
-        {
-          "title": "Traders Union: MNT slides more than 10% as selling outweighs lack of new developments",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTnUtN2RmTHlUSnhUTm9GdFlfMHFuSWI2MHZCeWdXbjZra3UxbGs2SjhWMVdMSjdHNHFrQTNSbFZwSm1aU1RkNGM5VUFLSFFROG55MkJGT1RBcUtlWmp3ejZmalhrZ1JFLUNmWmZEVlZkOTNBRW1TdzNWSUUzdkJvV18yQlBfR2thNm1qRmZJOHRWV0YxOXRHa25HVno0djZV?oc=5"
-        },
-        {
-          "title": "Traders Union: Mantle falls as downside pressure persists across multiple timeframes",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbXBCd1hnZWZoTnUyaGNVaV8zVXY2QXNiM1ZqZGNRRi00Y204NXpGMzllNVFVcDR3QXJYVGNKcXNkRy1BQWlMaXdzVWtEZWd1dmllOU8yeFNUVUdqdGtfWEpuWV9oRmI5UlZTLWdKNU1QbDBDMkxvNF81a08xRjhRLXdrdzA1WlpCT05uM1pjWDBKSHlJXzNydVdEN3o1cklQaGF3dA?oc=5"
-        },
-        {
-          "title": "CoinGecko: Mantle price and data",
-          "url": "https://www.coingecko.com/en/coins/mantle"
-        }
-      ]
-    },
-    {
       "id": "pieverse",
       "symbol": "PIEVERSE",
       "name": "Pieverse",
-      "move": "Down 8.5% in 24h and up 34.5% this week, at about $2.89 (up 184% over 30 days)",
-      "why": "No specific headlines turned up in our news feeds over the past day. That is 6.9 points worse than bitcoin (−1.6%), so something specific to this coin is likely driving it.",
-      "meaning": "It is 46% below its all-time high of $5.33 and has a market value of about $794 million. The uptrend over the past month is the bigger picture to keep in mind.",
+      "move": "Up 23.1% in 24h and up 8.8% this week, at about $3.67 (up 241% over 30 days)",
+      "why": "Recent coverage: “Pieverse Surges 4.36% on Speculative Order-Flow, Not Fundamentals” (CoinMarketCap); “Low and rebound signals: Bitway rises 96.44% from weekly low as Pieverse falls 40.4% from high” (www.tokenpost.com). That is 22.5 points better than bitcoin (+0.6%), so something specific to this coin is likely driving it.",
+      "meaning": "It is 31% below its all-time high of $5.33 and has a market value of about $1.0 billion. Moves this big in a day are often partly reversed, so expect large swings either way.",
       "outlook": {
         "lean": "unclear",
         "confidence": "low",
         "horizon": "next few days",
-        "bullCase": "Breaking above the 24-hour high of about $3.25 would show buyers in control; the next reference is about $5.33, where it traded at its record.",
-        "bearCase": "Falling below the 24-hour low of about $2.89 would point to more selling; about $2.15, where it traded a week ago, is the next reference.",
-        "watch": "Whether it holds between $2.89 and $3.25, trading volume, and bitcoin's direction."
+        "bullCase": "Breaking above the 24-hour high of about $3.58 would show buyers in control; the next reference is about $5.33, where it traded at its record.",
+        "bearCase": "Falling below the 24-hour low of about $2.87 would point to more selling; about $3.37, where it traded a week ago, is the next reference.",
+        "watch": "Whether it holds between $2.87 and $3.58, trading volume, and bitcoin's direction."
       },
       "sources": [
+        {
+          "title": "CoinMarketCap: Pieverse Surges 4.36% on Speculative Order-Flow, Not Fundamentals",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9IU3dPVGhxTnk4dzkwNFN0cmtPNTJzTGItX2Q4ZnVKZFRZVTI4TlZld2hWaXhpU0NZZjhUbDNnMWVYY3dISl9QVG53VXlQTFB5RWF6d3NsTUNmSlFnLXhWRW9kLW16WVNZNi1WQ1JUMFM?oc=5"
+        },
+        {
+          "title": "www.tokenpost.com: Low and rebound signals: Bitway rises 96.44% from weekly low as Pieverse…",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE96c3dMT3ZkOFVyRjl4Z29GQWdCaElUYmJjTzM3SW9pMDRRYWxXYTNOMGRrTWhYM2Y1cFdwYXRHQ3BTVl80cXc4cTEtemdDdFZTYUN3Skwyd1R1Zw?oc=5"
+        },
         {
           "title": "CoinGecko: Pieverse price and data",
           "url": "https://www.coingecko.com/en/coins/pieverse"
@@ -228,32 +146,114 @@
       ]
     },
     {
-      "id": "pearl-2",
-      "symbol": "PEARL",
-      "name": "Pearl",
-      "move": "Down 3.6% in 24h and up 8.4% this week, at about $2.04 (up 17% over 30 days)",
-      "why": "Recent coverage: “Pearl Abyss, Black Desert Online Players Support Schools Affected by Disasters in Indonesia” (파이낸셜뉴스); “WEEX new listing: Pearl (PEARL) now available for spot trading” (WEEX); “Black Pearl Group Enters Voluntary Suspension on ASX Amid NZX Trading Halt” (Kalkine). That is 2.0 points worse than bitcoin (−1.6%), so something specific to this coin is likely driving it.",
-      "meaning": "It is 18% below its all-time high of $2.48 and has a market value of about $796 million. The uptrend over the past month is the bigger picture to keep in mind.",
+      "id": "bitway",
+      "symbol": "BTW",
+      "name": "Bitway",
+      "move": "Up 12.8% in 24h and up 84.7% this week, at about $0.8989 (down 27% over 30 days)",
+      "why": "Recent coverage: “Bitway's BTW Rallies Nearly 84% as Bitcoin Drops 7%” (The Defiant); “Bitway leads crypto weekly rebound with 96% sur...” (Pluang); “Low and rebound signals: Bitway rises 96.44% from weekly low as Pieverse falls 40.4% from high” (www.tokenpost.com). That is 12.2 points better than bitcoin (+0.6%), so something specific to this coin is likely driving it.",
+      "meaning": "It is 68% below its all-time high of $2.77 and has a market value of about $1.4 billion. Moves this big in a day are often partly reversed, so expect large swings either way.",
       "outlook": {
         "lean": "unclear",
         "confidence": "low",
         "horizon": "next few days",
-        "bullCase": "Breaking above the 24-hour high of about $2.20 would show buyers in control; the next reference is about $2.48, where it traded at its record.",
-        "bearCase": "Falling below the 24-hour low of about $1.89 would point to more selling; about $1.88, where it traded a week ago, is the next reference.",
-        "watch": "Whether it holds between $1.89 and $2.20, trading volume, and bitcoin's direction."
+        "bullCase": "Breaking above the 24-hour high of about $0.9028 would show buyers in control; the next reference is about $1.23, where it traded a month ago.",
+        "bearCase": "Falling below the 24-hour low of about $0.7377 would point to more selling; about $0.4866, where it traded a week ago, is the next reference.",
+        "watch": "Whether it holds between $0.7377 and $0.9028, trading volume, and bitcoin's direction."
       },
       "sources": [
         {
-          "title": "파이낸셜뉴스: Pearl Abyss, Black Desert Online Players Support Schools Affected by…",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5KRUw5NjV5OGRVUHo4bDNiRXEzZ1FUeHBuOXY4QVl0VHRxSC04bm5Cb0dSbjFVRHY2OTJRS3JhanBVSUc0b0xER2hYSFZCcWFPOEl3eER1NmY?oc=5"
+          "title": "The Defiant: Bitway's BTW Rallies Nearly 84% as Bitcoin Drops 7%",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxONnQ4SU0tWjJOMk1WYkppQmM2YjA4QWlPR3Z4RndTM0JzTlRkSkhaSGk4VEVmemVYWEJxZ2VTV1ZEUHB3SEpGLXQtX0k3ZHlaZUxZal9XVWZnblMzVEhXdEVLS05ZdXZxQkR0NzRyUXkyUEo4b3gyeVpENHJsM2xZYm5QRHlxMkRqVTNB?oc=5"
         },
         {
-          "title": "WEEX: WEEX new listing: Pearl (PEARL) now available for spot trading",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1ERHprMVV3bnZ3X09TbnZWOE1QT3plV0FMal9kVTJfYzlldGl4Nlc4OFVXRV8xemdLQ2V1VElSdmI1aFhrMDFCWUNNZUtuOV9lbTRDM21FekhFWEJZYXdGMVFSS1d2YjJka3VJ?oc=5"
+          "title": "Pluang: Bitway leads crypto weekly rebound with 96% sur...",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNY2NnNzFMenFZVVRmOERnUndVR0RjX1pta2V1cllXVTR5MmNzMmV6N082WGh3QUtiUGQ3RHhfRFFwTWp4emRoS2xYdUdac0Zsby1KNDVISzFCUW44SWVxU09IYzJwb3RVSXNRVlJCc21Ta3g2SlFsYzQ3STVpSG1QVThXLVk1MFJMcnZVZA?oc=5"
         },
         {
-          "title": "Kalkine: Black Pearl Group Enters Voluntary Suspension on ASX Amid NZX Trading Halt",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOT2dZa3BFaEhhN2V0S01WbktDcUtWcVdZa3B3VXUwT0FsUkhhYV9VdWNTZHoyT0tIbUw1Q1JOb3ZULXlnQ293WVF0WEUycEF3TEVGRUpQbFhOZUFoa2d5d2lkN0xyOGlhTjRsdVh4R2l4dzJmZTViVUl3eXQtLS1QN252eDA2OENQc0dic09OZG1ndGs1VlhMcHlJd0tnam01ODFXZWFzc1ZNa2NiVzRqNlVXYkhPYkE?oc=5"
+          "title": "www.tokenpost.com: Low and rebound signals: Bitway rises 96.44% from weekly low as Pieverse…",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE96c3dMT3ZkOFVyRjl4Z29GQWdCaElUYmJjTzM3SW9pMDRRYWxXYTNOMGRrTWhYM2Y1cFdwYXRHQ3BTVl80cXc4cTEtemdDdFZTYUN3Skwyd1R1Zw?oc=5"
+        },
+        {
+          "title": "CoinGecko: Bitway price and data",
+          "url": "https://www.coingecko.com/en/coins/bitway"
+        }
+      ]
+    },
+    {
+      "id": "venice-token",
+      "symbol": "VVV",
+      "name": "Venice Token",
+      "move": "Up 10.7% in 24h and up 28.7% this week, at about $27.56 (up 5% over 30 days)",
+      "why": "Recent coverage: “Venice Token (VVV) Sees 3.21% Move Amid Market Volatility” (CoinMarketCap). That is 10.1 points better than bitcoin (+0.6%), so something specific to this coin is likely driving it.",
+      "meaning": "It is 20% below its all-time high of $34.53 and has a market value of about $1.4 billion. Moves this big in a day are often partly reversed, so expect large swings either way.",
+      "outlook": {
+        "lean": "unclear",
+        "confidence": "low",
+        "horizon": "next few days",
+        "bullCase": "Breaking above the 24-hour high of about $26.79 would show buyers in control; the next reference is about $34.53, where it traded at its record.",
+        "bearCase": "Falling below the 24-hour low of about $23.93 would point to more selling; about $26.20, where it traded a month ago, is the next reference.",
+        "watch": "Whether it holds between $23.93 and $26.79, trading volume, and bitcoin's direction."
+      },
+      "sources": [
+        {
+          "title": "CoinMarketCap: Venice Token (VVV) Sees 3.21% Move Amid Market Volatility",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1wSXdyYkhoQzJ2WHptOFZ4RUFoVnVNaXJXVjNQZ2xMMVp3WlpnRXRRYVU2bEV5S0VSQWIxRU9RU19JQTZYMlhUak9GWkthS2dteU1jOTMtM2FibXFEbXhzbTlzWEJxdTFSN3M2NkxpdDg?oc=5"
+        },
+        {
+          "title": "CoinGecko: Venice Token price and data",
+          "url": "https://www.coingecko.com/en/coins/venice-token"
+        }
+      ]
+    },
+    {
+      "id": "world-liberty-financial",
+      "symbol": "WLFI",
+      "name": "World Liberty Financial",
+      "move": "Up 7.1% in 24h and down 8.0% this week, at about $0.0430 (down 20% over 30 days)",
+      "why": "No specific headlines turned up in our news feeds over the past day. That is 6.4 points better than bitcoin (+0.6%), so something specific to this coin is likely driving it.",
+      "meaning": "It is 87% below its all-time high of $0.3313 and has a market value of about $1.4 billion. The downtrend over the past month is the bigger picture to keep in mind.",
+      "outlook": {
+        "lean": "unclear",
+        "confidence": "low",
+        "horizon": "next few days",
+        "bullCase": "Breaking above the 24-hour high of about $0.0427 would show buyers in control; the next reference is about $0.0468, where it traded a week ago.",
+        "bearCase": "Falling below the 24-hour low of about $0.0399 would point to more selling.",
+        "watch": "Whether it holds between $0.0399 and $0.0427, trading volume, and bitcoin's direction."
+      },
+      "sources": [
+        {
+          "title": "CoinGecko: World Liberty Financial price and data",
+          "url": "https://www.coingecko.com/en/coins/world-liberty-financial"
+        }
+      ]
+    },
+    {
+      "id": "pearl-2",
+      "symbol": "PEARL",
+      "name": "Pearl",
+      "move": "Up 5.2% in 24h and down 2.8% this week, at about $2.08 (up 18% over 30 days)",
+      "why": "Recent coverage: “Why AI Clouds Could Be ‘Missing Money’ by Not Mining Pearl” (Yahoo Finance); “AI clouds could cut costs by mining Pearl, says Syncracy Capital co-founder” (Crypto Briefing); “Construction Watch: 505 Pearl Street” (Buffalo Rising). That is 4.6 points better than bitcoin (+0.6%), so something specific to this coin is likely driving it.",
+      "meaning": "It is 16% below its all-time high of $2.48 and has a market value of about $812 million. The uptrend over the past month is the bigger picture to keep in mind.",
+      "outlook": {
+        "lean": "sideways",
+        "confidence": "low",
+        "horizon": "next few days",
+        "bullCase": "Breaking above the 24-hour high of about $2.20 would show buyers in control; the next reference is about $2.14, where it traded a week ago.",
+        "bearCase": "Falling below the 24-hour low of about $1.84 would point to more selling; about $1.76, where it traded a month ago, is the next reference.",
+        "watch": "Whether it holds between $1.84 and $2.20, trading volume, and bitcoin's direction."
+      },
+      "sources": [
+        {
+          "title": "Yahoo Finance: Why AI Clouds Could Be ‘Missing Money’ by Not Mining Pearl",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1xOFpqUy15VzktRjFUaFh5TTVyTkRxZ2VJV0MzWVM4QXlpSmdQWGdVNERyN3ktaS03WnN2R0pCcG1rcEVVdWtCN1NabXBINjRXVl85eUZiTjNPcW9NdjhnSW9lZ2RyRE4tNzZlZ3A2UXgwWTlPVlZUQzlLSlVvSTQ?oc=5"
+        },
+        {
+          "title": "Crypto Briefing: AI clouds could cut costs by mining Pearl, says Syncracy Capital co-founder",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOOGl1MkwyUF8tekR6QXlzNE9fQUUtSW5odE9FR3dYOWg1eWhIaUYwbnpTRk5oZkNLajVpUEIwUGpxa0hWZzRaS2RDVTlQWXVZYjBSOElrdmJXMl8tclBEbDFOWDhZM1Q5ZXRlMG9nS3hOUTdQMnluU2pPRUg5SkNWSEVUU0dEQV9Dd3UtM05aeFdyRVFaQnVYVEdFQVM3dVZRRGRPUA?oc=5"
+        },
+        {
+          "title": "Buffalo Rising: Construction Watch: 505 Pearl Street",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPcnJtUnlWSFpuREN0eEtOV2NENFJxdGFSWnoxLWRobEpfZmFsbE1jZFZ3SXZvSGRZb0I5bjRhbVdFWFBtRFo0V244YjNNRVlBdzh1WkNqVnowWEZmNUZMNnE3dHhnX0FNZVl3Y3FQUE5CaWUxd0xVNnlLdzZtOGhqalN3?oc=5"
         },
         {
           "title": "CoinGecko: Pearl price and data",
@@ -262,70 +262,66 @@
       ]
     },
     {
-      "id": "hyperliquid",
-      "symbol": "HYPE",
-      "name": "Hyperliquid",
-      "move": "Down 8.1% in 24h and down 15.3% this week, at about $58.74 (down 24% over 30 days)",
-      "why": "Recent coverage: “Abraxas Capital’s Exit From Trading on Hyperliquid Puts Tether in the Spotlight” (The Crypto Times); “Abraxas Capital exits Hyperliquid after $13B tr...” (Pluang); “Hyperliquid Dropped -21.82% in Last Month and is Predicted to Drop to $47.59 By Nov 30, 2026” (CoinCodex). That is 6.5 points worse than bitcoin (−1.6%), so something specific to this coin is likely driving it.",
-      "meaning": "It is 40% below its all-time high of $97.96 and has a market value of about $14.0 billion. The downtrend over the past month is the bigger picture to keep in mind.",
-      "outlook": {
-        "lean": "unclear",
-        "confidence": "low",
-        "horizon": "next few days",
-        "bullCase": "Breaking above the 24-hour high of about $63.67 would show buyers in control; the next reference is about $69.37, where it traded a week ago.",
-        "bearCase": "Falling below the 24-hour low of about $58.19 would point to more selling.",
-        "watch": "Whether it holds between $58.19 and $63.67, trading volume, and bitcoin's direction."
-      },
-      "sources": [
-        {
-          "title": "The Crypto Times: Abraxas Capital’s Exit From Trading on Hyperliquid Puts Tether in the Spotlight",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQY3Rhc3B5SVNSY1ppcDhoUVNxVWs2VXFWOTl5Umw5dTVRdERKaExod2Q0amY3VVBVVFA0TC05ZDdoWG11Q05vR2pMVmwtYnQyeG53T3pKVktQdEdEVFg0VWZLdWVQT241eWt3MW5JVE9sVjdmTlFPcklwTTVDcFFrV0hRN1hjaHlEcWx1V0JOX1RsYlE5LXVVSXRmTU13YWFmb2xKRVFUQ2s5bUpjcUdsbklMTi1vcjl2?oc=5"
-        },
-        {
-          "title": "Pluang: Abraxas Capital exits Hyperliquid after $13B tr...",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOR2VYS1BoTVE4U1p6eU5FdE1tYWdiNmVQSWc1Y1pBRGtfR0E1MjJOZTM4QTFhTGV1M05rbVpTWEgweFlUX0JSbDJ1b01vUkJJZThBOGVCTllSdkdrTXhGYjROWkRKaUZFam1ybzluRjI0dzZ5Um9Rd2paczhCaFItUU5lV090aUdwSEs2Z1pLOUtJVFhyci1BVzJSMGdvUQ?oc=5"
-        },
-        {
-          "title": "CoinCodex: Hyperliquid Dropped -21.82% in Last Month and is Predicted to Drop to $47.59…",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNMFF6VmVuaTA1Tm9LZWE5ZjY5MXdHRWVwX01ZOW5OdTI5dy1oR2JfSWdldzZiTGFvLVI5NTdJM3psdXZhRGJfV3AzV3NYc0l4WElyYUgwQ1Y3dGh5R3U0S2RwVWhod3JjVnNWa0dfbFFxSHJoNHc1eWxqSDV2MXB0NTl3?oc=5"
-        },
-        {
-          "title": "CoinGecko: Hyperliquid price and data",
-          "url": "https://www.coingecko.com/en/coins/hyperliquid"
-        }
-      ]
-    },
-    {
       "id": "rain",
       "symbol": "RAIN",
       "name": "Rain",
-      "move": "Down 7.8% in 24h and down 37.4% this week, at about $0.00277 (down 66% over 30 days)",
-      "why": "Recent coverage: “David Reed: The water crisis deepens across Devon despite rain” (Yahoo News UK); “LMR Investment Managers Report 5.2% Economic Interest in RAIN” (Stock Titan); “Weather forecast today: Tamil Nadu, Kerala brace for heavy rain; IMD warns of dense fog in Northeast” (CNBC TV18). That is 6.2 points worse than bitcoin (−1.6%), so something specific to this coin is likely driving it.",
-      "meaning": "It is 86% below its all-time high of $0.0195 and has a market value of about $2.0 billion. The downtrend over the past month is the bigger picture to keep in mind.",
+      "move": "Down 5.4% in 24h and down 41.9% this week, at about $0.00273 (down 66% over 30 days)",
+      "why": "Recent coverage: “Weather Forecast for Thanksgiving 2026 | Rain Forecast for 2026 Thanksgiving Day (Kalshi Weather Prediction Markets)” (Action Network); “Even when the forecast of clear weather proves correct, some people still end up getting caught in the rain.” (Iolite（アイオライト）). That is 6.0 points worse than bitcoin (+0.6%), so something specific to this coin is likely driving it.",
+      "meaning": "It is 86% below its all-time high of $0.0195 and has a market value of about $1.9 billion. The downtrend over the past month is the bigger picture to keep in mind.",
       "outlook": {
         "lean": "unclear",
         "confidence": "low",
         "horizon": "next few days",
-        "bullCase": "Breaking above the 24-hour high of about $0.0031 would show buyers in control; the next reference is about $0.00441, where it traded a week ago.",
-        "bearCase": "Falling below the 24-hour low of about $0.00281 would point to more selling.",
-        "watch": "Whether it holds between $0.00281 and $0.0031, trading volume, and bitcoin's direction."
+        "bullCase": "Breaking above the 24-hour high of about $0.00289 would show buyers in control; the next reference is about $0.0047, where it traded a week ago.",
+        "bearCase": "Falling below the 24-hour low of about $0.00266 would point to more selling.",
+        "watch": "Whether it holds between $0.00266 and $0.00289, trading volume, and bitcoin's direction."
       },
       "sources": [
         {
-          "title": "Yahoo News UK: David Reed: The water crisis deepens across Devon despite rain",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBKMEd1c2V6TTFPT05WajZmTXVnZ0tIaUFxdEhqSDJrbnMwTzZQWnIzUVNOdmwzWFJfS2p4S0pGeDJ2c0tLY2xXMHAwVzctSVprY3hHT1Nyb2xyQ1pvdkZ5akhJc0paYVFDUE1HWWs4WGw4UUx0NXNNSGl2RV8?oc=5"
+          "title": "Action Network: Weather Forecast for Thanksgiving 2026 | Rain Forecast for 2026 Thanksgiving…",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNdTlRb1VweWRob0FZNWFYbXNEaU1wTDZBQWR6NDU4Wkk4NkRwZVFpTUw5blh1amZkZnhVdFNRWm9JTWpwbWZ6OFBkUGwxbU1rN0RRQlJkcGZ5YjBwM09LRlNuYmRhTkxLWHFKR05HU2dvc1QxUkNNLUdCNXpwdDBka1EwUl9TaXgzRUxZcWJtMUdlZXRaVkJHNjZtWmtpVjhxbEVhajR5ZThrRG15UDBjYW1KdTNETXhXblBGRXdsZU50LW45NmNDRTI1R1hYbXhrR1BPTG4wdHdCcFo2QXFFRw?oc=5"
         },
         {
-          "title": "Stock Titan: LMR Investment Managers Report 5.2% Economic Interest in RAIN",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQSFBQNnc2dHJ1VjBnbXVXem1Bc1g2WXViLWZSR0Q4eFRHYnR6c3RpLTZyWWhOR1BmbXV0RndrbmJNU1JHVmtWb0oyUERlaV9OMDQ1dXlTQkFqMFNNeHFybEZhS2xRQTFMV0RRUXA4azFuamRldVRLVVctMG1fTTVCUDBEZzlidjVyQ1VyY0FyTi1JSDhXbTJDbjJMUTJ4MGMzZlVGclhDUjU1QTJzV09qaDI0V1Z3RENsUnJPUEluUWZnc1BrTkg5S2VQdw?oc=5"
-        },
-        {
-          "title": "CNBC TV18: Weather forecast today: Tamil Nadu, Kerala brace for heavy rain; IMD warns…",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQQ2hlM213UVlvWk53MVRQSTE4S3lPRHVQS3IwSkNQOXpQT0tXd0FkdWlCNkNPUGJDRnJ2Y3lJUDltM0xVOEIzS2o3SFV1Wnp3U0lsamh3cmRqSXlDVVRINmd5dzZkeUx5UUgzd2M5VDFLZ1B5TnZtWEdFbVd3blRhWXhpTko2d0lzVVQwQnppZnBnNkNBNXl5RHhLWXc0MGhBc0pTSEtFcGUzYUxaYlNEbTJNVFNwRklHSm90XzNoZWdmX0FjcFdGTFhBREFxaC1Uc2fSAdIBQVVfeXFMUENoZTNtd1FZb1pOdzFUUEkxOEt5T0R1UEtyMEpDUDl6UE9LV3dBZHVpQjZDT1BiQ0ZydmN5SVA5bTNMVThCM0tqN0hVdVp6d1NJbGpod3Jkakl5Q1VUSDZneXc2ZHlMeVFIM3djOVQxS2dQeU52bVhHRW1Xd25UYVl4aU5KNndJc1VUMEJ6aWZwZzZDQTV5eUR4S1l3NDBoQXNKU0hLRXBlM2FMWmJTRG0yTVRTcEZJR0pvdF8zaGVnZl9BY3BXRkxYQURBcWgtVHNn?oc=5"
+          "title": "Iolite（アイオライト）: Even when the forecast of clear weather proves correct, some people still…",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA2UEdjVmltVUtWUkVnZ3c0SERJc3RJdUFMNzA1cFN2TlExUms5X1NBbjBTRGY5REp0UGpQNHZwZFV3ZWRyenMwUzRfU2g0dGVGbGItWmcwYXgwS2ZXNkpqbTZpNE9WVDEzaEl3T1YwN1NCdkt4c1p2c2h3?oc=5"
         },
         {
           "title": "CoinGecko: Rain price and data",
           "url": "https://www.coingecko.com/en/coins/rain"
+        }
+      ]
+    },
+    {
+      "id": "sky",
+      "symbol": "SKY",
+      "name": "Sky",
+      "move": "Up 2.4% in 24h and down 21.8% this week, at about $0.0411 (down 41% over 30 days)",
+      "why": "Recent coverage: “Crypto Price Analysis, BTC, XRP, ZEC, HYPE and SKY, Nov. 25: Bitcoin Closes Below $60,000, XRP Falls Below $0.93, as Zcash Gives Back Most...” (Cryptonews.net); “stUSDS holders accept 11% haircut on Curve as Sky’s module hits full utilization” (Crypto Briefing); “Sky’s withdrawal crisis tests confidence as its stablecoin supply shrinks by nearly $6 billion” (CryptoSlate). Bitcoin moved +0.6% over the same 24 hours, so this looks like a market-wide move rather than coin-specific news.",
+      "meaning": "It is 59% below its all-time high of $0.1009 and has a market value of about $958 million. The downtrend over the past month is the bigger picture to keep in mind.",
+      "outlook": {
+        "lean": "unclear",
+        "confidence": "low",
+        "horizon": "next few days",
+        "bullCase": "Breaking above the 24-hour high of about $0.0425 would show buyers in control; the next reference is about $0.0526, where it traded a week ago.",
+        "bearCase": "Falling below the 24-hour low of about $0.0387 would point to more selling.",
+        "watch": "Whether it holds between $0.0387 and $0.0425, trading volume, and bitcoin's direction."
+      },
+      "sources": [
+        {
+          "title": "Cryptonews.net: Crypto Price Analysis, BTC, XRP, ZEC, HYPE and SKY, Nov. 25: Bitcoin Closes…",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1YZjExMm1vUy13dW9yN3ZDODdneXJ0dkdXOEFvbENQX0EtZWlDWFlaWWw5OXZKdEJmcWNOU3ZhUlBsN2pvVUd4MFRYZzNPQVJEQlY2RTV1WlJUWlE?oc=5"
+        },
+        {
+          "title": "Crypto Briefing: stUSDS holders accept 11% haircut on Curve as Sky’s module hits full utilization",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE51M0d6T1F2YzNIMDRfX0xuekJOTVZVdDZwcGwyLWc4S0xkQkFFR0pqdzVXUGUyMkJSUkh3UFczN0ViU2prWFBQSlhDeHAtRXBaNlpTZGpCUHRuS3lwcUZFN3NhMmlnZW10engtREhVX04wZw?oc=5"
+        },
+        {
+          "title": "CryptoSlate: Sky’s withdrawal crisis tests confidence as its stablecoin supply shrinks by…",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVmFfM1ZDd1VEaWJHQjVtd1g0dXFQdndaZWhhSTVOOUFzcHFjSWpsY3ZSTnctT0dEdTlSSk1KeUNQNWlvUm1oS1lBRGhjVjNZTFhVNzBWZlkxd09UcmVuT1BTZVdrNWxKdWcybU1KeUFocllWbTJsenlZNEZmTGpsYXpxaTlIbDV1bDVudkJPT1d1RDhsWm5VRW9TWlVncG1iUi0tRGdwS3N0eXdyNUtScWh4cGp3UVBw?oc=5"
+        },
+        {
+          "title": "CoinGecko: Sky price and data",
+          "url": "https://www.coingecko.com/en/coins/sky"
         }
       ]
     }
@@ -334,29 +330,25 @@
     {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "move": "Down 0.50% (36 points) at the last close, at about 7,201; 8.2% below its 52-week high",
-      "why": "Recent coverage: “SpaceX Could Fall Below $100 On A Tesla Bid, Gary Black Says — JPMorgan Sees The Same Deal As A Shortcut To The S&P 500” (Yahoo Finance); “S&P 500 Target: Wall Street Split On How The Benchmark Index Will Move In 2027” (Yahoo Finance); “Asian stocks slide as Taiwan, South Korea extend AI-led losses” (Yahoo Finance).",
-      "meaning": "Over the past month it is down about 6.2%, and down about 4% over six months. Its 52-week range is 6,317 to 7,845.",
+      "move": "Down 0.22% (16 points) today, at about 7,185; 8.4% below its 52-week high",
+      "why": "Recent coverage: “Why Alphabet Stock Is Down Today” (Yahoo Finance); “Why Nvidia Stock Is Falling Again” (Yahoo Finance).",
+      "meaning": "Over the past month it is down about 7.0%, and down about 4% over six months. Its 52-week range is 6,317 to 7,845.",
       "outlook": {
         "lean": "unclear",
         "confidence": "low",
         "horizon": "next few days",
-        "bullCase": "Closing above today's high of about 7,224 would extend the move; the 52-week high near 7,845 is the bigger test.",
-        "bearCase": "Closing below today's low of about 7,139 would suggest more selling; about 7,677, where it was a month ago, is a reference.",
+        "bullCase": "Closing above today's high of about 7,197 would extend the move; the 52-week high near 7,845 is the bigger test.",
+        "bearCase": "Closing below today's low of about 6,970 would suggest more selling; about 7,723, where it was a month ago, is a reference.",
         "watch": "Big-tech earnings, the Fed and bond yields, oil prices, and economic data releases."
       },
       "sources": [
         {
-          "title": "Yahoo Finance: SpaceX Could Fall Below $100 On A Tesla Bid, Gary Black Says — JPMorgan Sees…",
-          "url": "https://stocktwits.com/news-articles/markets/equity/spacex-fall-tesla-bid-gary-black-jp-morgan-shortcut-sp500/cNbH7PdR9lF?.tsrc=rss"
+          "title": "Yahoo Finance: Why Alphabet Stock Is Down Today",
+          "url": "https://www.fool.com/investing/2026/11/25/why-alphabet-stock-is-down-today/?.tsrc=rss"
         },
         {
-          "title": "Yahoo Finance: S&P 500 Target: Wall Street Split On How The Benchmark Index Will Move In 2027",
-          "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-target-wall-street-split-on-how-the-benchmark-index-will-move-in-2027/cNbHcnER9lh?.tsrc=rss"
-        },
-        {
-          "title": "Yahoo Finance: Asian stocks slide as Taiwan, South Korea extend AI-led losses",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/asian-stocks-slide-ai-selloff-040525614.html?.tsrc=rss"
+          "title": "Yahoo Finance: Why Nvidia Stock Is Falling Again",
+          "url": "https://www.fool.com/investing/2026/11/25/why-nvidia-stock-is-falling-again/?.tsrc=rss"
         },
         {
           "title": "Yahoo Finance: ^GSPC quote",
@@ -367,29 +359,29 @@
     {
       "symbol": "^IXIC",
       "name": "Nasdaq Composite",
-      "move": "Down 1.48% (356 points) at the last close, at about 23,734; 14.4% below its 52-week high",
-      "why": "Recent coverage: “Britain’s stock market is dying, Reeves’s former adviser claims” (Yahoo Finance); “Asian stocks slide as Taiwan, South Korea extend AI-led losses” (Yahoo Finance); “Dow Jones Futures Fall; Trump Says 'Not Too Late' For U.S. To Take Nvidia Stake” (Yahoo Finance).",
-      "meaning": "Over the past month it is down about 9.3%, and down about 11% over six months. Its 52-week range is 20,690 to 27,723.",
+      "move": "Down 0.68% (161 points) today, at about 23,573; 15.0% below its 52-week high",
+      "why": "Recent coverage: “Why Alphabet Stock Is Down Today” (Yahoo Finance); “Why Nvidia Stock Is Falling Again” (Yahoo Finance); “5 Beaten-Down Stocks Insiders Are Still Dumping (Even After a 50% Crash)” (Yahoo Finance).",
+      "meaning": "Over the past month it is down about 11.0%, and down about 12% over six months. Its 52-week range is 20,690 to 27,723.",
       "outlook": {
         "lean": "unclear",
         "confidence": "low",
         "horizon": "next few days",
-        "bullCase": "Closing above today's high of about 23,885 would extend the move; the 52-week high near 27,723 is the bigger test.",
-        "bearCase": "Closing below today's low of about 23,456 would suggest more selling; about 26,169, where it was a month ago, is a reference.",
+        "bullCase": "Closing above today's high of about 23,621 would extend the move; the 52-week high near 27,723 is the bigger test.",
+        "bearCase": "Closing below today's low of about 22,632 would suggest more selling; about 26,478, where it was a month ago, is a reference.",
         "watch": "Big-tech earnings, the Fed and bond yields, oil prices, and economic data releases."
       },
       "sources": [
         {
-          "title": "Yahoo Finance: Britain’s stock market is dying, Reeves’s former adviser claims",
-          "url": "https://uk.finance.yahoo.com/news/britain-stock-market-dying-reeves-060000331.html?.tsrc=rss"
+          "title": "Yahoo Finance: Why Alphabet Stock Is Down Today",
+          "url": "https://www.fool.com/investing/2026/11/25/why-alphabet-stock-is-down-today/?.tsrc=rss"
         },
         {
-          "title": "Yahoo Finance: Asian stocks slide as Taiwan, South Korea extend AI-led losses",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/asian-stocks-slide-ai-selloff-040525614.html?.tsrc=rss"
+          "title": "Yahoo Finance: Why Nvidia Stock Is Falling Again",
+          "url": "https://www.fool.com/investing/2026/11/25/why-nvidia-stock-is-falling-again/?.tsrc=rss"
         },
         {
-          "title": "Yahoo Finance: Dow Jones Futures Fall; Trump Says 'Not Too Late' For U.S. To Take Nvidia Stake",
-          "url": "https://finance.yahoo.com/m/d96603c1-fe7f-3bf3-8158-0728b464d469/dow-jones-futures-fall%3B-trump.html?.tsrc=rss"
+          "title": "Yahoo Finance: 5 Beaten-Down Stocks Insiders Are Still Dumping (Even After a 50% Crash)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/5-beaten-down-stocks-insiders-185226775.html?.tsrc=rss"
         },
         {
           "title": "Yahoo Finance: ^IXIC quote",
@@ -400,18 +392,22 @@
     {
       "symbol": "^GSPTSE",
       "name": "S&P/TSX Composite",
-      "move": "Down 0.35% (120 points) at the last close, at about 33,962; 8.4% below its 52-week high",
-      "why": "Recent coverage: “TSX Closer: Index Closes Lower As Shares in Base Metals and Technology Sectors Drag” (Yahoo Finance); “TSX falls as global market rally loses steam, Nvidia shares retreat” (Yahoo Finance).",
-      "meaning": "Over the past month it is down about 5.5%, and down about 2% over six months. Its 52-week range is 30,572 to 37,069.",
+      "move": "Up 0.53% (180 points) today, at about 34,142; 7.9% below its 52-week high",
+      "why": "Recent coverage: “TSX futures slip amid deepening tech selloff, U.S. tariff reports” (Yahoo Finance); “TSX Closer: Index Closes Lower As Shares in Base Metals and Technology Sectors Drag” (Yahoo Finance); “TSX falls as global market rally loses steam, Nvidia shares retreat” (Yahoo Finance).",
+      "meaning": "Over the past month it is down about 5.6%, and down about 2% over six months. Its 52-week range is 30,908 to 37,069.",
       "outlook": {
         "lean": "unclear",
         "confidence": "low",
         "horizon": "next few days",
-        "bullCase": "Closing above today's high of about 34,148 would extend the move; the 52-week high near 37,069 is the bigger test.",
-        "bearCase": "Closing below today's low of about 33,808 would suggest more selling; about 35,944, where it was a month ago, is a reference.",
+        "bullCase": "Closing above today's high of about 34,184 would extend the move; the 52-week high near 37,069 is the bigger test.",
+        "bearCase": "Closing below today's low of about 33,253 would suggest more selling; about 36,172, where it was a month ago, is a reference.",
         "watch": "Big-tech earnings, the Fed and bond yields, oil prices, and economic data releases."
       },
       "sources": [
+        {
+          "title": "Yahoo Finance: TSX futures slip amid deepening tech selloff, U.S. tariff reports",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/tsx-futures-slip-amid-deepening-135409021.html?.tsrc=rss"
+        },
         {
           "title": "Yahoo Finance: TSX Closer: Index Closes Lower As Shares in Base Metals and Technology…",
           "url": "https://finance.yahoo.com/markets/world-indices/articles/tsx-closer-index-closes-lower-213125236.html?.tsrc=rss"
@@ -429,29 +425,29 @@
     {
       "symbol": "CL=F",
       "name": "U.S. crude oil (WTI)",
-      "move": "Down 1.73% today, at about $80.63; 32.5% below its 52-week high",
-      "why": "Recent coverage: “S-Oil completes construction of $6.8bn Shaheen complex in Ulsan” (Yahoo Finance); “Mining carries Ecuador's export growth as third-quarter non-oil sales jump 19.1%” (Yahoo Finance); “Oil Market Midweek Wrap: Brent Holds Near $90 Despite Iran Tensions – OPEC Meeting, ConocoPhillips Sale In Focus” (Yahoo Finance).",
-      "meaning": "Over the past month it is down about 19.3%, and down about 14% over six months. Its 52-week range is $54.98 to $119.48.",
+      "move": "Up 1.80% today, at about $83.53; 30.1% below its 52-week high",
+      "why": "Recent coverage: “ProFrac (ACDC) Stock Is Up 11.8% Today as Oil Rises, Oilfield Peers Gain” (Yahoo Finance); “Russian oil firm Lukoil’s overseas assets sold to investors led by US billionaire Todd Boehly” (Yahoo Finance); “Oil Inventories Continue to Rise in the US” (Yahoo Finance).",
+      "meaning": "Over the past month it is down about 16.4%, and down about 11% over six months. Its 52-week range is $54.98 to $119.48.",
       "outlook": {
         "lean": "unclear",
         "confidence": "low",
         "horizon": "next few days",
-        "bullCase": "Closing above today's high of about $81.86 would extend the move; the 52-week high near $119.48 is the bigger test.",
+        "bullCase": "Closing above today's high of about $83.85 would extend the move; the 52-week high near $119.48 is the bigger test.",
         "bearCase": "Closing below today's low of about $80.13 would suggest more selling; about $99.90, where it was a month ago, is a reference.",
         "watch": "Company news and earnings dates, analyst rating changes, and the direction of the broader index."
       },
       "sources": [
         {
-          "title": "Yahoo Finance: S-Oil completes construction of $6.8bn Shaheen complex in Ulsan",
-          "url": "https://www.offshore-technology.com/news/s-oil-completes-shaheen-project/?.tsrc=rss"
+          "title": "Yahoo Finance: ProFrac (ACDC) Stock Is Up 11.8% Today as Oil Rises, Oilfield Peers Gain",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/profrac-acdc-stock-11-8-184533129.html?.tsrc=rss"
         },
         {
-          "title": "Yahoo Finance: Mining carries Ecuador's export growth as third-quarter non-oil sales jump 19.1%",
-          "url": "http://www.intellinews.com/mining-carries-ecuador-s-export-growth-as-third-quarter-non-oil-sales-jump-19-1-488145/?.tsrc=rss"
+          "title": "Yahoo Finance: Russian oil firm Lukoil’s overseas assets sold to investors led by US…",
+          "url": "https://www.cnn.com/2026/11/25/business/lukoil-sale-todd-boehly-intl?.tsrc=rss"
         },
         {
-          "title": "Yahoo Finance: Oil Market Midweek Wrap: Brent Holds Near $90 Despite Iran Tensions – OPEC…",
-          "url": "https://stocktwits.com/news-articles/markets/equity/oil-market-midweek-wrap-brent-holds-near-90-despite-iran-tensions-opec-meeting-conoco-phillips-sale-in-focus/cNbH5X8R9lK?.tsrc=rss"
+          "title": "Yahoo Finance: Oil Inventories Continue to Rise in the US",
+          "url": "https://finance.yahoo.com/energy/articles/oil-inventories-continue-rise-us-154256636.html?.tsrc=rss"
         },
         {
           "title": "Yahoo Finance: CL=F quote",
@@ -460,42 +456,17 @@
       ]
     },
     {
-      "symbol": "SHOP.TO",
-      "name": "Shopify Inc.",
-      "move": "Down 2.13% at the last close, at about C$188.85; 26.2% below its 52-week high",
-      "why": "Recent coverage: “What a $5,000 Investment in Shopify Stock Today Could Grow Into by 2030” (Yahoo Finance).",
-      "meaning": "Over the past month it is down about 20.0%, and up about 30% over six months. Its 52-week range is C$129.01 to C$255.95.",
-      "outlook": {
-        "lean": "unclear",
-        "confidence": "low",
-        "horizon": "next few days",
-        "bullCase": "Closing above today's high of about C$196.80 would extend the move; the 52-week high near C$255.95 is the bigger test.",
-        "bearCase": "Closing below today's low of about C$186.99 would suggest more selling; about C$235.93, where it was a month ago, is a reference.",
-        "watch": "Company news and earnings dates, analyst rating changes, and the direction of the broader index."
-      },
-      "sources": [
-        {
-          "title": "Yahoo Finance: What a $5,000 Investment in Shopify Stock Today Could Grow Into by 2030",
-          "url": "https://www.fool.com/investing/2026/11/24/what-a-usd5-000-investment-in-shopify-stock-today-could-grow-into-by-2030/?.tsrc=rss"
-        },
-        {
-          "title": "Yahoo Finance: SHOP.TO quote",
-          "url": "https://finance.yahoo.com/quote/SHOP.TO"
-        }
-      ]
-    },
-    {
       "symbol": "CNQ.TO",
       "name": "Canadian Natural Resources Limited",
-      "move": "Up 1.41% at the last close, at about C$63.82; 18.8% below its 52-week high",
+      "move": "Up 1.46% today, at about C$64.75; 17.6% below its 52-week high",
       "why": "No specific headlines turned up in our news feeds over the past day; the move may simply reflect the broader market.",
-      "meaning": "Over the past month it is down about 17.3%, and down about 2% over six months. Its 52-week range is C$41.68 to C$78.60.",
+      "meaning": "Over the past month it is down about 14.7%, and down about 0% over six months. Its 52-week range is C$41.68 to C$78.60.",
       "outlook": {
         "lean": "unclear",
         "confidence": "low",
         "horizon": "next few days",
-        "bullCase": "Closing above today's high of about C$64.27 would extend the move; the 52-week high near C$78.60 is the bigger test.",
-        "bearCase": "Closing below today's low of about C$62.80 would suggest more selling; about C$77.21, where it was a month ago, is a reference.",
+        "bullCase": "Closing above today's high of about C$65.09 would extend the move; the 52-week high near C$78.60 is the bigger test.",
+        "bearCase": "Closing below today's low of about C$63.35 would suggest more selling; about C$75.95, where it was a month ago, is a reference.",
         "watch": "Company news and earnings dates, analyst rating changes, and the direction of the broader index."
       },
       "sources": [
@@ -506,64 +477,85 @@
       ]
     },
     {
-      "symbol": "AMD",
-      "name": "Advanced Micro Devices, Inc.",
-      "move": "Down 8.86% at the last close, at about $413.27; 37.2% below its 52-week high",
-      "why": "Recent coverage: “1 Reason to Buy AMD Stock Before 2027” (Yahoo Finance); “Why AMD Stock Fell Today” (Yahoo Finance); “A scandal like the one haunting Nvidia just reached AMD, its biggest rival” (Yahoo Finance).",
-      "meaning": "Over the past month it is down about 22.2%, and down about 18% over six months. Its 52-week range is $188.22 to $658.52.",
+      "symbol": "ENB.TO",
+      "name": "Enbridge Inc.",
+      "move": "Up 1.26% today, at about C$66.74; 17.2% below its 52-week high",
+      "why": "No specific headlines turned up in our news feeds over the past day; the move may simply reflect the broader market.",
+      "meaning": "Over the past month it is down about 1.9%, and down about 16% over six months. Its 52-week range is C$62.42 to C$80.65.",
       "outlook": {
-        "lean": "unclear",
+        "lean": "sideways",
         "confidence": "low",
         "horizon": "next few days",
-        "bullCase": "Closing above today's high of about $428.87 would extend the move; the 52-week high near $658.52 is the bigger test.",
-        "bearCase": "Closing below today's low of about $396.03 would suggest more selling; about $531.28, where it was a month ago, is a reference.",
+        "bullCase": "Closing above today's high of about C$66.94 would extend the move; the 52-week high near C$80.65 is the bigger test.",
+        "bearCase": "Closing below today's low of about C$65.58 would suggest more selling; about C$68.01, where it was a month ago, is a reference.",
         "watch": "Company news and earnings dates, analyst rating changes, and the direction of the broader index."
       },
       "sources": [
         {
-          "title": "Yahoo Finance: 1 Reason to Buy AMD Stock Before 2027",
-          "url": "https://www.fool.com/investing/2026/11/25/1-reason-to-buy-amd-stock-before-2027/?.tsrc=rss"
+          "title": "Yahoo Finance: ENB.TO quote",
+          "url": "https://finance.yahoo.com/quote/ENB.TO"
+        }
+      ]
+    },
+    {
+      "symbol": "NVDA",
+      "name": "NVIDIA Corporation",
+      "move": "Down 4.92% today, at about $147.73; 39.3% below its 52-week high",
+      "why": "Recent coverage: “Michael Burry Loads Up on 3 Chinese Stocks; Sticks to Nvidia Bearish Bet” (Yahoo Finance); “Nvidia Chip Sellers Reportedly Scramble For New Buyers As US Tightens China Export Loopholes” (Yahoo Finance); “Dan Ives Says Nvidia’s Jensen Huang Worth At Least $8 Trillion To US Economy, Calls Sell-Off A ‘Gut Check Moment’” (Yahoo Finance).",
+      "meaning": "Over the past month it is down about 32.2%, and down about 31% over six months. Its 52-week range is $124.50 to $243.37.",
+      "outlook": {
+        "lean": "unclear",
+        "confidence": "low",
+        "horizon": "next few days",
+        "bullCase": "Closing above today's high of about $148.59 would extend the move; the 52-week high near $243.37 is the bigger test.",
+        "bearCase": "Closing below today's low of about $141.17 would suggest more selling; about $217.94, where it was a month ago, is a reference.",
+        "watch": "Company news and earnings dates, analyst rating changes, and the direction of the broader index."
+      },
+      "sources": [
+        {
+          "title": "Yahoo Finance: Michael Burry Loads Up on 3 Chinese Stocks; Sticks to Nvidia Bearish Bet",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/michael-burry-loads-3-chinese-191345318.html?.tsrc=rss"
         },
         {
-          "title": "Yahoo Finance: Why AMD Stock Fell Today",
-          "url": "https://www.fool.com/investing/2026/11/24/why-amd-stock-fell-today/?.tsrc=rss"
+          "title": "Yahoo Finance: Nvidia Chip Sellers Reportedly Scramble For New Buyers As US Tightens China…",
+          "url": "https://stocktwits.com/news-articles/markets/equity/nvidia-chip-sellers-reportedly-scramble-for-new-buyers-as-us-tightens-china-export-loopholes/cNbHoZSR9mv?.tsrc=rss"
         },
         {
-          "title": "Yahoo Finance: A scandal like the one haunting Nvidia just reached AMD, its biggest rival",
-          "url": "https://www.thestreet.com/investing/stocks/scandal-like-one-haunting-nvidia-just-reached-amd-its-biggest-rival?.tsrc=rss"
+          "title": "Yahoo Finance: Dan Ives Says Nvidia’s Jensen Huang Worth At Least $8 Trillion To US…",
+          "url": "https://stocktwits.com/news-articles/markets/equity/dan-ives-says-nvidia-s-jensen-huang-worth-at-least-8-trillion-to-us-economy-calls-sell-off-a-gut-check-moment/cNbH8KYR9mH?.tsrc=rss"
         },
         {
-          "title": "Yahoo Finance: AMD quote",
-          "url": "https://finance.yahoo.com/quote/AMD"
+          "title": "Yahoo Finance: NVDA quote",
+          "url": "https://finance.yahoo.com/quote/NVDA"
         }
       ]
     },
     {
       "symbol": "MSTR",
       "name": "Strategy Inc",
-      "move": "Down 8.12% at the last close, at about $77.55; 60.9% below its 52-week high",
-      "why": "Recent coverage: “Dow, S&P 500, Nasdaq Futures Edge Lower Amid Tech Selloff Ahead Of Key Inflation Data: DELL, AMBA, SOXL, MSTR In Focus” (Yahoo Finance); “Strategy (MSTR) Stock Trades At A Discount To Book Value” (Yahoo Finance); “Strategy Inc (MSTR) Is a Trending Stock: Facts to Know Before Betting on It” (Yahoo Finance).",
-      "meaning": "Over the past month it is down about 44.5%, and down about 52% over six months. Its 52-week range is $77.32 to $198.40.",
+      "move": "Up 3.78% today, at about $80.48; 59.4% below its 52-week high",
+      "why": "Recent coverage: “Strategy Is Worth $4 Billion Less Than Its Bitcoin Amid Liquidity Squeeze” (Yahoo Finance); “Michael Saylor Bought $100M In Bitcoin Before Strategy Did, Says The Man Who Convinced Him To Buy It — Now That Bet Is Around $589M” (Yahoo Finance); “Dow, S&P 500, Nasdaq Futures Edge Lower Amid Tech Selloff Ahead Of Key Inflation Data: DELL, AMBA, SOXL, MSTR In Focus” (Yahoo Finance).",
+      "meaning": "Over the past month it is down about 43.1%, and down about 50% over six months. Its 52-week range is $70.37 to $198.40.",
       "outlook": {
         "lean": "unclear",
         "confidence": "low",
         "horizon": "next few days",
-        "bullCase": "Closing above today's high of about $82.92 would extend the move; the 52-week high near $198.40 is the bigger test.",
-        "bearCase": "Closing below today's low of about $77.32 would suggest more selling; about $139.82, where it was a month ago, is a reference.",
+        "bullCase": "Closing above today's high of about $81.02 would extend the move; the 52-week high near $198.40 is the bigger test.",
+        "bearCase": "Closing below today's low of about $70.37 would suggest more selling; about $141.40, where it was a month ago, is a reference.",
         "watch": "Company news and earnings dates, analyst rating changes, and the direction of the broader index."
       },
       "sources": [
         {
+          "title": "Yahoo Finance: Strategy Is Worth $4 Billion Less Than Its Bitcoin Amid Liquidity Squeeze",
+          "url": "https://finance.yahoo.com/m/02ba3534-33d6-31a7-8856-8ec31c96c8e5/strategy-is-worth-%244-billion.html?.tsrc=rss"
+        },
+        {
+          "title": "Yahoo Finance: Michael Saylor Bought $100M In Bitcoin Before Strategy Did, Says The Man Who…",
+          "url": "https://stocktwits.com/news-articles/markets/equity/michael-saylor-100m-bitcoin-purchase-589m-bet/cNbHOY3R9lH?.tsrc=rss"
+        },
+        {
           "title": "Yahoo Finance: Dow, S&P 500, Nasdaq Futures Edge Lower Amid Tech Selloff Ahead Of Key…",
           "url": "https://stocktwits.com/news-articles/markets/equity/dow-s-and-p-500-nasdaq-futures-edge-lower-amid-tech-selloff-ahead-of-key-inflation-data-dell-amba-soxl-mstr-in-focus/cNbHbLoR9lJ?.tsrc=rss"
-        },
-        {
-          "title": "Yahoo Finance: Strategy (MSTR) Stock Trades At A Discount To Book Value",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/strategy-mstr-stock-trades-discount-020908385.html?.tsrc=rss"
-        },
-        {
-          "title": "Yahoo Finance: Strategy Inc (MSTR) Is a Trending Stock: Facts to Know Before Betting on It",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/strategy-inc-mstr-trending-stock-130004989.html?.tsrc=rss"
         },
         {
           "title": "Yahoo Finance: MSTR quote",
@@ -572,142 +564,130 @@
       ]
     },
     {
-      "symbol": "COIN",
-      "name": "Coinbase Global, Inc.",
-      "move": "Down 5.92% at the last close, at about $102.35; 64.1% below its 52-week high",
-      "why": "Recent coverage: “SpaceX, Anthropic IPOs Shut Out Retail Investors, Says Coinbase CEO — Brian Armstrong Resumes Buying Back COIN Shares” (Yahoo Finance); “HOOD, COIN Get Wedbush Outperform Ratings: Here’s What The Firm Sees In Fintech’s Next Growth Phase” (Yahoo Finance); “Coinbase wins dismissal of four-year investor lawsuit” (Yahoo Finance).",
-      "meaning": "Over the past month it is down about 35.9%, and down about 43% over six months. Its 52-week range is $101.71 to $284.74.",
+      "symbol": "AMZN",
+      "name": "Amazon.com, Inc.",
+      "move": "Down 2.57% today, at about $245.80; 14.4% below its 52-week high",
+      "why": "No specific headlines turned up in our news feeds over the past day; the move may simply reflect the broader market.",
+      "meaning": "Over the past month it is down about 2.9%, and down about 7% over six months. Its 52-week range is $196.00 to $287.20.",
       "outlook": {
         "lean": "unclear",
         "confidence": "low",
         "horizon": "next few days",
-        "bullCase": "Closing above today's high of about $107.49 would extend the move; the 52-week high near $284.74 is the bigger test.",
-        "bearCase": "Closing below today's low of about $101.91 would suggest more selling; about $159.60, where it was a month ago, is a reference.",
+        "bullCase": "Closing above today's high of about $246.55 would extend the move; the 52-week high near $287.20 is the bigger test.",
+        "bearCase": "Closing below today's low of about $235.96 would suggest more selling; about $253.10, where it was a month ago, is a reference.",
         "watch": "Company news and earnings dates, analyst rating changes, and the direction of the broader index."
       },
       "sources": [
         {
-          "title": "Yahoo Finance: SpaceX, Anthropic IPOs Shut Out Retail Investors, Says Coinbase CEO — Brian…",
-          "url": "https://stocktwits.com/news-articles/markets/equity/space-x-anthropic-ip-os-shut-out-retail-investors-says-coinbase-ceo-brian-armstrong-resumes-buying-back-coin-shares/cNbHdA0R9lS?.tsrc=rss"
-        },
-        {
-          "title": "Yahoo Finance: HOOD, COIN Get Wedbush Outperform Ratings: Here’s What The Firm Sees In…",
-          "url": "https://stocktwits.com/news-articles/markets/equity/robinhood-coinbase-circle-block-wedbush-price-targets-fintech-growth/cNbHcXzR9lX?.tsrc=rss"
-        },
-        {
-          "title": "Yahoo Finance: Coinbase wins dismissal of four-year investor lawsuit",
-          "url": "https://www.thestreet.com/crypto/markets/coinbase-wins-dismissal-of-four-year-investor-lawsuit?.tsrc=rss"
-        },
-        {
-          "title": "Yahoo Finance: COIN quote",
-          "url": "https://finance.yahoo.com/quote/COIN"
+          "title": "Yahoo Finance: AMZN quote",
+          "url": "https://finance.yahoo.com/quote/AMZN"
         }
       ]
     },
     {
-      "symbol": "NVDA",
-      "name": "NVIDIA Corporation",
-      "move": "Down 5.86% at the last close, at about $155.38; 36.2% below its 52-week high",
-      "why": "Recent coverage: “Will Nvidia Exec Kimberly Powell Leave? Crypto Bettors Weigh Exit Odds Amid Alleged Jensen Huang Affair” (Yahoo Finance); “Nvidia’s spying scandal is backfiring on China” (Yahoo Finance); “AI Concerns Resurface? ORCL, GOOGL, SPCX, CRWV Credit Default Swap Spreads Hit Records As NVDA, ANT Tumble” (Yahoo Finance).",
-      "meaning": "Over the past month it is down about 28.1%, and down about 28% over six months. Its 52-week range is $124.50 to $243.37.",
+      "symbol": "META",
+      "name": "Meta Platforms, Inc.",
+      "move": "Up 2.57% today, at about $604.96; 22.4% below its 52-week high",
+      "why": "Recent coverage: “CoreWeave banks prepare $4.5 billion Meta-tied loan sale next week, Bloomberg says” (Yahoo Finance); “Amazon and Meta Face Major Showdown Over the Future of AI Shopping” (Yahoo Finance); “Meta Platforms Stocks Fall 2.91% as Big Tech Selloff Spreads” (Yahoo Finance).",
+      "meaning": "Over the past month it is down about 2.5%, and down about 1% over six months. Its 52-week range is $520.26 to $779.82.",
       "outlook": {
         "lean": "unclear",
         "confidence": "low",
         "horizon": "next few days",
-        "bullCase": "Closing above today's high of about $159.92 would extend the move; the 52-week high near $243.37 is the bigger test.",
-        "bearCase": "Closing below today's low of about $150.50 would suggest more selling; about $216.00, where it was a month ago, is a reference.",
+        "bullCase": "Closing above today's high of about $608.42 would extend the move; the 52-week high near $779.82 is the bigger test.",
+        "bearCase": "Closing below today's low of about $567.75 would suggest more selling; about $620.19, where it was a month ago, is a reference.",
         "watch": "Company news and earnings dates, analyst rating changes, and the direction of the broader index."
       },
       "sources": [
         {
-          "title": "Yahoo Finance: Will Nvidia Exec Kimberly Powell Leave? Crypto Bettors Weigh Exit Odds Amid…",
-          "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63614804/nvidia-vp-kimberly-powell-jensen-huang-affair-polymarket-prediction-market?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss"
+          "title": "Yahoo Finance: CoreWeave banks prepare $4.5 billion Meta-tied loan sale next week,…",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/coreweave-banks-prepare-4-5-183018691.html?.tsrc=rss"
         },
         {
-          "title": "Yahoo Finance: Nvidia’s spying scandal is backfiring on China",
-          "url": "https://uk.finance.yahoo.com/news/nvidia-spying-scandal-backfiring-china-070000166.html?.tsrc=rss"
+          "title": "Yahoo Finance: Amazon and Meta Face Major Showdown Over the Future of AI Shopping",
+          "url": "https://finance.yahoo.com/technology/ai/articles/amazon-meta-face-major-showdown-155254367.html?.tsrc=rss"
         },
         {
-          "title": "Yahoo Finance: AI Concerns Resurface? ORCL, GOOGL, SPCX, CRWV Credit Default Swap Spreads…",
-          "url": "https://stocktwits.com/news-articles/markets/equity/ai-concerns-resurface-orcl-googl-spcx-crwv-credit-default-swap-spreads-hit-records-as-nvda-ant-tumble/cNbHEEAR9lZ?.tsrc=rss"
+          "title": "Yahoo Finance: Meta Platforms Stocks Fall 2.91% as Big Tech Selloff Spreads",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/meta-platforms-stocks-fall-2-153932487.html?.tsrc=rss"
         },
         {
-          "title": "Yahoo Finance: NVDA quote",
-          "url": "https://finance.yahoo.com/quote/NVDA"
+          "title": "Yahoo Finance: META quote",
+          "url": "https://finance.yahoo.com/quote/META"
         }
       ]
     }
   ],
   "newCoins": [
     {
-      "name": "Big Time",
-      "symbol": "BIGTIME",
-      "what": "Big Time (BIGTIME) is ranked #700 by market value (about $21,447,505) and is one of the most-searched coins on CoinGecko right now.",
-      "why": "It is trending on CoinGecko after moving +79.2% in 24 hours; we found no specific headlines in our feeds.",
+      "name": "Pepe Intelligence",
+      "symbol": "PEI",
+      "what": "Pepe Intelligence (PEI) is ranked #809 by market value (about $17,456,996) and is one of the most-searched coins on CoinGecko right now.",
+      "why": "It is trending on CoinGecko after moving −13.0% in 24 hours; we found no specific headlines in our feeds.",
       "risk": "very high",
-      "redFlags": "Small market value, so a few large trades can swing the price; a 79% move in a day shows extreme volatility; check who holds the supply and upcoming token unlocks before trusting the price.",
+      "redFlags": "Small market value, so a few large trades can swing the price; check who holds the supply and upcoming token unlocks before trusting the price.",
       "sources": [
         {
-          "title": "CoinGecko: Big Time",
-          "url": "https://www.coingecko.com/en/coins/big-time"
+          "title": "CoinGecko: Pepe Intelligence",
+          "url": "https://www.coingecko.com/en/coins/pepe-intelligence"
         }
       ]
     },
     {
-      "name": "Monad",
-      "symbol": "MON",
-      "what": "Monad (MON) is ranked #198 by market value (about $126,028,413) and is one of the most-searched coins on CoinGecko right now.",
-      "why": "Recent coverage: “Monad’s First Anniversary Brings a Record Low and 16 Billion New Tokens” (BeInCrypto); “New Crypto Picks: Lighter, Plasma and Pepeto as Monad Unlocks 16.6B Tokens” (TechBullion).",
-      "risk": "high",
-      "redFlags": "Smaller than the top 100, so liquidity is thinner; a 19% move in a day shows extreme volatility; check who holds the supply and upcoming token unlocks before trusting the price.",
+      "name": "Non-Playable Shiba",
+      "symbol": "NPS",
+      "what": "Non-Playable Shiba (NPS) is ranked #906 by market value (about $14,406,870) and is one of the most-searched coins on CoinGecko right now.",
+      "why": "Recent coverage: “Non-Playable Shiba (NPS) Price, MarketCap, Charts and Fundamentals Info” (BeInCrypto); “NPS Coin: what is Non-Playable Shiba? Crypto token analysis and Overview (Rank: #1148)” (Holder.io).",
+      "risk": "very high",
+      "redFlags": "Small market value, so a few large trades can swing the price; a 379% move in a day shows extreme volatility; check who holds the supply and upcoming token unlocks before trusting the price.",
       "sources": [
         {
-          "title": "BeInCrypto: Monad’s First Anniversary Brings a Record Low and 16 Billion New Tokens",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBSWm9qYmFNZHFORVVfYV9JcDRzTy1WTDlQMDBENDluNWdreTMyQ296bGFFSTdCNmVwRzBfTGZwT1VkX25ESTdVZzJjb01QZzA5U1lIYS04V2R5SlZ0ZjBPS0ZmdDNXeVV0dXhF?oc=5"
+          "title": "BeInCrypto: Non-Playable Shiba (NPS) Price, MarketCap, Charts and Fundamentals Info",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9nRWp6WWxRY0xZMkFGcVdjalpzZkd6b3NoTUVqYWV5SHpkRGtaRnpuSm5yQVpZNWxfZVNadTQ3VmdNaUNQLTlpNmZwN0hOdnNyR1dmemdDaVRZSlVX?oc=5"
         },
         {
-          "title": "TechBullion: New Crypto Picks: Lighter, Plasma and Pepeto as Monad Unlocks 16.6B Tokens",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVElPWmJGWmFEWGFHVVRTSkh2VlRtMnBuSm5vZGgyeXVfZTNrOU8yNlBIV2pMRUF1NnpmWEZ2UnBzYi1HTDlZN2tOVzhSNjVkRno0eGJtS0RMTEdUbnhOdTc4SmFVb1lXYW4wbFJ5cE1NWDc0cmhTYm5oek0zdTVnalAwcWo4dXR5RDBicm1aUmlXUnF1N0lXTGxTcmY5dw?oc=5"
+          "title": "Holder.io: NPS Coin: what is Non-Playable Shiba? Crypto token analysis and Overview…",
+          "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9hTnoxTW9jb3VHWTg5NjIycFl1SGFKV0p4YkFQb2tfWXNReXRNZ1NJYW9mdmJHTzYxclBLa1dBTkFYdw?oc=5"
         },
         {
-          "title": "CoinGecko: Monad",
-          "url": "https://www.coingecko.com/en/coins/monad"
+          "title": "CoinGecko: Non-Playable Shiba",
+          "url": "https://www.coingecko.com/en/coins/non-playable-shiba"
         }
       ]
     },
     {
-      "name": "Backpack",
-      "symbol": "BP",
-      "what": "Backpack (BP) is ranked #150 by market value (about $195,447,835) and is one of the most-searched coins on CoinGecko right now.",
-      "why": "Recent coverage: “Backpack RFQ for Stocks Puts Outside Market Makers in Direct Competition With Its Executing Broker” (https://genfinity.io/); “Backpack wins CFTC approval for US derivatives exchange and clearinghouse” (Crypto Briefing).",
+      "name": "Variational X",
+      "symbol": "VAR",
+      "what": "Variational X (VAR) is ranked #944 by market value (about $13,409,783) and is one of the most-searched coins on CoinGecko right now.",
+      "why": "It is trending on CoinGecko after moving −17.4% in 24 hours; we found no specific headlines in our feeds.",
+      "risk": "very high",
+      "redFlags": "Small market value, so a few large trades can swing the price; a 17% move in a day shows extreme volatility; check who holds the supply and upcoming token unlocks before trusting the price.",
+      "sources": [
+        {
+          "title": "CoinGecko: Variational X",
+          "url": "https://www.coingecko.com/en/coins/variational-x"
+        }
+      ]
+    },
+    {
+      "name": "Pudgy Penguins",
+      "symbol": "PENGU",
+      "what": "Pudgy Penguins (PENGU) is ranked #130 by market value (about $271,690,099) and is one of the most-searched coins on CoinGecko right now.",
+      "why": "Recent coverage: “Pudgy Penguins (PENGU) Drops 3.3% Amid Market Pressure” (CoinMarketCap); “Pudgy Penguins Price Analysis” (The Cryptonomist).",
       "risk": "high",
       "redFlags": "Smaller than the top 100, so liquidity is thinner; check who holds the supply and upcoming token unlocks before trusting the price.",
       "sources": [
         {
-          "title": "https://genfinity.io/: Backpack RFQ for Stocks Puts Outside Market Makers in Direct Competition…",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQMk1NWlZTTVVtcEdJNjlhYWlMNTlRN0g0Z0xwZEtGTWVkRExVeFVzZ2NiZF9ZcU44LWZIVHZCS0EzYWVxN1pTVkJmM2UyZUtoS2VfcmVrWWN1SGgtMHlLUXpuTlU1Q2t5el9sbnJDcVdpWDlSVDlNSzlheFpqVmNMU2d6by1zNEdmcGQ4MnZvMFBwYzR1bnc?oc=5"
+          "title": "CoinMarketCap: Pudgy Penguins (PENGU) Drops 3.3% Amid Market Pressure",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBvUmFtNW92SHdKX2FOVl9ScW1UR3VSVExPQWE2ZzZWbnhNcVA5ZEhjdmhJOWZqMWhzWXYwb1F3Rjl4R0IxVnQydk5QNlM1VjlsV0ZzT2VXdC1NX0RlNVVkcENpaC15U0VnT0g2YkRScnA?oc=5"
         },
         {
-          "title": "Crypto Briefing: Backpack wins CFTC approval for US derivatives exchange and clearinghouse",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5ZSExNMlctVFRzZmdxNVRzTFItV0FhMFBqbnFtYWh4ODR3UWJoT0pLUy0yeFhCU2hiQzZNQlUxZzZIa1gyZFJrQlduLUhGcnAwcl9PakJmWGtSa19vQkJyUFptZ1BXMjFnNXNnOHRuQ0pMVzUzWEI4ODdlMzk0Ukk?oc=5"
+          "title": "The Cryptonomist: Pudgy Penguins Price Analysis",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQaE4wMFp1WnJJR2N4cjVxb0MtVmMxVy1KbENsaTEwM3g2SDcwQ1JYYjhmdUVCNmhYTDl4bGR1SUpnZVg3UGgtcEZ2M1RPQ0JPSlA0ZUEzVkVtWS1BeHN4YkY2eFRTY2hIbGhDVmY1cDhiQ2l5YTdsQXZNbi12dmZlQ3hZNmtmbF9fU2k0TEstQXFfNm1LOE9TOTNRYzJpamZuQXpV?oc=5"
         },
         {
-          "title": "CoinGecko: Backpack",
-          "url": "https://www.coingecko.com/en/coins/backpack"
-        }
-      ]
-    },
-    {
-      "name": "MANTRA",
-      "symbol": "MANTRA",
-      "what": "MANTRA (MANTRA) is ranked #866 by market value (about $15,378,780) and is one of the most-searched coins on CoinGecko right now.",
-      "why": "It is trending on CoinGecko after moving +26.6% in 24 hours; we found no specific headlines in our feeds.",
-      "risk": "very high",
-      "redFlags": "Small market value, so a few large trades can swing the price; a 27% move in a day shows extreme volatility; check who holds the supply and upcoming token unlocks before trusting the price.",
-      "sources": [
-        {
-          "title": "CoinGecko: MANTRA",
-          "url": "https://www.coingecko.com/en/coins/mantra"
+          "title": "CoinGecko: Pudgy Penguins",
+          "url": "https://www.coingecko.com/en/coins/pudgy-penguins"
         }
       ]
     }
